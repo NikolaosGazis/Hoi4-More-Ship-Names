@@ -1,0 +1,294 @@
+﻿##### Danish Ship Names #####
+
+# HDMS = His Danish Majesty's Ship.
+
+### Aircraft Carrier Names ###
+DEN_CV_HISTORICAL = { # Aviation Figures - Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HDMS "
+	fallback_name = "Hangarskib %d"	
+
+	unique = {
+		### Aviation Figures ###
+		"Jacob Ellehammer" "Knud Rasmussen" "Jakob Madsen"
+
+		### Flying Creatures ###
+		"Fugl" "Sommerfugl" "Flagermus" "Ørn" "Høg" "Måge" "Due" "Kolibri" "Spurv" "Falk" "Ugle" "Svane" "Peikan" "Albatros" 
+		"Bi" "Guldsmed" "Hveps" "Papegøje" "Humlebi" "Grib" "Gedehams" "Elster" "Mål" "Kondor" "Spætte" "Flue" "Biæder" 
+		"Vandrefalk" "Lynghummer" "Svalle" "Isfugl" "Havfalk"
+	}
+}
+
+### Battleship Names ###
+DEN_BB_HISTORICAL = { # Figures - Symbols - Older Models.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HDMS "
+	fallback_name = "Slagskib %d"		
+
+	unique = {
+		### Older Models (Ironclads) ###
+		"Dannebrog" "Rolf Krake" "Peder Skram" "Helgoland" "Gorm" "Tordenskiold"
+
+		### Additionals ###
+		"Danske Løve" "Ulrik Gyldenløve" "Vitus Bering" "Carsten Niebuhr" "King Christian IV" "King Frederick VI" "Søren Kierkegaard" 
+		"Hans Christian Andersen" "Tycho Brahe" "Peter Willemoes" "Bertel Thorvaldsen" "Peter Freuchen" "King Christian V" "Grundtvig" 
+		"Karen Blixen" "Hans C. Ørsted" "Johann F. Struensee" "Carl Nielsen" "Anders H. Povlsen" 
+	}
+}
+
+### Battlecruiser Names ###
+DEN_BC_HISTORICAL = { # Admirals.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HDMS "
+	fallback_name = "Slagkrydseren %d"		
+
+	unique = {
+		"Ivar Huitfeldt" "Olfert Fischer" "Peter Willemoes" "Steen Bille" "Peder Marsvin" "Peder Skram" "Niels Juel" "Niels L. Westergaard" 
+		"Otto J. Lütken" "Edmund W. Brasen" "Knud Bjørn Rasmussen" "Niels Iuel" "Frederik C. Kaas" "Christian Bille" "Christian Frimann" 
+		"Rasmus Green" "Hohan Krieger" "Niels Bredal" "Heinrich Egeberg" "Laurids Knutzen"
+	}
+}
+
+### Heavy Cruiser Names ###
+DEN_CA_HISTORICAL = { # Generals.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HDMS "
+	fallback_name = "Tung Cruiseren %d"
+
+	unique = {
+		"Mads Lange" "Christian Ditlev Reventlow" "Henrik Ræder" "Frederik Christian von Scholten" "Knud Valdemar Gyldenstierne" 
+		"Frederik Christian Kaas" "Ernst Peymann" "Oluf Høst" "Anders Lassen" "Peter Tordenskjold" "Poul Vendelbo Løvenørn" "Conrad Ahlefeldt" 
+		"Friedrich Finck" "Andreas Hauch" "Caspar Moltke" "Ernst Peymann" "Joachim Castenschiold" "Otto Blome" "Frederik Dreyer"
+	}
+}
+
+### Light Cruiser Names ###
+DEN_CL_HISTORICAL = { # Mythical Places.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HDMS "
+	fallback_name = "Lys Cruiseren %d"
+
+	unique = {
+		"Asgård" "Bryggen" "Dværgelandet" "Havbjerget" "Lidenlund" "Nordlandet" "Risvangen" "Skrømtelandet" "Solstråleøen" "Sørøverbugten" "Troldebjerg" 
+		"Vætteskoven" "Kæmpeskoven" "Nattehimlen" "Dragebjerg" "Himmelbroen" "Elverhøj" "Troldlandet" "Nattens Bro"
+	}
+}
+
+### Destroyer Names ###
+DEN_DD_HISTORICAL = { # Marine Creatures - Nautical Concepts.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HDMS "
+	fallback_name = "Destroyer %d"					
+
+	unique = {											
+		"Nymfen" "Najaden" "Søridderen" "Flyvefisken" "Søulven" "Hvalrossen" "Delfinen" "Sværdfisken" "Springeren" "Støren" 
+		"Søløven" "Søhunden" "Havhesten" "Narhvalen" "Makrelen" "Nordkaperen" "Havkatten" "Sælen" "Dragen" "Hvalen" "Laxen" 
+		"Søhesten" "Sirenen" "Mågefuglen" "Havgudinden" "Bølgebruderen" "Koralreven" "Stjerneskibet" "Sydhavet" "Kaskelotten"
+	}
+}
+
+### Submarine Names ###
+DEN_SS_HISTORICAL = { # Greek/Roman Mythology - Marine Creatures - Nautical Concepts.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HDMS "
+	fallback_name = "Ubåd %d"
+	
+	unique = {
+		"Rota" "Bellona" "Flora" "Daphne" "Dryaden" "Havmanden" "Havfruen" "Havkalen" "Havhesten" "Springeren" "Støren" "Delfinen"
+		"Spækhuggeren" "Tumleren" "Springeren" "Dykkeren" "Thetis" "2den April" "Najaden" "Nymfen" "Ran" "Triton" "Neptun" "Galathea" 
+		"Medusa" "Poseidon" "Spækhugger" "Søhest" "Kvalle" "Havskildpadde" "Hammerhaj" "Blæksprutte" "Søstjerne" "Hovedmast" "Styrbord"
+	}
+}
+
+##### Themes #####
+
+### Theme: Regions ###
+DEN_THEME_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
+
+	prefix = "HDMS "
+	fallback_name = "Skib-F %d"
+
+	unique = {
+		"Hovedstaden" "Midtjylland" "Nordjylland" "Sjælland" "Syddanmark"
+	}
+}
+
+### Theme: Cities ###
+DEN_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HDMS "
+	fallback_name = "Skib-A %d"
+
+	unique = {
+		"Aarhus" "Odense" "Aalborg" "Esbjerg" "Randers" "Kolding" "Horsens" "Vejle" "Roskilde" "Herning" "Hørsholm" "Helsingør" 
+		"Silkeborg" "Næstved" "Fredericia" "Viborg" "Køge" "Holstebro" "Taastrup" "Slagelse" "Hillerød" "Holbæk" "Sønderborg" 
+		"Svendborg" "Hjørring" "Frederikshavn" "Nørresundby" "Ringsted" "Haderslev" "Ølstykke-Stenløse" "Skive" "Birkerød" "Farum" 
+		"Smørumnedre" "Skanderborg" "Nyborg" "Lillerød" "Kalundborg" "Frederikssund" "Aabenraa" "Solrød Strand" "Ikast" "Middelfart" 
+		"Grenaa" "Korsør" "Varde" "Rønne" "Thisted" "Værløse"
+	}
+}
+
+### Theme: Mountains ###
+DEN_THEME_MOUNTAINS = { # Suprise suprise - Denmark is a flat country :/.
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HDMS "
+	fallback_name = "Skib-B %d"
+
+	unique = {
+		"Møllehøj" "Yding Skovhøj" "Ejer Bavnehøj" "Lindbjerg" "Margretelyst" "Vistofte" "Rytterknægten" "Himmelbjerget" 
+		"Aborrebjerg"
+	}
+}
+
+### Theme: Rivers ###
+DEN_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HDMS "
+	fallback_name = "Skib-C %d"
+
+	unique = {
+		"Gudenå" "Bredvad" "Mossø" "Gudensø" "Ry Mølle" "Lillesø" "Birksø" "Julsø" "Borre" "Brassø" "Langsø" "Sminge" "Tange" 
+		"Skjern" "Rørbæk" "Nedersø" "Kulsø" "Hastrup" "Storå" "Holstebro" "Karup" "Varde" "Suså" "Bavelse" "Odense" "Vidå" "Ribe" 
+		"Halleby" "Rye" "Kongeå" "Uggerby" "Brede" "Skals" "Simested" "Lindenborg"
+	}  
+}
+
+### Theme: Islands ###
+DEN_THEME_ISLANDS = {
+	name = NAME_THEME_ISLANDS
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HDMS "
+	fallback_name = "Skib-D %d"
+
+	unique = {
+		"Zealand" "Vendsyssel" "Funen" "Lolland" "Bornholm" "Falster" "Mors" "Als" "Langeland" "Møn" "Rømø" "Samsø" "Læsø" "Amager" "Ærø" 
+		"Tåsinge" "Fanø" "Fur" "Anholt" "Fejø" "Saltholm" "Orø" "Endelave" "Bogø" "Sejerø" "Femø" "Jegindø" "Mandø" "Thurø" "Alrø"
+	} 
+}
+
+### Theme: Culture ###
+DEN_THEME_CULTURE = {
+	name = NAME_THEME_CULTURE
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HDMS "
+	fallback_name = "Skib-E %d"
+
+	unique = { 
+		"Skjoldvagt" "Havbris" "Freyasol" "Ravnsværd" "Astrum" "Himmelblå" "Tordenskær" "Ørnsving" "Silhuet" "Lyngbrand" "Isbjørn" "Måneskær" 
+		"Solglimt" "Sjælø" "Stormhavn" "Blomstrende" "Vinterlys" "Rovsø" "Hyrdehund" "Havgud" "Fællesskab"
+	}
+}
+
+### Theme: Famous Battles ###
+DEN_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "HDMS "
+	fallback_name = "Skib-F %d"
+
+	unique = {
+		"Lyndanisse" "Bornhöved" "Fredericia" "Heligoland" "Als" "Sankelmark" "Bov" "Lundby" "Dybbøl" "Re" "Köge Bay" "Fehmarn"
+		"Frederikshavn" "Sound" "Lund" "Helsingborg" "Matz" "Kolberger Heide" "Rügen"
+	}
+}
+
+### Theme: Mythology ###
+DEN_THEME_MYTHOLOGY = {
+	name = NAME_THEME_NORDIC_MYTHOLOGY
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
+
+	prefix = "HDMS "
+	fallback_name = "Skib-G %d"
+
+	unique = {
+		"Odin" "Thor" "Frigg" "Loki" "Tyr" "Freya" "Freyr" "Heimadall" "Skadi" "Njord" "Aegir" "Idun" "Bragi" "Fenrir" "Jormungandr" 
+		"Vidar" "Valkyrie" "Hel" "Fafnir" "Sif" "Eir" "Forseti" "Sigyn" "Hodr" "Ran" "Lofn" "Norns" "Mimir" "Bifrost" "Yggdrasil" 
+		"Nott" "Surt" "Gullveig" "Ullr" "Munin" "Hugin" "Hoddmimir" "Sleipnir" "Hoenir" "Hati" "Hyrrokkin" "Modi" "Magni" "Vili"
+		"Lindormen"
+	}
+}

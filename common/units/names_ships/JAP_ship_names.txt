@@ -1,0 +1,542 @@
+﻿##### Japanese Ship Names #####
+
+# IJN = Imperial Japanese Navy.
+
+### Aircraft Carrier Names ###
+JAP_CV_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "Seikikubo %d-go"	
+
+	unique = {
+		### Akagi Class (1st Carrier Division) ###
+		"Akagi" "Kaga" 
+
+		### Soryu Class (2nd Carrier Division) ###
+		"Soryu" "Hiryu"
+
+		### Shoukaku Class (5th Carrier Division) ###
+		"Shokaku" "Zuikaku"
+
+		### Unryū Class ###
+		"Unryū" "Katsuragi" "Amagi"
+
+		### Taihō Class ###
+		"Taihō"
+
+		### Additionals - Cranes (Because Shokaku Class) ###
+		"Tsurukaku" "Kumakaku" "Mizukaku" "Hoshikaku" "Nagarekaku" "Yukikaku" "Kizukaku" "Aikaku" "Kazekaku" "Takakaku" 
+		"Kokorokaku" "Hikarikaku" "Makurakaku" "Amakaku" "Yumekaku" "Kireikaku" "Asakaku" "Tachikaku" "Namidakaku" "Kibokaku"
+
+		### Additionals - Dragons ###
+		"Hakuryū" "Kokoryu" "Sekiryu" "Midorinoryu" "Koryu" "Shiryu" "Funryu" "Gekikōryū" "Shinpiryū" "Emerarudoryū"
+		"Safaiairyū" "Kaminariryū" "Kageryū" "Koganeryū" "Rekkaryū" "Tenkūryū" "Kōryū" "Ginryū" "Onikisuryū" "Murasakiryū"
+		"Kōkiryū" "Kumonryu"
+
+		### Additionals - Mixed ###
+		"Aso" "Owari" "Ikoma" "Kamoi" "Kunai" "Kasagi" "Suribachi" "Ishikawa" "Bizan" "Kabutoyama" "Mizagasawa"
+		"Kinka" "Showashinzan" "Katsuma" "Mikami" "Nakayama" "Yonaha" "Manazuru" "Ohtori" "Toryu" "Hayabusa" "Ryujin"
+		"Kurenai" "Tsukiyomi" "Kamigoroshi" "Takemikazuchi" "Yuki-Onna" "Ryusei" "Kaminari" "Haruka" "Aozora" "Raiden"
+	} 
+}
+
+### Light Aircraft Carrier Names ###
+JAP_CVL_HISTORICAL = { # Older Models - Seaplane Tenders.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	 
+	fallback_name = "Keikubo %d-go"	
+
+	unique = {
+		### Hosho Class ###
+		"Hosho"
+		
+		### Ryujo Class ###
+		"Ryujo"
+		
+		### Hiyo Class ###
+		"Hiyo" "Jun'yo"
+		
+		### Zuiho Class ###
+		"Zuiho" "Shoho" 
+		
+		### Chitose Class ###
+		"Chitose" "Chiyoda" 
+		
+		### Ryuho Class - Standalone ###
+		"Ryuho"
+
+		##### Escort Aircraft Carriers #####
+		
+		### Taiyo Class ###
+		"Taiyo" "Chuyo" "Unyo"
+
+		### Kaiyo Class - Standalone ###
+		"Kaiyo"
+
+		### Shinyo Class - Standalone ###
+		"Shinyo"
+
+		### Akitsu Class ###
+		"Akitsu Maru" "Nigitsu Maru"
+		
+		### Shimane Maru Class ###
+		"Shimane Maru" 
+		
+		### Yamashio Maru Class ###
+		"Yamashio Maru" 
+		
+		### Kumano Maru Class ###
+		"Kumano Maru"
+		
+		### Additionals - Seaplane Tenders ###
+		"Chigusa Maru" "Otakisan Maru" "Nisshin" "Kamikawa Maru" "Kiyokawa Maru" "Kimikawa Maru" "Kunikawa Maru" "Akitsushima" 
+		"Kamoi" "Notoro" "Mizuho" "Hirokawa Maru" "Shiretoko" "Shimizu" "Kawabe" "Nanami" "Aoiro" "Hisui"
+	}
+}
+
+### Battleship Names ###
+JAP_BB_HISTORICAL = { # Provinces - Tradition/Symbolism.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "Senkan %d-go"		
+
+	unique = {
+		"Hiei"
+
+		### Yamato Class (+Proposed Names) ###
+		"Yamato" "Musashi" "Shinano" "Satsuma" "Inazuma"
+		
+		### Older Models ###
+		"Izumo" "Fuji" "Yashima" "Shikishima" "Hatsuse" "Asahi" "Mikasa" "Tango" "Sagami" "Suwo" "Hizen" "Iwami" "Katori" "Kashima" "Aki" 
+		"Kawachi" "Settsu" "Fuso" "Yamashiro" "Ise" "Hyuga" "Nagato" "Mutsu" "Tosa" "Kii" "Owari" "Suruga" "Sagami" "Suwo" "Iki" 
+		
+		### Additionals ###
+		"Dewa" "Hitachi" "Noto" "Hida" "Mino" "Mikawa" "Kai" "Izumi" "Iga" "Tanba" "Sanuki" "Awa" "Osumi" "Tajima" "Iyo" "Omi" "Yoshino" 
+		"Shima" "Totomi" "Kazusa" "Shimosa" "Hitachi" "Suwa" "Kozuke" "Shimotsuke" "Uzen" "Ugo" "Rikuzen" "Harima" "Sado" "Mimaksasa" 
+		"Awaji" "Iyo" "Buzen" "Tsushima" "Oshima" "Shiribeshi" "Iburi" "Ishikari" "Teshio" "Kitami" "Hidaka" "Tokachi" "Kushiro" "Nemuro" 
+		"Chisima" "Tokugawa" "Yoshitsune" "Masashige" "Yoshinaka" "Kiyomori" "Atsuta"
+	} 
+}
+
+### Battlecruiser Names ###
+JAP_BC_HISTORICAL = { # Mountains - (First Class) Cruisers. 
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	 
+	fallback_name = "Jun'yosenkan %d-go"		
+
+	unique = {
+		### Older Models ###
+		"Amagi" "Tsukuba" "Ikoma" "Kurama" "Kongo" "Hiei" "Haruna" "Kirishima"
+		
+		### Additions ###
+		"Fuji" "Kita" "Okuhotaka" "Aino" "Yari" "Warusawa" "Akaishi" "Karasawa" "Kitahotaka" "Obami""Maehotaka" "Naka" 
+		"Arakawa" "Ontake" "Nishinotori" "Shiomi" "Minami" "Senjo" "Norikura" "Tate" "Hijiri" "Tsurugi" "Suisho" "Kaikoma" 
+		"Kisokoma" "Shirouma" "Otensho" "Yakushi" "Washiba"
+	}
+}
+
+### Heavy Cruiser Names ###
+JAP_CA_HISTORICAL = { # Mountains - (Second Class) Cruisers.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	 
+	fallback_name = "Jujun'yokan %d-go"
+
+	unique = {
+		### Current Models ###
+		"Tone" "Chikuma" "Aso" "Tsugaru" "Soya" 
+		
+		### Older Models ###
+		"Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" 
+		
+		### Cancelled/Not Completed ###
+		"Ibuki" "Haogi" "Mogami" "Mikuma" "Suzuya" "Kumano"
+		
+		### Additions ###
+		"Zao" "Azuma" "Aka" "Kasa" "Kashimayari" "Utsugi" "Jonen" "Sannosawa" "Minamikoma" "Kannon" "Kurobegoro" "Yoko" 
+		"Goryu" "Akanagi" "Jizo" "Tsubakuro" "Io" "Haku" "Nokogiri" "Bessan" "Tengu" "Neishi" "Kinpu" "Yumiori" "Tekari" 
+		"Shirane" "Asame" "Tateshina" "Nantai" "Sanpo" "Yoko" "Hiuchi" "Yake"
+	}
+}
+
+### Light Cruiser Names ###
+JAP_CL_HISTORICAL = { # Rivers.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	 
+	fallback_name = "Keijun'yokan %d-go"
+
+	unique = {
+		### Current Models ###
+		"Suzuya" "Kumano" "Katori" "Kashima" "Kashii" "Kashiwara" "Agano" "Noshiro" "Yahagi" "Sakawa" "Oyodo"
+
+		### World of Warships ###
+		"Gokase" "Omono" "Shimanto" "Takahashi" "Yodo" "Tokachi"
+		
+		### Captured/Converted/Older Models ###
+		"Ioshima" "Yasoshima" "Hirado" "Yahagi"  "Tenryu" "Tatsuta" "Kuma" "Tama" "Kitakami" "Oi" "Kiso" "Nagara" "Isuzu"
+		"Natori" "Yura" "Kinu" "Abukuma""Yubari" "Sendai" "Jintsu" "Naka" "Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi"
+		"Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" "Tone" "Chikuma" "Aso" "Tsugaru" "Soya" "Ibuki" "Haogi" "Mogami" 
+		"Mikuma"
+		
+		### Additionals ###
+		"Iwaki" "Mabechi" "Takase" "Naruse" "Yoneshiro" "Koyoshi" "Kuji" "Tsurumi" "Oyabe" "Tedori" "Kano" "Shonai" "Suzuka" 
+		"Kumozu" "Kushida" "Maruyama" "Hino" "Takatsu" "Yoshii" "Ashida" "Yoshino" "Onga" "Yabe" "Matsuura" "Yamakuni" "Chikugo" 
+		"Rokkaku" "Kikuchi" "Kase" "Honmyo" "Oita" "Ono" "Ota" "Banjo" "Omaru" "Kimotsuki" "Abashiri" "Ishikari" "Toyohira" 
+		"Makomanai" "Anano" "Kushiro" "Mu" "Rumoi" "Saru" "Shiribeshi" "Shokotsu" "Teshio" "Tokoro" "Yubetsu"
+	}
+}
+
+### Destroyer Names ###
+JAP_DD_HISTORICAL = { # Wheather Phenomenoms.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+	 
+	fallback_name = "Kuchikukan %d-go"			
+
+	unique = {											
+		### Shiratsuyu Class ###
+		"Shiratsuyu" "Shigure" "Murasame" "Yudachi" "Kawakaze" "Umikaze" "Samidare" "Yamakaze" "Harusame" "Suzukaze" "Asashio" "Arashio" 
+		"Oshio" "Michishio" "Yamagumo" "Natsugumo" "Minegumo" "Asagumo" "Arare" "Kasumi" "Kagero" "Shiranui" "Kuroshio" "Yukikaze" "Oyashio" 
+		"Hayashio" "Natsushio" "Hatsukaze" "Amatsukaze" "Isokaze" "Tokitsukaze" "Urakaze" "Arashi" "Hagikaze" "Nowaki" "Tanikaze" "Hamakaze" 
+		"Maikaze" "Akigumo" "Yugumo" "Makigumo" "Kazagumo" "Naganami" "Makinami" "Takanami" "Onami" "Kiyonami" "Tamanami" "Suzunami" "Fujinami" 
+		"Hayanami" "Hamanami" "Asashimo" "Okinami" "Kishinami"  "Hayashimo" "Akishimo" "Kiyoshimo" 
+		
+		### Akizuki Class ###
+		"Akizuki" "Teruzuki" "Suzutsuki" "Hatsuzuki" "Niizuki" "Wakatsuki" "Shimotsuki" "Fuyutsuki" "Harutsuki" "Hanazuki" "Yoizuki" "Natsuzuki" 
+		"Shimakaze" "Michitsuki" 
+		
+		### Cancelled/Not Completed ###
+		"Umigiri" "Yamagiri" "Tanigiri" "Kawagiri" "Taekaze" "Kiyokaze" "Satokaze" "Murakaze" "Yamasame" "Akisame" "Natsusame" "Hayasame" "Takashio" 
+		"Akishio" "Harushio" "Wakashio" "Michitsuki" "Kiyotsuki" "Otsuki" "Hazuki" "Yamazuki" "Urazuki" "Aogumo" "Benigumo" "Harugumo" "Amagumo" 
+		"Yaegumo" "Fuyugumo" "Yukigumo" "Okitsukaze" "Shimokaze" "Asagochi" "Okaze" "Kochi" "Nishikaze" "Hae" "Kitakaze" "Hayakaze" "Natsukaze" 
+		"Fuyukaze" "Hatsunatsu" "Hatsuaki" "Hayaharu" "Hayaume" "Katsura" "Tobiume" "Fuji" "Wakazakura" "Yamazakura" "Ashi" "Shinodake" "Yomogi" 
+		"Aoi" "Shiraume" "Kiku" "Kashiwa" "Kigiku" "Hatsugiku" "Akane" "Shiragiku" "Chigusa" "Natsugusa" "Akikusa" "Nogiku" "Susuki" 
+
+		### Older Models ###
+		"Momo" "Kashi" "Hinoki" "Yanagi" "Enoki" "Nara" "Momi" "Kaya" "Nashi" "Take" "Kaki" "Tsuga" "Nire" "Kuri" "Hagi" "Hasu" "Kuretake" "Sanae" 
+		"Sarawabi" "Asagao" "Yugao" "Fuyo" "Karukaya" "Minekaze" "Sawakaze" "Okikaze" "Shimakaze" "Nadakaze" "Yakaze" "Hakaze" "Shiokaze" "Akikaze" 
+		"Yukaze" "Tachikaze" "Hokaze" "Nokaze" "Namikaze" "Numakaze" "Kamikaze" "Asakaze" "Harukaze" "Matsukaze" "Hatakaze" "Oite" "Hayate" "Asanagi" 
+		"Yunagi" "Mutsuki" "Kisaragi" "Yayoi" "Uzuki" "Satsuki" "Minazuki" "Fumizuki" "Nagatsuki" "Kikuzuki" "Mikazuki" "Mochizuki" "Yuzuki" "Fubuki" 
+		"Shirayuki" "Hatsuyuki" "Miyuki" "Murakumo" "Shinonome" "Usugumo" "Shirakumo" "Isonami" "Uranami" "Ayanami" "Shikinami" "Asagiri" "Yugiri" 
+		"Amagiri" "Sagiri" "Oboro" "Akebono" "Sazanami" "Ushio" "Akatsuki" "Hibiki" "Ikazuchi" "Inazuma" "Hatsuharu" "Nenohi" "Wakaba" "Hatsushimo" 
+		"Ariake" "Yugure" "Warabi" "Tade" "Sumire" "Tsuta" "Ashi" "Wakatake" 
+	}
+}
+
+### Escort Destroyer Names ###
+JAP_DE_HISTORICAL = { # Islands.
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+	 
+	fallback_name = "Kuchikukan No Goei %d-go"
+
+	unique = {
+		### Shimushu Class ###
+		"Shimushu" "Hachijo" "Kunashiri" "Ishigaki" "Etorofu" "Oki" "Sado" "Matsuwa" "Fukue" "Tsushima" "Mutsure" "Wakamiya" "Kanju" "Hirado" 
+		"Amakusa" "Manju" "Kasado" "Iki" "Matsu" "Take" "Ume" "Momo" "Kuwa" "Kiri" "Sugi" "Maki" "Momi" "Kashi" "Kaya" "Nara" "Sakura" "Yanagi" 
+		"Tsubaki" "Kaki" "Kaba" "Hinoki" "Kaede" "Keyaki" "Tachibana" "Nire" "Tsuta" "Hagi" "Kaki" "Nashi" "Shii" "Sumire" "Enoki" "Kusunoki" 
+		"Odake" "Hatsuzakura" "Kaba" "Hatsuume" "Mikura" "Miyake" "Awaji" "Kurahashi" "Nomi" "Chiburi" "Yashiro" "Kusagaki" "Ukuru" "Hiburi" 
+		"Shonan" "Daito" "Okinawa" "Kume" "Ikuna" "Shinnan" "Yaku" "Aguni" "Mokuto" "Inagi" "Uku" "Chikubu" "Shisaka" "Habushi" "Sakito" "Kuga" 
+		"Oga" "Kozu"  "Kanawa" "Shiga" "Amami" "Hodaka" "Habuto" "Iwo" "Takane" "Ikara" "Ikino" "Urumi" "Murotsu" 
+		
+		### Cancelled/Not Completed ###
+		"Yaezakura" "Yadake" "Tochi" "Katsura" "Wakazakura" "Azusa" "Sakaki" "Kuzu" "Hishi" "Otsu" "Tomoshiri" "Umigiri" "Yamagiri" "Tanigiri" 
+		"Kawagiri" "Taekaze" "Kiyokaze" "Satokaze" "Murakaze" "Yamasame" "Akisame" "Natsusame" "Hayasame" "Takashio" "Akishio" "Harushio" 
+		"Wakashio" "Kiyotsuki" "Otsuki" "Hazuki" "Yamazuki" "Urazuki" "Aogumo" "Benigumo" "Harugumo" "Amagumo" "Yaegumo" "Fuyugumo" "Yukigumo" 
+		"Okitsukaze" "Shimokaze" "Asagochi" "Okaze" "Kochi" "Nishikaze" "Hae" "Kitakaze" "Hayakaze" "Natsukaze" "Fuyukaze" "Hatsunatsu" "Hatsuaki" 
+		"Hayaharu" "Hayaume" "Tobiume"  "Fuji" "Yamazakura" "Ashi" "Shinodake" "Yomogi" "Aoi" "Shiraume" "Kiku" "Kashiwa" "Kigiku" "Hatsugiku" 
+		"Akane" "Shiragiku" "Chigusa" "Wakakusa" "Natsugusa" "Akikusa" "Nogiku" "Susuki" 
+	}
+}
+
+### Minelayer Names ###
+JAP_MINELAYERS_HISTORICAL = { # Geography.
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	 
+	fallback_name = "Fusetsukan %d-go"
+
+	unique = {
+		### Cruiser and Destroyer Minelayers ###
+		"Okinoshima" "Hatsutaka" "Aotaka" "Wakataka" "Tsugaru" "Eijo" "Mino" "Katsuriki" "Shirataka" "Itsukushima" "Yaeyama"
+
+		### Older and Smaller Minelayer Names ###
+		"Natsushima" "Sokuten" "Toshima" "Kuroshima" "Ashizaki" "Katoku" "Kurokami" "Katashima" "Ento" "Enoshima" "Kurosaki" "Ninoshima" 
+		"Washizaki" "Kamome" "Tsubame" "Nasami" "Sarushima" "Shirakami" "Naryu" "Kyosai" "Ukishima" "Hirashima" "Hoko" "Ishizaki" "Takashima" 
+		"Saishu" "Niizaki" "Yurijima" "Nuwashima" "Maeshima" "Ajiro" "Kamishima" "Awashima" 
+	}
+}
+
+### Submarine Names ###
+JAP_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	 
+	fallback_name = "I-%d"
+	
+	ordered = {
+		1 = {"I-%d"}
+		2 = {"I-%d"}
+		3 = {"I-%d"}
+		4 = {"I-%d"}
+		5 = {"I-%d"}
+		6 = {"I-%d"}
+		7 = {"I-%d"}
+		8 = {"I-%d"}
+		9 = {"I-%d"}
+	}
+}
+
+##### Themes #####
+
+### Theme: Prefectures ###
+JAP_PREFECTURES = {
+	name = NAME_THEME_PREFECTURES
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	fallback_name = "Fune-A %d-go"
+
+	unique = {
+		"Yamashiro" "Kawachi" "Izumi" "Settsu" "Iga" "Ise" "Shima" "Owari" "Mikawa" "Totomi" "Suruga" "Izu" "Kai" "Sagami" "Musashi" "Awa" "Kazusa" 
+		"Shimosa" "Hitachi" "Omi" "Mino" "Hida" "Shinano" "Kozuke" "Shimotsuke" "Dewa" "Mutsu" "Wakasa" "Echizen" "Kaga" "Noto" "Etchu" "Echigo" 
+		"Sado" "Tanba" "Tango" "Tajima" "Inaba" "Hoki" "Izumo" "Iwami" "Oki" "Harima" "Mimasaka" "Bizen" "Bitchu" "Bingo" "Aki" "Suo" "Nagato" 
+		"Kii" "Awaji" "Awa" "Sanuki" "Iyo" "Tosa" "Buzen" "Chikuzen" "Chikugo" "Hizen" "Higo" "Hyuga" "Osumi" "Satsuma" "Iki" "Tsushima" "Oshima" 
+		"Shiribeshi" "Iburi" "Ishikari" "Teshio" "Kitami" "Hidaka" "Tokachi" "Kushiro" "Nemuro" "Chishima" "Hokkaido" "Aichi" "Ehime" "Gunma" 
+		"Hyogo" "Ishikawa" "Iwate" "Kagawa" "Kanagawa" "Mie" "Miyagi" "Okinawa" "Shiga" "Shimane" "Tochigi" "Yamanashi"
+	}
+}
+
+### Theme: Cities ###
+JAP_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Fune-B %d-go"
+
+	unique = {
+		"Tokyo" "Yokohama" "Osaka" "Nagoya" "Sapporo" "Kobe" "Kyoto" "Fukuoka" "Kawasaki" "Saitama" "Hiroshima" "Sendai" "Kitakyushu" "Chiba" "Setagaya" 
+		"Sakai" "Niigata" "Hamamatsu" "Shizuoka" "Sagamihara" "Nerima" "Okayama" "Oita" "Kumamoto" "Edogawa" "Adachi" "Kagoshima" "Funabashi" "Hachioji" 
+		"Kawaguchi" "Himeji" "Suginami" "Itabashi" "Matsuyama" "Higashiosaka" "Utsunomiya" "Matsudo" "Nishinomiya" "Kurashiki" "Ichikawa" "Fukuyama" 
+		"Amagasaki" "Kanazawa" "Nagasaki" "Koto" "Katsushika" "Yokusaka" "Toyama" "Toyota" "Takamatsu" "Machida" "Gifu" "Hirakata" "Fujisawa" "Kashiwa" 
+		"Toyonaka" "Nagano" "Toyohashi" "Ichinomiya" "Wakayama" "Okazaki" "Miyazaki" "Nara" "Suita" "Takatsuki" "Shinagawa" "Asahikawa" "Iwaki" "Kochi" 
+		"Takasaki" "Koriyama" "Tokorozawa" "Kawagoe" "Kita" "Akita" "Otsu" "Koshigaya" "Maebashi" "Naha" "Nakano" "Shinjuku" "Yokaichi" "Aomori" "Kurume" 
+		"Kasugai" "Morioka" "Akashi" "Fukushima" "Tsu" "Shimonoseki" "Nagaoka" "Ichihara" "Hakodate" "Yao" "Ibaraki" "Fukui" "Meguro" "Kakogawa" "Tokushima" 
+		"Mito" "Hiratsuka" "Toshima" "Yamagata" "Sasebo" "Fuchu" "Kure" "Hachinohe" "Saga" "Neyagawa" "Soka" "Sumida" "Fuji" "Kasukabe" "Chigasaki" "Matsumoto"   
+		"Atsugi" "Yamato" "Ageo" "Takarazuka" "Chofu" "Ota" "Tsukuba" "Numazu" "Joetsu" "Shibuya" "Minato" "Kumagaya" "Isesaki" "Kishiwada" "Tottori" "Kofu" 
+		"Odawara" "Suzuka" "Matsue" "Hitachi" "Bunkyo" "Arakawa" "Itami" "Nishitokyo" "Yamaguchi" "Uji"		
+	}
+}
+
+### Theme: Weather ###
+JAP_THEME_WEATHER = {
+	name = NAME_THEME_WEATHER
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Fune-C %d-go"
+
+	unique = {
+		"Kawakaze" "Tanikaze" "Minekaze" "Sawakaze" "Okikaze" "Shimakaze" "Nadakaze" "Yakaze" "Hakaze" "Shiokaze" "Akikaze" "Yukaze" "Tachikaze" "Hokaze" "Nokaze" 
+		"Namikaze" "Numakaze" "Kamikaze" "Asakaze" "Harukaze" "Matsukaze" "Hatakaze" "Oite" "Hayate" "Asanagi" "Yunagi" "Fubuki" "Shirayuki" "Hatsuyuki" "Miyuki" 
+		"Murakumo" "Shinonome" "Usugumo" "Shirakumo" "Isonami" "Uranami" "Ayanami" "Shikinami" "Asagiri" "Yugiri" "Amagiri" "Sagiri" "Oboro" "Akebono" "Sazanami" 
+		"Ushio" "Akatsuki" "Hibiki" "Ikazuchi" "Inazuma" "Shiratsuyu" "Shigure" "Murasame" "Yudachi" "Umikaze" "Samidare" "Yamakaze" "Harusame" "Suzukaze"
+		"Asashio" "Arashio" "Oshio" "Michishio" "Yamagumo" "Natsugumo" "Minegumo" "Asagumo" "Arare" "Kasumi" "Kagero" "Shiranui" "Kuroshio" "Yukikaze" "Oyashio" 
+		"Hayashio" "Natsushio" "Hatsukaze" "Amatsukaze" "Isokaze" "Tokitsukaze" "Urakaze" "Arashi" "Hagikaze" "Nowaki" "Tanikaze" "Hamakaze" "Maikaze" "Akigumo" 
+		"Yugumo" "Makigumo" "Kazagumo" "Naganami" "Makinami" "Takanami" "Onami" "Kiyonami" "Tamanami" "Suzunami" "Fujinami" "Hayanami" "Hamanami" "Asashimo" 
+		"Okinami" "Kishinami" "Hayashimo" "Akishimo" "Kiyoshimo"
+	}
+}
+
+### Theme: Nature ###
+JAP_THEME_NATURE = {
+	name = NAME_THEME_NATURE
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	fallback_name = "Fune-D %d-go"
+
+	unique = {
+		"Momo" "Kashi" "Hinoki" "Yanagi" "Enoki" "Maki" "Keyaki" "Kuwa" "Tsubaki" "Nara"  "Momi" "Kaya" "Nashi" "Take" "Kaki" "Tsuga" "Nire" "Kuri" "Kiku" "Aoi" 
+		"Fuji" "Hagi" "Susuki" "Hishi" "Hasu" "Warabi" "Tade" "Sumire" "Tsuta" "Ashi" "Yomogi" "Wakatake" "Kuretake" "Sanae" "Sarawabi" "Asagao" "Yugao" "Fuyo" 
+		"Karukaya" "Matsu" "Ume" "Kiri" "Sugi" "Sakura" "Kaba" "Kaede" "Yaezakura" "Yadake" "Kudzu" "Madake" "Hayaume" "Tobiume" "Wakazakura" "Yamazakura" 
+		"Tachibana" "Shii" "Kusunoki" "Odake" "Hatsuzakura" "Hatsuume" "Azusa" "Mikura" "Miyake" "Awaji" "Kurahashi" "Nomi" "Chiburi" "Yashiro" "Kusagaki" 
+		"Shinodake" "Shiraume" "Kashiwa" "Kigiku" "Hatsugiku" "Akane" "Shiragiku" "Chigusa" "Wakakusa" "Natsugusa" "Akikusa" "Tochi" "Nogiku" 			
+	}
+}
+
+### Theme: River/Mountain ###
+JAP_THEME_RIVER_MOUNTAIN = {
+	name = NAME_THEME_RIVER_MOUNTAIN
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
+
+	fallback_name = "Fune-E %d-go"
+
+	unique = {
+		"Asama" "Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" "Mogami" 
+		"Mikuma" "Suzuya" "Kumano" "Tone" "Chikuma" "Ibuki" "Yodo" "Hirado" "Yahagi" "Tenryu" "Tatsuta" "Kuma" "Tama" "Kitakami" 
+		"Oi" "Kiso" "Nagara" "Isuzu" "Natori" "Yura" "Kinu" "Abukuma" "Yubari" "Sendai" "Jintsu" "Naka" "Agano" "Noshiro" "Yahagi" 
+		"Sakawa" "Oyodo" "Ayase" "Minase" "Otonase" 
+	}
+}
+
+### Theme: Culture ###
+JAP_THEME_CULTURE = {
+	name = NAME_THEME_CULTURE
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	fallback_name = "Fune-F %d-go"
+
+	unique = {
+		### Gods - Deities ###
+		"Amaterasu" "Tsukuyomi" "Susanoo" "Inari" "Hachiman" "Benzaiten" "Daikokuten" "Ebisu" "Raijin" "Fujin" "Hotei"
+		"Jurojin" "Fukurokuju" "Takemikazuchi" "Oyamatsumi" "Uzume" "Izanami" "Izanagi" "Amatsu-Mikaboshi" "Ryojin"
+		"Takeminakata" "Kuraokami" "Omoikane" "Sarutahiko" "Bishamonten" "Kompira" "Suijin" "Amatsukami" "Kunitsukami"
+
+		### Shrines ###
+		"Kami" "Shimenawa" "Shide" "Ema" "Omikuji" "Honden" "Haiden" "Temizuya" "Kagura" "Goshintai"
+
+		### Folklore - Yokai ###
+		"Oni" "Kappa" "Tengu" "Kitsune" "Tanuki" "Yurei" "Jorogumo" "Onikiri" "Momotaro" "Urashima" "Kintaro" "Benkei"
+		"Sutemaru" "Akaname" "Nue" "Rokurokubi"
+ 	}
+}
+
+### Theme: Symbolism ###
+JAP_THEME_SYMBOLISM = {
+	name = NAME_THEME_SYMBOLISM
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
+
+	fallback_name = "Fune-G %d-go"
+
+	unique = {
+		"Kizuna" "Kokoro" "Eiyo" "Wa" "Seishin" "Rei" "Takumi" "Yume" "Shinbun" "Kenkyo" "Chikara" "Shinryoku" "Yukan" 
+		"Kibo" "Kansei" "Fukkatsu" "Yugen" "Shugyo" "Chinmoku" "Yuuki" "Eikan" "Shinjiru" "Risshin" "Kansha" "Jikan" 
+		"Genki" "Ketsui" "Yasukoku"
+ 	}
+}
+
+### Theme: Famous Battles ###
+JAP_THEME_BATTLE = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	fallback_name = "Fune-H %d-go"
+
+	unique = {
+		"Sekigahara" "Tsushima" "Mukden" "Jinan" "Khasan" "Khalkin Gol" "Okehazame" "Shizugatake" "Osaka" "Fushimi" "Hara" 
+		"Miyajima" "Kawanakajima" "Hakodate" "Ueno" "Shimabara" "Awazu" "Koan" "Ulsan" "Sascheon" "Shiroyama" "Komaki"
+		"Nagakute" "Kyushu" "Sunomatagawa" "Okinawa"
+	}
+}
+
+### Theme: Legendary Weaponary ###
+JAP_THEME_LEGENDARY_WEAPONARY = {
+	name = NAME_THEME_WEAPONS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
+
+	fallback_name = "Fune-I %d-go"
+
+	unique = {
+		"Kusanagi" "Totsuka" "Ame" "Amanomurakumo" "Shichishito" "Iwatooshi" "Masamune" "Kogarasu" "Hofuri" "Kera" "Kagami" 
+		"Hoko" "Hagoromo" "Taima" "Muramasa" "Tonbogiri" "Totsuka" "Futsu" "Kogitsure" "Takamagahara" "Fumizuki" "Kunado" 
+		"Tatara" "Dakou" "Kojikara" "Yukihira"
+	}
+}
+
+### Theme: Samurais ###
+JAP_THEME_SAMURAIS = {
+	name = NAME_THEME_SAMURAIS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship battle_cruiser }
+
+	fallback_name = "Fune-J %d-go"
+
+	unique = {
+		"Yoshitsune" "Nobunaga" "Ieyasu" "Shingen" "Kenshin" "Masamune" "Tadakatsu" "Hanzo" "Yukimura" "Katamori" "Takamori"
+		"Masanari" "Munenori" "Goemon" "Shikanosuke" "Ujiyasu" "Gensai" "Mitsuyoshi" "Shoir" "Soho" "Munefuyu" "Kojiro" "Υοshikane"
+		"Chiyome"
+	}
+}

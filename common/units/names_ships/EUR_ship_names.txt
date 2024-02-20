@@ -1,0 +1,181 @@
+##### European Union Ship Names #####
+
+# EUS = European Union Ship.
+
+### Aircraf Carrier Names ###
+EUR_CV_HISTORICAL = {
+	name = "European Carriers"
+
+	for_countries = { ENG FRA ITA GER WGR HOL BEL LUX }
+
+	can_use = { has_cosmetic_flag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "EUS "
+	fallback_name = "Aircraf Carrier-%s"
+
+	unique = {
+	}
+}
+
+### Battleship Names ###
+EUR_BB_HISTORICAL = {
+	name = "European Battleships"
+
+	for_countries = { ENG FRA ITA GER WGR HOL BEL LUX }
+
+	can_use = { has_cosmetic_flag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_heavy batleship }
+
+	prefix = "EUS "
+	fallback_name = "Battleship-%s"
+
+	unique = {
+	}
+}
+
+### Battlecruiser Names ###
+EUR_BC_HISTORICAL = {
+	name = "European Battlecruisers"
+
+	for_countries = { ENG FRA ITA GER WGR HOL BEL LUX }
+
+	can_use = { has_cosmetic_flag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = "EUS "
+	fallback_name = "Battlecruiser-%s"
+
+	unique = {
+	}
+}
+
+### Heavy Cruiser Names ###
+EUR_CA_HISTORICAL = {
+	name = "European Heavy Cruisers"
+
+	for_countries = { ENG FRA ITA GER WGR HOL BEL LUX }
+
+	can_use = { has_cosmetic_flag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = "EUS "
+	fallback_name = "Heavy Cruiser-%s"
+
+	unique = {
+	}
+}
+
+### Light Cruiser Names ###
+EUR_CL_HISTORICAL = {
+	name = "European Light Cruisers"
+
+	for_countries = { ENG FRA ITA GER WGR HOL BEL LUX }
+
+	can_use = { has_cosmetic_flag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = "EUS "
+	fallback_name = "Light Cruiser-%s"
+
+	unique = {
+	}
+}
+
+### Destroyer Names ###
+EUR_DD_HISTORICAL = {
+	name = "European Destroyers"
+
+	for_countries = { ENG FRA ITA GER WGR HOL BEL LUX }
+
+	can_use = { has_cosmetic_flag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "EUS "
+	fallback_name = "Destroyer-%s"
+
+	unique = {
+	}
+}
+
+### Escort Destroyer Names ###
+EUR_DE_HISTORICAL = {
+	name = "European Escorts"
+
+	for_countries = { ENG FRA ITA GER WGR HOL BEL LUX }
+
+	can_use = { has_cosmetic_flag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "EUS "
+	fallback_name = "Escort Destroyer-%s"
+
+	unique = {
+	}
+}
+
+### Submarine Names ###
+EUR_SS_HISTORICAL = {
+	name = "European Submarines"
+
+	for_countries = { ENG FRA ITA GER WGR HOL BEL LUX }
+
+	can_use = { has_cosmetic_flag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy }
+
+	prefix = "EUS "
+	fallback_name = "Submarine-%s"
+
+	unique = {
+	}
+}
+
+##### Themes #####
+### Theme: (European) Nations ###
+EUR_THEME_NATIONS = {}
+
+### Theme: Regions ###
+EUR_THEME_REGIONS = {}
+
+### Theme: Cities ###
+EUR_THEME_CITIES = {}
+
+### Theme: Mountains ###
+EUR_THEME_MOUNTAINS = {}
+
+### Theme: Rivers ###
+EUR_THEME_RIVERS  = {}
+
+### Theme: Islands ###
+EUR_THEME_ISLANDS = {}
+
+### Theme: Generals ###
+EUR_THEME_GENERALS = {}
+
+### Theme: Admirals ###
+EUR_THEME_ADMIRALS = {}
+
+### Theme: Greek Mythology ###
+EUR_THEME_GREEK_MYTHOLOGY = {}
+
+### Theme: Roman Mythology ###
+EUR_THEME_ROMAN_MYTHOLOGY = {}
+
+### Theme: Norse Mythology ###
+EUR_THEME_NORSE_MYTHOLOGY =  {}

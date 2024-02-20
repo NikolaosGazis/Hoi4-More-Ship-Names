@@ -1,0 +1,298 @@
+﻿##### Finnish Ship Names #####
+
+# FNS = Finnish Navy Ship.
+
+### Aircraft Carrier Names ###
+FIN_CV_HISTORICAL = { # Aviators - Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "Lentotukialus %d"	
+
+	unique = { 
+		"Lohikäärme" "Greifi" "Pegasos" "Harpyia" "Rokki" "Feenikslintu" "Viirumi" "Myrskylintu" "Hippogriffi" "Simurgh" "Garuda" 
+		"Sfinksi" "Ziz" "Lamassu" "Albatrossi" "Lumoukko" "Kolibri" "Andikki" "Korppikotka" "Pelikaani" "Pääskynen"
+	}
+}
+
+### Battleship Names ###
+FIN_BB_HISTORICAL = { # (Finnish) Importance.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "Taistelulaiva %d"		
+
+	unique = {
+		### Regions ###
+		"Uusimaa" "Karjala" "Pohjanmaa" 
+
+		### Additionals ###
+		"Pohjantähti" "Finnheim" "Kivijalka" "Suomi" "Simo Häyhä" "Lauri Törni" "Snellman" "Lönnrot" "Sibelius" "Nordenskiöld" 
+		"Liljevalch" "Halonen" "Lindgren" "Edelfelt" "Lindqvist" "Castren" "Väinölä" "Gallen-Kallela"
+	}
+}
+
+### Battlecruiser Names ###
+FIN_BC_HISTORICAL = { # Values.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "Taisteluristeilijä %d"		
+
+	unique = { 
+		"Tasa-Avro" "Rehellisyys" "Luonto" "Yhteisöllisyys" "Vapaus" "Ihmisarvo" "Moniarvoisuus" "Innovatiivisuus" "Rauha" 
+		"Työetiikka" "Kulttuuriperintö" "Vastuullisuus"
+	}
+}
+
+### Heavy Cruiser Names ###
+FIN_CA_HISTORICAL = { # Generals.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "Raskas Risteilijä %d"
+
+	unique = {
+		### Väinämöinen Class ### 
+		"Väinämöinen" "Ilmarinen" 
+
+		### Additionals ###
+		"Joukahainen" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" 
+		"Vaasa" "Viipuri" "Kotka" "Oulu" "Rauma" 
+	}
+}
+
+### Light Cruiser Names ###
+FIN_CL_HISTORICAL = { # Mythological Creatures.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "Kevyt Risteilijä %d"
+
+	unique = {
+		"Tonttu" "Hiisi" "Kalevanpojat" "Akka" "Menninkäinen" "Rusalka" "Korppi" "Metsänväki" "Otso" "Tursas" "Rutto" 
+		"Iku-Turso" "Lempo" "Näkki" "Kivutar" "Ilma" "Ukko" "Kalma"
+	}
+}
+
+### Destroyer Names ###
+FIN_DD_HISTORICAL = { # World War 2 - Regions - Wheather Phenomenons - Adjectives.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "Hävittäjä %d"					
+
+	unique = {
+		### World War 2 ###						
+		"Hämeenmaa" "Uusimaa" "Karjala" "Turunmaa"
+
+		### Sisu Class ###
+		"Sisu" "Nuoli"
+		
+		### Isku Class ###
+		"Isku"
+
+		### Syöksy Class ###
+		"Syöksy" "Vinha" "Raju"
+
+		### Additionals ###
+		"Hurja" "Isku" "Syöksy" "Vasama" "Vihuri" "Viima" "Aurinko" "Sade" "Lumi" "Myrsky" "Pakkanen" "Sisuinen" 
+		"Talvinen" "Luonteva" "Hiljainen" "Kontoinen" "Pohjoinen" "Rauhallinen" "Ystävällinen" "Melankolinen" "Jää" 
+		"Ukkonen" "Aamu" "Itarusko" "Sumu" "Lumimysky" "Järvellinen" "Saunallinen" "Hiljaisuus" "Merenranta"
+	}
+}
+
+### Submarine Names ###
+FIN_SS_HISTORICAL = { # Mythology (Water Elements) - Sea Creatures.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "Sukellusvene %d"
+	
+	unique = {
+		### World War 2 ###
+		"Vetehinen" "Vesihiisi" "Iku-Turso" "Vesikko" 
+
+		### Additionals ###
+		"Ahti" "Veden Emäntä" "Kuutar" "Vedenhaltija" "Delfiini" "Hain" "Mustekala" "Merikipikonna" "Valas" "Klovnimonni" 
+		"Meduusa" "Merihevonen" "Hummeri" "Merihevonen" "Kraken" "Sireeeni" "Merenneito" "Leviathan" "Skylla" "Karybdis" 
+		"Naga" "Chtulhu" "Kelpie" "Selkie"
+	}
+}
+
+##### Themes #####
+
+### Theme: Regions ###
+FIN_THEME_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }
+
+	fallback_name = "Laiva-A %d"
+
+	unique = {
+		"Lappi" "Pohjanmaa" "Kainuu" "Karjala" "Savo" "Pirkanmaa" "Satakunta" "Päijät-Häme" "Kanta-Häme" "Kymenlaakso" 
+		"Uusimaa" "Ahvenanmaa"
+	}
+}
+
+### Theme: Cities ###
+FIN_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Laiva-B %d"
+
+	unique = {
+		"Helsinki" "Espoo" "Tampere" "Vantaa" "Oulu" "Turku" "Jyväskylä" "Lahti" "Kuopio" "Kouvola" "Pori" "Joensuu" "Lappeenranta" 
+		"Hämeenlinna" "Rovaniemi" "Vaasa" "Seinäjoki" "Mikkeli" "Kotka" "Salo" "Porvoo" "Kokkola" "Lohja" "Hyvinkää" "Järvenpää" 
+		"Rauma" "Kerava" "Nurmijärvi" "Riihimäki" 
+	}
+}
+
+### Theme: Mountains ###
+FIN_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	fallback_name = "Laiva-C %d"
+
+	unique = {
+		"Halti" "Saana" "Ruka" "Sokosti" "Pyhätunturi" "Urho Kekkonen" "Pallas-Yllästunturi" "Kilpisjärvi" "Levi" "Ounasvaara" "Koli" 
+		"Pieni Karhunkierros" "Aakenustunturi" "Pulju Wilderness Area" "Korouoma Canyon" "Lemmenjoki" "Seven Fells" "Pirunkuru" "Riisitunturi" 
+		"Iso-Syöte" "Taivaskero" "Kummakivi" "Ylläs" "Puurijärvi-Isosuo" "Syöte" "Oulanka" "Patvinsuo" "Petkeljärvi" "Repovesi"
+	}
+}
+
+### Theme: Rivers ###
+FIN_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	fallback_name = "Laiva-D %d"
+
+	unique = {
+		"Tornio" "Tornionjoki" "Muonio" "Muonionjoki" "Kemijoki" "Ounasjoki" "Kitkajoki" "Ivalojoki" "Teno" "Tenojoki" "Oulujoki" "Kemijoki" 
+		"Kokemäenjoki" "Klarälven" "Pielisjoki" "Vantaanjoki" "Kymijoki" "Kymi" "Karhujoki" "Imatrankoski" "Pielisjoki" "Kitka" "Iijoki" 
+		"Kokemäenjoki" "Oulankajoki" "Koutajoki" "Kuusamojoki" "Nukarinkoski" "Näljänkäjoki" "Simojoki"
+	}
+}
+
+### Theme: Culture ###
+FIN_THEME_CULTURE = {
+	name = NAME_THEME_CULTURE
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Laiva-E %d"
+
+	unique = {
+		"Sielu" "Vapaus" "Kukoistus" "Viisaus" "Seikkailu" "Rauha" "Harmonia" "Visio" "Kosmos" "Revontulet" "Sisu" "Lumi" "Polaris" "Talvi" 
+		"Kotiseutu" "Itsenäisyys" "Kunnia" "Yhteisö" "Kansallishenki"
+	}
+}
+
+### Theme: Mythology ###
+FIN_THEME_MYTHOLOGY = {
+	name = NAME_THEME_NORDIC_MYTHOLOGY
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
+
+	fallback_name = "Laiva-F %d"
+
+	unique = {
+		"Väinämöinen" "Ilmarinen" "Lemminkäinen" "Louhi" "Aino" "Kullervo" "Mielikki" "Tapio" "Ukko" "Ahti" "Hiisi" "Ajatar" "Lempo" "Tellervo" 
+		"Kekri" "Äkräs" "Kalevatar" "Päivätär" "Päivöläinen" "Ilmatar" "Kipu-Tytto" "Mara" "Nyyrikki" "Suonetar" "Tuonetar" "Aijö" "Lokka" "Kalma" 
+		"Lalli"
+	}
+}
+
+### Theme: Famous Battles ###
+FIN_THEME_FAMOUS_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }
+
+	fallback_name = "Laiva-G %d"
+
+	unique = {
+		"Ruona" "Lappo" "Bomarsund" "Tampere" "Leningrad" "Vyborg" "Oravais" "Karstula" "Varkaus" "Lahti" "Karhumäki" "Kiestinki" "Vuoski" 
+		"Tolvajärvi" "Hangö" "Åland" "Tienhaara" "Ihantala" "Ilomantsi" 
+	} 
+}
+
+### Theme: Winter War Heroes ###
+FIN_THEME_WINTER_WAR_HEROES = { # Includes "The Continuation War".
+	name = NAME_THEME_WW_HEROES
+
+	for_countries = { FIN }
+
+	can_use = { NOT = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser ship_hull_light carrier battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Laiva-H %d"
+
+	unique = {
+		### Winter War ###
+		"Simo Häyhä" "Carl G. E. Mannerheim" "Aksel Airo" "Hannes Ignatius" "Lauri Törni" "Väinö Myllyrinne" "Hannu Vartiainen" "
+		Tauno Tainio"
+
+		### Continuation War ###
+		"Urho Kekkonen" "Erich H. Hallfors" "Ilmari Juutilainen" "Alpo Marttinen" "Hannu Hannuksela" "Lennart Oesch" "Eino Ilmari Juutilainen" 
+		"Aarne Juutilainen" "Waldemar Michalowski" "Ahti Karjalainen" "Eino Lassila" "Veikko Karvonen" "Mikko Hirvonen"
+	}
+}
