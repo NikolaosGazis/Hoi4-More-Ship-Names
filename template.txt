@@ -1,0 +1,139 @@
+##### <Country> Ship Names #####
+
+# <prefix> = <prefix's meaning>
+
+### Aircaft Carrier Names #####
+<tag>_CV_HISTORICAL = { # Can remove "Historical" if they aren't historical names, just a cosmetic.
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "<fallback_name> %d"
+
+	unique = { # names go here.
+
+	}
+}
+
+### Battleship Names ###
+<tag>_BB_HISTORICAL = {
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "<fallback_name> %d"
+
+	unique = { # names go here.
+
+	}
+}
+
+### Battlecruiser Names ###
+<tag>_BC_HISTORICAL = {
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "<fallback_name> %d"
+
+	unique = { # names go here.
+
+	}
+}
+
+### Heavy Cruiser Names ####
+<tag>_CA_HISTORICAL = {
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "<fallback_name> %d"
+
+	unique = { # names go here.
+
+	}
+}
+
+### Light Cruiser Names ###
+<tag>_CL_HISTORICAL = {
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "<fallback_name> %d"
+
+	unique = { # names go here.
+
+	}
+}
+
+### Destroyer Names ###
+<tag>_DD_HISTORICAL = {
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "<fallback_name> %d"
+
+	unique = { # names go here.
+
+	}
+}
+
+### Submarine Names ###
+<tag>_SS_HISTORICAL = {
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "<fallback_name> %d"
+
+	unique = { # names go here.
+
+	}
+}
+
+##### Themes #####
+# Additional Themes #
