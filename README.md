@@ -1,20 +1,19 @@
 # Hearts of Iron 4 - More Ship Names mod
 
 ## Overview
-A repository where you can make your own suggestions more openly for the "More Ship Names" mod of Hearts of Iron IV, whether that is a typo you found, a name which doesn't fit right into its corresponding category or if you wish to add your own touch
-to a category.
+A repository where you have the opportunity to contribute your creative suggestions openly, whether it's correcting typos, refining names that don't quite fit their categories, or infusing your tocuh into a specific category.
 
 ## How to Contribute
-- Fork this repo into your own's.
+- Begin by forking this repository into your own.
 - Start editing on what you wish to change/remove/add.
-- Commit the request with the approriate description.
+- After making your modifications, commit the request with a clear explanation of your changes.
 
 ## Notes
-- No every change or addition will be passed into the mod in the Steam Workshop, this repo is more of a place where anyone can suggest a change more interactively than the Steam's comment page, and I will have 
+- Not every change or addition will be implemented directly into the mod available on the Steam Workshop. This repository serves as an interactive platform for suggesting changes, providing a more dynamic approach than the Steam comment section. All suggestions will be carefully reviewed, and updates will be incorporated in future uploads.
 - When modifying the existing files, keep the layout the same and be guided by it.
-- If there are any removals, it would be best advised to describe why (duplicate, non-fitting category etc).
-- If you wish to add a new ship list for a country/formable, it is best advised to use the **template.txt** you find on the files and edit it accordingly.
-- Each time a new patch uploads, so will the files here.
+- If proposing removals, it's beneficial to provide reasoning (e.g., duplication, incongruent category) for better understanding.
+- For adding new ship lists to specific countries or formable nations, utilize the **template.txt** provided in the files section. Customize it according to your preferences and the context.
+- With each new patch upload, corresponding updates will also be made available here for seamless integration.
 
 ## Licence
-This repo uses MIT Licence.
+This repository operates under the MIT License.
