@@ -72,7 +72,7 @@ JAP_CVL_HISTORICAL = { # Older Models - Seaplane Tenders.
 		### Chitose Class ###
 		"Chitose" "Chiyoda" 
 		
-		### Ryuho Class - Standalone ###
+		### Ryuho Class ###
 		"Ryuho"
 
 		##### Escort Aircraft Carriers #####
@@ -80,10 +80,10 @@ JAP_CVL_HISTORICAL = { # Older Models - Seaplane Tenders.
 		### Taiyo Class ###
 		"Taiyo" "Chuyo" "Unyo"
 
-		### Kaiyo Class - Standalone ###
+		### Kaiyo Class ###
 		"Kaiyo"
 
-		### Shinyo Class - Standalone ###
+		### Shinyo Class ###
 		"Shinyo"
 
 		### Akitsu Class ###
@@ -118,7 +118,7 @@ JAP_BB_HISTORICAL = { # Provinces - Tradition/Symbolism.
 	unique = {
 		"Hiei"
 
-		### Yamato Class (+Proposed Names) ###
+		### Yamato Class (Proposed Names) ###
 		"Yamato" "Musashi" "Shinano" "Satsuma" "Inazuma"
 		
 		### Older Models ###

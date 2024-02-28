@@ -17,10 +17,10 @@ AUH_CV_IMPERIAL = { # Flying Creatures - Figures.
 	fallback_name = "Repülögép-hordozó %d"	
 
 	unique = {
-		# Figures #
+		### Figures ###
 		"Red Baron"
 
-		# Flying Creatures #
+		### Flying Creatures ###
 		"Siberfalke" "Adler" "Taube" "Falke" "Albatros" "Habicht" "Amsel" "Eule" "Geier" "Greif" "Phonix" "Harpyie"
 		"Sperber" "Adlergeist" "Sturmvogel" "Kranich" "Habichtadler" "Seeadler" "Scharnagel" "Nachtigall" "Rotmilan" 
 		"Wiedehopf" "Ziz"

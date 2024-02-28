@@ -33,8 +33,12 @@ ICE_BB_HISTORICAL = { # Figures.
 	fallback_name = "Orrustuskip %d"		
 
 	unique = {
+		### Figures ###
 		"Snorri Sturluson" "Leif Erikson" "Gudrid Thorbjarnardóttir" "Bishop Jón Arason" "Eggert Ólafsson" "Ragnheiður Jónsdóttir" 
-		"Brynjólfur Sveinsson" "Hannes Hafstein" "Guðmundur Kamban" "Ísland"
+		"Brynjólfur Sveinsson" "Hannes Hafstein" "Guðmundur Kamban" 
+
+		### Additionals ###
+		"Ísland"
 	}
 }
 
@@ -257,20 +261,3 @@ ICE_THEME_RUNES = {
 		"Berkana" "Ehwaz" "Mannaz" "Laguz" "Ingwaz"
 	}
 }
-
-### Theme: Landmarks ###
-#ICE_THEME_LANDMARKS = {
-#	name = NAME_THEME_LANDMARKS
-#
-#	for_countries = { ICE }
-#
-#	type = ship
-#	ship_types = {  }
-#
-#	prefix = "ICGV "
-#	fallback_name = "Skip-XXX %d"
-#
-#	unique = {
-#		###
-#	}
-#}

@@ -13,7 +13,8 @@ FIN_CV_HISTORICAL = { # Aviators - Flying Creatures.
 	
 	fallback_name = "Lentotukialus %d"	
 
-	unique = { 
+	unique = {
+		### Flying Creatures ###
 		"Lohikäärme" "Greifi" "Pegasos" "Harpyia" "Rokki" "Feenikslintu" "Viirumi" "Myrskylintu" "Hippogriffi" "Simurgh" "Garuda" 
 		"Sfinksi" "Ziz" "Lamassu" "Albatrossi" "Lumoukko" "Kolibri" "Andikki" "Korppikotka" "Pelikaani" "Pääskynen"
 	}
@@ -58,7 +59,7 @@ FIN_BC_HISTORICAL = { # Values.
 }
 
 ### Heavy Cruiser Names ###
-FIN_CA_HISTORICAL = { # Generals.
+FIN_CA_HISTORICAL = { # Generals - Cities.
 	name = NAME_THEME_HISTORICAL_CA
 
 	for_countries = { FIN }
@@ -72,14 +73,17 @@ FIN_CA_HISTORICAL = { # Generals.
 		### Väinämöinen Class ### 
 		"Väinämöinen" "Ilmarinen" 
 
-		### Additionals ###
-		"Joukahainen" "Tapio" "Lemminkäinen" "Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" 
-		"Vaasa" "Viipuri" "Kotka" "Oulu" "Rauma" 
+		### Additionals - Generals ###
+		"Joukahainen" "Tapio" "Lemminkäinen" "Laidoner" "Österman" "Malmberg" "Tuompo" "Wallenius" "Nenonen" "Sihvo" "Oesch" "Linder" 
+		"Heinrichs" "Grandell" "Öhquist" "Hägglund" "Ignatius" "Oksanen" "Mäkiniemi" "Judén" "Wilkama" "Tapola" "Talvela" "Kotilainen"
+  
+		### Additionals - Cities ###
+		"Helsinki" "Rauma" "Turku" "Kemi" "Maarianhamina" "Vaasa" "Viipuri" "Kotka" "Oulu" "Rauma"
 	}
 }
 
 ### Light Cruiser Names ###
-FIN_CL_HISTORICAL = { # Mythological Creatures.
+FIN_CL_HISTORICAL = { # Admirals - Mythological Creatures.
 	name = NAME_THEME_HISTORICAL_CL
 
 	for_countries = { FIN }
@@ -90,13 +94,17 @@ FIN_CL_HISTORICAL = { # Mythological Creatures.
 	fallback_name = "Kevyt Risteilijä %d"
 
 	unique = {
+		### Admirals ###
+		"Ehrnrooth" "Bonsdorff" "Aurell" "Ekström" "Törngren" "Rahola" "Born"
+
+		### Mythological Creatures ###
 		"Tonttu" "Hiisi" "Kalevanpojat" "Akka" "Menninkäinen" "Rusalka" "Korppi" "Metsänväki" "Otso" "Tursas" "Rutto" 
 		"Iku-Turso" "Lempo" "Näkki" "Kivutar" "Ilma" "Ukko" "Kalma"
 	}
 }
 
 ### Destroyer Names ###
-FIN_DD_HISTORICAL = { # World War 2 - Regions - Wheather Phenomenons - Adjectives.
+FIN_DD_HISTORICAL = { # Regions - Wheather Phenomenons - Adjectives.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
 	for_countries = { FIN }
@@ -107,7 +115,7 @@ FIN_DD_HISTORICAL = { # World War 2 - Regions - Wheather Phenomenons - Adjective
 	fallback_name = "Hävittäjä %d"					
 
 	unique = {
-		### World War 2 ###						
+		### Historical/Current Models ###						
 		"Hämeenmaa" "Uusimaa" "Karjala" "Turunmaa"
 
 		### Sisu Class ###
@@ -138,7 +146,7 @@ FIN_SS_HISTORICAL = { # Mythology (Water Elements) - Sea Creatures.
 	fallback_name = "Sukellusvene %d"
 	
 	unique = {
-		### World War 2 ###
+		### Historical/Current Models ###
 		"Vetehinen" "Vesihiisi" "Iku-Turso" "Vesikko" 
 
 		### Additionals ###

@@ -1,4 +1,4 @@
-﻿##### United States American Ship Names #####
+﻿##### United States of America Ship Names #####
 
 # USS = United States Ship.
 # CSS = Confederate States Ship.
@@ -102,10 +102,9 @@ USA_BB_HISTORICAL = { # States.
  		"Montana" "Ohio" "Maine" "New Hampshire" "Louisiana" 
 
  		### Additionals (States) ###
- 		"Georgia" "Kansas" "Minnesota" "Vermont" "North Dakota" "Oregon" "Connecticut" "Florida" "Utah" "Delaware" 
- 		"Rhode Island" "Nebraska" "Virginia" "Mississippi" "Idaho" "South Carolina" "Michigan" "Wyoming" "Arkansas" 
- 		"New York" "Texas" "Nevada" "Oklahoma" "Pennsylvania" "Arizona" "New Mexico" "Tennessee" "California" "Colorado" 
- 		"Maryland" "West Virginia"
+ 		"Georgia" "Kansas" "Minnesota" "Vermont" "North Dakota" "Oregon" "Connecticut" "Florida" "Utah" "Delaware" "Rhode Island" "Nebraska" "Virginia" 
+ 		"Mississippi" "Idaho" "South Carolina" "Michigan" "Wyoming" "Arkansas" "New York" "Texas" "Nevada" "Oklahoma" "Pennsylvania" "Arizona" 
+ 		"New Mexico" "Tennessee" "California" "Colorado" "Maryland" "West Virginia"
 	}
 }
 

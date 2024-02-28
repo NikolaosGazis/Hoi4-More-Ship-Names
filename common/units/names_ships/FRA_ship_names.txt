@@ -1,7 +1,7 @@
 ##### French Ship Names #####
 
 ### Aircraft Carrier Names ###
-FRA_CV_HISTORICAL = { # World War 1 Aces.
+FRA_CV_HISTORICAL = { # World War 1 - World War 2 Aces.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
 	for_countries = { FRA }
@@ -12,8 +12,26 @@ FRA_CV_HISTORICAL = { # World War 1 Aces.
 	fallback_name = "%d Porte-Avions"	
 
 	unique = {
-		### Historical ###
-		"Béarn" "Foudre" "Teste" "Joffre" "Painlevé" "Bois Belleau" "La Fayette" "Arromanches" "Charles de Gaulle"
+		### Older Models ###
+		"Foudre" "Teste" "Dixmude"
+
+		### Béarn Class ###
+		"Béarn" 
+
+		### Joffre Class ###
+		"Joffre" "Painlevé" 
+
+		### Independence Class ### 
+		"Bois Belleau" "La Fayette" 
+
+		### Colossus Class ### 
+		"Arromanches" 
+
+		### Verdun Class ###
+		"Verdun"
+		
+		### Charles de Gaulle Class ###
+		"Charles de Gaulle"
 
 		### World War 1 Aces ###
 		"Albert Achard" "Maurice Arnoux" "Marcel Bloch" "Alexandre Buisson" "Andre Delorme" "Pierre Gauderman" "Paul Hamot" 
@@ -21,12 +39,16 @@ FRA_CV_HISTORICAL = { # World War 1 Aces.
 		"Arthur Coadou" "Marcel Viallet" "Gustave Douchy" "Marius Ambrogi" "Jean Casale" "Charles Nuville" "Maxime Lenoir" 
 		"René Montrion" "Michel Coiffard" "Armand de Turenne" "Armand Pinsard" "Albert Deulin" "Alfred Heurtaux" "Pierre Marinovitch"
 		"Paul Tarascon" "André Herbelin" "Jacques Ortoli" "René Fonck"
+
+		### World War 2 Aces ###
+		"Marcel Albert" "Pierre Le Gloan" "Pierre Henri Clostermann" " Jean Demozay" "Edmond Marin La Meslee" "Michel Dorance"
+		"Camille Plubeau" "Roland de La Poype" "Roger Sauvage" "Louis Delfino" "Jean Marie Accart" "Jacques Andre" "Leon Vuillemain"
 	} 
 }
 
 ### Light Aircraft Carrier Names ###
 FRA_CVL_HISTORICAL = { # Flying Creatures.
-	name = "Light Aircaft Carriers"
+	name = NAME_THEME_HISTORICAL_CVL
 
 	for_countries = { FRA }
 
@@ -36,15 +58,32 @@ FRA_CVL_HISTORICAL = { # Flying Creatures.
 	fallback_name = "%d Porte-Avions légers"
 
 	unique = {
-		### Flying Species ###
+		### Flying Creatures ###
 		"Oiseau" "Chauve-Souris" "Papillon" "Abeille" "Libellule" "Colibri" "Aigle" "Faucon" "Moineau" "Albatros" "Mouette" 
 		"Épervier" "Hirondelle" "Hibou" "Pélican" "Vautour" "Perroquet" "Goéland" "Milan" "Autour des palombes" "Guêpe" "Mite" 
 		"Frelon" "Pie" "Pic" "Sterne" "Grue" "Flamant" "Machaon" "Balbuzard" "Pinson" "Condor" "Busard" "Calao" "Engoulevent" 
 		"Martinet"
 
 		### Mythical Creatures ###
-		"Phénix" "Griffon" "Dragon" "Pégase" "Hippogriffe" "Roc" "Harpie" "Wyverne" "Sylphe" "Fée" "Oiseau-Tonnerre" 
-		"Élémentaire de l'air"
+		"Phénix" "Griffon" "Dragon" "Pégase" "Hippogriffe" "Roc" "Harpie" "Wyverne" "Sylphe" "Fée" "Oiseau-Tonnerre"
+	}
+}
+
+### Aviation Pioneers ###
+FRA_CV_AVIATORS = { # Aviators.
+	name = NAME_THEME_AVIATORS
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	fallback_name = "%d Porte-Avions-B"
+
+	unique = {
+		"Clément Ader" "Louis Blériot" "Gabriel Voisin" "Henri Farman" "Louis Bréguet" "Jacques Bréguet" "Santos Dumont" "Marcel Dassault" 
+		"Élie Carafoli" "Maxime Lenoir" "Robert Esnault-Pelterie" "Fernand Forest" "Armand Deperdussin" "Léon Levavasseur" "René Couzinet" 
+		"Georges Besançon" "Louis Charles Breguet" "Paul Cornu" "Henri Coandă" "Émile Dewoitine" 
 	}
 }
 
@@ -63,15 +102,18 @@ FRA_BB_HISTORICAL = { # Figures - Cities - Principles.
 		### Richelieu Class ###
         "Richelieu" "Jean Bart" "Gascogne" "Clemenceau"
         
-        ### Additionals ###
-       	"Alsace" "Lorraine" "Flandre" "Champagne" "Bourgogne" "Patrie" "Paris" "France" "République" "Liberté" "Justice" 
-       	"Vérité" "Démocratie" "Courbet" "Bretagne" "Provence" "Normandie" "Languedoc" "Lyon" "Duquesne" "Lille" "Tourville" 
-       	"Orléans" "Marseille" "Toulouse" "Nice" "Océan" "Poitou" "Artois" "Foix" "Gaulois" "Iéna" "Picardie" 
+        ### Additionals - Older Models ###
+       	"Alsace" "Lorraine" "Flandre" "Champagne" "Bourgogne" "Paris" "France" "Patrie" "République" "Liberté" "Justice" "Vérité" "Démocratie" 
+       	"Courbet" "Bretagne" "Provence" "Normandie" "Languedoc" "Lyon" "Duquesne" "Lille" "Tourville" "Orléans" "Marseille" "Toulouse" "Nice" 
+       	"Océan" "Poitou" "Artois" "Foix" "Gaulois" "Iéna" "Picardie"
+
+       	### Figures ###
+       	"Napoleon Bonaparte"
 	}
 }
 
 ### Battlecruiser Names ###
-FRA_BC_HISTORICAL = { # Provinces - Cities.
+FRA_BC_HISTORICAL = { # Provinces - Cities - Admirals.
 	name = NAME_THEME_HISTORICAL_BC
 
 	for_countries = { FRA }
@@ -89,13 +131,18 @@ FRA_BC_HISTORICAL = { # Provinces - Cities.
         "Jura" "Savoie" "Touraine"
 
         ### Additionals ###
-		"Bourges" "Metz" "Lille" "Nantes" "Toulon" "Rouen" "Montpellier" "La Hire" "Jean Bureau" "Bertrand du Guesclin" 
-		"Pierre de Brézé" "Jean de Grouchy" "Jean Le Maingre" 
+		"Bourges" "Metz" "Lille" "Nantes" "Toulon" "Rouen" "Montpellier" "La Hire" "Jean Bureau" "Bertrand du Guesclin" "Pierre de Brézé" 
+		"Jean de Grouchy" "Jean Le Maingre" 
+
+		### Additionals - Admirals ###
+		"François de Bonne" "Pierre-Charles Villeneuve" "François-Paul Brueys" "Charles-Alexandre Linois" "Pierre Dumanoir" "Jean-Baptiste Philibert Willaumez" 
+		"Zacharie Allemand" "Maxime Julien Émeriau" "Charles de Durfort" "Joseph Antoine Ganteaume" "Thomas Tréhouart" "Charles de Bernard" 
+		"Louis-Edmond Pannetier"
 	}
 }
 
 ### Heavy Cruiser Names ###
-FRA_CA_HISTORICAL = { # Colonies - Generals.
+FRA_CA_HISTORICAL = { # Colonies - Generals - Armoured Cruisers.
 	name = NAME_THEME_HISTORICAL_CA
 
 	for_countries = { FRA }
@@ -106,11 +153,22 @@ FRA_CA_HISTORICAL = { # Colonies - Generals.
 	fallback_name = "%d Croiseur Lourd"
 
 	unique = {
-		"Algérie" "Indochine" "Syrie" "Le Liban" "Maroc" "Polynésie" "Tunisie" "Dahomey" "Côte d'Ivoire" "Cameroun" "Saint-Louis" 
-		"Henri IV" "Charlemagne" "Brennus" "Charles Martel" "Vercingetorix" "Dupuy de Lôme" "Amiral Charner" "Bruix" "Chanzy" 
-		"Latouche-Tréville" "Pothuau" "Dupetit-Thouars" "Gueydon" "Gloire" "Montcalm" "Desaix" "Kléber" "Amiral Aube" "Condé" 
-		"Léon Gambetta" "Jules Ferry" "Victor Hugo" "Jules Michelet" "Ernest Renan" "Edgar Quinet" "Waldeck-Rousseau" "Duquesne" 
-		"Tourville" "Suffren" "Colbert" "Foch" "Dupleix" 
+		### Duquesne Class ###
+		"Duquesne" "Tourville"
+
+		### Suffren Class ###
+		"Suffren" "Colbert" "Foch" "Dupleix"
+
+		### Algérie Class ###
+		"Algérie" 
+
+		### Saint-Louis Class ###
+		"Saint-Louis" "Henri IV" "Charlemagne" "Brennus" "Charles Martel" "Vercingetorix"
+
+		### Additionals ###
+		"Indochine" "Syrie" "Le Liban" "Maroc" "Polynésie" "Tunisie" "Dahomey" "Côte d'Ivoire" "Cameroun" "Dupuy de Lôme" "Amiral Charner" 
+		"Bruix" "Chanzy" "Latouche-Tréville" "Pothuau" "Dupetit-Thouars" "Gueydon" "Gloire" "Montcalm" "Desaix" "Kléber" "Amiral Aube" "Condé" 
+		"Léon Gambetta" "Jules Ferry" "Victor Hugo" "Jules Michelet" "Ernest Renan" "Edgar Quinet" "Waldeck-Rousseau" "Sully"
 	}
 }
 
@@ -126,10 +184,28 @@ FRA_CL_HISTORICAL = { # Cities - Generals - Figures.
 	fallback_name = "%d Croiseur Léger"
 
 	unique = {
-		"La Galissonnière" "Jean de Vienne" "Marseillaise" "Gloire" "Montcalm" "Georges Leygues" "De Grasse" "Châteaurenault" 
-		"Guichen" "Colbert" "La Tour d'Auvergne" "Colmar" "Mulhouse" "Strasbourg" "Metz" "Thionville" "Jurien de la Gravière" 
-		"Jauréguiberry" "Masséna" "Bouvet" "Carnot" "D'Entrecasteaux" "D'Estrées" "L'Infernet" "Condorcet" "Danton" "Diderot" 
-		"Mirabeau" "Vergniaud" "Voltaire" "Duguay-Trouin" "Lamotte-Picquet" "Primauguet" "Pluton" "Jeanne d'Arc" "Émile Bertin" 
+		### Older Models ###
+		"Mulhouse" "Metz" "Colmar" "Strasbourg" "Thionville"
+
+		### Duguay-Trouin Class ###
+		"Duguay-Trouin" "Lamotte-Picquet" "Primauguet"
+
+		### Standalones ###
+		"Jeanne d'Arc" "Émile Bertin"
+
+		### La Galissonnière Class ### 
+		"La Galissonnière" "Jean de Vienne" "Marseillaise" "Gloire" "Montcalm" "Georges Leygues" 
+
+		### De Grasse Class ###
+		"De Grasse" "Châteaurenault" "Guichen" 
+
+		### Historical Models (Post-WW2) ###
+		"Colbert" 
+
+		### Additionals ###
+		"La Tour d'Auvergne" "Jurien de la Gravière" "Jauréguiberry" "Masséna" "Bouvet" "Carnot" "D'Entrecasteaux" "D'Estrées" "L'Infernet" 
+		"Condorcet" "Danton" "Diderot" "Mirabeau" "Vergniaud" "Voltaire" "Pluton" "Tage" "Amiral Cécille" "Davout" "Suchet" "Coëtlogon"
+		"Troude" "Cosmao" "Lalande" "Isly" "Alger" "Friant" "Bugeaud" "Galilée" "Lavoisier" "Descartes" "D'Assas" "Du Chayla"
 	}
 }
 
@@ -145,13 +221,12 @@ FRA_DD_HISTORICAL = { # Adjectives.
 	fallback_name = "%d Contre-Torpilleur"					
 
 	unique = {											
-		"Le Fantasque" "Le Terrible" "L'Audacieux" "Le Malin" "L'Indomptable" "Le Triomphant" "Mogador" "Volta" "Hoche" "Marceau" 
-		"La Combattante" "Vauquelin" "Cassard" "Maillé Brézé" "Kersaint" "Tartu" "Chevalier Paul" "Aigle" "Gerfaut" "Albatros" 
-		"Vautour" "Épervier" "Milan" "Guépard" "Bison" "Valmy" "Verdun" "Lion" "Vauban"  "Chacal" "Tigre" "Jaguar" "Panthère" 
-		"Léopard" "Lynx" "Enseigne Roux" "Mécanicien Principal Lestin" "Enseigne Gabolde" "Algérien" "Annamite" "Arabe" "Bambara" 
-		"Hova" "Kabyle" "Marocain" "Sakalave" "Sénégalais" "Somali" "Tonkinois" "Touareg" "Bisson" "Renaudin" "Commandant Lucas" 
-		"Protet" "Mangini" "Magon" "Bouclier" "Boutefeu" "Capitaine Mehl" "Casque" "Cimeterre" "Commandant Bory" "Commandant Rivière" 
-		"Dague" "Dehorter" "Faulx" "Fourche" "Francis Garnier" "Chasseur" "Cavalier" "Fantassin" "Janissaire" "Voltigeur" "Tirailleur" 
+		"Le Fantasque" "Le Terrible" "L'Audacieux" "Le Malin" "L'Indomptable" "Le Triomphant" "Mogador" "Volta" "Hoche" "Marceau" "La Combattante" 
+		"Vauquelin" "Cassard" "Maillé Brézé" "Kersaint" "Tartu" "Chevalier Paul" "Aigle" "Gerfaut" "Albatros" "Vautour" "Épervier" "Milan" "Guépard" 
+		"Bison" "Valmy" "Verdun" "Lion" "Vauban"  "Chacal" "Tigre" "Jaguar" "Panthère" "Léopard" "Lynx" "Enseigne Roux" "Mécanicien Principal Lestin" 
+		"Enseigne Gabolde" "Algérien" "Annamite" "Arabe" "Bambara" "Hova" "Kabyle" "Marocain" "Sakalave" "Sénégalais" "Somali" "Tonkinois" "Touareg" 
+		"Bisson" "Renaudin" "Commandant Lucas" "Protet" "Mangini" "Magon" "Bouclier" "Boutefeu" "Capitaine Mehl" "Casque" "Cimeterre" "Commandant Bory" 
+		"Commandant Rivière" "Dague" "Dehorter" "Faulx" "Fourche" "Francis Garnier" "Chasseur" "Cavalier" "Fantassin" "Janissaire" "Voltigeur" "Tirailleur" 
 		"Spahi" "Hussard" "Carabinier" "Lansquenet" "Mameluk" "Enseigne Henry" "Aspirant Herber" 
 	}
 }
@@ -189,25 +264,24 @@ FRA_MINELAYERS_HISTORICAL = {
 	for_countries = { FRA }
 
 	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 	
 	fallback_name = "%d Mouilleur de Mines"
 
 	unique = {
 		### Older and Smaller Models ###
-		"Bougainville" "Amiral Charner" "Dumont d'Urville" "D'Entrecasteaux" "La Grandière" "D'Iberville" "Rigault de Genouilly" 
-		"Savorgnan de Brazza" "Beautemps-Beaupré" "La Pérouse" "Commandant de Pimodan" "Amiral Duperré" "Amiral Gourdon" 
-		"Amiral Sénès" "Annamite" "Chamois" "Chevreuil" "Enseigne Ballande" "Enseigne Bisson" "Gazelle" "L'Ambitieuse" "La Furieuse" 
-		"La Généreuse" "L'Heureuse" "La Joyeuse" "La Malicieuse" "Commandant Ducuing" "La Rieuse" "La Sérieuse" "Bambara" "La Trompeuse"
-		"La Victorieuse" "Matelot Leblanc" "Rageot de la Touche" "Élan" "La Batailleuse" "La Boudeuse" "La Capricieuse" "Commandant Bory" 
-		"Commandant Delage" "Commandant Dominé" "Commandant Duboc" "Commandant Rivière" "La Curieuse" "La Gracieuse" "L'Impétueuse" 
-		"La Moqueuse" "Aldébaran" "Algol" "Altair" "Antares" "Bellatrix" "Rigel" "Cassiopée" "Regulus" "Pluton" "Cerbère" "Le Gladiateur"
-		"Châteaurenault" "Guichen" 
+		"Bougainville" "Amiral Charner" "Dumont d'Urville" "D'Entrecasteaux" "La Grandière" "D'Iberville" "Rigault de Genouilly" "Savorgnan de Brazza" 
+		"Beautemps-Beaupré" "La Pérouse" "Commandant de Pimodan" "Amiral Duperré" "Amiral Gourdon" "Amiral Sénès" "Annamite" "Chamois" "Chevreuil" 
+		"Enseigne Ballande" "Enseigne Bisson" "Gazelle" "L'Ambitieuse" "La Furieuse" "La Généreuse" "L'Heureuse" "La Joyeuse" "La Malicieuse" 
+		"Commandant Ducuing" "La Rieuse" "La Sérieuse" "Bambara" "La Trompeuse" "La Victorieuse" "Matelot Leblanc" "Rageot de la Touche" "Élan" 
+		"La Batailleuse" "La Boudeuse" "La Capricieuse" "Commandant Bory" "Commandant Delage" "Commandant Dominé" "Commandant Duboc" "Commandant Rivière" 
+		"La Curieuse" "La Gracieuse" "L'Impétueuse" "La Moqueuse" "Aldébaran" "Algol" "Altair" "Antares" "Bellatrix" "Rigel" "Cassiopée" "Regulus" "Pluton" 
+		"Cerbère" "Le Gladiateur" "Châteaurenault" "Guichen" 
 	}
 }
 
 ### Submarine Names ###
-FRA_SS_HISTORICAL = {
+FRA_SS_HISTORICAL = { # Figures - Elements - Gemstones.
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
 	for_countries = { FRA }
@@ -245,14 +319,13 @@ FRA_THEME_REGIONS = {
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
-	fallback_name = "Bateau-A %d"
+	fallback_name = "%d Bateau-A"
 
 	unique = {
-		"Île-de-France" "Berry" "Orléanais" "Normandie" "Languedoc" "Lyonnais" "Dauphiné" "Champagne" "Aunis" "Saintonge" 
-		"Poitou" "Aquitaine" "Bourgogne" "Picardie" "Anjou" "Provence" "Angoumois" "Bourbonnais" "La Marche" "Bretagne" 
-		"Gascogne" "Touraine" "Limousin" "Foix" "Auvergne" "Béarn" "Alsace" "Artois" "Roussillon" "Flandre" "Franche-Comté" 
-		"Lorraine" "Barrois" "Corse" "Nivernais" "Beaujolais" "Maine" "Guyenne" "Perche" "Forez" "Venaissin" "Mulhouse" 
-		"Savoie" "Nice" "Montbéliard" "Catalogne" 
+		"Île-de-France" "Berry" "Orléanais" "Normandie" "Languedoc" "Lyonnais" "Dauphiné" "Champagne" "Aunis" "Saintonge" "Poitou" "Aquitaine" "Bourgogne" "Picardie" 
+		"Anjou" "Provence" "Angoumois" "Bourbonnais" "La Marche" "Bretagne" "Gascogne" "Touraine" "Limousin" "Foix" "Auvergne" "Béarn" "Alsace" "Artois" "Roussillon" 
+		"Flandre" "Franche-Comté" "Lorraine" "Barrois" "Corse" "Nivernais" "Beaujolais" "Maine" "Guyenne" "Perche" "Forez" "Venaissin" "Mulhouse" "Savoie" "Nice" 
+		"Montbéliard" "Catalogne" 
 	}
 }
 
@@ -265,13 +338,12 @@ FRA_THEME_MOUNTAINS = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "Bateau-B %d"
+	fallback_name = "%d Bateau-B"
 
 	unique = {
-		"Blanc" "Barre des Écrins" "Chamechaude" "Arcalod" "Pointe Percée" "Puy de Sancy" "La Tournette" "Le Taillefer" 
-		"Aiguilles d'Arves" "Puigmal" "Grande Casse" "Pica d'Estats" "Mont Chaberton" "Pic de Bure" "Crêt de la Neige" 
-		"Le Môle" "Dent Parrachée" "Pic Bayle" "Le Grand Veymont" "Dent de Cons" "Ventoux" "Pourri" "Colombier" "Pic du Midi d'Ossau"
-		"Le Roc d'Enfer" "Grand Ballon" "Aiguille de Scolette" "Lachat" "Grand Pic de Belledonne"
+		"Blanc" "Barre des Écrins" "Chamechaude" "Arcalod" "Pointe Percée" "Puy de Sancy" "La Tournette" "Le Taillefer" "Aiguilles d'Arves" "Puigmal" "Grande Casse" 
+		"Pica d'Estats" "Mont Chaberton" "Pic de Bure" "Crêt de la Neige" "Le Môle" "Dent Parrachée" "Pic Bayle" "Le Grand Veymont" "Dent de Cons" "Ventoux" "Pourri" 
+		"Colombier" "Pic du Midi d'Ossau" "Le Roc d'Enfer" "Grand Ballon" "Aiguille de Scolette" "Lachat" "Grand Pic de Belledonne"
 	}
 }
 
@@ -284,13 +356,12 @@ FRA_THEME_RIVERS = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "Bateau-C %d"
+	fallback_name = "%d Bateau-C"
 
 	unique = {
-		"Faux" "Semois" "Sormonne" "Bar" "Chiers" "Scarpe" "Haine" "Yser" "Slack" "Canche" "Aunthie" "Somme" "Avre" "Bresle" 
-		"Arques" "Seine" "Eure" "Andelle" "Epte" "Oise" "Marne" "Petit Morin" "Essonne" "Aube" "Barse" "Ource" "Dives" "Orne" 
-		"Vire" "Douve" "See" "Selune" "Couesnon" "Rance" "Trieux" "Élorn" "Aulne" "Odet" "Blavet" "Oust" "Don" "Meu" "Layon" 
-		"Thouet" "Vienne"
+		"Faux" "Semois" "Sormonne" "Bar" "Chiers" "Scarpe" "Haine" "Yser" "Slack" "Canche" "Aunthie" "Somme" "Avre" "Bresle" "Arques" "Seine" "Eure" "Andelle" "Epte" 
+		"Oise" "Marne" "Petit Morin" "Essonne" "Aube" "Barse" "Ource" "Dives" "Orne" "Vire" "Douve" "See" "Selune" "Couesnon" "Rance" "Trieux" "Élorn" "Aulne" "Odet" 
+		"Blavet" "Oust" "Don" "Meu" "Layon" "Thouet" "Vienne"
 	} 
 }
 
@@ -303,22 +374,21 @@ FRA_THEME_CITIES = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "Bateau-D %d"
+	fallback_name = "%d Bateau-D"
 
 	unique = {
-		"Paris" "Marseilles" "Lyon" "Toulouse" "Nice" "Nantes" "Strasbourg" "Montpellier" "Bordeaux" "Lille" "Rennes" "Reims" "Le Havre" 
-		"Saint-Étienne" "Toulon" "Grenoble" "Dijon" "Nîmes" "Angers" "Villeurbanne" "Le Mans" "Saint-Denis" "Aix-en-Provence" "Clermont-Ferrand" 
-		"Brest" "Limoges" "Tours" "Amiens" "Perpignan" "Metz" "Besançon" "Boulogne" "Orléans" "Mulhouse" "Rouen" "Caen" "Argenteuil" "Saint-Paul" 
-		"Montreuil" "Nancy" "Roubaix" "Tourcoing" "Nanterre" "Avignon" "Vitry-sur-Seine" "Créteil" "Dunkerque" "Poitiers" "Asnières-sur-Seine" 
-		"Courbevoie" "Versailles" "Colombes" "Fort-de-France" "Aulnay-sous-Bois" "Saint-Pierre" "Rueil-Malmaison" "Pau" "Aubervilliers" 
-		"Champigny-sur-Marne" "Antibes" "Béziers" "La Rochelle" "Cannes" "Calais" "Saint-Nazaire" "Mérignac" "Drancy" "Colmar" "Ajaccio" "Bourges" 
-		"La Seyne" "Quimper" "Valence" "Vénissieux" "Pessac" "Troyes" "Chambéry" "Lorient" "Les Abymes" "Montauban" "Sarcelles" "Niort" "Villejuif" 
-		"Saint-André" "Hyères" "Saint-Quentin" "Beauvais" "Épinay-sur-Seine" "Cayenne" "Cholet" "Meaux" "Évry" "Fréjus" "Vannes" "La Roche-sur-Yon" 
-		"Saint-Louis" "Arles" "Clamart" "Narbonne" "Annecy" "Sartrouville" "Grasse" "Laval" "Belfort" "Évreux" "Vincennes" "Montrouge" "Sevran" "Albi" 
-		"Charleville-Mézières" "Suresnes" "Martigues" "Corbeil-Essonnes" "Saint-Ouen" "Bayonne" "Carcassonne" "Massy" "Blois" "Saint-Brieuc" "Aubagne" 
-		"Châteauroux" "Saint-Malo" "Châlons-sur-Marne" "Sète" "Valenciennes" "Angoulême" "Thionville" "Arras" "Alès" "La Courneuve" "Compiègne" "Melun" 
-		"Chartres" "Poissy" "Châtillon" "Échirolles" "Saint-Chamond" "Auxerre" "Nevers" "Agen" "Saint-Raphaël" "Mâcon" "Cambrai" "Sainte-Marie" "Dreux" 
-		"Dieppe" "Périgueux" "Vienne" "Saint-Cloud" "Yerres" "Soissons" "Ermont" "Saumur" "Alençon" "Montbéliard" "Saint-Dizier" "Saintes" "Vichy"
+		"Paris" "Marseilles" "Lyon" "Toulouse" "Nice" "Nantes" "Strasbourg" "Montpellier" "Bordeaux" "Lille" "Rennes" "Reims" "Le Havre" "Saint-Étienne" "Toulon" 
+		"Grenoble" "Dijon" "Nîmes" "Angers" "Villeurbanne" "Le Mans" "Saint-Denis" "Aix-en-Provence" "Clermont-Ferrand" "Brest" "Limoges" "Tours" "Amiens" "Perpignan" 
+		"Metz" "Besançon" "Boulogne" "Orléans" "Mulhouse" "Rouen" "Caen" "Argenteuil" "Saint-Paul" "Montreuil" "Nancy" "Roubaix" "Tourcoing" "Nanterre" "Avignon" 
+		"Vitry-sur-Seine" "Créteil" "Dunkerque" "Poitiers" "Asnières-sur-Seine" "Courbevoie" "Versailles" "Colombes" "Fort-de-France" "Aulnay-sous-Bois" "Saint-Pierre" 
+		"Rueil-Malmaison" "Pau" "Aubervilliers" "Champigny-sur-Marne" "Antibes" "Béziers" "La Rochelle" "Cannes" "Calais" "Saint-Nazaire" "Mérignac" "Drancy" "Colmar" 
+		"Ajaccio" "Bourges" "La Seyne" "Quimper" "Valence" "Vénissieux" "Pessac" "Troyes" "Chambéry" "Lorient" "Les Abymes" "Montauban" "Sarcelles" "Niort" "Villejuif" 
+		"Saint-André" "Hyères" "Saint-Quentin" "Beauvais" "Épinay-sur-Seine" "Cayenne" "Cholet" "Meaux" "Évry" "Fréjus" "Vannes" "La Roche-sur-Yon" "Saint-Louis" "Arles" 
+		"Clamart" "Narbonne" "Annecy" "Sartrouville" "Grasse" "Laval" "Belfort" "Évreux" "Vincennes" "Montrouge" "Sevran" "Albi" "Charleville-Mézières" "Suresnes" "Martigues" 
+		"Corbeil-Essonnes" "Saint-Ouen" "Bayonne" "Carcassonne" "Massy" "Blois" "Saint-Brieuc" "Aubagne" "Châteauroux" "Saint-Malo" "Châlons-sur-Marne" "Sète" "Valenciennes" 
+		"Angoulême" "Thionville" "Arras" "Alès" "La Courneuve" "Compiègne" "Melun" "Chartres" "Poissy" "Châtillon" "Échirolles" "Saint-Chamond" "Auxerre" "Nevers" "Agen" 
+		"Saint-Raphaël" "Mâcon" "Cambrai" "Sainte-Marie" "Dreux" "Dieppe" "Périgueux" "Vienne" "Saint-Cloud" "Yerres" "Soissons" "Ermont" "Saumur" "Alençon" "Montbéliard" "
+		Saint-Dizier" "Saintes" "Vichy"
 	}
 }
 
@@ -331,15 +401,32 @@ FRA_THEME_COLONIES = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "Bateau-E %d"
+	ffallback_name = "%d Bateau-E"
 
 	unique = {
-		"Algerié" "Indochine" "Syrie" "Le Liban" "Maroc" "Polynésie" "Tunisie" "Dahomey" "Côte d'Ivoire" "Mali" "Cameroun" "Soudan" 
-		"Sénégal" "Madagascar" "Annam" "Cochinchine" "Laos" "Cambodge" "Tonkin" "Afrique Équatoriale" "Acadie" "Louisiane" "Sainte-Croix" 
-		"Îles-des-Saintes" "La Désirade" "Guadeloupe" "Martinique" "Guyane" "Saint-Pierre" "Miquelon" "Saint-Barthélemy" "Dominique" 
-		"Niévès" "Grenade" "Saint-Vincent" "Plaisance" "Sainte-Lucie" "Tobago" "Guinée" "Mauritanie" "Niger" "Haute-Volta" "Togo" 
-		"Nigéria" "La Gambie" "Tchad" "Le Congo" "Gabon" "Maurice" "Djibouti" "Mayotte" "Les Seychelles" "Les Comores" "La Réunion" 
-		"Pondichéry" "Karikal" "Mahé" "Yanaon" "Chandernagor" "Kouang-Tchéou-Wan" "Tien-Tsin" "Hankou" "Île-de-Shamian" "Cheikh Saïd" 
+		"Algerié" "Indochine" "Syrie" "Le Liban" "Maroc" "Polynésie" "Tunisie" "Dahomey" "Côte d'Ivoire" "Mali" "Cameroun" "Soudan" "Sénégal" "Madagascar" "Annam" "Cochinchine" 
+		"Laos" "Cambodge" "Tonkin" "Afrique Équatoriale" "Acadie" "Louisiane" "Sainte-Croix" "Îles-des-Saintes" "La Désirade" "Guadeloupe" "Martinique" "Guyane" "Saint-Pierre" 
+		"Miquelon" "Saint-Barthélemy" "Dominique" "Niévès" "Grenade" "Saint-Vincent" "Plaisance" "Sainte-Lucie" "Tobago" "Guinée" "Mauritanie" "Niger" "Haute-Volta" "Togo" 
+		"Nigéria" "La Gambie" "Tchad" "Le Congo" "Gabon" "Maurice" "Djibouti" "Mayotte" "Les Seychelles" "Les Comores" "La Réunion" "Pondichéry" "Karikal" "Mahé" "Yanaon" 
+		"Chandernagor" "Kouang-Tchéou-Wan" "Tien-Tsin" "Hankou" "Île-de-Shamian" "Cheikh Saïd" 
+	}
+}
+
+### Theme: Famous Battles ###
+FRA_THEMES_BATTLE = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_battles = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
+
+	fallback_name = "%d Bateau-F"
+
+	unique = {
+		"Tours" "Rocroi" "Valmy" "Austerlitz" "Wagram" "Solferino" "Verdun" "Agincourt" "Patay" "Fontenoy" "Yorktown" "Marengo" "Jena-Auerstedt" "Friedland" "Borodino" 
+		"Lützen" "Montereau" "Arcole" "Rivoli" "Hohenlinden" "Eylau" "Castiglione" "Ulm" "Jena" "Lingy" "Wavre" "Fleurus" "Lodi" "Montmirail" "Tolosa" "Taillebourg" "Cassel" 
+		"Poitiers" "Crecy" "Pontvallain" "Patay" "Castilon" "Bosworth" "Novara" "Dunes"
 	}
 }
 
@@ -354,12 +441,11 @@ FRA_THEME_PRESIDENTS = {
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
-	fallback_name = "Bateau-F %d"
+	fallback_name = "%d Bateau-G"
 
 	unique = {
-		"Louis-Napoléon Bonaparte" "Adolphe Thiers" "Patrice de Mac Mahon" "Jules Grévy" "Sadi Carnot" "Jean Casimir-Perier" 
-		"Félix Faure" "Émile Loubet" "Armand Fallières" "Raymond Poincaré" "Paul Deschanel" "Alexandre Millerand" "Gaston Doumergue" 
-		"Paul Doumer" "Albert Lebrun" 
+		"Louis-Napoléon Bonaparte" "Adolphe Thiers" "Patrice de Mac Mahon" "Jules Grévy" "Sadi Carnot" "Jean Casimir-Perier" "Félix Faure" "Émile Loubet" "Armand Fallières" 
+		"Raymond Poincaré" "Paul Deschanel" "Alexandre Millerand" "Gaston Doumergue" "Paul Doumer" "Albert Lebrun" 
 	}
 }
 
@@ -374,16 +460,14 @@ FRA_THEME_KINGS = {
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
-	fallback_name = "Bateau-G %d"
+	fallback_name = "%d Bateau-H"
 
 	unique = {
-		"Pépin le Bref" "Carloman" "Charlemagne" "Louis le Pieux" "Charles le Chauve" "Louis le Bègue" 
-		"Charles le Gros" "Charles le Simple" "Raoul de Bourgogne" "Louis d'Outremer" "Louis le Fainéant" 
-		"Hugues Capet" "Robert le Pieux" "Philippe l'Amoureux" "Louis le Batailleur" "Louis le Jeune" 
-		"Philippe Auguste" "Louis le Lion" "Saint-Louis" "Philippe le Hardi" "Philippe le Bel" "Louis le Hutin" 
-		"Jean le Posthume" "Philippe le Long" "Charles le Bel" "Philippe de Valois" "Jean le Bon" "Charles le Sage" 
-		"Charles le Bien-Aimé" "Charles le Bien Servi" "Louis le Prudent" "Charles l'Affable" "Louis le Père du Peuple" 
-		"François d'Orléans" "Henri le Vert-Galant" "Louis le Juste" "Louis le Roi-Soleil" "Louis le Bien-Aimé" 
+		"Pépin le Bref" "Carloman" "Charlemagne" "Louis le Pieux" "Charles le Chauve" "Louis le Bègue" "Charles le Gros" "Charles le Simple" "Raoul de Bourgogne" "Louis d'Outremer" 
+		"Louis le Fainéant" "Hugues Capet" "Robert le Pieux" "Philippe l'Amoureux" "Louis le Batailleur" "Louis le Jeune" "Philippe Auguste" "Louis le Lion" "Saint-Louis" "Philippe le Hardi" 
+		"Philippe le Bel" "Louis le Hutin" "Jean le Posthume" "Philippe le Long" "Charles le Bel" "Philippe de Valois" "Jean le Bon" "Charles le Sage" "Charles le Bien-Aimé" 
+		"Charles le Bien Servi" "Louis le Prudent" "Charles l'Affable" "Louis le Père du Peuple" "François d'Orléans" "Henri le Vert-Galant" "Louis le Juste" "Louis le Roi-Soleil"
+		"Louis le Bien-Aimé" 
 	}
 }
 
@@ -396,12 +480,11 @@ FRA_THEME_MYTHOLOGY = {
 	type = ship
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
 
-	fallback_name = "Bateau-H %d"
+	fallback_name = "%d Bateau-I"
 
 	unique = {
-		"Cernunnos" "Epona" "Taranis" "Esus" "Belenus" "Belenus" "Brigantia" "Ogmios" "Nantosuelta" "Teutates" "Rosmerta"
-		"Lugus" "Esis" "Artio" "Camulus" "Matronae" "Borvo" "Ritona" "Sequana" "Cissonius" "Sirona" "Toutatis" "Belenos"
-		"Catubodua" "Nemetona" "Gutuater" "Gutuater"
+		"Cernunnos" "Epona" "Taranis" "Esus" "Belenus" "Belenus" "Brigantia" "Ogmios" "Nantosuelta" "Teutates" "Rosmerta" "Lugus" "Esis" "Artio" "Camulus" "Matronae" "Borvo" "Ritona" 
+		"Sequana" "Cissonius" "Sirona" "Toutatis" "Belenos" "Catubodua" "Nemetona" "Gutuater" "Gutuater"
 	}
 }
 
@@ -414,59 +497,42 @@ FRA_THEME_MARSHALS = {
 	type = ship
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
 
-	fallback_name = "Bateau-I %d"
+	fallback_name = "%d Bateau-J"
 
 	unique = {
-		"Albéric Clément" "Henri Clément" "Guillaume de Bournel" "Nivelon d'Arras" "Guillaume de La Tournelle" 
-		"Ferry Pasté" "Jean Guillaume de Beaumont" "Gauthier de Nemours" "Héric de Beaujeu" "Renaud de Précigny" 
-		"Lancelot de Saint-Maard" "Ferry de Verneuil" "Jean d'Harcourt" "Jean Clément" "Raoul Le Flamenc" 
-		"Jean de Varennes" "Simon de Melun" "Guy de Clermont de Nesle" "Foulques du Merle" "Jean de Beaumont" 
-		"Bernard de Moreuil" "Jean des Barres" "Mathieu de Trie" "Robert Bertrand de Bricquebec" "Anseau de Joinville" 
-		"Charles de Montmorency" "Robert de Waurin" "Édouard de Beaujeu" "Arnoul d'Audrehem" "Rogues de Hangest" 
-		"Jean Le Meingre" "Jean de Mauquenchy" "Louis de Sancerre" "Jean de Rieux" "Pierre de Rieux" "Claude de Beauvoir" 
-		"Jean de Villiers de L'Isle-Adam" "Jacques de Montberon" "Gilbert Motier de La Fayette" "Antoine de Vergy" 
-		"Jean de La Baume" "Amaury de Sévérac" "Jean de Brosse" "Gilles de Montmorency-Laval" "André de Lohéac" 
-		"Philippe de Culant" "Jean Poton de Xaintrailles" "Joachim Rouhault" "Jean de Lescun" "Wolfert van Borssele" 
-		"Pierre de Rohan-Gié" "Philippe de Crèvecœur d'Esquerdes" "Jean de Baudricourt" "Jacques de Trivulce" 
-		"Charles d'Amboise" "Odet de Foix" "Robert Stuart d'Aubigny" "Jacques de Chabannes de La Palice" 
-		"Gaspard de Coligny" "Thomas de Foix" "Anne de Montmorency" "Théodore de Trivulce" "Robert de La Marck" 
-		"Claude d'Annebault" "René de Montjean" "Oudard du Biez" "Antoine de Lettes-Desprez" "Jean Caraccioli" 
-		"Jacques d'Albon de Saint-André" "Charles de Cossé" "Pierre Strozzi" "Paul de La Barthe" "François de Montmorency" 
-		"François de Scépeaux" "Imbert de La Platière" "Henri de Montmorency" "Artus de Cossé-Brissac" "Gaspard de Saulx" 
-		"Honorat de Savoie" "Albert de Gondi" "Roger de Saint-Lary" "Blaise de Monluc" "Armand de Gontaut-Biron" 
-		"Jacques de Goyon" "Jean d'Aumont" "Guillaume de Joyeuse" "François Gouffier" "Henri de La Tour d'Auvergne" 
-		"Charles de Gontaut-Biron" "Claude de La Châtre" "Jean de Montluc de Balagny" "Jean de Beaumanoir" "Henri de Joyeuse" 
-		"Urbain de Laval Boisdauphin" "Alphonse d'Ornano" "Guillaume de Hautemer" "François de Bonne" "Concino Concini" 
-		"Gilles de Courtenvaux" "Antoine de Roquelaure" "Louis de La Châtre" "Pons de Lauzières-Thémines" "François de La Grange d'Arquian" 
-		"Nicolas de L'Hospital" "Charles de Choiseul-Praslin" "Jean-François de La Guiche" "Honoré d'Albert" "François d'Esparbes de Lussan" 
-		"Charles de Créquy" "Jacques d'Étampes" "Charles de Goyon" "Jacques Nompar de Caumont" "François de Bassompierre" 
-		"Henri de Schomberg" "Jean-Baptiste d'Ornano" "François-Annibal d'Estrées" "Timoléon d'Epinay de Saint-Luc" "Louis de Marillac" 
-		"Jean de Saint-Bonnet" "Antoine Coëffier de Ruzé" "Urbain de Maillé" "Maximilien de Béthune" "Charles de Schomberg" 
-		"Charles de La Porte" "Antoine de Gramont" "Jean-Baptiste Budes de Guébriant" "Philippe de La Mothe-Houdancourt" "François de L'Hospital" 
-		"Jean de Gassion" "César du Plessis-Praslin" "Josias Rantzau" "Nicolas de Neufville" "Antoine d'Aumont de Rochebaron" 
-		"Henri de La Ferté-Senneterre" "Charles de Monchy" "Jacques Rouxel" "Armand Nompar de Caumont" "Philippe de Clérambault" 
-		"César d'Albret" "Louis Foucault" "Jean de Schulemberg" "Abraham Fabert d'Esternay" "Jacques de Castelnau" "Bernardin Gigault" 
-		"François de Créquy" "Louis de Crevant" "Godefroi d'Estrades" "Philippe de Montaut-Bénac" "Frédéric-Armand de Schomberg" 
-		"Jacques-Henri de Durfort" "François d'Aubusson" "Louis Victor de Rochechouart" "François-Henri de Montmorency-Luxembourg" 
-		"Henri Louis d'Aloigny" "Guy Aldonce de Durfort" "Jean d'Estrées" "Claude de Choiseul" "Jean-Armand de Joyeuse" "François de Neufville" 
-		"Louis François de Boufflers" "Anne Hilarion de Costentin" "Anne-Jules de Noailles" "Nicolas de Catinat" "Claude-Louis-Hector de Villars" 
-		"Noël Bouton" "Victor Marie d'Estrées" "François Louis Rousselet" "Sébastien Le Prestre" "Conrad de Rosen" "Nicolas Chalon du Blé" 
-		"René de Froulay" "Camille d'Hostun" "Nicolas Auguste de La Baume" "Henri d'Harcourt" "Ferdinand de Marsin" "Jacques Fitz-James" 
-		"Charles Auguste de Goyon" "Jacques Bazin de Bezons" "Pierre de Montesquiou" "Victor-Maurice de Broglie" "Antoine-Gaston de Roquelaure" 
-		"Léonor Marie du Maine" "Yves d'Alègre" "Louis d'Aubusson" "Alain Emmanuel de Coëtlogon" "Charles-Armand de Gontaut-Biron" 
-		"Jacques François de Chastenet" "Claude François Bidal" "Adrien Maurice de Noailles" "Christian Louis de Montmorency-Luxembourg" 
-		"François-Marie de Broglie" "François de Franquetot" "Louis de Brancas" "Louis-Auguste d'Albert d'Ailly" "Louis Armand de Brichanteau" 
-		"Louis de Gand de Mérode de Montmorency" "Jean-Baptiste de Durfort" "Jean-Baptiste Desmarets" "Charles Louis Auguste Fouquet" 
-		"Maurice de Saxe" "Jean-Baptiste Louis Andrault" "Claude-Guillaume Testu" "Philippe-Charles de La Fare" "François d'Harcourt" 
-		"Guy-Claude-Roland de Laval-Montmorency" "Gaspard de Clermont-Tonnerre" "Louis Charles de La Mothe-Houdancourt" "Woldemar de Lowendal" 
-		"Louis-François-Armand de Vignerot du Plessis" "Jean de Fay" "Louis Antoine de Gontaut-Biron" "Daniel François de Gélas de Lautrec" 
-		"Charles Frédéric de Montmorency-Luxembourg" "Louis Le Tellier" "Jean Charles de Saint-Nectaire" "Charles O'Brien de Thomond" 
-		"Gaston-Pierre de Lévis-Mirepoix" "Ladislas Ignace de Bercheny" "Hubert de Brienne" "Louis Georges Érasme de Contades" 
-		"Charles de Rohan-Soubise" "Victor-François de Broglie" "Guy-Michel de Durfort" "Louis de Conflans" "Jean Paul Timoléon de Cossé" 
-		"Anne Pierre d'Harcourt" "Louis de Noailles" "Philippe de Noailles" "Antoine de Nicolaï" "Charles Fitz-James" "Emmanuel-Félicité de Durfort" 
-		"Louis Nicolas Victor de Félix d'Ollières" "Claude-Louis de Saint-Germain" "Guy-André-Pierre de Montmorency-Laval" 
-		"Augustin-Joseph de Mailly" "Henri Joseph Bouchard d'Esparbès de Lussan" "Charles-Juste de Beauvau-Craon" "Noël Jourda de Vaux" 
-		"Philippe Henri de Ségur" "Jacques Philippe de Choiseul-Stainville" "Charles Eugène Gabriel de La Croix" "Emmanuel de Croÿ-Solre" 
-		"François Gaston de Lévis" "Nicolas Luckner" "Jean-Baptiste-Donatien de Vimeur" 
+		"Albéric Clément" "Henri Clément" "Guillaume de Bournel" "Nivelon d'Arras" "Guillaume de La Tournelle" "Ferry Pasté" "Jean Guillaume de Beaumont" "Gauthier de Nemours" 
+		"Héric de Beaujeu" "Renaud de Précigny" "Lancelot de Saint-Maard" "Ferry de Verneuil" "Jean d'Harcourt" "Jean Clément" "Raoul Le Flamenc" "Jean de Varennes" "Simon de Melun" 
+		"Guy de Clermont de Nesle" "Foulques du Merle" "Jean de Beaumont" "Bernard de Moreuil" "Jean des Barres" "Mathieu de Trie" "Robert Bertrand de Bricquebec" "Anseau de Joinville" 
+		"Charles de Montmorency" "Robert de Waurin" "Édouard de Beaujeu" "Arnoul d'Audrehem" "Rogues de Hangest" "Jean Le Meingre" "Jean de Mauquenchy" "Louis de Sancerre" "Jean de Rieux" 
+		"Pierre de Rieux" "Claude de Beauvoir" "Jean de Villiers de L'Isle-Adam" "Jacques de Montberon" "Gilbert Motier de La Fayette" "Antoine de Vergy" "Jean de La Baume" "Amaury de Sévérac" 
+		"Jean de Brosse" "Gilles de Montmorency-Laval" "André de Lohéac" "Philippe de Culant" "Jean Poton de Xaintrailles" "Joachim Rouhault" "Jean de Lescun" "Wolfert van Borssele" 
+		"Pierre de Rohan-Gié" "Philippe de Crèvecœur d'Esquerdes" "Jean de Baudricourt" "Jacques de Trivulce" "Charles d'Amboise" "Odet de Foix" "Robert Stuart d'Aubigny" 
+		"Jacques de Chabannes de La Palice" "Gaspard de Coligny" "Thomas de Foix" "Anne de Montmorency" "Théodore de Trivulce" "Robert de La Marck" "Claude d'Annebault" "René de Montjean" 
+		"Oudard du Biez" "Antoine de Lettes-Desprez" "Jean Caraccioli" "Jacques d'Albon de Saint-André" "Charles de Cossé" "Pierre Strozzi" "Paul de La Barthe" "François de Montmorency" 
+		"François de Scépeaux" "Imbert de La Platière" "Henri de Montmorency" "Artus de Cossé-Brissac" "Gaspard de Saulx" "Honorat de Savoie" "Albert de Gondi" "Roger de Saint-Lary" 
+		"Blaise de Monluc" "Armand de Gontaut-Biron" "Jacques de Goyon" "Jean d'Aumont" "Guillaume de Joyeuse" "François Gouffier" "Henri de La Tour d'Auvergne" "Charles de Gontaut-Biron" 
+		"Claude de La Châtre" "Jean de Montluc de Balagny" "Jean de Beaumanoir" "Henri de Joyeuse" "Urbain de Laval Boisdauphin" "Alphonse d'Ornano" "Guillaume de Hautemer" "François de Bonne" 
+		"Concino Concini" "Gilles de Courtenvaux" "Antoine de Roquelaure" "Louis de La Châtre" "Pons de Lauzières-Thémines" "François de La Grange d'Arquian" "Nicolas de L'Hospital" 
+		"Charles de Choiseul-Praslin" "Jean-François de La Guiche" "Honoré d'Albert" "François d'Esparbes de Lussan" "Charles de Créquy" "Jacques d'Étampes" "Charles de Goyon" 
+		"Jacques Nompar de Caumont" "François de Bassompierre" "Henri de Schomberg" "Jean-Baptiste d'Ornano" "François-Annibal d'Estrées" "Timoléon d'Epinay de Saint-Luc" "Louis de Marillac" 
+		"Jean de Saint-Bonnet" "Antoine Coëffier de Ruzé" "Urbain de Maillé" "Maximilien de Béthune" "Charles de Schomberg" "Charles de La Porte" "Antoine de Gramont" 
+		"Jean-Baptiste Budes de Guébriant" "Philippe de La Mothe-Houdancourt" "François de L'Hospital" "Jean de Gassion" "César du Plessis-Praslin" "Josias Rantzau" "Nicolas de Neufville" 
+		"Antoine d'Aumont de Rochebaron" "Henri de La Ferté-Senneterre" "Charles de Monchy" "Jacques Rouxel" "Armand Nompar de Caumont" "Philippe de Clérambault" "César d'Albret" "Louis Foucault" 
+		"Jean de Schulemberg" "Abraham Fabert d'Esternay" "Jacques de Castelnau" "Bernardin Gigault" "François de Créquy" "Louis de Crevant" "Godefroi d'Estrades" "Philippe de Montaut-Bénac" 
+		"Frédéric-Armand de Schomberg" "Jacques-Henri de Durfort" "François d'Aubusson" "Louis Victor de Rochechouart" "François-Henri de Montmorency-Luxembourg" "Henri Louis d'Aloigny" 
+		"Guy Aldonce de Durfort" "Jean d'Estrées" "Claude de Choiseul" "Jean-Armand de Joyeuse" "François de Neufville" "Louis François de Boufflers" "Anne Hilarion de Costentin" "Anne-Jules de Noailles" 
+		"Nicolas de Catinat" "Claude-Louis-Hector de Villars" "Noël Bouton" "Victor Marie d'Estrées" "François Louis Rousselet" "Sébastien Le Prestre" "Conrad de Rosen" "Nicolas Chalon du Blé" 
+		"René de Froulay" "Camille d'Hostun" "Nicolas Auguste de La Baume" "Henri d'Harcourt" "Ferdinand de Marsin" "Jacques Fitz-James" "Charles Auguste de Goyon" "Jacques Bazin de Bezons" 
+		"Pierre de Montesquiou" "Victor-Maurice de Broglie" "Antoine-Gaston de Roquelaure" "Léonor Marie du Maine" "Yves d'Alègre" "Louis d'Aubusson" "Alain Emmanuel de Coëtlogon" 
+		"Charles-Armand de Gontaut-Biron" "Jacques François de Chastenet" "Claude François Bidal" "Adrien Maurice de Noailles" "Christian Louis de Montmorency-Luxembourg" "François-Marie de Broglie" 
+		"François de Franquetot" "Louis de Brancas" "Louis-Auguste d'Albert d'Ailly" "Louis Armand de Brichanteau" "Louis de Gand de Mérode de Montmorency" "Jean-Baptiste de Durfort" 
+		"Jean-Baptiste Desmarets" "Charles Louis Auguste Fouquet" "Maurice de Saxe" "Jean-Baptiste Louis Andrault" "Claude-Guillaume Testu" "Philippe-Charles de La Fare" "François d'Harcourt" 
+		"Guy-Claude-Roland de Laval-Montmorency" "Gaspard de Clermont-Tonnerre" "Louis Charles de La Mothe-Houdancourt" "Woldemar de Lowendal" "Louis-François-Armand de Vignerot du Plessis" "Jean de Fay" 
+		"Louis Antoine de Gontaut-Biron" "Daniel François de Gélas de Lautrec" "Charles Frédéric de Montmorency-Luxembourg" "Louis Le Tellier" "Jean Charles de Saint-Nectaire" "Charles O'Brien de Thomond" 
+		"Gaston-Pierre de Lévis-Mirepoix" "Ladislas Ignace de Bercheny" "Hubert de Brienne" "Louis Georges Érasme de Contades" "Charles de Rohan-Soubise" "Victor-François de Broglie" 
+		"Guy-Michel de Durfort" "Louis de Conflans" "Jean Paul Timoléon de Cossé" "Anne Pierre d'Harcourt" "Louis de Noailles" "Philippe de Noailles" "Antoine de Nicolaï" "Charles Fitz-James" 
+		"Emmanuel-Félicité de Durfort" "Louis Nicolas Victor de Félix d'Ollières" "Claude-Louis de Saint-Germain" "Guy-André-Pierre de Montmorency-Laval" "Augustin-Joseph de Mailly"
+		"Henri Joseph Bouchard d'Esparbès de Lussan" "Charles-Juste de Beauvau-Craon" "Noël Jourda de Vaux" "Philippe Henri de Ségur" "Jacques Philippe de Choiseul-Stainville" 
+		"Charles Eugène Gabriel de La Croix" "Emmanuel de Croÿ-Solre" "François Gaston de Lévis" "Nicolas Luckner" "Jean-Baptiste-Donatien de Vimeur" 
 	}
 }
