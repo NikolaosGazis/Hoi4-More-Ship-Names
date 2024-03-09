@@ -7,7 +7,7 @@
 GER_CV_HISTORICAL = { # Aviation Pioneers - Aces.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -15,13 +15,14 @@ GER_CV_HISTORICAL = { # Aviation Pioneers - Aces.
 	fallback_name = "Flugzeugträger %d"
 
 	unique = {
-		### Graf Zeppelin Class (Flugzeugträger A&B) ###
+		### Graf Zeppelin Class (Flugzeugträger A&B) (1938) ###
 		"Graf Zeppelin" "Peter Strasser"
 
 		### Aviation Pioneers ###
 		"August von Parseval" "Ehrenfried von Hünefeld" "Otto Lilienthal" "Erich Thomas" "August Euler" "Karl Jatho" 
 		"Gustave Weisskopf" "Ernst von Hoeppner" "Hans Weiss" "Richard Waghorn" "Hugo Eckener" "Wilhelm Wright" "Karl Wright"
-		"Gustav Weißkopf" "Reimar Horten" "Walter Horten" "Hermann Winter"
+		"Reimar Horten" "Walter Horten" "Hermann Winter" "Hugo von Abercron" "Oskar Erbslöh" "Hans Georg Friedrich"
+		"Paul Haenlein" "Theodor Kober" "Ernst Lehmann" "Albert Sammt" "Friedrich Wölfert"
 		
 		### World War 1 Aces ###
 		"Max Immelmann" "Alois Heldmann" "Fritz Beckhardt" "Franz Hemer" "Wilhelm Reinhard" "Hans von Freden" "Fritz Höhn" 
@@ -47,7 +48,7 @@ GER_CV_HISTORICAL = { # Aviation Pioneers - Aces.
 GER_CVL_HISTORICAL = { # Rivers.
 	name = NAME_THEME_HISTORICAL_CVL
 	
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 	
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -55,17 +56,17 @@ GER_CVL_HISTORICAL = { # Rivers.
 	fallback_name = "Leichtflugzeugträger %d"
 	
 	unique = {
-		"Rhein" "Weser" "Jade" "Elbe" "Havel" "Donau" "Oder" "Warnow"  "Recknitz" "Neiße" "Main" "Trave" "Uecker" "Inn" 
+		"Rhein" "Weser" "Jade" "Elbe" "Havel" "Donau" "Oder" "Warnow" "Recknitz" "Neiße" "Main" "Trave" "Uecker" "Inn" 
 		"Isar" "Maas" "Ruhr" "Spree" "Mosel" "Wupper" "Saar" "Alf" "Neckar" "Aurora" "Danube" "Salzach" "Sauer" "Naab" 
 		"Paar" "Schmutter" "Günz" "Emscher" "Acher" "Kocher" "Regen" "Brenz" "Lieser" "Potsdam" "Fulda" "Lahn" "Aller"
 	}
 }
 
 ### Battleships Names ###
-GER_BB_HISTORICAL = { # Figures - Knights - Generals - Provinces and Cities - World War 1 Ships.
+GER_BB_HISTORICAL = { # Figures - Knights - Generals - Provinces and Cities - World War 1 Models.
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -73,13 +74,13 @@ GER_BB_HISTORICAL = { # Figures - Knights - Generals - Provinces and Cities - Wo
 	fallback_name = "Schlachtschiff %d"
 
 	unique = {
-		### Scharnhost Class ###
+		### Scharnhost Class (1938) ###
 		"Scharnhorst" "Gneisenau"
 
-		### Bismarck Class ###
+		### Bismarck Class (1940) ###
 		"Bismarck" "Tirpitz"
 		
-		### H-Class - Knights ###
+		### H-Class (1941) (Knights) ###
 		"Friedrich der Große" "Ulrich von Hutten" "Konrad von Burgsdorff" "Götz von Berlichingen"
 		"Franz von Sickingen" "Friedrich Fritz Lanz"
 		
@@ -123,10 +124,10 @@ GER_BB_HISTORICAL = { # Figures - Knights - Generals - Provinces and Cities - Wo
 }
 
 ### Battlecruiser Names ###
-GER_BC_HISTORICAL = { # World War 1 Ships - Prussian/German Generals.
+GER_BC_HISTORICAL = { # World War 1 Models - Prussian/German Generals.
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -148,17 +149,17 @@ GER_BC_HISTORICAL = { # World War 1 Ships - Prussian/German Generals.
 		"Prinz Heinrich" "Zieten" "Prinz Rupprecht" "Schlieffen"
 
 		### Additionals ###
-		"Kalckstein" "Marchtaler" "Gustav-Kessel" "Zastrow" "Litzmann" "Hausen" "Krafft-Ebing" "Hoffmann"
-		"Marwitz" "Laffert" "Mudra" "François" "Conta" "Dellmensingen" "Beseler" "Pannewitz" "Emmich"
-		"Manteuffel"
+		"Kalckstein" "Marchtaler" "Gustav-Kessel" "Zastrow" "Litzmann" "Hausen" "Krafft-Ebing" "Hoffmann" "Marwitz" "Laffert" 
+		"Mudra" "François" "Conta" "Dellmensingen" "Beseler" "Pannewitz" "Emmich" "Manteuffel" "Blumenthal" "Waldersee"
+		"Hahnke" "Loë" ""
 	}
 }
 
 ### Large Cruiser Names ###
 GER_CB_HISTORICAL = { # Mythology.
-	name = NAME_THEME_CB
+	name = NAME_THEME_HISTORICAL_CB
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_heavy ship_hull_cruiser battle_cruiser heavy_cruiser }
@@ -178,7 +179,7 @@ GER_CB_HISTORICAL = { # Mythology.
 GER_CA_HISTORICAL = { # Generals - Admirals - Noble Family.
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
@@ -210,7 +211,7 @@ GER_CA_HISTORICAL = { # Generals - Admirals - Noble Family.
 GER_CL_HISTORICAL = { # Cities.
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
@@ -235,7 +236,7 @@ GER_CL_HISTORICAL = { # Cities.
 GER_DD_HISTORICAL = { # Navy Personal of World War 1.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -374,7 +375,7 @@ GER_DD_HISTORICAL = { # Navy Personal of World War 1.
 GER_TB_HISTORICAL = { # Animals.
 	name = NAME_THEME_HISTORICAL_TB
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -393,7 +394,7 @@ GER_TB_HISTORICAL = { # Animals.
 GER_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -419,7 +420,7 @@ GER_SS_HISTORICAL = {
 GER_THEME_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
@@ -444,7 +445,7 @@ GER_THEME_CITIES = {
 GER_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
@@ -465,7 +466,7 @@ GER_THEME_MOUNTAINS = {
 GER_THEME_RIVERS = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
@@ -473,9 +474,10 @@ GER_THEME_RIVERS = {
 	fallback_name = "Schiff-C %d"
 
 	unique = {
-		"Rhein" "Weser" "Elbe" "Havel" "Donau" "Oder" "Warnow"  "Recknitz" "Neiße" "Main" "Trave" "Uecker" "Inn" "Isar" 
+		"Rhein" "Weser" "Elbe" "Havel" "Donau" "Oder" "Warnow"  "Recknitz" "Neisse" "Main" "Trave" "Uecker" "Inn" "Isar" 
 		"Maas" "Ruhr" "Spree" "Mosel" "Wupper" "Saar" "Alf" "Neckar" "Aurora" "Danube" "Salzach" "Sauer" "Naab" "Paar" 
-		"Schmutter" "Günz" "Emscher" "Acher" "Kocher" "Regen" "Brenz" "Lieser" "Potsdam"
+		"Schmutter" "Günz" "Emscher" "Acher" "Kocher" "Regen" "Brenz" "Lieser" "Potsdam" "Bernouka" "Treene" "Chemnitz" 
+		"Bode" "Whipper" "Pleisse" "Gera" "Lahn" "Hamme" "Weida" "Heller" "Kinzig" "Weil" "Rhume"
 	}
 }
 
@@ -483,7 +485,7 @@ GER_THEME_RIVERS = {
 GER_THEME_ANIMALS = {
 	name = NAME_THEME_ANIMALS
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -502,7 +504,7 @@ GER_THEME_ANIMALS = {
 GER_THEME_FISH = {
 	name = NAME_THEME_FISH
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_light ship_hull_submarine destroyer submarine }
@@ -519,7 +521,7 @@ GER_THEME_FISH = {
 GER_THEME_BATTLE = {
 	name = NAME_THEME_BATTLES
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }  
 
 	type = ship
@@ -539,7 +541,7 @@ GER_THEME_BATTLE = {
 GER_THEME_GERMANIC_MYTHOLOGY = {
 	name = NAME_THEME_GERMANIC_MYTHOLOGY
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	type = ship
 	ship_types = { ship_hull_heavy ship_hull_cruiser battle_cruiser heavy_cruiser }
@@ -559,7 +561,7 @@ GER_THEME_GERMANIC_MYTHOLOGY = {
 GER_CV_IMPERIAL = { # Aviation Pioneers - World War 1 Aces.
 	name = NAME_THEME_IMPERIAL_CARRIERS
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 
@@ -592,7 +594,7 @@ GER_CV_IMPERIAL = { # Aviation Pioneers - World War 1 Aces.
 GER_CVL_IMPERIAL = { # Female Names.
 	name = NAME_THEME_IMPERIAL_CVL
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 
@@ -600,7 +602,7 @@ GER_CVL_IMPERIAL = { # Female Names.
 	ship_types = { ship_hull_carrier carrier }
 
 	prefix = "SMS "
-	fallback_name = "Leichtflugzeugträger-B %d"
+	fallback_name = "Leichtflugzeugträger-IMP %d"
 
 	unique = {
 		"Erika" "Alma" "Amalia" "Berta" "Charlotte" "Emma" "Eleonor" "Franka" "Victoria" "Jenny" "Petra" "Anna" "Monika" 
@@ -610,10 +612,10 @@ GER_CVL_IMPERIAL = { # Female Names.
 }
 
 ### Battleship Names ###
-GER_BB_IMPERIAL = { # World War 1 Ships - Admirals.
+GER_BB_IMPERIAL = { # World War 1 Model - Admirals.
 	name = NAME_THEME_IMPERIAL_BB
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 
@@ -659,7 +661,7 @@ GER_BB_IMPERIAL = { # World War 1 Ships - Admirals.
 GER_BC_IMPERIAL = { # World War 1 Field Marshals - Generals.
 	name = NAME_THEME_IMPERIAL_BC
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 
@@ -696,7 +698,7 @@ GER_BC_IMPERIAL = { # World War 1 Field Marshals - Generals.
 GER_CA_IMPERIAL = { # World War 1 Ships - Generals - Admirals.
 	name = NAME_THEME_IMPERIAL_CA
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality } 
 
@@ -725,7 +727,7 @@ GER_CA_IMPERIAL = { # World War 1 Ships - Generals - Admirals.
 GER_CL_IMPERIAL = { # Cities.
 	name = NAME_THEME_IMPERIAL_CL
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 
@@ -753,7 +755,7 @@ GER_CL_IMPERIAL = { # Cities.
 GER_DD_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_DD
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 
@@ -764,16 +766,15 @@ GER_DD_IMPERIAL = {
 	fallback_name = "V-%d"
 
 	ordered = {
-		100 = {"V-%d"}
-		101 = {"V-%d"}
-		102 = {"V-%d"}
-		103 = {"V-%d"}
-		104 = {"V-%d"}
-		105 = {"V-%d"}
-		106 = {"V-%d"}
-		107 = {"V-%d"}
-		108 = {"V-%d"}
-		109 = {"V-%d"}
+		1 = {"V-%d"}
+		2 = {"V-%d"}
+		3 = {"V-%d"}
+		4 = {"V-%d"}
+		5 = {"V-%d"}
+		6 = {"V-%d"}
+		7 = {"V-%d"}
+		8 = {"V-%d"}
+		9 = {"V-%d"}
 	}
 }
 
@@ -781,7 +782,7 @@ GER_DD_IMPERIAL = {
 GER_SS_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_SUBMARINES
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 
@@ -789,7 +790,7 @@ GER_SS_IMPERIAL = {
 	ship_types = { ship_hull_submarine submarine }
 
 	prefix = "SMS "
-	fallback_name = "UIMP-%d"
+	fallback_name = "U-IMP-%d"
 	
 	ordered = {
 		1 = {"U-%d"}
@@ -810,7 +811,7 @@ GER_SS_IMPERIAL = {
 GER_THEME_CITIES_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CITIES
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 
@@ -838,7 +839,7 @@ GER_THEME_CITIES_IMPERIAL = {
 GER_THEME_MOUNTAINS_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_MOUNTAINS
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 
@@ -862,7 +863,7 @@ GER_THEME_MOUNTAINS_IMPERIAL = {
 GER_THEME_RIVERS_IMPERIAL = {
 	name = NAME_THEME_IMPEIAL_RIVERS
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 
@@ -873,9 +874,10 @@ GER_THEME_RIVERS_IMPERIAL = {
 	fallback_name = "IMP Schiff-C %d"
 	
 	unique = {
-		"Rhein" "Weser" "Elbe" "Havel" "Donau" "Oder" "Warnow"  "Recknitz" "Neiße" "Main" "Trave" "Uecker" "Inn" "Isar" "Maas" 
-		"Ruhr" "Spree" "Mosel" "Wupper" "Saar" "Alf" "Neckar" "Aurora" "Danube" "Salzach" "Sauer" "Naab" "Paar" "Schmutter" 
-		"Günz" "Emscher" "Acher" "Kocher" "Regen" "Brenz" "Lieser" "Potsdam"
+		"Rhein" "Weser" "Elbe" "Havel" "Donau" "Oder" "Warnow"  "Recknitz" "Neisse" "Main" "Trave" "Uecker" "Inn" "Isar" 
+		"Maas" "Ruhr" "Spree" "Mosel" "Wupper" "Saar" "Alf" "Neckar" "Aurora" "Danube" "Salzach" "Sauer" "Naab" "Paar" 
+		"Schmutter" "Günz" "Emscher" "Acher" "Kocher" "Regen" "Brenz" "Lieser" "Potsdam" "Bernouka" "Treene" "Chemnitz" 
+		"Bode" "Whipper" "Pleisse" "Gera" "Lahn" "Hamme" "Weida" "Heller" "Kinzig" "Weil" "Rhume"
 	}
 }
 
@@ -883,7 +885,7 @@ GER_THEME_RIVERS_IMPERIAL = {
 GER_THEME_ANIMALS_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_ANIMALS
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 
@@ -905,7 +907,7 @@ GER_THEME_ANIMALS_IMPERIAL = {
 GER_THEME_FISH_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_FISH
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 
@@ -925,7 +927,7 @@ GER_THEME_FISH_IMPERIAL = {
 GER_THEME_BATTLE_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_BATTLES
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 
@@ -949,7 +951,7 @@ GER_THEME_BATTLE_IMPERIAL = {
 GER_THEME_GERMANIC_MYTHOLOGICAL_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_MYTHOLOGY
 
-	for_countries = { GER PRE WGR }
+	for_countries = { GER PRE WGR DDR }
 
 	can_use = { has_government = neutrality }
 

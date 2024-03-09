@@ -207,8 +207,8 @@ ICE_THEME_RIVERS= {
 }
 
 ### Theme: Mythology ###
-ICE_THEME_NORSE = {
-	name = NAME_THEME_NORSE_MYTHOLOGY
+ICE_THEME_NORSIC_MYTHOLOGY = {
+	name = NAME_THEME_NORDIC_MYTHOLOGY
 	
 	for_countries = { ICE }
 

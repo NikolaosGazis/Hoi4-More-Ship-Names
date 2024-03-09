@@ -335,7 +335,7 @@ NOR_THEME_CULTURE = {
 }
 
 ### Theme: Mythology ###
-NOR_THEME_MYTHOLOGY = {
+NOR_THEME_NORDIC_MYTHOLOGY = {
 	name = NAME_THEME_NORDIC_MYTHOLOGY
 
 	for_countries = { NOR }

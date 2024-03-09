@@ -283,7 +283,7 @@ ENG_CLAA_HISTORICAL = { # Adjectives.
 
 ### Scout Cruiser Names ###
 ENG_CLSC_HISTORICAL = { # Adjectives.
-	name = NAME_THEME_HISTORICAL_SCOUT_CL
+	name = NAME_THEME_HISTORICAL_CLSC
 
 	for_countries = { ENG }
 
@@ -307,9 +307,6 @@ ENG_CLSC_HISTORICAL = { # Adjectives.
 
 		### Pathfinder Class (1/2) ###
 		"Patrol"
-
-		### Boadicea Class (1/2) ###
-		"Bellona"
 
 		### Blonde Class (1/2) ###
 		"Blonde"

@@ -117,9 +117,9 @@ DEN_DD_HISTORICAL = { # Marine Creatures - Nautical Concepts.
 	fallback_name = "Destroyer %d"					
 
 	unique = {											
-		"Nymfen" "Najaden" "Søridderen" "Flyvefisken" "Søulven" "Hvalrossen" "Delfinen" "Sværdfisken" "Springeren" "Støren" 
-		"Søløven" "Søhunden" "Havhesten" "Narhvalen" "Makrelen" "Nordkaperen" "Havkatten" "Sælen" "Dragen" "Hvalen" "Laxen" 
-		"Søhesten" "Sirenen" "Mågefuglen" "Havgudinden" "Bølgebruderen" "Koralreven" "Stjerneskibet" "Sydhavet" "Kaskelotten"
+		"Nymfen" "Najaden" "Søridderen" "Flyvefisken" "Søulven" "Hvalrossen" "Delfinen" "Sværdfisken" "Springeren" "Støren" "Søløven" "Søhunden" "Havhesten" 
+		"Narhvalen" "Makrelen" "Nordkaperen" "Havkatten" "Sælen" "Dragen" "Hvalen" "Laxen" "Søhesten" "Sirenen" "Mågefuglen" "Havgudinden" "Bølgebruderen" 
+		"Koralreven" "Stjerneskibet" "Sydhavet" "Kaskelotten"
 	}
 }
 
@@ -174,11 +174,10 @@ DEN_THEME_CITIES = {
 	fallback_name = "Skib-A %d"
 
 	unique = {
-		"Aarhus" "Odense" "Aalborg" "Esbjerg" "Randers" "Kolding" "Horsens" "Vejle" "Roskilde" "Herning" "Hørsholm" "Helsingør" 
-		"Silkeborg" "Næstved" "Fredericia" "Viborg" "Køge" "Holstebro" "Taastrup" "Slagelse" "Hillerød" "Holbæk" "Sønderborg" 
-		"Svendborg" "Hjørring" "Frederikshavn" "Nørresundby" "Ringsted" "Haderslev" "Ølstykke-Stenløse" "Skive" "Birkerød" "Farum" 
-		"Smørumnedre" "Skanderborg" "Nyborg" "Lillerød" "Kalundborg" "Frederikssund" "Aabenraa" "Solrød Strand" "Ikast" "Middelfart" 
-		"Grenaa" "Korsør" "Varde" "Rønne" "Thisted" "Værløse"
+		"Aarhus" "Odense" "Aalborg" "Esbjerg" "Randers" "Kolding" "Horsens" "Vejle" "Roskilde" "Herning" "Hørsholm" "Helsingør" "Silkeborg" "Næstved" 
+		"Fredericia" "Viborg" "Køge" "Holstebro" "Taastrup" "Slagelse" "Hillerød" "Holbæk" "Sønderborg" "Svendborg" "Hjørring" "Frederikshavn" 
+		"Nørresundby" "Ringsted" "Haderslev" "Ølstykke-Stenløse" "Skive" "Birkerød" "Farum" "Smørumnedre" "Skanderborg" "Nyborg" "Lillerød" "Kalundborg" 
+		"Frederikssund" "Aabenraa" "Solrød Strand" "Ikast" "Middelfart" "Grenaa" "Korsør" "Varde" "Rønne" "Thisted" "Værløse"
 	}
 }
 
@@ -195,8 +194,7 @@ DEN_THEME_MOUNTAINS = { # Suprise suprise - Denmark is a flat country :/.
 	fallback_name = "Skib-B %d"
 
 	unique = {
-		"Møllehøj" "Yding Skovhøj" "Ejer Bavnehøj" "Lindbjerg" "Margretelyst" "Vistofte" "Rytterknægten" "Himmelbjerget" 
-		"Aborrebjerg"
+		"Møllehøj" "Yding Skovhøj" "Ejer Bavnehøj" "Lindbjerg" "Margretelyst" "Vistofte" "Rytterknægten" "Himmelbjerget" "Aborrebjerg"
 	}
 }
 
@@ -274,7 +272,7 @@ DEN_THEME_BATTLES = {
 }
 
 ### Theme: Mythology ###
-DEN_THEME_MYTHOLOGY = {
+DEN_THEME_NORDIC_MYTHOLOGY = {
 	name = NAME_THEME_NORDIC_MYTHOLOGY
 
 	for_countries = { DEN }

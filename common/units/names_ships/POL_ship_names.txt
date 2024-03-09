@@ -15,11 +15,11 @@ POL_CV_HISTORICAL = { # Aviators - Flying Creatures.
 	fallback_name = "Lotniskowiec %d"
 	
 	unique = {
-		# Aviators #
+		### Aviators ###
 		"Tadeusz Kościuszko" "Jan Kubiš" "Jerzy Giedroyc" "Franciszek Żwirko" "Anna Leska" "Ludomił Rayski" "Janusz Żurakowski"
 		"Władysław Turowicz" "Kazimierz Pułaski" "Stanisław Skalski" 
 
-		# Flying Creatures #
+		### Flying Creatures ###
 		"Sokół" "Albatros" "Koliber" "Ćma" "Świetlik" "Chrząszcz" "Feniks" "Harpia" "Rok" "Ptak Grzmotu" "Simurgh" "Garuda" 
 		"Hipogryf" "Wewern" "Tezaur"
 	} 
@@ -145,7 +145,7 @@ POL_SS_HISTORICAL = { # Animals - Regions - Sea Creatures.
 	fallback_name = "Okręt Podwodny %d"
 	
 	unique = {
-		### Historical ###
+		### Historical Models ###
 		"Orzeł" "Sęp" "Sokól" "Dzik" "Jastrząb" "Rys" "Wilk" "Żbik" "Kondor" "Bielik" 
 		"Kaszub" "Mazur" "Krakowiak" "Ślązak" "Kujawiak" "Kurp"
 

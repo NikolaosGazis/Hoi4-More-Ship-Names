@@ -266,8 +266,8 @@ SWE_THEME_CULTURE = {
 	}
 }
 
-### Theme: (Nordic) Mythology ###
-SWE_THEME_MYTHOLOGY = {
+### Theme: Mythology ###
+SWE_THEME_NORDIC_MYTHOLOGY = {
 	name = NAME_THEME_NORDIC_MYTHOLOGY
 
 	for_countries = { SWE }

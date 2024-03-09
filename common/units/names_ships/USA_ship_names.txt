@@ -36,7 +36,7 @@ USA_CV_HISTORICAL = { # Battles - Figures.
 		### Midway Class ###
 		"Midway" "Franklin D. Roosevelt" "Coral Sea" 
 		
-		### Cold War and Beyond ###
+		### Cold War & Beyond ###
 		"United States" "Forrestal" "Independence" "Kitty Hawk" "Constellation" "America" "John F. Kennedy" "Nimitz" "Dwight D. Eisenhower" 
 		"Carl Vinson" "Theodore Roosevelt" "Abraham Lincoln" "George Washington"
 

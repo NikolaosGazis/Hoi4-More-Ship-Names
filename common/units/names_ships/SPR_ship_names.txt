@@ -19,9 +19,8 @@ SPR_CV_HISTORICAL = { # Historical - Aviation Pioneers.
 		"Dédalo" "Príncipe de Asturias"
 
 		### Additionals ###
-		"Juan de la Cierva" "Emilio Herrera Linares" "Ramón Franco" "Francisco Largo Caballero" "Mariano Barberán" 
-		"Julio Ruiz de Alda Miqueleiz" "Elisa Léontine Deroche" "José Ortiz-Echagüe" "José Luis Barcelona" 
-		"Joaquín García Morato" "Ramón Franco Bahamonde" "Manuel Vázquez Sagastizábal"
+		"Juan de la Cierva" "Emilio Herrera Linares" "Ramón Franco" "Francisco Largo Caballero" "Mariano Barberán" "Julio Ruiz de Alda Miqueleiz" 
+		"Elisa Léontine Deroche" "José Ortiz-Echagüe" "José Luis Barcelona" "Joaquín García Morato" "Ramón Franco Bahamonde" "Manuel Vázquez Sagastizábal"
 	}
 }
 
@@ -42,9 +41,8 @@ SPR_BB_HISTORICAL = { # Figures.
 		"Jaime I" "España" "Alfonso XIII"
 
 		### Additionals ###
-		"Isabella" "Charles V" "Miguel de Cervantes" "Christopher Columbus" "Juan Sebastián Elcano"
-		"Diego Velázquez" "Francisco Goya" "Teresa de Ávila" "Miguel de Unamuno" "Federico García Lorca"
-		"Pablo Picasso" "Hernán Cortés" "Santiago Ramón Cajal" "Rosalía de Castro" "Carlos V"
+		"Isabella" "Charles V" "Miguel de Cervantes" "Christopher Columbus" "Juan Sebastián Elcano" "Diego Velázquez" "Francisco Goya" "Teresa de Ávila" 
+		"Miguel de Unamuno" "Federico García Lorca" "Pablo Picasso" "Hernán Cortés" "Santiago Ramón Cajal" "Rosalía de Castro" "Carlos V"
 		"Rodrigo Díaz de Vivar" "Alfonso X" "Santa Teresa" "Miguel de Cervantes"
 	} 
 }
@@ -66,8 +64,8 @@ SPR_BC_HISTORICAL = { # Battles - Admirals - Generals.
 		"Guadalajara" "Trafalgar" "Jarama" "Lepanto"
 
 		### Admirals/Generals ###
-		"Blas de Lezo" "Álvaro de Bazán" "Gonzalo Fernández de Córdoba" "Francisco de Quevedo" "Juan Prim"
-		"Federico Carlos Gravina" "Cosme Damián Churruca" "Casto Méndez Núñez" "Francisco Javier Castaños" 
+		"Blas de Lezo" "Álvaro de Bazán" "Gonzalo Fernández de Córdoba" "Francisco de Quevedo" "Juan Prim" "Federico Carlos Gravina" "Cosme Damián Churruca" 
+		"Casto Méndez Núñez" "Francisco Javier Castaños" 
 	}
 }
 
@@ -88,9 +86,8 @@ SPR_CA_HISTORICAL = { # Generals - Figures (Various).
 		"Canarias" "Baleares"
 
 		### Additionals ###
-		"Don Juan" "Miguel de Cervantes" "Fernando Álvarez" "Alfonso de Albuquerque" "Álvaro de Luna" "Lázaro de Tormes" 
-		"Ramón Cabrera" "Luis Daoíz" "Agustina de Aragón" "Juan Martín Díez" "Francisco Jiménez" "Álvar Núñez Cabeza" 
-		"Miguel de Unamuno" "Diego Velázquez" "El Greco" "Bartolomé Esteban Murillo"
+		"Don Juan" "Miguel de Cervantes" "Fernando Álvarez" "Alfonso de Albuquerque" "Álvaro de Luna" "Lázaro de Tormes" "Ramón Cabrera" "Luis Daoíz" 
+		"Agustina de Aragón" "Juan Martín Díez" "Francisco Jiménez" "Álvar Núñez Cabeza" "Miguel de Unamuno" "Diego Velázquez" "El Greco" "Bartolomé Esteban Murillo"
 	}
 }
 
@@ -117,10 +114,9 @@ SPR_CL_HISTORICAL = { # Historical - Cities.
 		"Almirante Cervera" "Libertad" "Miguel de Carvantes" "Galicia"
 
 		### Additionals (Top 35 Cities) ###
-		"Burgos" "Getafe" "Donostia" "Leganes" "Fuenlabrada" "Alcala de Henares" "Almeria" "Pamplona" "Santa Cruz" "Mostoles" 
-		"Frontera" "Sanadell" "Cartagena" "Oviedo" "Badalona" "Terrassa" "Granada" "Elche" "Coruna" "Vitoria-Gasteiz" "Gijon" 
-		"Vigo" "Valladolid" "Cordoba" "Alicante" "Madrid" "Barcelona" "Valencia" "Seville" "Zaragoza" "Malaga" "Murcia" "Palma" 
-		"Las Palmas" "Bilbao"
+		"Burgos" "Getafe" "Donostia" "Leganes" "Fuenlabrada" "Alcala de Henares" "Almeria" "Pamplona" "Santa Cruz" "Mostoles" "Frontera" "Sanadell" 
+		"Cartagena" "Oviedo" "Badalona" "Terrassa" "Granada" "Elche" "Coruna" "Vitoria-Gasteiz" "Gijon" "Vigo" "Valladolid" "Cordoba" "Alicante" 
+		"Madrid" "Barcelona" "Valencia" "Seville" "Zaragoza" "Malaga" "Murcia" "Palma" "Las Palmas" "Bilbao"
 	}
 }
 
@@ -156,15 +152,15 @@ SPR_SS_HISTORICAL = {
 	fallback_name = "S%d"
 	
 	ordered = {
-		1 = {"S0%d"}
-		2 = {"S0%d"}
-		3 = {"S0%d"}
-		4 = {"S0%d"} 
-		5 = {"S0%d"} 
-		6 = {"S0%d"} 
-		7 = {"S0%d"}
-		8 = {"S0%d"}
-		9 = {"S0%d"}
+		1 = {"S%d"}
+		2 = {"S%d"}
+		3 = {"S%d"}
+		4 = {"S%d"} 
+		5 = {"S%d"} 
+		6 = {"S%d"} 
+		7 = {"S%d"}
+		8 = {"S%d"}
+		9 = {"S%d"}
 	}
 }
 
@@ -324,7 +320,7 @@ SPR_THEME_MONARCHS = {
 		### House of Savoy ###
 		"Amadeo I"
 
-		###House of Bourbon ###
+		### House of Bourbon ###
 		"Alfonso XII" "Alfonso XIII"
 	}
 }

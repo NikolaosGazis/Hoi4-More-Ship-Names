@@ -11,41 +11,40 @@ JAP_CV_HISTORICAL = { # Flying Creatures.
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 	
-	fallback_name = "Seikikubo %d-go"	
+	fallback_name = "Kūbo %d-go"	
 
 	unique = {
-		### Akagi Class (1st Carrier Division) ###
+		### Akagi Class (1925) (1st Carrier Division) ###
 		"Akagi" "Kaga" 
 
-		### Soryu Class (2nd Carrier Division) ###
-		"Soryu" "Hiryu"
+		### Soryū Class (1935) (2nd Carrier Division) ###
+		"Soryū" "Hiryū"
 
-		### Shoukaku Class (5th Carrier Division) ###
-		"Shokaku" "Zuikaku"
+		### Shōkaku Class (1939) (5th Carrier Division) ###
+		"Shōkaku" "Zuikaku"
 
-		### Unryū Class ###
+		### Unryū Class (1943) ###
 		"Unryū" "Katsuragi" "Amagi"
 
-		### Taihō Class ###
+		### Taihō Class (1943) - Standalone ###
 		"Taihō"
 
 		### Additionals - Cranes (Because Shokaku Class) ###
 		"Tsurukaku" "Kumakaku" "Mizukaku" "Hoshikaku" "Nagarekaku" "Yukikaku" "Kizukaku" "Aikaku" "Kazekaku" "Takakaku" 
-		"Kokorokaku" "Hikarikaku" "Makurakaku" "Amakaku" "Yumekaku" "Kireikaku" "Asakaku" "Tachikaku" "Namidakaku" "Kibokaku"
+		"Kokorokaku" "Hikarikaku" "Makurakaku" "Amakaku" "Yumekaku" "Kireikaku" "Asakaku" "Tachikaku" "Namidakaku" "Kibokaku" 
+		"Manazuru"
 
 		### Additionals - Dragons ###
-		"Hakuryū" "Kokoryu" "Sekiryu" "Midorinoryu" "Koryu" "Shiryu" "Funryu" "Gekikōryū" "Shinpiryū" "Emerarudoryū"
+		"Hakuryū" "Kokoryū" "Sekiryū" "Midorinoryū" "Koryū" "Shiryū" "Funryū" "Gekikōryū" "Shinpiryū" "Emerarudoryū"
 		"Safaiairyū" "Kaminariryū" "Kageryū" "Koganeryū" "Rekkaryū" "Tenkūryū" "Kōryū" "Ginryū" "Onikisuryū" "Murasakiryū"
-		"Kōkiryū" "Kumonryu"
+		"Kōkiryū" "Kumonryū" "Toryū" "Ryūjin"
 
-		### Additionals - Mixed ###
-		"Aso" "Owari" "Ikoma" "Kamoi" "Kunai" "Kasagi" "Suribachi" "Ishikawa" "Bizan" "Kabutoyama" "Mizagasawa"
-		"Kinka" "Showashinzan" "Katsuma" "Mikami" "Nakayama" "Yonaha" "Manazuru" "Ohtori" "Toryu" "Hayabusa" "Ryujin"
-		"Kurenai" "Tsukiyomi" "Kamigoroshi" "Takemikazuchi" "Yuki-Onna" "Ryusei" "Kaminari" "Haruka" "Aozora" "Raiden"
+		### Additionals ###
+		"Ohtori"
 	} 
 }
 
-### Light Aircraft Carrier Names ###
+### Light/Escort Aircraft Carrier Names ###
 JAP_CVL_HISTORICAL = { # Older Models - Seaplane Tenders.
 	name = NAME_THEME_HISTORICAL_CVL
 
@@ -57,50 +56,52 @@ JAP_CVL_HISTORICAL = { # Older Models - Seaplane Tenders.
 	fallback_name = "Keikubo %d-go"	
 
 	unique = {
-		### Hosho Class ###
+		##### Light Aircraft Carriers #####
+
+		### Zuihō Class (1940) ###
+		"Zuihō" "Shōhō"
+
+		### Hōshō Class (1921) - Standalone ###
 		"Hosho"
 		
-		### Ryujo Class ###
+		### Ryūjo Class (1931) - Standalone ###
 		"Ryujo"
+
+		### Hiyō Class (1941) ###
+		"Hiyō" "Jun'yō"
+
+		### Ryūhō Class (1942) - Standalone ###
+		"Ryūhō"
 		
-		### Hiyo Class ###
-		"Hiyo" "Jun'yo"
-		
-		### Zuiho Class ###
-		"Zuiho" "Shoho" 
-		
-		### Chitose Class ###
+		### Chitose Class (1943) ###
 		"Chitose" "Chiyoda" 
-		
-		### Ryuho Class ###
-		"Ryuho"
 
 		##### Escort Aircraft Carriers #####
 		
-		### Taiyo Class ###
-		"Taiyo" "Chuyo" "Unyo"
+		### Taiyō Class (1941) ###
+		"Taiyō" "Chūyō" "Unyō"
 
-		### Kaiyo Class ###
-		"Kaiyo"
-
-		### Shinyo Class ###
-		"Shinyo"
-
-		### Akitsu Class ###
+		### Akitsu Maru Class (1941) ###
 		"Akitsu Maru" "Nigitsu Maru"
+
+		### Kaiyō Class (1943) - Standalone ###
+		"Kaiyō"
+
+		### Shin'yō Class (1943) - Standalone ###
+		"Shin'yō"
 		
-		### Shimane Maru Class ###
-		"Shimane Maru" 
+		### Shimane Maru Class (1944) ###
+		"Shimane Maru" "Otakisan Maru"
 		
-		### Yamashio Maru Class ###
-		"Yamashio Maru" 
+		### Yamashio Maru Class (1944) ###
+		"Yamashio Maru" "Chigusa Maru"
 		
-		### Kumano Maru Class ###
+		### Kumano Maru Class (1945) - Standalone ###
 		"Kumano Maru"
 		
 		### Additionals - Seaplane Tenders ###
-		"Chigusa Maru" "Otakisan Maru" "Nisshin" "Kamikawa Maru" "Kiyokawa Maru" "Kimikawa Maru" "Kunikawa Maru" "Akitsushima" 
-		"Kamoi" "Notoro" "Mizuho" "Hirokawa Maru" "Shiretoko" "Shimizu" "Kawabe" "Nanami" "Aoiro" "Hisui"
+		"Nisshin" "Kamikawa Maru" "Kiyokawa Maru" "Kimikawa Maru" "Kunikawa Maru" "Akitsushima" "Kamoi" "Notoro" "Mizuho" 
+		"Hirokawa Maru" "Shiretoko" "Shimizu" "Kawabe" "Nanami" "Aoiro" "Hisui"
 	}
 }
 
@@ -116,20 +117,33 @@ JAP_BB_HISTORICAL = { # Provinces - Tradition/Symbolism.
 	fallback_name = "Senkan %d-go"		
 
 	unique = {
-		"Hiei"
+		### Kongō Class (1913) (Battlecruiser Model but uses Battleship Names) ###
+		"Kongo" "Haruna" "Hiei" "Kirishima"
 
-		### Yamato Class (Proposed Names) ###
+		### Fusō Class (1915) ###
+		"Fuso" "Yamashiro"
+
+		### Ise Class (1915) ###
+		"Ise" "Hyuga"
+
+		### Nagato Class (1920) ###
+		"Nagato" "Mutsu"
+
+		### Tosa Class (1922) (1/2) ###
+		"Tosa"
+
+		### Yamato Class (1941) (Proposed Names) ###
 		"Yamato" "Musashi" "Shinano" "Satsuma" "Inazuma"
 		
 		### Older Models ###
-		"Izumo" "Fuji" "Yashima" "Shikishima" "Hatsuse" "Asahi" "Mikasa" "Tango" "Sagami" "Suwo" "Hizen" "Iwami" "Katori" "Kashima" "Aki" 
-		"Kawachi" "Settsu" "Fuso" "Yamashiro" "Ise" "Hyuga" "Nagato" "Mutsu" "Tosa" "Kii" "Owari" "Suruga" "Sagami" "Suwo" "Iki" 
+		"Izumo" "Fuji" "Yashima" "Shikishima" "Hatsuse" "Asahi" "Mikasa" "Tango" "Sagami" "Suwo" "Hizen" "Iwami" "Kashima" "Aki" "Kawachi" 
+		"Settsu" "Kii" "Owari" "Suruga" "Iki" 
 		
 		### Additionals ###
-		"Dewa" "Hitachi" "Noto" "Hida" "Mino" "Mikawa" "Kai" "Izumi" "Iga" "Tanba" "Sanuki" "Awa" "Osumi" "Tajima" "Iyo" "Omi" "Yoshino" 
-		"Shima" "Totomi" "Kazusa" "Shimosa" "Hitachi" "Suwa" "Kozuke" "Shimotsuke" "Uzen" "Ugo" "Rikuzen" "Harima" "Sado" "Mimaksasa" 
-		"Awaji" "Iyo" "Buzen" "Tsushima" "Oshima" "Shiribeshi" "Iburi" "Ishikari" "Teshio" "Kitami" "Hidaka" "Tokachi" "Kushiro" "Nemuro" 
-		"Chisima" "Tokugawa" "Yoshitsune" "Masashige" "Yoshinaka" "Kiyomori" "Atsuta"
+		"Raiden" "Kaminari" "Dewa" "Hitachi" "Noto" "Hida" "Mino" "Mikawa" "Kai" "Izumi" "Iga" "Tanba" "Sanuki" "Awa" "Osumi" "Tajima" "Iyo" 
+		"Omi" "Yoshino" "Shima" "Totomi" "Kazusa" "Shimosa" "Hitachi" "Suwa" "Kozuke" "Shimotsuke" "Uzen" "Ugo" "Rikuzen" "Harima" "Sado" 
+		"Mimaksasa" "Awaji" "Iyo" "Buzen" "Tsushima" "Oshima" "Shiribeshi" "Iburi" "Ishikari" "Teshio" "Kitami" "Hidaka" "Tokachi" "Kushiro"
+		"Nemuro" "Chisima" "Tokugawa" "Yoshitsune" "Masashige" "Yoshinaka" "Kiyomori" "Atsuta"
 	} 
 }
 
@@ -145,13 +159,12 @@ JAP_BC_HISTORICAL = { # Mountains - (First Class) Cruisers.
 	fallback_name = "Jun'yosenkan %d-go"		
 
 	unique = {
-		### Older Models ###
-		"Amagi" "Tsukuba" "Ikoma" "Kurama" "Kongo" "Hiei" "Haruna" "Kirishima"
+		### Tsukuba Class (1907) ###
+		"Tsukuba" "Ikoma"
 		
-		### Additions ###
-		"Fuji" "Kita" "Okuhotaka" "Aino" "Yari" "Warusawa" "Akaishi" "Karasawa" "Kitahotaka" "Obami""Maehotaka" "Naka" 
-		"Arakawa" "Ontake" "Nishinotori" "Shiomi" "Minami" "Senjo" "Norikura" "Tate" "Hijiri" "Tsurugi" "Suisho" "Kaikoma" 
-		"Kisokoma" "Shirouma" "Otensho" "Yakushi" "Washiba"
+		### Additionals ###
+		"Kita" "Okuhotaka" "Aino" "Yari" "Warusawa" "Akaishi" "Karasawa" "Kitahotaka" "Obami" "Maehotaka" "Naka" "Arakawa" "Ontake" "Nishinotori" 
+		"Shiomi" "Minami" "Senjo" "Norikura" "Tate" "Hijiri" "Tsurugi" "Suisho" "Kaikoma" "Kisokoma" "Shirouma" "Otensho" "Yakushi" "Washiba"
 	}
 }
 
@@ -167,19 +180,28 @@ JAP_CA_HISTORICAL = { # Mountains - (Second Class) Cruisers.
 	fallback_name = "Jujun'yokan %d-go"
 
 	unique = {
-		### Current Models ###
-		"Tone" "Chikuma" "Aso" "Tsugaru" "Soya" 
-		
-		### Older Models ###
-		"Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" 
-		
-		### Cancelled/Not Completed ###
-		"Ibuki" "Haogi" "Mogami" "Mikuma" "Suzuya" "Kumano"
+		### Furutaka Class (1926) ###
+		"Furutaka" "Kako"
+
+		### Aoba Class (1927) ###
+		"Aoba" "Kinugasa"
+
+		### Myoko Class (1928) ###
+		"Myoko" "Nachi" "Ashigara" "Haguro"
+
+		### Takao Class (1932) ###
+		"Takao" "Atago" "Chokai" "Maya"
+
+		### Tone Class (1938) ###
+		"Tone" "Chikuma"
+
+		### Ibuki Class (1942) ###
+		"Ibuki" "Kurama"
 		
 		### Additions ###
-		"Zao" "Azuma" "Aka" "Kasa" "Kashimayari" "Utsugi" "Jonen" "Sannosawa" "Minamikoma" "Kannon" "Kurobegoro" "Yoko" 
-		"Goryu" "Akanagi" "Jizo" "Tsubakuro" "Io" "Haku" "Nokogiri" "Bessan" "Tengu" "Neishi" "Kinpu" "Yumiori" "Tekari" 
-		"Shirane" "Asame" "Tateshina" "Nantai" "Sanpo" "Yoko" "Hiuchi" "Yake"
+		"Unzen" "Zao" "Azuma" "Aka" "Kasa" "Kashimayari" "Utsugi" "Jonen" "Sannosawa" "Minamikoma" "Kannon" "Kurobegoro" "Yoko" "Goryū" "Akanagi" 
+		"Jizo" "Tsubakuro" "Io" "Haku" "Nokogiri" "Bessan" "Tengu" "Neishi" "Kinpu" "Yumiori" "Tekari" "Shirane" "Asame" "Tateshina" "Nantai" "Sanpo" 
+		"Yoko" "Hiuchi" "Yake" "Nakayama"
 	}
 }
 
@@ -196,23 +218,42 @@ JAP_CL_HISTORICAL = { # Rivers.
 	fallback_name = "Keijun'yokan %d-go"
 
 	unique = {
-		### Current Models ###
-		"Suzuya" "Kumano" "Katori" "Kashima" "Kashii" "Kashiwara" "Agano" "Noshiro" "Yahagi" "Sakawa" "Oyodo"
+		### Tenryu Class (1919) ###
+		"Tenryu" "Tatsuta" 
+
+		### Kuma Class (1920) ###
+		"Kuma" "Tama" "Kiso" "Kitakami" "Oi" 
+
+		### Nagara Class (1922) ###
+		"Nagara" "Natori" "Kinu" "Yura" "Isuzu" "Abukuma"
+
+		### Sendai Class (1924) ###
+		"Sendai" "Jintsu" "Naka" "Yubari"
+
+		### Mogami Class (1935) (Converted to Heavy Cruisers) ###
+		"Mogami" "Mikuma" "Suzuya" "Kumano"
+
+		### Katori Class (1940) ###
+		"Katori" "Kashima" "Kashii" "Kashiwara"
+
+		### Agano Class (1942) ###
+		"Agano" "Noshiro" "Yahagi" "Sakawa"
+
+		### Ōyodo Class (1943) - Standalone ###
+		"Ōyodo" 
+
+		### Ioshima Class (1944) ###
+		"Ioshima" "Yasoshima"
 
 		### World of Warships ###
 		"Gokase" "Omono" "Shimanto" "Takahashi" "Yodo" "Tokachi"
-		
-		### Captured/Converted/Older Models ###
-		"Ioshima" "Yasoshima" "Hirado" "Yahagi"  "Tenryu" "Tatsuta" "Kuma" "Tama" "Kitakami" "Oi" "Kiso" "Nagara" "Isuzu"
-		"Natori" "Yura" "Kinu" "Abukuma""Yubari" "Sendai" "Jintsu" "Naka" "Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi"
-		"Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" "Tone" "Chikuma" "Aso" "Tsugaru" "Soya" "Ibuki" "Haogi" "Mogami" 
-		"Mikuma"
 		
 		### Additionals ###
 		"Iwaki" "Mabechi" "Takase" "Naruse" "Yoneshiro" "Koyoshi" "Kuji" "Tsurumi" "Oyabe" "Tedori" "Kano" "Shonai" "Suzuka" 
 		"Kumozu" "Kushida" "Maruyama" "Hino" "Takatsu" "Yoshii" "Ashida" "Yoshino" "Onga" "Yabe" "Matsuura" "Yamakuni" "Chikugo" 
 		"Rokkaku" "Kikuchi" "Kase" "Honmyo" "Oita" "Ono" "Ota" "Banjo" "Omaru" "Kimotsuki" "Abashiri" "Ishikari" "Toyohira" 
-		"Makomanai" "Anano" "Kushiro" "Mu" "Rumoi" "Saru" "Shiribeshi" "Shokotsu" "Teshio" "Tokoro" "Yubetsu"
+		"Makomanai" "Anano" "Kushiro" "Mu" "Rumoi" "Saru" "Shiribeshi" "Shokotsu" "Teshio" "Tokoro" "Yubetsu" "Ono" "Oita" "Midori" 
+		"Shira" "Niyodo" "Monobe" "Hiji" "Shigenobu" "Doki"
 	}
 }
 
@@ -299,12 +340,12 @@ JAP_MINELAYERS_HISTORICAL = { # Geography.
 	fallback_name = "Fusetsukan %d-go"
 
 	unique = {
-		### Cruiser and Destroyer Minelayers ###
+		### Cruiser & Destroyer Minelayers ###
 		"Okinoshima" "Hatsutaka" "Aotaka" "Wakataka" "Tsugaru" "Eijo" "Mino" "Katsuriki" "Shirataka" "Itsukushima" "Yaeyama"
 
-		### Older and Smaller Minelayer Names ###
+		### Older & Smaller Minelayer Names ###
 		"Natsushima" "Sokuten" "Toshima" "Kuroshima" "Ashizaki" "Katoku" "Kurokami" "Katashima" "Ento" "Enoshima" "Kurosaki" "Ninoshima" 
-		"Washizaki" "Kamome" "Tsubame" "Nasami" "Sarushima" "Shirakami" "Naryu" "Kyosai" "Ukishima" "Hirashima" "Hoko" "Ishizaki" "Takashima" 
+		"Washizaki" "Kamome" "Tsubame" "Nasami" "Sarushima" "Shirakami" "Naryū" "Kyosai" "Ukishima" "Hirashima" "Hoko" "Ishizaki" "Takashima" 
 		"Saishu" "Niizaki" "Yurijima" "Nuwashima" "Maeshima" "Ajiro" "Kamishima" "Awashima" 
 	}
 }
@@ -437,7 +478,7 @@ JAP_THEME_RIVER_MOUNTAIN = {
 
 	unique = {
 		"Asama" "Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" "Mogami" 
-		"Mikuma" "Suzuya" "Kumano" "Tone" "Chikuma" "Ibuki" "Yodo" "Hirado" "Yahagi" "Tenryu" "Tatsuta" "Kuma" "Tama" "Kitakami" 
+		"Mikuma" "Suzuya" "Kumano" "Tone" "Chikuma" "Ibuki" "Yodo" "Hirado" "Yahagi" "Tenryū" "Tatsuta" "Kuma" "Tama" "Kitakami" 
 		"Oi" "Kiso" "Nagara" "Isuzu" "Natori" "Yura" "Kinu" "Abukuma" "Yubari" "Sendai" "Jintsu" "Naka" "Agano" "Noshiro" "Yahagi" 
 		"Sakawa" "Oyodo" "Ayase" "Minase" "Otonase" 
 	}
