@@ -19,9 +19,9 @@ TUR_CV_HISTORICAL = { # Cities - World War 1 Personnel.
 		"Tekirdag" "Bandirma"
 
 		### World War 1 Personnel ###
-		"Ahmet Ali Çelikten" "Fethi Bey" "Sabit Bey" "Nuri Conker" "Salih Ekrem" "Mehmet Fesa Evrensev" "Selahattin Sami"
-		"Mehmet Sâfvet" "Nuri Demirağ" "Halil Sami" "Fevzi Çakmak" "Kâzım Orbay" "Ferid Bey" "Kâzım Karabekir"
-		"Süreyya İlmen" "Hasan Rami Bey" "Ahmet Fethi" "Yusuf Kenan Bey" "Hafız Hakkı Bey" "Mustafa Ertuğrul Aker" 
+		"Ahmet Ali Çelikten" "Fethi Bey" "Sabit Bey" "Nuri Conker" "Salih Ekrem" "Mehmet Fesa Evrensev" "Selahattin Sami" "Mehmet Sâfvet"
+		"Nuri Demirağ" "Halil Sami" "Fevzi Çakmak" "Kâzım Orbay" "Ferid Bey" "Kâzım Karabekir" "Süreyya İlmen" "Hasan Rami Bey" "Ahmet Fethi"
+		"Yusuf Kenan Bey" "Hafız Hakkı Bey" "Mustafa Ertuğrul Aker" 
 	}
 }
 
@@ -42,9 +42,9 @@ TUR_BB_HISTORICAL = { # World War 1 - Big Cities - Figures.
 		"Abdül Kadir" "Barbaros Hayreddin" "Turgud Reis" "Reşadiye" "Reshad-I-Hamiss" "Fatih"
 
 		### Additionals ###
-		"Instanbul" "Ankara" "Izmir" "Mustafa Kemal Atatürk" "Halide Edib Adıvar" "Ziya Gökalp" "Refik Halit Karay" 
-		"Fatma Aliye Topuz" "Namik Kemal" "Ahmet Haşim" "Ahmet Ağaoğlu" "Süleyman Nazif" "Cemal Paşa" 
-		"Hüseyin Rahmi Gürpınar" "Fikriye Hanım" "Salih Bozok" "Refet Bele"
+		"Instanbul" "Ankara" "Izmir" "Mustafa Kemal Atatürk" "Halide Edib Adıvar" "Ziya Gökalp" "Refik Halit Karay"
+		"Fatma Aliye Topuz" "Namik Kemal" "Ahmet Haşim" "Ahmet Ağaoğlu" "Süleyman Nazif" "Cemal Paşa" "Hüseyin Rahmi Gürpınar"
+		"Fikriye Hanım" "Salih Bozok" "Refet Bele"
 	}
 }
 
@@ -258,7 +258,7 @@ TUR_THEME_MYTHOLOGY = {
 
 	unique = {
 		"Nasreddin Hodja" "Dede Korkut" "Büyücü" "Asena" "Köroğlu" "Battal Gazi" "Hizir" "Keloğlan" "Şahmeran" "Gök Han" "Alp Er Tunga" "Ergenekon" 
-		"Kara Kiz" "Kara Tunc" "Aslihan Hatun" "Dadas Korkut" "Kuzguni" "Kara Sovalye" "Sahin Bey" "Karayel" "Cengaver" "Kurtadam" "Sari Kiz" "Kara Murat" 
-		"Deli Dumrul" "Kara Dervis" "Kara Ali"
+		"Kara Kiz" "Kara Tunc" "Aslihan Hatun" "Dadas Korkut" "Kuzguni" "Kara Sovalye" "Sahin Bey" "Karayel" "Cengaver" "Kurtadam" "Sari Kiz" 
+		"Kara Murat" "Deli Dumrul" "Kara Dervis" "Kara Ali"
 	}
 }

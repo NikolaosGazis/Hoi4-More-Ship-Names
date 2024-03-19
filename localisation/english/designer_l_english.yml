@@ -287,6 +287,7 @@
 
  # Imperial Themes # 
  NAME_THEME_IMPERIAL_CARRIERS:0 "Imperial Carriers"
+ NAME_THEME_IMPERIAL_ACES:0 "Imperial Aces"
  NAME_THEME_IMPERIAL_CVL:0 "Imperial Light/Escort Carriers"
  NAME_THEME_IMPERIAL_BB:0 "Imperial Battleships"
  NAME_THEME_IMPERIAL_BC:0 "Imperial Battlecruisers"
@@ -297,6 +298,13 @@
  NAME_THEME_IMPERIAL_MINELAYERS:0 "Imperial Minelayers"
  NAME_THEME_IMPERIAL_MINESWEEPERS:0 "Imperial Minesweepers"
  NAME_THEME_IMPERIAL_SUBMARINES:0 "Imperial Submarines"
+ NAME_THEME_IMPERIAL_CITIES:0 "Cities (Imperial)"
+ NAME_THEME_IMPERIAL_MOUNTAINS:0 "Mountains (Imperial)"
+ NAME_THEME_IMPEIAL_RIVERS:0 "Rivers (Imperial)"
+ NAME_THEME_IMPERIAL_ANIMALS:0 "Animals (Imperial)"
+ NAME_THEME_IMPERIAL_FISH:0 "Fish (Imperial)"
+ NAME_THEME_IMPERIAL_BATTLES:0 "Famous Battles (Imperial)"
+ NAME_THEME_IMPERIAL_MYTHOLOGY:0 "Mythology (Imperial)"
 
  # Confederate Themes #
  NAME_THEME_CONFEDERATE_CARRIERS:0 "Confederate Carriers"
@@ -308,19 +316,14 @@
  NAME_THEME_CONFEDERATE_SUBMARINES:0 "Confederate Submarines"
 
  # General Themes #
+ NAME_THEME_COMMUNIST_FIGURES:0 "Communist Figures"
+ NAME_THEME_PRUSSIAN_GENERALS:0 "Prussian Generals"
  NAME_THEME_SAMURAIS:0 "Samurais"
  NAME_THEME_MINES:0 "Mineships"
  NAME_THEME_SULTANS:0 "Sultans"
  NAME_THEME_AVIATORS:0 "Aviators"
  NAME_THEME_ACES:0 "Aces"
  NAME_THEME_COMMUNITIES:0 "Communities"
- NAME_THEME_IMPERIAL_CITIES:0 "Cities (Imperial)"
- NAME_THEME_IMPERIAL_MOUNTAINS:0 "Mountains (Imperial)"
- NAME_THEME_IMPEIAL_RIVERS:0 "Rivers (Imperial)"
- NAME_THEME_IMPERIAL_ANIMALS:0 "Animals (Imperial)"
- NAME_THEME_IMPERIAL_FISH:0 "Fish (Imperial)"
- NAME_THEME_IMPERIAL_BATTLES:0 "Famous Battles (Imperial)"
- NAME_THEME_IMPERIAL_MYTHOLOGY:0 "Mythology (Imperial)"
  NAME_THEME_FJORDS:0 "Fjords"
  NAME_THEME_SAMURAIS:0 "Samurais"
  NAME_THEME_SYMBOLISM:0 "Symbolism"

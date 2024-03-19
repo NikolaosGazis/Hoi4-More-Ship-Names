@@ -1,7 +1,8 @@
 ﻿##### German Ship Names #####
 
-# KMS = Kriegsmarine Schiff.
-# SMS = Seine Majestäts Schiff.
+# KMS = Kriegsmarine Schiff (Not Used).
+# SMS = Seine Majestäts Schiff (Imperial).
+# FGS/DVS = Federal German Ship/Demokratische Volksschiff (NATO).
 
 ### Aircraft Carrier Names ###
 GER_CV_HISTORICAL = { # Aviation Pioneers - Aces.
@@ -22,7 +23,8 @@ GER_CV_HISTORICAL = { # Aviation Pioneers - Aces.
 		"August von Parseval" "Ehrenfried von Hünefeld" "Otto Lilienthal" "Erich Thomas" "August Euler" "Karl Jatho" 
 		"Gustave Weisskopf" "Ernst von Hoeppner" "Hans Weiss" "Richard Waghorn" "Hugo Eckener" "Wilhelm Wright" "Karl Wright"
 		"Reimar Horten" "Walter Horten" "Hermann Winter" "Hugo von Abercron" "Oskar Erbslöh" "Hans Georg Friedrich"
-		"Paul Haenlein" "Theodor Kober" "Ernst Lehmann" "Albert Sammt" "Friedrich Wölfert"
+		"Paul Haenlein" "Theodor Kober" "Ernst Lehmann" "Albert Sammt" "Friedrich Wölfert" "Arthur Berson" "Arthur Müller"
+		"Max Pruss" "Hans von Schiller" "Paul Laubenthal" "Friedrich Meerwein"
 		
 		### World War 1 Aces ###
 		"Max Immelmann" "Alois Heldmann" "Fritz Beckhardt" "Franz Hemer" "Wilhelm Reinhard" "Hans von Freden" "Fritz Höhn" 
@@ -30,17 +32,20 @@ GER_CV_HISTORICAL = { # Aviation Pioneers - Aces.
 		"Heinrich Bongartz" "Max Ritter von Müller" "Heinrich Gontermann" "Franz Büchner" "Bruno Loerzer"  "Rudolf Berthold" 
 		"Fritz Rumey" "Werner Voss" "Josef Jacobs" "Erich Löwenhardt" "Ernst Udet" "Lothar von Richthofen" "Manfred von Richthofen"
 		
-		### Aviaton Manufucters/Founders/Designers ###
+		### Aviaton Manufacturers/Founders/Designers ###
 		"Wilhelm Messerschmitt" "Hugo Junkers" "Henrich Focke" "Georg Wulf" "Ernst Heinkel" "Claude Dornier" "Rudolf Blohm" 
 		"Walther Blohm" "Walter Huth" "Otto Wiener" "Anthony Fokker" "Rudolf Gehringer" "Reinhold Platz" "Robert Thelen" 
-		"Julius Hauth" "Siegfried Günter"
+		"Julius Hauth" "Siegfried Günter" "Walter Rieseler" "Alexander Baumann" "Franz Hirth" "Willy Rücker" "Walter Rücker" 
+		"Otto Langen" "Eugen Langen" "Max Gerner" "Wilhelm Schwärzler" "Karl Schwärzler" "Hugo Stinnes" "Karl Rapp"
 		
 		### World War 2 Aces ###
 		"Erich Hartmann" "Hans Beisswenger" "Heinrich Sturm" "Heinz Schmidt" "Erich Rudorffer" "Otto Kittel" "Günther Rall" 
-		"Gerhard Barkhorn" "Werner Mölders" "Reinhard Seiler" "Heinrich Sterr" "Robert Weiss" "Heinz Sachsenberg"
+		"Gerhard Barkhorn" "Werner Mölders" "Reinhard Seiler" "Heinrich Sterr" "Robert Weiss" "Heinz Sachsenberg" "Hermann Graf"
+		"Hans Philipp" "Walter Nowotny" "Heinrich Bär" "Theodor Weissenberger" "Wilhelm Batz" "Anton Hafner" "Heinrich Ehrler"
 
 		### Additionals ###
-		"Hanna Reitsch" "Wernher von Braun" "Elly Beinhorn" "Alexander Lippisch"
+		"Melli Beese" "Hanna Reitsch" "Wernher von Braun" "Elly Beinhorn" "Alexander Lippisch" "Margarete von Etzdorf"
+		"Hermann Köhl" "Käthe Paulus" "Georg von Tschudi" "Liesel Bach" "Luise Hoffmann" "Thea Rasche"
 	}
 }
 
@@ -49,21 +54,35 @@ GER_CVL_HISTORICAL = { # Rivers.
 	name = NAME_THEME_HISTORICAL_CVL
 	
 	for_countries = { GER PRE WGR DDR }
-	
+
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 
 	fallback_name = "Leichtflugzeugträger %d"
 	
 	unique = {
-		"Rhein" "Weser" "Jade" "Elbe" "Havel" "Donau" "Oder" "Warnow" "Recknitz" "Neiße" "Main" "Trave" "Uecker" "Inn" 
-		"Isar" "Maas" "Ruhr" "Spree" "Mosel" "Wupper" "Saar" "Alf" "Neckar" "Aurora" "Danube" "Salzach" "Sauer" "Naab" 
-		"Paar" "Schmutter" "Günz" "Emscher" "Acher" "Kocher" "Regen" "Brenz" "Lieser" "Potsdam" "Fulda" "Lahn" "Aller"
+		### Known ###
+		"Rhein" "Weser" "Jade" "Elbe" 
+
+		### Baltic Sea ###
+		"Schwentine" "Trave" "Stepenitz" "Warnow" "Nebel" "Recknitz" "Peenestrom" "Peene" "Tollense" "Swine" "Uecker" "Oder"
+
+		### Black Sea ###
+		"Inn" "Rott" "Salzach" "Saalach" "Alz" "Chiemsee" "Archen" "Isen" "Ilz" "Vils" "Isar" "Ammer" "Loisach" "Laber" "Regen" "Chamb"
+		"Naab" "Altmühl" "Abens" "Ilm" "Paar" "Lech" "Wertach" "Schmutter" "Zusam" "Wörnitz" "Brenz" "Mindel" "Kammel" "Günz" "Iller"
+		"Rot" "Riß" "Lauchert"
+
+		### North Sea ###
+		"Maas" "Niers" "Rur" "Wurm" "Inde" "Lippe" "Alme" "Emsche" "Volme" "Lenne" "Möhne" "Erft" "Wupper" "Sieg" "Agger" "Nister" "Ahr"
+		"Wied" "Moselle" "Elzbach" "Alf" "Lieser" "Salm" "Kyll" "Saar" "Nied" "Prims" "Blies" "Schwarzbach" "Sauer" "Prüm" "Nims" "Our"
+		"Lahn" "Aar" "Weil" "Dill" "Ohm" "Nahe" "Alsenz" "Glan" "Selz" "Main" "Nidda" "Wetter" "Kinzig" "Tauber" "Saale" "Regnitz" "Pegnitz"
+		"Rednitz" "Rezat" "Itz" "Neckar" "Jagst" "Kocher" "Enz" "Glems" "Murr" "Rems" "Fils" "Queich" "Pfinz" "Lauter" "Murg" "Sauler"
+		"Sauer" "Acher" "Rench" "Schutter" "Elz" "Wiese" "Wutach"
 	}
 }
 
 ### Battleships Names ###
-GER_BB_HISTORICAL = { # Figures - Knights - Generals - Provinces and Cities - World War 1 Models.
+GER_BB_HISTORICAL = { # Figures - Knights - Generals - Provinces/Cities - World War 1 Models.
 	name = NAME_THEME_HISTORICAL_BB
 
 	for_countries = { GER PRE WGR DDR }
@@ -80,46 +99,46 @@ GER_BB_HISTORICAL = { # Figures - Knights - Generals - Provinces and Cities - Wo
 		### Bismarck Class (1940) ###
 		"Bismarck" "Tirpitz"
 		
-		### H-Class (1941) (Knights) ###
+		### H-Class (1941) - Knights ###
 		"Friedrich der Große" "Ulrich von Hutten" "Konrad von Burgsdorff" "Götz von Berlichingen"
 		"Franz von Sickingen" "Friedrich Fritz Lanz"
 		
-		### World War 1 Generals ###
+		### Additionals - World War 1 Generals ###
 		"Hindenburg" "Ludendorff" "Eichhorn" "Gallwitz" "Bülow" "Kluck" "Below" "Einem" "Scheuchenstuel"
 		"Boehn"
 
-		### Vaterland Class ###
+		### Vaterland Class (OC) ###
 		"Vaterland" "Großdeutschland" 
 
-		### Brandenburg Class ###
+		### Brandenburg Class (1891) ###
 		"Brandenburg" "Friedrich Wilhelm" "Weissenburg" "Wörth"
 
-		### Wittelsbach Class ###
+		### Wittelsbach Class (1896) ###
 		"Wittelsbach" "Wettin" "Zähringen" "Schwaben" "Mecklenburg"
 		
-		### Braunschweig Class ###
+		### Braunschweig Class (1900) ###
 		"Braunschweig" "Elsass" "Hessen" "Preussen" "Lothringen"
 		
-		### Deutschland Class ###
-		"Hannover" "Pommern"
+		### Deutschland Class (1904) ###
+		"Hannover" "Pommern" "Schlesien" "Schleswig-Holstein"
 
-		### Nassau Class ###
+		### Nassau Class (1908) ###
 		"Nassau" "Westfalen" "Rheinland" "Posen"
 
-		### Helgoland Class ###
+		### Helgoland Class (1909) ###
 		"Helgoland" "Ostfriesland" "Thüringen" "Oldenburg"
 
-		### Kaiser Class ###
+		### Kaiser Class (1911) ###
 		"König Albert"
 
-		### König Class ###
+		### König Class (1913) ###
 		"König" "Grosser Kurfürst" "Markgraf" "Kroprinz"
 
-		### Bayern Class ###
+		### Bayern Class (1915) ###
 		"Bayern" "Baden" "Sachsen" "Württemberg"
 
 		### Additionals ###
-		"Ostfriesland" "Pillau" "Orbotrit" "Ostmark" "Schleswig" "Holstein" "Franken" "Strelitz"
+		"Ostfriesland" "Pillau" "Orbotrit" "Ostmark" "Franken" "Strelitz"
 	}
 }
 
@@ -135,15 +154,20 @@ GER_BC_HISTORICAL = { # World War 1 Models - Prussian/German Generals.
 	fallback_name = "Schlachtkreuzer %d"
 
 	unique = {
-		### Von der Tann Class ###
+		### Von der Tann Class (1909) ###
 		"Von der Tann"
 
-		### Moltke Class ###
+		### Moltke Class (1910) ###
 		"Moltke" "Goeben"
 
-		### Derfflinger Class ###
-		"Derfflinger" "Mackensen" "Prinz Eitel Friedrich" "Ersatz Yorck" "Holtzendorff" "Lettow-Vorbeck" 
-		"Friedrich Barbarossa" "Karl der Große"
+		### Derfflinger Class (1913) (1/3) ###
+		"Derfflinger" 
+
+		### Mackensen Class (-) ###	
+		"Mackensen" "Prinz Eitel Friedrich" 
+
+		### Ersatz Yorck Class (-) (1/3) ###
+		"Ersatz Yorck"
 		
 		### World of Warships ###
 		"Prinz Heinrich" "Zieten" "Prinz Rupprecht" "Schlieffen"
@@ -151,7 +175,7 @@ GER_BC_HISTORICAL = { # World War 1 Models - Prussian/German Generals.
 		### Additionals ###
 		"Kalckstein" "Marchtaler" "Gustav-Kessel" "Zastrow" "Litzmann" "Hausen" "Krafft-Ebing" "Hoffmann" "Marwitz" "Laffert" 
 		"Mudra" "François" "Conta" "Dellmensingen" "Beseler" "Pannewitz" "Emmich" "Manteuffel" "Blumenthal" "Waldersee"
-		"Hahnke" "Loë" ""
+		"Hahnke" "Loë" "Holtzendorff" "Lettow-Vorbeck" "Friedrich Barbarossa" "Karl der Große"
 	}
 }
 
@@ -167,11 +191,11 @@ GER_CB_HISTORICAL = { # Mythology.
 	fallback_name = "Großer Kreuzer %d"
 
 	unique = {
-		"Odin" "Thor" "Ägir" "Jöttun" "Siegfried" "Brünhilde" "Vineta" "Freyja" "Freyr" "Baldur" "Herta" "Tyr" "Friia" 
-		"Uolla" "Phol" "Gausus" "Mittgart" "Alb" "Hellea" "Thrym" "Ran" "Hymir" "Thrud" "Mannus" "Idun" "Vili" "Mimir" 
-		"Zisa" "Sigi" "Vihansa" "Himilinberg" "Atla" "Ran" "Hödur" "Hymir" "Borr" "Baduhenna" "Bragi" "Lodur" "Mani" 
-		"Norns" "Heimdall" "Sif" "Eostre" "Frigg" "Eir" "Forseti" "Skadi" "Siegrune" "Huldra" "Kobold" "Lorelei" "Zwerg" 
-		"Faust" "Asgard" "Ragnarok"
+		"Odin" "Thor" "Ägir" "Jöttun" "Siegfried" "Brünhilde" "Forseti" "Váli" "Modi" "Magni" "Tuisto" "Týr" "Freyr" "Máni" "Mímir" 
+		"Odr" "Meili" "Heremod" "Vili" "Heimdallr" "Bragi" "Alcis" "Hoenir" "Loki" "Njörðr" "Saxnōt" "Baldr" "Delingr" "Ullr" "Vé" 
+		"Baduhenna" "Bil" "Idis" "Norns" "Tamfana" "Gefjun" "Beyla" "Ilmr" "Lofn" "Irpa" "Hariasa" "Hlín" "Njörun" "Skaði" "Gná" 
+		"Rindr" "Zisa" "Sága" "Hretha" "Vör" "Nehalennia" "Nanna" "Haeva" "Idunn" "Fulla" "Nerthus" "Frigg" "Gullveig" "Sinthgunt" 
+		"Sif" "Freyja"
 	}
 }
 
@@ -187,10 +211,10 @@ GER_CA_HISTORICAL = { # Generals - Admirals - Noble Family.
 	fallback_name = "Schwerer Kreuzer %d"
 	
 	unique = {
-		### Deutschland(Lützow) Class ###
+		### Deutschland/Lützow Class (1933) ###
 		"Deutschland" "Admiral Scheer" "Admiral Graf Spee"
 		
-		### Admiral Hipper Class. ###
+		### Admiral Hipper Class (1939) ###
 		"Admiral Hipper" "Blücher" "Prinz Eugen" "Seydlitz" "Lützow"
 
 		### Additionals ###
@@ -208,7 +232,7 @@ GER_CA_HISTORICAL = { # Generals - Admirals - Noble Family.
 }
 
 ### Light Cruiser Names ###
-GER_CL_HISTORICAL = { # Cities.
+GER_CL_HISTORICAL = { # Cities - World War 1 Models (Mythology).
 	name = NAME_THEME_HISTORICAL_CL
 
 	for_countries = { GER PRE WGR DDR }
@@ -219,21 +243,34 @@ GER_CL_HISTORICAL = { # Cities.
 	fallback_name = "Leichter Kreuzer %d"
 
 	unique = {
-		"Emden" "Königsberg" "Karlsruhe" "Köln" "Leipzig" "Nürnberg" "München" "Berlin" "Hamburg" "Stuttgart" "Bremen" "Lübeck" "Danzig" 
-		"Stettin" "Dresden" "Mainz" "Augsburg" "Magdeburg" "Breslau" "Hannover" "Stralsund" "Frankfurt" "Rostock" "Elbing" "Straßburg" 
-		"Regensburg" "Wiesbaden" "Aachen" "Potsdam" "Heidelberg" "Kiel" "Würzburg" "Münster" "Darmstadt" "Chemnitz" "Braunschweig" 
-		"Kassel" "Oldenburg" "Düsseldorf" "Halle" "Wien" "Dortmund" "Freiburg" "Duisburg" "Mannheim" "Erfurt" "Osnabrück" "Essen" 
-		"Wolfsburg" "Wuppertal" "Prag" "Innsbruck" "Saarbrücken" "Posen" "Mülhausen" "Paderborn" "Brünn" "Ingolstadt" "Bielefeld" 
-		"Salzburg" "Pilsen" "Mülheim" "Heilbronn" "Bonn" "Graz" "Oberhausen" "Ludwigshafen" "Bochum" "Solingen" "Linz" "Mönchengladbach" 
-		"Fürth" "Trier" "Hagen" "Krefeld" "Ulm" "Göttingen" "Gelsenkirchen" "Recklinghausen" "Pforzheim" "Hamm" "Bottrop" "Bremerhaven" 
-		"Reutlingen" "Jena" "Koblenz" "Leverkusen" "Neuss" "Offenbach" "Herne" "Remscheid" "Kaiserslautern" "Salzgitter" "Schwerin" 
-		"Cottbus" "Wilhelmshaven" "Erlangen" "Siegen" "Hildesheim" "Zwickau" "Medusa" "Niobe" "Nymphe" "Brummer" "Bremse" "Gazelle" 
-		"Thetis" "Ariadne" "Amazone" "Frauenlob" "Arcona" "Undine" "Hela" "Gefion" "Flensburg"
+		### Emden Class (1925) ###
+		"Emden"
+
+		### Königsberg Class (1929) ###
+		"Königsberg" "Karlsruhe" "Köln" 
+
+		### Leipzig Class (1931) ###
+		"Leipzig" "Nürnberg" 
+
+		### Additionals ###
+		"München" "Berlin" "Hamburg" "Stuttgart" "Bremen" "Lübeck" "Danzig" "Stettin" "Dresden" "Mainz" "Augsburg" "Magdeburg" "Breslau"
+		"Hannover" "Stralsund" "Frankfurt" "Rostock" "Elbing" "Straßburg" "Regensburg" "Wiesbaden" "Aachen" "Potsdam" "Heidelberg" "Kiel"
+		"Würzburg" "Münster" "Darmstadt" "Chemnitz" "Braunschweig" "Kassel" "Oldenburg" "Düsseldorf" "Halle" "Wien" "Dortmund" "Freiburg"
+		"Duisburg" "Mannheim" "Erfurt" "Osnabrück" "Essen" "Wolfsburg" "Wuppertal" "Prag" "Innsbruck" "Saarbrücken" "Mülhausen"
+		"Paderborn" "Brünn" "Ingolstadt" "Bielefeld" "Salzburg" "Pilsen" "Mülheim" "Heilbronn" "Bonn" "Graz" "Oberhausen" "Ludwigshafen"
+		"Bochum" "Solingen" "Linz" "Mönchengladbach" "Fürth" "Trier" "Hagen" "Krefeld" "Ulm" "Göttingen" "Gelsenkirchen" "Recklinghausen"
+		"Pforzheim" "Hamm" "Bottrop" "Bremerhaven" "Reutlingen" "Jena" "Koblenz" "Leverkusen" "Neuss" "Offenbach" "Herne" "Remscheid"
+		"Kaiserslautern" "Salzgitter" "Schwerin" "Cottbus" "Wilhelmshaven" "Erlangen" "Siegen" "Hildesheim" "Zwickau" "Medusa" "Niobe"
+		"Nymphe" "Brummer" "Bremse" "Gazelle" "Thetis" "Ariadne" "Amazone" "Frauenlob" "Arcona" "Undine" "Hela" "Gefion" "Flensburg" "Aach"
+		"Aalen" "Calau" "Dargun" "Diez" "Dommitzsch" "Ebeleben" "Eggenfelden" "Elterlein" "Elstra" "Freystadt" "Füssen" "Gernsbach" "Greiz"
+		"Griesheim" "Herrnhut" "Höxter" "Lychen" "Jarmen" "Kierspe" "Kahla" "Magdala" "Nossen" "Oederan" "Oschatz" "Püttlingen" "Penig"
+		"Rabenau" "Rethem"  "Spalt" "Scheinfeld" "Schwerin" "Sternberg" "Teupitz" "Teuschnitz" "Ummerstadt" "Ulrichstein" "Visselhövede"
+		"Vilsbiburg" "Neukölln"
 	}
 }
 
 ### Destroyer Names ###
-GER_DD_HISTORICAL = { # Navy Personal of World War 1.
+GER_DD_HISTORICAL = { # Naval Personnel.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
 	for_countries = { GER PRE WGR DDR }
@@ -368,6 +405,36 @@ GER_DD_HISTORICAL = { # Navy Personal of World War 1.
 		"Z118 Leopold Koellner"
 		"Z119 Adolf Thiele"
 		"Z120 Alfred Herz"
+		"Z121 Richard Ackermann"
+		"Z122 Emil von Waldegg"
+		"Z123 Friedrich Brutzer"
+		"Z124 Walther Franz"
+		"Z125 Hermann Bauer"
+		"Z126 Konrad Mommsen"
+		"Z127 Theodor Püllen"
+		"Z128 Hugo Dominik"
+		"Z129 Heinrich Löhlein"
+		"Z130 Ernst Credner"
+		"Z131 Hugo Plachte"
+		"Z132 Gottlieb Becker"
+		"Z133 Hans Meyer"
+		"Z134 Johannes Stein"
+		"Z135 Walther Faber"
+		"Z136 Reinhold von Werner"
+		"Z137 Paul Berndt"
+		"Z138 Wilfried von Loewenfeld"
+		"Z139 Oskar Heinecke"
+		"Z140 Martin Hosemann"
+		"Z141 Wilhelm Kahlert"
+		"Z142 Ernst Friedrich"
+		"Z143 Ludwig Kahlhausen"
+		"Z144 Hugo von Rosenberg"
+		"Z145 Wolfgang Wegener"
+		"Z146 Johannes Brachmann"
+		"Z147 Wilhelm von Haxthausen"
+		"Z148 Walter Hildebrand"
+		"Z149 Lothar von Gohren"
+		"Z150 Max Looff"
 	}
 }
 
@@ -383,10 +450,17 @@ GER_TB_HISTORICAL = { # Animals.
 	fallback_name = "T-%d"
 
 	unique = {
-		"Möwe" "Albatros" "Seeadler" "Greif" "Falke" "Kondor" "Wolf" "Iltis" "Gepard" "Panther" "Tiger" "Löwe" "Luchs" "Bär" "Jaguar" 
-		"Leopard" "Kobra" "Viper" "Drache" "Wiesel" "Delphin" "Wal" "Rabe" "Habicht" "Wisent" "Puma" "Natter" "Otter" "Biber" "Bison" 
-		"Elch" "Dachs" "Hirsch" "Steinbock" "Zebra" "Hermelin" "Nerz" "Zobel" "Ozelot" "Hyäne" "Marder" "Reiher" "Fuchs" "Storch" 
-		"Kranich" "Kormoran" "Sperber" "Bussard" "Geier" "Wildschwein" "Hund" "Katze" "Hase" "Ente" "Schildkröte" "Eule"
+		### Type 23 Class - Raubvogel ###
+		"Möwe" "Albatros" "Seeadler" "Greif" "Falke" "Kondor" 
+
+		### Type 24 Class - Raubtier ###
+		"Wolf" "Iltis" "Jaguar" "Leopard" "Luchs" "Tiger"
+
+		### Additionals ###
+		"Bär" "Gepard" "Panther" "Löwe" "Kobra" "Viper" "Drache" "Wiesel" "Rabe" "Habicht" "Wisent" "Puma" "Natter" "Otter" 
+		"Biber" "Bison" "Elch" "Dachs" "Hirsch" "Steinbock" "Zebra" "Hermelin" "Nerz" "Zobel" "Ozelot" "Hyäne" "Marder" 
+		"Reiher" "Fuchs" "Storch" "Kranich" "Kormoran" "Sperber" "Bussard" "Geier" "Hund" "Katze" "Hase" "Ente" "Schildkröte" 
+		"Eule" "Pferd" "Kuh" "Ziege" "Mamba" "Königskobra" "Boa" "Python" "Kreuzotter"
 	}
 }
 
@@ -428,16 +502,17 @@ GER_THEME_CITIES = {
 	fallback_name = "Schiff-A %d"
 
 	unique = {
-		"Emden" "Königsberg" "Karlsruhe" "Köln" "Leipzig" "Nürnberg" "München" "Berlin" "Hamburg" "Stuttgart" "Bremen" "Lübeck" "Danzig" 
-		"Stettin" "Dresden" "Mainz" "Augsburg" "Magdeburg" "Breslau" "Hannover" "Stralsund" "Frankfurt" "Rostock" "Elbing" "Straßburg" 
-		"Regensburg" "Wiesbaden" "Aachen" "Potsdam" "Heidelberg" "Kiel" "Würzburg" "Münster" "Darmstadt" "Chemnitz" "Braunschweig" 
-		"Kassel" "Oldenburg" "Düsseldorf" "Halle" "Wien" "Dortmund" "Freiburg" "Duisburg" "Mannheim" "Erfurt" "Osnabrück" "Essen" 
-		"Wolfsburg" "Wuppertal" "Prag" "Innsbruck" "Saarbrücken" "Posen" "Mülhausen" "Paderborn" "Brünn" "Ingolstadt" "Bielefeld" 
-		"Salzburg" "Pilsen" "Mülheim" "Heilbronn" "Bonn" "Graz" "Oberhausen" "Ludwigshafen" "Bochum" "Solingen" "Linz" "Mönchengladbach" 
-		"Fürth" "Trier" "Hagen" "Krefeld" "Ulm" "Göttingen" "Gelsenkirchen" "Recklinghausen" "Pforzheim" "Hamm" "Bottrop" "Bremerhaven" 
-		"Reutlingen" "Jena" "Koblenz" "Leverkusen" "Neuss" "Offenbach" "Herne" "Remscheid" "Kaiserslautern" "Salzgitter" "Schwerin" 
-		"Cottbus" "Wilhelmshaven" "Erlangen" "Siegen" "Hildesheim" "Zwickau" "Medusa" "Niobe" "Nymphe" "Brummer" "Bremse" "Gazelle" 
-		"Thetis" "Ariadne" "Amazone" "Frauenlob" "Arcona" "Undine" "Hela" "Gefion" "Flensburg"
+		"Hamburg" "München" "Köln" "Frankfurt" "Stuttgart" "Düsseldorf" "Leipzig" "Dortmund" "Essen" "Bremen" "Dresden" "Hannover"
+		"Nürnberg" "Duisburg" "Bochum" "Wuppertal" "Bielefeld" "Bonn" "Mannheim" "Karlsruhe" "Augsburg" "Wiesbaden" "Mönchengladbach"
+		"Gelsenkirchen" "Aachen" "Braunschweig" "Kiel" "Halle" "Magdeburg" "Freiburg" "Krefeld" "Mainz" "Lübeck" "Erfurt" "Oberhausen"
+		"Rostock" "Kassel" "Hagen" "Potsdam" "Saarbrücken" "Hamm" "Ludwigshafen" "Mülheim" "Oldenburg" "Osnabrück" "Leverkusen" "Darmstadt"
+		"Heidelberg" "Solingen" "Herne" "Regensburg" "Neuss" "Paderborn" "Ingolstadt" "Offenbach" "Fürth" "Ulm" "Würzburg" "Heilbronn"
+		"Pforzheim" "Wolfsburg" "Bottrop" "Göttingen" "Reutlingen" "Koblenz" "Erlangen" "Bremerhaven" "Remschid" "Bergisch" "Recklinghausen"
+		"Trier" "Jena" "Moers" "Salzgitter" "Siegen" "Gütersloh" "Hildesheim" "Witten" "Zwickau" "Erlangen" "Iserlohn" "Kaiserlautern"
+		"Schwerin" "Gütersloh" "Marl" "Lünen" "Esslingen" "Velbert" "Ratingen" "Düren" "Ludwigsburg" "Wilhelmshaven" "Hanau" "Minden" 
+		"Flensburg" "Dessau" "Villingen" "Dorsten" "Worms" "Lüdenscheid" "Tübingen" "Neumünster" "Marburg" "Arnsberg" "Delmenhorst" 
+		"Kostanz" "Gladbeck" "Viersen" "Rheine" "Brandenburg" "Bayreuth" "Detmold" "Troisdorf" "Celle" "Bocholt" "Norderstedt" "Dinslaken" 
+		"Gießen" "Neubrandenburg"
 	}
 }
 
@@ -448,37 +523,56 @@ GER_THEME_MOUNTAINS = {
 	for_countries = { GER PRE WGR DDR }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	fallback_name = "Schiff-B %d"
 
 	unique = {
-		"Zugspitze" "Hochwanner" "Schneefernerkopf" "Mädelegabel" "Hochblassen" "Grosser Krottenkopf" "Hochvogel" "Hoher Riffler" 
-		"Watzmann" "Hochkalter" "Hocheisspitze" "Mittelspitze" "Kleiner Hundstod" "Hochkönig" "Wagendrischlhorn" "Hochtor" 
-		"Grossglockner" "Hoher Sonnblick" "Großvenediger" "Hochfeiler" "Birkkarspitze" "Hoher Dachstein" "Trettachspitze" 
-		"Seekarspitze" "Hochvernagtspitze" "Hoher Ifen" "Hoher Zaun" "Hochwiesler" "Hoher Freschen" "Parstleswandkopf" "Bockkarkopf" 
-		"Wasserwandkopf" "Söllerkopf" "Aperer Freiger" "Großer Hundstod" "Eiskarlspitze" "Karlspitze" "Dristkopf" 
-		"Türml" "Schartenkopf"
+		### Bavarian Alps ###
+		"Hochfrottspitze" "Mädelegabel" "Bockkarkopf" "Biberkopf" "Trettachspitze" "Hochvogel" "Großer Widderstein" "Rauheck" "Geißhorn" 
+		"Schafalpenköpfe" "Großer Daumen" "Leilachspitze" "Schneck" "Angererkopf" "Höfats" "Gaishorn" "Rauhhorn" "Kellenspitze" "Nebelhorn" 
+		"Sechszinkenspitze" "Lärchwand" "Gimpel" "Höllhorn" "Alpkopf" "Schänzlekopf" "Kanzelwand" "Große Schlicke" "Schänzlespitze" "Seichereck" 
+		"Fellhorn" "Rotspitze" "Spichererkopf" "Bschießer" "Aggenstein" "Mußkopf" "Rubihorn" "Hüttenkopf" "Seeköpfle" "Mädelekopf" "Kühgundkopf" 
+		"Breitenberg" "Hochgrat" "Känzele" "Grünten" "Sonnenkopf" "Wannenkopf" "Steineberg" "Mittagspitze" "Besler" "Älpelekopf" "Mittagberg" 
+		"Iberg"
+
+		### Northern Limestone Alps ###
+		"Parseierspitze" "Dachstein" "Zugspitze"
+
+		### Wetterstein ###
+		"Schneefernerkopf" "Zugspitzeck" "Wetterspitze" "Hochwanner" "Höllentalspitze" "Hochblassen" "Dreitorspitze" "Alpspitze" "Riffelwandspitze"
+		"Schüsselkarspitze" "Oberreintalschrofen" "Öfelekopf" "Musterstein" "Gehrenspitze" "Waxenstein" "Arnspitze" "Osterfelderkopf" "Stuiben"
+		"Schachen" "Kranzberg" "Osterfeuerkopf" "Eckbauer" "Brendten"
 	}
 }
 
-### Theme: Rivers (Historical Light Carriers) ###
+### Theme: Rivers ###
 GER_THEME_RIVERS = {
 	name = NAME_THEME_RIVERS
 
 	for_countries = { GER PRE WGR DDR }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 	
 	fallback_name = "Schiff-C %d"
 
 	unique = {
-		"Rhein" "Weser" "Elbe" "Havel" "Donau" "Oder" "Warnow"  "Recknitz" "Neisse" "Main" "Trave" "Uecker" "Inn" "Isar" 
-		"Maas" "Ruhr" "Spree" "Mosel" "Wupper" "Saar" "Alf" "Neckar" "Aurora" "Danube" "Salzach" "Sauer" "Naab" "Paar" 
-		"Schmutter" "Günz" "Emscher" "Acher" "Kocher" "Regen" "Brenz" "Lieser" "Potsdam" "Bernouka" "Treene" "Chemnitz" 
-		"Bode" "Whipper" "Pleisse" "Gera" "Lahn" "Hamme" "Weida" "Heller" "Kinzig" "Weil" "Rhume"
-	}
+		### (Main) Rivers ###
+		"Danube"  "Maas" "Rhein" "Ijssel" "Zwarte" "Ems" "Weser" "Elbe" "Elder" "Schwentine" "Trave" "Warnow" "Recknitz" "Peenestrom" "Swine"
+
+		### Tributaries ###
+		"Stepenitz" "Nebel" "Peene" "Tollense" "Uecker" "Oder" "Treene" "Hase" "Vechte" "Dinkel" "Berkel" "Hunte" "Lesum" "Wümme" "Aller" "Böhme"
+		"Leine" "Innerste" "Rhume" "Örtze" "Fuhse" "Oker" "Schunter" "Werre" "Diemel" "Fulda" "Eder" "Schwalm" "Haune" "Werra" "Hörsel" "Ultster"
+		"Inn" "Rott" "Salzach" "Saalach" "Alz" "Chiemsee" "Isen" "Ilz" "Vils" "Isar" "Ammer" "Loisach" "Große Laber" "Regen" "Chamb" "Naab" "Vils"
+		"Laber" "Altmühl" "Abens" "Ilm" "Paar" "Lech" "Wertach" "Schmutter" "Zusam" "Wörnitz" "Brenz" "Mindel" "Kammel" "Günz" "Iller" "Riß" "Lauchert"
+		"Oste" "Stör" "Alster" "Bille" "Ilmenau" "Jeetzel" "Löcknitz" "Elde" "Aland" "Havel" "Dosse" "Rhin" "Plane" "Nuthe" "Spree" "Dahme" "Ohre"
+		"Saale" "Bode" "Wipper" "Elster" "Parthe" "Pleiße" "Weida" "Unstrut" "Gera" "Schwarza" "Mulde" "Chenmitz" "Zschopau" "Weißeritz" "Wesenitz"
+		"Eger" "Vitava" "Berounka" "Niers" "Roer" "Wurm" "Inde" "Lippe" "Alme" "Emscher" "Ruhr" "Volme" "Lenne" "Möhne" "Erft" "Sieg" "Agger" "Nister"
+		"Ahr" "Wied" "Moselle" "Elzbach" "Alf" "Lieser" "Salm" "Kyll" "Saar" "Nied" "Prims" "Biles" "Schwarzbach" "Sauer" "Prüm" "Nims" "Our" "Lahn"
+		"Aar" "Weil" "Dil" "Ohm" "Nahe" "Alsenz" "Glan" "Selz" "Main" "Nidda" "Wetter" "Kinzig" "Tauber" "Regnitz" "Rednitz" "Pegnitz" "Rezat" "Itz"
+		"Neckar" "Jagst" "Kocher" "Enz" "Glems" "Murr" "Rems" "Fils" "Queich" "Pfinz" "Lauter" "Murg" "Acher" "Rench" "Schutter" "Elz" "Wiese" "Wutach"
+	} 
 }
 
 ### Theme: Animals (Historical Torpedo Boats) ###
@@ -488,15 +582,16 @@ GER_THEME_ANIMALS = {
 	for_countries = { GER PRE WGR DDR }
 
 	type = ship
-	ship_types = { ship_hull_light destroyer }
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	fallback_name = "Schiff-D %d"
 	
 	unique = {
-		"Möwe" "Albatros" "Seeadler" "Greif" "Falke" "Kondor" "Wolf" "Iltis" "Gepard" "Panther" "Tiger" "Löwe" "Luchs" "Bär" 
-		"Jaguar" "Leopard" "Kobra" "Viper" "Drache" "Wiesel" "Delphin" "Wal" "Rabe" "Habicht" "Wisent" "Puma" "Natter" "Otter" 
-		"Biber" "Bison" "Elch" "Dachs""Hirsch" "Steinbock" "Zebra" "Hermelin" "Nerz" "Zobel" "Ozelot" "Hyäne" "Marder" "Reiher" 
-		"Fuchs" "Storch" "Kranich" "Kormoran" "Sperber" "Bussard" "Geier" "Wildschwein"
+		"Hund" "Katze" "Maus" "Elefant" "Löwe" "Tiger" "Affe" "Giraffe" "Zebra" "Bär" "Hase" "Fuchs" "Wolf" "Pferd" "Schaf" "Kuh" "Ente" "Gans"
+		"Biene" "Spinne" "Schmetterling" "Libelle" "Käfer" "Eichhörnchen" "Eule" "Falke" "Luchs" "Schlange" "Frosch" "Kröte" "Adler" "Geier" "Panther"
+		"Gepard" "Leopard" "Jaguar" "Hyäne" "Python" "Kobra" "Viper" "Klapperschlange" "Elch" "Rentier" "Igel" "Dachs" "Waschbär" "Marder" "Otter"
+		"Siebenschläfer" "Ratte" "Mauswiesel" "Känguru" "Koala" "Emu" "Echse" "Flusspferd" "Nashorn" "Gazelle" "Ziege" "Gorilla" "Tapir" "Murmeltier"
+		"Wombat" "Faultier" "Alpaka" "Bison" "Elster" "Habicht" "Kuckuck" "Paoagei"
 	}
 }
 
@@ -512,9 +607,10 @@ GER_THEME_FISH = {
 	fallback_name = "Schiff-E %d"
 
 	unique = {
-		"Zander" "Wels" "Hering" "Aal" "Hecht" "Flunder" "Dorsch" "Hai" "Stachelrochen" "Neunauge" "Bitterling" "Lachs" "Barsch" 
-		"Kabeljau" "Forelle" "Stör" "Barbe" "Schleie" "Sardine" "Grundel" "Markele" "Heibutt" "Seezunge" "Knurrhahn"
-	} 
+		"Wal" "Delfin" "Hai" "Rochen" "Krake" "Tintenfisch" "Seestern" "Seepferdchen" "Qualle" "Krabbe" "Hummer" "Seelöwe" "Robbe" "Thunfisch" "Sardine" 
+		"Walhai" "Manta" "Seeigel" "Kugelfisch" "Seechlange" "Seeotter" "Muschel" "Austern" "Sardelle" "Langueste" "Markele" "Walross" "Seegurke" "Seehund" 
+		"Seeanemone" "Hammerhai" "Feuerfisch" "Steinfisch" "Fuchshai" "Bullenhai" "Seidenhai" "Katzenhai" "Leopardenhai" "Blauhai"
+	}
 }
 
 ### Theme: Famous Battles ###
@@ -528,12 +624,30 @@ GER_THEME_BATTLE = {
 	fallback_name = "Schiff-F %d"
 	
 	unique = {
-		"Skaggerak" "Teutoburger Wald" "Flandern" "Verdun" "Sedan" "Königgrätz" "Leuthen" "Soor" "Kesselsdorf" "Pirmasens" 
-		"Großbeeren" "La Rothière" "Kulm" "Belle-Alliance" "Düppeler Schanzen" "Trautenau" "Liegnitz" "Doggerbank" "Coronel" 
-		"Penang" "Warsaw" "Nyborg" "Rathenow" "Nauen" "Fehrbelin" "Wismar" "Bremen-Verden" "Stettin" "Buda" "Kaiserwerth" 
-		"Höchstädt" "Turin" "Oudenaarde" "Malplaquet" "Stralsund" "Stresow" "Glogau" "Mollwitz" "Neisse" "Olmutz" "Glatz" 
-		"Lesch" "Chotusitz" "Prague" "Ratibor" "Habelschwerdt" "Hohenfriedberg" "Kosel" "Reichenberg" "Hennersdorf" "Zittau" 
-		"Tornow" "Pirna" "Lobositz" "Tannenberg"
+		### Northen War (1656-1660) ###
+		"Warsaw" "Nyborg" 
+
+		### Swedish-Brandenburg War (1674-1679) ###
+		"Rathenow" "Nauen" "Fehrbellin" "Wismar" "Verden" "Stettin" "Rügen" "Straslund" "Sleigh"
+
+		### Great Turkish War (1683-1699) & Nine Years' War (1701-1714) ###
+		"Buda" "Bonn" "Namur"
+
+		### Spanish War of Succession ###
+		"Kaiserswerth" "Höchstädt" "Cassano" "Turin" "Oudenaarde" "Malplaquet"
+
+		### Great Northern War (1700-1721) ###
+		"Stresow"
+
+		### Austrian War of Succession (1740-1748) ###
+		"Glogau" "Mollwitz" "Neisse" "Olmütz" "Glatz" "Chotusitz"
+
+		### Second Silesian War (1744-1745) ###
+		"Prague" "Ratibor" "Habelschwerdt" "Hohenfriedberg" "Kosel" "Soor" "Hennerdorf" "Zittau" "Kesseldorf"
+
+		### Seven Years' War (1756-1763) ###
+		"Pirna" "Lobositz" "Reichenberg" "Rossbach" "Leuthen" "Breslau" "Krefeld" "Tornow" "Güstow" "Peterswalde" "Hoyerswerda" "Kolberg" "Liegnitz" 
+		"Strehla" "Torgau" "Langensalza" "Villinghausen" "Wilhelmsthal" "Burkerdorf" "Freiberg"
 	}
 }
 
@@ -549,16 +663,22 @@ GER_THEME_GERMANIC_MYTHOLOGY = {
 	fallback_name = "Schiff-G %d"
 	
 	unique = {
-		"Odin" "Thor" "Ägir" "Siegfried" "Brünhilde" "Vineta" "Freya" "Wotan" "Herta" "Donar" "Tyr" "Friia" "Uolla" 
-		"Phol" "Gausus" "Mittgart" "Alb" "Hellea" "Thrym" "Ran" "Hymir" "Thrud" "Mannus" "Idun" "Vili" "Mimir" "Zisa" 
-		"Sigi" "Vihansa" "Himilinberg" "Atla" "Ran" "Hödur" "Hymir" "Borr" "Baduhenna" "Bragi" "Lodur" "Mani"
+		### Gods and Godesses ###
+		"Alcis" "Baldr" "Bragi" "Delingr" "Forseti" "Freyr" "Heimdallr" "Heremod" "Hadu" "Hoenir" "Loki" "Mani" "Meili" "Mímir" "Modi" "Magni" "Njoror"
+		"Odin" "Odr" "Saxnōt" "Thor" "Tuisto" "Týr" "Ullr" "Váli" "Vé" "Viðarr" "Vili" "Vár" "Ēostre" "Gerðr" "Dís" "Sif" "Freyja" "Sjöfn" "Eir" "Syn"
+		"Sandraudiga" "Sól" "Snotra" "Hludana" "Rán" "Gersemi" "Hnoss" "Sigyn" "Vihansa" "Baduhenna" "Bil" "Gullveig" "Sinthgunt" "Frigg" "Nerthus"
+		"Fulla" "Haeva" "Nanna" "Nehalennia" "Vör" "Hretha" "Sága" "Zisa" "Rindr" "Gná" "Skadi" "Njörun" "Hlín" "Hariasa" "Irpa" "Lofn" "Ilmr" "Beyla"
+		"Gefjun" "Norns" "Tamfana" "Idis"
+
+		### Pseudo-Deities ###
+		"Astrild" "Ercol" "Berchta" "Biel" "Holda" "Jecha" "Jofur" "Lahra" "Reto" "Stuffo"
 	}
 }
 
-################################################################ Imperial Germany Names #####################################################################################
+######################################################################################### Imperial Germany Names #########################################################################################
 
 ### Aircraft Carrier Names ###
-GER_CV_IMPERIAL = { # Aviation Pioneers - World War 1 Aces.
+GER_CV_IMPERIAL = { # Aviation Pioneers - Manufacturers.
 	name = NAME_THEME_IMPERIAL_CARRIERS
 
 	for_countries = { GER PRE WGR DDR }
@@ -569,24 +689,54 @@ GER_CV_IMPERIAL = { # Aviation Pioneers - World War 1 Aces.
 	ship_types = { ship_hull_carrier carrier }
 	
 	prefix = "SMS "
-	fallback_name = "Flugzeugträger-IMP %d"
+	fallback_name = "Kaiserliche Flugzeugträger %d"
 
 	unique = {
 		### Graf Zeppelin Class (Flugzeugträger A&B) ###
 		"Graf Zeppelin" "Peter Strasser"
 
 		### Aviation Pioneers ###
-		"August von Parseval" "Ehrenfried von Hünefeld" "Otto Lilienthal" "Erich Thomas" "August Euler" 
-		"Karl Jatho" "Gustave Weisskopf" "Ernst von Hoeppner" "Hans Weiss" "Richard Waghorn" "Hugo Eckener"
+		"August von Parseval" "Ehrenfried von Hünefeld" "Otto Lilienthal" "Erich Thomas" "August Euler" "Karl Jatho" 
+		"Gustave Weisskopf" "Ernst von Hoeppner" "Hans Weiss" "Richard Waghorn" "Hugo Eckener" "Wilhelm Wright" "Karl Wright"
+		"Reimar Horten" "Walter Horten" "Hermann Winter" "Hugo von Abercron" "Oskar Erbslöh" "Hans Georg Friedrich"
+		"Paul Haenlein" "Theodor Kober" "Ernst Lehmann" "Albert Sammt" "Friedrich Wölfert" "Arthur Berson" "Arthur Müller"
+		"Max Pruss" "Hans von Schiller" "Paul Laubenthal" "Friedrich Meerwein"
 
-		### World War 1 Aces ###
-		"Manfred von Richthofen" "Ernst Udet" "Erich Löwenhardt" "Josef Jacobs" "Werner Voss" "Fritz Rumey"
-		"Rudolf Berthold" "Bruno Loerzer" "Paul Bäumer" "Oswald Boelcke" "Franz Büchner" "Lothar von Richthofen"
-		"Heinrich Gontermann" "Carl Menckhoff" "Carl Bolle" "Julius Buckler" "Max Ritte von Muller"
-		"Gustav Dorr" "Otto Konnecke" "Eduard Ritter von Schleich" "Emil Thuy" "Josef Veltjens"
-		"Heinrich Bongratz" "Heinrich Kroll" "Kurt Wolff" "Hermann Frommherz" "Theodor Osterkamp"
-		"Paul Billik" "Gotthard Sachsenberg" "Karl Allmenroder" "Carl Degelow" "Josef Mai" "Ulrich Neckel"
-		"Karl Emil Schafer" #30KILLS
+		### Aviaton Manufacturers/Founders/Designers ###
+		"Wilhelm Messerschmitt" "Hugo Junkers" "Henrich Focke" "Georg Wulf" "Ernst Heinkel" "Claude Dornier" "Rudolf Blohm" 
+		"Walther Blohm" "Walter Huth" "Otto Wiener" "Anthony Fokker" "Rudolf Gehringer" "Reinhold Platz" "Robert Thelen" 
+		"Julius Hauth" "Siegfried Günter" "Walter Rieseler" "Alexander Baumann" "Franz Hirth" "Willy Rücker" "Walter Rücker" 
+		"Otto Langen" "Eugen Langen" "Max Gerner" "Wilhelm Schwärzler" "Karl Schwärzler" "Hugo Stinnes" "Karl Rapp"
+	}
+}
+
+### Aircraft Carrier Names - Alternative ###
+GER_CV_ACES = { # World War 1 Aces.
+	name = NAME_THEME_IMPERIAL_ACES
+
+	for_countries = { GER PRE WGR DDR }
+
+	can_use = { has_government = neutrality }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "SMS "
+	fallback_name = "Kaiserliche Flugzeugträger-%d"
+
+	unique = {
+		"Manfred von Richthofen" "Lothar von Richthofen" "Ernst Udet" "Erich Löwenhardt" "Josef Jacobs" "Werner Voss" "Fritz Rumey"
+		"Rudolf Berthold" "Bruno Loerzer" "Paul Bäumer" "Oswald Boelcke" "Franz Büchner" "Heinrich Gontermann" "Carl Menckhoff"
+		"Carl Bolle" "Julius Buckler" "Max Ritter von Müller" "Gustav Dörr" "Otto Könnecke" "Eduard von Schleich" "Emil Thuy" 
+		"Josef Veltjens" "Heinrich  Bongratz" "Heinrich Kroll" "Kurt Wolff" "Hermann Frommherz" "Theodor Osterkamp" "Paul Billik"
+		"Gotthard Sachsenberg" "Karl Allmenröder" "Carl Degelow" "Josef Mai" "Ulrich Neckel" "Karm Emil Schäfer" "Herald Auffarth"
+		"Walter Blume" "Walter von Bülow" "Robert Ritter von Greim" "Arthur Laumann" "Frierich Ritter von Röth" "Fritz Otto Bernert"
+		"Otto Fruhrer" "Hans Kirschstein" "Karl Thom" "Adolf Ritter von Tutschek" "Kurt Wüsthoff" "Oskar Freiherr von Boenigk"
+		"Eduard Ritter von Dostler" "Max Näther" "Olivier Freiherr von Beaulieu" "Georg von Hantelmann" "Fritz Pütter" "Erwin Böhme"
+		"Georg Meyer" "Hermann Becker" "Hans Klein" "Hans Martin Pippart" "Werner Preuss" "Karl Schlegel" "Rudolf Windisch"
+		"Hans Ritter von Adam" "Friedrich Altemeier" "Friedrich Friedrichs" "Fritz Höhn" "Friedrich Noltenius" "Hans Bethge"
+		"Rudolf von Eschwege" "Wilhelm Frankl" "Hans von Freden" "Walter Göttsch" "Oskar Hennrich" "Otto Kissenberth" "Wilhelm Reinhard"
+		"Otto Schmidt" #20kills.
 	}
 }
 
@@ -602,17 +752,20 @@ GER_CVL_IMPERIAL = { # Female Names.
 	ship_types = { ship_hull_carrier carrier }
 
 	prefix = "SMS "
-	fallback_name = "Leichtflugzeugträger-IMP %d"
+	fallback_name = "Kaiserliche Leichtflugzeugträger %d"
 
 	unique = {
-		"Erika" "Alma" "Amalia" "Berta" "Charlotte" "Emma" "Eleonor" "Franka" "Victoria" "Jenny" "Petra" "Anna" "Monika" 
-		"Susanne" "Lena" "Christina" "Gisela" "Ursula" "Laura" "Mia" "Hanna" "Emilia" "Isabella" "Clara" "Leonie" "Paula" 
-		"Marie" "Felicia" "Frederica" "Eugenia" "Katharina" "Eleonore" "Margarete"
+		"Erika" "Alma" "Amalia" "Berta" "Charlotte" "Emma" "Eleonor" "Franka" "Victoria" "Jenny" "Petra" "Anna" "Monika" "Susanne" "Lena"
+		"Christina" "Gisela" "Ursula" "Laura" "Mia" "Hanna" "Emilia" "Isabella" "Clara" "Leonie" "Paula" "Marie" "Felicia" "Frederica"
+		"Eugenia" "Katharina" "Eleonore" "Margarete" "Sophia" "Lina" "Mila" "Ella" "Leni"  "Lia" "Lea" "Mathilda" "Ida" "Lilly" "Luisa"
+		"Emily" "Anneliese" "Elke" "Karoline" "Liselotte" "Thekla" "Agathe" "Adeeelheid" "Wilhelmina" "Dorothea" "Helga" "Hilda" "Edith"
+		"Adelinde" "Ingebord" "Johanna" "Ruth" "Alice" "Carina" "Diana" "Evelin" "Isabell" "Elsa" "Greta" "Astrid" "Brigitte" "Nora" "Sabine"
+		"Verena" "Xenia" "Angelika" "Augusta" 
 	}
 }
 
 ### Battleship Names ###
-GER_BB_IMPERIAL = { # World War 1 Model - Admirals.
+GER_BB_IMPERIAL = { # World War 1 Models - Figures - Noble Family.
 	name = NAME_THEME_IMPERIAL_BB
 
 	for_countries = { GER PRE WGR DDR }
@@ -623,42 +776,54 @@ GER_BB_IMPERIAL = { # World War 1 Model - Admirals.
 	ship_types = { ship_hull_heavy battleship }
 
 	prefix = "SMS "
-	fallback_name = "Schlachtschiff-IMP %d"
+	fallback_name = "Kaiserliche Schlachtschiff %d"
 	
 	unique = {
-		### Nassau Class ###
-		"Nassau" "Westfalen" "Rheinland" "Posen"
+		### Brandenburg Class (1891) ###
+		"Brandenburg" "Kurfürst Friedrich Wilhelm" "Weissenburg" "Wörth"
 
-		### Helgoland Class ###
+		### Kaiser Friedrich III Class (1896) ###
+		"Kaiser Friedrich III" "Kaiser Wilhelm II" "Kaiser Wilhelm der Grosse" "Kaiser Karl der Grosse" "Kaiser Barbarossa"
+
+		### Wittelsbach Class (1900) ###
+		"Wittelsbach" "Wettin" "Zähringen" "Schwaben" "Mecklenburg"
+
+		### Braunschweig Class (1901) ###
+		"Braunschweig" "Elsass" "Hessen" "Preußen" "Lothringen"
+
+		### Deutschland Class (1904) ###
+		"Deutschland" "Hannover" "Pommern" "Schlesien" "Schleswig-Holstein"
+
+		### Nassau Class (1908) ###
+		"Nassau" "Posen" "Rheinland" "Westfalen"
+
+		### Helgoland Class (1909) ###
 		"Helgoland" "Ostfriesland" "Thüringen" "Oldenburg"
 
-		### Kaiser Class ###
-		"Kaiser" "Friedrich der Grosse" "Kaiserin" "Prinzregent Luitpold" "König Albert"
+		### Kaiser Class (1911) ###
+		"Kaiser" "Kaiserin" "Prinzregent Luitpold" "Friedrich der Grosse" "König Albert"
 
-		### König Class ###
+		### König Class (1913) ###
 		"König" "Grosser Kurfürst" "Markgraf" "Kronprinz"
 
-		### Bayern Class ###
-		"Bayern" "Baden" "Sachsen" "Württemberg"
+		### Bayern Class (1915) ###
+		"Bayern" "Baden" "Württemberg" "Sachsen"
 
-		### Bismarck - Standalone ###
+		### Additionals - Figures ###
 		"Bismarck"
 
-		### World War 1 Admirals ###
-		"Tirpitz" "Prinz Heinrich" "Koester" "Holtzendorff" "Knorr" "Scheer" "Hipper" "Spee" "Thomsen" "Diederichs" "Bendemann" 
-		"Arnim" "Büchsel" "Gaffron" "Fischel" "Baudissin" "Müller" "Truppel" "Schröder" "Coerper" "Pohl" "Heeringen" "Capelle" 
-		"Ingenohl" "Bachmann"
+ 		### Additionals - Noble Family ###
+	 	"Prinz Adalbert" "Prinz Joachim" "Prinz Günther" "Victoria Louise" "Prinz Augustus" "Prinz William" "Prinzessin Frederica" "Prinz Oscar" 
+	 	"Prinz Henry" "Prinz Franz" "Prinz Oskar" "Prinz Burchard" "Prinzessin Herzeleide" "Prinz Karl" "Alexander Ferdinand" "Prinzessin Marina"
+	 	"Prinz Victor" "Prinz Hubertus" "Prinz Frederick" "Prinzessin Alexandrine" "Prinzessin Cecilie"
 
- 		### Additionals ###
-		"Friedrich Barbarossa" "Karl der Große" "Brandenburg" "Kurfürst Friedrich Wilhelm" "Weissenburg" "Wörth" "Kaiser Friedrich III" 
-		"Kaiser Wilhelm II" "Victoria Louise" "Kaiser Wilhelm der Grosse" "Kaiser Karl der Grosse" "Kaiser Barbarossa" "Wittelsbach" 
-		"Wettin" "Zähringen" "Schwaben" "Mecklenburg" "Braunschweig" "Elsass" "Hessen" "Preussen" "Lothringen" "Deutschland" "Hannover" 
-		"Pommern" "Schlesien" "Schleswig-Holstein"
+	 	### Additionals - Rest ###
+	 	"Arminius" "Hansa" "Bavaria" "Saxony" "Anhalt" "Brunswick" "Altenburg" "Coburg" "Gotha" "Lauenburg" "Meiningen"
 	}
 }
 
 ### Battlecruiser Names ###
-GER_BC_IMPERIAL = { # World War 1 Field Marshals - Generals.
+GER_BC_IMPERIAL = { # Field Marshals - Generals - Admirals.
 	name = NAME_THEME_IMPERIAL_BC
 
 	for_countries = { GER PRE WGR DDR }
@@ -669,33 +834,34 @@ GER_BC_IMPERIAL = { # World War 1 Field Marshals - Generals.
 	ship_types = { ship_hull_heavy battle_cruiser }
 	
 	prefix = "SMS "
-	fallback_name = "Schlachtkreuzer-IMP %d"
+	fallback_name = "Kaiserliche Schlachtkreuzer %d"
 	
 	unique = {
-		### Von der Tann Class ###
+		### Von der Tann Class (1909) ###
 		"Von der Tann" 
 
-		### Moltke Class ###
+		### Moltke Class (1910) ###
 		"Moltke" "Goeben"
 
-		### Seydlitz Class ###
+		### Seydlitz Class (1912) ###
 		"Seydlitz"
 
-		### Derfflinger Class ###
-		"Derfflinger" "Lützow"
+		### Derfflinger Class (1913) ###
+		"Derfflinger" "Lützow" "Hindenburg"
 
-		### Mackensen Class ###
-		"Mackensen" "Prinz Eitel Friedrich"
+		### Mackensen Class (-) ###
+		"Mackensen" "Graf Spee" "Prinz Eitel Friedrich"
 
-		### Additionals ###
-		"Schlieffen" "Hindenburg" "Lunderdorff" "Prinz Rupprecht" "Eichhorn" "Woyrsch" "Albrecht" "Prinz Leopold" "William II"
-		"Bülow" "Waldersee" "Gallwitz" "Krafft-Ebing" "Below" "Kluck" "Prinz Wilhem" "Einem" "Hoffman" "Hammerstein" "Boehn"
-		"Sanders" "Marwitz" "Lüttwitz"
+		### Additionals - Field Marshals/Generals/Admirals ###
+		"Eichhorn" "Woyrsch" "Charles I" "Prinz Rupprecht" "Albrecht" "Prinz Leopold" "William II" "Hötzendorf" "Ludwig III" "Bülow" "Constantine I"
+		"Schlieffen" "Haeseler" "Hahnke" "Loë" "Waldersee" "Nikolaus" "Prinz Georg" "Graf Blumenthal" "Manteuffel" "Prinz Albert" "Bittenfeld"
+		"Steinmetz" "Graf Wrangel" "Schlobitten" "Boyen" "Zieten" "Kalckreuth" "Knobelsdorff" "Lehwaldt" "Kalckstein" "Schmettau" "Natzmer" "Sparr"
+		"Hermann" "Glasenapp" "Dossow" "Kleist" "Koester" "Tirpitz" "Holtzendorff" "Gotz" "Knorr" "Hollmann" "Karcher" "Thomsen" "Diederichs"
 	}
 }
 
 ### Heavy Cruiser Names ###
-GER_CA_IMPERIAL = { # World War 1 Ships - Generals - Admirals.
+GER_CA_IMPERIAL = { # World War 1 Models - Generals - Admirals.
 	name = NAME_THEME_IMPERIAL_CA
 
 	for_countries = { GER PRE WGR DDR }
@@ -703,23 +869,35 @@ GER_CA_IMPERIAL = { # World War 1 Ships - Generals - Admirals.
 	can_use = { has_government = neutrality } 
 
 	type = ship
-	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
+	ship_types = { ship_hull_cruiser heavy_cruiser }
 	
 	prefix = "SMS "
-	fallback_name = "Schwerer Kreuzer-IMP %d"
+	fallback_name = "Kaiserliche Schwerer Kreuzer %d"
 	
 	unique = {
-		### Prinz Adalbert Class ###
+		### Prinz Heinrich Class (1900) ###
+		"Prinz Heinrich"
+
+		### Prinz Adalbert Class (1901) ###
 		"Prinz Adalbert" "Friedrich Carl"
 
-		### Roon Class ###
+		### Roon Class (1903) ###
 		"Roon" "Yorck"
 
-		### Additionals ###
-		"Blücher" "Lyncker" "Prinz Henry" "Kressenstein" "Plessen" "Frederick II" "Kirchbach" "Scholl" "Heeringen" "Kirchbach"
-		"Horn" "Marchtaler" "Kessel" "Bissing" "Prinz Christian" "Falkenhayn" "Groener" "Seeckt" "Goltz" "Knorr" "Hollman" "Karcher"
-		"Schröder" "Jachmann" "Henk" "Batsch" "Livonius" "Mazin" "Wickede" "Paschen" "Κall" "Deinhard" "Valois" "Reiche" "Oldekop"
-		"Hoffman" "Sack" "Geissler" "Fritze" "Ahlefeld" "Eickstedt" "Wodrig" "Borckenhagen" "Breusing" "Zeye" "Winkler" "Rollmann"
+		### Blücher Class (1908) ###
+		"Blücher"
+
+		### Additionals - Generals ###
+		"Below" "Falkenhayn" "Hoffmann" "Vorbeck" "Ludendorff"
+
+		### Additionals - Admirals/Vice-Admirals ###
+		"Senden" "Bendemann" "Arnim" "Büchsel" "Prittwitz" "Fischel" "Baudissin" "Müller" "Truppel" "Schröder" "Coerper" "Heeringen" "Pohl" "Capelle"
+		"Ingenohl" "Dick" "Bachmann" "Krosigk" "Usedom" "Scheer" "Koch" "Schmidt" "Hipper" "Souchon" "Jachmann" "Henk" "Batsch" "Livonius" "Monts"
+		"Wickede" "Blanc" "Paschen" "Kall" "Deinhard" "Valois" "Reiche" "Oldekop" "Hoffmann" "Sack" "Geissler" "Diederichsen" "Fritze" "Ahlefeld"
+		"Galster" "Eickstedt" "Wodrig" "Schmidt" "Borckenhagen" "Breusing" "Zeye" "Goetz" "Winkler" "Rollmann" "Jacobsen" "Schack" "Grapow" "Dambrowski"
+		"Gerdes" "Lans" "Spee" "Dähnhardt" "Gebhardi" "Eckermann" "Trummler" "Schultz" "Paschwitz" "Gaedeke" "Mischke" "Merten" "Schaumann" "Schrader"
+		"Ehrlich" "Wurmbach" "Jasper" "Mauve" "Kraft" "Schwind" "Hopman" "Tiechler" "Boedicker" "Rogge" "Nordmann" "Engel" "Trotha" "Michelsen"
+		"Reuter" "Waldeck" "Lichtenfels" "Engelhardt" "Uslar" "Löhlein"
 	}
 }
 
@@ -732,22 +910,25 @@ GER_CL_IMPERIAL = { # Cities.
 	can_use = { has_government = neutrality }
 
 	type = ship
-	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
+	ship_types = { ship_hull_cruiser light_cruiser }
 
 	prefix = "SMS "
-	fallback_name = "Leichter Kreuzer-IMP %d"
+	fallback_name = "Kaiserliche Leichter Kreuzer %d"
 	
 	unique = {
-		"Emden" "Königsberg" "Karlsruhe" "Köln" "Leipzig" "Nürnberg" "München" "Berlin" "Hamburg" "Stuttgart" "Bremen" "Lübeck" "Danzig" 
-		"Stettin" "Dresden" "Mainz" "Augsburg" "Magdeburg" "Breslau" "Hannover" "Stralsund" "Frankfurt" "Rostock" "Elbing" "Straßburg" 
-		"Regensburg" "Wiesbaden" "Aachen" "Potsdam" "Heidelberg" "Kiel" "Würzburg" "Münster" "Darmstadt" "Chemnitz" "Braunschweig" 
-		"Kassel" "Oldenburg" "Düsseldorf" "Halle" "Wien" "Dortmund" "Freiburg" "Duisburg" "Mannheim" "Erfurt" "Osnabrück" "Essen" 
-		"Wolfsburg" "Wuppertal" "Prag" "Innsbruck" "Saarbrücken" "Posen" "Mülhausen" "Paderborn" "Brünn" "Ingolstadt" "Bielefeld" 
-		"Salzburg" "Pilsen" "Mülheim" "Heilbronn" "Bonn" "Graz" "Oberhausen" "Ludwigshafen" "Bochum" "Solingen" "Linz" "Mönchengladbach" 
-		"Fürth" "Trier" "Hagen" "Krefeld" "Ulm" "Göttingen" "Gelsenkirchen" "Recklinghausen" "Pforzheim" "Hamm" "Bottrop" "Bremerhaven" 
-		"Reutlingen" "Jena" "Koblenz" "Leverkusen" "Neuss" "Offenbach" "Herne" "Remscheid" "Kaiserslautern" "Salzgitter" "Schwerin" 
-		"Cottbus" "Wilhelmshaven" "Erlangen" "Siegen" "Hildesheim" "Zwickau" "Medusa" "Niobe" "Nymphe" "Brummer" "Bremse" "Gazelle" 
-		"Thetis" "Ariadne" "Amazone" "Frauenlob" "Arcona" "Undine" "Hela" "Gefion" "Flensburg"
+		"München" "Berlin" "Hamburg" "Stuttgart" "Bremen" "Lübeck" "Danzig" "Stettin" "Dresden" "Mainz" "Augsburg" "Magdeburg" "Breslau"
+		"Hannover" "Stralsund" "Frankfurt" "Rostock" "Elbing" "Straßburg" "Regensburg" "Wiesbaden" "Aachen" "Potsdam" "Heidelberg" "Kiel"
+		"Würzburg" "Münster" "Darmstadt" "Chemnitz" "Braunschweig" "Kassel" "Oldenburg" "Düsseldorf" "Halle" "Wien" "Dortmund" "Freiburg"
+		"Duisburg" "Mannheim" "Erfurt" "Osnabrück" "Essen" "Wolfsburg" "Wuppertal" "Prag" "Innsbruck" "Saarbrücken" "Mülhausen"
+		"Paderborn" "Brünn" "Ingolstadt" "Bielefeld" "Salzburg" "Pilsen" "Mülheim" "Heilbronn" "Bonn" "Graz" "Oberhausen" "Ludwigshafen"
+		"Bochum" "Solingen" "Linz" "Mönchengladbach" "Fürth" "Trier" "Hagen" "Krefeld" "Ulm" "Göttingen" "Gelsenkirchen" "Recklinghausen"
+		"Pforzheim" "Hamm" "Bottrop" "Bremerhaven" "Reutlingen" "Jena" "Koblenz" "Leverkusen" "Neuss" "Offenbach" "Herne" "Remscheid"
+		"Kaiserslautern" "Salzgitter" "Schwerin" "Cottbus" "Wilhelmshaven" "Erlangen" "Siegen" "Hildesheim" "Zwickau" "Medusa" "Niobe"
+		"Nymphe" "Brummer" "Bremse" "Gazelle" "Thetis" "Ariadne" "Amazone" "Frauenlob" "Arcona" "Undine" "Hela" "Gefion" "Flensburg" "Aach"
+		"Aalen" "Calau" "Dargun" "Diez" "Dommitzsch" "Ebeleben" "Eggenfelden" "Elterlein" "Elstra" "Freystadt" "Füssen" "Gernsbach" "Greiz"
+		"Griesheim" "Herrnhut" "Höxter" "Lychen" "Jarmen" "Kierspe" "Kahla" "Magdala" "Nossen" "Oederan" "Oschatz" "Püttlingen" "Penig"
+		"Rabenau" "Rethem"  "Spalt" "Scheinfeld" "Schwerin" "Sternberg" "Teupitz" "Teuschnitz" "Ummerstadt" "Ulrichstein" "Visselhövede"
+		"Vilsbiburg" "Neukölln"
 	}
 }
 
@@ -790,7 +971,7 @@ GER_SS_IMPERIAL = {
 	ship_types = { ship_hull_submarine submarine }
 
 	prefix = "SMS "
-	fallback_name = "U-IMP-%d"
+	fallback_name = "Kaiserliche U-%d"
 	
 	ordered = {
 		1 = {"U-%d"}
@@ -807,6 +988,33 @@ GER_SS_IMPERIAL = {
 
 ##### Themes #####
 
+### Theme: Prussian Generals ###
+GER_THEME_PRUSSIAN_GENERALS = {
+	name = NAME_THEME_PRUSSIAN_GENERALS
+
+	for_countries = { GER PRE WGR DDR }
+
+	can_use = { has_government = neutrality }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser ship_hull_light carrier battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "SMS "
+	fallback_name = "Kaiserliche Schiff-A %d"
+
+	unique = {
+		### Field Marshals ###
+		"Sparr" "Prinz George II" "Derfflinger" "Graf von Wartensleben" "Prinz Leopald I" "Prinz Leopald II" "Graf von Wylich" "Schlobitten"
+		"Natzmer" "Finckenstein" "Grumbkow" "Schwerin" "Glasenapp" "Schmettau" "Zerbst" "Dossow" "Kleist" "Kalckstein" "Keith" "Lehwaldt"
+		"Prinz Moritz" "Dietrich" "Wolfenbüttel" "Prinz William" "Möllendorf" "Knobelsdorff" "Kalckreuth" "Courbière" "Blücher" "Wellesley"
+		"Nollendorf" "Wartenburg" "Gneisenau" "Zieten" "Müffling" "Boyen" "Knesebeck" "Karl Friedrich" "Wrangel" "Prinz Friedrich" "Prinz William"
+		"Bittenfeld" "Steinmetz" "Moltke" "Roon" "Manteuffel" "Blumenthal" "Prinz Albert" "Hahnke" "Loë" "Schlieffen" "Hindenburg" "Bülow"
+		"Mackensen" "Eichhorn" "Woyrsch"
+
+		### Generals ###
+	}
+}
+
 ### Theme: Cities ###
 GER_THEME_CITIES_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CITIES
@@ -819,19 +1027,25 @@ GER_THEME_CITIES_IMPERIAL = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "SMS "
-	fallback_name = "IMP Schiff-A %d"
+	fallback_name = "Kaiserliche Schiff-B %d"
 
 	unique = {
-		"Emden" "Königsberg" "Karlsruhe" "Köln" "Leipzig" "Nürnberg" "München" "Berlin" "Hamburg" "Stuttgart" "Bremen" "Lübeck" "Danzig" 
-		"Stettin" "Dresden" "Mainz" "Augsburg" "Magdeburg" "Breslau" "Hannover" "Stralsund" "Frankfurt" "Rostock" "Elbing" "Straßburg" 
-		"Regensburg" "Wiesbaden" "Aachen" "Potsdam" "Heidelberg" "Kiel" "Würzburg" "Münster" "Darmstadt" "Chemnitz" "Braunschweig" 
-		"Kassel" "Oldenburg" "Düsseldorf" "Halle" "Wien" "Dortmund" "Freiburg" "Duisburg" "Mannheim" "Erfurt" "Osnabrück" "Essen" 
-		"Wolfsburg" "Wuppertal" "Prag" "Innsbruck" "Saarbrücken" "Posen" "Mülhausen" "Paderborn" "Brünn" "Ingolstadt" "Bielefeld" 
-		"Salzburg" "Pilsen" "Mülheim" "Heilbronn" "Bonn" "Graz" "Oberhausen" "Ludwigshafen" "Bochum" "Solingen" "Linz" "Mönchengladbach" 
-		"Fürth" "Trier" "Hagen" "Krefeld" "Ulm" "Göttingen" "Gelsenkirchen" "Recklinghausen" "Pforzheim" "Hamm" "Bottrop" "Bremerhaven" 
-		"Reutlingen" "Jena" "Koblenz" "Leverkusen" "Neuss" "Offenbach" "Herne" "Remscheid" "Kaiserslautern" "Salzgitter" "Schwerin" 
-		"Cottbus" "Wilhelmshaven" "Erlangen" "Siegen" "Hildesheim" "Zwickau" "Medusa" "Niobe" "Nymphe" "Brummer" "Bremse" "Gazelle" 
-		"Thetis" "Ariadne" "Amazone" "Frauenlob" "Arcona" "Undine" "Hela" "Gefion" "Flensburg"
+		### Cities lost from World War 1 ###
+		"Eupen" "Malmedy" "Straßburg" "Metz" "Memel" "Danzig" "Kattowitz" "Beuthen" "Gleiwitz" "Königshütte" "Rybnik" "Tarnowitz"
+		"Kalisz" "Konin" "Schneidemühl" "Lissa" "Mülhausen" "Nancy" "Épinal" "Thorn" "Breslau" "Stettin" 
+
+		### German Main Cities ###
+	 	"Berlin" "Hamburg" "München" "Köln"	"Frankfurt" "Stuttgart" "Düsseldorf" "Leipzig" "Dortmund" "Essen" "Bremen" "Dresden" "Hannover"
+		"Nürnberg" "Duisburg" "Bochum" "Wuppertal" "Bielefeld" "Bonn" "Mannheim" "Karlsruhe" "Augsburg" "Wiesbaden" "Mönchengladbach"
+		"Gelsenkirchen" "Aachen" "Braunschweig" "Kiel" "Halle" "Magdeburg" "Freiburg" "Krefeld" "Mainz" "Lübeck" "Erfurt" "Oberhausen"
+		"Rostock" "Kassel" "Hagen" "Potsdam" "Saarbrücken" "Hamm" "Ludwigshafen" "Mülheim" "Oldenburg" "Osnabrück" "Leverkusen" "Darmstadt"
+		"Heidelberg" "Solingen" "Herne" "Regensburg" "Neuss" "Paderborn" "Ingolstadt" "Offenbach" "Fürth" "Ulm" "Würzburg" "Heilbronn"
+		"Pforzheim" "Wolfsburg" "Bottrop" "Göttingen" "Reutlingen" "Koblenz" "Erlangen" "Bremerhaven" "Remschid" "Bergisch" "Recklinghausen"
+		"Trier" "Jena" "Moers" "Salzgitter" "Siegen" "Gütersloh" "Hildesheim" "Witten" "Zwickau" "Erlangen" "Iserlohn" "Kaiserlautern"
+		"Schwerin" "Gütersloh" "Marl" "Lünen" "Esslingen" "Velbert" "Ratingen" "Düren" "Ludwigsburg" "Wilhelmshaven" "Hanau" "Minden" 
+		"Flensburg" "Dessau" "Villingen" "Dorsten" "Worms" "Lüdenscheid" "Tübingen" "Neumünster" "Marburg" "Arnsberg" "Delmenhorst" 
+		"Kostanz" "Gladbeck" "Viersen" "Rheine" "Brandenburg" "Bayreuth" "Detmold" "Troisdorf" "Celle" "Bocholt" "Norderstedt" "Dinslaken" 
+		"Gießen" "Neubrandenburg"
 	}
 }
 
@@ -847,15 +1061,24 @@ GER_THEME_MOUNTAINS_IMPERIAL = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 
 	prefix = "SMS "
-	fallback_name = "IMP Schiff-B %d"
+	fallback_name = "Kaiserliche Schiff-C %d"
 
 	unique = {
-		"Zugspitze" "Hochwanner" "Schneefernerkopf" "Mädelegabel" "Hochblassen" "Grosser Krottenkopf" "Hochvogel" "Hoher Riffler" 
-		"Watzmann" "Hochkalter" "Hocheisspitze" "Mittelspitze" "Kleiner Hundstod" "Hochkönig" "Wagendrischlhorn" "Hochtor" 
-		"Grossglockner" "Hoher Sonnblick" "Großvenediger" "Hochfeiler" "Birkkarspitze" "Hoher Dachstein" "Trettachspitze" 
-		"Seekarspitze" "Hochvernagtspitze" "Hoher Ifen" "Hoher Zaun" "Hochwiesler" "Hoher Freschen" "Parstleswandkopf" 
-		"Bockkarkopf" "Wasserwandkopf" "Söllerkopf" "Aperer Freiger" "Großer Hundstod" "Eiskarlspitze" "Karlspitze" "Dristkopf" 
-		"Türml" "Schartenkopf"
+		### Bavarian Alps ###
+		"Hochfrottspitze" "Mädelegabel" "Bockkarkopf" "Biberkopf" "Trettachspitze" "Hochvogel" "Großer Widderstein" "Rauheck" "Geißhorn" 
+		"Schafalpenköpfe" "Großer Daumen" "Leilachspitze" "Schneck" "Angererkopf" "Höfats" "Gaishorn" "Rauhhorn" "Kellenspitze" "Nebelhorn" 
+		"Sechszinkenspitze" "Lärchwand" "Gimpel" "Höllhorn" "Alpkopf" "Schänzlekopf" "Kanzelwand" "Große Schlicke" "Schänzlespitze" "Seichereck" 
+		"Fellhorn" "Rotspitze" "Spichererkopf" "Bschießer" "Aggenstein" "Mußkopf" "Rubihorn" "Hüttenkopf" "Seeköpfle" "Mädelekopf" "Kühgundkopf" 
+		"Breitenberg" "Hochgrat" "Känzele" "Grünten" "Sonnenkopf" "Wannenkopf" "Steineberg" "Mittagspitze" "Besler" "Älpelekopf" "Mittagberg" 
+		"Iberg"
+
+		### Northern Limestone Alps ###
+		"Parseierspitze" "Dachstein" "Zugspitze"
+
+		### Wetterstein ###
+		"Schneefernerkopf" "Zugspitzeck" "Wetterspitze" "Hochwanner" "Höllentalspitze" "Hochblassen" "Dreitorspitze" "Alpspitze" "Riffelwandspitze"
+		"Schüsselkarspitze" "Oberreintalschrofen" "Öfelekopf" "Musterstein" "Gehrenspitze" "Waxenstein" "Arnspitze" "Osterfelderkopf" "Stuiben"
+		"Schachen" "Kranzberg" "Osterfeuerkopf" "Eckbauer" "Brendten"
 	}
 }
 
@@ -871,13 +1094,23 @@ GER_THEME_RIVERS_IMPERIAL = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 	
 	prefix = "SMS "
-	fallback_name = "IMP Schiff-C %d"
+	fallback_name = "Kaiserliche Schiff-D %d"
 	
 	unique = {
-		"Rhein" "Weser" "Elbe" "Havel" "Donau" "Oder" "Warnow"  "Recknitz" "Neisse" "Main" "Trave" "Uecker" "Inn" "Isar" 
-		"Maas" "Ruhr" "Spree" "Mosel" "Wupper" "Saar" "Alf" "Neckar" "Aurora" "Danube" "Salzach" "Sauer" "Naab" "Paar" 
-		"Schmutter" "Günz" "Emscher" "Acher" "Kocher" "Regen" "Brenz" "Lieser" "Potsdam" "Bernouka" "Treene" "Chemnitz" 
-		"Bode" "Whipper" "Pleisse" "Gera" "Lahn" "Hamme" "Weida" "Heller" "Kinzig" "Weil" "Rhume"
+		### (Main) Rivers ###
+		"Danube"  "Maas" "Rhein" "Ijssel" "Zwarte" "Ems" "Weser" "Elbe" "Elder" "Schwentine" "Trave" "Warnow" "Recknitz" "Peenestrom" "Swine"
+
+		### Tributaries ###
+		"Stepenitz" "Nebel" "Peene" "Tollense" "Uecker" "Oder" "Treene" "Hase" "Vechte" "Dinkel" "Berkel" "Hunte" "Lesum" "Wümme" "Aller" "Böhme"
+		"Leine" "Innerste" "Rhume" "Örtze" "Fuhse" "Oker" "Schunter" "Werre" "Diemel" "Fulda" "Eder" "Schwalm" "Haune" "Werra" "Hörsel" "Ultster"
+		"Inn" "Rott" "Salzach" "Saalach" "Alz" "Chiemsee" "Isen" "Ilz" "Vils" "Isar" "Ammer" "Loisach" "Große Laber" "Regen" "Chamb" "Naab" "Vils"
+		"Laber" "Altmühl" "Abens" "Ilm" "Paar" "Lech" "Wertach" "Schmutter" "Zusam" "Wörnitz" "Brenz" "Mindel" "Kammel" "Günz" "Iller" "Riß" "Lauchert"
+		"Oste" "Stör" "Alster" "Bille" "Ilmenau" "Jeetzel" "Löcknitz" "Elde" "Aland" "Havel" "Dosse" "Rhin" "Plane" "Nuthe" "Spree" "Dahme" "Ohre"
+		"Saale" "Bode" "Wipper" "Elster" "Parthe" "Pleiße" "Weida" "Unstrut" "Gera" "Schwarza" "Mulde" "Chenmitz" "Zschopau" "Weißeritz" "Wesenitz"
+		"Eger" "Vitava" "Berounka" "Niers" "Roer" "Wurm" "Inde" "Lippe" "Alme" "Emscher" "Ruhr" "Volme" "Lenne" "Möhne" "Erft" "Sieg" "Agger" "Nister" 
+		"Ahr" "Wied" "Moselle" "Elzbach" "Alf" "Lieser" "Salm" "Kyll" "Saar" "Nied" "Prims" "Biles" "Schwarzbach" "Sauer" "Prüm" "Nims" "Our" "Lahn" 
+		"Aar" "Weil" "Dil" "Ohm" "Nahe" "Alsenz" "Glan" "Selz" "Main" "Nidda" "Wetter" "Kinzig" "Tauber" "Regnitz" "Rednitz" "Pegnitz" "Rezat" "Itz" 
+		"Neckar" "Jagst" "Kocher" "Enz" "Glems" "Murr" "Rems" "Fils" "Queich" "Pfinz" "Lauter" "Murg" "Acher" "Rench" "Schutter" "Elz" "Wiese" "Wutach"
 	}
 }
 
@@ -893,13 +1126,14 @@ GER_THEME_ANIMALS_IMPERIAL = {
 	ship_types = { ship_hull_cruiser ship_hull_light screen_ship light_cruiser destroyer }
 
 	prefix = "SMS "
-	fallback_name = "IMP Schiff-D %d"
+	fallback_name = "Kaiserliche Schiff-E %d"
 	
 	unique = {
-		"Möwe" "Albatros" "Seeadler" "Greif" "Falke" "Kondor" "Wolf" "Iltis" "Gepard" "Panther" "Tiger" "Löwe" "Luchs" 
-		"Bär" "Jaguar" "Leopard" "Kobra" "Viper" "Drache" "Wiesel" "Delphin" "Wal" "Rabe" "Habicht" "Wisent" "Puma" 
-		"Natter" "Otter" "Biber" "Bison" "Elch" "Dachs" "Hirsch" "Steinbock" "Zebra" "Hermelin" "Nerz" "Zobel" "Ozelot" 
-		"Hyäne" "Marder" "Reiher" "Fuchs" "Storch" "Kranich" "Kormoran" "Sperber" "Bussard" "Geier" "Wildschwein"
+		"Hund" "Katze" "Maus" "Elefant" "Löwe" "Tiger" "Affe" "Giraffe" "Zebra" "Bär" "Hase" "Fuchs" "Wolf" "Pferd" "Schaf" "Kuh" "Ente" "Gans"
+		"Biene" "Spinne" "Schmetterling" "Libelle" "Käfer" "Eichhörnchen" "Eule" "Falke" "Luchs" "Schlange" "Frosch" "Kröte" "Adler" "Geier" "Panther"
+		"Gepard" "Leopard" "Jaguar" "Hyäne" "Python" "Kobra" "Viper" "Klapperschlange" "Elch" "Rentier" "Igel" "Dachs" "Waschbär" "Marder" "Otter"
+		"Siebenschläfer" "Ratte" "Mauswiesel" "Känguru" "Koala" "Emu" "Echse" "Flusspferd" "Nashorn" "Gazelle" "Ziege" "Gorilla" "Tapir" "Murmeltier"
+		"Wombat" "Faultier" "Alpaka" "Bison" "Elster" "Habicht" "Kuckuck" "Paoagei"
 	}
 }
 
@@ -915,11 +1149,12 @@ GER_THEME_FISH_IMPERIAL = {
 	ship_types = { ship_hull_submarine submarine }
 
 	prefix = "SMS "
-	fallback_name = "IMP Schiff-E %d"
+	fallback_name = "Kaiserliche Schiff-F %d"
 	
 	unique = {
-		"Zander" "Wels" "Hering" "Aal" "Hecht" "Flunder" "Dorsch" "Hai" "Stachelrochen" "Neunauge" "Bitterling" "Lachs" 
-		"Barsch" "Kabeljau" "Forelle" "Stör" "Barbe" "Schleie" "Sardine" "Grundel" "Markele" "Heibutt" "Seezunge" "Knurrhahn"
+		"Wal" "Delfin" "Hai" "Rochen" "Krake" "Tintenfisch" "Seestern" "Seepferdchen" "Qualle" "Krabbe" "Hummer" "Seelöwe" "Robbe" "Thunfisch" "Sardine" 
+		"Walhai" "Manta" "Seeigel" "Kugelfisch" "Seechlange" "Seeotter" "Muschel" "Austern" "Sardelle" "Langueste" "Markele" "Walross" "Seegurke" "Seehund" 
+		"Seeanemone" "Hammerhai" "Feuerfisch" "Steinfisch" "Fuchshai" "Bullenhai" "Seidenhai" "Katzenhai" "Leopardenhai" "Blauhai"
 	}
 }
 
@@ -935,15 +1170,51 @@ GER_THEME_BATTLE_IMPERIAL = {
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }
 
 	prefix = "SMS "
-	fallback_name = "IMP Schiff-F %d"
+	fallback_name = "Kaiserliche Schiff-G %d"
 
 	unique = {
-		"Skaggerak" "Teutoburger Wald" "Flandern" "Verdun" "Sedan" "Königgrätz" "Leuthen" "Soor" "Kesselsdorf" "Pirmasens" 
-		"Großbeeren" "La Rothière" "Kulm" "Belle-Alliance" "Düppeler Schanzen" "Trautenau" "Liegnitz" "Doggerbank" "Coronel" 
-		"Penang" "Warsaw" "Nyborg" "Rathenow" "Nauen" "Fehrbelin" "Wismar" "Bremen-Verden" "Stettin" "Buda" "Kaiserwerth" 
-		"Höchstädt" "Turin" "Oudenaarde" "Malplaquet" "Stralsund" "Stresow" "Glogau" "Mollwitz" "Neisse" "Olmutz" "Glatz" 
-		"Lesch" "Chotusitz" "Prague" "Ratibor" "Habelschwerdt" "Hohenfriedberg" "Kosel" "Reichenberg" "Hennersdorf" "Zittau" 
-		"Tornow" "Pirna" "Lobositz" "Tannenberg"
+		### Northen War (1656-1660) ###
+		"Warsaw" "Nyborg" 
+
+		### Swedish-Brandenburg War (1674-1679) ###
+		"Rathenow" "Nauen" "Fehrbellin" "Wismar" "Verden" "Stettin" "Rügen" "Straslund" "Sleigh"
+
+		### Great Turkish War (1683-1699) & Nine Years' War (1701-1714) ###
+		"Buda" "Bonn" "Namur"
+
+		### Spanish War of Succession ###
+		"Kaiserswerth" "Höchstädt" "Cassano" "Turin" "Oudenaarde" "Malplaquet"
+
+		### Great Northern War (1700-1721) ###
+		"Stresow"
+
+		### Austrian War of Succession (1740-1748) ###
+		"Glogau" "Mollwitz" "Neisse" "Olmütz" "Glatz" "Chotusitz"
+
+		### Second Silesian War (1744-1745) ###
+		"Prague" "Ratibor" "Habelschwerdt" "Hohenfriedberg" "Kosel" "Soor" "Hennerdorf" "Zittau" "Kesseldorf"
+
+		### Seven Years' War (1756-1763) ###
+		"Pirna" "Lobositz" "Reichenberg" "Rossbach" "Leuthen" "Breslau" "Krefeld" "Tornow" "Güstow" "Peterswalde" "Hoyerswerda" "Kolberg" "Liegnitz" 
+		"Strehla" "Torgau" "Langensalza" "Villinghausen" "Wilhelmsthal" "Burkerdorf" "Freiberg"
+
+		### First Coalition War (1792–1795) ###
+		"Verdun" "Pirmansens" "Biesingen" "Möckern" "Haynau" "Luckau" "Großbeeren" "Katzbach" "Hagelberg" "Kulm" "Dennewitz" "Göhrde" "Altenburg"
+		"Wartenburg" "Arnhem" "Hoogstraten" "Antwerp" "La Rothière" "Laon"
+
+		### Seventh Coalition War (1815) ### 
+		"Waterloo" "Issy"
+
+		### Second Schleswig War (1864) ###
+		"Dybbøl" "Als" "Lundby"
+
+		### Austro-Prussian War (1866) ###
+		"Hühnerwasser" "Podol" "Nachod" "Skalitz" "Münchengrätz" "Gitschin" "Königinhof" "Schweinschädel" "Königgrätz" "Dermbach" "Kissingen"
+		"Frohnhofen" "Aschaffenburg" "Blumenau" "Hundheim" "Tauberbischofsheim" "Werbach" "Gerchsheim" "Helmstadt" "Roßbrunn"
+
+		### Franco-Prussian War (1870–1871) ###
+		"Wissembourg" "Spicheren" "Bitche" "Lichtenberg" "Phalsbourg" "Marsal" "Toul" "Gravelotte" "Buzancy" "Beaumont" "Noisseville" "Sedan"
+		"Chevilly" "Bellevue" "Châtillon" "Buzenval" "Belfort" "Amiens" "Villiers" "Beaugency" "Bapaume" "Lisaine" "Buzenval"
 	}
 }
 
@@ -959,11 +1230,39 @@ GER_THEME_GERMANIC_MYTHOLOGICAL_IMPERIAL = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser battle_cruiser heavy_cruiser }
 
 	prefix = "SMS "
-	fallback_name = "IMP Schiff-G %d"
+	fallback_name = "Kaiserliche Schiff-I %d"
 
 	unique = {
-		"Odin" "Thor" "Ägir" "Siegfried" "Brünhilde" "Vineta" "Freya" "Wotan" "Herta" "Donar" "Tyr" "Friia" "Uolla" 
-		"Phol" "Gausus" "Mittgart" "Alb" "Hellea" "Thrym" "Ran" "Hymir" "Thrud" "Mannus" "Idun" "Vili" "Mimir" "Zisa" 
-		"Sigi" "Vihansa" "Himilinberg" "Atla" "Ran" "Hödur" "Hymir" "Borr" "Baduhenna" "Bragi" "Lodur" "Mani"
+		### Gods and Godesses ###
+		"Alcis" "Baldr" "Bragi" "Delingr" "Forseti" "Freyr" "Heimdallr" "Heremod" "Hadu" "Hoenir" "Loki" "Mani" "Meili" "Mímir" "Modi" "Magni" "Njoror"
+		"Odin" "Odr" "Saxnōt" "Thor" "Tuisto" "Týr" "Ullr" "Váli" "Vé" "Viðarr" "Vili" "Vár" "Ēostre" "Gerðr" "Dís" "Sif" "Freyja" "Sjöfn" "Eir" "Syn"
+		"Sandraudiga" "Sól" "Snotra" "Hludana" "Rán" "Gersemi" "Hnoss" "Sigyn" "Vihansa" "Baduhenna" "Bil" "Gullveig" "Sinthgunt" "Frigg" "Nerthus"
+		"Fulla" "Haeva" "Nanna" "Nehalennia" "Vör" "Hretha" "Sága" "Zisa" "Rindr" "Gná" "Skadi" "Njörun" "Hlín" "Hariasa" "Irpa" "Lofn" "Ilmr" "Beyla"
+		"Gefjun" "Norns" "Tamfana" "Idis"
+
+		### Pseudo-Deities ###
+		"Astrild" "Ercol" "Berchta" "Biel" "Holda" "Jecha" "Jofur" "Lahra" "Reto" "Stuffo"
+	}
+}
+
+########################################################################################### Unique Themes ###########################################################################################
+GER_THEME_COMMUNIST_FIGURES = {
+	name = NAME_THEME_COMMUNIST_FIGURES
+
+	for_countries = { GER PRE WGR DDR }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser ship_hull_light carrier battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Volksmarine Schiff %d"
+
+	unique = {
+		"Karl Marx" "Friedrich Engels" "Fritz Anneke" "Ludwig Bäumer" "Adolf Cluss" "Roland Daniels" "Johann Eccarius" "Rudolf Egelhofer" "Silvio Gesell"
+		"Hilarius Gilges" "Moses Hess" "Rudolf Klement" "Willy Leow" "Max Levien" "Felix Lewinsohn" "Laura Marx" "Carl Pfänder" "Ernst Thälmann" "Wilhelm Weitling"
+		"Joseph Weydemeyer" "August Willich" "Wilhelm Wolff" "Clara Zetkin" "Karl Schapper" "Alexander Schimmelfennig" "Werner Scholem" "Carl Schorlemmer"
+		"Gustav Sobottka" "Friedrich Sorge" "Rosa Luxemburg" "August Bebel" "Wilhelm Liebknecht" "Karl Liebknecht" "Karl Kautsky" "Paul Levi" "Franz Mehring"
+		"Kurt Eisner"
 	}
 }
