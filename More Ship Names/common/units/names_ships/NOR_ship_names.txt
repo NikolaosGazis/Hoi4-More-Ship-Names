@@ -1,0 +1,423 @@
+﻿##### Norwish Ship Names #####
+
+# HNoMS = His Norwegian Majesty's Ship. (Official)
+
+### Aircraft Carrier Names ###
+NOR_CV_HISTORICAL = { # Aviators - Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HNoMS "
+	fallback_name = "Hangarskip %d"	
+
+	unique = {
+		### Aviators ###
+		"Bernt Balchen" "Fridtjof Nansen" "Tryggve Gran" "Hanna Reitsch" "Thor Solberg" "Leif V. Aase" "Hjalmar Riiser-Larsen"
+		"Andreas B. Heide" "Henning Wang" "Birger F. Motzfeldt" "Einar Sem-Jacobsen" "Lars Christensen" "Dag Krohn-Hansen"
+		"Bjørn Granlund" "Bjørn F. Andresen"
+
+		### Flying Creatures ###
+		"Fugi" "Sommerfugl" "Flaggermus" "Øyenstikker" "Ørn" "Hauk" "Spurv" "Måke" "Svane" "Kolibri" "Ugle" "Due" "Bie" "Veps" 
+		"Flue" "Møll" "Pelikan" "Albatross" "Kondor" "Seiler" "Pterosaur" "Fe" "Lyktemann"
+	}
+}
+
+### Battleship Names ###
+NOR_BB_HISTORICAL = { # Figures - Symbolism.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HNoMS "
+	fallback_name = "Slagskip %d"		
+
+	unique = {
+		"Vestlandet" "Finnmark" "Norge" "Leiv Eriksson" "Birkebeiner" "Roald Amundsen" "Aurora Borealis" "Thor Heyerdah" "Viking" "Kongeskipet" 
+		"Fjellheim" "Hardangerfjord" "Sigrid Undset" "Fridtjof Nansen" "Boreal" "Sagaskipet" "Nordavind" "Maelstrom" "Sverre Sigurdsson" "Midnattsol" 
+		"Ragnar Lodbrok" "Polhavet"
+	}
+}
+
+### Battlecruiser Names ###
+NOR_BC_HISTORICAL = { # Admirals/Officers.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HNoMS "
+	fallback_name = "SlagkRyśser %d"		
+
+	unique = {
+		"Peter Tordenskjold" "Niels Juel" "Wilhelm Christie" "Georg Wilhelm von Krogh" "Hans Jakob Arnold Jensen" "Oscar Wergeland" "Johan Bernhard Hjort" 
+		"Ivar Holth" "Ingvald Eidsheim" "Fridtjof Nansen" "Hans Peter Holm" "Lorentz Wilhelm Rasmussen" "Christian Blom" "Lorentz Diderik Kobbeltvedt" 
+		"Thomas Fasting" "August Fleischer" "Gustav Adolf Holm" "Johan Koren" "Johan Alfred Mjelde"
+	}
+}
+
+### Heavy Cruiser Names ###
+NOR_CA_HISTORICAL = { # Generals.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HNoMS "
+	fallback_name = "Tung Kryśseren %d"
+
+	unique = {
+		### Coastal Defense - Norge Class
+		"Norge" "Eidsvold" "Tordenskjold" "Harald Haarfagre"
+
+		### Additionals ###
+		"Christian August" "Henrik Angell" "Carl Wachtmeister" "Georg F. Krogh" "Wilhelm F. Wedel-Jarlsberg" "Wilhelm F. Christie" "Jacob von Hannibal"
+		"Christian Frederik" "Hjalmar Kiær" "Hans W. Sveistrup" "Fredrik Stang" "Christian S. Platou" "Konrad Sundlo" "Kristian Laake" "Ole Berg"
+		"Andreas Aarseth" "Sigurd Frisvold" "Otto Rugland" "Hans F. Dahl"
+	}
+}
+
+### Light Cruiser Names ###
+NOR_CL_HISTORICAL = { # Fjords.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HNoMS "
+	fallback_name = "Lys Kryśseren %d"
+
+	unique = {
+		"Sognefjord" "Hardangerfjord" "Geirangerfjord" "Nærøyfjord" "Lysefjord" "Nordfjord" "Aurlandsfjord" "Trondheimsfjord" "Romsdalsfjord" "Hjørundfjord" 
+		"Sunndalsfjord" "Tafjord" "Storfjord" "Moldefjord" "Oslofjord" "Balsfjord" "Varangerfjord" "Boknafjord" "Byfjorden" "Ersfjord" "Gullmarsfjorden" 
+		"Vestfjorden" "Porsangerfjorden" "Kvænangen" "Ullsfjord" "Wijdefjorden" "Isfjorden" "Boknafjord" "Ofotfjord" "Folda" "Laksefjord" "Åfjorden" "Malangen" 
+		"Balsfjorden" "Hjeltefjorden" "Lustrafjorden" "Rijpfjorden" "Sørfjorden" "Altafjorden" "Førdefjorden" "Duvefjorden" "Gullesfjorden" "Langfjorden" 
+		"Namsfjorden" "Bjørnafjorden" "Gardssundfjord" "Melfjorden" "Skjerstadfjorden" "Bømlafjorden" "Velfjorden" "Astafjorden" "Dicksonfjorden" "Drammensfjord" 
+		"Hornsund" "Krossfjorden" "Liefdefjorden"
+		#30km
+	}
+}
+
+### Destroyer Names ###
+NOR_DD_HISTORICAL = { # Cities.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HNoMS "
+	fallback_name = "Ødeleggeren %d"					
+
+	unique = {
+		### Draug Class ###
+		"Draug" "Troll" "Garm"
+
+		### Others ###
+		"Glommen" "Laugen"
+
+		### Stord Class ###
+		"Stord" "Svenner" "Oslo" "Bergen" "Trondheim" "Stavanger"
+
+		### Additionals ###
+		"Arendal" "Tromsø" "Glaisdale" "Eskdale" "Kristiansand" "Fredrikstad" "Sandnes" "Tromsø" "Skien" "Drammen" "Sarpsborg" "Bodø" "Sandefjord" 
+		"Ålesund" "Larvik" "Arendal" "Tønsberg" "Porgrunn" "Haugesund" "Hamar" "Halden" "Moss" "Gjøvik" "Lilehammer" "Horten" "Molde" "Kongsberg" 
+		"Harstad" "Kristiansund" "Steinkjer" "Grimstad" "Narvik" "Kongsvinger" "Hønefoss" "Mandal" "Egersund" "Namsos" "Notodden" "Holmestrand" 
+		"Farsund" "Hammerfest" "Flekkefjord" "Florø" "Risør" "Vadsø" "Svolvær" "Vardø" "Aalesund"
+	}
+}
+
+### Torpedo Boats ###
+NOR_TB_HISTORICAL = { # Mythology.
+	name = NAME_THEME_HISTORICAL_TB
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "HNoMS "
+	fallback_name = "Torpedobåt %d"
+
+	unique = {
+		### Sleipner Class ###
+		"Sleipner" "Aeger" "Gyller" "Odin" "Balder" "Thor"
+	}
+}
+
+### Minesweepers/Laying Names ###
+NOR_MIN_HISTORICAL = { # Mythology.
+	name = NAME_THEME_MINES
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HNoMS "
+	fallback_name = "Gruveskip %d"
+
+	unique = {
+		### Minelayers ###
+		"Tyr" "Gor" "Vidar" "Brage" "Nor" "Vale" "Uller"
+
+		### Minesweepers ###
+		"Jeløy" "Karmøy" "Oskøy" "Tromøy"
+	}
+}
+
+### Submarine Names ###
+NOR_SS_HISTORICAL = { # Lighthouses - Coastal Defense Stations - Navigational Markers.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HNoMS "
+	fallback_name = "Ubåt %d"
+	
+	unique = {
+		"Uredd" "Ula" "Utstein" "Uthaug" "Utvær" "Utsira" "Kya" "Kaura" "Kinn" "Kinn" "Kya" "Kobben" "Kunna" "Kaura" 
+		"Sklinna" "Skolpen" "Stadt" "Stord" "Svenner" 
+	}
+}
+
+##### Themes #####
+
+### Theme: Regions ###
+NOR_THEME_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HNoMS "
+	fallback_name = "Skip-A %d"
+
+	unique = {
+		"Nord-Norgel" "Finnmark" "Nordland" "Trøndelag" "Vestlandet" "Romsdal" "Vestland" "Rogaland" "Sørlandet" "Agder" 
+		"Østlandet" "Telemark" "Viken" "Innlandet"
+	}
+}
+
+### Theme: Cities ###
+NOR_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HNoMS "
+	fallback_name = "Skip-B %d"
+
+	unique = {
+		"Oslo" "Bergen" "Trondheim" "Stavanger" "Kristiansand" "Fredrikstad" "Sandnes" "Tromsø" "Skien" "Drammen" "Sarpsborg" 
+		"Bodø" "Sandefjord" "Ålesund" "Larvik" "Arendal" "Tønsberg" "Porgrunn" "Haugesund" "Hamar" "Halden" "Moss" "Gjøvik" 
+		"Lilehammer" "Horten" "Molde" "Kongsberg" "Harstad" "Kristiansund" "Steinkjer" "Grimstad" "Narvik" "Kongsvinger" 
+		"Hønefoss" "Mandal" "Egersund" "Namsos" "Notodden" "Holmestrand" "Farsund" "Hammerfest" "Flekkefjord" "Florø" "Risør" 
+		"Vadsø" "Svolvær" "Vardø"
+	}
+}
+
+### Theme: Mountains ###
+NOR_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HNoMS "
+	fallback_name = "Skip-C %d"
+
+	unique = {
+		"Galdhøpiggen" "Glittertind" "Skagastølstind" "Styggedalstinden" "Surtningssue" "Breidablikk" "Skarstind" "Ringstind"
+		"Snøhetta" "Skåla" "Snønipa" "Torfinnstindene" "Uranostind" "Trolla" "Hurrungane" "Veslehorn" "Jervvasstind" "Kalven" 
+		"Falketind" "Glittertinden" "Rondslottet" "Besshø" "Skarstind" "Okla" "Uranostind" "Kyrkja" "Memurutunga" "Storen" 
+		"Kebnekaise" "Keipen" "Romsdalshorn" "Kjøvskartind" "Nuptsegga" "Gaustatoppen"
+	}
+}
+
+### Theme: Rivers ###
+NOR_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HNoMS "
+	fallback_name = "Skip-D %d"
+
+	unique = {
+		"Glomma" "Numedalslågen" "Drammenselva" "Nidelva" "Orkla" "Altaelva" "Tanaelva" "Målselva" "Vefsna" "Vossavassdraget" 
+		"Gaula" "Otra" "Sira" "Oselva" "Namsen" "Lakselva" "Nea-Nidelvvassdraget" "Suldalslågen" "Begna" "Figgjo" "Lågen" 
+		"Aura" "Begna" "Gaula" "Driva" "Vosso" "Vinjevassdraget" "Numedalslågen" "Trysilelva"
+	}
+}
+
+### Theme: Famous Battles ###
+NOR_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "HNoMS "
+	fallback_name = "Skip-E %d"
+
+	unique = {
+		"Hafrsfjord" "Svolder" "Stamford Bridge" "Largs" "Oslo" "Oslofjord" "Kringen" "Langnes" "Trangen" "Lyngør" "Re"
+		"Vågen" "Dynekilen" "Gjellebekk" "Prestebakke" "Lier" "Stiklestad" "Fimreite" "Matrand" "Strömstad" "Rødenes"
+	}
+}
+
+### Theme: Fjords ###
+NOR_THEME_FJORDS = { # <10km.
+	name = NAME_THEME_FJORDS
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HNoMS "
+	fallback_name = "Skip-F %d"
+
+	unique = {
+		"Hamnesfjord" "Kornstadfjord" "Kvitsøyfjord" "Sandefjordsfjord" "Sandeidsfjord" "Sulafjorden" "Tomrefjorden" "Etnefjorden" "Fanafjorden" 
+		"Herøyfjord" "Høyangsfjorden" "Kvåsefjorden" "Kåfjorden" "Magdalenefjorden" "Mefjorden" "Valsøyfjorden" "Kilsfjord" "Nordfjorden" 
+		"Recherchefjorden" "Forfjord" "Eidangerfjord" "Gapafjord" "Langangsfjord" "Vetlefjorden" "Økstrafjorden" "Grimstadfjord" "Midtgulen" 
+		"Ombofjord" 
+		#5km
+	} 
+}
+
+### Theme: Culture ###
+NOR_THEME_CULTURE = {
+	name = NAME_THEME_CULTURE
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HNoMS "
+	fallback_name = "Skip-G %d"
+
+	unique = {
+		"Uavhengighet" "Midnattssol" "Nordlys" "Stortinget" "Skald" "Unionen" "Krig" "Konstitusjonen" "Samisk" "Havbris" "Nordstjerne" "Sjøfalk" 
+		"Nordavind" "Skute" "Kystvind" "Havhest"
+	}
+}
+
+### Theme: Mythology ###
+NOR_THEME_NORDIC_MYTHOLOGY = {
+	name = NAME_THEME_NORDIC_MYTHOLOGY
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HNoMS "
+	fallback_name = "Skip-H %d"
+
+	unique = {
+		### Gods / Godesses #
+		"Odin" "Thor" "Frøya" "Loke" "Frøy" "Tyr" "Balder" "Frigg" "Hel" "Njord" "Idun" "Skadi" "Forseti" "Heimdall" "Sif" "Bragi" "Eir" 
+		"Vidar" "Sól" "Mani" "Mimir" "Høne" "Modi" "Magni" "Ran" "Hoder" "Snotra" "Vili" "Ve" "Grid" "Jord" "Syn" "Gna" "Aegir" "Bestla" 
+		"Ullr" "Hjuki" "Bil" "Skudl" "Verdandi" "Skogul" "Alfrigg"
+
+		### Deities ###
+		"Huldra" "Nøkken" "Draugen" "Nøkken" "Hulderbarn" "Røkkr" "Mylings" "Marakatten" "Fossegrimmen" "Dovregubben" "Horga" "Skogsrå" 
+		"Sjøtrollet" 
+	}
+}
+
+### Theme: Monarches ###
+NOR_THEME_MONARCHS = {
+	name = NAME_THEME_MONARCHS
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "HNoMS "
+	fallback_name = "Skip-I %d"
+
+	unique = {
+		### Fairhair Dynasty ###
+		"Harald I" "Eric I" "Haakon I" "Harald II" "Olaf I"
+
+		### House of Gorm ###
+		"Harald Bluetooth" "Earl Haakon Sigurdsson" "Sweyn Forkbeard" "Earl Eric Haakonsson" "Earl Sweyn Haakonsson" "Gnut the Great" "Earl Haakon Ericsson" 
+		"Sweyn Knutsson"
+
+		### St. Olav Dynasty ###
+		"Olav II Haraldsson"  "Magnus I Olavsson"
+
+		### Hardrada Dynasty ###
+		"Harald III Sigurdsson" "Magnus II Haraldsson" "Olav III Haraldsson" "Haakon II Magnusson" "Magnus III Olavsson" "Olav IV Magnusson" "Eystein I Magnusson" 
+		"Sigurd I Magnusson" "Magnus IV Sigurdsson" "Magnus V Erlingsson"
+
+		### Gille Dynasty ###
+		"Herald IV Magnusson" "Sigurd II Haraldsson" "Inge I Haraldsson" "Eystein II Haraldsson" "Magnus V Haraldsson" "Haakon II Sigurdsson"
+
+		### Sverre Dynasty ###
+		"Sverre Sigurdsson" "Haakon III Sverresson" "Guttorm Sigurdsson" "Haakon IV Haakonsson" "Haakon V Haakonsson" "Magnus VI Haakonsson" "Eric II Magnusson" 
+		"Haakon V Magnusson"
+
+		### House of Godwin ###
+		"Inge II Bårdsson"
+
+		### House  of Bjelbo ###
+		"Magnus VII Eriksson" "Haakon VI Magnusson" "Olav IV Haakonsson"
+
+		### House of Estridsen ###
+		"Margaret"
+
+		### House of Griffin ###
+		"Eric III"
+
+		### House of Palatinate-Neumarkt ###
+		"Christopher"
+
+		### House of Bonde ###
+		"Charles I"
+
+		### House of Oldenburg ###
+		"Christian I" "John" "Christian II" "Frederick I" "Christian III" "Christian IV" "Frederick III" "Christian V" "Frederick IV" "Christian VI" "Frederick V" 
+		"Christian VII" "Frederick VI" "Christian Frederick"
+
+		### House of Holstein-Gottorp ###
+		"Charles II"
+
+		### House of Bernadotte ###
+		"Charles III John" "Oscar I" "Charles IV" "Oscar II"
+	}
+}
