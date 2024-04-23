@@ -1,9 +1,9 @@
 ﻿### Austrian-Hungarian Empire Ship Names ###
 
-# SMS = Seiner Majestät Schiff.
+# SMS = Seiner Majestät Schiff. (Imperial)
 
 ### Aircraft Carrier Names ###
-AUH_CV_IMPERIAL = { # Flying Creatures - Figures.
+AUH_CV_IMPERIAL = { # Aces - Aviation Pioneers.
 	name = NAME_THEME_IMPERIAL_CARRIERS
 
 	for_countries = { AUS HUN CZE CRO }
@@ -14,21 +14,48 @@ AUH_CV_IMPERIAL = { # Flying Creatures - Figures.
 	ship_types = { ship_hull_carrier carrier }
 	
 	prefix = "SMS "
-	fallback_name = "Repülögép-hordozó %d"	
+	fallback_name = "Flugzeugträger %d"
 
 	unique = {
-		### Figures ###
-		"Red Baron"
+		### Aces ###
+		"Godwin von Brumowski" "Julius Arigi" "Benno Fiala von Fernbrugg" "Frank Linke-Crawford" "József Kiss" "Franz Gräser" "Eugen Bönsch" "Stefan Fejes"
+		"Ernst Strohschneider" "Adolf Heyrowsky" "Kurt Gruber" "Franz Rudorfer" "Friedrich Navratil" "Raoul Stojsavljevic" "Gottfried Freiherr von Banfield"
+		"Otto Jindra" "Georg Kenzian" "Karl Kaszala" "Heinrich Kostrba" "Alexander Tahy" "Ferdinand Udvardy" "Josef Friedrich" "Ludwig Hautzmayer" "Otto Jäger"
+		"Josef von Maier" "Johann Risztics" "Andreas Dombrowski" "Johann Frint" "Alexander Kasza" "Karl Nikitsch" "Franz Peter" "Josef Pürer" "Roman Schmidt"
+		"Rudolf Weber" "Julius Busa" "Friedrich Hefty" "Julius Kowalczik" "Franz Lahner" "Friedrich Lang" "Johann Lasi" "Béla Macourek" "Kurt Nachod"
+		"Augustin Novák" "Karl Patzelt" "Alois Rodlauer" "Rudolf Szepessy-Sokoll" "Karl Teichmann" "Karl Urban" "Franz Wognar"
 
-		### Flying Creatures ###
-		"Siberfalke" "Adler" "Taube" "Falke" "Albatros" "Habicht" "Amsel" "Eule" "Geier" "Greif" "Phonix" "Harpyie"
-		"Sperber" "Adlergeist" "Sturmvogel" "Kranich" "Habichtadler" "Seeadler" "Scharnagel" "Nachtigall" "Rotmilan" 
-		"Wiedehopf" "Ziz"
+		### Aviation Pioneers ###
+		"Igo Etrich" "Ignaz Etrich" "Jacob Lohner" "Robert Wild" "Karl Illner" "Hans Grade" "Julius von Berg" "Eduard Pelz von Felinau" "Ferdinand Redtenbacher" 
+		"Karl Gross" "Franz Wels" "Franz von Hoiningen" "Eugen Bötzendorfer" "Emil Jeřábek" "Ferdinand Porsche" "Josef Sablatnig" "Karl Sablatnig" "Ernst Heinkel"
+		"Alfred Ritter von Perényi" "Eduard Ritter von Dostler" "Hans Seidemann"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+AUH_CVL_IMPERIAL = { # Flying Creatures.
+	name = NAME_THEME_IMPERIAL_CVL
+
+	for_countries = { AUS HUN CZE CRO }
+
+	can_use = { has_cosmetic_tag = HUN_EMPIRE }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "SMS "
+	fallback_name = "Leichter Flugzeugträger %d"
+
+	unique = {
+		"Adler" "Falke" "Möwe" "Krähe" "Taube" "Schwalbe" "Reiher" "Eule" "Kranich" "Schwan" "Storch" "Kolibri" "Gans" "Amsel" "Meise" "Sperling" "Papagei" 
+		"Pinguin" "Habicht" "Zaunkönig" "Schmetterling" "Libelle" "Biene" "Waspe" "Fliege" "Mücke" "Hornisse" "Hummel" "Schwebfliege" "Marienkäfer" "Zikade" 
+		"Drache" "Phönix" "Greif" "Pegasus" "Harpyie" "Rok" "Donnervogel" "Wyvern" "Simurgh" "Sirene" "Quetzalcoatl" "Chimäre" "Fenghuang" "Sleipnir" "Lamassu" 
+		"Byakko"
 	}
 }
 
 ### Battleship Names ###
-AUH_BB_IMPERIAL = { # Older Models - Figures - Monarchy.
+AUH_BB_IMPERIAL = { # Figures - Monarchy - Older Models.
 	name = NAME_THEME_IMPERIAL_BB
 
 	for_countries = { AUS HUN CZE CRO }
@@ -39,27 +66,27 @@ AUH_BB_IMPERIAL = { # Older Models - Figures - Monarchy.
 	ship_types = { ship_hull_heavy battleship }
 	
 	prefix = "SMS "
-	fallback_name = "Csatahajó %d"		
+	fallback_name = "Schlachtschiff %d"		
 
 	unique = {
-		### Hasburg Class ###
-		"Habsburg" "Árpád" "Babenberg"
+		### Hasburg Class (1900) ###
+		"Habsburg" "Árpád" "Babenberg" 
 
-		### Erzherzog Karl Class ###
+		### Erzherzog Karl Class (1903) ###
 		"Erzherzog Karl" "Erzherzog Friedrich" "Erzherzog Franz Ferdinand"
 
-		### Radetzky Class ###
+		### Radetzky Class (1908) ###
 		"Radetzky" "Erzherzog Franz Ferdinand" "Zrinyi"
 
-		### Tegetthoff Class ###
+		### Tegetthoff Class (1911) ###
 		"Tegetthoff" "Viribus Unitis" "Prinz Eugen" "Szent István"
 
 		### Ersatz Monarch Class (Projected) ###
-		"Monarch" "Kronprinz Rudolf" "Kaiserin Elisabeth" "Adria"
+		"Monarch" "Kronprinz Rudolf" "Kaiserin Elisabeth" "Adria" "Erzherzog Albrecht"
 
 		### Additionals ###
-		"Mars" "Kaiser" "König" "Wien" "Budapest" "Drache" "Salamander" "Kaiser Max" "Lissa" "Custoza" 
-		"Erzherzog Albrecht" "Erzherzogin Stephanie"
+		"Mars" "Kaiser" "König" "Wien" "Budapest" "Drache" "Salamander" "Kaiser Max" "Lissa" "Custoza" "Erzherzog Albrecht" "Erzherzogin Stephanie"
+		"Santa Elisabetta" "San Michele" "San Carlos" "Emo" "Cesare" "Don Juan d'Austria"
 	}
 }
 
@@ -75,12 +102,11 @@ AUH_BC_IMPERIAL = { # Admirals.
 	ship_types = { ship_hull_heavy battle_cruiser }
 	
 	prefix = "SMS "
-	fallback_name = "Csatacirkáló %d"		
+	fallback_name = "Schlachtkreuzer %d"		
 
 	unique = {
-		"Spaun" "Sternenck" "Haus" "Horty" "Montecuccoli" "Wilding" "Fischel" "Daublebsky" "Janko" "Michl" 
-		"Janko" "Koudelka" "Lützow" "Zsolnay" "Sándor" "Eugenio" "Kronprinz" "Karolyi" "Rozhestvensky" "Král" 
-		"Vukovics" "Dalmat" "Ortner" "Kresimir"
+		"Spaun" "Sternenck" "Haus" "Horty" "Montecuccoli" "Wilding" "Fischel" "Daublebsky" "Janko" "Michl" "Janko" "Koudelka" "Lützow" "Zsolnay" 
+		"Sándor" "Eugenio" "Kronprinz" "Karolyi" "Rozhestvensky" "Král" "Vukovics" "Dalmat" "Ortner" "Kresimir"
 	} 
 }
 
@@ -96,17 +122,21 @@ AUH_CA_IMPERIAL = { # Older Models - Commanders.
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 	
 	prefix = "SMS "
-	fallback_name = "Nehézcirkálo %d"
+	fallback_name = "Schwerer Kreuzer %d"
 
 	unique = {
-		### Older Models ###
-		"Sankt Georg" "Helgoland" "Saida" "Szigetvár" "Aspern" "Zenta" "Leopard" "Panther" "Kaiserin" "Königin" 
-		"Löwe" "Tiger"
+		### Armoured Cruisers - Older Models (1900) ###
+		"Königin Maria Theresia" "Kaiser Karl VI" "Sankt Georg"
+
+		### Kaiser Franz Joseph I Class (1890) ###
+		"Kaiser Franz Joseph I" "Kaiserin Elisabeth"
+
+		### Zenta Class (1899) ###
+		"Zenta" "Aspern" "Szigetvár"
 
 		### Additionals ###
-		"Weyrother" "Latour" "Berlichingen" "Zrínyi" "Wallenstein" "Rákóczi" "Khevenhüller" "Daun" "Loudon"
-		"Alvinczy" "Benedek" "Trapp" "Schwarzenberg" "Windischgrätz" "Kinsky" "Auersperg" "Gondrecourt"
-		"Trauttmansdorff"
+		"Weyrother" "Latour" "Berlichingen" "Zrínyi" "Wallenstein" "Rákóczi" "Khevenhüller" "Daun" "Loudon" "Alvinczy" "Benedek" "Trapp" "Schwarzenberg" 
+		"Windischgrätz" "Kinsky" "Auersperg" "Gondrecourt" "Trauttmansdorff"
 	}
 }
 
@@ -122,18 +152,30 @@ AUH_CL_IMPERIAL = { # Cities.
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
 	prefix = "SMS "
-	fallback_name = "Könnyűcirkáló %d"
+	fallback_name = "Leichter Kreuzer %d"
 
 	unique = {
-		"Graz" "Linz" "Salzburg" "Innsbruck" "Klagenfurt" "St.Polten" "Vilach" "Wiener Neustadt" "Debrecen" "Szeged" "Miskolc" 
-		"Pecs" "Gyor" "Nyíregyháza" "Kecskemét" "Székesfehérvár" "Prague" "Brno" "Ostrava" "Pilsen" "Liberec" "Olomouc" "Lviv" 
-		"Kraków" "Chernivtsi" "Przemyśl" "Ιvano-Frankivsk" "Kolozsvár" "Marosvásárhely" "Nagyszeben" "Zagreb" "Osijek" "Rijeka" 
-		"Split" "Zadar" "Sarajevo" "Banja Luka" "Mostar" "Tuzla"
+		### Zara Class (1879) ###
+		"Zara" "Spalato" "Sebenico"
+
+		### Panther Class (1885) ###
+		"Panther" "Leopard"
+
+		### Additionals - Older Models ###
+		"Tiger" "Lussin"
+
+		### Novara Class (1912) ###
+		"Novara" "Helgoland" "Saida"
+
+		### Additional - Cities ###
+		"Graz" "Linz" "Salzburg" "Innsbruck" "Klagenfurt" "St.Polten" "Vilach" "Wiener Neustadt" "Debrecen" "Szeged" "Miskolc" "Pecs" "Gyor" "Nyíregyháza" 
+		"Kecskemét" "Székesfehérvár" "Prague" "Brno" "Ostrava" "Pilsen" "Liberec" "Olomouc" "Lviv" "Kraków" "Chernivtsi" "Przemyśl" "Ιvano-Frankivsk" 
+		"Kolozsvár" "Marosvásárhely" "Nagyszeben" "Zagreb" "Osijek" "Rijeka" "Split" "Zadar" "Sarajevo" "Banja Luka" "Mostar" "Tuzla"
 	}
 }
 
 ### Destroyer Names ###
-AUH_DD_IMPERIAL = { # Animals.
+AUH_DD_IMPERIAL = { # Older Models - Animals.
 	name = NAME_THEME_IMPERIAL_DD
 
 	for_countries = { AUS HUN CZE CRO }
@@ -144,15 +186,54 @@ AUH_DD_IMPERIAL = { # Animals.
 	ship_types = { ship_hull_light destroyer }			
 
 	prefix = "SMS "
-	fallback_name = "Romboló %d"					
+	fallback_name = "Zerstörer %d"					
 
 	unique = {											
-		"Novara" "Theresia" "Tátra" "Balaton" "Csepel" "Lika" "Orjen" "Triglav" "Dinara" "Csikós" "Pandur" "Réka" "Warasdiner" "Turul" 
-		"Velebit" "Huszár" "Streiter" "Ulan" "Wildfang" "Uskoke" "Magnet" "Satellit" "Trabant" "Planet" "Blitz" "Komet" "Meteor" "Kaiman" 
-		"Alk" "Alligator" "Anaconda" "Delphin" "Drache" "Salamander" "Echse" "Hai" "Hydra" "Kormoran" "Krake" "Krokodil" "Molch" 
-		"Möwe" "Narwal" "Pinguin" "Polyp" "Schwalbe" "Seehund" "Skorpion" "Triton" "Wal"
+		### Adler Class (1886) ###
+		"Adler" "Falke"
+
+		### Schichau Class (1885) ###
+		"Schichau" "Kibitz" "Kubuk" "Staar" "Krähe" "Rabe" "Elster" "Gaukler" "Flamingo" "Sekretär" "Weihe" "Marabu" "Harpie" "Sperber" "Habicht" "Bussard" "Condor" 
+		"Geier" "Uhu" "Würger" "Kranich" "Reihar" "Ibis" "Natter" "Viper"
+
+		### Cobra Class (1898) ###
+		"Cobra" "Python" "Boa" "Kígyó"
+
+		### Kaiman Class (1905) ###
+		"Kaiman" "Anaconda" "Alligator" "Krokodil" "Wal" "Seehund" "Delphin" "Narwal" "Hai" "Möwe" "Schwalbe" "Pinguin" "Drache" "Greif" "Triton" "Hydra" "Skorpion" 
+		"Phönix" "Krake" "Polyp" "Echse" "Molch" "Kormoran" "Alk"
+
+		### Torpedo Gunboats ###
+		"Meteor" "Blitz" "Komet" "Planet" "Trabant" "Satellit" "Magnet"
+
+		### Huszár Class (1905) ###
+		"Huszár" "Csikós" "Dinara" "Pandur" "Reka" "Scharfschütze" "Streiter" "Turul" "Ulan" "Uskoke" "Velebit" "Wildfang" "Warasdiner"
+
+		### Tátra Class (1912) ###
+		"Tátra" "Balaton" "Csepel" "Lika" "Orjen" "Triglav" "Durkla" "Uzsok"
 	}
 }
+
+### Escort Destroyers Names ###
+AUH_DE_IMPERIAL = { # Older Models (Frigates) - Mythology - Cities - Animals.
+	name = NAME_THEME_IMPERIAL_DE
+
+	for_countries = { AUS HUN CZE CRO }
+
+	can_use = { has_cosmetic_tag = HUN_EMPIRE }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "SMS "
+	fallback_name = "Geleitschutz Zerstörer %d"	
+
+	unique = {
+		"Carolina" "Bellona" "Lipsia" "Augusta" "Ebe" "Medea" "Juno" "Venere" "Schwarzenberg" "Diana" "Minerva" "Montecuccoli" "Pola" "Pylades" "Hussar" "Camaeleon" "Fido" 
+		"Bravo" "Dromedar" "Arethusa" "Arthemisia" "Saida" "Vulcano" "Messagiere" "Achilles" "Custoza" "Curtatone" "Santa Lucia" "Volta" "Taurus" "Gorzkowski" "Jupiter" 
+		"Radetzky" "Adria" "Donau" "Laudon" "Dandolo" "Fasana" "Zrínyi" "Aurora" "Frundsberg"
+	}
+} 
 
 ### Submarine Names ###
 AUH_SS_IMPERIAL = {
@@ -198,9 +279,9 @@ AUH_THEME_REGIONS = {
 	fallback_name = "Schiff-A %d"
 
 	unique = { 
-		"Bohemia" "Galicia" "Transylvania" "Dalmatia" "Bukovina" "Carniola" "Moravia" "Tyrol" "Illyria" "Bosnia" "Herzegovina" "Slavonia" 
-		"Transcarpathia" "Vojvodina" "Moldavia" "Cisleithania" "Transleithania" "Morava" "Silesia" "Venetia" "Carinthia" "Styria" "Epirus" 
-		"Serbia" "Montenegro" "Banat" "Slovakia" "Friuli"
+		"Bohemia" "Galicia" "Transylvania" "Dalmatia" "Bukovina" "Carniola" "Moravia" "Tyrol" "Illyria" "Bosnia" "Herzegovina" "Slavonia" "Transcarpathia" 
+		"Vojvodina" "Moldavia" "Cisleithania" "Transleithania" "Morava" "Silesia" "Venetia" "Carinthia" "Styria" "Epirus" "Serbia" "Montenegro" "Banat" 
+		"Slovakia" "Friuli"
 	}
 }
 
@@ -216,13 +297,16 @@ AUH_THEME_CITIES = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "SMS "
-	fallback_name = "Schiff-A %d"
+	fallback_name = "Schiff-B %d"
 
 	unique = {
-		"Graz" "Linz" "Salzburg" "Innsbruck" "Klagenfurt" "St.Polten" "Vilach" "Wiener Neustadt" "Debrecen" "Szeged" "Miskolc" 
-		"Pecs" "Gyor" "Nyíregyháza" "Kecskemét" "Székesfehérvár" "Prague" "Brno" "Ostrava" "Pilsen" "Liberec" "Olomouc" "Lviv" 
-		"Kraków" "Chernivtsi" "Przemyśl" "Ιvano-Frankivsk" "Kolozsvár" "Marosvásárhely" "Nagyszeben" "Zagreb" "Osijek" "Rijeka" 
-		"Split" "Zadar" "Sarajevo" "Banja Luka" "Mostar" "Tuzla" 
+		"Wien" "Budapest" "Prag" "Krakau" "Laibach" "Pressburg" "Agram" "Triest" "Graz" "Lemberg" "Brünn" "Sarajewo" "Innsbruck" "Linz" "Debrecen" "Szegedin" 
+		"Ostrau" "Pula" "Spalato" "Klagenfurt" "Bukarest" "Belgrad" "Temeswar" "Klausenburg" "Neusatz" "Zara" "Marburg" "Fünfkirchen" "Esseg" "Arad" "Hermannstadt" 
+		"Banjaluka" "Großwardein" "Mostar" "Maria Theresiopel" "Pilsen" "Czernowitz" "Steinamanger" "Saratow" "Mieresch" "Plowdiw" "Kaschau" "Debrecen" "Braila" 
+		"Uschhorod" "Odessa" "Fiume" "Tuzla" "Miskolcz" "Kronstadt" "Varna" "Szolnok" "Ketschkemet" "Ketschkemet" "Nisch" "Tergowisch" "Bákau" "Semendria" "Schäßburg" 
+		"Frauenbach" "Kragujevac" "Pantschowa" "Raab" "Hermannstadt" "Neurmarkt" "Jassy" "Russe" "Salzburg" "Vilach" "Wels" "Steyr" "Dornbirn" "Bregenz" "Feldkirch" 
+		"Wolfsberg" "Baden" "Leoben" "Traun" "Amstetten" "Kapfenberg" "Mödling" "Lustenau" "Hallein" "Kufstein" "Schwechat" "Ansfelden" "Ternitz" "Eisenstadt" 
+		"Vöcklabruck" "Hard" "Korneuburg" "Rankweil" "Hollabrunn" "Mistelbach" "Enns" "Götzis" "Judenburg" "Laakirchen" "Imst"
 	}
 }
 
@@ -238,13 +322,12 @@ AUH_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_light destroyer }
 
 	prefix = "SMS "
-	fallback_name = "Schiff-B %d"
+	fallback_name = "Schiff-C %d"
 
 	unique = {
-		"Grossglockner" "Dachstein" "Wilder Kaiser" "Zugspitze" "Hohe Tauern" "High Tatras" "Bieszczady" "Făgăraș" "Krkonoše" 
-		"Jeseníky" "Carpathian Flysch" "Velebit" "Dinara" "Gorski" "Biokovo" "Triglav" "Mangart" "Kanin" "Stara Planina" "Vitosha" 
-		"Rila" "Pirin" "Pindus" "Bucegi" "Tatra" "Retezat" "Oetztal" "Zilertal" "Karawanks" "Kamnik-Savinja Alps" "Steiner" "Orjen" 
-		"Krivan" "Bukk" "Gorce" "Pieniny" "Snieznik" "Slavkovsky"
+		"Grossglockner" "Dachstein" "Wilder Kaiser" "Zugspitze" "Hohe Tauern" "High Tatras" "Bieszczady" "Făgăraș" "Krkonoše" "Jeseníky" "Carpathian Flysch" 
+		"Velebit" "Dinara" "Gorski" "Biokovo" "Triglav" "Mangart" "Kanin" "Stara Planina" "Vitosha" "Rila" "Pirin" "Pindus" "Bucegi" "Tatra" "Retezat" 
+		"Oetztal" "Zilertal" "Karawanks" "Kamnik-Savinja Alps" "Steiner" "Orjen" "Krivan" "Bukk" "Gorce" "Pieniny" "Snieznik" "Slavkovsky"
 	}
 }
 
@@ -260,13 +343,12 @@ AUH_THEME_RIVERS = {
 	ship_types = { ship_hull_light destroyer }
 	
 	prefix = "SMS "
-	fallback_name = "Schiff-C %d"
+	fallback_name = "Schiff-D %d"
 	
 	unique = {
-		"Donau" "Tisza" "Sajó" "Rába" "Lafnitz" "Körös" "Zagyva" "Drava" "Zala" "Hornád" "Marcal" "Tarna" "Salzach" "Steyr" "Leitha" 
-		"Thaya" "Inn" "Isar" "Iller" "Traun" "Mur" "Drau" "Enns" "Elbe" "Vitava" "Sava" "Siret" "Neman" "Save" "Labe" "Mura" "Tara" 
-		"Svratka" "Oder" "Una" "Bistrița" "Stryi" "Prut" "Kupa" "Bregalnica" "Sázava" "Ibar" "Teterev" "Krka" "Siret" "Sana" "Vardar" 
-		"Timok"
+		"Donau" "Tisza" "Sajó" "Rába" "Lafnitz" "Körös" "Zagyva" "Drava" "Zala" "Hornád" "Marcal" "Tarna" "Salzach" "Steyr" "Leitha" "Thaya" "Inn" "Isar" 
+		"Iller" "Traun" "Mur" "Drau" "Enns" "Elbe" "Vitava" "Sava" "Siret" "Neman" "Save" "Labe" "Mura" "Tara" "Svratka" "Oder" "Una" "Bistrița" "Stryi" 
+		"Prut" "Kupa" "Bregalnica" "Sázava" "Ibar" "Teterev" "Krka" "Siret" "Sana" "Vardar" "Timok"
 	}
 }
 
@@ -282,13 +364,12 @@ AUH_THEME_BATTLES = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "SMS "
-	fallback_name = "Schiff-D %d"
+	fallback_name = "Schiff-E %d"
 
 	unique = {
-		"White Mountain" "Saint Gotthard" "Belgrade" "Novi" "Aspren-Essling" "Wagram" "Raab" "Custozza" "Zborov" "Raszyn" "Szoreg" 
-		"Sankt Michael" "Komarom" "Schwechat" "Bereza Kartuska" "Hohenfriedberg" "Soor" "Rossbach" "Kolín" "Krotzka" "Focșani" 
-		"Würzburg" "Sacile" "Gorizia" "Laibach" "Tolentino" "Königgrätz" "Liège" "Limanowa" "Caporetto" "Millesimo" "Bassano" "Lissa" 
-		"Krasnoi" "Komarów" "Rarańcza"
+		"White Mountain" "Saint Gotthard" "Belgrade" "Novi" "Aspren-Essling" "Wagram" "Raab" "Custozza" "Zborov" "Raszyn" "Szoreg" "Sankt Michael" "Komarom" 
+		"Schwechat" "Bereza Kartuska" "Hohenfriedberg" "Soor" "Rossbach" "Kolín" "Krotzka" "Focșani" "Würzburg" "Sacile" "Gorizia" "Laibach" "Tolentino" 
+		"Königgrätz" "Liège" "Limanowa" "Caporetto" "Millesimo" "Bassano" "Lissa" "Krasnoi" "Komarów" "Rarańcza"
 	} 
 }
 
@@ -296,7 +377,7 @@ AUH_THEME_BATTLES = {
 AUH_THEME_CULTURE = {
 	name = NAME_THEME_CULTURE
 
-	#for_countries = { AUS HUN CZE CRO }
+	for_countries = { AUS HUN CZE CRO }
 
 	can_use = { has_cosmetic_tag = HUN_EMPIRE }
 
@@ -304,16 +385,17 @@ AUH_THEME_CULTURE = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "SMS "
-	fallback_name = "Schiff-E %d"
+	fallback_name = "Schiff-F %d"
 
 	unique = { 
-		"Imperator" "Aurelia" "Monarchia" "Adrialis" "Corona" "Regens" "Cresta" "Naviga" "Maris" "Navalis" "Regalis" "Kronenadler" 
-		"Alpenstolz" "Kaisermacht" "Imperium" "Regalwoge" "Alpenruhm"
+		"Imperator" "Aurelia" "Monarchia" "Adrialis" "Corona" "Regens" "Cresta" "Naviga" "Maris" "Navalis" "Regalis" "Kronenadler" "Alpenstolz" "Kaisermacht" 
+		"Imperium" "Regalwoge" "Alpenruhm" "Königslicht" "Kaiserschimmer" "Donaumacht" "Thronsonne" "Imperiale Pracht" "Habsburger Erbe" "Monarchenstolz" 
+		"Donauadler" "Kaiseradlerblick" "Kronenjuwel" "Imperiale Weite" "Alpenkaiser" "Regalia Glanz" "Donauwellen"
 	}
 }
 
 ### Theme: Monarchs ###
-AUH_THEME_MONARCH = {
+AUH_THEME_MONARCHY = {
 	name = NAME_THEME_MONARCHS
 
 	for_countries = { AUS HUN CZE CRO }
@@ -327,8 +409,8 @@ AUH_THEME_MONARCH = {
 	fallback_name = "Schiff-G %d"
 
 	unique = {
-		"Ferdinand I" "Maximilan II" "Rudolf II" "Matthias" "Ferdinand II" "Ferdinand III" "Leopold I" "Joseph I" 
-		"Charles VI" "Maria Theresa" "Joseph II" "Leopold II" "Franz I" "Franz Joseph I"
+		"Ferdinand I" "Maximilan II" "Rudolf II" "Matthias" "Ferdinand II" "Ferdinand III" "Leopold I" "Joseph I" "Charles VI" "Maria Theresa" "Joseph II" 
+		"Leopold II" "Franz I" "Franz Joseph I"
 	}
 }
 
@@ -347,8 +429,7 @@ AUH_THEME_MYTHOLOGY = {
 	fallback_name = "Schiff-H %d"
 
 	unique = {
-		"Rübezahl" "Perchta" "Nix" "Alraune" "Erlkönig" "Zwerg" "Drachen" "Schwarze Frau" "Koschei" "Goldenes Kalb" "Tatzelwurm" "Aegir" 
-		"Kobold" "Rumpelstilzchen" "Vodník" "Hödekin" "Freischütz" "Kosjenka" "Schimmelreiter" "Oberon" "Svantevit" "Weisse Frau" "Krampus" 
-		"Baba Yaga"
+		"Rübezahl" "Perchta" "Nix" "Alraune" "Erlkönig" "Zwerg" "Drachen" "Schwarze Frau" "Koschei" "Goldenes Kalb" "Tatzelwurm" "Aegir" "Kobold" "Rumpelstilzchen" 
+		"Vodník" "Hödekin" "Freischütz" "Kosjenka" "Schimmelreiter" "Oberon" "Svantevit" "Weisse Frau" "Krampus" "Baba Yaga"
 	}
 }

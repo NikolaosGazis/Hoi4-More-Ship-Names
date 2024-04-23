@@ -1,6 +1,6 @@
 ﻿##### Spanish Ship Names #####
 
-# ARE: Armada Española.
+# ARE = Armada Española. (Official)
 
 ### Aircraf Carrier Names ###
 SPR_CV_HISTORICAL = { # Historical - Aviation Pioneers.

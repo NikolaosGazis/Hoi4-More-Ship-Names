@@ -1,8 +1,8 @@
 ﻿##### German Ship Names #####
 
 # KMS = Kriegsmarine Schiff (Not Used).
-# SMS = Seine Majestäts Schiff (Imperial).
-# FGS/DVS = Federal German Ship/Demokratische Volksschiff (NATO).
+# SMS = Seiner Majestät Schiff (Imperial).
+# FGS/DVS = Federal German Ship/Demokratische Volksschiff (NATO - Not Used).
 
 ### Aircraft Carrier Names ###
 GER_CV_HISTORICAL = { # Aviation Pioneers - Aces.
@@ -264,7 +264,7 @@ GER_CL_HISTORICAL = { # Cities - World War 1 Models (Mythology).
 		"Nymphe" "Brummer" "Bremse" "Gazelle" "Thetis" "Ariadne" "Amazone" "Frauenlob" "Arcona" "Undine" "Hela" "Gefion" "Flensburg" "Aach"
 		"Aalen" "Calau" "Dargun" "Diez" "Dommitzsch" "Ebeleben" "Eggenfelden" "Elterlein" "Elstra" "Freystadt" "Füssen" "Gernsbach" "Greiz"
 		"Griesheim" "Herrnhut" "Höxter" "Lychen" "Jarmen" "Kierspe" "Kahla" "Magdala" "Nossen" "Oederan" "Oschatz" "Püttlingen" "Penig"
-		"Rabenau" "Rethem"  "Spalt" "Scheinfeld" "Schwerin" "Sternberg" "Teupitz" "Teuschnitz" "Ummerstadt" "Ulrichstein" "Visselhövede"
+		"Rabenau" "Rethem" "Spalt" "Scheinfeld" "Schwerin" "Sternberg" "Teupitz" "Teuschnitz" "Ummerstadt" "Ulrichstein" "Visselhövede"
 		"Vilsbiburg" "Neukölln"
 	}
 }
@@ -281,13 +281,13 @@ GER_DD_HISTORICAL = { # Naval Personnel.
 	fallback_name = "Zerstörer-%d"
 
 	unique = {
-		### Zerstörer 1934 ###
+		### Zerstörer 1934 Class ###
 		"Z1 Leberecht Maass"
 		"Z2 Georg Thiele"
 		"Z3 Max Schultz"
 		"Z4 Richard Beitzen"
 
-		### Zerstörer 1934A ###
+		### Zerstörer 1934A Class ###
 		"Z5 Paul Jacobi"
 		"Z6 Theodor Riedel"
 		"Z7 Hermann Schoemann" 
@@ -301,7 +301,7 @@ GER_DD_HISTORICAL = { # Naval Personnel.
 		"Z15 Erich Steinbrinck"
 		"Z16 Friedrich Eckholdt"
 
-		### Zerstörer 1936 ###
+		### Zerstörer 1936 Class ###
 		"Z17 Diether von Roeder"
 		"Z18 Hans Lüdemann"
 		"Z19 Hermann Kühne"
@@ -810,7 +810,7 @@ GER_BB_IMPERIAL = { # World War 1 Models - Figures - Noble Family.
 		"Bayern" "Baden" "Württemberg" "Sachsen"
 
 		### Additionals - Figures ###
-		"Bismarck"
+		"Bismarck" "Clausewitz"
 
  		### Additionals - Noble Family ###
 	 	"Prinz Adalbert" "Prinz Joachim" "Prinz Günther" "Victoria Louise" "Prinz Augustus" "Prinz William" "Prinzessin Frederica" "Prinz Oscar" 
@@ -888,7 +888,9 @@ GER_CA_IMPERIAL = { # World War 1 Models - Generals - Admirals.
 		"Blücher"
 
 		### Additionals - Generals ###
-		"Below" "Falkenhayn" "Hoffmann" "Vorbeck" "Ludendorff"
+		"Below" "Falkenhayn" "Hoffmann" "Vorbeck" "Ludendorff" "Bahrfeldt" "Balck" "Bernhardi" "Berrer" "Beseler" "Bissing" "Böckmann" "Bothmer" 
+		"Brandenstein" "Busse" "Carlowitz" "Chelius" "Conta" "Deimling" "Elsa" "Eben" "Eberhardt" "Einem" "Emmich" "Estorff" "Etzel" "Fabeck" 
+		"Falkenhausen" "Fasbender" "Schulenburg" "Gaede" "Gallwitz" "Garnier" "Gayl" "Hellingrath" "Gleich" "Groener" "Gronau" "Gündell" "Hänisch"
 
 		### Additionals - Admirals/Vice-Admirals ###
 		"Senden" "Bendemann" "Arnim" "Büchsel" "Prittwitz" "Fischel" "Baudissin" "Müller" "Truppel" "Schröder" "Coerper" "Heeringen" "Pohl" "Capelle"

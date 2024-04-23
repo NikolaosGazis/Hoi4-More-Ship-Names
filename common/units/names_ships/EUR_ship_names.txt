@@ -1,6 +1,6 @@
 ##### European Union Ship Names #####
 
-# EUS = European Union Ship.
+# EUS = European Union Ship. (Unofficial)
 
 ### Aircraf Carrier Names ###
 EUR_CV_HISTORICAL = { # Aviation Pioneers - World War 1 Aces.

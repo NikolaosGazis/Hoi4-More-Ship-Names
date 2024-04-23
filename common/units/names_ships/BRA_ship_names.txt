@@ -1,0 +1,288 @@
+﻿##### Brazilian Ship Names #####
+
+# NRB = Navio da República Brasileira. (Officia
+
+### Aircraft Carrier Names ###
+BRA_CV_HISTORICAL = { # Flying Creatures - Mythological.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "NRB "
+	fallback_name = "Porta-Aviões %d"	
+
+	unique = {
+		### Flying Creatures ###
+		"Arara Vermelha" "Arara Canindé" "João de Barro" "Garça Branca Grande" "Beija Flor Tesoura" "Gavião Real" "Quero Quero" "Arara Verde" "Gavião Belga"
+		"Carcará" "Urubu Rei" "Tuiuiú" "Papagaio Galego" "Andorinhão Pardo" "Arara Piranga" "Arara Azul" "Coruja" "Gavião" "Pomba" "Gaivota" "Andorinha" 
+		"Pica Pau" "Garça" "Águia" "Falcão" "Beija Flor" "Urubu" "Maritaca" "Pardal" "Gralha" "Pombo Correio" "Tucano" "Rolinha" "Carcará" "Flamingo" "Grou"
+
+		### Mythological ###
+		"Fênix" "Harpia" "Pégaso" "Quimera" "Hipogrifo" "Grifo" "Dragão" "Roc" "Mantícora" "Fada" "Gárgula" "Esfinge" "Centauro"
+	}
+}
+
+### Battleship Names ###
+BRA_BB_HISTORICAL = { # Figures - Importance.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "NRB "
+	fallback_name = "Couraçado %d"		
+
+	unique = {
+		### Minas Gerais Class ###
+		"Minas Gerais" "São Paulo" 
+
+		### Additionals ###
+		"Santa Catarina" "Espirito Santo" "Rio de Janeiro" "Maranhão" "Goiás" "Rio Grande do Sul" "Pará" "Alagoas" "Pernambuco" "Roraima" "Tocantins" 
+		"Rio Grande do Norte" "Paraná" "Acre" "Mato Grosso" "Amazona" "Rondonia" "Amapá" "Piaui" "Ceará" "Sergipe" "Paraíba" "Mato Grosso do Sul" 
+	}
+}
+
+### Battlecruiser Names ###
+BRA_BC_HISTORICAL = { # Admirals.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "NRB "
+	fallback_name = "Cuzador Couraçado %d"		
+
+	unique = {
+		"Barroso" "Tamandaré" "Saldanha" "Custódio de Mello" "Silveira de Menezes" "Grenfell" "Protógenes" "José da Costa Azevedo" "Inhaúma" 
+		"Antônio L. von Hoonholtz" "Eduardo Wandenkolk" "Joaquim José Inácio" "Julio César de Noronha" "Francisco de Baena" "Rodrigo Ferreira Lobo"
+		"Marceliano Ribeiro"
+	}
+}
+
+### Heavy Cruiser Names ###
+BRA_CA_HISTORICAL = { # Generals.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "NRB "
+	fallback_name = "Cruzador Pesado %d"
+
+	unique = {
+		"Belmonte" "Fonseca" "Peixoto" "Rondon" "Mallet" "Osório" "Caxias" "Pessoa" "Sampaio" "Cerqueira" "Severiano" "Magalhães" "Sampaio" "Câmara" 
+		"Prado" "Nepomuceno" "Barreto" "Argolo" "Carneiro" "Machado" "Vieira" "Couto" "Cândido" "Ribeiro" "Saraiva" "Tavares" "Fragoso" "Castilhos" "Mendes"
+	}
+}
+
+### Light Cruiser Names ###
+BRA_CL_HISTORICAL = { # States - Indigenous Tribes.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "NRB "
+	fallback_name = "Cruzador Ligeiro %d"
+
+	unique = {
+		### Bahia Class ###
+		"Bahia" "Rio Grande do Sul"
+
+		### Additionals ###
+		"Tupinambá" "Guarani" "Tupi" "Kayapó" "Xavante" "Xingu" "Pataxó" "Kaingang" "Yanomami" "Munduruku" "Bororo" "Kraho" "Ticuna" "Kaiowá" "Pemon" "Waiãpi" 
+		"Kuikuro" "Ashaninka" "Guajajara" "Yawanawá" "Kaxinawá" "Tapirapé" "Mura" "Tukano" "Karajá" "Waurá" "Kanamari" "Yekuana" "Satere-Mawe" "Tariana"
+	}
+}
+
+### Destroyer Names ###
+BRA_DD_HISTORICAL = { # States - Cities - Rivers - Flowers.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "NRB "
+	fallback_name = "Contratorpedeiro %d"					
+
+	unique = {
+		### Para Class ###								
+		"Piaui" "Rio Grande do Norte" "Paraíba" "Alagoas" "Marnhão" "Sergipe" "Santa Catharina" "Mato Grosso"
+
+		### Additionals - Generals ###
+		"Mariz e Barros" "Marcílio Dias" "Greenhalgh" "Amazonas" "Araguari" "Ajuricaba" "Acre" "Araguaya" "Apa" "Juruá" "Javari" "Jutahy" "Juruena" "Jaguaribe"
+		"Japarua" "Babitonga" "Baependi" "Bauru" "Beberibe" "Benevente" "Bertioga" "Bocaina" "Bracuí"
+
+		### Additionals - Flowers ###
+		"Rosa" "Orquídea" "Margarida" "Girassol" "Lírio" "Hortênsia" "Jasmin" "Tulipa" "Camélia" "Cravo" "Violeta" "Gérbera" "Begônia" "Azaléia" "Miosótis" "Dália"
+		"Peônia" "Açucena" "Craveiro" "Antúrio" "Bromélia" "Crisântemo" "Íris" "Magnólia" "Narciso" "Peônia" "Rosa-do-deserto" "Hibisco" "Aster" "Flor-de-lis"
+	}
+}
+
+### Submarine Names ###
+BRA_SS_HISTORICAL = { # Cities - Rivers.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "NRB "
+	fallback_name = "Submarino %d"
+	
+	unique = {
+		"Humaytá" "Tupi" "Timbira" "Tamoio" "Riachuelo" "Guanabara"
+	}
+}
+
+##### Themes #####
+
+### Theme: Provinces ###
+BRA_THEME_PROVINCES = {
+	name = NAME_THEME_PROVINCES
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "NRB "
+	fallback_name = "Navio-A %d"
+
+	unique = {
+		"Acre" "Alagoas" "Amapá" "Amazonas" "Bahia" "Ceará" "Distrito Federal" "Espírito Santo" "Goiás" "Maranhão" "Mato Grosso" "Minas Gerais" "Pará" "Paraíba" 
+		"Paraná" "Pernambuco" "Piauí" "Rio de Janeiro" "Rio Grande" "Rondônia" "Roraima" "Santa Catarina" "São Paulo" "Sergipe" "Tocantins"
+	}
+}
+
+### Theme: Cities ###
+BRA_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "NRB "
+	fallback_name = "Navio-B %d"
+
+	unique = {
+		"Fortaleza" "Salvador" "Belo Horizonte" "Manaus" "Curitiba" "Recife" "Goiânia" "Alegre" "Belém" "Guarulhos" "Campinas" "São Luís" "Maceió" "Campo Grande" 
+		"São Gonçalo" "Teresina" "João Pessoa" "São Bernardo" "Duque" "Nova Iguaçu" "Natal" "Santo André" "Osasco" "Sorocaba" "Uberlândia" "Ribeirão Preto" "São José"
+		"Cuiabá" "Jaboatão" "Contagem" "Joinville" "Feira de Santana" "Aracaju" "Londrina" "Juiz de Fora" "Florianópolis" "Aparecida" "Serra" "Goytacazes" "Belford Roxo" 
+		"Niterói" "Ananindeua" "Vila Velha" "Caxias" "Velho" "Mogi" "Jundiaí" "Macapá" "Meriti" "Piracicaba" "Campina Grande" "Santos" "Mauá" "Montes Claros" "Boa Vista" 
+		"Betim" "Maringá" "Anápolis" "Diadema" "Carapicuíba" "Petrolina" "Bauru" "Caruaru" "Conquista" "Itaquaquecetuba" "Rio Branco" "Blumenau" "Ponta Grossa" "Caucaia" 
+		"Cariacica" "Franca" "Olinda" "Praia Grande" "Cascavel" "Canoas" "Paulista" "Uberaba" "Santarém" "São Vicente" "Pinhais" "Neves" "Pelotas" "Vitória" "Barueri" 
+		"Taubaté" "Suzano" "Palmas" "Camaçari" "Várzea Grande" "Limeira" "Guarujá" "Juazeiro" "Sumaré" "Petrópolis" "Cotia"
+	}
+}
+
+### Theme: Mountains ###
+BRA_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "NRB "
+	fallback_name = "Navio-C %d"
+
+	unique = {
+		"Neblina" "Março" "Bandeira" "Cruzeiro" "Calçado" "Mina" "Agulhas Negras" "Cristal" "Roraima" "Marins" "Barbado" "Paraná" "Boa Vista" "Igreja" "Antenas" "Caburaí"
+		"Monte Negro" "São Sebastião" "Capão Doce" "Papagaio" "Jabre" "Jaraguá" "Alto" "Urucum" "ijuca" "Corcovado" "Pascoal" "Açúcar"
+	}
+}
+
+### Theme: Rivers ###
+BRA_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "NRB "
+	fallback_name = "Navio-D %d"
+
+	unique = {
+		"Acaraú" "Acari" "Acauã" "Acre" "Açu" "Açuã" "Acurauá" "Acuriá" "Adelaide" "Água" "Aguapeí" "Lajeado" "Aiari" "Aiuruoca" "Ajarani" "Alalaú" "Alambari" "Alcântara" 
+		"Alcobaça" "Aldeia" "Alegre" "Almada" "Alonzo" "Alpercratas" "Alto Braço" "Alto Jamari" "Amajari" "Amambai" "Amanã" "Amandaú" "Amanguijá" "Amapá" "Amapari" "Amazon" 
+		"Amola-Faca" "Amônia" "Anajás" "Anamu" "Anamu" "Anapu" "Anari" "Anauá" "Andirá" "Andrade" "Angelim" "Anhanduí" "Anhanduìzinho" "Anhangabaú" "Anotaié" "Das Antas" 
+		"Antimary" "Antoninha" "Apa" "Apiacá" "Apiaú" "Apodi" "Apoquitaua" "Aporé" "Aporema" "Arapari" "Araras" "Araticu" "Arinos" "Arroio" "Babilônia" "Bacajá" "Bacajaí" 
+		"Bacaxá" "Bacuri" "Badajós" "Baependi" "Bagé" "Baldum" "Balseira" "Balsinhas" "Juruá" "Javary" "Tiete" "Guaíba" "Canindé" "Ypiranga" "Mabu" "Paranahyba" "Xingu"
+	}
+}
+
+### Theme: Animals ###
+BRA_THEME_ANIMALS = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "NRB "
+	fallback_name = "Navio-E %d"
+
+	unique = {
+		"Cachorro" "Gato" "Elefante" "Leão" "Tigre" "Urso" "Girafa" "Rinoceronte" "Hipopótamo" "Camelo" "Canguru" "Macaco" "Lobo" "Raposa" "Cavalo" "Vaca" "Porco" 
+		"Ovelha" "Cabra" "Coelho" "Cobra" "Crocodilo" "Sapo" "Tartaruga" "Lagarto" "Aranha" "Escorpião" "Formiga" "Abelha" "Borboleta" "Lagarta" "Gafanhoto" "Besouro" 
+		"Grilo" "Garacol" "Centopeia" "Joaninha" "Minhoca" "Ouriço" "Tatu" "Esquilo" "Guaxinim" "Lontra" "Castor" "Ornitorrinco" "Coalha" "Panda" "Gorila" "Chimpanzé" 
+		"Orangotango"
+	}
+}
+
+### Theme: Fish ###
+BRA_THEME_FISH = {
+	name = NAME_THEME_FISH
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "NRB "
+	fallback_name = "Navio-F %d"
+
+	unique = {
+		"Peixe" "Golfinho" "Tubarão" "Baleia" "Polvo" "Lula" "Caranguejo" "Lagosta" "Água-viva" "Cavalo-marinho" "Estrela-do-mar" "Arraia" "Enguia" "Peixe-espada" 
+		"Peixe-boi" "Coral" "Raia manta" "Leão-marinho" "Moreia" "Anêmona-do-mar" "Baiacu" "Choco" "Baleia-jubarte" "Tubarão-touro" "Tubarão-baleia"
+	}
+}
+
+### Theme: Famous Battles ###
+BRA_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "NRB "
+	fallback_name = "Navio-G %d"
+
+	unique = {
+		"Guararapes" "Riachuelo" "Tuyutí" "Laguna" "Curupayty" "Yaguaron" "Campo Grande" "Itororó" "Paraguari" "Paso de la Patria" "Lomas Valentinas"
+		"Avay" "Acosta Ñu" "Estero Bellaco" "Campo Novo" "Humaitá" "Cerro Corá"
+	}
+}

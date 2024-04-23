@@ -296,8 +296,7 @@ FIN_THEME_WINTER_WAR_HEROES = { # Includes "The Continuation War".
 
 	unique = {
 		### Winter War ###
-		"Simo Häyhä" "Carl G. E. Mannerheim" "Aksel Airo" "Hannes Ignatius" "Lauri Törni" "Väinö Myllyrinne" "Hannu Vartiainen" "
-		Tauno Tainio"
+		"Simo Häyhä" "Carl G. E. Mannerheim" "Aksel Airo" "Hannes Ignatius" "Lauri Törni" "Väinö Myllyrinne" "Hannu Vartiainen" "Tauno Tainio"
 
 		### Continuation War ###
 		"Urho Kekkonen" "Erich H. Hallfors" "Ilmari Juutilainen" "Alpo Marttinen" "Hannu Hannuksela" "Lennart Oesch" "Eino Ilmari Juutilainen" 

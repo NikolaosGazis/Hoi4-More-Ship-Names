@@ -1,6 +1,6 @@
 ##### Italian Ship Names #####
 
-# RM = Regia Marina (Main). 
+# RM = Regia Marina. (Official) 
 # RN = Regia Nave.
 # RI = Regio Incrociatore.
 # RCT = Regio Cacciatorpediniere.
@@ -23,8 +23,9 @@ ITA_CV_HISTORICAL = { # Flying Creatures.
 		"Aquila" "Sparviero" 
 
 		### Additionals ###
-		"Falco" "Piccione" "Corvo" "Passero" "Gufo" "Usignolo" "Gallina" "Fenicottero" "Cicogna" "Myna" "Gazza" "Avvoltoio" "Pavone" 
-		"Struzzo" "Pernice" "Quaglia" "Anatra" "Cigno" "Pappagallo" "Albatro" "Pellicano" "Nibbio"
+		"Falco" "Piccione" "Corvo" "Passero" "Gufo" "Usignolo" "Gallina" "Fenicottero" "Cicogna" "Myna" "Gazza" "Avvoltoio" "Pavone" "Struzzo" 
+		"Pernice" "Quaglia" "Anatra" "Cigno" "Pappagallo" "Albatro" "Pellicano" "Nibbio" "Fenice" "Sirena" "Arpie" "Grifone" "Sfigne" "Simurgh" 
+		"Roc" "Aracne" "Caladrius" "Chimera" "Pegaso" "Gru" "Libellula" "Lucciola" "Vespa" "Falena" "Mosca" "Zanzara" "Farfalla"
 	}
 }
 
@@ -64,7 +65,7 @@ ITA_CV_AVIATORS = { # Aviators.
 	fallback_name = "Portaerei-C %s"
 
 	unique = {
-		"Francesco de Pinedo" "Giuseppe Miraglia" "Gaby Angelini" "Mario Aramu" "Bartolomeo Costantini" "Giacomo D'Angelis" 
+		"Francesco de Pinedo" "Giuseppe Miraglia" "Gaby Angelini" "Mario Aramu" "Bartolomeo Costantini" "Giacomo D'Angelis" "Gianni Widmer"
 		"Tommaso Dal Molin" "Gabriele D'Annunzio" "Giovanni De Briganti" "Ludovico de Filippi" "Carlo Del Prete" "Arturo Ferrarin" 
 		"Alessandro Guidoni" "Antonio Locatelli" "Enrico Massi" "Tito Minniti" "Tullo Morgagni" "Giuseppe Motta" "Ugolino Vivaldi Pasqua"
 	} 
@@ -148,7 +149,7 @@ ITA_BC_HISTORICAL = { # Artists - Figures.
 	ship_types = { ship_hull_heavy battle_cruiser }
 
 	prefix = "RI "
-	fallback_name = "Incrociatore da battaglia %s"
+	fallback_name = "Incrociatore da Βattaglia %s"
 
 	unique = {
 		"Michelangelo Caravaggio" "Titian" "Raffaello Urbino" "Michelangelo Simoni" "Sandro Botticelli" "Giovanni Bellini" 
@@ -207,7 +208,7 @@ ITA_CA_HISTORICAL = { # Cities taken after World War 1 - Generals - Figures.
 }
 
 ### Light Cruiser Names ###
-ITA_CL_HISTORICAL = { # Figures - Regions.
+ITA_CL_HISTORICAL = { # Figures - Regions - Cities.
 	name = NAME_THEME_HISTORICAL_CL
 
 	for_countries = { ITA }
@@ -235,14 +236,17 @@ ITA_CL_HISTORICAL = { # Figures - Regions.
 		### Older Models ###
 		"Taranto" "Bari" "Brindisi" "Venezia" "Ancona" "Alberico da Barbiano" "Alberto di Giussano" "Bartolomeo Colleoni" "Giovanni dalle Bande Nere" 
 		"Luigi Cadorna" "Armando Diaz" "Raimondo Montecuccoli" "Muzio Attendolo" "Stromboli" "Ettore Fieramosca" "Dogali" "Piemonte" "Campania" 
-		"Lombardia" "Calabria" "Elba" "Etruria" "Liguria" "Puglia" "Umbria" "Quarto" "Marsala" "Libia" "Costanzo Ciano"
-		
-		### Addiitonals ###
+		"Lombardia" "Calabria" "Elba" "Etruria" "Liguria" "Puglia" "Umbria" "Quarto" "Marsala" "Libia" "Costanzo Ciano" 
+
+		### Additionals - Cities ###
+		"Civitavecchia" "Rivoli" "Tivoli" "Pordeenone" "Franca" "Frosinone" "Cologno Monzese" "Velletri" "Annunziata" "Nichelino" "Mantova" "Scafati" 
+		"Torinese" "Vercelli" "Bollate" "Lecco" "Monopoli" "Collegno" "Inferiore" "Gallarate" "Sesto Fiorentino" "Biella" "Paternò" "Acerra" "Dugnano" 
+		"Olbia" "Empoli" "Aghero" "Miserbianco" "Pomezia" "Alcamo" "Rieti" "Capannori" "Senigallia" "Macerata" "Lodi" "Bassano" "Montesilvano" "Pomigliano"
 	}
 }
 
-### Torpedo Cruisers ###
-ITA_CL_TORPEDO = {
+### Torpedo Light Cruisers ###
+ITA_CL_TORPEDO = { # Wheather - Battles - Mythology - Cities.
 	name = NAME_THEME_HISTORICAL_CLTRP
 
 	for_countries = { ITA }
@@ -266,7 +270,8 @@ ITA_CL_TORPEDO = {
 		### Agordat Class (1899) ###
 		"Agirdat" "Coatit"
 
-		### Additionals ###
+		### Additionals - Cities ###
+		"Sciacca" "Jesi" "Marcianise" "Sassuolo" "Imperia" "Seregno" "Grugliasco" "Fasano" "Arzano" "Cascina" "Avezzano" "Civitanova" "Corigliano" "Voghera"
 	}
 }
 
@@ -401,19 +406,21 @@ ITA_THEME_CITIES = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser }
+	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "RN "
 	fallback_name = "Nave-B %s"
 
 	unique = {
-		"Milano" "Torino" "Napoli" "Palermo" "Firenze" "Genova" "Bologna" "Catania" "Padova" "Verona" "Brescia" "Treviso" "Parma" "Prato" "Modena" 
-		"Reggio Calabria" "Reggio Emilia" "Perugia" "Ravenna" "Livorno" "Cagliari" "Foggia" "Rimini" "Salerno" "Ferrara" "Sassari" "Monza" "Vicenza" 
-		"Como" "Siracusa" "Bergamo" "Pescara" "Forlì" "Lecce" "Trapani" "Mantova" "L'Aquila" "Siena" "La Spezia" "Pavia" "Terni" "Novara" "Piacenza" 
-		"Udine" "Arezzo" "Cesena" "Pesaro" "Alessandria" "Pistoia" "Catanzaro" "Lucca" "Asti" "Gela" "Cremona" "Viterbo" "Cosenza" "Savona" "Vigevano" 
-		"Afragola" "Olbia" "Fano" "Legnano" "Crotone" "Anzio" "Acerra" "Cerirgnola" "Cuneo" "Benevento" "Cuneo" "Foligno" "Tivoli" "Modica" "Velletri" 
-		"Teramo" "Pordenone" "Acireale" "Rovigo" "Aversa" "Ercolano"
-	} 
+		"Milano" "Napoli" "Torino" "Palermo" "Genova" "Florence" "Bologna" "Bari" "Catania" "Venice" "Verona" "Messina" "Trieste" "Padova" "Taranto" "Brescia" "Mestre"
+		"Modena" "Prato" "Cagliari" "Parma" "Livorno" "Foggia" "Perugia" "Salerno" "Ravenna" "Ferrara" "Rimini" "Siracusa" "Sassari" "Monza" "Pescara" "Bergamo" "Forli"
+		"Latina" "Vicenza" "Terni" "Trento" "Ancona" "Novara" "Campania" "Andria" "Piacenza" "Catanzaro" "Udine" "Bolzano" "Barletta" "Arezzo" "La Spezia" "Pesaro"
+		"Cesena" "Pisa" "Brindisi" "Alessandria" "Pistoia" "Lecce" "Casoria" "Lucca" "Varese" "Treviso" "Pozzuoli" "Como" "Marsala" "Busto Arsizio" "Caserta" "Guidonia"
+		"Gela" "Asti" "Grosseto" "Pavia" "Cremona" "Lamezia Terme" "Nicastro" "Potenza" "Ragusa" "Trapani" "Massa" "Carrara" "Imola" "Altamura" "Molfetta" "Afragola" 
+		"Savona" "Benevento" "Carpi" "Caltanissetta" "Viareggio" "Portici" "Crotone" "Viterbo" "Matera" "Manfredonia" "Fano" "Vigevano" "Cerignola" "Bitonto" "Ercolano" 
+		"Aprilia" "San Severo" "Vittoria" "Agrigento" "Legnano" "Faenza" "Aversa" "Moncalieri" "Trani" "Avellino" "Modica" "Siena" "Tirreni" "Chieti" "Cuneo" "Chiogga" 
+		"Bisceglie" "Piceno" "Folingo" "Taramo" "Bagheria" "San Giorgo" "Campobasso" "San Remo" "Fiumicino" "Battipaglia" "Rovigo" "Rho" "Acireale" "Scandicci"
+	}
 }
 
 ### Theme: Mountains ###
@@ -423,7 +430,7 @@ ITA_THEME_MOUNTAINS = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "RN "
 	fallback_name = "Nave-C %s"
@@ -445,7 +452,7 @@ ITA_THEME_RIVERS = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "RN "
 	fallback_name = "Nave-D %s"
@@ -460,8 +467,26 @@ ITA_THEME_RIVERS = {
 	}
 }
 
+### Theme: Inspirational ###
+ITA_THEME_INSPIRATIONAL = {
+	name = NAME_THEME_INSPIRATION
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "RN "
+	fallback_name = "Nave-E %s"
+
+	unique = {
+		"Impressa" "Viaggiatore" "Maestoso" "Fortitudine" "Unità" "Tranquillità" "Serenità" "Pellegrino" "Libertà" "Eredità" "Radiosità" "Patriota" 
+		"Patrimonio" "Sovrano" "Gloria" "Vittoria" "Spirito" "Valore" "Rinascimento" "Harmony" "Coraggio" "Speranza" "Forza" "Ispirazione" "Trionfo"
+	}
+}
+
 ### Theme: Colonies ###
-ITA_THEME_COLONIES = { # Countries/Capitals.
+ITA_THEME_COLONIES = { # Countries - Capitals.
 	name = NAME_THEME_COLONIES
 
 	for_countries = { ITA }
@@ -470,7 +495,7 @@ ITA_THEME_COLONIES = { # Countries/Capitals.
 	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "RN "
-	fallback_name = "Nave-E %s"
+	fallback_name = "Nave-F %s"
 
 	unique = {
 		"Eritrea" "Asmara" "Massawa" "Keren" "Assab" "Somalia" "Mogadishu" "Merca" "Brava" "Chisimaio" "Libya" "Tripoli" "Benghazi" "Derna" 
@@ -491,7 +516,7 @@ ITA_THEME_ROMAN_EMPERORS = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "RN "
-	fallback_name = "Nave-F %s"
+	fallback_name = "Nave-G %s"
 
 	unique = {
 		### Julio-Claudian Dynasty ###
@@ -547,7 +572,7 @@ ITA_THEME_ROMAN_GENERALS = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "RN "
-	fallback_name = "Nave-G %s"
+	fallback_name = "Nave-H %s"
 
 	unique = {
 		"Scipio Africanus" "Gaius Marius" "Lucius Cornelius Sulla" "Marcus Antonius" "Marcus Vipsanius Agrippa" "Gnaeus Julius Agricola" 
@@ -569,7 +594,7 @@ ITA_THEME_ROMAN_LEGIONS = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
 
 	prefix = "RN "
-	fallback_name = "Nave-H %s"
+	fallback_name = "Nave-I %s"
 
 	unique = {
 		"Adiutrix" "Italica" "Macriana Liberatrix" "Minervia" "Parthica" "Augusta" "Traiana Fortis" "Cyrenaica" "Gallica"
@@ -588,7 +613,7 @@ ITA_THEME_ROMAN_MYTHOLOGY = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
 
 	prefix = "RN "
-	fallback_name = "Nave-I %s"
+	fallback_name = "Nave-J %s"
 
 	unique = {
 		"Aeneas" "Amor" "Amuliums" "Angerona" "Aries" "Ascanius" "Aurora" "Auster" "Bellona" "Camilla" "Cardea" "Cerere" "Ceres" "Clementia" "Concordia" "Consus" 
@@ -611,7 +636,7 @@ ITA_THEME_BATTLES = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "RN "
-	fallback_name = "Nave-J %s"
+	fallback_name = "Nave-K %s"
 
 	unique = {
 		"Adwa" "Amba Alagi" "Piave" "Gorizia" "Caporetto" "Mentana" "Custoza" "Gebora" "Tobruk" "Isonzo" "Montecassino" "Dogali" 

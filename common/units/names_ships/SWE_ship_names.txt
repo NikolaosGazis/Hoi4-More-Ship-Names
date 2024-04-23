@@ -1,6 +1,6 @@
 ﻿##### Swedish Ship Names #####
 
-# HMS = Hans Majestäts Skepp.
+# HMS = Hans Majestäts Skepp. (Official)
 
 ### Aicraft Carrier Names ###
 SWE_CV_HISTORICAL = { # Aviation Pioneers - Flying Creatures.

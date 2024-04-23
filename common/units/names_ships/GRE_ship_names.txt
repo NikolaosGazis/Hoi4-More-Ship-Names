@@ -1,6 +1,6 @@
 ﻿##### Greek Ship Names #####
 
-# RHS = Royal Hellenic Ship.
+# RHS = Royal Hellenic Ship. (Official)
 # GPNS = Greek People's Navy Ship. (Communist)
 
 ### Aircraft Carrier Names ###

@@ -1,7 +1,7 @@
 ﻿##### United States of America Ship Names #####
 
-# USS = United States Ship.
-# CSS = Confederate States Ship.
+# USS = United States Ship. (Official)
+# CSS = Confederate States Ship. (Official)
 
 ### Aircraft Carrier Names ###
 USA_CV_HISTORICAL = { # Battles - Figures.
@@ -860,20 +860,17 @@ CSA_DD_CONFEDERATE = { # CSA Army Leaders.
 		"John C. Breckinridge" "Patrick Cleburne" "William Dorsey Pender" "Matthew Butler" "Cadmus M. Wilcox" "Robert Hoke" "Bryan Grimes" "Thomas Churchill" 
 		"William Mahone" "John C. Brown" "William Loring" "Sterling Price" "Thomas L. Rosser" "Lunsford L. Lomax" "Benjamin Cheatham" "Samuel Jones" 
 		"Richard H. Anderson" "John Porter McCown" "Bushrod Johnson" "James L. Kemper" "D.H. Hill" "Edward C. Walthall" "Stephen D. Ramseur" "Jones M. Withers" 
-		"Thomas Hindman" "Lafayette McLaws" "Samuel Gibbs French" "Carter Stevenson" "John H. Forney" "Dabney Maury" "Martin L. Smith" "John G. Walker" "
-		Edward Johnson" "Robert E. Rodes"	"William H.T. Walker" "John S. Bowen" "Jeremy F. Gilmer" "Howell Cobb" "John A. Wharton" "William T. Martin"
-		"Charles W. Field" "James Patton Anderson" "William B. Bate" "James F. Fagan" "Henry Clayton" "Pierre M.B. Young" "William W. Allen" "Edward Porter Alexander" 
-		"Matt Ransom" "William Barksdale" "Barnard E. Bee" "William P. Hardeman" "Thomas Alexander Harris" "John Adams" "George B. Anderson" "Lewis A. Armistead" 
-		"Tyree Bell" "States Rights Gist" "John Pegram" "Francis S. Bartow" "Adley H. Gladden" "Robert Hatton" "Charles S. Winder" "William E. Starke" "Henry Little" 
+		"Thomas Hindman" "Lafayette McLaws" "Samuel Gibbs French" "Carter Stevenson" "John H. Forney" "Dabney Maury" "Martin L. Smith" "John G. Walker" "Edward Johnson" 
+		"Robert E. Rodes"	"William H.T. Walker" "John S. Bowen" "Jeremy F. Gilmer" "Howell Cobb" "John A. Wharton" "William T. Martin" "Charles W. Field" 
+		"James Patton Anderson" "William B. Bate" "James F. Fagan" "Henry Clayton" "Pierre M.B. Young" "William W. Allen" "Edward Porter Alexander" "Matt Ransom" 
+		"William Barksdale" "Barnard E. Bee" "William P. Hardeman" "Thomas Alexander Harris" "John Adams" "George B. Anderson" "Lewis A. Armistead" "Tyree Bell" 
+		"States Rights Gist" "John Pegram" "Francis S. Bartow" "Adley H. Gladden" "Robert Hatton" "Charles S. Winder" "William E. Starke" "Henry Little" 
 		"Thomas R. Cobb" "Maxcy Gregg" "E.D. Tracy" "E.F. Paxton" "Lloyd Tighman" "Martin E. Green" "Rhichard B. Garnett" "Paul J. Semmes" "J.J. Pettigrew" 
 		"Preston Smith" "Benjamin H. Helm" "James Deshler" "Carnot Posey" "Alfred Mouton" "Thomas Green" "W.R. Scurry" "John M. Jones" "C.H. Stevens" "Samuel Benton" 
 		"John R Chambliss" "J.C. Saunders" "John Morgan" "Archibald C. Godwin" "John Dunnovant" "John Gregg" "Stephen Elliot" "Victor J Girardey" "Archibald Gracie" 
 		"Oscar F. Strahl" "H.B. Granberry" "James Dearing"
 	}
 }
-
-### Escort Destroyer Names ###
-#CSA_DE_CONFEDERATE = {} 
 
 ### Submarine Names ###
 CSA_SS_CONFEDERATE = { # Southern River (Length).

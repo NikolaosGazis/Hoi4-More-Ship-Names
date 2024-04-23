@@ -1,7 +1,7 @@
 ﻿##### USSR Name Lists #####
 
-# USSRS = Union of Soviet Socialist Republics Ship.
-# RFS = Russian Federation Ship.
+# USSRS = Union of Soviet Socialist Republics Ship. (Unofficial)
+# RFS = Russian Federation Ship. (NATO - Not Used)
 
 ### Aircraft Carrier Names ###
 SOV_CV_HISTORICAL = { # Cities - Admirals.

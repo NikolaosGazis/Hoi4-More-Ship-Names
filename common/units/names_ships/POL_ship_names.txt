@@ -1,6 +1,6 @@
 ﻿##### Polish Ship Names #####
 
-# ORP = Okręt Rzeczypospolitej Polskiej.
+# ORP = Okręt Rzeczypospolitej Polskiej. (Official)
 
 ### Aircraft Carrier Names ###
 POL_CV_HISTORICAL = { # Aviators - Flying Creatures. 
@@ -230,6 +230,24 @@ POL_THEME_WEATHER = {
 	}
 }
 
+### Theme: Regions ###
+POL_THEME_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { POL }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+	
+	prefix = "ORP "
+	fallback_name = "Statek-D %d"
+
+	unique = {
+		"Wielkopolskie" "Kujawsko" "Pomorskie" "Małopolskie" "Lódzkie" "Dolnośląskie" "Lubelskie" "Lubuskie" "Mazowieckie" "Opolskie" "Podlaskie" "Pomorskie" 
+		"Sląskie" "Podkarpackie" "Swiętokrzyskie" "Warmińsko" "Zachodniopomorskie" "Wilno" "Nowogródek" "Polesie" "Volhynian" "Tarnopol" "Stanislawow"
+	}
+}
+
 ### Theme: Cities ###
 POL_THEME_CITIES = {
 	name = NAME_THEME_CITIES
@@ -240,7 +258,7 @@ POL_THEME_CITIES = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 	
 	prefix = "ORP "
-	fallback_name = "Statek-D %d"
+	fallback_name = "Statek-E %d"
 
 	unique = {
 		"Gdynia" "Gliwice" "Tomaszów Mazowiecki" "Kielce" "Poznań" "Wrocław" "Chorzów" "Katowice" "Szczecin" "Olsztyn" "Warsaw" "Bytom" "Pabianice" 
@@ -259,7 +277,7 @@ POL_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ORP "
-	fallback_name = "Statek-E %d"
+	fallback_name = "Statek-F %d"
 
 	unique = {
 		"Rysy" "Niżnie" "Cubryna" "Świnica" "Kozi" "Zamarła Turnia" "Klin" "Kościelec" "Jarząbczy" "Kamienista" "Krzesanica" "Mnich" "Wołowiec" "Kasprowy" 
@@ -279,10 +297,10 @@ POL_THEME_RIVERS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 	
 	prefix = "ORP "
-	fallback_name = "Statek-F %d"
+	fallback_name = "Statek-G %d"
 
 	unique = {
-		"Vistula" "Warta" "Oder" "Bug" "San "Narew" "Noteć" "Wieprz" "Pilica" "Bóbr" "Wkra" "Dunajec" "Brda" "Drwęca" "Prosna" "Wisłok" "Łyna" "Wda" 
+		"Vistula" "Warta" "Oder" "Bug" "San" "Narew" "Noteć" "Wieprz" "Pilica" "Bóbr" "Wkra" "Dunajec" "Brda" "Drwęca" "Prosna" "Wisłok" "Łyna" "Wda" 
 		"Nysa Łużycka" "Drawa" "Nysa Kłodzka" "Rega" "Bzura" "Wisłoka" "Obra" "Pasłęka" "Biebrza" "Nida" 
 	}
 }
@@ -297,30 +315,12 @@ POL_THEME_ANIMALS = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 	
 	prefix = "ORP "
-	fallback_name = "Statek-G %d"
+	fallback_name = "Statek-H %d"
 
 	unique = {
 		"Wilk" "Orzeł" "Rekin" "Gryf" "Ryś" "Szczupak" "Czapla" "Albatros" "Mewa" "Rybitwa" "Kormoran" "Żbik" "Sęp" "Czajka" "Jaskółka" "Żuraw" "Sokół"
 		"Bielik" "Tygrys" "Lew" "Pantera" "Niedźwiedź" "Dzik" "Jastrząb" "Koń" "Kura" "Kaczka" "Kozioł" "Królik" "Mysz" "Jeż" "Słoń" "Kangur" "Żyrafa"
 		"Żaba" "Motyl" "Ryba"
-	}
-}
-
-### Theme: Regions ###
-POL_THEME_REGIONS = {
-	name = NAME_THEME_REGIONS
-
-	for_countries = { POL }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
-	
-	prefix = "ORP "
-	fallback_name = "Statek-H %d"
-
-	unique = {
-		"Wielkopolskie" "Kujawsko" "Pomorskie" "Małopolskie" "Lódzkie" "Dolnośląskie" "Lubelskie" "Lubuskie" "Mazowieckie" "Opolskie" "Podlaskie" "Pomorskie" 
-		"Sląskie" "Podkarpackie" "Swiętokrzyskie" "Warmińsko" "Zachodniopomorskie" "Wilno" "Nowogródek" "Polesie" "Volhynian" "Tarnopol" "Stanislawow"
 	}
 }
 
