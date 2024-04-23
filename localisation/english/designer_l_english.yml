@@ -242,8 +242,9 @@
  plane_designer_heavy_fighter:0 "Heavy Fighter"
 
  # name list themes
- # name list themes -- updated to include country-specific and other new list names
- # Default Themes #
+ # -- updated to include country-specific and other new list names --
+
+ # Default/Historical Themes #
  NAME_THEME_HISTORICAL_CARRIERS:0 "Historical Carriers"
  NAME_THEME_HISTORICAL_CVL:0 "Historical Light/Escort Carriers"
  NAME_THEME_HISTORICAL_BB:0 "Historical Battleships"
@@ -275,7 +276,10 @@
  NAME_THEME_EUROPEAN_DD:0 "European Destroyers"
  NAME_THEME_EUROPEAN_DE:0 "European Escort Destroyers"
  NAME_THEME_EUROPEAN_SS:0 "European Submarines"
- NAME_THEME_EUROPEAN_NATIONS:0 "Euroean Nations"
+ NAME_THEME_EUROPEAN_NATIONS:0 "European Nations"
+ NAME_THEME_EUROPEAN_VALUES:0 "European Values"
+ NAME_THEME_EUROPEAN_AVIATION_PIONEERS:0 "European Aviation Pioneers"
+ NAME_THEME_EUROPEAN_ACES:0 "European Aces"
  NAME_THEME_EUROPEAN_REGIONS:0 "Euroepan Regions"
  NAME_THEME_EUROPEAN_CITIES:0 "European Cities"
  NAME_THEME_EUROPEAN_MOUNTAINS:0 "European Mountains"
@@ -306,6 +310,28 @@
  NAME_THEME_IMPERIAL_BATTLES:0 "Famous Battles (Imperial)"
  NAME_THEME_IMPERIAL_MYTHOLOGY:0 "Mythology (Imperial)"
 
+ # Communist Themes #
+ NAME_THEME_COMMUNIST_CV:0 "Communist Carriers"
+ NAME_THEME_COMMUNIST_CVL:0 "Communist Light Carriers"
+ NAME_THEME_COMMUNIST_BB:0 "Communist Battleships"
+ NAME_THEME_COMMUNIST_BC:0 "Communist Battlecruisers"
+ NAME_THEME_COMMUNIST_CA:0 "Communist Heavy Cruisers"
+ NAME_THEME_COMMUNIST_CL:0 "Communist Light Cruisers"
+ NAME_THEME_COMMUNIST_CLAA:0 "Communist Anti-Aircraft Light Cruisers"
+ NAME_THEME_COMMUNIST_DD:0 "Communist Destroyers"
+ NAME_THEME_COMMUNIST_DE:0 "Communist Escort Destroyers"
+ NAME_THEME_COMMUNIST_SS:0 "Communist Submarines"
+ NAME_THEME_COMMUNIST_MINELAYERS:0 "Communist Minelayers"
+ NAME_THEME_COMMUNIST_MINESWEEPERS:0 "Communist Minesweepers"
+ NAME_THEME_COMMUNIST_COUNTIES:0 "Counties (Communist)"
+ NAME_THEME_COMMUNIST_CITIES:0 "Cities (Communist)"
+ NAME_THEME_COMMUNIST_ADMIRALS:0 "Admirals (Communist)"
+ NAME_THEME_COMMUNIST_MOUNTAINS:0 "Mountains (Communist)"
+ NAME_THEME_COMMUNIST_RIVERS:0 "Rivers (Communist)"
+ NAME_THEME_COMMUNIST_BATTLES:0 "Famous Battles (Communist)"
+ NAME_THEME_COMMUNIST_FIGURES:0 "Communist Figures"
+ NAME_THEME_PARIS_COMMUNE:0 "Paris Commune"
+
  # Confederate Themes #
  NAME_THEME_CONFEDERATE_CARRIERS:0 "Confederate Carriers"
  NAME_THEME_CONFEDERATE_BB:0 "Confederate Battleships"
@@ -316,13 +342,12 @@
  NAME_THEME_CONFEDERATE_SUBMARINES:0 "Confederate Submarines"
 
  # General Themes #
- NAME_THEME_COMMUNIST_FIGURES:0 "Communist Figures"
  NAME_THEME_PRUSSIAN_GENERALS:0 "Prussian Generals"
- NAME_THEME_SAMURAIS:0 "Samurais"
  NAME_THEME_MINES:0 "Mineships"
  NAME_THEME_SULTANS:0 "Sultans"
  NAME_THEME_AVIATORS:0 "Aviators"
  NAME_THEME_ACES:0 "Aces"
+ NAME_THEME_LOCALITIES:0 "Localities"
  NAME_THEME_COMMUNITIES:0 "Communities"
  NAME_THEME_FJORDS:0 "Fjords"
  NAME_THEME_SAMURAIS:0 "Samurais"
@@ -357,6 +382,7 @@
  NAME_THEME_GERMANIC_MYTHOLOGY:0 "Germanic Mythology"
  NAME_THEME_AZTECS:0 "Aztec Mythology"
  NAME_THEME_HISTORICAL_MINELAYERS:0 "Historical Minelayers"
+ NAME_THEME_HISTORICAL_MINESWEEPERS:0 "Historical Minesweepers"
  NAME_THEME_LEADERS:0 "Famous Leaders"
  NAME_THEME_MARSHALS:0 "Marshals"
  NAME_THEME_PRESIDENTS:0 "Presidents"
