@@ -16,4 +16,4 @@ A repository where you have the opportunity to contribute your creative suggesti
 - With each new patch upload, corresponding updates will also be made available here for seamless integration.
 
 ## Licence
-This repository operates under the MIT License.
+This repository operates under the [MIT License](https://github.com/NikolaosGazis/hoi4-more-ship-names?tab=MIT-1-ov-file).
