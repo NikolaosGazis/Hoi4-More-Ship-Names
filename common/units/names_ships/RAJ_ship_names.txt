@@ -1,0 +1,194 @@
+﻿##### British Raj/Indian Ship Names #####
+
+# HMIS = His Majesty's Indian Ship. (Official - Used)
+
+### Aircraft Carrier Names ###
+RAJ_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HMIS "							
+	fallback_name = "Carrier %s"		
+
+	unique = {
+		"Vikrant" "Vishnu" "Vikramaditya" "Viraat" "Vishal"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+RAJ_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "HMIS "
+	fallback_name = "Light Carrier %s"
+
+	unique = {
+		###
+	}
+}
+
+### Battleship Names ###
+RAJ_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HMIS "							
+	fallback_name = "Battleship %s"		
+
+	unique = {
+		"India" "Raj" "Empress" "Emperor" "Hindustan" "Revenge" "Retribution" "Vengeance" "Nemesis" 
+	}
+}
+
+### Battlecruiser Names ###
+RAJ_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HMIS "							
+	fallback_name = "Battlecruiser %s"		
+
+	unique = {
+ 		"India" "Raj" "Empress" "Emperor" "Hindustan" "Revenge" "Retribution" "Vengeance" "Nemesis" 
+	}
+}
+
+### Heavy Cruiser Names ###
+RAJ_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HMIS "							
+	fallback_name = "Heavy Cruiser %s"
+
+	unique = {
+	   "Delhi" "Bombay" "Mysore" "Karachi" "Rangoon" "Hyderabad" "Lucknow" "Ahmadabad" "Patna" "Mandalay" "Dacca" "Calcutta"
+	}
+}
+
+### Light Cruiser Names ###
+RAJ_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HMIS "							
+	fallback_name = "Light Cruiser %s"
+
+	unique = {
+	   "Delhi" "Bombay" "Mysore" "Karachi" "Rangoon" "Hyderabad" "Lucknow" "Ahmadabad" "Patna" "Mandalay" "Dacca" "Calcutta"
+	}
+}
+
+### Destroyer Names ###
+RAJ_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HMIS "							
+	fallback_name = "Destroyer %s"					
+
+	unique = {											
+		"Sutlej" "Jumna" "Narbada" "Godavari" "Kistna" "Cauvery" "Sabarmati" "Vatrak" "Mohar" "Mahi" "Panam" "Anas" "Moran" "Banas" "Luni" "Sukari" "Bandi" "Chambel" 
+		"Asan" "Ghaghara" "Sarda" "Gandak" "Koshi" "Mahananda" "Brahmaputra" "Kopili" "Digaru" "Puthimari" "Baralia" "Pagaldiya" "Kaladiya" "Beki" "Manas" "Champabati" 
+		"Shil Torsa" "Tir" "Talwar" "Trishul"
+	}
+}
+
+### Submarine Names ###
+RAJ_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HMIS "							
+	fallback_name = "Submarine %s"
+	
+	unique = {
+		"Catshark" "Mudskipper" "Sawfish" "Moray" "Parrotfish" "Pipefish" "Mackerel" "Manta" "Milkfish" "Eel" "Trumpetfish" "Mud Skate"
+	}
+}
+
+##### Themes #####
+
+### Theme: Provinces ###
+RAJ_THEME_PROVINCES = {
+	name = NAME_THEME_PROVINCES
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HMIS "
+	fallback_name = "Ship-A %s"
+
+	unique = {
+		"Madras" "Bombay" "Punjab" "Assam" "Bengal" "United Provinces" "Central Provinces" "Berar" "Burma" "North-West Frontier" "Baluchistan" 
+		"Coorg" "Amjer-Merwara" "Andaman Islands" "Nicobar Islands" "Bihar" "Orissa" "Panth-Piploda" "Sind" 
+	}
+}
+
+### Theme: Cities ###
+RAJ_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { RAJ }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HMIS "
+	fallback_name = "Ship-B %s"
+
+	unique = {
+	   "Delhi" "Bombay" "Mysore" "Karachi" "Rangoon" "Hyderabad" "Lucknow" "Ahmadabad" "Patna" "Mandalay" "Dacca" "Calcutta" 
+	   "Bhopal" "Agra" "Madras" "Cochin" "Trivandrum" "Baroda" "Pondicherry"  "Aurangabad" "Mahabubabad" "Mahbubnagar" "Osmanabad" 
+	   "Lahore" "Faisalabad" "Rawalpindi" "	Gujranwala" "Peshawar" "Multan" "Islamabad" "Quetta"  
+	   "Ahmednagar" "Shimla" "Ahmedabad" "Sultanpur" "Muzaffarnagar" "Akbarpur" "Jubbulpore" "Jajesmow" "Cawnpore" "Cuddapah" "Belgaum" "Tumkur" 
+	   "Hubli" "Shimoga" "Hospet" "Gulbarga" "Chikmagalur" "Bijapur" "Bellary" "Mangalore" "Rajahmundry" "Gurgaon" "Allahabad" 
+	   "Alleppey" "Gauhati" "Indhur" "Conjevaram" "Cannanore" "Quilon" "Quilandi" "Calicut" "Kudanthai" "Mayavaram" "Nerbudda" 
+	   "Nowgong" "Palghat" "Panjim" "Poona" "Ramnad" "Saugor" "Simla" "Tellicherry" "Tanjore" "Tuticorin" "Trichur" 
+	   "Tinthirivanam" "Trichinopoly" "Tinnevelly" "Triplicane" "Ootacamund" "Vizhupparaiyar" "Benares" "Badagara" "Vriddhachalam" 
+	   "Bejawada" "Waltair" 
+	}
+}
+
+### Theme: Mountains ###
+
+### Theme: Rivers ###
+
+### Theme: Inspirational ###
+
+### Theme: Famous Battles ###

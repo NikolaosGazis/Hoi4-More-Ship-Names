@@ -1,0 +1,770 @@
+##### Australian Ship Names #####
+
+# HMAS = His Majesty's Australian Ship. (Official)
+# RNS = Republican Navy Ship. (Communist)
+
+### Aircraft Carrier Names ###
+AST_CV_HISTORICAL = { # Importance - Adjectives.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HMAS "
+	fallback_name = "Royal Carrier %s"		
+
+	unique = {
+		### Majestic Class (1944) ###
+		"Sydney" "Melbourne"
+
+		### Colossus Class (1944) ###
+		"Vengence"
+
+		### Additionals ###
+		"Mighty" "Indomitable" "Formidable" "Stalwart" "Resilent" "Invincible" "Potent" "Unyielding" "Dominant" "Tenacious" "Robust" "Commanding" 
+		"Unassailable" "Vigorous" "Unwavering" "Herculean" "Assertive" "Dominating" "Impressive" "Authoritative" "Sovereign" "Unshakeable" "Vigilang" 
+		"Dauntless" "Indefatigable" "Imprevious" "Relentless" "Forceful"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+AST_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "HMAS "
+	fallback_name = "Royal Light Aircraft Carrier %s"
+
+	unique = {
+		### Historical Models ###
+		"Albatross"
+
+		### Additionals ###
+		"Falcon" "Swift" "Sparrow" "Hawk" "Osprey" "Kestrel" "Eagle" "Peregring" "Gull" "Condor" "Vulture" "Swiftlet" "Swallow" "Buzzard" "Cormorant" 
+		"Harrier" "Tern" "Seagull" "Raptor" "Falconet" "Merlin" "Frigatebird" "Kite" "Petrel" "Skylark" "Nightjar" "Hummingbird" "Magpie" "Redwing" 
+		"Kingfisher" "Sparrowhawk" "Warbler" "Tropicbird" "Plover" "Shrike" "Wagtail" "Siskin" "Pipit"
+	}
+}
+
+### Battleship Names ###
+AST_BB_HISTORICAL = { # Importance.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HMAS "
+	fallback_name = "Royal Battleship %s"
+
+	unique = {
+		"Uluru" "Great Barrier" "Boomerang" "Eucalyptus" "Southern Cross" "Wattle" "Tasman" "Outback" "Captain Cook" "Darwin" "Macquarie" "Coral Sea" 
+		"Terra Australis" "Bass Strait" "Burke" "Federation" "Vegemite" "Banjo" "Opal Coast" "Dreamtime" "Flinders" "Botany Bay" "Eureka" "Gallipoli" 
+		"Mallee" "Ningaloo" "Arnhem" "Moreton" "Mitchell" "Pilbara" "Kimberley" "Canning" "Sturt" "Wentworth" "Oxley" "Waratah" "Simpson"
+	}
+}
+
+### Battlecruiser Names ###
+AST_BC_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HMAS "
+	fallback_name = "Royal Battlecruiser %s"
+
+	unique = {
+ 		"Adventurous" "Bold" "Brave" "Daring" "Determined" "Fearless" "Gritty" "Heroic" "Interpid" "Resolute" "Spirited" "Steadfast" "Valiant" "Zealous" 
+ 		"Audacious" "Courageous" "Gallant" "Plucky" "Undaunted" "Unflinching" "Combative" "Confrontational" "Defiant" "Competitive" "Pioneering" "Proactive" 
+ 		"Aggresive"
+	}
+}
+
+### Heavy Cruiser Names ###
+AST_CA_HISTORICAL = { # Generals - Officers.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HMAS "
+	fallback_name = "Royal Heavy Cruiser %s"
+
+	unique = {
+		### Historical Models - Royal Navy ###
+		"Australia" "Canberra"
+
+		### Additionals - Generals - Officers ###
+		"Monash" "Bridges" "Chauvel" "Vasey" "White" "Holmes" "Elliott" "Wells" "Hutton" "McCay" "Gellibrand" "Russell" "Blamey" "Cox" "Vernon" "Burns" 
+		"Jobson" "Courtney" "Antill" "Howse" "Onslow" "Wilkins" "Langley" "Paton" "Brand" "Tivey" "Glasfurd" "Wilson"
+	}
+}
+
+### Light Cruiser Names ###
+AST_CL_HISTORICAL = { # Admirals - Captains.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HMAS "
+	fallback_name = "Royal Light Cruiser %s"
+
+	unique = {
+		### Historical Models - Royal Navy ###
+		"Brisbane" "Adelaide" "Perth" "Hobart"
+
+		### Additionals - Admirals - Captains ###
+		"Admiral Patey" "W. Creswell" "Glossop" "Grant" "Bracegirdle" "Holbrook" "Custance" "Addison" "Hyde" "R. Creswell" "Colvin" "Steven" "Dumaresq" 
+		"Harington" "McNicoll" "Collins" "Goolden" "Ashmore" "Stoker" "Chambers" "Crace" "Burnett" "Gillmore" "Cayley" "Shedden" "Leary" "Stevenson" 
+		"McCauley"
+	}
+}
+
+### Destroyer Names ###
+AST_DD_HISTORICAL = { # Geography - Figures - Flowers.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "HMAS "
+	fallback_name = "Royal Destroyer %s"
+
+	unique = {											
+		"Arunta" "Bataan" "Warramunga" "Napier" "Nizam" "Nestor" "Norman" "Nerissa" "Quiberon" "Quickmatch" "Quadrant" "Quality" "Queenborough"
+		"Tobruk" "Anzac" "Barcoo" "Barwon" "Burdekin" "Diamantina" "Gascoyne" "Hawkesbury" "Lachlan" "Macquarie" "Murchison" "Condamine"
+		"Shoalhaven" "Culgoa" "Balmaine" "Bogam" "Campaspe" "Murrumbidgee" "Naomi" "Nepean" "Warburton" "Williamstown" "Wimmera" "Wollondilly"
+		"Stuart" "Vampire" "Vendetta" "Voyager" "Waterhen"
+
+		### Additionals - Flowers ###
+		"Rose" "Tulip" "Sunflower" "Daisy" "Orchid" "Lily" "Marigold" "Daffodil" "Carnation" "Hibiscus" "Lavender" "Peony" "Chrysanthemum" "Iris" 
+		"Gladiolus" "Begonia" "Pansy" "Zinnia" "Dahlia" "Jasmine" "Hydrangea" "Camellia" "Gardenia" "Petunia" "Violet" "Snapdragon" "Bluebell" 
+		"Fresia" "Anemone" "Azalea"
+	}
+}
+
+### Escort Destroyers ###
+AST_DE_HISTORICAL = { # Geography - Explorers.
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "HMAS "
+	fallback_name = "Royal Corvette %s"
+
+	unique = {
+		"Bathurst" "Armidale" "Ararat" "Ballarat" "Benalla" "Bendigo" "Bowen" "Broome" "Bunbury" "Bundaberg" "Burnie" "Cairns" "Castlemaine"
+		"Cessnock" "Colac" "Cootamundra" "Cowra" "Deloraine" "Dubbo" "Echuca" "Fremantle" "Gawler" "Geelong" "Geraldton" "Gladstone" "Glenelg"
+		"Goulburn" "Gympie" "Horsham" "Inverell" "Ipswich" "Junee" "Kalgoorlie" "Kapunda" "Katoomba" "Kiama" "Latrobe" "Launceston" "Lismore"
+		"Lithgow" "Maryborough" "Mildura" "Parkes" "Pirie" "Rockhampton" "Shepparton" "Stawell" "Strahan" "Tamworth" "Toowoomba" "Townsville"
+		"Wagga" "Wallaroo" "Warrnambool" "Whyalla" "Wollongong"
+	}
+}
+
+### Minesweeper Names ###
+AST_MINESWEEPERS_HISTORICAL = { # Geography - Bays.
+	name = NAME_THEME_MINESWEEPERS
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HMAS "
+	fallback_name = "Royal Minesweeper %s"
+
+	unique = {
+		### Historical Models ###
+		"Abraham Crinjessen" "Alfie Cam" "Allenwood" "Bermagui" "Bonthorpe" "Brolga" "Carole-S" "Coogee" "Doomba" "Durraween" "Goolgwai" "Goorangai" 
+		"Gunbar" "Gunundaal" "Kianga" "Koraaga" "Korowa" "Marrawah" "Mary Cam" "Medea" "Mercedes" "Nambucca" "Narani" "Olive Cam" "Orara" "Paterson" 
+		"Patricia Cam" "Samuel Benbow" "Tambar" "Terka" "Tolga" "Tongkol" "Toorie" "Uki" "Uraiba" "Warrawee" "Wilcannia"
+
+		### Additionals - Bays & Gulfs ###
+		"Botany" "Broken" "Carpentaria" "Collier" "Exmouth" "Bight" "Jervis" "Joseph Bonaparte" "Keppel" "Limmen" "Macquarie" "Moreton" "Davey" "Jackson"
+		"Phillip" "Charlotte" "Repulse" "St Vincent" "Spencer" "Van Diemen" "Wester"
+	}
+}
+
+### Submarine Names ###
+AST_SS_HISTORICAL = { # Military.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HMAS "
+	fallback_name = "Royal Submarine %s"
+	
+    unique = {
+        "Oxley" "Otway" "Onslow" "Ovens" "Orion" "Otama" "Attack" "Acute" "Adroit" "Advance" "Archer" "Ardent" "Arrow" "Assail" "Aware" "Bandolier" 
+        "Barbette" "Barricade" "Bayonet" "Bombard" "Buccaneer"
+    }
+}
+
+##### Themes #####
+
+### Theme: States ###
+AST_THEME_STATES = {
+	name = NAME_THEME_STATES
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }
+
+	prefix = "HMAS "
+	fallback_name = "Royal Ship-A %s"
+
+	unique = {
+		"New South Wales" "Queensland" "South Australia" "Tasmania" "Victoria" "Western Australia" "Capital Territory" "Jervis Bay" "Northern Territory" 
+		"Ashmore Island" "Cartier Island" "Christmas Island" "Cocos Islands" "Coral Sea" "Heard Island" "McDonald Islands" "Norfolk Island"
+	}
+}
+
+### Theme: Cities ###
+AST_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMAS "
+	fallback_name = "Royal Ship-B %s"
+
+	unique = {
+		"Adelaide" "Brisbane" "Gold Coast" "Newcastle" "Canberra" "Wollongong" "Logan" "North Shore" "Geelong" "Cairns" "Parramatta" "Townsville" "Albury"
+		"Nowra" "Darwin" "Toowoomba" "Rainbow Beach" "Ballarat" "Mackay" "Mandurah" "Launceston" "Rockhampton" "Coffs Harbour" "Adelaide Hills" "Wagga Wagga"
+		"Bundaberg" "Pot Macquarie" "Mildura" "Hobart" "Torquay" "Mooloolaba" "Taree" "Bathust" "Orange" "Cranbourne" "Blacktown" "Caloundra" "Tamworth"
+		"Hoppers Crossing" "Kalgoorlie" "Castle Hill" "Frankston" "Shepparton" "St Albans" "Melton" "Queanbeyan" "Wodonga" "Lismore" "Gladstone" "Warrnambool"
+		"Sunbury" "Dubbo" "Banora Point" "Geraldton" "Maroubra" "Bunbury" "Mosman" "Alice Springs" "Port Stephens" "Randwick" "Quackers Hill" "Palmerston"
+		"Ferntree Gully" "Bentleigh" "Southport" "Albany" "Canning Vale" "Glen Iris" "Mount Gambier" "Marrickville" "Morphett Vale" "Granville"  "Armidale"
+		"Isa" "Caboolture" "Carlingford" "Liverpool" "Carringbah" "Goulburn" "Mornington" "Maryborough" "Booval" "Greensborough" "Kwinana" "Burnie" Brunswick
+		"Balwyn North" "Craigieburn" "Whyalla" "Camberwell" "Malvern" "Echuca" "Devonport" "Roebourne" "Glenmore" "Epping" "Notting"
+	}
+}
+
+### Theme: Mountains ###
+AST_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMAS "
+	fallback_name = "Royal Ship-C %s"
+
+	unique = {
+		"Kosciuszko" "Ossa" "Zeil" "Bartle Frere" "Legges Tor" "Bogong" "Bellenden Ker" "Elliot" "Bowen" "Thornton" "Brumlow" "St Mary" "Picton" "Ale"
+		"Bell" "Carbine Tableland" "William" "Field" "Warning" "Frenchmans Cap" "Anne" "Ngarutjaranya" "Jukes" "Snowy" "Gower" "Abbot" "Finnigan" "Ginini"
+		"Kaputar" "Bluff Knoll" "Buller" "Meharry" "Hartz" "Bithongabel" "Blue" "Superbus" "Propsting" "Barrow" "Weld" "Federation" "Dryander" "Burbidge"
+		"Strzelecki" "Normanby" "Owen" "Frankland" "Barney" "Murchison" "Hill" "Round" "Latrobe" "Bimberi" "Gingera" "Kelly" "Scabby" "Namadgi" "Gudgenby"
+	}  
+}
+
+### Theme: Rivers ###
+AST_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMAS "
+	fallback_name = "Royal Ship-D %s"
+
+	unique = {
+		"Abercrombie" "Adelaide" "Albert" "Alice" "Annan" "Andromache" "Angas" "Apsley" "Arthur" "Arve" "Ashburton" "Auburn" "Avoca" "Avon" "Balonne" "Balgarup" 
+		"Barcoo" "Barington" "Barron" "Barwon" "Bass" "Beaufort" "Bega" "Bell" "Bellinger" "Belubula" "Belyando" "Billabong" "Blackwood" "Bloomfield" "Bogan" 
+		"Bombala" "Boorowa" "Boyd" "Boyne" "Bow" "Bowen" "Bremer" "Brisbane" "Broken" "Brunswick" "Buckland" "Bungala" "Bunyip" "Burdekin" "Burnett" "Caboolture" 
+		"Calliope" "Campapse" "Cann" "Canning" "Cape" "Capel" "Capertee" "Carbunup" "Carcoar" "Carpentier" "Cascade" "Castlereagh" "Cataract" "Chandler" "Chapman" 
+		"Clarence" "Clyde" "Cobrabald" "Cockburn" "Coen" "Collie" "Colo" "Condamine" "Connors" "Cooks" "Collaburragundy" "Coomera" "Cooper" "Cotter" "Crookwell"
+	}  
+}
+
+### Theme: Tribes ###
+AST_THEME_TRIBES = {
+	name = NAME_THEME_TRIBES
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HMAS "
+	fallback_name = "Royal Ship-E %s"
+
+	unique = {
+		"Alyawarre" "Adnyamathanha" "Anmatjera" "Arunta" "Dieri" "Gunai" "Gurindji" "Guugu Yimithirr" "Jarrakan" "Kalkadoon" "Kaurna" "Kulin" "Kunibidji" "Luritja"
+		"Maralinga Tjarutja" "Murrinh-Patha" "Murrawarri" "Ngarrindjeri" "Narungga" "Ngunnawal" "Nyungar" "Spinefex" "Pitjantjatjara" "Tiwi" "Warlpiri" "Warramunga"
+		"Yolngu" "Yorta Yorta" "Woiwurrung" "Boonwurrung" "Wathaurrung" "Daungwurrung" "Dja Dja Wrung" "Bratowooloong" "Brayakooloong" "Brabawooloong" "Tatungooloong"
+		"Krowathunkooloong" 
+	}
+}
+
+### Theme: Animals ###
+AST_THEME_ANIMALS = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser ship_hull_light carrier battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+	
+	prefix = "HMAS "
+	fallback_name = "Royal Ship-F %s"
+	
+	unique = {
+		"Kangaroo" "Koala" "Platypus" "Emu" "Tasmanian Devil" "Wombat" "Quokka" "Wallaby" "Kookaburra" "Echidna" "Sugar Glider" "Tasmanian Tiger" "Dingo" "Cockatoo"
+		"Frilled Neck" "Cassowary" "Bilby" "Numbat" "Quoll" "Thorny Devil" "Tasmanian Pademelon" "Sea Lion" "Lion" "Fur Seal" "Blue Ringed" "Pygmy Possum" "Spider"
+		"Crayfish" "Bilby" "Penguin" "Whale" "Snake" "Swan" "Pelican" "Fox" "Bustard" "Frog" "Elephant" "Giraffe" "Zebra" "Gorilla" "Rhino" "Hippopotamus" "Flamingo"
+		"Cheetah" "Leopard" "Polar Bear" "Grizzly Bear" "Panda" "Wolf" "Deer" "Moose" "Bison" "Dolphin" "Shark" "Jellyfish" "Clownfish" "Seahorse" "Lobster" "Crab"
+		"Salmon" "Trout" "Hawk" "Owl" "Albatross" "Parrot" "Toucan" "Pigeon" "Heron" "Bat"
+	}
+}
+
+### Theme: Famous Battles ###
+AST_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HMAS "
+	fallback_name = "Royal Ship-G %s"
+
+	unique = {
+		"Gallipoli" "Beersheba" "Hamel" "Elands" "Chunuk Bair" "Lone Pine" "Fromelles" "Villers-Bretonneux" "Suakin" "Poplar Grove" "Magersfontein" "Paardeberg" "Canal du Nord"
+		"Belmont" "Graspan" "Mafeking" "Bita Paka" "Messines" "Polygon Wood" "Bullecourt" "Mont St Quentin" "Menin" "Selle" "Bapaume" "Pozières" "Amiens" "Hazebrouck" 
+		"Delville Wood" "Broodseinde" "Lys" "Langemarck" "Zonnebeke" "Loos" "Gueudecourt" "Ancre Heights" "Montauban" "Montbrehain" "Passchendaele" "Arras" "Somme"
+	}
+}
+
+################################################################################################## Communist Australian Ship Names ##################################################################################################
+
+### Aircraft Carrier Names ###
+AST_CV_COMMUNIST = { # Adjectives.
+	name = NAME_THEME_COMMUNIST_CARRIERS
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "RNS "
+	fallback_name = "Republican Carrier %s"		
+
+	unique = {
+		### Majestic Class (1944) ###
+		"Sydney" "Melbourne"
+
+		### Colossus Class (1944) ###
+		"Vengence"
+
+		### Additionals ###
+		"Mighty" "Indomitable" "Formidable" "Stalwart" "Resilent" "Invincible" "Potent" "Unyielding" "Dominant" "Tenacious" "Robust" "Commanding" 
+		"Unassailable" "Vigorous" "Unwavering" "Herculean" "Assertive" "Dominating" "Impressive" "Authoritative" "Sovereign" "Unshakeable" "Vigilang" 
+		"Dauntless" "Indefatigable" "Imprevious" "Relentless" "Forceful"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+AST_CVL_COMMUNIST = { # Flying Creatures.
+	name = NAME_THEME_COMMUNIST_CVL
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "HMAS "
+	fallback_name = "Republican Light Aircraft Carrier %s"
+
+	unique = {
+		### Historical Models ###
+		"Albatross"
+
+		### Additionals ###
+		"Falcon" "Swift" "Sparrow" "Hawk" "Osprey" "Kestrel" "Eagle" "Peregring" "Gull" "Condor" "Vulture" "Swiftlet" "Swallow" "Buzzard" "Cormorant" 
+		"Harrier" "Tern" "Seagull" "Raptor" "Falconet" "Merlin" "Frigatebird" "Kite" "Petrel" "Skylark" "Nightjar" "Hummingbird" "Magpie" "Redwing" 
+		"Kingfisher" "Sparrowhawk" "Warbler" "Tropicbird" "Plover" "Shrike" "Wagtail" "Siskin" "Pipit"
+	}
+}
+
+### Battleship Names ###
+AST_BB_COMMUNIST = { # Importance.
+	name = NAME_THEME_COMMUNIST_BB
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "RNS "
+	fallback_name = "Republican Battleship %s"
+
+	unique = {
+		"Uluru" "Great Barrier" "Boomerang" "Eucalyptus" "Southern Cross" "Wattle" "Tasman" "Outback" "Captain Cook" "Darwin" "Macquarie" "Coral Sea" 
+		"Terra Australis" "Bass Strait" "Burke" "Federation" "Vegemite" "Banjo" "Opal Coast" "Dreamtime" "Flinders" "Botany Bay" "Eureka" "Gallipoli" 
+		"Mallee" "Ningaloo" "Arnhem" "Moreton" "Mitchell" "Pilbara" "Kimberley" "Canning" "Sturt" "Wentworth" "Oxley" "Waratah" "Simpson"
+	}
+}
+
+### Battlecruiser Names ###
+AST_BC_COMMUNIST = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "RNS "
+	fallback_name = "Republican Battlecruiser %s"
+
+	unique = {
+ 		"Adventurous" "Bold" "Brave" "Daring" "Determined" "Fearless" "Gritty" "Heroic" "Interpid" "Resolute" "Spirited" "Steadfast" "Valiant" "Zealous" 
+ 		"Audacious" "Courageous" "Gallant" "Plucky" "Undaunted" "Unflinching" "Combative" "Confrontational" "Defiant" "Competitive" "Pioneering" "Proactive" 
+ 		"Aggresive"
+	}
+}
+
+### Heavy Cruiser Names ###
+AST_CA_COMMUNIST = { # Generals - Officers.
+	name = NAME_THEME_COMMUNIST_CA
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "RNS "
+	fallback_name = "Republican Heavy Cruiser %s"
+
+	unique = {
+		"Monash" "Bridges" "Chauvel" "Vasey" "White" "Holmes" "Elliott" "Wells" "Hutton" "McCay" "Gellibrand" "Russell" "Blamey" "Cox" "Vernon" "Burns" 
+		"Jobson" "Courtney" "Antill" "Howse" "Onslow" "Wilkins" "Langley" "Paton" "Brand" "Tivey" "Glasfurd" "Wilson"
+	}
+}
+
+### Light Cruiser Names ###
+AST_CL_COMMUNIST = { # Admirals - Captains.
+	name = NAME_THEME_COMMUNIST_CL
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "RNS "
+	fallback_name = "Republican Light Cruiser %s"
+
+	unique = {
+		"Admiral Patey" "W. Creswell" "Glossop" "Grant" "Bracegirdle" "Holbrook" "Custance" "Addison" "Hyde" "R. Creswell" "Colvin" "Steven" "Dumaresq" 
+		"Harington" "McNicoll" "Collins" "Goolden" "Ashmore" "Stoker" "Chambers" "Crace" "Burnett" "Gillmore" "Cayley" "Shedden" "Leary" "Stevenson" 
+		"McCauley"
+	}
+}
+
+### Destroyer Names ###
+AST_DD_COMMUNIST = { # Geography - Figures - Flowers.
+	name = NAME_THEME_COMMUNIST_DESTROYERS
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "RNS "
+	fallback_name = "Destroyer %s"
+
+	unique = {											
+		"Arunta" "Bataan" "Warramunga" "Napier" "Nizam" "Nestor" "Norman" "Nerissa" "Quiberon" "Quickmatch" "Quadrant" "Quality" "Queenborough"
+		"Tobruk" "Anzac" "Barcoo" "Barwon" "Burdekin" "Diamantina" "Gascoyne" "Hawkesbury" "Lachlan" "Macquarie" "Murchison" "Condamine"
+		"Shoalhaven" "Culgoa" "Balmaine" "Bogam" "Campaspe" "Murrumbidgee" "Naomi" "Nepean" "Warburton" "Williamstown" "Wimmera" "Wollondilly"
+		"Stuart" "Vampire" "Vendetta" "Voyager" "Waterhen"
+
+		### Additionals - Flowers ###
+		"Rose" "Tulip" "Sunflower" "Daisy" "Orchid" "Lily" "Marigold" "Daffodil" "Carnation" "Hibiscus" "Lavender" "Peony" "Chrysanthemum" "Iris" 
+		"Gladiolus" "Begonia" "Pansy" "Zinnia" "Dahlia" "Jasmine" "Hydrangea" "Camellia" "Gardenia" "Petunia" "Violet" "Snapdragon" "Bluebell" 
+		"Fresia" "Anemone" "Azalea"
+	}
+}
+
+### Escort Destroyers ###
+AST_DE_COMMUNIST = { # Geography - Explorers.
+	name = NAME_THEME_COMMUNIST_DE
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "RNS "
+	fallback_name = "Republican Corvette %s"
+
+	unique = {
+		"Bathurst" "Armidale" "Ararat" "Ballarat" "Benalla" "Bendigo" "Bowen" "Broome" "Bunbury" "Bundaberg" "Burnie" "Cairns" "Castlemaine"
+		"Cessnock" "Colac" "Cootamundra" "Cowra" "Deloraine" "Dubbo" "Echuca" "Fremantle" "Gawler" "Geelong" "Geraldton" "Gladstone" "Glenelg"
+		"Goulburn" "Gympie" "Horsham" "Inverell" "Ipswich" "Junee" "Kalgoorlie" "Kapunda" "Katoomba" "Kiama" "Latrobe" "Launceston" "Lismore"
+		"Lithgow" "Maryborough" "Mildura" "Parkes" "Pirie" "Rockhampton" "Shepparton" "Stawell" "Strahan" "Tamworth" "Toowoomba" "Townsville"
+		"Wagga" "Wallaroo" "Warrnambool" "Whyalla" "Wollongong"
+	}
+}
+
+### Submarine Names ###
+AST_SS_COMMUNIST = { # Military.
+	name = NAME_THEME_COMMUNIST_SUBMARINES
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "RNS "
+	fallback_name = "Republican Submarine %s"
+	
+    unique = {
+        "Oxley" "Otway" "Onslow" "Ovens" "Orion" "Otama" "Attack" "Acute" "Adroit" "Advance" "Archer" "Ardent" "Arrow" "Assail" "Aware" "Bandolier" 
+        "Barbette" "Barricade" "Bayonet" "Bombard" "Buccaneer"
+    }
+}
+
+##### Themes #####
+
+### Theme: States ###
+AST_THEME_STATES_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_STATES
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }
+
+	prefix = "RNS "
+	fallback_name = "Republican Ship-A %s"
+
+	unique = {
+		"New South Wales" "Queensland" "South Australia" "Tasmania" "Victoria" "Western Australia" "Capital Territory" "Jervis Bay" "Northern Territory" 
+		"Ashmore Island" "Cartier Island" "Christmas Island" "Cocos Islands" "Coral Sea" "Heard Island" "McDonald Islands" "Norfolk Island"
+	}
+}
+
+### Theme: Cities ###
+AST_THEME_CITIES_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_CITIES
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "RNS "
+	fallback_name = "Republican Ship-B %s"
+
+	unique = {
+		"Adelaide" "Brisbane" "Gold Coast" "Newcastle" "Canberra" "Wollongong" "Logan" "North Shore" "Geelong" "Cairns" "Parramatta" "Townsville" "Albury"
+		"Nowra" "Darwin" "Toowoomba" "Rainbow Beach" "Ballarat" "Mackay" "Mandurah" "Launceston" "Rockhampton" "Coffs Harbour" "Adelaide Hills" "Wagga Wagga"
+		"Bundaberg" "Pot Macquarie" "Mildura" "Hobart" "Torquay" "Mooloolaba" "Taree" "Bathust" "Orange" "Cranbourne" "Blacktown" "Caloundra" "Tamworth"
+		"Hoppers Crossing" "Kalgoorlie" "Castle Hill" "Frankston" "Shepparton" "St Albans" "Melton" "Queanbeyan" "Wodonga" "Lismore" "Gladstone" "Warrnambool"
+		"Sunbury" "Dubbo" "Banora Point" "Geraldton" "Maroubra" "Bunbury" "Mosman" "Alice Springs" "Port Stephens" "Randwick" "Quackers Hill" "Palmerston"
+		"Ferntree Gully" "Bentleigh" "Southport" "Albany" "Canning Vale" "Glen Iris" "Mount Gambier" "Marrickville" "Morphett Vale" "Granville"  "Armidale"
+		"Isa" "Caboolture" "Carlingford" "Liverpool" "Carringbah" "Goulburn" "Mornington" "Maryborough" "Booval" "Greensborough" "Kwinana" "Burnie" Brunswick
+		"Balwyn North" "Craigieburn" "Whyalla" "Camberwell" "Malvern" "Echuca" "Devonport" "Roebourne" "Glenmore" "Epping" "Notting"
+	}
+}
+
+### Theme: Mountains ###
+AST_THEME_MOUNTAINS_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_MOUNTAINS
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "RNS "
+	fallback_name = "Republican Ship-C %s"
+
+	unique = {
+		"Kosciuszko" "Ossa" "Zeil" "Bartle Frere" "Legges Tor" "Bogong" "Bellenden Ker" "Elliot" "Bowen" "Thornton" "Brumlow" "St Mary" "Picton" "Ale"
+		"Bell" "Carbine Tableland" "William" "Field" "Warning" "Frenchmans Cap" "Anne" "Ngarutjaranya" "Jukes" "Snowy" "Gower" "Abbot" "Finnigan" "Ginini"
+		"Kaputar" "Bluff Knoll" "Buller" "Meharry" "Hartz" "Bithongabel" "Blue" "Superbus" "Propsting" "Barrow" "Weld" "Federation" "Dryander" "Burbidge"
+		"Strzelecki" "Normanby" "Owen" "Frankland" "Barney" "Murchison" "Hill" "Round" "Latrobe" "Bimberi" "Gingera" "Kelly" "Scabby" "Namadgi" "Gudgenby"
+	}  
+}
+
+### Theme: Rivers ###
+AST_THEME_RIVERS_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_RIVERS
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "RNS "
+	fallback_name = "Republican Ship-D %s"
+
+	unique = {
+		"Abercrombie" "Adelaide" "Albert" "Alice" "Annan" "Andromache" "Angas" "Apsley" "Arthur" "Arve" "Ashburton" "Auburn" "Avoca" "Avon" "Balonne" "Balgarup" 
+		"Barcoo" "Barington" "Barron" "Barwon" "Bass" "Beaufort" "Bega" "Bell" "Bellinger" "Belubula" "Belyando" "Billabong" "Blackwood" "Bloomfield" "Bogan" 
+		"Bombala" "Boorowa" "Boyd" "Boyne" "Bow" "Bowen" "Bremer" "Brisbane" "Broken" "Brunswick" "Buckland" "Bungala" "Bunyip" "Burdekin" "Burnett" "Caboolture" 
+		"Calliope" "Campapse" "Cann" "Canning" "Cape" "Capel" "Capertee" "Carbunup" "Carcoar" "Carpentier" "Cascade" "Castlereagh" "Cataract" "Chandler" "Chapman" 
+		"Clarence" "Clyde" "Cobrabald" "Cockburn" "Coen" "Collie" "Colo" "Condamine" "Connors" "Cooks" "Collaburragundy" "Coomera" "Cooper" "Cotter" "Crookwell"
+	}  
+}
+
+### Theme: Tribes ###
+AST_THEME_TRIBES_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_TRIBES
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "RNS "
+	fallback_name = "Republican Ship-E %s"
+
+	unique = {
+		"Alyawarre" "Adnyamathanha" "Anmatjera" "Arunta" "Dieri" "Gunai" "Gurindji" "Guugu Yimithirr" "Jarrakan" "Kalkadoon" "Kaurna" "Kulin" "Kunibidji" "Luritja"
+		"Maralinga Tjarutja" "Murrinh-Patha" "Murrawarri" "Ngarrindjeri" "Narungga" "Ngunnawal" "Nyungar" "Spinefex" "Pitjantjatjara" "Tiwi" "Warlpiri" "Warramunga"
+		"Yolngu" "Yorta Yorta" "Woiwurrung" "Boonwurrung" "Wathaurrung" "Daungwurrung" "Dja Dja Wrung" "Bratowooloong" "Brayakooloong" "Brabawooloong" "Tatungooloong"
+		"Krowathunkooloong"
+	}
+}
+
+### Theme: Animals ###
+AST_THEME_ANIMALS_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_ANIMALS
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser ship_hull_light carrier battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+	
+	prefix = "RNS "
+	fallback_name = "Republican Ship-F %s"
+	
+	unique = {
+		"Kangaroo" "Koala" "Platypus" "Emu" "Tasmanian Devil" "Wombat" "Quokka" "Wallaby" "Kookaburra" "Echidna" "Sugar Glider" "Tasmanian Tiger" "Dingo" "Cockatoo"
+		"Frilled Neck" "Cassowary" "Bilby" "Numbat" "Quoll" "Thorny Devil" "Tasmanian Pademelon" "Sea Lion" "Lion" "Fur Seal" "Blue Ringed" "Pygmy Possum" "Spider"
+		"Crayfish" "Bilby" "Penguin" "Whale" "Snake" "Swan" "Pelican" "Fox" "Bustard" "Frog" "Elephant" "Giraffe" "Zebra" "Gorilla" "Rhino" "Hippopotamus" "Flamingo"
+		"Cheetah" "Leopard" "Polar Bear" "Grizzly Bear" "Panda" "Wolf" "Deer" "Moose" "Bison" "Dolphin" "Shark" "Jellyfish" "Clownfish" "Seahorse" "Lobster" "Crab"
+		"Salmon" "Trout" "Hawk" "Owl" "Albatross" "Parrot" "Toucan" "Pigeon" "Heron" "Bat"
+	}
+}
+
+### Theme: Famous Battles ###
+AST_THEME_BATTLES_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_BATTLES
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "RNS "
+	fallback_name = "Republican Ship-G %s"
+
+	unique = {
+		"Gallipoli" "Beersheba" "Hamel" "Elands" "Chunuk Bair" "Lone Pine" "Fromelles" "Villers-Bretonneux" "Suakin" "Poplar Grove" "Magersfontein" "Paardeberg" "Canal du Nord"
+		"Belmont" "Graspan" "Mafeking" "Bita Paka" "Messines" "Polygon Wood" "Bullecourt" "Mont St Quentin" "Menin" "Selle" "Bapaume" "Pozières" "Amiens" "Hazebrouck" 
+		"Delville Wood" "Broodseinde" "Lys" "Langemarck" "Zonnebeke" "Loos" "Gueudecourt" "Ancre Heights" "Montauban" "Montbrehain" "Passchendaele" "Arras" "Somme"
+	}
+}

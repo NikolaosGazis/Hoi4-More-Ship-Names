@@ -3,7 +3,7 @@
 # ORP = Okręt Rzeczypospolitej Polskiej. (Official)
 
 ### Aircraft Carrier Names ###
-POL_CV_HISTORICAL = { # Aviators - Flying Creatures. 
+POL_CV_HISTORICAL = { # Aviators.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
 	for_countries = { POL }
@@ -16,13 +16,34 @@ POL_CV_HISTORICAL = { # Aviators - Flying Creatures.
 	
 	unique = {
 		### Aviators ###
-		"Tadeusz Kościuszko" "Jan Kubiš" "Jerzy Giedroyc" "Franciszek Żwirko" "Anna Leska" "Ludomił Rayski" "Janusz Żurakowski"
-		"Władysław Turowicz" "Kazimierz Pułaski" "Stanisław Skalski" 
-
-		### Flying Creatures ###
-		"Sokół" "Albatros" "Koliber" "Ćma" "Świetlik" "Chrząszcz" "Feniks" "Harpia" "Rok" "Ptak Grzmotu" "Simurgh" "Garuda" 
-		"Hipogryf" "Wewern" "Tezaur"
+		"Jan Nagórski" "Stefan Bastyr" "Franciszek Żwirko" "Stanisław Wigura" "Eugeniusz Przedpelski" "Janusz de Beaurain" "Witold Urbanowicz" 
+		"Bolesław Orliński" "Mieczysław Medwecki" "Jerzy Bajan" "Fryderyk Jach" "Tadeusz Karpiński" "Bolesław Orliniec" "Marian Pisarek" 
+		"Tadeusz Sędzielowski" "Bolesław Telatycki" "Marian Romeyko" "Mieczysław Tarkowski" "Stefan Stec" "Tadeusz Grobicki" "Tadeusz Mańkowski" 
+		"Bolesław Wróblewski" "Antoni Głowacki" "Władysław Koc" "Witold Łokuciewski" "Antoni Matacz"
 	} 
+}
+
+### Light Aircraft Carrier Names ###
+POL_CVL_HISTORICAL = { # Flying Creatures - Mythological.
+	name = NAME_THEME_HISTOICAL_CVL
+
+	for_countries = { POL }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "ORP "
+	fallback_name = "Lekki Lotniskowiec %d"
+
+	unique = {
+		"Ptak" "Orzeł" "Sokół" "Jastrząb" "Gołąb" "Wróbel" "Sowa" "Nietoperz" "Motyl" "Osa" "Pszczoła" "Komar" "Szerszeń" "Mewa" "Kruk" "Wrona" 
+		"Dzięcioł" "Jaskółka" "Kondor" "Papuga" "Albatros" "Bocian" "Błotniak" "Czapla" "Drozd" "Gawron" "Gil" "Kukułka" "Łabędź" "Pustułka" "Sikorka" 
+		"Sójka" "Trzmiel" "Wilga" "Zimorodek" "Biedronka" "Ćma" "Żuraw"
+
+		### Mythological ###
+		"Smok" "Feniks" "Pegaz" "Harpia" "Griffon" "Bazyliszek" "Raróg" "Latawiec" "Strzyga" "Garuda" "Żar-ptak" "Wywern" "Anzu" "Jormungand" "Barghest" 
+		"Manticora" "Peryton" "Raicho" "Simurgh" "Chimera"
+	}
 }
 
 ### Battleship Names ###
@@ -38,8 +59,10 @@ POL_BB_HISTORICAL = { # Figures.
 	fallback_name = "Pancernik %d"
 	
 	unique = {
-		"Józef Pilsudski" "Król Wladyslaw IV" "Stefan Batory" "Jan Sobieski" "Kazimierz Wielki" "Boleslaw Chrobry" "Jan Kazimierz" 
-		"Stanislaw Koniecpolski" "Stanislaw Zólkiewski" "Jan Zamoyski" "Stanislaw Lanckoronski" "Stefan Czarniecki" "Jan Karol Chodkiewicz" 
+		"Józef Pilsudski" "Król Wladyslaw IV" "Stefan Batory" "Jan Sobieski" "Kazimierz Wielki" "Boleslaw Chrobry" "Jan Kazimierz" "Stanislaw Koniecpolski" 
+		"Stefan Czarniecki" "Jan Karol Chodkiewicz" "Mieszko I" "Władysław Łokietek" "Kazimierz Jagiellończyk" "Zygmunt Stary" "Zygmunt August" 
+		"Władysław Warneńczyk" "Jadwiga Andegaweńska" "Władysław Jagiełło" "Elżbieta Łokietkówna" "Konrad Mazowiecki" "Przemysł II" "Mikołaj Kopernik" 
+		"Tadeusz Kościuszko" "Adam Mickiewicz" "Józef Bem" "Józef Haller" "Władysław Anders" "Roman Dmowski" "Ignacy Jan Paderewski" "Wincenty Witos"
 	}
 }
 
@@ -84,7 +107,7 @@ POL_CA_HISTORICAL = { # Generals.
 }
 
 ### Light Cruiser Names ###
-POL_CL_HISTORICAL = { # Cities (?).
+POL_CL_HISTORICAL = { # Cities.
 	name = NAME_THEME_HISTORICAL_CL
 
 	for_countries = { POL }
@@ -96,7 +119,7 @@ POL_CL_HISTORICAL = { # Cities (?).
 	fallback_name = "Lekki Krążownik %d"
 
 	unique = {
-		### Loaned from the United Kingdom ###
+		### Loaned - United Kingdom ###
 		"Conrad" "Dragon"
 
 		### Additionals ###
@@ -119,10 +142,10 @@ POL_DD_HISTORICAL = { # Phenomenoms - Regions - Events.
 	fallback_name = "Niszczyciel %d"
 
 	unique = {
-		### Wicher Class ###
+		### Wicher Class (1930) ###
 		"Wicher" "Burza" 
 
-		### Grom Class ###
+		### Grom Class (1937) ###
 		"Grom" "Błyskawica" 
 
 		### Additionals - Planned ###
@@ -146,8 +169,7 @@ POL_SS_HISTORICAL = { # Animals - Regions - Sea Creatures.
 	
 	unique = {
 		### Historical Models ###
-		"Orzeł" "Sęp" "Sokól" "Dzik" "Jastrząb" "Rys" "Wilk" "Żbik" "Kondor" "Bielik" 
-		"Kaszub" "Mazur" "Krakowiak" "Ślązak" "Kujawiak" "Kurp"
+		"Orzeł" "Sęp" "Sokól" "Dzik" "Jastrząb" "Rys" "Wilk" "Żbik" "Kondor" "Bielik" "Kaszub" "Mazur" "Krakowiak" "Ślązak" "Kujawiak" "Kurp"
 
 		### Additionals ###
 		"Rekin" "Delfin" "Wieloryb" "Ośmiornica" "Kałamarnica" "Meduza" "Krab" "Omulec" "Krewetika" "Konik Morski" "Rozgwiazda" "Miecznik" 
@@ -212,24 +234,6 @@ POL_THEME_HISTORICAL_FIGURES = {
 	}
 }
 
-### Theme: Weather ###
-POL_THEME_WEATHER = {
-	name = NAME_THEME_WEATHER
-
-	for_countries = { POL }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-	
-	prefix = "ORP "
-	fallback_name = "Statek-C %d"
-
-	unique = {
-		"Burza" "Błyskawica" "Sztorm" "Grad" "Wicher" "Piorun" "Tornado" "Zorza" "Huragan" "Grom" "Zamieć" "Halny" "Orkan" "Szkwał" "Deszcz" "Śnieg" 
-		"Mróz" "Mgła" "Zaraza" "Gradobicie" "Przymrozek" "Smaragd" "Lodowiec" "Tęcza" "Susza" "Tajfun"
-	}
-}
-
 ### Theme: Regions ###
 POL_THEME_REGIONS = {
 	name = NAME_THEME_REGIONS
@@ -240,11 +244,15 @@ POL_THEME_REGIONS = {
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
 	
 	prefix = "ORP "
-	fallback_name = "Statek-D %d"
+	fallback_name = "Statek-C %d"
 
 	unique = {
-		"Wielkopolskie" "Kujawsko" "Pomorskie" "Małopolskie" "Lódzkie" "Dolnośląskie" "Lubelskie" "Lubuskie" "Mazowieckie" "Opolskie" "Podlaskie" "Pomorskie" 
-		"Sląskie" "Podkarpackie" "Swiętokrzyskie" "Warmińsko" "Zachodniopomorskie" "Wilno" "Nowogródek" "Polesie" "Volhynian" "Tarnopol" "Stanislawow"
+		### 1930s Borders ###
+		"Wilno" "Nowogródek" "Polesie" "Volhynian" "Lwowskie" "Stanisławowskie" "Tarnopolskie" "Białostockie" "Wielkopolskie" "Kujawsko" "Pomorskie" "Małopolskie" 
+		"Łódzkie" "Lubelskie" "Mazowieckie" "Podlaskie" "Śląskie" "Podkarpackie" "Świętokrzyskie"
+
+		### 1945 Gained ###
+		"Dolnośląskie" "Lubuskie" "Opolskie" "Pomorskie" "Warmińsko" "Zachodniopomorskie"
 	}
 }
 
@@ -258,12 +266,14 @@ POL_THEME_CITIES = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 	
 	prefix = "ORP "
-	fallback_name = "Statek-E %d"
+	fallback_name = "Statek-D %d"
 
 	unique = {
-		"Gdynia" "Gliwice" "Tomaszów Mazowiecki" "Kielce" "Poznań" "Wrocław" "Chorzów" "Katowice" "Szczecin" "Olsztyn" "Warsaw" "Bytom" "Pabianice" 
-		"Wałbrzych" "Łódź" "Kalisz" "Radom" "Białystok" "Siemianowice" "Kraków" "Bydgoszcz" "Gdańsk" "Opole" "Toruń" "Legnica" "Sosnowiec" "Lublin" 
-		"Grudziądz" "Elbląg" "Inowrocław" "Zabrze" "Piotrków" "Częstochowa" "Kalisz" "Gdynia"
+		"Łódź" "Kraków" "Wrocław" "Poznań" "Gdańsk" "Szczecin" "Bydgoszcz" "Lublin" "Katowice" "Białystok" "Gdynia" "Częstochowa" "Sosnowiec" "Radom" "Toruń" 
+		"Kielce" "Giwice" "Zabrze" "Bytom" "Bielsko-Biała" "Olsztyn" "Rzeszów" "Ruda Śląska" "Rybnik" "Górnicza" "Tychy" "Opole" "Elblag" "Płock" "Wałbrzych" 
+		"Wielkopolski" "Włocławek" "Zielona Góra" "Tarnów" "Chorzów" "Kalisz" "Koszalin" "Legnica" "Grudziądz" "Słupsk" "Jaworzno" "Zdrój" "Jelenia Góra" 
+		"Nowy Sącz" "Konin" "Piotrków Trybunalski" "Inowrocław" "Lubin" "Siedlce" "Piła" "Mysłowice" "Świętokrzyski" "Śląskie" "Wielkopolski" "Szczeciński" 
+		"Pabianice" "Gniezno" "Fordon" "Suwałki" "Głogów" "Chełm" "Mazowiecki" "Przemyśl" "Wola" "Zamość" "Koźle" "Łomża" "Leszno" "Żory" "Bełchatów"
 	}
 }
 
@@ -277,7 +287,7 @@ POL_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ORP "
-	fallback_name = "Statek-F %d"
+	fallback_name = "Statek-E %d"
 
 	unique = {
 		"Rysy" "Niżnie" "Cubryna" "Świnica" "Kozi" "Zamarła Turnia" "Klin" "Kościelec" "Jarząbczy" "Kamienista" "Krzesanica" "Mnich" "Wołowiec" "Kasprowy" 
@@ -297,11 +307,37 @@ POL_THEME_RIVERS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 	
 	prefix = "ORP "
+	fallback_name = "Statek-F %d"
+
+	unique = {
+		### 1930s Borders ###
+		"Wisła" "Wda" "Brda" "Drwęca" "Bzura" "Narew" "Wkra" "Bug" "Biebrza" "Pilica" "Wieprz" "San" "Złota" "Wisłok" "Wisłoka" "Nida" "Dunajec" "Poprad" 
+		"Dnieper" "Dniester" "Bug" "Neman" "Pripyat" "Styr" "Horyn" "Seret" "Zbruch" "Sozh" "Pina" "Sluch" "Svislach" "Schara" "Uzh" "Latorica" "Svicha" 
+		"Strypa" "Neman"
+
+		### 1945 Gained ###
+		"Odra" "Warta" "Ner" "Noteć" "Drawa" "Obra" "Prosna" "Widawka" "Łużycka" "Bóbr" "Cegielinka" "Diabelinica" "Kłodzka" "Świniec" "Niemica" "Wołcza" 
+		"Struga" "Rega" "Parsęta" "Wieprza" "Słupia" "Łeba" "Reda" "Pasłęka"
+	}
+}
+
+### Theme: Weather ###
+POL_THEME_WEATHER = {
+	name = NAME_THEME_WEATHER
+
+	for_countries = { POL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+	
+	prefix = "ORP "
 	fallback_name = "Statek-G %d"
 
 	unique = {
-		"Vistula" "Warta" "Oder" "Bug" "San" "Narew" "Noteć" "Wieprz" "Pilica" "Bóbr" "Wkra" "Dunajec" "Brda" "Drwęca" "Prosna" "Wisłok" "Łyna" "Wda" 
-		"Nysa Łużycka" "Drawa" "Nysa Kłodzka" "Rega" "Bzura" "Wisłoka" "Obra" "Pasłęka" "Biebrza" "Nida" 
+		"Burza" "Błyskawica" "Sztorm" "Grad" "Wicher" "Piorun" "Tornado" "Zorza" "Huragan" "Grom" "Zamieć" "Halny" "Orkan" "Szkwał" "Deszcz" "Śnieg" "Mróz" 
+		"Mgła" "Zaraza" "Gradobicie" "Przymrozek" "Smaragd" "Lodowiec" "Tęcza" "Susza" "Tajfun" "Płatek" "Wiatr" "Błysk" "Chmura" "Zima" "Lato" "Jesień" 
+		"Wiosna" "Księżyc" "Słońce" "Gwiazda" "Bałwan" "Ciepło" "Zimno" "Porażenie" "Pogoda" "Mgła" "Opad" "Opalenizna" "Mżawka" "Wichura" "Skroplenie" 
+		"Roszenie" "Wilgotność" "Burzowy" "Przymroź" "Zawieja" "Polarna"
 	}
 }
 
@@ -324,7 +360,7 @@ POL_THEME_ANIMALS = {
 	}
 }
 
-### Theme: Battles ###
+### Theme: Famous Battles ###
 POL_THEME_BATTLES = {
 	name = NAME_THEME_BATTLES
 
@@ -337,7 +373,10 @@ POL_THEME_BATTLES = {
 	fallback_name = "Statek-I %d"
 
 	unique = {
-		"Grunwald" "Orsza" "Smoleńsk" "Kircholm" "Wiedeń" "Chocim" "Raszyn" "Oliwa" "Cedynia" "Płowce" "Komarów" "Kłuszyn" "Tczew" "Khotyn" "Zadwórze" "Chojnice"
+		"Grunwald" "Orsza" "Smoleńsk" "Kircholm" "Wiedeń" "Chocim" "Raszyn" "Oliwa" "Cedynia" "Płowce" "Komarów" "Kłuszyn" "Tczew" "Khotyn" "Zadwórze" 
+		"Chojnice" "Legnica" "Lubiszew" "Byczyna" "Kircholm" "Luboml" "Berestechko" "Radzymin" "Westerplatte" "Niemcza" "Wrocław" "Rawa" "Obertyn" "Ujście" 
+		"Ławica" "Koziatyn" "Radom" "Kałuszyn" "Głogów" "Zawichost" "Chmielnik" "Worskla" "Wiłkomierz" "Świecino" "Kokenhausen" "Gniew" "Czarny Ostrów" 
+		"Prostki" "Basya" "Parkany" "Kalisz" "Stoczek"
 	}
 }
 

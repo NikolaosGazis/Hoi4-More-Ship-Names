@@ -2,7 +2,7 @@
 
 # ARE = Armada Española. (Official)
 
-### Aircraf Carrier Names ###
+### Aircraft Carrier Names ###
 SPR_CV_HISTORICAL = { # Historical - Aviation Pioneers.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
@@ -18,9 +18,30 @@ SPR_CV_HISTORICAL = { # Historical - Aviation Pioneers.
 		### Historical Ships ###
 		"Dédalo" "Príncipe de Asturias"
 
-		### Additionals ###
-		"Juan de la Cierva" "Emilio Herrera Linares" "Ramón Franco" "Francisco Largo Caballero" "Mariano Barberán" "Julio Ruiz de Alda Miqueleiz" 
-		"Elisa Léontine Deroche" "José Ortiz-Echagüe" "José Luis Barcelona" "Joaquín García Morato" "Ramón Franco Bahamonde" "Manuel Vázquez Sagastizábal"
+		### Additionals - Aviation Pioneers ###
+		"Juan de la Cierva" "Jorge Loring" "Marino de Villaverde" "Ramón Franco" "Julio Ruiz de Alda" "Emilio Linares" "Diego Madrazo" "Francisco Maestre" 
+		"Antonio Peláez" "Narciso Monturiol" "Antonio López" "Francisco Brage" "Eduardo Barrón" "Maria de Quirós" "Mercedes Corominas" "Alfredo Kindelán" 
+		"Joaquín Loriga" "Diego Aguilera" "Jose Echagüe" "Elisa Meléndez" "Julio Ruiz de Alda" "Antonio Santillana" "Dolors Vives Rodon" "Pedro Vives" 
+		"Francisco Vives"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+SPR_CVL_HISTORICAL = { # Flyinge Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "ARE "
+	fallback_name = "Portaaviones Ligero %d"
+
+	unique = {
+		"Águila" "Búho" "Murciélago" "Halcon" "Cóndor" "Gaviota" "Golondrina" "Cisne" "Palorma" "Colibrí" "Pato" "Cigüeña" "Gavilán" "Papagayo" "Pavo Real" 
+		"Alondra" "Cotorra" "Canario" "Cuervo" "Jilguero" "Periquito" "Gorrión" "Petirrojo" "Martinete" "Abeja" "Avispa" "Mariposa" "Libélula" "Vencejo" 
+		"Avetoro" "Zarapito" "Faisán" "Quetzal" "Azor" "Cárabo" "Tórtola" "Ibis" "Ánsar"
 	}
 }
 
@@ -40,15 +61,15 @@ SPR_BB_HISTORICAL = { # Figures.
 		### Historical Ships - Current Models ###
 		"Jaime I" "España" "Alfonso XIII"
 
-		### Additionals ###
+		### Additionals - Figures ###
 		"Isabella" "Charles V" "Miguel de Cervantes" "Christopher Columbus" "Juan Sebastián Elcano" "Diego Velázquez" "Francisco Goya" "Teresa de Ávila" 
-		"Miguel de Unamuno" "Federico García Lorca" "Pablo Picasso" "Hernán Cortés" "Santiago Ramón Cajal" "Rosalía de Castro" "Carlos V"
-		"Rodrigo Díaz de Vivar" "Alfonso X" "Santa Teresa" "Miguel de Cervantes"
+		"Miguel de Unamuno" "Federico García Lorca" "Pablo Picasso" "Hernán Cortés" "Santiago Ramón Cajal" "Rosalía de Castro" "Alfonso X" "Rodrigo Díaz de Vivar" 
+		"Santa Teresa"
 	} 
 }
 
 ### Battlecruiser Names ###
-SPR_BC_HISTORICAL = { # Battles - Admirals - Generals.
+SPR_BC_HISTORICAL = { # Battles - Cultural Icons.
 	name = NAME_THEME_HISTORICAL_BC
 
 	for_countries = { SPR }
@@ -61,16 +82,16 @@ SPR_BC_HISTORICAL = { # Battles - Admirals - Generals.
 
 	unique = {
 		### Battles ###
-		"Guadalajara" "Trafalgar" "Jarama" "Lepanto"
+		"Guadalajara" "Trafalgar" "Jarama" "Lepanto" "Ponta Delgada" "Cape Spartel" "Toulon" "Albufera" "Sesimbra Bay" "Pinos" "Navarino" "Djebra" "Azores"
 
-		### Admirals/Generals ###
-		"Blas de Lezo" "Álvaro de Bazán" "Gonzalo Fernández de Córdoba" "Francisco de Quevedo" "Juan Prim" "Federico Carlos Gravina" "Cosme Damián Churruca" 
-		"Casto Méndez Núñez" "Francisco Javier Castaños" 
+		### Additionals - Cultural Icons ###
+		"Vega" "Bécquer" "Machado" "Boroja" "Góngora" "El Greco" "Sorolla" "Granados" "Falla" "Albéniz" "Gaudí" "Sanz" "Montaner" "Gasset" "Pidal" "Molina" 
+		"Barca" "Manrique" "Campoamor" "Juan Ramón Jiménez" "Gracián" "Zurbarán" "Ribera" "Morales" "Juanes" "Cano" "Meléndez" 
 	}
 }
 
 ### Heavy Cruiser Names ###
-SPR_CA_HISTORICAL = { # Generals - Figures (Various).
+SPR_CA_HISTORICAL = { # Generals - Figures - Explorers.
 	name = NAME_THEME_HISTORICAL_CA
 
 	for_countries = { SPR }
@@ -82,12 +103,18 @@ SPR_CA_HISTORICAL = { # Generals - Figures (Various).
 	fallback_name = "Crucero Pesado %d"
 
 	unique = {
-		### Canarias Class ###
+		### Canarias Class (1936) ###
 		"Canarias" "Baleares"
 
+		### Additionals - Armoured Cruisers ###
+		"Infanta Maria Teresa" "Vizcayz" "Almirante Oquendo" "Emperador Carlos V" "Princesa de Asturias" "Cardenal Cisneros" "Cataluña"
+
 		### Additionals ###
-		"Don Juan" "Miguel de Cervantes" "Fernando Álvarez" "Alfonso de Albuquerque" "Álvaro de Luna" "Lázaro de Tormes" "Ramón Cabrera" "Luis Daoíz" 
-		"Agustina de Aragón" "Juan Martín Díez" "Francisco Jiménez" "Álvar Núñez Cabeza" "Miguel de Unamuno" "Diego Velázquez" "El Greco" "Bartolomé Esteban Murillo"
+		"Álvaro de Bazán" "Gonzalo Fernández" "Francisco de Quevedo" "Juan Prim" "Casto Méndez Núñez" "Francisco Javier Castaños" "Don Juan"
+		"Fernando Álvarez" "Alfonso de Albuquerque" "Álvaro de Luna" "Lázaro de Tormes" "Ramón Cabrera" "Luis Daoíz" "Agustina de Aragón" "Juan Martín Díez" 
+		"Francisco Jiménez" "Álvar Núñez Cabeza" "Diego Velázquez" "Bartolomé Murillo" "Hernán Cortés" "Francisco Pizarro" "Vasco Balboa" 
+		"Ponce de León" "Hernando de Soto" "Francisco Coronado" "Cabeza de Vaca" "Pánfilo de Narváez" "Hernando de Alarcón" "Pedro de Valdivia" "Gonzalo Jiménez" 
+		"Pedro Cabral" "Francisco de Orellana" "Diego de Almagro" "Avilés" "Lope de Aguirre" "Montalvo" "Urdaneta"
 	}
 }
 
@@ -104,24 +131,30 @@ SPR_CL_HISTORICAL = { # Historical - Cities.
 	fallback_name = "Crucero Ligero %d"
 
 	unique = {
-		### Republica Class ###
-		"Republica"
+		### Navara Class (1923) - Standalone ###
+		"Navara"
 
-		### Mendez Nunez Class ###
-		"Mendez Nunez"
+		### Blas de Lezo Class (1924) ###
+		"Blas de Lezo" "Mendez Nunez"
 
-		### Almirante Cervera Class ###
-		"Almirante Cervera" "Libertad" "Miguel de Carvantes" "Galicia"
+		### Almirante Cervera Class (1927) ###
+		"Almirante Cervera" "Galicia" "Miguel de Carvantes"
 
-		### Additionals (Top 35 Cities) ###
-		"Burgos" "Getafe" "Donostia" "Leganes" "Fuenlabrada" "Alcala de Henares" "Almeria" "Pamplona" "Santa Cruz" "Mostoles" "Frontera" "Sanadell" 
-		"Cartagena" "Oviedo" "Badalona" "Terrassa" "Granada" "Elche" "Coruna" "Vitoria-Gasteiz" "Gijon" "Vigo" "Valladolid" "Cordoba" "Alicante" 
-		"Madrid" "Barcelona" "Valencia" "Seville" "Zaragoza" "Malaga" "Murcia" "Palma" "Las Palmas" "Bilbao"
+		### Additionals - exNames - Unprotected-Protected Cruisers ###
+		"Republica" "Libertad" "Reina Victoria Eugenia" "Principe Alfonso" "Aragon" "Castilla" "Alfonso XII" "Reina Cristina" "Reina Mercedes" 
+		"Infanta Isabel" "Isabel II" "Don Antonio de Ulloa" "Conde del Venadito" "Isla de Luzón" "Isla de Cuba" "Marques de la Ensenada" "Reina Regente" 
+		"Rio de la Plata" "Extremadura"
+
+		### Additionals - Cities ###
+		"Madrid" "Barcelona" "Valencia" "Sevilla" "Zaragoza" "Málaga" "Murcia" "Palma" "Las Palmas" "Bilbao" "Alicante" "Córdoba" "Valladolid" "Vigo" 
+		"Gijón" "Eixample" "L'Hospitalet" "A Coruña" "Vitoria-Gasteiz" "Granada" "Elche" "Oviedo" "Santa Cruz" "Sant Martí" "Badalona" "Cartagena" 
+		"Terrassa" "Jerez de la Frontera" "Sabadell" "Móstoles" "Alcalá" "Pamplona" "Fuenlabrada" "Almería" "Leganés" "San Sebastián" "Santander" 
+		"Castelló" "Burgos" "Albacete" "Alcorcón" "Getafe" "Nou Barris" "Salamanca" "Logroño" "La Laguna" "Huelva" "Badajoz" "Tarragona" "Lleida"
 	}
 }
 
 ### Destroyer Names ###
-SPR_DD_HISTORICAL = { # Military Officers.
+SPR_DD_HISTORICAL = { # Military Officers - Geography - Adjectives.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
 	for_countries = { SPR }
@@ -132,10 +165,27 @@ SPR_DD_HISTORICAL = { # Military Officers.
 	prefix = "ARE "
 	fallback_name = "Destructor %d"					
 
-	unique = {											
-		"Alsedo" "Velasco" "Lazaga" "Sanchez Barcaiztegui" "Almirante Ferrandiz" "José Luis Diez" "Churruca" "Alcalá Galiano" "Almirante Valdés" 
-		"Almirante Antequera" "Almirante Miranda" "Escano" "Císcar" "Gravina" "Jorge Juan" "Ulloa" "Liniers" "Álava" "Huesca" "Teruel" "Ceuta" 
-		"Melilla" "Audaz" "Osado" "Meteoro" "Furor" "Rayo" "Ariete" "Temerario" "Intrépido" "Relámpago"
+	unique = {
+		### Bustamante Class (1914) ###
+		"Bustamante" "Villaamil" "Cadarso"
+ 
+		### Alsedo Class (1924) ###
+		"Alsedo" "Velasco" "Lazaga" 
+
+		### Churruca Class (1927) - 1st Group ###
+		"Churruca" "Alcalá Galiano" "Almirante Valdés" "Sánchez Barcáiztegui" "José Luis Díez" "Almirante Ferrándiz"
+
+		### Churruca Class (1930) - 2nd Group ###
+		"Almirante Antequera" "Almirante Miranda" "Císcar" "Escaño" "Gravina" "Jorge Juan" "Ulloa"
+
+		### Churruca Class (1950) - 3rd Group ###
+		"Alava" "Liniers"
+		
+		### Audaz Class (1951) ###
+		"Ariete" "Audaz" "Furor" "Intrépido" "Meteoro" "Osado" "Rayo" "Relámpago" "Temerario" 
+
+		### Additionals ###
+		"Huesca" "Teruel" "Ceuta" "Melilla" 
 	}
 }
 
@@ -166,24 +216,6 @@ SPR_SS_HISTORICAL = {
 
 ##### Themes #####
 
-### Theme: Communities ###
-SPR_THEME_COMMUNITIES = {
-	name = NAME_THEME_COMMUNITIES
-
-	for_countries = { SPR }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer } 
-
-	prefix = "ARE "
-	fallback_name = "Barco-A %d"
-
-	unique = {
-		"Andalusia" "Aragon" "Asturias" "Balearic Islands" "Basque" "Canary Islands" "Cantabria" "Castille" "Leon" 
-		"Castile-La Mancha" "Catalonia" "Extremadura" "Galicia" "La Rioja" "Navarre"
-	}
-}
-
 ### Theme: Provinces ###
 SPR_THEME_PROVINCES = {
 	name = NAME_THEME_PROVINCES
@@ -194,14 +226,31 @@ SPR_THEME_PROVINCES = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ARE "
+	fallback_name = "Barco-A %d"
+
+	unique = {
+		"La Coruña" "Álava" "Almería" "Cádiz" "Córdoba" "Granada" "Huelva" "Jaén" "Málaga" "Sevilla" "Huesca" "Teruel" "Zaragoza" "Asturias" "Islas Baleares" 
+		"Vizcaya" "Guipúzcoa" "Las Palmas" "Santa Cruz" "Cantabria" "Ávila" "Burgos" "León" "Palencia" "Salamanca" "Segovia" "Soria" "Valladolid" "Zamora" 
+		"Albacete" "Ciudad Real" "Cuenca" "Guadalajara" "Toledo" "Barcelona" "Gerona" "Lérida" "Tarragona" "Badajoz" "Cáceres" "Lugo" "Orense" "Pontevedra" 
+		"La Rioja" "Madrid" "Murcia" "Navarra" "Alicante" "Castellón" "València"
+	}
+}
+
+### Theme: Communities ###
+SPR_THEME_COMMUNITIES = {
+	name = NAME_THEME_COMMUNITIES
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer } 
+
+	prefix = "ARE "
 	fallback_name = "Barco-B %d"
 
 	unique = {
-		"La Coruña" "Álava" "Almería" "Cádiz" "Córdoba" "Granada" "Huelva" "Jaén" "Málaga" "Sevilla" "Huesca" "Teruel"
-		"Zaragoza" "Asturias" "Islas Baleares" "Vizcaya" "Guipúzcoa" "Las Palmas" "Santa Cruz" "Cantabria" "Ávila"
-		"Burgos" "León" "Palencia" "Salamanca" "Segovia" "Soria" "Valladolid" "Zamora" "Albacete" "Ciudad Real"
-		"Cuenca" "Guadalajara" "Toledo" "Barcelona" "Gerona" "Lérida" "Tarragona" "Badajoz" "Cáceres" "Lugo" "Orense"
-		"Pontevedra" "La Rioja" "Madrid" "Murcia" "Navarra" "Alicante" "Castellón" "València"
+		"Andalusia" "Aragon" "Asturias" "Balearic Islands" "Basque" "Canary Islands" "Cantabria" "Castille" "Leon" "Castile-La Mancha" "Catalonia" "Extremadura" 
+		"Galicia" "La Rioja" "Navarre"
 	}
 }
 
@@ -218,12 +267,13 @@ SPR_THEME_CITIES = {
 	fallback_name = "Barco-C %d"
 
 	unique = {
-		"La Coruña" "Bilbao" "Oviedo" "Málaga" "Barcelona" "Valencia" "Santander" "Cádiz" "Alicante" "Las Palmas" "Ferrol" 
-		"Melilla" "Santa Cruz" "Granada" "Santiago" "Gerona" "Ceuta" "Palma de Mayorca" "Vigo" "San Sebastián" "Almería" 
-		"Lugo" "Castellón" "Huelva" "Sevilla" "Pontevedra" "Vitoria" "Murcia" "Tarragona" "Gijón" "Logroño" "Pamplona" 
-		"León" "Zamora" "Salamanca" "Palencia" "Valladolid" "Ávila" "Segovia" "Burgos" "Soria" "Madrid" "Guadalajara" 
-		"Cuenca" "Toledo" "Ciudad Real" "Albacete" "Badajoz" "Córdoba" "Jaén" "Orense" "Cáceres" "Huesca" "Zaragoza" 
-		"Teruel" "Lérida" "Aranjuez" "Villaverde" "Ponferrada" "Cartagena" "Puertollano"
+		"Marblla" "León" "Cadiz" "Dos Hermanas" "Mataró" "Santa Coloma" "Torrejón" "Jaén" "Algeciras" "Parla" "Ciutat Vella" "Delicias" "Alcobendas" "Ourense" "Reus" 
+		"Torrevieja" "Telde" "Barakaldo" "Lugo" "San Fernando" "Girona" "Compostela" "Cáceres" "Lorca" "Coslada" "Talavera" "Santa María" "Llobregat" "Las Rozas" 
+		"Orihuela" "Avilés" "El Ejido" "Guadalajara" "Roquetas" "Palencia" "Algorta" "Sant Boi" "Toledo" "Ponevedra" "Getxo" "Gandia" "Santa Cugat" "Ceuta" "Arona" 
+		"Torrent" "Frontera" "Manresa" "San Sebastian" "Ferrol" "Vélez" "Ciudad Real" "Mijas" "Melilla" "Rubí" "Fuengirola" "Benidorm" "Guadaira" "Ponferrada" 
+		"Vaciamadrid" "Majadahonda" "Zamora" "Sagunto" "Vilanova" "Sanlúcar" "Estepona" "Torremolinos" "La Linea" "Segura" "Paterna" "Santa Lucía" "Viladecans" 
+		"El Prat" "Valdemono" "Murviedro" "Castelldefels" "Alcoy" "Linares" "Irun" "Granollers" "Motril" "Santutxu" "Arrecife" "Benalmádena" "Vallès" "Caballeros" 
+		"Segovia" "Mérida" "Torrelavega" "Cuenca" "Elda" "Collado" "Aranjuez" "San Vincent" "Vallès" "San Bartolomé" "Huesca" "Puertollano" "Calvià" "Arganda" "Vila-real"
 	}
 }
 
@@ -240,11 +290,10 @@ SPR_THEME_MOUNTAINS = {
 	fallback_name = "Barco-D %d"
 
 	unique = {
-		"Almanzor" "Torre Santa" "Costa Cabirolera" "Chullo" "Peña Vieja" "Torre Blanca" "Aspe" "Vulturó" "Torre Cerredo" 
-		"Alto de Guajara" "Peña Collarada" "Puigmal" "Cotiella" "Robiñera" "Caballo" "Comaloforno" "Aragüells" "Argualas" 
-		"Astazu" "Picón de Jeres" "Punta Gabarró" "Pic Verdaguer" "La Munia" "Viejo" "Pica d'Estats" "Balaitus" "Puntal de Vacares" 
-		"Russell" "Perdiguero" "Vignemale" "Maladeta" "Campanario" "Salón" "Cilindro de Marboré" "Espadas" "Maldito" "Perdido" 
-		"Alcazaba" "Llardana" "Veleta" "Aneto" "Mulhacén" "Teide"
+		"Almanzor" "Torre Santa" "Costa Cabirolera" "Chullo" "Peña Vieja" "Torre Blanca" "Aspe" "Vulturó" "Torre Cerredo" "Alto de Guajara" "Peña Collarada" "Puigmal"
+		"Cotiella" "Robiñera" "Caballo" "Comaloforno" "Aragüells" "Argualas" "Astazu" "Picón de Jeres" "Punta Gabarró" "Pic Verdaguer" "La Munia" "Viejo" "Pica d'Estats" 
+		"Balaitus" "Puntal de Vacares" "Russell" "Perdiguero" "Vignemale" "Maladeta" "Campanario" "Salón" "Cilindro de Marboré" "Espadas" "Maldito" "Perdido" "Alcazaba" 
+		"Llardana" "Veleta" "Aneto" "Mulhacén" "Teide"
 	}
 }
 
@@ -261,11 +310,35 @@ SPR_THEME_RIVERS = {
 	fallback_name = "Barco-E %d"
 
 	unique = {
-		"Tajo" "Ebro" "Guadalquivir" "Guadiana" "Duero" "Miño" "Jarama" "Segura" "Nalón" "Júcar" "Nervión" "Llobregat" "Ulla" 
-		"Ter" "Esla" "Ibaizábal" "Guadalete" "Bidasoa" "Jalón" "Cigüela" "Pisuerga" "Aragón" "Genil" "Sil" "Tormes" "Guadalimar" 
-		"Tiétar" "Mijares" "Navia" "Odiel" "Vinalopó" "Guadalhorce" "Turia" "Tambre" "Sella" "Duratón" "Aguasvivas" "Matarraña" 
-		"Deva" "Fluviá" "Guadalfeo" "Serpis" "Adra" "Vélez" "Guadalupe" "Almanzora" "Piedras" "Guadiela" "Gallo" "Bembézar" 
+		"Tajo" "Ebro" "Guadalquivir" "Guadiana" "Duero" "Miño" "Jarama" "Segura" "Nalón" "Júcar" "Nervión" "Llobregat" "Ulla" "Ter" "Esla" "Ibaizábal" "Guadalete"
+		"Bidasoa" "Jalón" "Cigüela" "Pisuerga" "Aragón" "Genil" "Sil" "Tormes" "Guadalimar" "Tiétar" "Mijares" "Navia" "Odiel" "Vinalopó" "Guadalhorce" "Turia" "Tambre" 
+		"Sella" "Duratón" "Aguasvivas" "Matarraña" "Deva" "Fluviá" "Guadalfeo" "Serpis" "Adra" "Vélez" "Guadalupe" "Almanzora" "Piedras" "Guadiela" "Gallo" "Bembézar" 
 		"Guadalentín" "Segre" "Viar" "Tajuña" "Gállego" "Alberche"
+	}
+}
+
+### Theme: Colonies ###
+SPR_THEME_COLONIES = {
+	name = NAME_THEME_COLONIES
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARE "
+	fallback_name = "Barco-F %d"
+
+	unique = {
+		### Africa ###
+		"Guinea" "Santa Isabel" "Bata" "Sahara" "El Aaiún" "Marruecos" "Tétouan" "Ifni" "Ceuta" "Melilla"
+
+		### Historical Colonial Possesions ###
+		"Mexico" "Peru" "Colombia" "Argentina" "Chile" "Venezuela" "Ecuador" "Bolivia" "Paraguay" "Uruguay" "Guatemala" "Honduras" "El Salvador" "Nicaragua" 
+		"Costa Rica" "Panama" "Cuba" "Dominican" "Puerto Rico" "Philippines" "Mariana" "Caroline" "Marshall" "Guadalajara" "Veracruz" "Lima" "Cusco" "Arequipa" 
+		"Bogotá" "Cartagena" "Medellín" "Buneos Aires" "Córdoba" "Mendoza" "Santiago" "Valparaíso" "Concepción" "Caracas" "Maracaibo" "Quito" "Guayaquil" "Cuenca" 
+		"Sucre" "La Paz" "Santa Cruz" "Asunción" "Montevideo" "Antigua" "Quetzaltenango" "Tegucigalpa" "San Pedro" "La Ceiba" "Santa Ana" "Santa Miguel" "Managua" 
+		"León" "Cartago" "Limón" "Colón" "Havana" "Camagüey" "La Vega" "San Juan" "Ponce" "Manila" "Saipan" "Palikir" "Majuro"
 	}
 }
 
@@ -279,17 +352,54 @@ SPR_THEME_WHEATHER_ = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ARE "
-	fallback_name = "Barco-F %d"
+	fallback_name = "Barco-G %d"
 
 	unique = {
-		"Sol" "Lluvia" "Nieve" "Viento" "Tormenta" "Niebla" "Granizo" "Trueno" "Relámpago" "Arcoíris" "Helada" "Tornado" "Hurricane" 
-		"Neblina" "Escarcha" "Ciclón"
+		"Sol" "Lluvia" "Nieve" "Viento" "Tormenta" "Niebla" "Granizo" "Trueno" "Relámpago" "Arcoíris" "Helada" "Tornado" "Hurricane" "Neblina" "Escarcha" "Ciclón"
+		"Aguacero" "Vendaval" "Tempestad" "Bruma" "Chaparrón" "Ráfaga" "Rocío" "Calor" "Frío" "Calina" "Nublina" "Ventisca" "Despejado" "Bochorno" "Chubasco" "Barro"
+		"Escarcha" "Granizada" "Liovizna" "Cencellada" "Calabobos" "Templado" "Nevado" "Soleado" "Nuboso" "Inundación" "Sequía" "Alud" "Tsunami" "Crecida" "Chipsa"
 	}
 }
 
-### Theme: Monarchy ###
-SPR_THEME_MONARCHS = {
-	name = NAME_THEME_MONARCHS
+### Theme: Inspirational ###
+SPR_THEME_INSPIRATIONAL = {
+	name = NAME_THEME_INSPIRATIONAL
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARE "
+	fallback_name = "Barco-H %d"
+
+	unique = {
+		"Invencible" "Libertad" "Gloria" "Victoria" "Conquistador" "Almirante" "Fortaleza" "Vencedor" "Audaz" "Soberano" "Resistencia" "Justicia" "Nobleza" "Triunfo" 
+		"Infante" "Defensor" "Patrimonio" "Estrella" "Lealtad" "Valor" "Centinela" "Coraje" "Emperador" "Imperio" "Guerrero" "Noble" "Furia" "Protector" "Majestad" 
+		"Leyenda" "Bravura" "Invicto" "Honor" "Reina"
+	}
+}
+
+### Theme: Animals ###
+SPR_THEME_ANIMALS = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARE "
+	fallback_name = "Barco-X %d"
+
+	unique = {
+		###
+	}
+}
+
+### Theme: Royalty ###
+SPR_THEME_Royalty = {
+	name = NAME_THEME_ROYALTY
 
 	for_countries = { SPR }
 
@@ -299,7 +409,7 @@ SPR_THEME_MONARCHS = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "ARE "
-	fallback_name = "Barco-G %d"
+	fallback_name = "Barco-I %d"
 
 	unique = {
 		### House of Trastámara ###
@@ -320,8 +430,30 @@ SPR_THEME_MONARCHS = {
 		### House of Savoy ###
 		"Amadeo I"
 
-		### House of Bourbon ###
+		### House of Bourbon (Restoration) ###
 		"Alfonso XII" "Alfonso XIII"
+
+		### Additionals ###
+		"Juana" "Don Carlos" "Juan" "Maria Theresa" "Eugenia" "Francisco" "Eulalia"
+	}
+}
+
+### Theme: Famous Battles ###
+SPR_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "ARE "
+	fallback_name = "Barco-J %d"
+
+	unique = {
+		"Covadonga" "Simancas" "Tolosa" "Aljubarrota" "Granada" "Garigliano" "Ceriñola" "Pavia" "Mühlberg" "St. Quentin" "Lepanto" "Gembloux" "Antwerp" "St. Vincent" 
+		"Bailén" "San Marcial" "Tetuan" "Annual" "Guadalete" "Clavijo" "Lutos" "Alarcos" "Frontera" "Toro" "Cerisoles" "Gravelines" "Jemmingen" "Manila" "San Juan" 
+		"Empel" "Flores" "San Salvador" "Santa Cruz" "Cartagena" "Villaviciosa" "Pensacola" "San Lorenzo" "Chiclana"
 	}
 }
 
@@ -335,11 +467,12 @@ SPR_THEME_MYTHOLOGY = {
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser ship_hull_light carrier battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ARE "
-	fallback_name = "Barco-H %d"
+	fallback_name = "Barco-L %d"
 
 	unique = {
-		"Cerunnos" "Epona" "Teutates" "Brigantia" "Lugus" "Abandinus" "Endovelicus" "Nabia" "Reue" "Tongoenabiagus" "Eiocha" "Arentio" "Candamius" 
-		"Reva" "Cosus" "Brigido" "Bormana" "Cuda" "Orcabis" "Taranis" "Devona" "Banos" "Nantosuelta" "Crouga" "Camulos" "Baletucardos" "Viridios" 
-		"Toutatis" "Vosego" "Andarta"
+		"Cerunnos" "Epona" "Teutates" "Brigantia" "Lugus" "Abandinus" "Endovelicus" "Nabia" "Reue" "Tongoenabiagus" "Eiocha" "Arentio" "Candamius" "Reva" "Cosus" 
+		"Brigido" "Bormana" "Cuda" "Orcabis" "Taranis" "Devona" "Banos" "Nantosuelta" "Crouga" "Camulos" "Baletucardos" "Viridios" "Toutatis" "Vosego" "Andarta" 
+		"Ategina" "Bandua" "Cariocecus" "Cernunnos" "Coventina" "Deva" "Ergane" "Icovellauna" "Ler" "Maponos" "Nantosuelta" "Neton" "Nodens" "Ogmius" "Rudiobus" 
+		"Segomo" "Sucellus" "Tanet" "Trebaruna" "Vintius"
 	}
 }

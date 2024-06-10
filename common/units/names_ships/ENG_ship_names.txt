@@ -15,7 +15,7 @@ ENG_CV_HISTORICAL = { # Colonies - Adjectives.
 	ship_types = { ship_hull_carrier carrier }
 	
 	prefix = "HMS "							
-	fallback_name = "Carrier %s"		
+	fallback_name = "Royal Carrier %s"		
 
 	unique = {
 		### Ark Royal Class (1938) - Standalone [CURRENT] ###
@@ -38,7 +38,7 @@ ENG_CV_HISTORICAL = { # Colonies - Adjectives.
 		
 		### Additionals ###
 		"Invisible" "Incredible" "Inspirational" "Infamous" "Intensifying" "Immaculate" "Imperturbable" "Incontestable" "Indisputable" "Indispensable" 
-		"Steadfast" "Defiant" "Endurance" "Ferocious" "Stalwart" "Sovereign" "Legendary" "Mighty" "Eminent" "Unyielding" "Grand" "Regal"
+		"Steadfast" "Defiant" "Enduring" "Ferocious" "Stalwart" "Sovereign" "Legendary" "Mighty" "Eminent" "Unyielding" "Grand" "Regal"
 	}
 }
 
@@ -54,7 +54,7 @@ ENG_CVL_HISTORICAL = { # Adjectives - (Greek) Mythology.
 	ship_types = { ship_hull_carrier carrier }
 	
 	prefix = "HMS "							
-	fallback_name = "Light Carrier %s"	
+	fallback_name = "Royal Light Carrier %s"	
 
 	unique = {
 		### Unicorn Class (1943) - Standalone ###
@@ -93,7 +93,7 @@ ENG_BB_HISTORICAL = { # Adjectives - Figures.
 	ship_types = { ship_hull_heavy battleship }
 	
 	prefix = "HMS "							
-	fallback_name = "Battleship %s"		
+	fallback_name = "Royal Battleship %s"		
 
 	unique = {
 		### King George V Class (1940) ###
@@ -139,7 +139,9 @@ ENG_BB_HISTORICAL = { # Adjectives - Figures.
         "Nelson" "Rodney"
 
         ### Additionals ###
-        "Jellicoe" "Beatty" "St Andrew" "St George" "St Patrick" "St David" "Devastation" 
+        "Jellicoe" "Beatty" "Fisher" "Bacon" "Scott" "May" "St Andrew" "St George" "St Patrick" "St David" "Devastation" "Unconquerable" "Unwavering" 
+        "Imposing" "Impregnable" "Invulnerable" "Heroic" "Staunch" "Peerless" "Solid" "Timeless" "Unshakable" "Unfailing" "Ruthless" "Fierce" 
+        "Merciless" "Unrelenting"
 	}
 }
 
@@ -155,7 +157,7 @@ ENG_BC_HISTORICAL = { # Adjectives - World of Warships.
 	ship_types = { ship_hull_heavy battle_cruiser }
 	
 	prefix = "HMS "							
-	fallback_name = "Battlecruiser %s"		
+	fallback_name = "Royal Battlecruiser %s"		
 
 	unique = {
 		### Invincible Class (1908) (2/3) ###
@@ -200,7 +202,7 @@ ENG_CA_HISTORICAL = { # Counties.
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 	
 	prefix = "HMS "							
-	fallback_name = "Heavy Cruiser %s"
+	fallback_name = "Royal Heavy Cruiser %s"
 
 	unique = {
 		### Hawkings Class (1918) ###
@@ -242,7 +244,7 @@ ENG_CL_HISTORICAL = { # Cities.
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
 	prefix = "HMS "							
-	fallback_name = "Light Cruiser %s"
+	fallback_name = "Royal Light Cruiser %s"
 
 	unique = {
 		### Leander Class - Leander Group (1933) ###
@@ -292,7 +294,7 @@ ENG_CLAA_HISTORICAL = { # Adjectives.
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
 	prefix = "HMS "							
-	fallback_name = "Light Cruiser (A-A) %s"
+	fallback_name = "Royal Anti-Aircraft Light Cruiser %s"
 
 	unique = {
 		### Dido Class - Dido Group (1940) ###
@@ -324,7 +326,7 @@ ENG_CLSC_HISTORICAL = { # Adjectives.
 	ship_types = { ship_hull_cruiser light_cruiser }
 
 	prefix = "HMS "
-	fallback_name = "Light Cruiser Scout %s"
+	fallback_name = "Roytal Scouter Light Cruiser %s"
 
 	unique = {
 		### Sentinel Class (1904) ###
@@ -348,7 +350,7 @@ ENG_CLSC_HISTORICAL = { # Adjectives.
 }
 
 ### Destroyer Names ###
-ENG_DD_HISTORICAL = {
+ENG_DD_HISTORICAL = { # Adjectives.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
 	for_countries = { ENG }
@@ -359,7 +361,7 @@ ENG_DD_HISTORICAL = {
 	ship_types = { ship_hull_light destroyer }			
 
 	prefix = "HMS "							
-	fallback_name = "Destroyer %s"					
+	fallback_name = "Royal Destroyer %s"					
 
 	unique = {											
 		### G-Class ###
@@ -418,10 +420,10 @@ ENG_DE_HISTORICAL = { # Historical Themes.
 	ship_types = { ship_hull_light destroyer }			
 
 	prefix = "HMS "							
-	fallback_name = "Destroyer Escort %s"					
+	fallback_name = "Royal Destroyer Escort %s"					
 
 	unique = {											
-		### Hunt Class ###
+		### Hunt Class (1939) ###
 		"Atherstone" "Berkeley" "Blencathra" "Brocklesby" "Cattistock" "Cleveland" "Eglinton" "Exmoor" "Fernie" "Garth" "Hambledon" "Holderness" 
 		"Liddesdale" "Cotswold" "Cottesmore" "Mendip" "Meynell" "Pytchley" "Quantock" "Quorn" "Southdown" "Tynedale" "Whaddon" "Avon Vale" "Blankney" 
 		"Blencathra" "Brocklesby" "Chiddingfold" "Cowdray" "Croome" "Dulverton" "Eridge" "Farndale" "Heythrop" "Lamerton" "Puckeridge" "Wheatland" 
@@ -457,11 +459,15 @@ ENG_MINELAYERS_HISTORICAL = { # Figures - Mythology.
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 	
 	prefix = "HMS "							
-	fallback_name = "Minelayer %s"
+	fallback_name = "Royal Minelayer %s"
 
 	unique = {
 		### Older/Current Models ###
 		"Abdiel" "Agamemnon" "Angora" "Menestheus" "Plover" "Napier" "Princess Irene" "Princess Margaret" "Ariande" "Latona" "Manxman" "Welshman"
+
+		### Additionals ###
+		"Odysseus" "Hector" "Diomedes" "Patroclus" "Priam" "Jason" "Cadmus" "Meleager" "Hippolyta" "Briseis" "Deiphobus" "Glaucus" "Helenus" 
+		"Laocoon" "Pandarus" "Sarpedon" "Daedalus" "Iphigenia" "Phaedra" "Orestes" "Antigone"
 	}
 }
 
@@ -507,7 +513,7 @@ ENG_SS_HISTORICAL = { # Adjectives - Marine Themes.
 	ship_types = { ship_hull_submarine submarine }
 	
 	prefix = "HMS "							
-	fallback_name = "Submarine %s"
+	fallback_name = "Royal Submarine %s"
 	
 	unique = {
 		### S-Class ### 
@@ -549,18 +555,17 @@ ENG_THEME_COUNTIES = {
 	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "HMS "
-	fallback_name = "Ship-A %s"
+	fallback_name = "Royal Ship-A %s"
 
 	unique = {
-		"Yorkshire" "Lincolnshire" "Devon" "Norfolk" "Northumberland" "Lancashire" "Somerset" "Hampshire" "Kent" "Essex" "Cumberland" "Suffolk" 
-		"Sussex" "Wiltshire" "Cornwall" "Shropshire" "Gloucestershire" "Staffordshire" "Derbyshire" "Cheshire" "Durham" "Northamptonshire" "Dorset" 
-		"Warwickshire" "Cambridgeshire" "Nottinghamshire" "Herefordshire" "Leicestershire" "Westmorland" "Surrey" "Oxfordshire" "Worcestershire" 
-		"Buckinghamshire" "Berkshire" "Hertfordshire" "Bedfordshire" "Huntingdonshire" "Middlesex" "Rutland" "Caithness" "Sutherland" "Nairnshire" 
-		"Moray" "Banffshire" "Aberdeenshire" "Kincardineshire" "Angus" "Perthshire" "Argyll" "Bute" "Ayrshire" "Renfrewshire" "Dunbartonshire" 
-		"Stirlingshire" "Clackmannanshire" "Kinross" "Ross-shire" "Inverness-shire" "Fife" "East Lothian" "Midlothian" "West Lothian" "Lanarkshire" 
-		"Peeblesshire" "Selkirkshire" "Berwickshire" "Roxburghshire" "Dumfriesshire" "Kirkcudbrightshire" "Wigtownshire" "Shetland" "Orkney" "Antrim" 
-		"Down" "Londonderry" "Tyrone" "Armagh" "Fermanagh" "Monmouthshire" "Glamorganshire" "Carmarthenshire" "Pembrokeshire" "Cardiganshire" 
-		"Brecknockshire" "Radnorshire" "Montgomeryshire" "Denbighshire" "Flintshire" "Merionethshire" "Caernarfonshire" "Anglesey" 
+		"Yorkshire" "Lincolnshire" "Devon" "Norfolk" "Northumberland" "Lancashire" "Somerset" "Hampshire" "Kent" "Essex" "Cumberland" "Suffolk" "Sussex" "Wiltshire" "Cornwall" 
+		"Shropshire" "Gloucestershire" "Staffordshire" "Derbyshire" "Cheshire" "Durham" "Northamptonshire" "Dorset" "Warwickshire" "Cambridgeshire" "Nottinghamshire" "Herefordshire" 
+		"Leicestershire" "Westmorland" "Surrey" "Oxfordshire" "Worcestershire" "Buckinghamshire" "Berkshire" "Hertfordshire" "Bedfordshire" "Huntingdonshire" "Middlesex" "Rutland" 
+		"Caithness" "Sutherland" "Nairnshire" "Moray" "Banffshire" "Aberdeenshire" "Kincardineshire" "Angus" "Perthshire" "Argyll" "Bute" "Ayrshire" "Renfrewshire" "Dunbartonshire" 
+		"Stirlingshire" "Clackmannanshire" "Kinross" "Ross-shire" "Inverness-shire" "Fife" "East Lothian" "Midlothian" "West Lothian" "Lanarkshire" "Peeblesshire" "Selkirkshire" 
+		"Berwickshire" "Roxburghshire" "Dumfriesshire" "Kirkcudbrightshire" "Wigtownshire" "Shetland" "Orkney" "Antrim" "Down" "Londonderry" "Tyrone" "Armagh" "Fermanagh" "Anglesey"
+		"Monmouthshire" "Glamorganshire" "Carmarthenshire" "Pembrokeshire" "Cardiganshire" "Brecknockshire" "Radnorshire" "Montgomeryshire" "Denbighshire" "Flintshire" "Merionethshire" 
+		"Caernarfonshire" 
 	}
 }
 
@@ -576,7 +581,7 @@ ENG_THEME_CITIES = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HMS "
-	fallback_name = "Ship-B %s"
+	fallback_name = "Royal Ship-B %s"
 
 	unique = {
 		"London" "Birmingham" "Leeds" "Glasgow" "Sheffield" "Bradford" "Liverpool" "Edinburgh" "Manchester" "Bristol" "Kirklees" "Fife" "Wirral" "Lanarkshire" 
@@ -606,7 +611,7 @@ ENG_THEME_COLONIES = { # Overtime.
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "HMS "
-	fallback_name = "Ship-C %s"
+	fallback_name = "Royal Ship-C %s"
 
 	unique = {
 		### Countries ###
@@ -638,7 +643,7 @@ ENG_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HMS "
-	fallback_name = "Ship-D %s"
+	fallback_name = "Royal Ship-D %s"
 
 	unique = {
 		### P600 Mountains of British Isles ###
@@ -664,7 +669,7 @@ ENG_THEME_RIVERS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HMS "
-	fallback_name = "Ship-E %s"
+	fallback_name = "Royal Ship-E %s"
 
 	unique = {
 		### England ###
@@ -698,7 +703,7 @@ ENG_THEME_KINGS = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "HMS "
-	fallback_name = "Ship-F %s"
+	fallback_name = "Royal Ship-F %s"
 
 	unique = {
 		"King Edward VIII" "King George V" "King Edward VII" "Queen Victoria" "King William IV" "King George IV" "King George III" "King George II" "King George I"
@@ -720,7 +725,7 @@ ENG_THEME_MYTHOLOGY = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "HMS "
-	fallback_name = "Ship-G %s"
+	fallback_name = "Royal Ship-G %s"
 
 	unique = {
 		"King Arthur" "Guinevere" "Uther Pendragon" "Mordred" "Agravain" "Bedivere" "Bors" "Caradoc" "Gaheris" "Galahad" "Galehaut" "Gareth" "Gawain" "Geraint" 
@@ -742,7 +747,7 @@ ENG_THEME_BATTLES = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "HMS "
-	fallback_name = "Ship-H %s"
+	fallback_name = "Royal Ship-H %s"
 
 	unique = {
 		"Waterloo" "Agincourt" "Cressy" "Poitiers" "Vitoria" "Salamanca" "Ramillies" "Blenheim" "Elixheim" "Oudenarde" "Lille" "Malplaquet" "Schellenberg" "Verneuil" 
@@ -754,7 +759,7 @@ ENG_THEME_BATTLES = {
 ################################################################################### British Ship Names - Communism ###################################################################################
 
 ### Aircraft Carrier Names ###
-ENG_CV_COMMUNISM = {
+ENG_CV_COMMUNISM = { # Adjectives.
 	name = NAME_THEME_COMMUNIST_CV
 
 	for_countries = { ENG }
@@ -765,7 +770,7 @@ ENG_CV_COMMUNISM = {
 	ship_types = { ship_hull_carrier carrier }
 	
 	prefix = "RNS "							
-	fallback_name = "Carrier %s"		
+	fallback_name = "Republican Carrier %s"		
 
 	unique = {
 		### Ark Royal Class (1938) - Standalone [CURRENT] ###
@@ -793,7 +798,7 @@ ENG_CV_COMMUNISM = {
 }
 
 ### Light Aircraft Carrier Names ###
-ENG_CVL_COMMUNISM = {
+ENG_CVL_COMMUNISM = { # Adjectives - (Greek) Mythology.
 	name = NAME_THEME_COMMUNIST_CVL
 
 	for_countries = { ENG }
@@ -804,7 +809,7 @@ ENG_CVL_COMMUNISM = {
 	ship_types = { ship_hull_carrier carrier }
 	
 	prefix = "RNS "							
-	fallback_name = "Light Carrier %s"	
+	fallback_name = "Republican Light Carrier %s"	
 
 	unique = {
 		### Unicorn Class (1943) - Standalone ###
@@ -832,7 +837,7 @@ ENG_CVL_COMMUNISM = {
 }
 
 ### Battleship Names ###
-ENG_BB_COMMUNISM = {
+ENG_BB_COMMUNISM = { # Adjectives - Figures.
 	name = NAME_THEME_COMMUNIST_BB
 
 	for_countries = { ENG }
@@ -843,7 +848,7 @@ ENG_BB_COMMUNISM = {
 	ship_types = { ship_hull_heavy battleship }
 	
 	prefix = "RNS "							
-	fallback_name = "Battleship %s"		
+	fallback_name = "Republican Battleship %s"		
 
 	unique = {
         "Anson" "Howe" "Jellicoe" "Beatty" "Lion" "Temeraire" "Liberator" "Thunderer" "Vanguard" "Agincourt" "Resistance" "Bellerophon" 
@@ -853,7 +858,7 @@ ENG_BB_COMMUNISM = {
 }
 
 ### Battlecruiser Names ###
-ENG_BC_COMMUNISM = {
+ENG_BC_COMMUNISM = { # Adjectives - Figures.
 	name = NAME_THEME_COMMUNIST_BC
 
 	for_countries = { ENG }
@@ -864,7 +869,7 @@ ENG_BC_COMMUNISM = {
 	ship_types = { ship_hull_heavy battle_cruiser }
 	
 	prefix = "RNS "							
-	fallback_name = "Battlecruiser %s"		
+	fallback_name = "Republican Battlecruiser %s"		
 
 	unique = {
         ### Invincible Class (1908) (2/3) ###
@@ -895,7 +900,7 @@ ENG_BC_COMMUNISM = {
 }
 
 ### Heavy Cruiser Names ###
-ENG_CA_COMMUNISM = {
+ENG_CA_COMMUNISM = { # Counties.
 	name = NAME_THEME_COMMUNIST_CA
 
 	for_countries = { ENG }
@@ -906,7 +911,7 @@ ENG_CA_COMMUNISM = {
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 	
 	prefix = "RNS "							
-	fallback_name = "Heavy Cruiser %s"
+	fallback_name = "Republican Heavy Cruiser %s"
 
 	unique = {
 		### Hawkings Class (1918) ###
@@ -937,7 +942,7 @@ ENG_CA_COMMUNISM = {
 }
 
 ### Light Cruiser Names ###
-ENG_CL_COMMUNISM = {
+ENG_CL_COMMUNISM = { # Cities.
 	name = NAME_THEME_COMMUNIST_CL
 
 	for_countries = { ENG }
@@ -948,7 +953,7 @@ ENG_CL_COMMUNISM = {
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
 	prefix = "RNS "							
-	fallback_name = "Light Cruiser %s"
+	fallback_name = "Republican Light Cruiser %s"
 
 	unique = {
 		### Leander Class - Leander Group (1933) ###
@@ -987,7 +992,7 @@ ENG_CL_COMMUNISM = {
 }
 
 ### Anti-Aircraft Light Cruiser Names ###
-ENG_CLAA_COMMUNISM = {
+ENG_CLAA_COMMUNISM = { # Cities.
 	name = NAME_THEME_COMMUNIST_CLAA
 
 	for_countries = { ENG }
@@ -998,7 +1003,7 @@ ENG_CLAA_COMMUNISM = {
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
 	prefix = "RNS "							
-	fallback_name = "Light Cruiser (AA) %s"
+	fallback_name = "Republican Anti-Aircraft Light Cruiser %s"
 
 	unique = {
 		### Dido Class - Dido Group (1940) ###
@@ -1019,7 +1024,7 @@ ENG_CLAA_COMMUNISM = {
 }
 
 ### Destroyer Names ###
-ENG_DD_COMMUNIST = {
+ENG_DD_COMMUNIST = { # Adjectives.
 	name = NAME_THEME_COMMUNIST_DD
 
 	for_countries = { ENG }
@@ -1030,7 +1035,7 @@ ENG_DD_COMMUNIST = {
 	ship_types = { ship_hull_light destroyer }			
 
 	prefix = "RNS "							
-	fallback_name = "Destroyer %s"					
+	fallback_name = "Republican Destroyer %s"					
 
 	unique = {											
 		### G-Class ###
@@ -1078,7 +1083,7 @@ ENG_DD_COMMUNIST = {
 }
 
 ### Escort Destroyer Names ###
-ENG_DE_COMMUNISM = {
+ENG_DE_COMMUNISM = { # Historical Themes.
 	name = NAME_THEME_COMMUNIST_DE
 
 	for_countries = { ENG }
@@ -1089,7 +1094,7 @@ ENG_DE_COMMUNISM = {
 	ship_types = { ship_hull_light destroyer }			
 
 	prefix = "RNS "							
-	fallback_name = "Destroyer Escort %s"					
+	fallback_name = "Republican Destroyer Escort %s"					
 
 	unique = {											
 		### Hunt Class ###
@@ -1119,7 +1124,7 @@ ENG_DE_COMMUNISM = {
 }
 
 ### Minelayer Names ###
-ENG_MINELAYERS_COMMUNIST = {
+ENG_MINELAYERS_COMMUNIST = { # Figures - Mythology.
 	name = NAME_THEME_COMMUNIST_MINELAYERS
 
 	for_countries = { ENG }
@@ -1130,7 +1135,7 @@ ENG_MINELAYERS_COMMUNIST = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 	
 	prefix = "RNS "							
-	fallback_name = "Minelayer %s"
+	fallback_name = "Republican Minelayer %s"
 
 	unique = {
 		### Older/Current Models ###
@@ -1139,7 +1144,7 @@ ENG_MINELAYERS_COMMUNIST = {
 }
 
 ### Minesweeper Names ###
-ENG_MINELAYERS_COMMUNIST = {
+ENG_MINELAYERS_COMMUNIST = { # Flowers.
 	name = NAME_THEME_COMMUNIST_MINESWEEPERS
 
 	for_countries = { ENG }
@@ -1150,7 +1155,7 @@ ENG_MINELAYERS_COMMUNIST = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 	
 	prefix = "RNS "							
-	fallback_name = "Minesweeper %s"
+	fallback_name = "Republican Minesweeper %s"
 
 	unique = {
 		### Acacia Class (1915) ###
@@ -1169,7 +1174,7 @@ ENG_MINELAYERS_COMMUNIST = {
 }
 
 ### Submarine Names ###
-ENG_SS_COMMUNISM = {
+ENG_SS_COMMUNISM = { # Adjectives - Marine Themes.
 	name = NAME_THEME_COMMUNIST_SS
 
 	for_countries = { ENG }
@@ -1180,7 +1185,7 @@ ENG_SS_COMMUNISM = {
 	ship_types = { ship_hull_submarine submarine }
 	
 	prefix = "RNS "							
-	fallback_name = "Submarine %s"
+	fallback_name = "RRepublican Submarine %s"
 	
 	unique = {
 		### S-Class ### 
@@ -1222,7 +1227,7 @@ ENG_THEME_COUNTIES_COMMUNIST = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "RNS "
-	fallback_name = "ShipC-A %s"
+	fallback_name = "Republican Ship-A %s"
 
 	unique = {
 		"Yorkshire" "Lincolnshire" "Devon" "Norfolk" "Northumberland" "Lancashire" "Somerset" "Hampshire" "Kent" "Essex" "Cumberland" "Suffolk" 
@@ -1249,7 +1254,7 @@ ENG_THEME_CITIES_COMMUNIST = {
 	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "RNS "
-	fallback_name = "ShipC-B %s"
+	fallback_name = "Republican Ship-B %s"
 
 	unique = {
 		"London" "Birmingham" "Leeds" "Glasgow" "Sheffield" "Bradford" "Liverpool" "Edinburgh" "Manchester" "Bristol" "Kirklees" "Fife" "Wirral" "Lanarkshire" 
@@ -1279,7 +1284,7 @@ ENG_THEME_ADMIRALS_COMMUNIST = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "RNS "
-	fallback_name = "ShipC-C %s"
+	fallback_name = "Republican Ship-C %s"
 
 	unique = {
 		"Blake" "Deane" "Popham" "Monck" "Penn" "Montague" "Desborow" "Jones" "Clerk" "Stone" "Burton" "Gooking" "Kelsey" "Ayscue" "Appleton" 
@@ -1298,7 +1303,7 @@ ENG_THEME_MOUNTAINS_COMMUNIST = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "RNS "
-	fallback_name = "ShipC-D %s"
+	fallback_name = "Republican Ship-D %s"
 
 	unique = {
 		### P600 Mountains of British Isles ###
@@ -1324,7 +1329,7 @@ ENG_THEME_RIVERS_COMMUNIST = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "RNS "
-	fallback_name = "ShipC-E %s"
+	fallback_name = "Republican Ship-E %s"
 
 	unique = {
 		### England ###
@@ -1358,7 +1363,7 @@ ENG_THEME_BATTLES_COMMUNIST = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "RNS "
-	fallback_name = "ShipC-F %s"
+	fallback_name = "Republican Ship-F %s"
 
 	unique = {
 		"Edgehill" "Aylesbury" "Leeds" "Hopton Heath" "Sourton Down" "Gainsborough" "Newbury" "Heptonstall" "Winceby" "Olney Bridge" "Alton" "Nantwich" "Cheriton" "Selby" 

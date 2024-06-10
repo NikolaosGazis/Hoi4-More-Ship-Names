@@ -1,0 +1,407 @@
+##### Chinese Ship Names #####
+
+# ROCS = Republic of China Ship. (Official - Not Used)
+# PLAN = People's Liberation Army Navy. (Communist - Not Used)
+
+### Aircraft Carrier Names ###
+CHI_CV_HISTORICAL = { # Provinces - Dragons.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "%d Hángkōngmǔjiàn"	
+
+	unique = {
+		### Provinces ###
+		"Anhui" "Fujian" "Gansu" "Guangdong" "Guizhou" "Hainan" "Heilongjiang" "Henan" "Hubei" "Hunan" "Jiangsu" "Jiangxi" "Jilin" "Liaoning"
+		"Qinghai" "Shaanxi" "Shandong" "Shanxi" "Sichuan" "Taiwan" "Yunnan" "Zhejiang"
+
+		### Dragons ###
+		"Long Wang" "Ao Guang" "Ao Qin" "Ao Run" "Ao Shun" "Chi Wen" "Chilong" "Feilong" "Huanglong" "Tianlong" "Shenlong" "Fucanlong" "Jiaolong" 
+		"Panlong" "Yazi" "Dilong" "Zhulong" "Qiulong" "Yinlong" "Hualong" "Wuxinlong" "Baolong" "Zhenlong" "Minglong" "Jinlong" "Yulong" "Xilong" 
+		"Zhenlong" "Pilong" "Guilong" "Qinglong" "Shoulong" "Shanlong" "Changlong" "Shuilong" "Fulong" "Yuelong" "Daolong" "Meilong" "Shenglong" 
+		"Xinglong" "Wolong" "Linglong" "Jielong" "Zhilong" "Anlong" "Chulong" "Mulong" "Yanlong" "Kailong"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+CHI_CVL_HISTORICAL = { # Phoenixs.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	fallback_name = "%d Qīngxíng Hángkōngmǔjiàn"
+
+	unique = {
+		"Meihuang" "Shenghuang" "Yihuang" "Xinghuang" "Wanhua" "Linghuang" "Jiehuang" "Qinghuang" "Zhihuang" "Yanhuang" "Anhuang" "Chuhuang" 
+		"Muhuang" "Luhuang" "Honghuang" "Jihuang" "Weihuang" "Kaihuang" "Huhuang" "Wuhuang" "Yuehang" "Fuhuang" "Feihuang" "Ruihuang" "Xinghuang"
+		"Ninghuang" "Yuhuang" "Liuhuang" "Zhonghuang" "Shihuang" "Fenghuang" "Huohuang" "Jinhuang" "Baihuang" "Zihuang" "Lanhuang"
+	}
+}
+
+### Battleship Names ###
+CHI_BB_HISTORICAL = { # Historical Modes - Importance.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "%d Zhanjian"		
+
+	unique = {
+		### Ting Yuen Class (1881) ###
+		"Ting Yuen" "Chen Yuen"
+
+		### Ping Yuen Class (1888) - Standalone ###
+		"Ping Yuen"
+
+		### Additionals - Importance ###
+		"Guangming" "Weiyuan" "Jingwei" "Wuyun" "Honglong" "Zhenyue" "Zhongyi" "Fenglai" "Haideng" "Tianying" "Ruiyun" "Jianjun" "Zhongshan" "Liancheng" 
+		"Baoguang" "Xiangyun" "Longyue" "Tianhu" "Fenghuo" "Dongfeng" "Longfeng" "Jinghai" "Mingyue" "Baoleng" "Zhiyuan" "Lingfeng" "Hengshan"
+	}
+}
+
+### Battlecruiser Names ###
+CHI_BC_HISTORICAL = { # Inspirational - Weather.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "%d Zhan lie Xunyangjian"		
+
+	unique = {
+		"Longxiang" "Leiying" "Feixia" "Zhanshen" "Qingying" "Longzhan" "Jinfeng" "Fenghan" "Yingfen" "Longquan" "Fenghuang" "Tianlang" "Yunxia" "Longyin" 
+		"Baofeng" "Canglong" "Yunshang" "Feixue" "Jinglong" "Juefeng" "Tianfeng" "Longshi" "Mingfeng" "Feiqing" "Fenqing" "Zhanfeng"
+	}
+}
+
+### Heavy Cruiser Names ###
+CHI_CA_HISTORICAL = { # Historical - Older Models - Inspirational.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "%d Zhong Xunyangjian"
+
+	unique = {
+		### Hairong Class (1897) ###
+		"Hairong" "Haichen" "Haichou" "Zhaohe" "Yingrui"
+
+		### Haiqi Class (1899) ###
+		"Haiqi" "Hai Tien"
+
+		### Older Models ###
+		"Chih Yuen" "Ching Yuen" "King Yuen" "Lai Yuen" "Hai Chi" "Hai Tien" "Hai Yuang" "Hai Shew" "Hai Chen" "Chao Ho" 
+		"Ying Swei"
+
+		### Additionals - Inspirational ###
+		"Haiyun" "Hailong" "Haiqing" "Haifeng" "Haining" "Haijun" "Haitao" "Haije" "Haibo" "Haixuan" "Haisheng" "Hailin" "Haifang" "Haizhen" 
+		"Haiying" "Haizhu" "Haijun" "Haiping" "Haiming" "Haixia" "Haisheng" "Haijing" "Haizhou" "Haishang" "Haitang" "Shengming" "Jinyang" 
+		"Yongsheng" "Qinyuan" "Longfeng" "Baihe" "Tianyu" "Fenguang" "Zhongcheng" "Yunhai" "Jinghai" "Xingguang" "Lanyun" "Jinfeng" "Tianyuan" 
+		"Qinghe" "Fuhai" "Ruiyang" "Linhai" "Mingyue" "Chengfeng" "Zhenhai" "Jingyun" "Tianshan" "Hengxing"
+	}
+}
+
+### Light Cruiser Names ###
+CHI_CL_HISTORICAL = { # Historical - Older Models - Counties.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "%d Qingxing Xunyangjian"
+
+	unique = {
+		### Yat Sen Class (1930) - Standalone ###
+		"Yat Sen"
+
+		### Ninghai Class (1931) ###
+		"Ninghai" "Pinghai"
+
+		### Older Models ###
+		"Chao Yung" "Yang Wei" "Tsi Yuen" "Nan Chen" "Nan Shui" "Kuang Yi" "Kuang Ping" "Fu Ching" "Kuang Ting"
+
+		### Additionals - Counties ###
+		"Renshou" "Lingshan" "Linquan" "Shuyang" "Pingnan" "Caoxian" "Taihe" "Bobai" "Zhenxiong" "Zhanghua" "Poyang" "Tanghe" "Nanbu" "Huize"
+		"Hezhang" "Huaxian" "Huoqiu" "Guoyang" "Yingshang" "Zizhong" "Zhongjiang" "Cangnan" "Funan" "Ningxiang" "Lixin" "Jianli" "Lanling"
+		"Quxian" "Peixian" "Anyue" "Xinhua" "Hengyang" "Taikang" "Huilai" "Longhui" "Huaiyang" "Yilong" "Shangcai" "Shanxian" "Mengcheng"
+		"Wuha" "Santai" "Yuncheng" "Suining" "Changtu" "Boluo" "Tengxian" "Panxian" "Huaiyuan" "Gushi" "Nachang" "Shou" "Xuanhan" "Dancheng"
+		"Suixi" "Yishui" "Rudong" "Juxian" "Shenqiu" "Qidong" "Changsha" "Anxi" "Lingbi" "Lujiang" "Fengxian" "Shenxian" "Qixian" "Binhai"
+		"Yucheng" "Hengnan" "Donghai" "Pingjiang" "Zunyi" "Hui an" "Yongnian" "Shangshui" "Yingshan" "Shehong" "Fangcheng" "Xiangtan" "Luyi"
+	}
+}
+
+### Destroyer Names ###
+CHI_DD_HISTORICAL = { # Older Models - Cities.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "%d Quzujian"
+
+	unique = {
+		### Older Models ###
+		"Hai Lung" "Hai Ching" "Hai Hua" "Hai Hse" "Yu Chang" "Chang Feng" "Chien Kang" "Ching Po" "Fu Po" "Tung An" "Ching Yuen" 
+		"Fei Yuen" "Lung Tuan"
+
+		### Additionals - Cities (PLN) ###
+		"Nanchang" "Lhasa" "Anshan" "Wuxi" "Dalian" "Yan An" "Zunyi" "Xianyang" "Knming" "Changsha" "Hefei" "Yinchuan" "Xining" 
+		"Xiamen" "Urumqi" "Guiyang" "Nanjing" "Taiyuan" "Hohoot" "Chengdu" "Qiqihar" "Zibo" "Tangshan" "Suzhou" "Huainan" "Nanning" 
+		"Kaifeng" "Guilin" "Zhanjiang" "Baotou" "Jiaozuo" "Shaoxing" "Lishui" "Lanzhou" "Haikou" "Changchun" "Zhengzhou" "Jinan" 
+		"Xi An" "Shenyang" "Shijiazhuang" "Guanzhou" "Wuhan" "Shenzhen" "Qingdao" "Hangzhou" "Fuzhou" "Taizhou" "Ningbo" "Xuzhou" 
+	}
+}
+
+### Escort Destroyer Names ###
+CHI_DE_HISTORICAL = { # Older Models - Frigates - Gunboats.
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	fallback_name = "% Hùháng Qūzhújiàn"
+
+	unique = {
+		### Older Models - Frigates ###
+		"Hai An" "Yu Yuen" "Kai Chi" "Ching Ching" "Huan Tai" 
+
+		### Older Models - Gunboats ###
+		"Chen An" "Chin Tai" "Pekin" "Amoy" "Kuang Wan" "Dai Ching" "Kiang Soo"
+		"Chih Kiang" "Hui Chi" "Tien Chi" "Wan Nien Ching" "Tsao Chiang" "Tse Hai" "Mei Yuen" "Foo Hsing" "Wei Ching" "Chen Hai" "Ching Yuen"
+		"Chen Wei" "An Lan" "Fei Yun" "Chi An" "Yuan Kai" "Yi Hsiang" "Ten Ying Chow" "Wei Yuen" "Chao Wu" "Teng CHing" "Heng Hai" 
+		"Kuang Chia" "Kuang Yuan" "Kuang Heng" "Kuang Li" "Kuang Chien" "Kuang Woo" "Kuang Chi" "Kuang Keng" "Kuang King" "Kuang Yu" 
+		"Chiang Yuan" "Chiang Hung" "Chiang Li" "Chiang Chen" "Chu Tai" "Chu Tong" "Chu You" "Chu Chien" "Chu Yu" "Chu Kuan" "Kiang Hsi" 
+		"Kiang Kun" "Hsin Pei" "Hsin Chen" "Hsin Min" "Chien Chung" "Yung An" "Kung Chen" "Kiang Ta" "Kiang Han" "Kiang Kung" "Yung Feng" 
+		"Yung Hsiang" "Yung Chi" "Yung Chien" "Kuan Chuan" "An Hai" "Ting Hai" "An Feng" "Chen Tao" "Peng Chao" "Chen Qing" "Sui Ching" 
+		"Si Chew" "Kuang Ching" "Kuang Pi" "Hai Yan" "Hai Fu" "Hai Ou" "Hai Hung" "Hai Ku" "Hai Hoo" "Hai Peng" "Li Sui" "Li Chien" "Hoi Fu" 
+		"Fu Yu" "Wei Sheng" "Teh Sheng" "Yi Sheng" "Shun Sheng" "We Feng" "Chen Shen" "Chien Tien" "Hsing Ning" "Ming Sen" "Ming Cheun" 
+		"Yung Sui" "Yung Sheng" "Jen Shen" "Ying Shan" "Ying Hao" "Lung Huan" "Hai Chow" "Tien Ping" "Tieh Pi" "Wei Lin Mi" "Ching Po"
+	}
+}
+
+### Minesweepers Names ###
+CHI_MINESWEEPERS_HISTORICAL = { # County Level Cities.
+	name = NAME_THEME_MINESWEEPERS
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	fallback_name = "%d Sǎoléi Jiàn"
+
+	unique = {
+		"Zhangjiagang" "Jingjiang" "Qingzhou" "Yucheng" "Renhuai" "Xuanwei" "Wudi" "Liuyang" "Luxi" "Xiaoyi" "Taishan" "Changshu" "Heshan"
+		"Chu An" "Xiangshan" "Chonging" "Fenghua" "Zhijiang" "Zhuji" "Haimen" "Wenling" "Pingdu" "Changyi" "Yangshuo" "Yongsheng" "Daxin"
+		"Huarong" "Rongjiang" "Qionghai" "Huoqiu" "Kushan" "Rudong" "Rongcheng" "Donggang" "Kaiping" "Taizihe" "Panshan" "Gongchangling"
+	}
+}
+
+### Auxilary/Smaller Ships Names ###
+
+### Submarines ###
+CHI_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "%d Qianting"
+	
+	ordered = {
+		1 = {"%d Qianting"}
+		2 = {"%d Qianting"}
+		3 = {"%d Qianting"}
+		4 = {"%d Qianting"}
+		5 = {"%d Qianting"}
+		6 = {"%d Qianting"}
+		7 = {"%d Qianting"}
+		8 = {"%d Qianting"}
+		9 = {"%d Qianting"}
+	}
+}
+
+### PRC Submarines ###
+CHI_SS_COMMUNIST = { # Long March - Number.
+	name = NAME_THEME_SS_COMMUNIST
+
+	for_countries = { PRC }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	fallback_name = "%d Chángzhēng"
+
+	ordered = {
+		1 = {"%d Chángzhēng"}
+		2 = {"%d Chángzhēng"}
+		3 = {"%d Chángzhēng"}
+		4 = {"%d Chángzhēng"}
+		5 = {"%d Chángzhēng"}
+		6 = {"%d Chángzhēng"}
+		7 = {"%d Chángzhēng"}
+		8 = {"%d Chángzhēng"}
+		9 = {"%d Chángzhēng"}
+	}
+}
+
+##### Themes #####
+
+### Theme: Provinces ###
+CHI_THEME_PROVINCES = {
+	name = NAME_THEME_PROVINCES
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "%d Chuán-A"
+
+	unique = {
+		"Guangdong" "Shandong" "Henan" "Jiangsu" "Sichuan" "Hebei" "Hunan" "Zhejiang" "Anhui" "Hubei" "Yunnan" "Jiangxi" "Liaoning" "Fuijan"
+		"Shaanxi" "Guizhou" "Shanxi" "Heilongjiang" "Gansu" "Jilin" "Taiwan"
+	}
+}
+
+### Theme: Cities ###
+CHI_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "%d Chuán-B"
+
+	unique = {
+		"Shangai" "Zhumadian" "Beijing" "Nanchong" "Hong Kong" "Tai An" "Yueyang" "Kaifeng" "Wuhan" "Chongqing" "Chengdu" "Tianjin" "Puyang"
+		"Shenyang" "Shiyan" "Harbin" "Xi An" "Lanzhiu" "Guangzhou" "Nanjing" "Shenzhen" "Taiyan" "Yunfu" "Changchun" "Zhongshan" "Changsha"
+		"Jinan" "Dalian" "Zhengzhou" "Shijazhuang" "Jilin" "Hangzhou" "Nanchang" "Qingdao" "Tangshan" "Xiyang" "Urumqi" "Fushun" "Luoyang"
+		"Hefei" "Liuyang" "Handan" "Suzhou" "Shantou" "Baotou" "Anshan" "Tongshan" "Fuzhou" "Guiuyang" "Dayan" "Wuxi" "Datong" "Changshu"
+		"Xianyang" "Huainan" "Kunming" "Jieyang" "Zhu Cheng" "Baoding" "Benxi" "Changzhou" "Huaibei" "Pingdingshan" "Qiqihar" "Wenzhou"
+		"Nanning" "Anyang" "Hohhot" "Shangyu" "Xining" "Qinhuangdao" "Hengyang" "Xinxiang" "Hegang" "Langfang" "Ningbo" "Yantai" "Zhuzhou"
+	}
+}
+
+### Theme: Mountains ###
+CHI_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "%d Chuán-C"
+
+	unique = {
+		"Lhotse" "Makalu" "Broad" "Shishapangma" "Chomo Lonzo" "Kongur Tagh" "Gongga" "Ata" "Skyang" "Jongsong" "Kangri" "Jengish Chokusu"
+		"Tian" "Labuche Kang" "Chongtar" "Siguang" "Porong" "Kangpenqing" "Khartaphu" "Langtang" "Liushi" "Pumori" "Lunpo Gangri" "Kangto"
+		"Nyegyi Kansang" "Kezhen" "Bukadaban" "Kubi Gangri" "Chakragil" "Lingtren" "Kawagrabro" "Changla" "Kailash" "Khumbutse" "Xuelian Feng"
+		"Geladaindong" "Amne Machin" "Siguniang" "Yuzhu" "Genyen" "Yangmolong" "Mianzimu" "Xuebaoding" "Bogda" "Pomiu" "Haba Xueshan" "Tomort"
+		"Gora Alagordy" "Laojun" "Khüiten" "Tavan Bogd" "Nairamdal" "Yu" "Xueshan" "Sauyr Zhotasy" "Taibai" "Daxue" "Hanhua" "Dunheger" "Jizu"
+		"Emei" "Phu Si Lung" "Wutai" "Paektu" "Mazong" "Mian" "Jinfo" "Hua" "Shiren" "Kitten" "Baishi" "Heng" "Changbai" "Huangyajian" "Xiao"
+		"Huangshan" "Wuzhi" "Shiceng"
+	}
+}
+
+### Theme: Rivers ###
+CHI_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "%d Chuán-D"
+
+	unique = {
+		"Heilong" "Ussuri" "Muling" "Songacha" "Songhua" "Ashi" "Hulan" "Woken" "Mudan" "Nen" "Gan" "Huifa" "Argun" "Hailar" "Kherlen" "Suifen"
+		"Tumen" "Hunchun" "Anzi" "Fuzhou" "Daliao" "Liao" "Taizi" "Hun" "Liu" "Dongliao" "Xiliao" "Xar Moron" "Daling" "Yantai" "Liugu" "Shi"
+		"Gou" "Dashi" "Jiujiang" "Dai" "Yang" "Luan" "Hai" "Chaobai" "Wei" "Zhang" "Yongding" "Sanggan" "Yang" "Daqing" "Juma" "Tuhai" "Huang"
+		"Yufu" "Beidasha" "Nandasha" "Dawen" "Liuchang" "Yuejin" "Hui" "Jinxian" "Kangwang" "Wu" "Beiquan" "Cao" "Miaojia" "Chaiwen" "Yucun"
+		"Guangming" "Yangliu" "Xizhou" "Pingyang" "Weishu" "Panwen" "Zhitian" "Tao" "Yingwen" "Shiwen" "Fangxia" "Lianhua" "Lixin" "Jindi" "Luo"
+	}
+}
+
+### Theme: Wheather/Elements ###
+CHI_THEME_WHEATHER = {
+	name = NAME_THEME_WHEATHER
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "d Chuán-E"
+
+	unique = {
+		"Yu" "Xue" "Feng" "Yun" "Lei Bao" "Wu" "Bing Bao" "Long Juan Feng" "Ju Feng" "Taiyang" "Yueliang" "Diqiu" "Tiakong" "Xingxing" "Caihong" 
+		"Shandian" "Mao Mao Yu" "Baofeng Xue" "Shuang" "Dong Yu" "Re Lang" "Hai Xiao" "Ganhan" "Hongshui" "Chaoxi Chaoliu" "Yun Cai" "Yudi" 
+		"Xuehua" "Bing" "Shandian" "Lei Sheng" "Jiguang" "Liuxing" "Huixing" "Rishi Yueshi"
+	}
+}
+
+### Theme: Famous Battles ###
+CHI_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	fallback_name = "%d Chuán-F"
+
+	unique = {
+		"Muye" "Changping" "Julu" "Gaixia" "Xiaoting" "Yiling" "Fei" "Hulao" "Baideng" "Dafei" "Anshi" "Talas" "Bian" "Yamen" "Poyang" 
+		"Jingnan" "Tumu" "Sekigahara" "Sarhū" "Shanhai" "Ningyuan" "Songjin" "Langya" "Kunyang" "Guandu" "Hefei" "Jiangling" "Hanzhong" 
+		"Shiting" "Chengpu" "Guiling" "Maling" "Yanling" "Changsha" "Liyang" "Anqing" "Suiyang" "Xuge" "Baling" "Yongqiu" "Yancheng" "Yanmen" 
+		"Jieqiao" "Anlu" "Zhuolu" "Mobei" "Chibi" "Kunyang" "Yiwulu" "Yique" "Dafei"
+	}
+}
+
+### Theme: Gods ###
+CHI_THEME_GODS = {
+	name = NAME_THEME_GODS
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	fallback_name = "%d Chuán-G"
+
+	unique = {
+		"Tiandi" "Tianzhu" "Tianhuang" "Tianwang" "Tiangong" "Tianjun" "Tianzun" "Tianshen" "Shenhuang" "Laotanye" "Huang Tian" "Hao Tian" "Yueshen"
+		"Min Tian" "Shang Tian" "Cang Tian" "Yudi" "Doumu" "Pangu" "Xiwangmu" "Houyi" "Yanwang" "Yinanggong" "Fuxi" "Nuwa" "Shennong" "Huangdi"
+		"Cangdi" "Heidi" "Chidi" "Baidi" "Baoshen" "Bala" "Dizhushen" "Doushen" "Fei Lan" "Haishen" "Hebo" "Gushen" "Huoshen" "Hushen" "Sheshen"
+		"Jishen" "Jinshen" "Jingshen" "Leishen" "Mushen" "Shanshen" "Shuishen" "Tudishen" "Wen Shen" "Xiangshuishen" "Xueshen" "Yushen" "Xihe"
+	}
+}

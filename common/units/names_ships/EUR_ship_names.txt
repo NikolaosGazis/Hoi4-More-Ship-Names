@@ -1,186 +1,8 @@
 ##### European Union Ship Names #####
 
-# EUS = European Union Ship. (Unofficial)
+# Since its a formable of no Historical Basis, its compromised only from themes and not 'Historical' categories (excluding Submarines) #
 
-### Aircraf Carrier Names ###
-EUR_CV_HISTORICAL = { # Aviation Pioneers - World War 1 Aces.
-	name = NAME_THEME_EUROPEAN_CV
-
-	for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
-
-	can_use = { has_cosmetic_tag = EUR_UNIFIED }
-
-	type = ship
-	ship_types = { ship_hull_carrier carrier }
-
-	prefix = "EUS "
-	fallback_name = "Aircraf Carrier-%s"
-
-	unique = {
-		### Aviation Pioneers ###
-		"George Cayley" "Otto Lilienthal" "Gustave Whitehead" "Wilbur Wright" "Orville Wright" "Louis Blériot" "Alberto Dumont" "Henri Farman" 
-		"Robert Pelterie" "Gabriel Voisin" "Geoffry de Havilland" "Anthony Fokker" "Calude Dornier" "Hugo Junkers" "Roland Garros" "Jean Batten" 
-		"Georges Guynemer" "Adolphe Pégoud" "Émile Dewoitine" "Juan de la Cierva" "Hans Grade" "Graf Zeppelin" "Gianni Caproni" "Richard Pearse" 
-		"Richard Fairey" "Peter Strasser" "Charles Rolls" "Henri Coandă" "Alfred Wills" "Hugo Eckener" "Alexander Lippisch" "Guido Guidi" 
-		"Alois Šmolík" "Herbert Schröder" "Louis Paulhan" "Paul Cornu" "Henri Fabre" "Camillo Castiglioni" "Gustav Hamel" "Alan Cobham" 
-		"Richard Thalinger" "Maurice Hurel"
-
-		### World War 1 Aces ###
-		"Manfred von Richthofen" "René Fonck" "Billy Bishop" "Ernst Udet" "Mick Mannock" "Raymond Collishaw" "James McCudden" "Andrew Beauchamp-Proctor" 
-		"Erich Loewenhardt" "Donald MacLaren" "Georges Guynemer" "William George Barker" "Josef Jacobs" "Werner Voss" "Robert Little" "George McElroy" 
-		"Fritz Rumey" "Albert Ball" "Rudolf Berthold" "Bruno Loerzer" "Paul Bäumer" "Tom Hazell" "Charles Nungesser" "Georges Madon" "Oswald Boelcke" 
-		"Franz Büchner" "Philip Fullard" "Lothar von Richthofen"
-	}
-}
-
-### Battleship Names ###
-EUR_BB_HISTORICAL = { # Principles - Figures.
-	name = NAME_THEME_EUROPEAN_BB
-
-	for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
-
-	can_use = { has_cosmetic_tag = EUR_UNIFIED }
-
-	type = ship
-	ship_types = { ship_hull_heavy batleship }
-
-	prefix = "EUS "
-	fallback_name = "Battleship-%s"
-
-	unique = {
-		### Principles/Identity of the European Union ###
-		"Europa" "Unity" "Democracy" "Liberty" "Diversity" "Sovereignity" "Solidarity" "Subsidiarity" "Peacemaker" "Prosperity" "Pioneer" "Atlantic" "Endeavor"
-
-		### Additionals - Figures ###
-		"Charlemagne" "Joan of Arc" "Leonardo da Vinci" "William Shakespeare" "Isaac Newton" "Napoleon Bonaparte" "Friedrich The Great" "Alexander The Great" 
-		"Julius Caesar" "Charles Darwin" "Marie Curie" "Plato" "Aristotle" "Marco Polo" "Galileo Galilei" "Christopher Columbus" "Michelangelo" "Johannes Gutenberg"
-		"Voltaire" "Thomas Edison" "Nikola Tesla" "Florence Nightingale" "Sigmund Freud" "Leonardo Fibonacci" "Mikhail Lomonosov" "James Watt" "Guglielmo Marconi"
-		"Georges Seurat" "Gregor Mendel" "Alfred Nobel" "Johann Bach" "Antonie van Leeuwenhoek" "Rene Descartes" "Pierre-Auguste Renoir" "Otto von Bismarck" 
-		"Pythagoras" "Archimedes" "Roger Bacon" "Nicolaus Copernicus" "Max Planck" "Albert Einstein" 
-	}
-}
-
-### Battlecruiser Names ###
-EUR_BC_HISTORICAL = { # Adjectives.
-	name = NAME_THEME_EUROPEAN_BC
-
-	for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
-
-	can_use = { has_cosmetic_tag = EUR_UNIFIED }
-
-	type = ship
-	ship_types = { ship_hull_heavy battle_cruiser }
-
-	prefix = "EUS "
-	fallback_name = "Battlecruiser-%s"
-
-	unique = {
-		"Stalwart" "Majestic" "Powerful" "Resilient" "Imposing" "Sturdy" "Indomitable" "Regal" "Impressive" "Dauntless" "Stout" "Commanding" "Grand" "Invicible" 
-		"Magnificent" "Formidable" "Tenacious" "Legendary" "Mighty" "Unyielding" "Gallant" "Serene" "Glorious" "Eminent" "Titanic" "Fealess" "Dignified" "Noble" 
-		"Durable" "Exalted" "Unwavering" "Commanding" "Solid" "Interpid" "Colossal" "Invulnerable" "Supreme" "Unconquerable" "Valiant" "Fantastic"
-	}
-}
-
-### Heavy Cruiser Names ###
-EUR_CA_HISTORICAL = {
-	name = NAME_THEME_EUROPEAN_CA
-
-	#for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
-
-	can_use = { has_cosmetic_tag = EUR_UNIFIED }
-
-	type = ship
-	ship_types = { ship_hull_cruiser heavy_cruiser }
-
-	prefix = "EUS "
-	fallback_name = "Heavy Cruiser-%s"
-
-	unique = {
-	}
-}
-
-### Light Cruiser Names ###
-EUR_CL_HISTORICAL = {
-	name = NAME_THEME_EUROPEAN_CL
-
-	#for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
-
-	can_use = { has_cosmetic_tag = EUR_UNIFIED }
-
-	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser }
-
-	prefix = "EUS "
-	fallback_name = "Light Cruiser-%s"
-
-	unique = {
-	}
-}
-
-### Destroyer Names ###
-EUR_DD_HISTORICAL = { # Wheather Phenomenoms.
-	name = NAME_THEME_EUROPEAN_DD
-
-	#for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
-
-	can_use = { has_cosmetic_tag = EUR_UNIFIED }
-
-	type = ship
-	ship_types = { ship_hull_light destroyer }
-
-	prefix = "EUS "
-	fallback_name = "Destroyer-%s"
-
-	unique = {
-	}
-}
-
-### Escort Destroyer Names ###
-EUR_DE_HISTORICAL = {
-	name = NAME_THEME_EUROPEAN_DE
-
-	#for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
-
-	can_use = { has_cosmetic_tag = EUR_UNIFIED }
-
-	type = ship
-	ship_types = { ship_hull_light destroyer }
-
-	prefix = "EUS "
-	fallback_name = "Escort Destroyer-%s"
-
-	unique = {
-	}
-}
-
-### Submarine Names ###
-EUR_SS_HISTORICAL = {
-	name = NAME_THEME_EUROPEAN_SS
-
-	for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
-
-	can_use = { has_cosmetic_tag = EUR_UNIFIED }
-
-	type = ship
-	ship_types = { ship_hull_submarine submarine }
-
-	prefix = "EUS "
-	fallback_name = "Submarine-%s"
-
-	ordered = {
-		1 = {"S-%d"}
-		2 = {"S-%d"}
-		3 = {"S-%d"}
-		4 = {"S-%d"}
-		5 = {"S-%d"}
-		6 = {"S-%d"}
-		7 = {"S-%d"}
-		8 = {"S-%d"}
-		9 = {"S-%d"}
-	}	
-}
-
-##### Themes #####
+# EUS = European Union Ship.
 
 ### Theme: Nations ###
 EUR_THEME_NATIONS = {
@@ -194,16 +16,224 @@ EUR_THEME_NATIONS = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battlecruiser }
 
 	prefix = "EUS "
-	fallback_name = "ShipA-%s"
+	fallback_name = "Navale A-%s"
 
 	unique = {
-		### Main Nations - Can Form the European Union ###
-		"France" "Germany" "Italy" "Holland" "Belgium" "Luxexbourg" "England" "Scotland" "Wales" "Ireland" 
+		### Main Nations (Can Form the European Union) ###
+		"France" "Germany" "Italy" "Holland" "Belgium" "Luxembourg" "England"
 
 		### Additional Geographical Countries ###
-		"Greece" "Switzerland" "Sweden" "Norway" "Denmark" "Finland" "Poland" "Spain" "Portugal" "Austria" "Czechia" "Hungary" 
-		"Romania" "Serbia" "Slovenia" "Slovakia" "Croatia" "Albania" "Bulgaria" "Turkey" "Estonia" "Lithuania" "Latvia"
+		"Scotland" "Wales" "Ireland" "Greece" "Switzerland" "Sweden" "Norway" "Denmark" "Finland" "Poland" "Spain" "Portugal" "Austria" "Czechia" 
+		"Hungary" "Romania" "Serbia" "Slovenia" "Slovakia" "Croatia" "Albania" "Bulgaria" "Turkey" "Estonia" "Lithuania" "Latvia"
 	}
+}
+
+### Theme: Values ###
+EUR_THEME_VALUES = { # Adjectives.
+	name = NAME_THEME_EUROPEAN_VALUES
+
+	for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
+
+	can_use = { has_cosmetic_tag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "EUS "
+	fallback_name = "Navale B-%s"
+
+	unique = {
+	 	"Unity" "Democracy" "Liberty" "Diversity" "Sovereignity" "Solidarity" "Subsidiarity" "Peacemaker" "Prosperity" "Pioneer" "Atlantic" "Endeavor"
+	 	"Stalwart" "Majestic" "Powerful" "Resilient" "Imposing" "Sturdy" "Indomitable" "Regal" "Impressive" "Dauntless" "Stout" "Commanding" "Grand"
+	 	"Invicible" "Magnificent" "Formidable" "Tenacious" "Legendary" "Mighty" "Unyielding" "Gallant" "Serene" "Glorious" "Eminent" "Titanic" "Fealess"
+	 	"Dignified" "Noble" "Durable" "Exalted" "Unwavering" "Commanding" "Solid" "Interpid" "Colossal" "Invulnerable" "Supreme" "Unconquerable" "Valiant"
+	 	"Fantastic"
+	}
+}
+
+### Theme: Leaders ###
+EUR_THEME_LEADERS = {
+	name = NAME_THEME_EUROPEAN_LEADERS
+
+	#for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
+
+	can_use = { has_cosmetic_tag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "EUS "
+	fallback_name = "Navale C-%s"
+
+	unique = {
+		### France ###
+		"Charlemagne" "Hugh Capet" "Louis IX" "Francis I" "Henry IV" "Louis XIV" "Napoleon Bonaparte" "Vercingetorix" "Jean d'Arc" "Clovis I" "Richelieu" 
+		"Clemenceau" "Phillip II" "Charles VII" "Louis XI" "Thiers"
+
+		### Germany ###
+		"Otto von Bismarck" "Wilhem I" "Friedrich Wilhem III" "Friedrich Wilhelm IV" "Friedrich Ebert" "Friedrich der Große" "Gustav Stresemann"
+		"Martin Luther"
+
+		### Italy ###
+		"Julius Caesar" "Octavian Augustus" "Marcus Aurelius" "Caesar Augustus" "Cicero" "Giuseppe Garibaldi" "Giuseppe Mazzini" "Conte di Cavour"
+		"Victor Emmanuel II" "Giuseppe Verdi" "Vittorio Emanuele Orlando" "Scipio Africanus" "Theodoric the Great" "Pope Gregory I" "Dante Alighieri"
+
+		### United Kingdom ###
+		"Queen Elizabeth I" "King Henry VIII" "Queen Victoria" "Oliver Cromwell" "William the Conqueror" "Francis Drake" "Queen Anne" "King Edward I"
+		"Thomas More" "Elizabeth Fry" "David Lloyd George" "John Wesley" "Christopher Wren" "William Wilberforce" "Emily Pankhurst" "Francis Bacon"
+
+		### Additionals - Rest ###
+		"Ferdinand II" "Isabella I" "Philip II" "Charles V" "Isabella IΙ" "Alfonso XIII" "Ferdinand VII" "Alfonso X" "Manuel Azaña"
+	}
+}
+
+### Theme: Generals ###
+EUR_THEME_GENERALS = {
+	name = NAME_THEME_EUROPEAN_GENERALS
+
+	#for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
+
+	can_use = { has_cosmetic_tag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "EUS "
+	fallback_name = "Navale D-%s"
+
+	unique = {
+		### France ###
+		"Michel Ney" "Jean Lannes" "Joachim Murat" "Louis-Nicolas Davout" "André Masséna" "Jacques MacDonald" "Jean-de-Dieu Soult" "Nicolas Jean-de-Dieu Soult"
+		"Louis-Gabriel Suchet" "Jean-Baptiste Jourdan" "Joseph Lefebvre" "Étienne Macdonald" "Emmanuel de Grouchy" "Jean-Baptiste Bernadotte" "Adolphe Niel" 
+		"François Achille Bazaine" "Ferdinand Foch" "Philippe Pétain" "Charles de Gaulle"
+
+		### Germany ###
+		"Marzin" "Eberstein" "Flemming" "Schöning" "Sparr" "Derfflinger" "Kleist" "Knobelsdorff" "Blücher" "Gneisenau" "Zieten" "Boyen" "Moltke" "Bittenfeld"
+		"Roon" "Manteuffel" "Blumenthal" "Schlieffen" "Hindenburg" "Bülow" "Mackensen" "Hötzendorf" "Eichhorn" "Rommel"
+
+		### Italy ###
+		"Enrico Cialdini" "Luigi Cadorna" "Armando Diaz" "Pietro Badoglio" "Luigi Capello" "Alfredo Guzzoni" "Carlo Chiesa" "Gaetano Giardino" "Ottavio Briccola"
+		"Luigi Zuccari" "Emanuele Filiberto" "Alfonso Marmora" "Enrico Rocca" "Benedetto Cairoli"
+
+		### United Kingdom ###
+		"Arthur Wellesley" "Douglas Haig" "John French" "Horatio Kitchener" "Edmund Allenby" "Harold Alexander" "Archibald Wavell" "Herbert Plumer" "Henry Rawlinson"
+		"William Robertson" "William Birdwood" "Archibald Wavell" "Julian Byng" "Edmund Ironside" "John Gort"
+
+		### Additionals - Rest ###
+		"Prince Alexander" "Albert I" "Maurice Sarrail" "Charles Mangin" "Pavlos Melas" "Joseph Joffre" "Krasnik" "Emilio Mola" "Karl Litzmann" "Maurice Gamelin"
+		"Giuseppe Maletti" "Gustav Mannerheim"
+	}
+}
+
+### Theme: Admirals ###
+EUR_THEME_ADMIRALS = {
+	name = NAME_THEME_EUROPEAN_ADMIRALS
+
+	for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
+
+	can_use = { has_cosmetic_tag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "EUS "
+	fallback_name = "Navale E-%s"
+
+	unique = {
+		### Germany ###
+		"Alfred von Tirpitz" "Reinhard Scheer" "Maximilian von Spee" "Franz von Hipper" "Alfred von Waldersee" "Hugo von Pohl" "Souchon" 
+		"Friedrich von Ingenohl" "Franz von Papen" "Hermann Boehm" "Ernst Lindemann" "Kurt Fricke" "Hans Langsdorff" "Wilhelm Marschall" 
+		"Gustav Kieseritzky" "Richard Beitzen" "Wilhelm Canaris" "Hans von Friedeburg"
+
+		### Italy ###
+		"Paolo Thaon di Revel" "Angelo Iachino" "Luigi Rizzo" "Giovanni Pastene" "Arturo Riccardi" "Luigi Sansonetti" "Emilio Massera" 
+		"Giuseppe Fioravanzo" "Angelo Parona" "Alberto da Zara" "Ferdinando Casardi" "Luigi Amedeo" "Filippo Caprera" "Carlo Cattaneo" 
+		"Piero Aloisi" "Romeo Bernotti" "Alfredo Acton" "Edoardo Masdea"
+
+		### France ###
+		"François Darlan" "Pierre-Charles Villeneuve" "Latouche Tréville" "Henri de Rigny" "Amédée Courbet" "Jean de Vienne" "Louis Antoine" 
+		"Jean-Baptiste Colbert" "Louis Duplesis" "Joseph Paul de Grasse" "Charles de la Roche" "Paul Hoste" "Abel Dupetit Thouars"
+
+		### United Kingdom ###
+		"Horatio Nelson" "Drake" "John Jervis" "George Rodney" "Edward Hawke" "Edward Vernon" "Robert Blake" "Thomas Cochrane" "Charles Stewart" 
+		"William Bligh" "John Fisher" "Augustus Keppel" "Thomas Graves" "James Saumarez" "Richard Howe" "Charles Watson" "John Byng" "Edward Pellew" 
+		"Isaac Manley"
+
+		### Additionals - Rest ###
+		"Miguel de Cervantes" "Michiel de Ruyter" "Peter Tordenskjold" "Johan Trolle"
+	}
+}
+
+### Theme: Aviation Pioneers ###
+EUR_THEME_AVIATION_PIONEERS = { # Aviation Pioneers - World War 1 Aces.
+	name = NAME_THEME_EUROPEAN_AVIATION_PIONEERS
+
+	for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
+
+	can_use = { has_cosmetic_tag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "EUS "
+	fallback_name = "Navale F-%s"
+
+	unique = {
+		"George Cayley" "Otto Lilienthal" "Gustave Whitehead" "Wilbur Wright" "Orville Wright" "Louis Blériot" "Alberto Dumont" "Henri Farman" 
+		"Robert Pelterie" "Gabriel Voisin" "Geoffry de Havilland" "Anthony Fokker" "Calude Dornier" "Hugo Junkers" "Roland Garros" "Jean Batten" 
+		"Georges Guynemer" "Adolphe Pégoud" "Émile Dewoitine" "Juan de la Cierva" "Hans Grade" "Graf Zeppelin" "Gianni Caproni" "Richard Pearse" 
+		"Richard Fairey" "Peter Strasser" "Charles Rolls" "Henri Coandă" "Alfred Wills" "Hugo Eckener" "Alexander Lippisch" "Guido Guidi" 
+		"Alois Šmolík" "Herbert Schröder" "Louis Paulhan" "Paul Cornu" "Henri Fabre" "Camillo Castiglioni" "Gustav Hamel" "Alan Cobham" 
+		"Richard Thalinger" "Maurice Hurel"
+	}
+}
+
+### Theme: Aces ###
+EUR_THEME_ACES = { # World War 1.
+	name = NAME_THEME_EUROPEAN_ACES
+
+	can_use = { has_cosmetic_tag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "EUS "
+	fallback_name = "Navale G-%s"
+
+	unique = {
+		"Manfred von Richthofen" "Lothar von Richthofen" "René Fonck" "Billy Bishop" "Ernst Udet" "Mick Mannock" "Raymond Collishaw" "James McCudden" 
+		"Andrew Beauchamp-Proctor" "Erich Loewenhardt" "Donald MacLaren" "Georges Guynemer" "William George Barker" "Josef Jacobs" "Werner Voss" "Robert Little" 
+		"George McElroy" "Fritz Rumey" "Albert Ball" "Rudolf Berthold" "Bruno Loerzer" "Paul Bäumer" "Tom Hazell" "Charles Nungesser" "Georges Madon" 
+		"Oswald Boelcke" "Franz Büchner" "Philip Fullard" "Roderic Dallas" "Charles Gass" "John Gilmour" "Heinrich Gontermann" "William Jordan" "Carl Menckhoff" 
+		"Alfred Atkey" "Willaim Claxton" "Willy Coppens" "James Jones" "Carl Bolle" "Julius Buckler" "Joseph Temple Fall" "Max Müller" "Maurice Boyau" 
+		"Godwin von Brumowski" "Gustav Dörr" "Otto Könnecke" "Frederick McCall" "Eduard von Schleich" "Emil Thuy" "Josef Veltjens" "Henry Woollett" "Francesco Baracca" 
+		"Michel Coiffard" "Heinrich Bongartz" "Heinrich Kroll" "Frank Quigley" "Kurt Wolff" "Julius Arigi" "Geoffrey Bowman" "Hermann Frommherz" "Samuel Kinkead" 
+		"Theodor Osterkamp" "Paul Bilik" "Andrew McKeever" "Gotthard Saschenberg" "Karl Allmenröder" "Carl Degelow" "Josef Mai" "Ulirch Neckel" "Karl Schäfer" 
+		"Samuel Thompson"
+	}
+}
+
+### Theme: Scientists ###
+EUR_THEME_SCIENTISTS = {
+	name = NAME_THEME_EUROPEAN_SCIENTISTS
+
+	for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
+
+	can_use = { has_cosmetic_tag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "EUS "
+	fallback_name = "Navale H-%s"
+
+	unique = {
+		"Isaac Newton" "Galileo Galilei" "Albert Einstein" "Marie Curie" "Nikola Tesla" "Michael Faraday" "James Clerk Maxwel" "Antoine Lavoisier" "Gregor Mendel"
+		"Charles Darwin" "Max Planck" "Niels Bohr" "Erwin Schrödinger" "Louis Pasteur" "Carl Friedrich Gauss" "Johannes Kepler" "Alessandro Volta" "Antoine Becquerel"
+		"Andre-Marie Ampere" "Joseph Gay-Lussac" "Henri Poincaré" "Robert Boyle" "Marie Bichat" "Antoine Lavoisier" "Pierre-Simon Laplace" "Hermann von Helmholtz"
+		"Bernhard Riemann" "John Dalton" "Carl Jacobi" "George Boole" "Carl Ludwig" "Max von Laue" "Walther Nernst" "Dmitri Egorov" "David Hilbert" "Emmy Noether"
+		"Wilhelm Wundt"
+ 	}
 }
 
 ### Theme: Regions ###
@@ -218,7 +248,7 @@ EUR_THEME_REGIONS = {
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }
 
 	prefix = "EUS "
-	fallback_name = "ShipB-%s"
+	fallback_name = "Navale I-%s"
 
 	unique = {
 		### France ###
@@ -234,7 +264,13 @@ EUR_THEME_REGIONS = {
 		"Prussia" "Bavaria" "Saxony" "Württemberg" "Baden" "Hesse" "Mecklenburg" "Oldenburg" "Weimar" "Eisenach" "Anhalt" "Brunswick" 
 		"Altenburg" "Coburg" "Gotha" "Lauenburg" "Meiningen"
 
-		### Additionals ###
+		### Belgium ###
+		"Antwerp" "Flanders" "Brabant" "Limburg" "Hainaut" "Liège" "Luxembourg" "Namur" "Brabant" "Brussels"
+
+		### Netherlands ###
+		"Groningen" "Friesland" "Drenthe" "Overijssel" "Gelderland" "Flevoland" "Utrecht" "Zeeland" "Limburg"
+
+		### Additionals - Rest ###
 	}
 }
 
@@ -250,7 +286,7 @@ EUR_THEME_CITIES = {
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser ship_hull_light carrier battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "EUS "
-	fallback_name = "ShipC-%s"
+	fallback_name = "Navale J-%s"
 
 	unique = {
 		### Capitals of European Union Nations ###
@@ -264,8 +300,6 @@ EUR_THEME_CITIES = {
 		"Florenece" "Bari" "Catania" "Verona" "Venice" "Messina" "Padua" "Prato" "Trieste" "Brescia" "Parma" "Taranto" "Modena" "Birmingham" "Sheffield" 
 		"Bristol" "Glasgow" "Leicester" "Edinburgh" "Leeds" "Cardiff" "Manchester" "Stoke" "Coventry" "Sunderland" "Birknhead" "Islinaton" "Reading" 
 		"Preston" "Newport" "Swansea" "Bradford" "Belfast" "Derby" "Plymouth"
-
-		### Additionals - Rest ###
 	}
 }
 
@@ -281,7 +315,7 @@ EUR_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "EUS "
-	fallback_name = "ShipD-%s"
+	fallback_name = "Navale K-%s"
 
 	unique = {
 		### Switzerland ###
@@ -320,7 +354,7 @@ EUR_THEME_RIVERS  = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "EUS "
-	fallback_name = "ShipE-%s"
+	fallback_name = "Navale L-%s"
 
 	unique = {
 		### Austria ###
@@ -370,7 +404,7 @@ EUR_THEME_ISLANDS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "EUS "
-	fallback_name = "ShipF-%s"
+	fallback_name = "Navale M-%s"
 
 	unique = {
 		### Mediterranean Sea ###
@@ -379,99 +413,6 @@ EUR_THEME_ISLANDS = {
 		"Naxos" "Folegandros" "Milos" "Irakleia" "Rineia" "Koufonisi" "Sporades" "Sazan" "Sveti Nikola" "Brač" "Cres" "Čiovo" "Dugi Otok" "Hvar" 
 		"Iž" "Korčula" "Krk" "Lastovo" "Lošinj" "Mljet" "Molat" "Murter" "Pag" "Pašman" "Rab" "Šolta" "Ugljan" "Vir"
  	}
-}
-
-### Theme: Generals ###
-EUR_THEME_GENERALS = {
-	name = NAME_THEME_EUROPEAN_GENERALS
-
-	#for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
-
-	can_use = { has_cosmetic_tag = EUR_UNIFIED }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
-
-	prefix = "EUS "
-	fallback_name = "ShipG-%s"
-
-	unique = {
-		### France ###
-
-		### Germany ###
-
-		### Italy ###
-
-		### United Kingdom ###
-
-		### Additionals - Rest ###
-	}
-}
-
-### Theme: Admirals ###
-EUR_THEME_ADMIRALS = {
-	name = NAME_THEME_EUROPEAN_ADMIRALS
-
-	for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
-
-	can_use = { has_cosmetic_tag = EUR_UNIFIED }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
-
-	prefix = "EUS "
-	fallback_name = "ShipH-%s"
-
-	unique = {
-		### Germany ###
-		"Alfred von Tirpitz" "Reinhard Scheer" "Maximilian von Spee" "Franz von Hipper" "Alfred von Waldersee" "Hugo von Pohl" "Souchon" 
-		"Friedrich von Ingenohl" "Franz von Papen" "Hermann Boehm" "Ernst Lindemann" "Kurt Fricke" "Hans Langsdorff" "Wilhelm Marschall" 
-		"Gustav Kieseritzky" "Richard Beitzen" "Wilhelm Canaris" "Hans von Friedeburg"
-
-		### Italy ###
-		"Paolo Thaon di Revel" "Angelo Iachino" "Luigi Rizzo" "Giuseppe Garibaldi" "Giovanni Pastene" "Arturo Riccardi" "Luigi Sansonetti" 
-		"Emilio Massera" "Giuseppe Fioravanzo" "Angelo Parona" "Alberto da Zara" "Ferdinando Casardi" "Luigi Amedeo" "Filippo Caprera" 
-		"Carlo Cattaneo" "Piero Aloisi" "Romeo Bernotti" "Alfredo Acton" "Edoardo Masdea"
-
-		### France ###
-		"François Darlan" "Pierre-Charles Villeneuve" "Latouche Tréville" "Henri de Rigny" "Amédée Courbet" "Jean de Vienne" "Louis Antoine" 
-		"Jean-Baptiste Colbert" "Louis Duplesis" "Joseph Paul de Grasse" "Charles de la Roche" "Paul Hoste" "Abel Dupetit Thouars"
-
-		### United Kingdom ###
-		"Horatio Nelson" "Drake" "John Jervis" "George Rodney" "Edward Hawke" "Edward Vernon" "Robert Blake" "Thomas Cochrane" "Charles Stewart" 
-		"William Bligh" "John Fisher" "Augustus Keppel" "Thomas Graves" "James Saumarez" "Richard Howe" "Charles Watson" "John Byng" "Edward Pellew" 
-		"Isaac Manley"
-
-		### Additionals - Rest ###
-		"Miguel de Cervantes" "Michiel de Ruyter" "Peter Tordenskjold" "Johan Trolle"
-	}
-}
-
-### Theme: Leaders ###
-EUR_THEME_LEADERS = {
-	name = NAME_THEME_EUROPEAN_LEADERS
-
-	#for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
-
-	can_use = { has_cosmetic_tag = EUR_UNIFIED }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
-
-	prefix = "EUS "
-	fallback_name = "ShipI-%s"
-
-	unique = {
-		### France ###
-
-		### Germany ###
-
-		### Italy ###
-
-		### United Kingdom ###
-
-		### Additionals - Rest ###
-	}
 }
 
 ### Theme: Greek Mythology ###
@@ -508,7 +449,7 @@ EUR_THEME_ROMAN_MYTHOLOGY = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "EUS "
-	fallback_name = "ShipK-%s"
+	fallback_name = "Navale N-%s"
 
 	unique = {
 		"Jupiter" "Mars" "Quirinius" "Carmentis" "Ceres" "Falacer" "Flora" "Furrina" "Palatua" "Pomona" "Portunus" "Vulcan" "Volturnus" "Janus" 
@@ -529,10 +470,37 @@ EUR_THEME_NORSE_MYTHOLOGY = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "EUS "
-	fallback_name = "ShipL-%s"
+	fallback_name = "Navale O-%s"
 
 	unique = {
-		"Aegir" "Annar" "Auðr" "Dagr" "Dellingr" "Baldr" "Borr" "Bragi" "Búri" "Glenr" "Forseti" "Freyr" "Freya" "Kvasir" "Heimdall" "Hoenir" "Mani" "Meili" 
-		"Mimir" "Modi" "Magni" "Loki" "Lytir" "Odin" "Naglfari" "Rigsmai" "Thor" "Tyr" "Ullr" "Víðarr" "Njord" "Hel"
+		"Aegir" "Annar" "Auðr" "Dagr" "Dellingr" "Baldr" "Borr" "Bragi" "Búri" "Glenr" "Forseti" "Freyr" "Freya" "Kvasir" "Heimdall" "Hoenir" "Mani" 
+		"Meili" "Mimir" "Modi" "Magni" "Loki" "Lytir" "Odin" "Naglfari" "Rigsmai" "Thor" "Tyr" "Ullr" "Víðarr" "Njord" "Hel"
 	}
+}
+
+### Submarine Names ###
+EUR_SS_EUROPEAN = {
+	name = NAME_THEME_EUROPEAN_SS
+
+	for_countries = { FRA ITA GER WGR ENG HOL BEL LUX }
+
+	can_use = { has_cosmetic_tag = EUR_UNIFIED }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = "EUS "
+	fallback_name = "Submarine-%s"
+
+	ordered = {
+		1 = {"S-%d"}
+		2 = {"S-%d"}
+		3 = {"S-%d"}
+		4 = {"S-%d"}
+		5 = {"S-%d"}
+		6 = {"S-%d"}
+		7 = {"S-%d"}
+		8 = {"S-%d"}
+		9 = {"S-%d"}
+	}	
 }

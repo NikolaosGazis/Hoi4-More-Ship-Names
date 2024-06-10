@@ -1,7 +1,8 @@
 ﻿##### Greek Ship Names #####
 
 # RHS = Royal Hellenic Ship. (Official)
-# GPNS = Greek People's Navy Ship. (Communist)
+# HRS = Hellenic Republic Ship. (Communist)
+# RBS = Royal Byzantine Ship. (Byzantium)
 
 ### Aircraft Carrier Names ###
 GRE_CV_HISTORICAL = { # Aces - Flying Creatures.
@@ -22,17 +23,17 @@ GRE_CV_HISTORICAL = { # Aces - Flying Creatures.
 		"Aristeidis Moraitinis"
 		
 		### World War 2 Aces ###
-		"Ioannis Lolos" "Marinos Mitralexis" "Panagiotis Argyropoulos" "Andreas Antoniou" "Spiros Pisanos" "Basilios Vassiliades" 
+		"Ioannis Lolos" "Marinos Mitralexis" "Panagiotis Argyropoulos" "Andreas Antoniou" "Spiros Pisanos" "Basilios Vassiliadis" 
 		"Ioannis Agorastos"
 		
 		### Flying Creatures ###
 		"Aetos" "Gypas" "Geraki" "Koukouváyia" "Kirkinaki" "Kondoras" "Psaraetos" "Pigargos" "Kerasforos" "Alkotan" "Tsountso" 
-		"Boursado" "Nychterída" "Sfínga" "Petalouda" "Mélissa" "Kolimpri" "Harpyia" "Phoínix" "Spourgíti"
+		"Boursado" "Nychterída" "Sfínga" "Petalouda" "Mélissa" "Kolimpri" "Harpyia" "Phoínikas" "Spourgíti" "Kounoupi" "Drakos"
 	}
 }
 
 ### Battleship Names ###
-GRE_BB_HISTORICAL = { # Figures - Cities - Themes.
+GRE_BB_HISTORICAL = { # Older Models - Figures - Cities - Principles.
 	name = NAME_THEME_HISTORICAL_BB
 
 	for_countries = { GRE }
@@ -47,20 +48,23 @@ GRE_BB_HISTORICAL = { # Figures - Cities - Themes.
 
 	unique = {
 		### Older Models ###
-		"Salamis" "Kilkis"
+		"Salamis" "Kilkis" "Lemnos"
 
 		### Important Figures ###
-		"Georgios Papanikolaou" "Theodoros Kolokotronis" "Georgios Kountouriotis" "Georgios Karaiskakis" "Eleutherios Venizelos" 
-		"Ioannis Kapodistrias" "Odysseas Elyths" "Alexandros o Megas" "Socrates" "Aristoteles" "Plato" "Perikles" "Themistokles"
-		"Leonidas" "Omiros"
+		"Georgios Papanikolaou" "Theodoros Kolokotronis" "Georgios Koundouriotis" "Georgios Karaiskakis" "Eleftherios Venizelos" 
+		"Ioannis Kapodistrias" "Odysseas Elytis" "Mégas Aléxandros" "Sokrátis" "Aristotélis" "Pláton" "Periklís" "Themistoklís"
+		"Leonídas" "Ómiros"
 		
-		### Additionals ###
-		"Athens" "Thessaloniki" "Constantinople" "Patrida" "Democracy" "Monarchy" "Royalty" "Ellas"
+		### Additionals - Cities/Capitals ###
+		"Athina" "Thessaloniki" "Konstantinoúpoli" "Nafplio" "Aigina"
+
+		### Additionals - Principles ###
+		"Patrida" "Eleftheria" "Enosis" "Kyríarchos" "Dimokratía" "Monarchia" "Vasileía" "Ellada"
 	}
 }
 
 ### Battlecruiser Names ###
-GRE_BC_HISTORICAL = { # Heroes of Greek War of Independence (1821) - Generals.
+GRE_BC_HISTORICAL = { # Greek War of Independence - Generals.
 	name = NAME_THEME_HISTORICAL_BC
 
 	for_countries = { GRE }
@@ -138,7 +142,7 @@ GRE_CL_HISTORICAL = { # Cities.
 }
 
 ### Destroyer Names ###
-GRE_DD_HISTORICAL = { # Weaponary - Weather Phenomenons.
+GRE_DD_HISTORICAL = { # Weaponary - Weather Phenomenom.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
 	for_countries = { GRE }
@@ -155,7 +159,7 @@ GRE_DD_HISTORICAL = { # Weaponary - Weather Phenomenons.
 		### Weaponary ###
 		"Lonchi" "Aspis" "Spathi" "Dory" "Xiphos" "Akontio" "Tokso" "Velos" "Kranos" "Thorakas" "Knimides" "Kopis" "Pyrovoliko" 
 		"Sarissa" "Pilos" "Akontion" "Arma" "Xyston" "Sfentona" "Katapeltis" "Martiobarbuli" "Romphaia" "Pelta" "Gastraphetes"
-		"Arpi" "Sica" "Olisideron" "Arpaga" "Akon"
+		"Arpi" "Sica" "Olisideron" "Arpaga" "Akon" "Sfaira" "Kanoni"
 
 		### Weather Phenomenons ###
 		"Vrochí" "Chióni" "Ánemos" "Kataigída" "Kerav̱nós" "Astrapí" "Néfos" "Omíchli" "Chalázi" "Sífounas" "Tyfónas" "Seismós"
@@ -165,7 +169,7 @@ GRE_DD_HISTORICAL = { # Weaponary - Weather Phenomenons.
 }
 
 ### Submarine Names ###
-GRE_SS_HISTORICAL = {
+GRE_SS_HISTORICAL = { # Figures - Mythology.
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
 	for_countries = { GRE }
@@ -188,9 +192,31 @@ GRE_SS_HISTORICAL = {
 
 ##### Themes #####
 
-### Theme: Animals ###
-GRE_THEME_ANIMALS = {
-	name = NAME_THEME_ANIMALS
+### Theme: Prefectures ###
+GRE_THEME_PREFECTURES = {
+	name = NAME_THEME_PREFECTURES
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrer battleship battle_cruiser heavy_cruiser }
+
+	prefix = "RHS "
+	fallback_name = "Polemikó Ploío-A %d"
+
+	unique = {
+		"Attikí" "Peiraiás" "Fthiótidas" "Évvoia" "Viotía" "Fokídos" "Evrytania" "Serres" "Chalkidiki" "Kilkis" "Pella" "Imathia" "Pieria"
+		"Irákleio" "Chaniá" "Lasithi" "Réthymno" "Évros" "Rodópi" "Arta" "Thesprotia" "Kefalloniá" "Kerkyra" "Zákynthos" "Lefkada"
+		"Arkadía" "Lakonía" "Messinía" "Korinthos" "Argolída" "Dodekánisa" "Kykládes" "Akarnanía" "Achaḯas" "Élis" "Kozáni" "Grevena" 
+		"Florina" "Kastoria"
+	}
+}
+
+### Theme: Cities ###
+GRE_THEME_CITIES = {
+	name = NAME_THEME_CITIES
 
 	for_countries = { GRE }
 
@@ -200,13 +226,17 @@ GRE_THEME_ANIMALS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "RHS "
-	fallback_name = "Polemiko Ploio-A %d"
+	fallback_name = "Polemikó Ploío-B %d"
 
 	unique = {
-		"Tigri" "Liontari" "Alogo" "Gatopardos" "Antilopi" "Gorilas" "Elefantas" "Zevra" "Ippopotamos" "Kamilopardali" "Alepou"
-		"Leopardali" "Nyxterida" "Ouragotakos" "Pouma" "Rinokeros" "Chibatzis" "Toukan" "Skylos" "Gata" "Papagalos" "Xamster" "Arkouda"
-		"Kanarini" "Gaidaros" "Pigkouinos" "Delfini" "Falaina" "Karxarias" "Psari" "Medousas" "Achinos" "Xiphias" "Sfyrokefalos" "Lykos"
-	} 
+		"Peristeri" "Lárisa" "Kallithéa" "Nikaia" "Kalamaria" "Volos" "Nea Liosia" "Keratsínion" "Nea Smírni" "Khalándrion" "Vrilissia" 
+		"Aigáleo" "Amarousion" "Marousi" "Nea Ionia" "Palaio Faliro" "Ioánnina" "Víron" "Ayía Paraskeví" "Kavala" "Galátsion" "Rodos" 
+		"Kateríni" "Alexandroúpolis" "Petroúpolis" "Kalamata" "Trikala" "Xánthi" "Lamia" "Kifisiá" "Komotiní" "Sykéai" "Véroia" "Dráma" 
+		"Agrínion" "Kalamaki" "Polichni" "Alimos" "Karditsa" "Asprópirgos" "Cholargós" "Ayía Varvára" "Ptomelaida" "Voúla" "Áno Liósia" 
+		"Mytilíni" "Giannitsá" "Elefsína" "Trípoli" "Pérama" "Kaisarianí" "Árgos" "Megara" "Néa Filadélfia" "Moschato" "Pylaía" "Pýrgos" 
+		"Melíssia" "Thíva" "Livádeia" "Aígion" "Náousa" "Amaliás" "Kos" "Édessa" "Mesolóngi" "Ellinikón" "Náfpaktos" "Koropí" "Panórama" 
+		"Néa Erithraía" "Orestiás" "Peraía" "Meneméni" "Sparti" "Pallíni" "Néa Mákri" "Dafni"
+	}
 }
 
 ### Theme: Mountains ###
@@ -221,19 +251,19 @@ GRE_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 
 	prefix = "RHS "
-	fallback_name = "Polemiko Ploio-B %d"
+	fallback_name = "Polemikó Ploío-C %d"
 
 	unique = {
-		"Olympos" "Smolikas" "Voras" "Grammos" "Gkiona" "Tymfi" "Vardoysia" "Parnassos" "Idi" "Leyka" "Kakarditsa" "Taygetos" "Kyllini" "Aroania" 
-		"Varnountas" "Tymfristos" "Lakmos" "Vasilitsa" "Falakro" "Erymanthos" "Orvilas" "Triggia" "Meropi" "Pieria" "Agrafa" "Tzena" "Lygkos" 
-		"Zygos" "Pinovo" "Oiti" "Kriakouras" "Dikti" "Aygo" "Verno" "Askio" "Penteleia" "Kaliakouda" "Selio" "Vermio" "Xatzi" "Athos" "Kerkini" 
-		"Trapezitsa" "Tsigkori" "Kallifwnio" "Mainalo" "Ossa" "Paxtourniaska" "Makria Rachi" "Xelidona" "Tomaros" "Menoikio" "Paggaio" "Frakto" 
-		"Oligyrtos" "Parnonas" "Panachaiko" "Oxia" "Panaitoliko" "Koziakas" "Vournios" "Valtou" "Vrontous" "Titaros" "Nafpaktias" "Koula" "Elatia" 
-		"Arenta" "Oryksi" "Mitsikeli" "Tsamanta" "Voio" "Keryneio" "Kentros" "Triklario oros" "Artemesio" "Frousia" "Xerovouni" "Lyrkeio" "Elikonas" 
-		"Dirfi" "Stamna" "Orthys" "Mouriki" "Makrykabos" "Paramythias" "Paiko" "Chtenias" "Ainos" "Pilio" "Kamvounia" "Souliou" "Saos" "Akarnika" 
-		"Chasia" "Kirfi" "Selena" "Tzoumeka" "Papikio" "Kalathio" "Ourida" "Thryptis" "Vrontero" "Gouras" "Afrodisio" "Katafydi" "Kerketeas" "Orliakas" 
-		"Lykaio" "Antichasia" "Achladovouno" "Parnitha" "Kithaironas" "Kallidromo" "Ochi" "Tatrazi" "Kanalos" "Dovras" "Ntevas" "Skoteini" "Profitis Hlias" 
-		"Itamos" #1.359
+		"Olympos" "Smolikas" "Voras" "Grammos" "Gkiona" "Tymfi" "Vardoysia" "Parnassos" "Idi" "Leyka" "Kakarditsa" "Taygetos" "Kyllini"
+		"Aroania" "Varnountas" "Tymfristos" "Lakmos" "Vasilitsa" "Falakro" "Erymanthos" "Orvilas" "Triggia" "Meropi" "Pieria" "Agrafa"
+		"Tzena" "Lygkos" "Zygos" "Pinovo" "Oiti" "Kriakouras" "Dikti" "Aygo" "Verno" "Askio" "Penteleia" "Kaliakouda" "Selio" "Vermio"
+		"Xatzi" "Athos" "Kerkini" "Trapezitsa" "Tsigkori" "Kallifwnio" "Mainalo" "Ossa" "Paxtourniaska" "Makria Rachi" "Xelidona" "Tomaros"
+		"Menoikio" "Paggaio" "Frakto" "Oligyrtos" "Parnonas" "Panachaiko" "Oxia" "Panaitoliko" "Koziakas" "Vournios" "Valtou" "Vrontous"
+		"Titaros" "Nafpaktias" "Koula" "Elatia" "Arenta" "Oryksi" "Mitsikeli" "Tsamanta" "Voio" "Keryneio" "Kentros" "Triklario"
+		"Artemesio" "Frousia" "Xerovouni" "Lyrkeio" "Elikonas" "Dirfi" "Stamna" "Orthys" "Mouriki" "Makrykabos" "Paramythias" "Paiko"
+		"Chtenias" "Ainos" "Pilio" "Kamvounia" "Souliou" "Saos" "Akarnika" "Chasia" "Kirfi" "Selena" "Tzoumeka" "Papikio" "Kalathio"
+		"Ourida" "Thryptis" "Vrontero" "Gouras" "Afrodisio" "Katafydi" "Kerketeas" "Orliakas" "Lykaio" "Antichasia" "Achladovouno" 
+		"Parnitha" "Kithaironas" "Kallidromo" "Ochi" "Tatrazi" "Kanalos" "Dovras" "Ntevas" "Skoteini" "Profitis Hlias" "Itamos"
 	}
 }
 
@@ -249,12 +279,15 @@ GRE_THEME_RIVERS = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 
 	prefix = "RHS "
-	fallback_name = "Polemiko Ploio-C %d"
+	fallback_name = "Polemikó Ploío-D %d"
 
 	unique = {
-		"Kifisos" "Pamisos" "Ardas" "Tanos" "Kosynthos" "Asopos" "Lissos" "Loudias" "Kompastos" "Pineios" "Mornos" "Ladonos" "Echedoros" "Aos" "Axios" 
-		"Tauropos" "Evinos" "Spercheios" "Louros" "Evrotas" "Enipeas" "Arachtos" "Alfeios" "Thyamis" "Strymonas" "Nestos" "Evros" "Pineios" "Achelos" 
-		"Alikmonas"
+		"Sarantoporos" "Voidomatis" "Pavla" "Thyamis" "Tyria" "Acheron" "Louros" "Arachthos" "Acheloos" "Megdovas" "Agrafiotis" "Granitsiotis"
+		"Evinos" "Mornos" "Pleistos" "Elissonas" "Fonissa" "Zacholitikos" "Krios" "Krathis" "Vouraikos" "Selinountas" "Volinaios" "Charadros"
+		"Glafkos" "Peiros" "Tytheus" "Larissos" "Pineios" "Alfeios" "Erymanthos" "Ladon" "Aroanios" "Lousios" "Neda" "Pamisos" "Nedonas" 
+		"Eurotas" "Oenus" "Inachos" "Cephissus" "Eridanos" "Ilisos" "Asopos" "Spercheios" "Gorgopotamos" "Titarisios" "Enipeas" "Portaikos" 
+		"Anavros" "Krausidonas" "Haliacmon" "Loudias" "Axios" "Gallikos" "Strymonas" "Angitis" "Nestos" "Despatis" "Evros" "Erythropotamos" 
+		"Ardas" "Vosvozis" "Kompsatos" "Kosynthos" "Anapodaris" "Kanianitis" "Olvios" "Erasinos" "Erechios" "Olynthiakos"
 	}
 }
 
@@ -270,113 +303,44 @@ GRE_THEME_ISLANDS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "RHS "
-	fallback_name = "Polemiko Ploio-D %d"
+	fallback_name = "Polemikó Ploío-E %d"
 
 	unique = {
-		"Kriti" "Evoia" "Rodos" "Kerkyra" "Lesvos" "Chios" "Zakynthos" "Salamina" "Kefalonia" "Kos" "Samos" "Lefkada" "Syros" "Naxos" "Thira" "Limnos" 
-		"Kalymnos" "Thasos" "Mykonos" "Paros" "Aegina" "Andros" "Tinos" "Ikaria" "Leros" "Karpathos" "Skiathos" "Skopelos" "Milos" "Poros" "Spetses" 
-		"Kythera" "Patmos" "Ithaki" "Symi" "Skyros" "Samothraki" "Alonnisos" "Sifnos" "Kea" "Paxoi" "Ios" "Hydra" "Amorgos" "Kythnos" "Serifos" 
-		"Astypalaia" "Fournoi" "Antiparos" "Agistri" "Kasos" "Meganisi" "Nisyros" "Elafonisos" "Kimolos" "Tilos" "Oinousses" "Folegandros" "Lipsi" 
-		"Chalki" "Ammouliani" "Othonoi" "Ereikoussa" "Kastellorizo" "Psara" "Mathraki" "Thirassia" "Anafi" "Sikinos" "Agios Efstratios" "Schoinoussa" 
-		"Agathonisi" "Donousa" "Gavdos" "Irakleia" "Thymaina" "Telendos" "Trizonia" "Kastos" "Pserimos" "Palaio Trikeri" "Antikythira" "Arkoi" "Saria" 
-		"Peristera" "Delos" "Kalolimnos" "Gyali" "Antipaxos" "Dokos" "Farmakonisi" "Makronisos" "Piperi" "Marathi" "Samiopoula" "Antipsara" "Skorpios" 
-		"Kinaros" "Keros"
+		"Kriti" "Evvoia" "Rodos" "Kerkyra" "Lesvos" "Chios" "Zakynthos" "Salamina" "Kefalonia" "Kos" "Samos" "Lefkada" "Syros" "Naxos" "Thira" 
+		"Limnos" "Kalymnos" "Thasos" "Mykonos" "Paros" "Aegina" "Andros" "Tinos" "Ikaria" "Leros" "Karpathos" "Skiathos" "Skopelos" "Milos" 
+		"Poros" "Spetses" "Kythera" "Patmos" "Ithaki" "Symi" "Skyros" "Samothraki" "Alonnisos" "Sifnos" "Kea" "Paxoi" "Ios" "Hydra" "Amorgos" 
+		"Kythnos" "Serifos" "Astypalaia" "Fournoi" "Antiparos" "Agistri" "Kasos" "Meganisi" "Nisyros" "Elafonisos" "Kimolos" "Tilos" "Oinousses" 
+		"Folegandros" "Lipsi" "Chalki" "Ammouliani" "Othonoi" "Ereikoussa" "Kastellorizo" "Psara" "Mathraki" "Thirassia" "Anafi" "Sikinos" 
+		"Agios Efstratios" "Schoinoussa" "Agathonisi" "Donousa" "Gavdos" "Irakleia" "Thymaina" "Telendos" "Trizonia" "Kastos" "Pserimos" 
+		"Palaio Trikeri" "Antikythira" "Arkoi" "Saria" "Peristera" "Delos" "Kalolimnos" "Gyali" "Antipaxos" "Dokos" "Farmakonisi" "Makronisos" 
+		"Piperi" "Marathi" "Samiopoula" "Antipsara" "Skorpios" "Kinaros" "Keros"
 	}
 }
 
-### Theme: Gods - Deities ###
-GRE_THEME_GODS = {
-	name = NAME_THEME_GODS
+### Theme: Animals ###
+GRE_THEME_ANIMALS = {
+	name = NAME_THEME_ANIMALS
 
 	for_countries = { GRE }
 
 	can_use = { not = { has_government = communism } }
 
 	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "RHS "
-	fallback_name = "Polemiko Ploio-E %d"
+	fallback_name = "Polemikó Ploío-F %d"
 
 	unique = {
-		### 12(+1) Gods of Olympus / Pantheon. ###
-		"Zeus" "Hades" "Poseidon" "Hera" "Athena" "Ares" "Dimitra" "Apollo" "Artemis" "Aphrodite" "Hephaestus" "Hermes" "Dionysus"
-		
-		### Other Gods - Spirits. ###
-		"Achlys" "Aether" "Aion" "Ananke" "Chaos" "Erebus" "Eros" "Hemera" "Hypnos" "Nemesis" "Nyx" "Ourea" "Phanes" "Pontus" "Tartarus" "Thalassa" 
-		"Thanatos" "Uranus" "Persephone" "Helios" "Eos" "Eirene" "Dike" "Dolos" "Deimos" "Kratos" "Tyche" "Zelos" "Alecto" "Tisiphone" "Megaera" "Clotho" 
-		"Lachesis" "Atropos"
-	}
-}
-
-### Theme: Mythological Titans ###
-GER_THEME_MYTHOLOGICAL_TITANS = {
-	name = NAME_THEME_TITANS
-
-	for_countries = { GRE }
-
-	can_use = { not = { has_government = communism } }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
-
-	prefix = "RHS "
-	fallback_name = "Polemiko Ploio-F %d"
-
-	unique = {
-		### 12 Titans ###
-		"Gaia" "Coeus" "Crius" "Cronus" "Hyperion" "Iapetus" "Mnemosyne" "Oceanus" "Phoebe" "Rhea" "Tethys"
-		"Theia" "Themis"
-		
-		### Others ###
-		"Atlas" "Leto" "Prometheus" "Selene" "Styx" "Briareos" "Kottos" "Gygis" "Agrios" "Alyoneas" "Otos" "Efialtis" "Antaios" "Argos" "Argis" "Vrontis" 
-		"Steropis" "Polyfimos" "Armagedon" "Gegenees" "Giryon" "Laistrygones" "Orion" "Porfyrion" "Talos" "Tityos" "Tyfon"
-	}
-}
-
-### Theme: Mythological Creatures ###
-GRE_THEME_MYTHOLOGICAL_CREATURES = {
-	name = NAME_THEME_MYTHOLOGICAL_CREATURES
-
-	for_countries = { GRE }
-
-	can_use = { not = { has_government = communism } }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
-
-	prefix = "RHS "
-	fallback_name = "Polemiko Ploio-G %d"
-
-	unique = {
-		"Pegasus" "Typhon" "Echidna" "Medousa" "Gorgon" "Siren" "Scylla" "Charybdis" "Empusa" "Harpies" "Lamia" "Sphinx" "Chimera" "Lernaean Hydra" 
-		"Mares" "Cerberus" "Stymphalian" "Erymanthian Boar" "Minotauros" "Python" "Colchian Drakos"
+		"Tígri" "Liontari" "Alogo" "Gatopardos" "Antilopi" "Gorilas" "Elefantas" "Zevra" "Ippopotamos" "Kamilopardali" "Alepou"
+		"Leopardali" "Nychterída" "Ouragotakos" "Pouma" "Rinokeros" "Chibatzis" "Toukan" "Skylos" "Gata" "Papagalos" "Chámster" "Arkouda"
+		"Kanarini" "Gaidaros" "Pigkouinos" "Delfini" "Falaina" "Karxarias" "Psari" "Medousas" "Achinos" "Xiphias" "Sfyrokefalos" "Lykos"
 	} 
 }
 
-### Theme: Mythological Figures ###
-GRE_THEME_GREEK_MYTHOLOGY = {
-	name = NAME_THEME_GREEK_MYTHOLOGY
-
-	for_countries = { GRE }
-
-	can_use = { not = { has_government = communism } }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
-
-	prefix = "RHS "
-	fallback_name = "Polemiko Ploio-H %d"
-
-	unique = {
-		"Hraklis" "Thiseas" "Ariwn" "Achilleas" "Diomidis" "Orfeas" "Odysseas" "Patroklos" "Paris" "Perseas" "Protesilaos"
-		"Polyfimos" "Triptopolemos" "Etolos" "Delfos" "Ermion" "Vellefrontis" "Orion" "Iasonas"
-	}
-}
-
-### Theme: Monarchs ###
-GRE_THEME_MONARCHS = {
-	name = NAME_THEME_MONARCHS
+### Theme: Royalty ###
+GRE_THEME_ROYALTY = { # 1863 - XXXX.
+	name = NAME_THEME_ROYALTY
 
 	for_countries = { GRE }
 
@@ -386,10 +350,14 @@ GRE_THEME_MONARCHS = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser  }
 
 	prefix = "RHS "
-	fallback_name = "Polemiko Ploio-I %d"
+	fallback_name = "Polemikó Ploío-G %d"
 
 	unique = {
+		### Monarchs ###
 		"Otto" "Vasilefs Georgios I" "Vasilissa Olga" "Constantine I" "Alexandros" "Georgios II" "Vasilefs Paulos"
+
+		### Other Royal Family Figures ###
+		"Sophia" "Andrew" "Christopher" "Françoise" "Frederica" "Phillip" "Marina" "Michael" "Constantine II" "Anne-Maria" "Charles III" "Alexandra"
 	}
 }
 
@@ -404,8 +372,8 @@ GRE_THEME_BYZANTINE_MONARCHS = {
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
-	prefix = "RBS " # Royal Byzantine Ship.
-	fallback_name = "Polemiko Ploio-J %d"
+	prefix = "RBS "
+	fallback_name = "Polemikó Ploío-H %d"
 
 	unique = {
 		### Constantinian Dynasty ###
@@ -476,7 +444,7 @@ GRE_THEME_BYZANTINE_MONARCHS = {
 }
 
 ### Famous Battles ###
-GRE_THEME_FAMOUS_BATTLES = {
+GRE_THEME_BATTLES = {
 	name = NAME_THEME_BATTLES
 
 	for_countries = { GRE }
@@ -487,13 +455,70 @@ GRE_THEME_FAMOUS_BATTLES = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "RHS "
-	fallback_name = "Polemiko Ploio-K %d"
+	fallback_name = "Polemikó Ploío-I %d"
 
 	unique = {
 		"Thermopyles" "Valtetsiou" "Variadon" "Galatsiou" "Granas" "Distomo" "Dragatsaniou" "Dodekanison" "Trikorfa" 
 		"Levidiou" "Keratsini" "Bizaniou" "Kiatou" "Metsovo" "Salamina" "Marathonas" "Mykalis" "Knidou" "Arginouson" 
 		"Kuzikou" "Lidorikou" "Maniaki" "Petras" "Plakas" "Granikou" "Plateae" "Chaeronea" "Navarino" "Dervnenakia" 
 		"Domokos" "Maniaki" "Lachanas" "Doiran" "Vevi"
+	} 
+}
+
+### Theme: Mythology ###
+GRE_THEME_GREEK_MYTHOLOGY = {
+	name = NAME_THEME_GREEK_MYTHOLOGY
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "RHS "
+	fallback_name = "Polemikó Ploío-J %d"
+
+	unique = {
+		### Gods of Olympus/Pantheon ###
+		"Dias" "Adis" "Poseidónas" "Íra" "Athina" "Áris" "Dímitra" "Apóllon" "Ártemis" "Afrodíti" "Ífaistos" "Ermís" "Dionýsios"
+		
+		### Gods - Spirits ###
+		"Achlys" "Aithír" "Aión" "Ananke" "Cháos" "Érevos" "Éros" "Hemera" "Hypnos" "Nemesis" "Nyx" "Ourea" "Phanes" "Pontus" "Tártaros" "Thalassa" 
+		"Thanatos" "Ouranós" "Persefóni" "Helios" "Iós" "Eiríni" "Anáchoma" "Dólos" "Deímos" "Kratos" "Tyche" "Zílos" "Alecto" "Tisifoni" "Megaera" 
+		"Klótho" "Láchesis" "Atropos"
+
+		### Titans ###
+		"Gaia" "Coeus" "Crius" "Krónos" "Yperíon" "Iapetós" "Mnimosýni" "Okeanós" "Foívi" "Réa" "Tithýs" "Theia" "Themis"
+		"Atlas" "Líto" "Promithéas" "Selén" "Styx" "Briaréos" "Kottos" "Gygis" "Agrios" "Alyoneas" "Otos" "Efialtis" "Antaios" "Argos" "Argis" 
+		"Vrontis" "Steropis" "Polyfimos" "Armagedon" "Gegenees" "Giryon" "Laistrygónes" "Oríon" "Porfyrion" "Talos" "Títios" "Tyfón"
+
+		### Figures ###
+		"Iraklís" "Thiséas" "Ariwn" "Achilléas" "Diomídis" "Orféas" "Odysséas" "Patroklos" "Paris" "Perseas" "Protesílaos" "Polyfimos" 
+		"Triptopolemos" "Etolos" "Delfos" "Ermion" "Vellefrontis" "Orion" "Iasonas"
+
+		### Creatures ###
+		"Pígasos" "Týfonas" "Echidna" "Médousa" "Gorgóna" "Seirína" "Skýla" "Cháryvdis" "Émpousa" "Árpyies" "Lamía" "Sfínga" "Chímaira" 
+		"Lernaía Ýdra" "Forádes" "Kérveros" "Stymfalikí" "Erymánthios Kápros" "Minótavros" "Python" "Kolchikós Drákos"
+	}
+}
+
+### Theme: Saints ###
+GRE_THEME_SAINTS = {
+	name = NAME_THEME
+
+	for_countries = { GRE }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }
+
+	prefix = "RHS "
+	fallback_name = "Polemiko Ploio-K %d"
+
+	unique = {
+		"Agios Nikolaos" "Agios Ioannis" "Agios Dimitrios" "Agios Georgios" "Agios Kostantinos" "Agios Nektarios" "Agios Vasilis" "Agios Spyridon"
+		"Agia Paraskevi" "Agia Eleni" "Agios Andreas" "Agios Pantaleon" "Agia Marina" "Agia Katerina" "Agios Dionysis" "Agios Grigoris" "Agios Serafim"
+		"Agia Ksenia" "Agia Euphrosyni" "Agios Gerasimos"
 	} 
 }
 
@@ -510,7 +535,7 @@ GRE_CV_COMMUNIST = { # Aces - Flying Creatures.
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
 	
-	prefix = "GPNS "
+	prefix = "HRS "
 	fallback_name = "Aeroplanoforo %d"	
 
 	unique = {
@@ -523,7 +548,7 @@ GRE_CV_COMMUNIST = { # Aces - Flying Creatures.
 		
 		### Flying Creatures ###
 		"Aetos" "Gypas" "Geraki" "Koukouváyia" "Kirkinaki" "Kondoras" "Psaraetos" "Pigargos" "Kerasforos" "Alkotan" "Tsountso" 
-		"Boursado" "Nychterída" "Sfínga" "Petalouda" "Mélissa" "Kolimpri" "Harpyia" "Phoínix" "Spourgíti"
+		"Boursado" "Nychterída" "Sfínga" "Petalouda" "Mélissa" "Kolimpri" "Harpyia" "Phoínix" "Spourgíti" "Kounoupi"
 	}
 }
 
@@ -538,19 +563,23 @@ GRE_BB_COMMUNIST = { # Figures - Cities - Themes.
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
 	
-	prefix = "GPNS "
+	prefix = "HRS "
 	fallback_name = "Thorikto %d"		
 
 	unique = {
 		### Older Models ###
-		"Salamis" "Kilkis"
+		"Salamis" "Kilkis" "Lemnos"
 
 		### Important Figures ###
-		"Georgios Papanikolaou" "Theodoros Kolokotronis" "Georgios Kountouriotis" "Georgios Karaiskakis" "Ioannis Kapodistrias" 
-		"Odysseas Elyths" "Alexandros o Megas" "Socrates" "Aristoteles" "Plato" "Perikles" "Themistokles" "Leonidas" "Omiros"
+		"Georgios Papanikolaou" "Theodoros Kolokotronis" "Georgios Kountouriotis" "Georgios Karaiskakis" "Eleutherios Venizelos" 
+		"Ioannis Kapodistrias" "Odysseas Elyths" "Mégas Aléxandros" "Sokrátis" "Aristotélis" "Pláton" "Periklís" "Themistoklís"
+		"Leonídas" "Ómiros"
 		
-		### Additionals ###
-		"Athens" "Thessaloniki" "Constantinople" "Patrida" "Democracy" "Monarchy" "Royalty" "Ellas"
+		### Additionals - Cities/Capitals ###
+		"Athina" "Thessaloniki" "Konstantinoúpoli" "Nafplio" "Aigina"
+
+		### Additionals - Principles ###
+		"Patrida" "Eleftheria" "Enosis" "Kyríarchos" "Laos" "Kommounismos" "Ellada"
 	}
 }
 
@@ -565,7 +594,7 @@ GRE_BC_COMMUNIST = { # Heroes of Greek War of Independence (1821) - Generals.
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
 	
-	prefix = "GPNS "
+	prefix = "HRS "
 	fallback_name = "Thorakismeno Katadromiko %d"		
 
 	unique = {
@@ -586,7 +615,7 @@ GRE_CA_COMMUNIST = { # Figures - Generals.
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
 	
-	prefix = "GPNS "
+	prefix = "HRS "
 	fallback_name = "Vari Katadromiko %d"
 
 	unique = {
@@ -616,7 +645,7 @@ GRE_CL_COMMUNIST = { # Cities.
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
 	
-	prefix = "GPNS "
+	prefix = "HRS "
 	fallback_name = "Elafri Katadromiko %d"
 
 	unique = {
@@ -643,7 +672,7 @@ GRE_DD_COMMUNIST = { # Weaponary - Weather Phenomenons.
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
 
-	prefix = "GPNS "
+	prefix = "HRS "
 	fallback_name = "Antitorpiliko %d"					
 
 	unique = {
@@ -670,7 +699,7 @@ GRE_SS_COMMUNIST = {
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
 	
-	prefix = "GPNS "
+	prefix = "HRS "
 	fallback_name = "Ypovrychio %d"
 	
 	unique = {
@@ -678,5 +707,213 @@ GRE_SS_COMMUNIST = {
 		"Xifias" "Poseidonas" "Potamoi" "Okeanos" "Okeanides" "Doris" "Tethys" "Leucothea" "Galene" "Eurybia" "Ceto" "Phorcys" "Pontus"
 		"Nereids" "Alseids" "Auloniads" "Aura" "Crinaeae" "Dryad" "Eleionomae" "Hamadryad" "Hesperides" "Limnads" "Lampades" "Meliae"
 		"Melinoë" "Naiads" "Oread" "Pegaeae" "Pegasides" "Pleiades" "Potamides" "Thaumas"
+	}
+}
+
+##### Themes #####
+
+### Theme: Prefectures ###
+GRE_THEME_PREFECTURES_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_PREFECTURES
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrer battleship battle_cruiser heavy_cruiser }
+
+	prefix = "HRS "
+	fallback_name = "Polemikó Ploío-A %d"
+
+	unique = {
+		"Attikí" "Peiraiás" "Fthiótidas" "Évvoia" "Viotía" "Fokídos" "Evrytania" "Serres" "Chalkidiki" "Kilkis" "Pella" "Imathia" "Pieria"
+		"Irákleio" "Chaniá" "Lasithi" "Réthymno" "Évros" "Rodópi" "Arta" "Thesprotia" "Kefalloniá" "Kerkyra" "Zákynthos" "Lefkada"
+		"Arkadía" "Lakonía" "Messinía" "Korinthos" "Argolída" "Dodekánisa" "Kykládes" "Akarnanía" "Achaḯas" "Élis" "Kozáni" "Grevena" 
+		"Florina" "Kastoria"
+	}
+}
+
+### Theme: Cities ###
+GRE_THEME_CITIES_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_CITIES
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HRS "
+	fallback_name = "Polemikó Ploío-B %d"
+
+	unique = {
+		"Peristeri" "Lárisa" "Kallithéa" "Nikaia" "Kalamaria" "Volos" "Nea Liosia" "Keratsínion" "Nea Smírni" "Khalándrion" "Vrilissia" 
+		"Aigáleo" "Amarousion" "Marousi" "Nea Ionia" "Palaio Faliro" "Ioánnina" "Víron" "Ayía Paraskeví" "Kavala" "Galátsion" "Rodos" 
+		"Kateríni" "Alexandroúpolis" "Petroúpolis" "Kalamata" "Trikala" "Xánthi" "Lamia" "Kifisiá" "Komotiní" "Sykéai" "Véroia" "Dráma" 
+		"Agrínion" "Kalamaki" "Polichni" "Alimos" "Karditsa" "Asprópirgos" "Cholargós" "Ayía Varvára" "Ptomelaida" "Voúla" "Áno Liósia" 
+		"Mytilíni" "Giannitsá" "Elefsína" "Trípoli" "Pérama" "Kaisarianí" "Árgos" "Megara" "Néa Filadélfia" "Moschato" "Pylaía" "Pýrgos" 
+		"Melíssia" "Thíva" "Livádeia" "Aígion" "Náousa" "Amaliás" "Kos" "Édessa" "Mesolóngi" "Ellinikón" "Náfpaktos" "Koropí" "Panórama" 
+		"Néa Erithraía" "Orestiás" "Peraía" "Meneméni" "Sparti" "Pallíni" "Néa Mákri" "Dafni"
+	}
+}
+
+### Theme: Mountains ###
+GRE_THEME_MOUNTAINS_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_MOUNTAINS
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HRS "
+	fallback_name = "Polemikó Ploío-C %d"
+
+	unique = {
+		"Olympos" "Smolikas" "Voras" "Grammos" "Gkiona" "Tymfi" "Vardoysia" "Parnassos" "Idi" "Leyka" "Kakarditsa" "Taygetos" "Kyllini"
+		"Aroania" "Varnountas" "Tymfristos" "Lakmos" "Vasilitsa" "Falakro" "Erymanthos" "Orvilas" "Triggia" "Meropi" "Pieria" "Agrafa"
+		"Tzena" "Lygkos" "Zygos" "Pinovo" "Oiti" "Kriakouras" "Dikti" "Aygo" "Verno" "Askio" "Penteleia" "Kaliakouda" "Selio" "Vermio"
+		"Xatzi" "Athos" "Kerkini" "Trapezitsa" "Tsigkori" "Kallifwnio" "Mainalo" "Ossa" "Paxtourniaska" "Makria Rachi" "Xelidona" "Tomaros"
+		"Menoikio" "Paggaio" "Frakto" "Oligyrtos" "Parnonas" "Panachaiko" "Oxia" "Panaitoliko" "Koziakas" "Vournios" "Valtou" "Vrontous"
+		"Titaros" "Nafpaktias" "Koula" "Elatia" "Arenta" "Oryksi" "Mitsikeli" "Tsamanta" "Voio" "Keryneio" "Kentros" "Triklario"
+		"Artemesio" "Frousia" "Xerovouni" "Lyrkeio" "Elikonas" "Dirfi" "Stamna" "Orthys" "Mouriki" "Makrykabos" "Paramythias" "Paiko"
+		"Chtenias" "Ainos" "Pilio" "Kamvounia" "Souliou" "Saos" "Akarnika" "Chasia" "Kirfi" "Selena" "Tzoumeka" "Papikio" "Kalathio"
+		"Ourida" "Thryptis" "Vrontero" "Gouras" "Afrodisio" "Katafydi" "Kerketeas" "Orliakas" "Lykaio" "Antichasia" "Achladovouno" 
+		"Parnitha" "Kithaironas" "Kallidromo" "Ochi" "Tatrazi" "Kanalos" "Dovras" "Ntevas" "Skoteini" "Profitis Hlias" "Itamos"
+	}
+}
+
+### Theme: Rivers ###
+GRE_THEME_RIVERS_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_RIVERS
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HRS "
+	fallback_name = "Polemikó Ploío-D %d"
+
+	unique = {
+		"Sarantoporos" "Voidomatis" "Pavla" "Thyamis" "Tyria" "Acheron" "Louros" "Arachthos" "Acheloos" "Megdovas" "Agrafiotis" "Granitsiotis"
+		"Evinos" "Mornos" "Pleistos" "Elissonas" "Fonissa" "Zacholitikos" "Krios" "Krathis" "Vouraikos" "Selinountas" "Volinaios" "Charadros"
+		"Glafkos" "Peiros" "Tytheus" "Larissos" "Pineios" "Alfeios" "Erymanthos" "Ladon" "Aroanios" "Lousios" "Neda" "Pamisos" "Nedonas" 
+		"Eurotas" "Oenus" "Inachos" "Cephissus" "Eridanos" "Ilisos" "Asopos" "Spercheios" "Gorgopotamos" "Titarisios" "Enipeas" "Portaikos" 
+		"Anavros" "Krausidonas" "Haliacmon" "Loudias" "Axios" "Gallikos" "Strymonas" "Angitis" "Nestos" "Despatis" "Evros" "Erythropotamos" 
+		"Ardas" "Vosvozis" "Kompsatos" "Kosynthos" "Anapodaris" "Kanianitis" "Olvios" "Erasinos" "Erechios" "Olynthiakos"
+	}
+}
+
+### Theme: Islands ###
+GRE_THEME_ISLANDS_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_ISLANDS
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HRS "
+	fallback_name = "Polemikó Ploío-E %d"
+
+	unique = {
+		"Kriti" "Evvoia" "Rodos" "Kerkyra" "Lesvos" "Chios" "Zakynthos" "Salamina" "Kefalonia" "Kos" "Samos" "Lefkada" "Syros" "Naxos" "Thira" 
+		"Limnos" "Kalymnos" "Thasos" "Mykonos" "Paros" "Aegina" "Andros" "Tinos" "Ikaria" "Leros" "Karpathos" "Skiathos" "Skopelos" "Milos" 
+		"Poros" "Spetses" "Kythera" "Patmos" "Ithaki" "Symi" "Skyros" "Samothraki" "Alonnisos" "Sifnos" "Kea" "Paxoi" "Ios" "Hydra" "Amorgos" 
+		"Kythnos" "Serifos" "Astypalaia" "Fournoi" "Antiparos" "Agistri" "Kasos" "Meganisi" "Nisyros" "Elafonisos" "Kimolos" "Tilos" "Oinousses" 
+		"Folegandros" "Lipsi" "Chalki" "Ammouliani" "Othonoi" "Ereikoussa" "Kastellorizo" "Psara" "Mathraki" "Thirassia" "Anafi" "Sikinos" 
+		"Agios Efstratios" "Schoinoussa" "Agathonisi" "Donousa" "Gavdos" "Irakleia" "Thymaina" "Telendos" "Trizonia" "Kastos" "Pserimos" 
+		"Palaio Trikeri" "Antikythira" "Arkoi" "Saria" "Peristera" "Delos" "Kalolimnos" "Gyali" "Antipaxos" "Dokos" "Farmakonisi" "Makronisos" 
+		"Piperi" "Marathi" "Samiopoula" "Antipsara" "Skorpios" "Kinaros" "Keros"
+	}
+}
+
+### Theme: Animals ###
+GRE_THEME_ANIMALS_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_ANIMALS
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HRS "
+	fallback_name = "Polemikó Ploío-F %d"
+
+	unique = {
+		"Tígri" "Liontari" "Alogo" "Gatopardos" "Antilopi" "Gorilas" "Elefantas" "Zevra" "Ippopotamos" "Kamilopardali" "Alepou"
+		"Leopardali" "Nychterída" "Ouragotakos" "Pouma" "Rinokeros" "Chibatzis" "Toukan" "Skylos" "Gata" "Papagalos" "Chámster" "Arkouda"
+		"Kanarini" "Gaidaros" "Pigkouinos" "Delfini" "Falaina" "Karxarias" "Psari" "Medousas" "Achinos" "Xiphias" "Sfyrokefalos" "Lykos"
+	} 
+}
+
+### Famous Battles ###
+GRE_THEME_BATTLES_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_BATTLES
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "HRS "
+	fallback_name = "Polemikó Ploío-I %d"
+
+	unique = {
+		"Thermopyles" "Valtetsiou" "Variadon" "Galatsiou" "Granas" "Distomo" "Dragatsaniou" "Dodekanison" "Trikorfa" 
+		"Levidiou" "Keratsini" "Bizaniou" "Kiatou" "Metsovo" "Salamina" "Marathonas" "Mykalis" "Knidou" "Arginouson" 
+		"Kuzikou" "Lidorikou" "Maniaki" "Petras" "Plakas" "Granikou" "Plateae" "Chaeronea" "Navarino" "Dervnenakia" 
+		"Domokos" "Maniaki" "Lachanas" "Doiran" "Vevi"
+	} 
+}
+
+### Theme: Mythology ###
+GRE_THEME_GREEK_MYTHOLOGY_COMMUNIST = {
+	name = NAME_THEME_GREEK_MYTHOLOGY
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HRS "
+	fallback_name = "Polemikó Ploío-J %d"
+
+	unique = {
+		### Gods of Olympus/Pantheon ###
+		"Dias" "Adis" "Poseidónas" "Íra" "Athina" "Áris" "Dímitra" "Apóllon" "Ártemis" "Afrodíti" "Ífaistos" "Ermís" "Dionýsios"
+		
+		### Gods - Spirits ###
+		"Achlys" "Aithír" "Aión" "Ananke" "Cháos" "Érevos" "Éros" "Hemera" "Hypnos" "Nemesis" "Nyx" "Ourea" "Phanes" "Pontus" "Tártaros" "Thalassa" 
+		"Thanatos" "Ouranós" "Persefóni" "Helios" "Iós" "Eiríni" "Anáchoma" "Dólos" "Deímos" "Kratos" "Tyche" "Zílos" "Alecto" "Tisifoni" "Megaera" 
+		"Klótho" "Láchesis" "Atropos"
+
+		### Titans ###
+		"Gaia" "Coeus" "Crius" "Krónos" "Yperíon" "Iapetós" "Mnimosýni" "Okeanós" "Foívi" "Réa" "Tithýs" "Theia" "Themis"
+		"Atlas" "Líto" "Promithéas" "Selén" "Styx" "Briaréos" "Kottos" "Gygis" "Agrios" "Alyoneas" "Otos" "Efialtis" "Antaios" "Argos" "Argis" 
+		"Vrontis" "Steropis" "Polyfimos" "Armagedon" "Gegenees" "Giryon" "Laistrygónes" "Oríon" "Porfyrion" "Talos" "Títios" "Tyfón"
+
+		### Figures ###
+		"Iraklís" "Thiséas" "Ariwn" "Achilléas" "Diomídis" "Orféas" "Odysséas" "Patroklos" "Paris" "Perseas" "Protesílaos" "Polyfimos" 
+		"Triptopolemos" "Etolos" "Delfos" "Ermion" "Vellefrontis" "Orion" "Iasonas"
+
+		### Creatures ###
+		"Pígasos" "Týfonas" "Echidna" "Médousa" "Gorgóna" "Seirína" "Skýla" "Cháryvdis" "Émpousa" "Árpyies" "Lamía" "Sfínga" "Chímaira" 
+		"Lernaía Ýdra" "Forádes" "Kérveros" "Stymfalikí" "Erymánthios Kápros" "Minótavros" "Python" "Kolchikós Drákos"
 	}
 }

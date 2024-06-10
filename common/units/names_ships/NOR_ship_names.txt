@@ -311,9 +311,28 @@ NOR_THEME_FJORDS = { # <10km.
 		"Hamnesfjord" "Kornstadfjord" "Kvitsøyfjord" "Sandefjordsfjord" "Sandeidsfjord" "Sulafjorden" "Tomrefjorden" "Etnefjorden" "Fanafjorden" 
 		"Herøyfjord" "Høyangsfjorden" "Kvåsefjorden" "Kåfjorden" "Magdalenefjorden" "Mefjorden" "Valsøyfjorden" "Kilsfjord" "Nordfjorden" 
 		"Recherchefjorden" "Forfjord" "Eidangerfjord" "Gapafjord" "Langangsfjord" "Vetlefjorden" "Økstrafjorden" "Grimstadfjord" "Midtgulen" 
-		"Ombofjord" 
-		#5km
-	} 
+		"Ombofjord" "Woodfjorden" "Wijdefjorden" "Wahlenbergfjorden" "Voldsfjorden" "Vinjefjorden" "Tresfjorden" "Syvdsfjorden" "Skjerstadfjorden"
+	}
+}
+
+### Theme: Glaciers ###
+NOR_THEME_GLACIERS = {
+	name = NAME_THEME_GLACIERS
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HNoMS "
+	fallback_name = "Skip-G %d"
+
+	unique = {
+		"Jostedalsbreen" "Svartisen" "Folgefonna" "Blåmannsisen" "Hardangerjøkulen" "Myklebustbreen" "Okstindbreen" "Øksfjordjøkelen" "Harbardsbreen" 
+		"Salajekna" "Frostisen" "Gihtsejiegŋa" "Sekkebreen" "Tindefjellbreen" "Simlebreen" "Tystigbreen" "Holåbreen" "Grovareen" "Ålfotbreen" 
+		"Fresvikbreen" "Sørbreen" "Seilandsjøkelen" "Smørstabbrean" "Strupbree" "Gjegnalundsbreen" "Memurubreen" "Spidstinden" "Storsteinsfjellbreen" 
+		"Jostefonn" "Veobreen" "Weyprechtbreen" "Langfjordjøkelen" "Kjerulfbreen"
+	}
 }
 
 ### Theme: Culture ###
@@ -326,7 +345,7 @@ NOR_THEME_CULTURE = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HNoMS "
-	fallback_name = "Skip-G %d"
+	fallback_name = "Skip-H %d"
 
 	unique = {
 		"Uavhengighet" "Midnattssol" "Nordlys" "Stortinget" "Skald" "Unionen" "Krig" "Konstitusjonen" "Samisk" "Havbris" "Nordstjerne" "Sjøfalk" 
@@ -334,7 +353,7 @@ NOR_THEME_CULTURE = {
 	}
 }
 
-### Theme: Mythology ###
+### Theme: Nordic Mythology ###
 NOR_THEME_NORDIC_MYTHOLOGY = {
 	name = NAME_THEME_NORDIC_MYTHOLOGY
 
@@ -344,10 +363,10 @@ NOR_THEME_NORDIC_MYTHOLOGY = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HNoMS "
-	fallback_name = "Skip-H %d"
+	fallback_name = "Skip-I %d"
 
 	unique = {
-		### Gods / Godesses #
+		### Gods/Godesses #
 		"Odin" "Thor" "Frøya" "Loke" "Frøy" "Tyr" "Balder" "Frigg" "Hel" "Njord" "Idun" "Skadi" "Forseti" "Heimdall" "Sif" "Bragi" "Eir" 
 		"Vidar" "Sól" "Mani" "Mimir" "Høne" "Modi" "Magni" "Ran" "Hoder" "Snotra" "Vili" "Ve" "Grid" "Jord" "Syn" "Gna" "Aegir" "Bestla" 
 		"Ullr" "Hjuki" "Bil" "Skudl" "Verdandi" "Skogul" "Alfrigg"
@@ -368,29 +387,29 @@ NOR_THEME_MONARCHS = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "HNoMS "
-	fallback_name = "Skip-I %d"
+	fallback_name = "Skip-J %d"
 
 	unique = {
 		### Fairhair Dynasty ###
 		"Harald I" "Eric I" "Haakon I" "Harald II" "Olaf I"
 
 		### House of Gorm ###
-		"Harald Bluetooth" "Earl Haakon Sigurdsson" "Sweyn Forkbeard" "Earl Eric Haakonsson" "Earl Sweyn Haakonsson" "Gnut the Great" "Earl Haakon Ericsson" 
-		"Sweyn Knutsson"
+		"Harald Bluetooth" "Earl Haakon Sigurdsson" "Sweyn Forkbeard" "Earl Eric Haakonsson" "Earl Sweyn Haakonsson" "Gnut the Great" 
+		"Earl Haakon Ericsson" "Sweyn Knutsson"
 
 		### St. Olav Dynasty ###
 		"Olav II Haraldsson"  "Magnus I Olavsson"
 
 		### Hardrada Dynasty ###
-		"Harald III Sigurdsson" "Magnus II Haraldsson" "Olav III Haraldsson" "Haakon II Magnusson" "Magnus III Olavsson" "Olav IV Magnusson" "Eystein I Magnusson" 
-		"Sigurd I Magnusson" "Magnus IV Sigurdsson" "Magnus V Erlingsson"
+		"Harald III Sigurdsson" "Magnus II Haraldsson" "Olav III Haraldsson" "Haakon II Magnusson" "Magnus III Olavsson" "Olav IV Magnusson" 
+		"Eystein I Magnusson" "Sigurd I Magnusson" "Magnus IV Sigurdsson" "Magnus V Erlingsson"
 
 		### Gille Dynasty ###
 		"Herald IV Magnusson" "Sigurd II Haraldsson" "Inge I Haraldsson" "Eystein II Haraldsson" "Magnus V Haraldsson" "Haakon II Sigurdsson"
 
 		### Sverre Dynasty ###
-		"Sverre Sigurdsson" "Haakon III Sverresson" "Guttorm Sigurdsson" "Haakon IV Haakonsson" "Haakon V Haakonsson" "Magnus VI Haakonsson" "Eric II Magnusson" 
-		"Haakon V Magnusson"
+		"Sverre Sigurdsson" "Haakon III Sverresson" "Guttorm Sigurdsson" "Haakon IV Haakonsson" "Haakon V Haakonsson" "Magnus VI Haakonsson" 
+		"Eric II Magnusson" "Haakon V Magnusson"
 
 		### House of Godwin ###
 		"Inge II Bårdsson"
@@ -411,8 +430,8 @@ NOR_THEME_MONARCHS = {
 		"Charles I"
 
 		### House of Oldenburg ###
-		"Christian I" "John" "Christian II" "Frederick I" "Christian III" "Christian IV" "Frederick III" "Christian V" "Frederick IV" "Christian VI" "Frederick V" 
-		"Christian VII" "Frederick VI" "Christian Frederick"
+		"Christian I" "John" "Christian II" "Frederick I" "Christian III" "Christian IV" "Frederick III" "Christian V" "Frederick IV" 
+		"Christian VI" "Frederick V" "Christian VII" "Frederick VI" "Christian Frederick"
 
 		### House of Holstein-Gottorp ###
 		"Charles II"

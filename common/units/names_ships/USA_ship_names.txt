@@ -16,24 +16,23 @@ USA_CV_HISTORICAL = { # Battles - Figures.
 	fallback_name = "Carrier CV-%d"	
 
 	unique = {
-		### Lexington Class ###
+		### Lexington Class (1927) ###
 		"Lexington" "Saratoga" 
 
-		# Ranger Class - Standalone #
+		### Ranger Class (1934) - Standalone ###
 		"Ranger"
 
-		### Yorktown Class ###
+		### Yorktown Class (1937) ###
 		"Yorktown" "Enterprise" "Hornet" 
 
-		### Wasp Class - Standalone ###
+		### Wasp Class (1940) - Standalone ###
 		"Wasp" 
 
-		### Essex Class ###
-		"Essex" "Intrepid" "Bunker Hill" "Franklin" "Ticonderoga" "Hancock" "Bennington" "Shangri-la" "Randolph" "Bon Homme Richard" 
-		"Antietam" "Boxer" "Lake Champlain" "Princeton" "Tarawa" "Kearsarge" "Leyte" "Valley Forge" "Philippine Sea" "Oriskany" "Reprisal" 
-		"Iwo Jima" 
+		### Essex Class (1942) ###
+		"Essex" "Intrepid" "Bunker Hill" "Franklin" "Ticonderoga" "Hancock" "Bennington" "Shangri-la" "Randolph" "Bon Homme Richard" "Antietam" 
+		"Boxer" "Lake Champlain" "Princeton" "Tarawa" "Kearsarge" "Leyte" "Valley Forge" "Philippine Sea" "Oriskany" "Reprisal" "Iwo Jima" 
 
-		### Midway Class ###
+		### Midway Class (1945) ###
 		"Midway" "Franklin D. Roosevelt" "Coral Sea" 
 		
 		### Cold War & Beyond ###
@@ -41,11 +40,11 @@ USA_CV_HISTORICAL = { # Battles - Figures.
 		"Carl Vinson" "Theodore Roosevelt" "Abraham Lincoln" "George Washington"
 
 		### Additionals - Figures ###
-		"Thomas Jefferson" "James Madison" "James K. Polk" "Henry Ford" "John Marshall" "Alexander Hamilton" "Samuel Slater"
+		"Thomas Jefferson" "James Madison" "James K Polk" "Henry Ford" "John Marshall" "Alexander Hamilton" "Samuel Slater"
 
 		### Additionals - Aces ###
-		"Richard Bong" "Thomas McGuire" "David McCampbell" "Francis Gabreski" "Robert Johnson" "Walker Mahurin" "Joseph Foss"
-		"Gerald Johnson" "Charles MacDonald" "James Howard"
+		"Richard Bong" "Thomas McGuire" "David McCampbell" "Francis Gabreski" "Robert Johnson" "Walker Mahurin" "Joseph Foss" "Gerald Johnson" 
+		"Charles MacDonald" "James Howard"
 	}
 }
 
@@ -63,7 +62,7 @@ USA_CVL_HISTORICAL = { # Bays - Islands - Battles.
 
 	unique = {
 		### Light Aircraft Carrier Names ###
-		"Independence" "Princeton" "Belleau Wood" "Cowpens" "Monterey" "Cabot" "Bataan" "San Jacinto" "Saipan" "Wright"
+		"Independence" "Princeton" "Belleau Wood" "Cowpens" "Monterey" "Cabot" "Bataan" "San Jacinto" "Saipan" "Wright" "Langley"
 		
 		### Escort Aircraft Carrier Names ###
 		"Long Island" "Bogue" "Card" "Copahee" "Core" "Croatan" "Nassau" "Altamaha" "Barnes" "Block Island" "Breton" "Prince William" "Sangamon" 
@@ -89,19 +88,19 @@ USA_BB_HISTORICAL = { # States.
 	fallback_name = "Battleship BB-%d"		
 
 	unique = {
-		### North Carolina Class ###
+		### North Carolina Class (1940) ###
  		"North Carolina" "Washington" 
 
- 		### South Dakota Class ###
+ 		### South Dakota Class (1941) ###
  		"South Dakota" "Indiana" "Massachusetts" "Alabama" 
 
- 		### Iowa Class ###
+ 		### Iowa Class (1942) ###
  		"Iowa" "New Jersey" "Missouri" "Wisconsin" "Illinois" "Kentucky"
 
- 		### Montana Class ###
+ 		### Montana Class (1943) ###
  		"Montana" "Ohio" "Maine" "New Hampshire" "Louisiana" 
 
- 		### Additionals (States) ###
+ 		### Additionals - Older Models - States ###
  		"Georgia" "Kansas" "Minnesota" "Vermont" "North Dakota" "Oregon" "Connecticut" "Florida" "Utah" "Delaware" "Rhode Island" "Nebraska" "Virginia" 
  		"Mississippi" "Idaho" "South Carolina" "Michigan" "Wyoming" "Arkansas" "New York" "Texas" "Nevada" "Oklahoma" "Pennsylvania" "Arizona" 
  		"New Mexico" "Tennessee" "California" "Colorado" "Maryland" "West Virginia"
@@ -121,12 +120,12 @@ USA_BC_HISTORICAL = { # Battles.
 	fallback_name = "Battlecruiser BC-%d"		
 
 	unique = {
-		### Large Cruisers - Alaska Class ###
+		### Large Cruisers - Alaska Class (1941) ###
 		"Alaska" "Guam" "Hawaii" "Philippines" "Puerto Rico" "Samoa"
 		
-		### Additionals ###
-		"Ticonderoga" "Boston" "Trenton" "Saratoga" "Kings Mountain" "Cowpens" "Yorktown" "Lexington" "Concord" "Valley Forge" 
-		"Charleston" "Camden" "Gettysburg" "Fort Sumter" "Alamo"
+		### Additionals - Battles ###
+		"Ticonderoga" "Boston" "Trenton" "Saratoga" "Kings Mountain" "Cowpens" "Yorktown" "Lexington" "Concord" "Valley Forge" "Charleston" "Camden" 
+		"Gettysburg" "Fort Sumter" "Alamo"
 	}
 }
 
@@ -143,30 +142,30 @@ USA_CA_HISTORICAL = { # Cities (Largest).
 	fallback_name = "Heavy Cruiser CA-%d"
 
 	unique = {
-		### New Orleans Class ###
-		"Quincy" "Vincennes" 
+		### Portland Class (1933) ###
+		"Portland" "Indianapolis"
 
-		### Wichita Class - Standalone ###
+		### New Orleans Class (1934) ###
+	 	"New Orleans" "Astoria" "Minneapolis" "Tuscaloosa" "San Francisco" "Quincy" "Vincennes" 
+
+		### Wichita Class (1939) - Standalone ###
 		"Wichita" 
 
-		### Baltimore Class ###
+		### Baltimore Class (1942) ###
 		"Baltimore" "Boston" "Canberra" "Pittsburgh" "St. Paul" "Columbus" "Bremerton" "Fall River" "Macon" "Toledo" "Los Angeles" "Chicago"
 
-		### Oregon Classs ###
+		### Oregon Classs (1945) ###
 		"Oregon City" "Albany" "Rochester" "Northampton" "Cambridge" "Bridgeport" "Kansas City" "Tulsa" "Norfolk" "Scranton"
 
-		### Des Moines Class ###
+		### Des Moines Class (1946) ###
 		"Des Moines" "Salem" "Dallas" "Newport News"
-
-		### Worchester Class ###
-		"Worchester" "Roanoke" "Vallejo" "Gary"
  
 		### Recycling - Additionals ###
-		"Pensacola" "Salt Lake City" "Chester" "Louisville" "Houston" "Augusta" "Portland" "Indianapolis" "New Orleans" "Astoria" "Minneapolis" "Tuscaloosa" 
+		"Pensacola" "Salt Lake City" "Chester" "Louisville" "Houston" "Augusta"
 		"San Francisco" "San Antonio" "Austin" "Jacksonville" "Fort Worth" "Seattle" "Charlotte" "El Paso" "Las Vegas" "Memphis" "Albuquerque" "Charleston"
 		"Sacramento" "Mesa" "Long Beach" "Bakersfield" "Arlington" "Tampa" "Anaheim" "Henderson" "Stockton" "Corpus Christi" "Riverside" "Huron" "Frederick"
-		"Santa Ana" "Orlando" "Irvine" "Saint Paul" "Greensboro" "Lincoln" "Plano" "Durham" "Chandler" "Chula Vista" "Gilbert" "Madison" "Fort Wayne"
-		"Lubbock" "Laredo" "Irving" "Chesapeake" "Glendale" "Scottsdale" "Garland" "Fremont" "Santa Clarita" "San Bernardino" "Missoula" "Pueblo"
+		"Santa Ana" "Orlando" "Irvine" "Greensboro" "Lincoln" "Plano" "Durham" "Chandler" "Chula Vista" "Gilbert" "Madison" "Fort Wayne" "Lubbock" "Laredo" 
+		"Irving" "Chesapeake" "Glendale" "Scottsdale" "Garland" "Fremont" "Santa Clarita" "San Bernardino" "Missoula" "Pueblo"
 	}
 }
 
@@ -183,23 +182,25 @@ USA_CL_HISTORICAL = { # Cities.
 	fallback_name = "Light Cruiser CL-%d"
 
 	unique = {
-		### Brooklyn Class ###
+		### Brooklyn Class (1937) ###
 		"Brooklyn" "Philadelphia" "Savannah" "Nashville" "Honolulu" "Boise" "Phoenix" "St. Louis" "Helena"
 
-		### Cleveland Class ###
-		"Cleveland" "Columbia" "Montpelier" "Denver" "Amsterdam" "Santa Fe" "Tallahasse" "Birmingham" "Mobile" "Pasadena" "Springfield"
-		"Topeka" "New Haven" "Huntington" "Dayton" "Wilmington" "Biloxi" "Houston" "Providence" "Manchester" "Buffalo" "Vicksburg"
-		"Duluth" "Newark" "Miami" "Wilkes-Barre" "Oklahoma City" "Little Rock" "Galveston" "Youngstown" "Portsmouth" "Tallahassee"
+		### Cleveland Class (1941) ###
+		"Cleveland" "Columbia" "Montpelier" "Denver" "Amsterdam" "Santa Fe" "Tallahasse" "Birmingham" "Mobile" "Pasadena" "Springfield" "Topeka" "New Haven" 
+		"Huntington" "Dayton" "Wilmington" "Biloxi" "Houston" "Providence" "Manchester" "Buffalo" "Vicksburg" "Duluth" "Newark" "Miami" "Wilkes-Barre" 
+		"Oklahoma City" "Little Rock" "Galveston" "Youngstown" "Portsmouth" "Tallahassee"
 		
-		### Fargo Class ###
-		"Fargo" "Huntington" "Roanoke" "Cheyenne" "Chattanooga"
+		### Fargo Class (1945) ###
+		"Fargo" "Huntington" "Cheyenne" "Chattanooga"
 
-		### Additionals ###
-		"Hartford" "Lancaster" "Galena" "Marion" "Mohican" "Quinnebaug" "Swatara" "Tahoe" "Yosemite" "Montgomery" "Anniston" "Minneapolis" 
-		"Olympia" "Tacoma" "Baton Rouge" "Hialeah" "Modesto" "Huntsville" "Moreno Valley" "Fontana" "Frisco" "Yonkers" "Fayetteville" 
-		"Cape Coral" "McKinney" "Oxnard" "Amarillo" "Grand Rapids" "Grand Prairie" "Overland Park" "Peoria" "Vancouver" "Akron" "Brownsville" 
-		"Tempe" "Shreveport" "Elk Grove" "Ontario" "Santa Rosa" "Mesquite" "Syracuse" "Olathe" "Visalia" "Thornton" "Lakewood" "Hampton" 
-		"Stamford" "Elizabeth" "Carrollton" "Midland"
+		### Worcester Class (1948) ###
+		"Worcester" "Roanoke" "Vallejo" "Gary"
+
+		### Additionals - Cities ###
+		"Hartford" "Lancaster" "Galena" "Marion" "Mohican" "Quinnebaug" "Swatara" "Tahoe" "Yosemite" "Montgomery" "Anniston" "Minneapolis" "Olympia" "Tacoma" 
+		"Baton Rouge" "Hialeah" "Modesto" "Huntsville" "Moreno Valley" "Fontana" "Frisco" "Yonkers" "Fayetteville" "Cape Coral" "McKinney" "Oxnard" "Amarillo" 
+		"Grand Rapids" "Grand Prairie" "Overland Park" "Peoria" "Vancouver" "Akron" "Brownsville" "Tempe" "Shreveport" "Elk Grove" "Ontario" "Santa Rosa" 
+		"Mesquite" "Syracuse" "Olathe" "Visalia" "Thornton" "Lakewood" "Hampton" "Stamford" "Elizabeth" "Carrollton" "Midland"
 	}
 }
 
@@ -216,19 +217,19 @@ USA_CLAA_HISTORICAL = { # Cities.
 	fallback_name = "Light Cruiser CLAA-%d"
 
 	unique = {
-		### Atlanta Class ###
+		### Atlanta Class (1941) ###
 		"Atlanta" "Juneau" "San Diego" "San Juan" 
 
-		### Oakland Class ###
+		### Atlanta Class - Oakland Subclass (1942) ###
 		"Oakland" "Reno" "Flint" "Tucson" 
 
-		### Juneau Class ###
-		"Juneau" "Spokane" "Fresno"
+		### Juneau Class (1945) (2/3) ###
+		"Spokane" "Fresno"
 
-		### Additionals ###
-		"Omaha" "Milwaukee" "Cincinnati" "Raleigh" "Detroit" "Richmond" "Concord" "Trenton" "Marblehead" "Eugene" "Oceanside"
-		"Clarksville" "Pembroke Pines" "Palmdale" "Salinas" "Hayward" "Corona" "Paterson" "Murfreesboro" "Lakewood" "Killeen"
-		"Sunnyvale" "Hollywood" "Roseville" "Bellevue" "Surprise" "Naperville" "Pomona" "Denton" "Fullerton" "Waco" "Warren"
+		### Additionals - Cities ###
+		"Omaha" "Milwaukee" "Cincinnati" "Raleigh" "Detroit" "Richmond" "Concord" "Trenton" "Marblehead" "Eugene" "Oceanside" "Clarksville" "Pembroke Pines" 
+		"Palmdale" "Salinas" "Hayward" "Corona" "Paterson" "Murfreesboro" "Lakewood" "Killeen" "Sunnyvale" "Hollywood" "Roseville" "Bellevue" "Surprise" 
+		"Naperville" "Pomona" "Denton" "Fullerton" "Waco" "Warren"
 	}
 }
 
@@ -245,20 +246,20 @@ USA_DD_HISTORICAL = { # Marine Corp/Navy Heroes.
 	fallback_name = "Destroyer DD-%d"					
 
 	unique = {
-		### Porter (DL), Mahan, Gridley Classes ###
+		### Porter(DL)/Mahan/Gridley Classes ###
 		"Porter" "Phelps" "Clark" "Moffett" "Balch" "Selfridge" "McDougal" "Winslow" "Mahan" "Cummings" "Case" "Conyngham" "Cassin" "Shaw" "Cushing" 
 		"Perkins" "Flusser" "Reid" "Tucker" "Smith" "Drayton" "Downes" "Preston" "Dunlap" "Lamson" "Fanning" "Gridley" "Craven" "McCall" "Maury" 
 		
-		### Bagley, Somers (DL), Benham, Sims Classes ###
+		### Bagley/Somers(DL)/Benham/Sims Classes ###
 		"Bagley" "Mugford" "Ralph Talbot" "Henley" "Blue" "Helm" "Patterson" "Jarvis" "Somers" "Sampson" "Warrington" "Davis" "Jouett" "Benham" "Mayrant" 
 		"Trippe" "Rowan" "Stack" "Ellet" "Rhind" "Lang" "Sterett" "Wilson" "Sims" "Mustin" "Russell" "Anderson" "Hammann" "Buck" "Hughes" "Morris" "Roe" 
 		"Wainwright" "O'Brien" "Walke" 
 		
-		### Benson - Gleaves Classes ###
+		### Benson/Gleaves Classes ###
 		"Gleaves" "Benson" "Plunkett" "Niblack" "Madison" "Mayo" "Lansdale" "Hilary P Jones" "Kearny" "Charles F Hughes" "Livermore" "Eberle" "Gwin" "Meredith" 
 		"Grayson" "Monssen" "Woolsey" "Ludlow" "Edison" "Ericsson" "Wilkes" "Nicholson" "Swanson" "Ingraham" 
 		
-		### Bristol - Laffey Classes ###
+		### Bristol/Laffey Classes ###
 		"Bristol" "Ellyson" "Hambleton" "Rodman" "Emmons" "Macomb" "Forrest" "Fitch" "Corry" "Hobson" "Aaron Ward" "Buchanan" "Cowie" "Knight" "Laffey" 
 		"Woodworth" "Farenholt" "Bailey" "Duncan" "Lansdowne" "Lardner" "McCalla" "Bancroft" "Barton" "Beatty" "Tillman" "Mervine" "Quick" "Boyle" "Champlin" 
 		"Meade" "Murphy" "Parker" "Caldwell" "Coghlan" "Frazier" "Gansevoort" "Gillespie" "Doran" "Earle" "Butler" "Gherardi" "Davison" "Edwards" "Glennon" 
@@ -276,8 +277,8 @@ USA_DD_HISTORICAL = { # Marine Corp/Navy Heroes.
 		"Chauncey" "Clarence K Bronson" "Cotten" "Dortch" "Gatling" "Healy" "Hickox" "Hunt" "Lewis Hancock" "Marshall" "McDermut" "McGowan" "McNair" "Melvin" 
 		"Hopewell" "Porterfield" "Picking" "Halsey Powell" "Uhlmann" "Remey" "Wadleigh" "Norman Scott" "Mertz" "Hailey" "Johnston" "Laws" "Longshaw" "Morrison" 
 		"Tingey" "Twining" "Yarnall" "Prichett" "Robinson" "Ross" "Rowe" "Smalley" "Stoddard" "Watts" "Wren" "Paul Hamilton" "Twiggs" "Bennion" "Heywood L Edwards" 
-		"Richard P Leary" "Bryant" "Stockham" "Wedderburn" "Callaghan" "Cassin" "Irwin" "Howorth" "Killen" "Bearss" "John Hood" "Van Valkenburgh" "Colhoun" "Gregory" 
-		"Little" "Rooks" "Hart" "Metcalf" "Shields" "Wiley" 
+		"Richard P Leary" "Bryant" "Stockham" "Wedderburn" "Callaghan" "Cassin" "Irwin" "Howorth" "Killen" "Bearss" "John Hood" "Van Valkenburgh" "Colhoun" 
+		"Gregory" "Little" "Rooks" "Hart" "Metcalf" "Shields" "Wiley" 
 		
 		### Allen M. Sumner Class ###
 		"Allen M Sumner" "Moale" "Ingraham" "Cooper" "English" "Charles S Sperry" "Ault" "Waldron" "Haynsworth" "John W Weeks" "Mansfield" "Lyman K Swenson" 
@@ -295,12 +296,12 @@ USA_DD_HISTORICAL = { # Marine Corp/Navy Heroes.
 		"Damato" "Forrest Royal" "Brinkley Bass" "Stickell" "O'Hare" "Hamner" "Epperson" "Agerholm" "New" "Holder" "Rich" "Robert H McCard" "Samuel B Roberts" 
 		"William C Lawe" "Lloyd Thomas" "Keppler" "Basilone" "Carpenter" "Robert A Owens" "Timmerman" 
 		
-		### Post-World War 2 - Mitscher, Forrest Sherman Classes  ###
+		### Post-World War 2 - Mitscher/Forrest Sherman Classes  ###
 		"Mitscher" "John S McCain" "Willis A Lee" "Wilkinson" "Forrest Sherman" "John Paul Jones" "Barry" "Decatur" "Jonas Ingram" "Manley" "Du Pont" "Bigelow" 
 		"Blandy" "Mullinnix" "Edson""Morton" "Parsons" "Richard S Edwards" "Turner Joy" "Charles F Adams" "John King" "Lawrence" "Biddle" "Barney" "Henry B Wilson" 
 		"Lynde McCormick" "Towers" 
 		
-		### Sampson, Caldwell, Wickes, Clemson Classes ###
+		### Sampson/Caldwell/Wickes/Clemson Classes ###
 		"Allen" "Little" "Gregory" "Rathburne" "Talbot" "Colhoun" "Stringham" "Waters" "Dorsey" "Dent" "Schley" "Lea" "Palmer" "Tarbell" "Greer" "Upshur" 
 		"Kilty" "Chew" "Elliot" "Crosby" "McKean" "Breckinridge" "Roper" "Barney" "Biddle" "Crane" "Kennison" "Du Pont" "Belknap" "Greene" "Bernadou" 
 		"Badger" "Blakeley" "Tattnall" "Ballard" "Cole" "J Fred Talbott" "Osmond Ingram" "Ellis" "Ward" "Thornton" "Dickerson" "Chandler" "Gillis" "Southard" 
@@ -317,7 +318,7 @@ USA_DD_HISTORICAL = { # Marine Corp/Navy Heroes.
 		"Percival" "Watson" "Robert H Smith" "Thomas E Fraser" "Shannon" "Harry F Bauer" "Adams" "Tolman" "Henry A Wiley" "Shea" "J William Ditter" "Lindsey" 
 		"Castle" "Woodrow R Thompson" "Seaman" "Seymour D Owens" 
 		
-		### Retired Ships - Sampson, Caldwell, Wickes, Clemson Classes ###
+		### Retired Ships - Sampson/Caldwell/Wickes/Clemson Classes ###
 		"Sampson" "Fairfax" "Dyer" "Montgomery" "Israel" "Lamberton" "Boggs" "Breese" "Gamble" "Ramsay" "Williams" "Thomas" "Rodgers" "Swasey" "Crowninshield" 
 		"Smith Thompson" "Mason" "Tracy" "Preble" "Sicard" "Branch" "Pruitt" "Childs" "Williamson" "Abel P Upshur" "James K Paulding" "Welborn C Wood" 
 	}
@@ -406,7 +407,7 @@ USA_MINELAYERS_HISTORICAL = {
 		"1LT William G Sylvester" "Gen. Henry Knox" "MG Arthur Murray" "BG Royal T Frank" "MG Erasmus Weaver" "Gen. Samuel L Mills" "Maj. Samuel Ringgold" 
 		"MG Wallace F Randolph" "Col. Alfred A Maybach" "	Col. Horace F Spurgin" 
 		
-		### Older Minelayer ###
+		### Older Minelayers ###
 		"Shawmut" "Lancaster" "Pensacola" "Galena" "Marion" "Mohican" "Quinnebaug" "Swatara" "Boston" "Chicago" "Baltimore" "San Francisco" 
 		"Tahoe" "Yosemite" "Montgomery" "Anniston" "Minneapolis" "Olympia" "New Orleans" "Albany" "Tacoma"
 	}
@@ -461,6 +462,27 @@ USA_SS_HISTORICAL = { # Fish - Marines Mammals.
 
 ##### Themes #####
 
+### Theme: Historical Leaders ###
+USA_THEME_LEADERS = {
+	name = NAME_THEME_LEADERS
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+	
+	prefix = "USS "
+	fallback_name = "Ship-A %d"						
+	
+	unique = {
+		"George Washington" "Abraham Lincoln" "Thomas Jefferson" "James Madison" "James Monroe" "John Adams" "Benjamin Franklin" "Ulysses S Grant" 
+		"Andrew Jackson" "Patrick Henry" "Woodrow Wilson" "John Marshall" "Ethan Allen" "Sam Houston" "Lafayette" "Von Steuben" "Alexander Hamilton" 
+		"Casimir Pulaski" "Lewis & Clark" "James K. Polk" "Thomas A Edison" "Nathan Hale" "Henry Clay" "Daniel Webster" "Tecumseh" "Daniel Boone" 
+		"Nathanael Greene" "Simon Bolivar" "Kamehameha" "George Washington Carver" "Francis Scott Key" "Mariano G Vallejo" "Will Rogers" "George Bancroft" 
+		"Theodore Roosevelt" "Franklin D Roosevelt" "George C Marshall" "Chester W Nimitz" "Dwight D Eisenhower" "Henry L Stimson" 
+	}
+}
+
 ### Theme: States ###
 USA_THEME_STATES = {
 	name = NAME_THEME_STATES
@@ -471,7 +493,7 @@ USA_THEME_STATES = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship }
 	
 	prefix = "USS "							
-	fallback_name = "Ship-A %d"
+	fallback_name = "Ship-B %d"
 
 	unique = {
 		"Alabama" "Arizona" "Arkansas" "California" "Colorado" "Connecticut" "Delaware" "Florida" "Georgia" "Indiana" "Idaho" "Iowa" "Illinois" "Kansas" "Kentucky"   
@@ -491,7 +513,7 @@ USA_THEME_CITIES = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 	
 	prefix = "USS "
-	fallback_name = "Ship-B %d"						
+	fallback_name = "Ship-C %d"						
 
 	unique = {
 		"Washington" "New York City" "Chicago" "Los Angeles" "San Francisco" "Detroit" "Boston" "Philadelphia" "Pittsburgh" "Cleveland" "St. Louis" "Baltimore" 
@@ -508,100 +530,6 @@ USA_THEME_CITIES = {
 	}
 }
 
-### Theme: Famous Battles ###
-USA_THEME_BATTLES = {
-	name = NAME_THEME_BATTLES
-
-	for_countries = { USA }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
-	
-	prefix = "USS "
-	fallback_name = "Ship-C %d"					
-	
-	unique = {
-		"Bunker Hill" "Valley Forge" "Princeton" "Lexington" "Saratoga" "Ticonderoga" "Bennington" "Vincennes" "Antietam" "Chancellorsville" 
-		"Gettysburg" "Shiloh" "Vicksburg" "Mobile Bay" "Lake Champlain" "Monterey" "San Jacinto" "Belleau Wood" "Cowpens" "Bataan" "Coral Sea" 
-		"Midway" "Leyte" "Tarawa" "Saipan" "Philippine Sea" "Iwo Jima" "Normandy"
-	}
-}
-
-### Theme: Historical Leaders ###
-USA_THEME_LEADERS = {
-	name = NAME_THEME_LEADERS
-
-	for_countries = { USA }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
-	
-	prefix = "USS "
-	fallback_name = "Ship-D %d"						
-	
-	unique = {
-		"George Washington" "Abraham Lincoln" "Thomas Jefferson" "James Madison" "James Monroe" "John Adams" "Benjamin Franklin" "Ulysses S Grant" 
-		"Andrew Jackson" "Patrick Henry" "Woodrow Wilson" "John Marshall" "Ethan Allen" "Sam Houston" "Lafayette" "Von Steuben" "Alexander Hamilton" 
-		"Casimir Pulaski" "Lewis & Clark" "James K. Polk" "Thomas A Edison" "Nathan Hale" "Henry Clay" "Daniel Webster" "Tecumseh" "Daniel Boone" 
-		"Nathanael Greene" "Simon Bolivar" "Kamehameha" "George Washington Carver" "Francis Scott Key" "Mariano G Vallejo" "Will Rogers" "George Bancroft" 
-		"Theodore Roosevelt" "Franklin D Roosevelt" "George C Marshall" "Chester W Nimitz" "Dwight D Eisenhower" "Henry L Stimson" 
-	}
-}
-
-### Theme: Birds (Historical Minesweepers) ###
-USA_THEME_BIRDS = {
-	name = NAME_THEME_BIRDS
-
-	for_countries = { USA }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_cruiser carrier light_cruiser }
-	
-	prefix = "USS "
-	fallback_name = "Ship-E %d"					
-
-	unique = {
-		"Lapwing" "Owl" "Robin" "Swallow" "Tanager" "Cardinal" "Oriole" "Curlew" "Finch" "Heron" "Turkey" "Woodcock" "Quail" "Partridge" "Eider" 
-		"Avocet" "Lark" "Teal" "Kingfisher" "Pelican" "Falcon" "Osprey" "Seagull" "Tern" "Flamingo" "Penguin" "Swan" "Whippoorwill" "Bittern" 
-		"Sanderling" "Auk" "Chewink" "Cormorant" "Gannet" "Grebe" "Mallard" "Ortolan" "Peacock" "Pigeon" "Redwing" "Sandpiper" "Vireo" "Warbler" 
-		"Willet" "Canary" "Raven" "Broadbill" "Chickadee" "Nuthatch" "Pheasant" "Sheldrake" "Skylark" "Starling" "Condor" "Plover" "Goshawk" "Shrike"  
-	}
-}
-
-### Theme: Fish (Historical Submarines) ###
-USA_THEME_FISH = {
-	name = NAME_THEME_FISH
-
-	for_countries = { USA }
-
-	type = ship
-	ship_types = { ship_hull_light ship_hull_submarine destroyer submarine }
-	
-	prefix = "USS "
-	fallback_name = "Ship-F %d"					
-
-	unique = {
-		"Albacore" "Amberjack" "Angler" "Apogon" "Aspro" "Archerfish" "Atule" "Barracuda" "Bass" "Bonita" "Barb" "Blackfish" "Bluefish" "Bonefish" 
-		"Bashaw" "Bluegill" "Bream" "Balao" "Billfish" "Bowfin" "Batfish" "Burrfish" "Barbel" "Barbero" "Baya" "Becuna" "Bang" "Bergall" "Besugo" 
-		"Blackfin" "Blenny" "Blower" "Blueback" "Boarfish" "Brill" "Bugara" "Bullhead" "Bumper" "Cachalot" "Cuttlefish" "Cavalla" "Cobia" "Croaker" 
-		"Cod" "Cero" "Corvina" "Cabrilla" "Capelin" "Cisco" "Crevalle" "Caiman" "Charr" "Chub" "Cabezon" "Capitaine" "Carbonero" "Carp" "Catfish" 
-		"Chivo" "Chopper" "Clamagore" "Cobbler" "Cochino" "Corporal" "Cubera" "Cusk" "Conger" "Comber" "Dolphin" "Darter" "Drum" "Devilfish" "Dragonet" 
-		"Dentuda" "Diodon" "Dogfish" "Dugong" "Escolar" "Entemedor" "Eel" "Espada" "Flying Fish" "Finback" "Flasher" "Flier" "Flounder" "Gar" "Grampus" 
-		"Grayback" "Grayling" "Gato" "Greenling" "Grouper" "Growler" "Grunion" "Guardfish" "Gabilan" "Gunnel" "Gurnard" "Greenfish" "Garlopa" "Garrupa" 
-		"Goldring" "Golet" "Guavina" "Guitarro" "Haddock" "Halibut" "Herring""Haddo" "Hake" "Harder" "Hoe" "Hackleback" "Halfbeak" "Hammerhead" "Hardhead" 
-		"Hawkbill" "Icefish" "Irex" "Jack" "Jawfish" "Jallao" "Kete" "Kraken" "Kingfish" "Lapon" "Lancetfish" "Ling" "Lionfish" "Lagarto" "Lamprey" 
-		"Lizardfish" "Loggerhead" "Manta" "Moray" "Mingo" "Muskallunge" "Mackerel" "Marlin" "Macabi" "Mapiro" "Menhaden" "Mero" "Medregal" "Narwhal" "Nautilus" 
-		"Needlefish" "Nerka" "Ono" "Odax" "Porpoise" "Pike" "Perch" "Pickerel" "Pompano" "Paddle" "Pargo" "Peto" "Pogy" "Pompon" "Puffer" "Piper" "Rasher" "Picuda" 
-		"Pampanito" "Parche" "Pilotfish" "Pintado" "Pipefish" "Piranha" "Plaice" "Pomfret" "Pomodon" "Queenfish" "Quillback" "Raton" "Ray" "Redfin" "Robalo" 
-		"Rock" "Runner" "Roncador" "Razorback" "Redfish" "Ronquil" "Requin" "Remora" "Shark" "Salmon" "Seal" "Skipjack" "Snapper" "Stingray" "Sturgeon" 
-		"Sargo" "Saury" "Spearfish" "Sculpin" "Sailfish" "Swordfish" "Seadragon" "Sealion" "Searaven" "Seawolf" "Shad" "Silversides" "Sawfish" "Scamp" "Scorpion" 
-		"Snook" "Steelhead" "Sunfish" "Sabalo" "Sablefish" "Seahorse" "Skate" "Sand Lance" "Sterlet" "Scabbardfish" "Segundo" "Sea Cat" "Sea Devil" "Sea Dog" "Sea Fox" 
-		"Spikefish" "Sea Owl" "Sea Poacher" "Sea Robin" "Sennet" "Spadefish" "Spot" "Springer" "Stickleback" "Sea Leopard" "Sirago" "Sarda" "Spinax" "Sea Panther" 
-		"Springeren" "Tarpon" "Tambor" "Tautog" "Thresher" "Trout" "Tuna" "Tunny" "Tinosa" "Tullibee" "Tang" "Tilefish" "Threadfin" "Trepang" "Tiru" "Tench" "Thornback" 
-		"Tigrone" "Tirante" "Trutta" "Toro" "Torsk" "Trumpetfish" "Tusk" "Turbot" "Tiburon" "Ulua" "Vendace" "Wahoo" "Whale" "Walrus" "Whitefish" "Whiting" "Wolffish" 
-	}
-}
-
 ### Theme: Mountains ###
 USA_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
@@ -612,16 +540,14 @@ USA_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 
 	prefix = "USS "
-	fallback_name = "Ship-G %d"
+	fallback_name = "Ship-D %d"
 
 	unique = {
-		"McKinley" "Rainier" "Whitney" "Elbert" "Shasta" "Hood" "Teton" "Adams" "Baker" "St. Helens" "Peak" "Katahdin" 
-		"Jefferson" "Rainer" "San Jacinto" "Olympus" "Marcy" "Diablo" "Mitchell" "Mansfield" "Sneffels" "Ritter" "Eielson" 
-		"Guyot" "Osceola" "Index" "Holy Cross" "Scott" "Democrat" "Nebo" "Charlenston" "Stuart" "Tecumseh" "Hesperus" 
-		"Timpanogos" "McLoughlin" "Holyoke" "Zirkel" "Russell" "Moosilauke" "Zuma" "Spurr" "Wilson" "Flume" "Brindley" 
-		"Cheaha" "Monte Sano" "Capshaw" "Dirtseller" "Frog" "Gunters" "Keel" "Halama" "Amak" "Amulet" "Annex" "Arthur" 
-		"Atuk" "Atna" "Begich" "Blackthorn" "Boggs" "Cantara" "Cecil Rhode" "Chichagof" "Denali" "Dilon" "Divide" "Ellamar" 
-		"Hanagita" "Hogback"
+		"McKinley" "Rainier" "Whitney" "Elbert" "Shasta" "Hood" "Teton" "Adams" "Baker" "St. Helens" "Peak" "Katahdin" "Jefferson" "Rainer" "San Jacinto" "Olympus" "Marcy"
+		"Diablo" "Mitchell" "Mansfield" "Sneffels" "Ritter" "Eielson" "Guyot" "Osceola" "Index" "Holy Cross" "Scott" "Democrat" "Nebo" "Charlenston" "Stuart" "Tecumseh"
+		"Hesperus" "Timpanogos" "McLoughlin" "Holyoke" "Zirkel" "Russell" "Moosilauke" "Zuma" "Spurr" "Wilson" "Flume" "Brindley" "Cheaha" "Monte Sano" "Capshaw" "Dirtseller"
+		"Frog" "Gunters" "Keel" "Halama" "Amak" "Amulet" "Annex" "Arthur" "Atuk" "Atna" "Begich" "Blackthorn" "Boggs" "Cantara" "Cecil Rhode" "Chichagof" "Denali" "Dilon"
+		"Divide" "Ellamar" "Hanagita" "Hogback"
 	}
 }
 
@@ -635,17 +561,90 @@ USA_THEME_RIVERS = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 
 	prefix = "USS "
-	fallback_name = "Ship-I %d"
+	fallback_name = "Ship-E %d"
 
 	unique = {
-		"Rio Grande" "Yukon" "Potomac" "Snake" "Red" "Brazos" "Hudson" "Susquehanna" "James" "Wilamette" "Green" "St. Lawrence" 
-		"Allegheny" "San Joaquin" "Cuyahoga" "Pecos" "Chattahoochee" "Yellowstone" "Genesse" "Merrimack" "Kuskokwim" "Wabash" 
-		"Mobole" "Kanawha" "Trinity" "Housatonic" "Platte" "Kenai" "Roanoke" "Klamath" "Sabine" "Ouachita" "Neuse" "Rappahannoc" 
-		"St. Johns" "Deschutes" "Raritan" "Gila" "Nooksack" "Hudson"
+		"Rio Grande" "Yukon" "Potomac" "Snake" "Red" "Brazos" "Hudson" "Susquehanna" "James" "Wilamette" "Green" "St. Lawrence" "Allegheny" "San Joaquin" "Cuyahoga" "Pecos" 
+		"Chattahoochee" "Yellowstone" "Genesse" "Merrimack" "Kuskokwim" "Wabash" "Mobole" "Kanawha" "Trinity" "Housatonic" "Platte" "Kenai" "Roanoke" "Klamath" "Sabine" 
+		"Ouachita" "Neuse" "Rappahannoc" "St. Johns" "Deschutes" "Raritan" "Gila" "Nooksack" "Hudson"
 	}
 }
 
-###################################################################################### Confederate States Ship Names #####################################################################################################
+### Theme: Birds (Historical Minesweepers) ###
+USA_THEME_BIRDS = {
+	name = NAME_THEME_BIRDS
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_cruiser carrier light_cruiser }
+	
+	prefix = "USS "
+	fallback_name = "Ship-F %d"					
+
+	unique = {
+		"Lapwing" "Owl" "Robin" "Swallow" "Tanager" "Cardinal" "Oriole" "Curlew" "Finch" "Heron" "Turkey" "Woodcock" "Quail" "Partridge" "Eider" "Avocet" "Lark" "Teal" 
+		"Kingfisher" "Pelican" "Falcon" "Osprey" "Seagull" "Tern" "Flamingo" "Penguin" "Swan" "Whippoorwill" "Bittern" "Sanderling" "Auk" "Chewink" "Cormorant" "Gannet" 
+		"Grebe" "Mallard" "Ortolan" "Peacock" "Pigeon" "Redwing" "Sandpiper" "Vireo" "Warbler" "Willet" "Canary" "Raven" "Broadbill" "Chickadee" "Nuthatch" "Pheasant" 
+		"Sheldrake" "Skylark" "Starling" "Condor" "Plover" "Goshawk" "Shrike" 
+	}
+}
+
+### Theme: Fish (Historical Submarines) ###
+USA_THEME_FISH = {
+	name = NAME_THEME_FISH
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_light ship_hull_submarine destroyer submarine }
+	
+	prefix = "USS "
+	fallback_name = "Ship-G %d"
+
+	unique = {
+		"Albacore" "Amberjack" "Angler" "Apogon" "Aspro" "Archerfish" "Atule" "Barracuda" "Bass" "Bonita" "Barb" "Blackfish" "Bluefish" "Bonefish"
+		"Bashaw" "Bluegill" "Bream" "Balao" "Billfish" "Bowfin" "Batfish" "Burrfish" "Barbel" "Barbero" "Baya" "Becuna" "Bang" "Bergall" "Besugo"
+		"Blackfin" "Blenny" "Blower" "Blueback" "Boarfish" "Brill" "Bugara" "Bullhead" "Bumper" "Cachalot" "Cuttlefish" "Cavalla" "Cobia" "Croaker"
+		"Cod" "Cero" "Corvina" "Cabrilla" "Capelin" "Cisco" "Crevalle" "Caiman" "Charr" "Chub" "Cabezon" "Capitaine" "Carbonero" "Carp" "Catfish"
+		"Chivo" "Chopper" "Clamagore" "Cobbler" "Cochino" "Corporal" "Cubera" "Cusk" "Conger" "Comber" "Dolphin" "Darter" "Drum" "Devilfish" "Dragonet"
+		"Dentuda" "Diodon" "Dogfish" "Dugong" "Escolar" "Entemedor" "Eel" "Espada" "Flying Fish" "Finback" "Flasher" "Flier" "Flounder" "Gar" "Grampus"
+		"Grayback" "Grayling" "Gato" "Greenling" "Grouper" "Growler" "Grunion" "Guardfish" "Gabilan" "Gunnel" "Gurnard" "Greenfish" "Garlopa" "Garrupa"
+		"Goldring" "Golet" "Guavina" "Guitarro" "Haddock" "Halibut" "Herring""Haddo" "Hake" "Harder" "Hoe" "Hackleback" "Halfbeak" "Hammerhead" "Hardhead"
+		"Hawkbill" "Icefish" "Irex" "Jack" "Jawfish" "Jallao" "Kete" "Kraken" "Kingfish" "Lapon" "Lancetfish" "Ling" "Lionfish" "Lagarto" "Lamprey" "Piper"
+		"Lizardfish" "Loggerhead" "Manta" "Moray" "Mingo" "Muskallunge" "Mackerel" "Marlin" "Macabi" "Mapiro" "Menhaden" "Mero" "Medregal" "Narwhal"
+		"Nautilus" "Needlefish" "Nerka" "Ono" "Odax" "Porpoise" "Pike" "Perch" "Pickerel" "Pompano" "Paddle" "Pargo" "Peto" "Pogy" "Pompon" "Puffer"
+		"Rasher" "Picuda" "Pampanito" "Parche" "Pilotfish" "Pintado" "Pipefish" "Piranha" "Plaice" "Pomfret" "Pomodon" "Queenfish" "Quillback" "Raton"
+		"Redfin" "Robalo" "Rock" "Runner" "Roncador" "Razorback" "Redfish" "Ronquil" "Requin" "Remora" "Shark" "Salmon" "Seal" "Skipjack" "Snapper" "Ray"
+		"Stingray" "Sturgeon" "Sargo" "Saury" "Spearfish" "Sculpin" "Sailfish" "Swordfish" "Seadragon" "Sealion" "Searaven" "Seawolf" "Shad" "Silversides"
+		"Sawfish" "Scamp" "Scorpion" "Snook" "Steelhead" "Sunfish" "Sabalo" "Sablefish" "Seahorse" "Skate" "Sand Lance" "Sterlet" "Scabbardfish" "Segundo"
+		"Spikefish" "Sea Owl" "Sea Poacher" "Sea Robin" "Sennet" "Spadefish" "Spot" "Springer" "Stickleback" "Sea Leopard" "Sirago" "Sarda" "Spinax" "Sea Panther"
+		"Springeren" "Tarpon" "Tambor" "Tautog" "Thresher" "Trout" "Tuna" "Tunny" "Tinosa" "Tullibee" "Tang" "Tilefish" "Threadfin" "Trepang" "Tiru" "Tench"
+		"Thornback" "Tigrone" "Tirante" "Trutta" "Toro" "Torsk" "Trumpetfish" "Tusk" "Turbot" "Tiburon" "Ulua" "Vendace" "Wahoo" "Whale" "Walrus" "Whitefish"
+		"Whiting" "Wolffish" "Sea Cat" "Sea Devil" "Sea Dog" "Sea Fox"
+	}
+}
+
+### Theme: Famous Battles ###
+USA_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+	
+	prefix = "USS "
+	fallback_name = "Ship-I %d"					
+	
+	unique = {
+		"Bunker Hill" "Valley Forge" "Princeton" "Lexington" "Saratoga" "Ticonderoga" "Bennington" "Vincennes" "Antietam" "Chancellorsville" "Gettysburg" "Shiloh" 
+		"Vicksburg" "Mobile Bay" "Lake Champlain" "Monterey" "San Jacinto" "Belleau Wood" "Cowpens" "Bataan" "Coral Sea" "Midway" "Leyte" "Tarawa" "Saipan" 
+		"Philippine Sea" "Iwo Jima" "Normandy"
+	}
+}
+
+##################################################################################################### Confederate States Ship Names #####################################################################################################
 
 ### Aircraft Carrier Names ###
 CSA_CV_CONFEDERATE = {
