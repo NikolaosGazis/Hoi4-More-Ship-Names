@@ -1,9 +1,29 @@
 ##### <Country> Ship Names #####
 
+### Prefixes ###
 # <prefix> = <prefix's meaning>
 
-### Aircaft Carrier Names #####
+### Aircaft Carrier Names ###
 <tag>_CV_HISTORICAL = { # Can remove "Historical" if they aren't historical names, just a cosmetic.
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "<fallback_name> %d"
+
+	unique = { # names go here.
+
+	}
+}
+
+### Light Aircraft Carrier Names ###
+<tag>_CVL_HISTORICAL = {
 	name = <name>
 
 	for_countries = { <tag(s)> }
@@ -136,4 +156,4 @@
 }
 
 ##### Themes #####
-# Additional Themes #
+# Additional Themes - Can be Regions-States-Cities-Mountains-Rivers-Famous Battles-Mythology-Colonies etc #
