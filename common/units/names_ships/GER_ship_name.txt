@@ -1,6 +1,7 @@
 ﻿##### German Ship Names #####
 
-# KMS = Kriegsmarine Schiff (Not Used).
+### Prefixes ###
+# KMS = Kriegsmarine Schiff ('Official' - Not Used).
 # SMS = Seiner Majestät Schiff (Imperial).
 # FGS/DVS = Federal German Ship/Demokratische Volksschiff (NATO - Not Used).
 
@@ -8,7 +9,7 @@
 GER_CV_HISTORICAL = { # Aviation Pioneers - Aces.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -53,7 +54,7 @@ GER_CV_HISTORICAL = { # Aviation Pioneers - Aces.
 GER_CVL_HISTORICAL = { # Rivers.
 	name = NAME_THEME_HISTORICAL_CVL
 	
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -85,7 +86,7 @@ GER_CVL_HISTORICAL = { # Rivers.
 GER_BB_HISTORICAL = { # Figures - Knights - Generals - Provinces/Cities - World War 1 Models.
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -146,7 +147,7 @@ GER_BB_HISTORICAL = { # Figures - Knights - Generals - Provinces/Cities - World 
 GER_BC_HISTORICAL = { # World War 1 Models - Prussian/German Generals.
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -183,7 +184,7 @@ GER_BC_HISTORICAL = { # World War 1 Models - Prussian/German Generals.
 GER_CB_HISTORICAL = { # Mythology.
 	name = NAME_THEME_HISTORICAL_CB
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_heavy ship_hull_cruiser battle_cruiser heavy_cruiser }
@@ -191,11 +192,11 @@ GER_CB_HISTORICAL = { # Mythology.
 	fallback_name = "Großer Kreuzer %d"
 
 	unique = {
-		"Odin" "Thor" "Ägir" "Jöttun" "Siegfried" "Brünhilde" "Forseti" "Váli" "Modi" "Magni" "Tuisto" "Týr" "Freyr" "Máni" "Mímir" 
+		"Odin" "Thor" "Ägir" "Jöttun" "Siegfried" "Brünhilde" "Alvitr" "Forseti" "Váli" "Modi" "Magni" "Týr" "Freyr" "Máni" "Mímir" 
 		"Odr" "Meili" "Heremod" "Vili" "Heimdallr" "Bragi" "Alcis" "Hoenir" "Loki" "Njörðr" "Saxnōt" "Baldr" "Delingr" "Ullr" "Vé" 
 		"Baduhenna" "Bil" "Idis" "Norns" "Tamfana" "Gefjun" "Beyla" "Ilmr" "Lofn" "Irpa" "Hariasa" "Hlín" "Njörun" "Skaði" "Gná" 
 		"Rindr" "Zisa" "Sága" "Hretha" "Vör" "Nehalennia" "Nanna" "Haeva" "Idunn" "Fulla" "Nerthus" "Frigg" "Gullveig" "Sinthgunt" 
-		"Sif" "Freyja"
+		"Sif" "Freyja" "Tuisto" 
 	}
 }
 
@@ -203,10 +204,10 @@ GER_CB_HISTORICAL = { # Mythology.
 GER_CA_HISTORICAL = { # Generals - Admirals - Noble Family.
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
-	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
+	ship_types = { ship_hull_cruiser heavy_cruiser }
 	
 	fallback_name = "Schwerer Kreuzer %d"
 	
@@ -235,10 +236,10 @@ GER_CA_HISTORICAL = { # Generals - Admirals - Noble Family.
 GER_CL_HISTORICAL = { # Cities - World War 1 Models (Mythology).
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
-	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser}
+	ship_types = { ship_hull_cruiser light_cruiser}
 	
 	fallback_name = "Leichter Kreuzer %d"
 
@@ -270,10 +271,10 @@ GER_CL_HISTORICAL = { # Cities - World War 1 Models (Mythology).
 }
 
 ### Destroyer Names ###
-GER_DD_HISTORICAL = { # Naval Personnel.
+GER_DD_HISTORICAL = { # Naval Personnel of World War 1.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -442,7 +443,7 @@ GER_DD_HISTORICAL = { # Naval Personnel.
 GER_TB_HISTORICAL = { # Animals.
 	name = NAME_THEME_HISTORICAL_TB
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -468,7 +469,7 @@ GER_TB_HISTORICAL = { # Animals.
 GER_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -494,12 +495,12 @@ GER_SS_HISTORICAL = {
 GER_THEME_ADMINISTRATIVE_DIVISIONS = {
 	name = NAME_THEME_ADMINISTRATIVE_DIVISIONS
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
 
-	fallback_name = "Schiff-A %d"
+	fallback_name = "Kriegsmarine Schiff-A %d"
 
 	unique = {
 		### German Reich's Divisions ###
@@ -516,12 +517,12 @@ GER_THEME_ADMINISTRATIVE_DIVISIONS = {
 GER_THEME_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "Schiff-B %d"
+	fallback_name = "Kriegsmarine Schiff-B %d"
 
 	unique = {
 		"Hamburg" "München" "Köln" "Frankfurt" "Stuttgart" "Düsseldorf" "Leipzig" "Dortmund" "Essen" "Bremen" "Dresden" "Hannover"
@@ -542,12 +543,12 @@ GER_THEME_CITIES = {
 GER_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "Schiff-C %d"
+	fallback_name = "Kriegsmarine Schiff-C %d"
 
 	unique = {
 		### Bavarian Alps ###
@@ -571,12 +572,12 @@ GER_THEME_MOUNTAINS = {
 GER_THEME_RIVERS = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 	
-	fallback_name = "Schiff-D %d"
+	fallback_name = "Kriegsmarine Schiff-D %d"
 
 	unique = {
 		### (Main) Rivers ###
@@ -600,12 +601,12 @@ GER_THEME_RIVERS = {
 GER_THEME_INSPIRATIONAL = {
 	name = NAME_THEME_INSPIRATION
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "Schiff-E %d"
+	fallback_name = "Kriegsmarine Schiff-E %d"
 
 	unique = {
 		"Stolz" "Einheit" "Kraft" "Ehre" "Ruhm" "Treue" "Freiheit" "Siegswillen" "Widerstand" "Zusammenhalt" "Mut" "Eisernwille" "Siegeszug" 
@@ -619,12 +620,12 @@ GER_THEME_INSPIRATIONAL = {
 GER_THEME_WEATHER = {
 	name = NAME_THEME_WEATHER
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "Schiff-F %d"
+	fallback_name = "Kriegsmarine Schiff-F %d"
 
 	unique = {
 		"Sturm" "Blitz" "Donner" "Nebel" "Welle" "Orkan" "Hagel" "Regen" "Nordwind" "Wirbel" "Eissturm" "Frost" "Schennsturm" "Tornado" 
@@ -638,12 +639,12 @@ GER_THEME_WEATHER = {
 GER_THEME_ANIMALS = {
 	name = NAME_THEME_ANIMALS
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "Schiff-G %d"
+	fallback_name = "Kriegsmarine Schiff-G %d"
 	
 	unique = {
 		"Hund" "Katze" "Maus" "Elefant" "Löwe" "Tiger" "Affe" "Giraffe" "Zebra" "Bär" "Hase" "Fuchs" "Wolf" "Pferd" "Schaf" "Kuh" "Ente" "Gans"
@@ -658,12 +659,12 @@ GER_THEME_ANIMALS = {
 GER_THEME_FISH = {
 	name = NAME_THEME_FISH
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_light ship_hull_submarine destroyer submarine }
 
-	fallback_name = "Schiff-H %d"
+	fallback_name = "Kriegsmarine Schiff-H %d"
 
 	unique = {
 		"Wal" "Delfin" "Hai" "Rochen" "Krake" "Tintenfisch" "Seestern" "Seepferdchen" "Qualle" "Krabbe" "Hummer" "Seelöwe" "Robbe" "Thunfisch" 
@@ -678,11 +679,11 @@ GER_THEME_FISH = {
 GER_THEME_BATTLE = {
 	name = NAME_THEME_BATTLES
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }  
 
 	type = ship
-	fallback_name = "Schiff-I %d"
+	fallback_name = "Kriegsmarine Schiff-I %d"
 	
 	unique = {
 		### Northen War (1656-1660) ###
@@ -716,12 +717,12 @@ GER_THEME_BATTLE = {
 GER_THEME_GERMANIC_MYTHOLOGY = {
 	name = NAME_THEME_GERMANIC_MYTHOLOGY
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battle_cruiser heavy_cruiser }
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
 
-	fallback_name = "Schiff-J %d"
+	fallback_name = "Kriegsmarine Schiff-J %d"
 	
 	unique = {
 		### Gods and Godesses ###
@@ -742,7 +743,7 @@ GER_THEME_GERMANIC_MYTHOLOGY = {
 GER_CV_IMPERIAL = { # Aviation Pioneers - Manufacturers.
 	name = NAME_THEME_IMPERIAL_CARRIERS
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -774,7 +775,7 @@ GER_CV_IMPERIAL = { # Aviation Pioneers - Manufacturers.
 GER_CV_ACES_IMPERIAL = { # World War 1 Aces.
 	name = NAME_THEME_IMPERIAL_ACES
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -802,7 +803,7 @@ GER_CV_ACES_IMPERIAL = { # World War 1 Aces.
 GER_CVL_IMPERIAL = { # Rivers.
 	name = NAME_THEME_IMPERIAL_CVL
 	
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -837,7 +838,7 @@ GER_CVL_IMPERIAL = { # Rivers.
 GER_CVE_IMPERIAL = { # Female Names.
 	name = NAME_THEME_IMPERIAL_CVE
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -861,7 +862,7 @@ GER_CVE_IMPERIAL = { # Female Names.
 GER_BB_IMPERIAL = { # World War 1 Models - Figures - Noble Family.
 	name = NAME_THEME_IMPERIAL_BB
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -919,7 +920,7 @@ GER_BB_IMPERIAL = { # World War 1 Models - Figures - Noble Family.
 GER_BC_IMPERIAL = { # Field Marshals - Generals - Admirals.
 	name = NAME_THEME_IMPERIAL_BC
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -954,11 +955,34 @@ GER_BC_IMPERIAL = { # Field Marshals - Generals - Admirals.
 	}
 }
 
+### Large Cruisers ###
+GER_CB_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CB
+
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
+
+	can_use = { has_government = neutrality }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battle_cruiser heavy_cruiser }
+	
+	prefix = "SMS "
+	fallback_name = "Kaiserliche Großer Kreuzer %d"
+
+	unique = {
+		"Odin" "Thor" "Ägir" "Jöttun" "Siegfried" "Brünhilde" "Alvitr" "Forseti" "Váli" "Modi" "Magni" "Týr" "Freyr" "Máni" "Mímir" 
+		"Odr" "Meili" "Heremod" "Vili" "Heimdallr" "Bragi" "Alcis" "Hoenir" "Loki" "Njörðr" "Saxnōt" "Baldr" "Delingr" "Ullr" "Vé" 
+		"Baduhenna" "Bil" "Idis" "Norns" "Tamfana" "Gefjun" "Beyla" "Ilmr" "Lofn" "Irpa" "Hariasa" "Hlín" "Njörun" "Skaði" "Gná" 
+		"Rindr" "Zisa" "Sága" "Hretha" "Vör" "Nehalennia" "Nanna" "Haeva" "Idunn" "Fulla" "Nerthus" "Frigg" "Gullveig" "Sinthgunt" 
+		"Sif" "Freyja" "Tuisto"
+	}
+}
+
 ### Heavy Cruiser Names ###
 GER_CA_IMPERIAL = { # World War 1 Models - Generals - Admirals.
 	name = NAME_THEME_IMPERIAL_CA
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality } 
 
@@ -1003,7 +1027,7 @@ GER_CA_IMPERIAL = { # World War 1 Models - Generals - Admirals.
 GER_CL_IMPERIAL = { # Historical Models - Cities.
 	name = NAME_THEME_IMPERIAL_CL
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -1033,7 +1057,7 @@ GER_CL_IMPERIAL = { # Historical Models - Cities.
 GER_DD_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_DD
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -1060,7 +1084,7 @@ GER_DD_IMPERIAL = {
 GER_SS_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_SUBMARINES
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -1089,7 +1113,7 @@ GER_SS_IMPERIAL = {
 GER_THEME_STATES_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_STATES
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -1121,7 +1145,7 @@ GER_THEME_STATES_IMPERIAL = {
 GER_THEME_CITIES_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CITIES
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -1155,7 +1179,7 @@ GER_THEME_CITIES_IMPERIAL = {
 GER_THEME_MOUNTAINS_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_MOUNTAINS
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -1185,9 +1209,9 @@ GER_THEME_MOUNTAINS_IMPERIAL = {
 
 ### Theme: Rivers ###
 GER_THEME_RIVERS_IMPERIAL = {
-	name = NAME_THEME_IMPEIAL_RIVERS
+	name = NAME_THEME_IMPERIAL_RIVERS
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -1220,7 +1244,7 @@ GER_THEME_RIVERS_IMPERIAL = {
 GER_THEME_PRUSSIAN_GENERALS = {
 	name = NAME_THEME_PRUSSIAN_GENERALS
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE }
 
 	can_use = { has_government = neutrality }
 
@@ -1247,7 +1271,7 @@ GER_THEME_INSPIRATIONAL_IMPERIAL = {
 
 	can_use = { has_government = neutrality } 
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	type = ship
 	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
@@ -1268,7 +1292,7 @@ GER_THEME_INSPIRATIONAL_IMPERIAL = {
 GER_THEME_WEATHER_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_WEATHER
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -1290,7 +1314,7 @@ GER_THEME_WEATHER_IMPERIAL = {
 GER_THEME_COLONIES_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_COLONIES
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -1325,7 +1349,7 @@ GER_THEME_COLONIES_IMPERIAL = {
 GER_THEME_ANIMALS_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_ANIMALS
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -1348,7 +1372,7 @@ GER_THEME_ANIMALS_IMPERIAL = {
 GER_THEME_FISH_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_FISH
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -1371,7 +1395,7 @@ GER_THEME_FISH_IMPERIAL = {
 GER_THEME_BATTLE_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_BATTLES
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
@@ -1431,12 +1455,12 @@ GER_THEME_BATTLE_IMPERIAL = {
 GER_THEME_GERMANIC_MYTHOLOGICAL_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_MYTHOLOGY
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = neutrality }
 
 	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battle_cruiser heavy_cruiser }
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "SMS "
 	fallback_name = "Kaiserliche Schiff-L %d"
@@ -1458,7 +1482,7 @@ GER_THEME_GERMANIC_MYTHOLOGICAL_IMPERIAL = {
 GER_THEME_COMMUNIST_FIGURES = {
 	name = NAME_THEME_COMMUNIST_FIGURES
 
-	for_countries = { GER PRE WGR DDR }
+	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
 	can_use = { has_government = communism }
 

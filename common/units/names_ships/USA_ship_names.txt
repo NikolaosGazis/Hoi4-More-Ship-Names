@@ -1,7 +1,8 @@
 ﻿##### United States of America Ship Names #####
 
-# USS = United States Ship. (Official)
-# CSS = Confederate States Ship. (Official)
+### Prefixes ###
+# USS = United States Ship. (Official - Used)
+# CSS = Confederate States Ship. (Official - Used)
 
 ### Aircraft Carrier Names ###
 USA_CV_HISTORICAL = { # Battles - Figures.
@@ -644,7 +645,7 @@ USA_THEME_BATTLES = {
 	}
 }
 
-##################################################################################################### Confederate States Ship Names #####################################################################################################
+###################################################################################### Confederate States Ship Names #####################################################################################
 
 ### Aircraft Carrier Names ###
 CSA_CV_CONFEDERATE = {
@@ -675,7 +676,7 @@ CSA_CV_CONFEDERATE = {
 
 ### Light Aircraft Carrier Names ###
 CSA_CVL_CONFEDERATE = { # Bays - Islands - Battles.
-	name = NAME_THEME_HISTORICAL_CVL
+	name = NAME_THEME_CONFEDERATE_CVL
 
 	for_countries = { USA }
 
@@ -740,10 +741,9 @@ CSA_BB_CONFEDERATE = { # States.
  		"Montana" "Ohio" "Maine" "New Hampshire" "Louisiana" 
 
  		### Additionals - States ###
- 		"Georgia" "Kansas" "Minnesota" "Vermont" "North Dakota" "Oregon" "Connecticut" "Florida" "Utah" "Delaware" 
- 		"Rhode Island" "Nebraska" "Virginia" "Mississippi" "Idaho" "South Carolina" "Michigan" "Wyoming" "Arkansas" 
- 		"New York" "Texas" "Nevada" "Oklahoma" "Pennsylvania" "Arizona" "New Mexico" "Tennessee" "California" "Colorado" 
- 		"Maryland" "West Virginia" 
+ 		"Georgia" "Kansas" "Minnesota" "Vermont" "North Dakota" "Oregon" "Connecticut" "Florida" "Utah" "Delaware" "Rhode Island" "Nebraska" 
+ 		"Virginia" "Mississippi" "Idaho" "South Carolina" "Michigan" "Wyoming" "Arkansas" "New York" "Texas" "Nevada" "Oklahoma" "Pennsylvania" 
+ 		"Arizona" "New Mexico" "Tennessee" "California" "Colorado" "Maryland" "West Virginia" 
 	}
 }
 
@@ -905,9 +905,37 @@ CSA_SS_CONFEDERATE = { # Southern River (Length).
 
 ##### Themes #####
 
+### Theme: Historical Leaders ###
+CSA_THEME_LEADERS_CONFEDERATE = {
+	name = NAME_THEME_CONFEDERATE_LEADERS
+
+	for_countries = { CSA USA }
+
+	can_use = {
+		OR = {
+			tag = CSA
+			has_completed_focus = USA_honor_the_confederacy
+		}
+	}
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+	
+	prefix = "CSS "
+	fallback_name = "Confederate Ship-A %d"						
+	
+	unique = {
+		"George Washington" "Abraham Lincoln" "Thomas Jefferson" "James Madison" "James Monroe" "John Adams" "Benjamin Franklin" "Ulysses S Grant" 
+		"Andrew Jackson" "Patrick Henry" "Woodrow Wilson" "John Marshall" "Ethan Allen" "Sam Houston" "Lafayette" "Von Steuben" "Alexander Hamilton" 
+		"Casimir Pulaski" "Lewis & Clark" "James K. Polk" "Thomas A Edison" "Nathan Hale" "Henry Clay" "Daniel Webster" "Tecumseh" "Daniel Boone" 
+		"Nathanael Greene" "Simon Bolivar" "Kamehameha" "George Washington Carver" "Francis Scott Key" "Mariano G Vallejo" "Will Rogers" "George Bancroft" 
+		"Theodore Roosevelt" "Franklin D Roosevelt" "George C Marshall" "Chester W Nimitz" "Dwight D Eisenhower" "Henry L Stimson" 
+	}
+}
+
 ### Theme: States ###
 CSA_THEME_STATES_CONFEDERATE = {
-	name = NAME_THEME_STATES
+	name = NAME_THEME_CONFEDERATE_STATES
 
 	for_countries = { CSA USA }
 
@@ -922,7 +950,7 @@ CSA_THEME_STATES_CONFEDERATE = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship }
 	
 	prefix = "CSS "							
-	fallback_name = "CSS Ship-A %d"
+	fallback_name = "Confederate Ship-B %d"
 
 	unique = {
 		"Alabama" "Arizona" "Arkansas" "California" "Colorado" "Connecticut" "Delaware" "Florida" "Georgia" "Indiana" "Idaho" "Iowa" "Illinois" "Kansas" "Kentucky"   
@@ -934,7 +962,7 @@ CSA_THEME_STATES_CONFEDERATE = {
 
 ### Theme: Cities ###
 CSA_THEME_CITIES_CONFEDERATE = {
-	name = NAME_THEME_CITIES
+	name = NAME_THEME_CONFEDERATE_CITIES
 
 	for_countries = { CSA USA }
 
@@ -949,7 +977,7 @@ CSA_THEME_CITIES_CONFEDERATE = {
 	ship_types = { ship_hull_cruiser ship_hull_submarine heavy_cruiser light_cruiser submarine }
 	
 	prefix = "CSS "
-	fallback_name = "CSS Ship-B %d"						
+	fallback_name = "Confederate Ship-C %d"						
 
 	unique = {
 		"Washington" "New York City" "Chicago" "Los Angeles" "San Francisco" "Detroit" "Boston" "Philadelphia" "Pittsburgh" "Cleveland" "St. Louis" "Baltimore" 
@@ -966,9 +994,9 @@ CSA_THEME_CITIES_CONFEDERATE = {
 	}
 }
 
-### Theme: Famous Battles ###
-CSA_THEME_BATTLES_CONFEDERATE = {
-	name = NAME_THEME_BATTLES
+### Theme: Mountains ###
+CSA_THEME_MOUNTAINS_CONFEDERATE = {
+	name = NAME_THEME_CONFEDERATE_MOUNTAINS
 
 	for_countries = { CSA USA }
 
@@ -980,21 +1008,24 @@ CSA_THEME_BATTLES_CONFEDERATE = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
-	
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
 	prefix = "CSS "
-	fallback_name = "CSS Ship-C %d"					
-	
+	fallback_name = "Confederate Ship-D %d"
+
 	unique = {
-		"Bunker Hill" "Valley Forge" "Princeton" "Lexington" "Saratoga" "Ticonderoga" "Bennington" "Vincennes" "Antietam" "Chancellorsville" 
-		"Gettysburg" "Shiloh" "Vicksburg" "Mobile Bay" "Lake Champlain" "Monterey" "San Jacinto" "Belleau Wood" "Cowpens" "Bataan" "Coral Sea" 
-		"Midway" "Leyte" "Tarawa" "Saipan" "Philippine Sea" "Iwo Jima" "Normandy"
+		"McKinley" "Rainier" "Whitney" "Elbert" "Shasta" "Hood" "Teton" "Adams" "Baker" "St. Helens" "Peak" "Katahdin" "Jefferson" "Rainer" 
+		"San Jacinto" "Olympus" "Marcy" "Diablo" "Mitchell" "Mansfield" "Sneffels" "Ritter" "Eielson" "Guyot" "Osceola" "Index" "Holy Cross" 
+		"Scott" "Democrat" "Nebo" "Charlenston" "Stuart" "Tecumseh" "Hesperus" "Timpanogos" "McLoughlin" "Holyoke" "Zirkel" "Russell" "Moosilauke" 
+		"Zuma" "Spurr" "Wilson" "Flume" "Brindley" "Cheaha" "Monte Sano" "Capshaw" "Dirtseller" "Frog" "Gunters" "Keel" "Halama" "Amak" "Amulet" 
+		"Annex" "Arthur" "Atuk" "Atna" "Begich" "Blackthorn" "Boggs" "Cantara" "Cecil Rhode" "Chichagof" "Denali" "Dilon" "Divide" "Ellamar" 
+		"Hanagita" "Hogback"
 	}
 }
 
-### Theme: Historical Leaders ###
-CSA_THEME_LEADERS_CONFEDERATE = {
-	name = NAME_THEME_LEADERS
+### Theme: Rivers ###
+CSA_THEME_RIVERS_CONFEDERATE = {
+	name = NAME_THEME_CONFEDERATE_RIVERS
 
 	for_countries = { CSA USA }
 
@@ -1006,23 +1037,21 @@ CSA_THEME_LEADERS_CONFEDERATE = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
-	
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
 	prefix = "CSS "
-	fallback_name = "CSS Ship-D %d"						
-	
+	fallback_name = "Confederate Ship-E %d"
+
 	unique = {
-		"George Washington" "Abraham Lincoln" "Thomas Jefferson" "James Madison" "James Monroe" "John Adams" "Benjamin Franklin" "Ulysses S Grant" 
-		"Andrew Jackson" "Patrick Henry" "Woodrow Wilson" "John Marshall" "Ethan Allen" "Sam Houston" "Lafayette" "Von Steuben" "Alexander Hamilton" 
-		"Casimir Pulaski" "Lewis & Clark" "James K. Polk" "Thomas A Edison" "Nathan Hale" "Henry Clay" "Daniel Webster" "Tecumseh" "Daniel Boone" 
-		"Nathanael Greene" "Simon Bolivar" "Kamehameha" "George Washington Carver" "Francis Scott Key" "Mariano G Vallejo" "Will Rogers" "George Bancroft" 
-		"Theodore Roosevelt" "Franklin D Roosevelt" "George C Marshall" "Chester W Nimitz" "Dwight D Eisenhower" "Henry L Stimson" 
+		"Rio Grande" "Yukon" "Potomac" "Snake" "Red" "Brazos" "Hudson" "Susquehanna" "James" "Wilamette" "Green" "St. Lawrence" "Allegheny"
+		"San Joaquin" "Cuyahoga" "Pecos" "Chattahoochee" "Yellowstone" "Genesse" "Merrimack" "Kuskokwim" "Wabash" "Mobole" "Kanawha" "Trinity"
+		"Housatonic" "Platte" "Kenai" "Roanoke" "Klamath" "Sabine" "Ouachita" "Neuse" "Rappahannoc" "St. Johns" "Deschutes" "Raritan" "Gila"
+		"Nooksack" "Hudson"
 	}
 }
-
 ### Theme: Birds ###
 CSA_THEME_BIRDS_CONFEDERATE = {
-	name = NAME_THEME_BIRDS
+	name = NAME_THEME_CONFEDERATE_BIRDS
 
 	for_countries = { CSA USA }
 
@@ -1037,7 +1066,7 @@ CSA_THEME_BIRDS_CONFEDERATE = {
 	ship_types = { ship_hull_carrier ship_hull_light carrier destroyer }
 	
 	prefix = "CSS " 
-	fallback_name = "CSS Ship-E %d"					
+	fallback_name = "Confederate Ship-F %d"					
 
 	unique = {
 		"Lapwing" "Owl" "Robin" "Swallow" "Tanager" "Cardinal" "Oriole" "Curlew" "Finch" "Heron" "Turkey" "Woodcock" "Quail" "Partridge" "Eider" 
@@ -1047,9 +1076,9 @@ CSA_THEME_BIRDS_CONFEDERATE = {
 	}
 }
 
-### Theme: Fish (Historical Submarines) ###
+### Theme: Fish ###
 CSA_THEME_FISH_CONFEDERATE = {
-	name = NAME_THEME_FISH
+	name = NAME_THEME_CONFEDERATE_FISH
 
 	for_countries = { CSA USA }
 
@@ -1064,7 +1093,7 @@ CSA_THEME_FISH_CONFEDERATE = {
 	ship_types = { ship_hull_light ship_hull_submarine destroyer submarine }
 	
 	prefix = "CSS "
-	fallback_name = "CSS Ship-F %d"					
+	fallback_name = "Confederate Ship-G %d"					
 
 	unique = {
 		"Albacore" "Amberjack" "Angler" "Apogon" "Aspro" "Archerfish" "Atule" "Barracuda" "Bass" "Bonita" "Barb" "Blackfish" "Bluefish" "Bonefish" 
@@ -1088,9 +1117,9 @@ CSA_THEME_FISH_CONFEDERATE = {
 	}
 }
 
-### Theme: Mountains ###
-CSA_THEME_MOUNTAINS_CONFEDERATE = {
-	name = NAME_THEME_MOUNTAINS
+### Theme: Famous Battles ###
+CSA_THEME_BATTLES_CONFEDERATE = {
+	name = NAME_THEME_CONFEDERATE_BATTLES
 
 	for_countries = { CSA USA }
 
@@ -1102,45 +1131,14 @@ CSA_THEME_MOUNTAINS_CONFEDERATE = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+	
 	prefix = "CSS "
-	fallback_name = "CSS Ship-G %d"
-
+	fallback_name = "Confederate Ship-H %d"					
+	
 	unique = {
-		"McKinley" "Rainier" "Whitney" "Elbert" "Shasta" "Hood" "Teton" "Adams" "Baker" "St. Helens" "Peak" "Katahdin" 
-		"Jefferson" "Rainer" "San Jacinto" "Olympus" "Marcy" "Diablo" "Mitchell" "Mansfield" "Sneffels" "Ritter" "Eielson" 
-		"Guyot" "Osceola" "Index" "Holy Cross" "Scott" "Democrat" "Nebo" "Charlenston" "Stuart" "Tecumseh" "Hesperus" 
-		"Timpanogos" "McLoughlin" "Holyoke" "Zirkel" "Russell" "Moosilauke" "Zuma" "Spurr" "Wilson" "Flume" "Brindley" 
-		"Cheaha" "Monte Sano" "Capshaw" "Dirtseller" "Frog" "Gunters" "Keel" "Halama" "Amak" "Amulet" "Annex" "Arthur" 
-		"Atuk" "Atna" "Begich" "Blackthorn" "Boggs" "Cantara" "Cecil Rhode" "Chichagof" "Denali" "Dilon" "Divide" "Ellamar" 
-		"Hanagita" "Hogback"
-	}
-}
-
-### Theme: Rivers ###
-CSA_THEME_RIVERS_CONFEDERATE = {
-	name = NAME_THEME_RIVERS
-
-	for_countries = { CSA USA }
-
-	can_use = {
-		OR = {
-			tag = CSA
-			has_completed_focus = USA_honor_the_confederacy
-		}
-	}
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-
-	prefix = "CSS "
-	fallback_name = "CSS Ship-I %d"
-
-	unique = {
-		"Rio Grande" "Yukon" "Potomac" "Snake" "Red" "Brazos" "Hudson" "Susquehanna" "James" "Wilamette" "Green" "St. Lawrence" 
-		"Allegheny" "San Joaquin" "Cuyahoga" "Pecos" "Chattahoochee" "Yellowstone" "Genesse" "Merrimack" "Kuskokwim" "Wabash" 
-		"Mobole" "Kanawha" "Trinity" "Housatonic" "Platte" "Kenai" "Roanoke" "Klamath" "Sabine" "Ouachita" "Neuse" "Rappahannoc" 
-		"St. Johns" "Deschutes" "Raritan" "Gila" "Nooksack" "Hudson"
+		"Bunker Hill" "Valley Forge" "Princeton" "Lexington" "Saratoga" "Ticonderoga" "Bennington" "Vincennes" "Antietam" "Chancellorsville" 
+		"Gettysburg" "Shiloh" "Vicksburg" "Mobile Bay" "Lake Champlain" "Monterey" "San Jacinto" "Belleau Wood" "Cowpens" "Bataan" "Coral Sea" 
+		"Midway" "Leyte" "Tarawa" "Saipan" "Philippine Sea" "Iwo Jima" "Normandy"
 	}
 }

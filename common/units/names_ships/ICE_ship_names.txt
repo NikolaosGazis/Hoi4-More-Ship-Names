@@ -1,6 +1,7 @@
 ﻿##### Icelandic Ship Names #####
 
-# ICGV = Icelandic Coastal Guard Vessel. (Official)
+### Prefixes ###
+# ICGV = Icelandic Coastal Guard Vessel. (Official - Used)
 
 ### Aircraft Carrier Names ###
 ICE_CV_HISTORICAL = { # Flying Creatures - Mythological.

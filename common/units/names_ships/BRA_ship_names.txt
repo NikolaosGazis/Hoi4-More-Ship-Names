@@ -1,6 +1,7 @@
 ﻿##### Brazilian Ship Names #####
 
-# NRB = Navio da República Brasileira. (Officia
+### Prefixes ###
+# NRB = Navio da República Brasileira. (Official - Used)
 
 ### Aircraft Carrier Names ###
 BRA_CV_HISTORICAL = { # Flying Creatures - Mythological.

@@ -1,7 +1,7 @@
 ##### European Union Ship Names #####
+### Since its a formable of no Historical Basis, its compromised only from Themes and not 'Historical' Categories ###
 
-# Since its a formable of no Historical Basis, its compromised only from themes and not 'Historical' categories (excluding Submarines) #
-
+### Prefixes ###
 # EUS = European Union Ship.
 
 ### Theme: Nations ###

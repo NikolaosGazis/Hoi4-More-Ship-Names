@@ -1,6 +1,7 @@
 ﻿##### Greek Ship Names #####
 
-# RHS = Royal Hellenic Ship. (Official)
+### Prefixes ###
+# RHS = Royal Hellenic Ship. (Official - Used)
 # HRS = Hellenic Republic Ship. (Communist)
 # RBS = Royal Byzantine Ship. (Byzantium)
 
@@ -142,7 +143,7 @@ GRE_CL_HISTORICAL = { # Cities.
 }
 
 ### Destroyer Names ###
-GRE_DD_HISTORICAL = { # Weaponary - Weather Phenomenom.
+GRE_DD_HISTORICAL = { # Weaponry - Weather Phenomenom.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
 	for_countries = { GRE }
@@ -156,7 +157,7 @@ GRE_DD_HISTORICAL = { # Weaponary - Weather Phenomenom.
 	fallback_name = "Antitorpiliko %d"					
 
 	unique = {
-		### Weaponary ###
+		### Weaponry ###
 		"Lonchi" "Aspis" "Spathi" "Dory" "Xiphos" "Akontio" "Tokso" "Velos" "Kranos" "Thorakas" "Knimides" "Kopis" "Pyrovoliko" 
 		"Sarissa" "Pilos" "Akontion" "Arma" "Xyston" "Sfentona" "Katapeltis" "Martiobarbuli" "Romphaia" "Pelta" "Gastraphetes"
 		"Arpi" "Sica" "Olisideron" "Arpaga" "Akon" "Sfaira" "Kanoni"

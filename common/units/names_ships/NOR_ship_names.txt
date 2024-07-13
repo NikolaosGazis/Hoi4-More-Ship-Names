@@ -1,6 +1,7 @@
 ﻿##### Norwish Ship Names #####
 
-# HNoMS = His Norwegian Majesty's Ship. (Official)
+### Prefixes ###
+# HNoMS = His Norwegian Majesty's Ship. (Official - Used)
 
 ### Aircraft Carrier Names ###
 NOR_CV_HISTORICAL = { # Aviators - Flying Creatures.

@@ -1,6 +1,7 @@
 ﻿##### English/British Ship Names #####
 
-# HMS = Her Majesty's Ship. (Official)
+### Prefixes ###
+# HMS = Her Majesty's Ship. (Official - Used)
 # RNS = Republican Navy Ship. (Kaiserreich)
 
 ### Aircraft Carrier Names ###

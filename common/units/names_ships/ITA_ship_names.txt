@@ -1,10 +1,11 @@
 ##### Italian Ship Names #####
 
-# RM = Regia Marina. (Official) 
-# RN = Regia Nave.
-# RI = Regio Incrociatore.
-# RCT = Regio Cacciatorpediniere.
-# RSmg = Regio Sommergibile.
+### Prefixes ###
+# RM = Regia Marina. (Official (General) - Used) 
+# RN = Regia Nave. (Hull Prefix)
+# RI = Regio Incrociatore. (Hull Prefix)
+# RCT = Regio Cacciatorpediniere. (Hull Prefix)
+# RSmg = Regio Sommergibile. (Hull Prefix)
 
 ### Aircraft Carrier Names ###
 ITA_CV_HISTORICAL = { # Flying Creatures.

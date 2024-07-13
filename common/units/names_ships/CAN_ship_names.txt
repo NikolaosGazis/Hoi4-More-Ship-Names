@@ -1,6 +1,7 @@
 ﻿##### Canadian Ship Names #####
 
-# HMCS = His Majesty's Canadian Ship.
+### Prefixes
+# HMCS = His Majesty's Canadian Ship. (Official - Used)
 
 ### Aircraft Carrier Names ###
 CAN_CV_HISTORICAL = { # Adjectives.

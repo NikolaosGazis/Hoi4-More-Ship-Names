@@ -1,6 +1,7 @@
 ﻿##### Polish Ship Names #####
 
-# ORP = Okręt Rzeczypospolitej Polskiej. (Official)
+### Prefixes ###
+# ORP = Okręt Rzeczypospolitej Polskiej. (Official - Used)
 
 ### Aircraft Carrier Names ###
 POL_CV_HISTORICAL = { # Aviators.

@@ -1,6 +1,7 @@
 ﻿### Austrian-Hungarian Empire Ship Names ###
 
-# SMS = Seiner Majestät Schiff. (Imperial)
+### Prefixes ###
+# SMS = Seiner Majestät Schiff. (Official - Imperial)
 
 ### Aircraft Carrier Names ###
 AUH_CV_IMPERIAL = { # Aces - Aviation Pioneers.

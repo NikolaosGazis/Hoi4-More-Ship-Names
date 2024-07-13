@@ -1,0 +1,381 @@
+﻿##### Portuguse Ship Names #####
+
+### Prefixes ###
+# NRP = Navio da República Portuguesa. (Official - Used)
+
+### Aircraft Carrier Names ###
+POR_CV_HISTORICAL = { # Aviators.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "NRP "
+	fallback_name = "Porta-Aviões %d"	
+
+	unique = {
+		"Gago Coutinho" "Sacadura Cabral" "Alfredo de Sousa Cardoso" "Manuel Gouveia" "Sarmento de Beires" "Armando da Silva Mendes" 
+		"Artur de Sacadura Freire" "Joaquim Pedro Martins" "Bartolomeu de Gusmão" "Carlos Bleck" "Francisco Lázaro Rodrigues" 
+		"João Ribeiro de Barros" "Eduardo Gomes" "Norton de Matos" "Carlos Bleck" "João Alberto Faria" "Artur Santos" "Αrtur de Freitas"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+POR_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "NRP "
+	fallback_name = "Porta-Aviões Leve %d"
+
+	unique = {
+		"Águia" "Falcão" "Condor" "Coruja" "Gavião" "Albatroz" "Andorinha" "Cisne" "Gaivota" "Garça" "Pato" "Pelicano" "Pombo" "Rouxinol" 
+		"Pardal" "Corvo" "Urubu" "Tuiuiú" "Arara" "Beija-flor" "Borboleta" "Abutre" "Açor" "Avestruz" "Colibri" "Garibaldi" "Grifo" "Íbis" 
+		"Jacu" "Jandaia" "Martim-Pescador" "Pardela" "Periquito" "Pintassilgo" "Sabia" "Socó" "Tordo" "Uirapuru" "Zangão"
+	} 
+}
+
+### Battleship Names ###
+POR_BB_HISTORICAL = { # Importance - Brazilian States.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "NRP "
+	fallback_name = "Couraçado %d"		
+
+	unique = {
+		### Importance ###
+		"Amadora" "Estoril" "Principe Real" "Rainha de Portugal" "Afonso de Albuquerque" "Infante de Pedro" "Medusa" "Maria Primeira" "St Sebastiao"
+
+		### Brazilian States ###
+		"Minas Gerais" "São Paulo" "Santa Catarina" "Espirito Santo" "Rio de Janeiro" "Maranhão" "Goiás" "Rio Grande do Sul" "Pará" "Alagoas"
+		"Pernambuco" "Roraima" "Tocantins" "Santa Catarina" "Rio Grande do Norte" "Paraná" "Acre" "Mato Grosso" "Amazona" "Rondonia" "Amapá"
+		"Piaui" "Ceará" "Sergipe" "Paraíba" "Mato Grosso do Sul" 
+	}
+}
+
+### Battlecruiser Names ###
+POR_BC_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "NRP "
+	fallback_name = "Cuzador Couraçado %d"		
+
+	unique = {
+		"Poderoso" "Invencível" "Destemido" "Majestoso" "Veloz" "Furioso" "Implacável" "Indomável" "Corajoso" "Destruidor" "Dominante" "Letal" 
+		"Valente" "Formidável" "Incansável" "Audaz" "Temível" "Invicto" "Heroico" "Suprem" "Resistente" "Agressivo" "Vingador" "Triunfante" 
+		"Magnífico" "Impetuoso" "Tenaz" "Arrojado" "Invulnerável" "Temerário" "Valorizado" "Estrategista" "Impactante" "Inabalável"
+	}
+}
+
+### Heavy Cruiser Names ###
+POR_CA_HISTORICAL = { # Admirals.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "NRP "
+	fallback_name = "Cruzador Pesado %d"
+
+	unique = {
+		"Infante Dom Henrique" "Bartolomeu Dias" "Vasco da Gama" "Pedro Cabral" "Afonso de Albuquerque" "Fernão de Magalhães" "Francisco de Almeida" 
+		"João de Castro" "Tristão da Cunha" "Diogo Cão" "Estêvão da Gama" "Martim de Sousa" "António de Saldanha" "Manuel I" "Lopes de Sequeira" 
+		"Lopo Gonçalves" "Gaspar de Lemos" "Nuno da Silva" "Filipe de Brito" "Álvaro de Bazán" "Nuno Tristão" "João Vaz Corte-Real" "Cristóvão da Gama" 
+		"Duarte Pacheco Pereira" "Gonçalo Cabral" "Jorge Álvares" "Dinis Dias" "João da Nova" "João de Sá Panasco" "Pêro da Covilhã"
+	}
+}
+
+### Light Cruiser Names ###
+POR_CL_HISTORICAL = { # Older Models - Generals/Officers.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "NRP "
+	fallback_name = "Cruzador Ligeiro %d"
+
+	unique = {
+		###	Older Models ###
+		"Rainha Dona Amélia" "Vasco da Gama" "Adamastor" "São Gabriel" "São Rafael" "Dom Carlos I"
+
+		### Additionals - Generals ###
+		"Nuno Álvares Pereira" "António Luís" "Marquês de Pombal" "Francisco de Miranda" "Friedrich Wilhelm" "Viriato" "Dom Pedro de Meneses" 
+		"Dom Fernando" "João Lavrador" "Dom Manuel I" "Simão de Andrade" "Gaspar Correia" "Luís de Almeida" "António Moniz Barreto" "Paio Peres Correia" 
+		"Fernão Mendes Pinto" "António Maria Baptista" "José Augusto Alves Roçadas" "Henrique de Menezes" "Francisco Barreto" "António de Saldanha" 
+		"Dom Luís de Ataíde" "Manuel Pessanha" "Dom António de Noronha" "Fernando de Magalhães" "Dom Fernando" "Rodrigo de Freitas" "Pedro de Sousa Holstein" 
+		"Francisco de Sá Carneiro" "António José de Ávila" "Dom Luís de Meneses" "Martinho de Castelo" "Diogo Lopes de Sequeira" "Dom Duarte" 
+		"Vasco Mascarenhas" "João Rodrigues Cabrilho"
+	}
+}
+
+### Destroyer Names ###
+POR_DD_HISTORICAL = { # Rivers - Lakes.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "NRP "
+	fallback_name = "Contratorpedeiro %d"					
+
+	unique = {
+		### Douro Class (1913/1935) - Standalone ###
+		"Douro"
+
+		### Vouga Class (1933) ###
+		"Vouga" "Lima" "Tejo" "Dão" "Tâmega"
+
+		### Torpedo Boats ###
+		"Ave" "Liz" "Sado" "Mondego" "Cávado" "Zêzere"
+
+		### Additionals - Lakes ###
+		"Caldeirão" "Funda" "Branca" "Comprida" "Negra" "Seca" "da Lomba" "Rasa" "Caldeira" "Patas" "Prainha" "Paul" "Corre Água" 
+		"Landroal" "Caiado" "Grotões" "Rosada" "Peixinho" "Ilhéu" "Barreira" "Vila" "Negro" "Lagoinhas" "Ginjal" "Alpanaque" "Areeiro" 
+		"Escampadouro" "Junco" "Labaçal" "Cântaros" "Comprida" "Conchos" "Quelhas" "Francelha" "Meio" "Peixão" "Serrano" "Viriato" 
+		"Furnas Dam"
+
+		### Additionals ###
+		"Nuno Tristão" "Diogo Gomes" "Diogo Cão" "Corte Real" "Pêro Escobar"
+	}
+}
+
+### Escort Destroyer Names ###
+POR_DE_HISTORICAL = { # Lakes.
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "NRP "
+	fallback_name = "Contratorpedeiro Escolta %d"
+
+	unique = {
+		"das Sete Cidades" "Santiago" "do Fogo" "Campo" "Éguas" "Congro" "Canário" "Empadadas" "Pau Pique" "Carvão" "São Brás" "Nenúfares"
+		"Peixe" "Madeira" "Canas" "Prata" "Achadas" "Grande" "Norte" "Junco" "Santo Cristo" "Cubres" "Bernardino" "Alto" "Esperança" "Pinheiro"
+	}
+}
+
+### Submarine Names ###
+POR_SS_HISTORICAL = { # Sea Creatures - Mythology.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "NRP "
+	fallback_name = "Submarino %d"
+	
+	unique = {
+		### Historical Models ###
+		"Espadarte" "Foca" "Golfinho" "Hidra" "Delfim"
+
+		### Post World War 2 ###
+		"Narval" "Nautilo" "Neptuno" "Albacora" "Barracuda" "Cachalote" "Tridente" "Arpão"
+
+		### Additionals - Sea Creatures ###
+		"Peixe" "Tubarão" "Baleia" "Polvo" "Lula" "Estrela-do-mar" "Cavalo-marinho" "Medusa" "Tartaruga-marinha" "Siri" "Lagosta" 
+		"Enguia" "Raia" "Tritão" "Sereia" "Kraken" "Atum" "Sardinha" "Bacalhau" "Moreia" "Robalo" "Garoupa" "Corvina" "Linguado" 
+		"Peixe-espada" "Peixe-agulha" "Caranguejo" "Camarão" "Mexilhão" "Vieira" "Dugongo" "Leviatã"
+	}
+}
+
+##### Themes #####
+
+### Theme: DISTRICTS ###
+POR_THEME_DISTRICTS = {
+	name = NAME_THEME_DISTRICTS
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "NRP "
+	fallback_name = "Enviar-A %d"
+
+	unique = {
+		### Modern Day Districts ###
+		"Lisbon" "Porto" "Madeira" "Braga" "Aveiro" "Setúbal" "Leiria" "Azores" "Coimbra" "Viana do Castelo" "Faro" "Viseu" "Santarém" 
+		"Vila Real" "Castelo Branco" "Guarda" "Évora" "Bragança" "Portalegre" "Beja"
+
+		### Former Districts (Mainland - Overseas) ###
+		"Andra do Heroismo" "Horta" "Ponta" "Funchal" "Lamego"
+	}
+}
+
+### Theme: Cities ###
+POR_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "NRP "
+	fallback_name = "Enviar-B %d"
+
+	unique = {
+		"Lisbon" "Porto" "Vila Nova de Gaia" "Amadora" "Braga" "Coimbra" "Funchal" "Setúbal" "Almada" "Agualva-Cacém" "Quelez" "Rio Tinto" 
+		"Barreiro" "Aveiro" "Viseu" "Odivelas" "Guimarães" "Leiria" "Faro" "Matoshinhos" "Loures" "Portimão" "Póvoa de Varzim" "Amora" "Maia" 
+		"Évora" "Montijo" "Ponta Delgada" "Ermesinde" "Viana do Castelo" "Vila Nova de Famalicão" "Castelo Branco" "Covilhã" "Felgueiras"
+		"Alverca do Ribatejo" "Seixal" "Santarém" "Figueira da Foz" "Vila do Conde" "Póvoa de Santa Iria" "Olhão" "Caldas da Rainha" "Vila Real" 
+		"Santo Tirso" "Gondomar" "Senhoa da Hora" "Valongo" "Guarda" "Sacavém" "Bragança" "São Mamede de Infesta" "Beja" "São João da Madeira" 
+		"Albufeira" "Chaves" "Espinho" "Caniço" "Barcelos" "Paredes" "Entroncamento" "Lagos" "Torres Vedras" "Quarteira" "Abrantes" "Trofa" 
+		"Over" "Vila Franca de Xira" "Fafe" "Oliveira de Azeméis"
+	}
+}
+
+### Theme: Mountains ###
+POR_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "NRP "
+	fallback_name = "Enviar-C %d"
+
+	unique = {
+		### Pico Island/Azores ###
+		"Pico" "Pequeno" "Barossa" "Alto" "Silveira" "Cabeço Gordo" "Silvado" "Calhau" "Montanha do Cachorro"
+
+		### Serra da Estrela ###
+		"Torre" "Margo" "Gordo" "Pedrice" "Brancos" "Santinha" "São Bento" "Taloeiros" "Pousada" "Pina" "Negra" "Carris"
+
+		### Madeira Island ###
+		"Ruivo" "da Torres" "Arireiro" "Gato" "Cidrão" "Cedro" "Casado" "Negro" "Vermelho" "João"
+
+		### Serra do Gerês ###
+		"Nevosa" "Pássaro" "Amoreira" "Fria" "Borrageiro" "Candal" "Rochão" "Pedra Bela" "Castanheira" "Foupana"
+
+		### Serra do Larouco ###
+		"Larouco" "Negro" "Vidoeiro" "Freitas" "Vale Formoso" "Alto da Lapa"
+
+		### Serra de Montesinho ###
+		"Lombada" "Cabeço do Inferno" "Negro" "Bico" "Sarilhos" "Bailadouro" "Meio"
+
+		### Serra do Açor ###
+		"Cebola" "Negra" "Castelejo" "Penedos" "Estrela" "Pedra de Ouro" "Formosa"
+
+		### Serra do Soajo ###
+		"Pedrada" "Fenda" "Alto" "Geres" "Pé de Cabril" "Mourão" "São Bento"
+
+		### Serra do Marão ###
+		"Marão" "Pedra" "Vale" "Carvalho" "Linhares" "Cordoveia" "Ferraria"
+	}
+}
+
+### Theme: Rivers ###
+POR_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "NRP "
+	fallback_name = "Enviar-D %d"
+
+	unique = {
+		"Alviela" "Sousa" "Liz" "Alte" "Vouga" "Caima" "Côa" "Azibo" "Vizela" "Cértima" "Alcoa" "Isna" "Alte" "Boco" "Chanza" "Quarteira" 
+		"Sorraira" "Antuã" "Bensefrim" "Algoz" "Dão" "Alto" "Tagus" "Espiche" "Águeda" "Fervença" "Falacho" "Douro" "Barxas" "Aljezur" 
+		"Odelouca" "Arade" "Caia" "Alcantarilha" "Mira" "Zêzere" "Algibre" "Arda" "Alva" "Vez" "Salas" "Algés" "Nabão" "Sado" "Mondego" 
+		"Balsemão" "Gévora" "Este" "Paiva" "Lizandro"
+	}
+}
+
+### Theme: Animals ###
+POR_THEME_ANIMALS = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "NRP "
+	fallback_name = "Enviar-X %d"
+
+	unique = {
+		"Elefante" "Leão" "Tigre" "Urso" "Rinoceronte" "Girafa" "Zebra" "Lobo" "Raposa" "Cervo" "Canguru" "Macaco" "Gorila" "Chimpanzé"
+		"Búfalo" "Camelo" "Hipopótamo" "Antílope" "Coiote" "Jaguar" "Pantera" "Puma" "Alce" "Bisonte" "Lince" "Gnu" "Hiena" "Javali"
+		"Guaxinim" "Preguiça" "Ouriço" "Tamanduá" "Suricate" "Esquilo" "Doninha" "Texugo" "Marmota" "Rena" "Cabra" "Overlha"
+	}
+}
+
+### Theme: Colonies ###
+POR_THEME_COLONIES = {
+	name = NAME_THEME_COLONIES
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "NRP "
+	fallback_name = "Enviar-E %d"
+
+	unique = {
+		### Africa ###
+		"Angola" "Mozambique" "Guinea-Bissau" "Cabinda" "Cabo Verde" "São Tomé" "Príncipe" "Luanda" "Benguela" "Lobito" "Huambo" "Lubango" 
+		"Lourenço Marques" "Beira" "Nampula" "Quelimane" "Bissau" "Bolama" "Cacheu" "Praia" "Mindelo" "Assomada" "Santo António"
+
+		### Asia ###
+		"Goa" "Daman" "Dio" "Timor" "Macau" "Panjim" "Margão" "Vasco de Gama" "Dili" "Baucau" "Liquiçá"
+
+		### Historical Colonial Holdings ###
+		"Morocco" "Ceuta" "Tangier" "Mombasa" "Zanzibar" "São Jorge da Mina" "Elmina" "Ceylon" "Colombo" "Malacca" "Hormuz" "Nagapattinam" 
+		"Sacramento" "Newfoundland" "Labrador" "Barbados" "Brazil" "Rio de Janeiro" "São Paulo" "Recife" "Belém" "Alegre"
+	}
+}
+
+### Theme: Famous Battles ###
+POR_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "NRP "
+	fallback_name = "Enviar-F %d"
+
+	unique = {
+		"Ceuta" "Diu" "Cochin" "Guinea" "Hormuz" "Mbwila" "Matanzas" "St. Vincent" "Buçaco" "Vimeiro" "Ksar El Kebir" "Ngomano" "La Lys" 
+		"Toro" "Daman" "Chaul" "Malacca" "Swally" "Tondibi" "Al Mansurah" "Cannanore" "Ternate" "Ormuz" "El Tor" "Mangalore" "Maguilla" 
+		"Alfarrobeira" "Elmina" "Agnadello" "Danture" "Bintan" "Mombasa" "Baçente" "Zanzibar" "Chittagong" "Alcácer" "Alcântara" "Saint Denis" 
+		"Villaviciosa" "Elvas" "Monte Claros" "Ameixial" "Castelo Rodrigo" "Porto Clavo" "Guararapes" "Mbamba" "Delgada" "Lagos" "Cape Rachado"
+	}  
+}

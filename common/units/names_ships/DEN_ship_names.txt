@@ -1,6 +1,7 @@
 ﻿##### Danish Ship Names #####
 
-# HDMS = His Danish Majesty's Ship. (Official)
+### Prefixes ###
+# HDMS = His Danish Majesty's Ship. (Official - Used)
 
 ### Aircraft Carrier Names ###
 DEN_CV_HISTORICAL = { # Aviation Figures - Flying Creatures.
