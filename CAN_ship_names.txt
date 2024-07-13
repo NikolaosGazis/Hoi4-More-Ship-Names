@@ -1,0 +1,377 @@
+﻿##### Canadian Ship Names #####
+
+### Prefixes
+# HMCS = His Majesty's Canadian Ship. (Official - Used)
+
+### Aircraft Carrier Names ###
+CAN_CV_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HMCS "							
+	fallback_name = "Royal Aircraft Carrier %s"
+
+	unique = {
+		"Powerful" "Formidable" "Indomitable" "Implacable" "Audacious" "Defiant" "Sovereign" "Legendary" "Mighty" "Ferocious" "Terrible" "Arrogant"
+		"Incredible" "Conqueror" "Devastation" "Valliant" "Regal" "Dominant" "Triumph" "Resolute" "Fearless" "Dauntless" "Defiant" "Vigilant" 
+		"Relentless" "Tenacious" 
+	}
+}
+
+### Light Aircraft Carrier ###
+CAN_CVL_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "HMCS "
+	fallback_name = "Royal Light Aircraft Carrier %s"
+
+	unique = {
+		### From Royal Navy ###
+		"Warrior" "Magnificent" "Bonaventure" "Nabob" "Puncher"
+
+		### Additionals ###
+		"Agile" "Swift" "Nimble" "Adaptable" "Versatile" "Daring" "Resourceful" "Endeavor" "Explorer" "Venture" "Pioneer" "Sentinel" "Reliant" "Scout" 
+		"Guardian" "Protector" "Stealthy" "Vigorous" "Dynamic" "Robust" "Resiliant" "Inventine" "Ingenious" "Enterprising" "Skyborne" "Skyward" "Winged" 
+		"Archer"
+	}
+}
+
+### Battleship Names ###
+CAN_BB_HISTORICAL = { # Importance.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HMCS "							
+	fallback_name = "Royal Battleship %s"		
+
+	unique = {
+		### Importance ###
+		"Dominion" "Canada" "Ontario" "Québec" "British Columbia" "Nova Scotia" "New Brunswick" "Manitoba" "Alberta" "Saskatchewan" "Prince Edward Island" 
+		"Champlain" "Cartier" "Trudeau" "MacDonald" "Borealis" "Inulshuk" "Maple Leaf" "Niagara" "Acadian" "Laurier" "Thomson" "Carr" "Riel" "Cartier" 
+		"Baldwin" "Lafontaine" "Bowell" "Abbott" "Tupper" "Borden" 
+	}
+}
+
+### Battlecruiser Names ###
+CAN_BC_HISTORICAL = { # Adjectives (Royal Navy).
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HMCS "							
+	fallback_name = "Royal Battlecruiser %s"		
+
+	unique = {
+		"Avenger" "Dasher" "Battler" "Hunter" "Chaser" "Stalker" "Persuer" "Ravangar" "Reaper" "Thane" "Gallant" "Garland" "Grafton" "Greyhound" 
+		"Hardy" "Hasty" "Havock" "Hereward" "Heroic" "Hostile" "Hyperion" "Afirdi" "Ashanti" "Bedouin" "Cossack" "Mashona" "Mohawk"
+	}
+}
+
+### Heavy Cruiser Names ###
+CAN_CA_HISTORICAL = { # Admirals.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HMCS "							
+	fallback_name = "Royal Heavy Cruiser %s"
+
+	unique = {
+		"Kingsmill" "Madden" "Hose" "Lanymore" "Kerr" "Peters" "Reid" "Waters" "Jones" "Nelles" "Murray" "Grant" "Rankin" "Dicken" "Taylor" 
+		"MacDonell" "Bell" "Noyes" "Stanton" "Brodeur" "Nicholls" "Kemp" "Tobin" "Kane" "Stairs" "Chambers" "Johnson" "Ryder" "Palmer" "Rogers" 
+		"Holbrook" "Allan" "Stratton" "Sims" "Wallace" "Houghton" "Harbourne" "Boudreau" "Berry" "Spring" "Birchall" "Talbot" "Barnard" "Pickard" 
+		"Campbell" "Noyes"
+ 	}
+}
+
+### Light Cruiser Names ###
+CAN_CL_HISTORICAL = { # Generals - States - Cities.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HMCS "							
+	fallback_name = "Royal Light Cruiser %s"
+
+	unique = {
+		### Generals ###
+		"Currie" "Byng" "Hughes" "Turner" "MacDonell" "Griesbach" "Watson" "Odlum" "Morrison" "Mercer" "Dobell" "Burstall" "Williams"
+		"Hertzberg" "Loomis" "Panet" "Lipsett" "Tuxford" "Harte" "Hilliam" "MacBrien" "Young" "Dyer"
+
+		### Additionals - States-Cities ###
+		"Aurora" "Rainbow" "Winnipeg" "Hamilton" "London" "Kitchener" "St. Catharines" "Halifax" "Victoria" "Windsor" "Oshawa" "Saskatoon" "Regina" 
+		"Sherbrooke" "Barrie" "Kelowna" "Abbotsford" "Kingston" "Trois-Rivieres" "Saint John" "Moncton" 
+	}
+}
+
+### Destroyer Names ###
+CAN_DD_HISTORICAL = { # Historical Models - Frigates. 
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HMCS "							
+	fallback_name = "Royal Destroyer %s"					
+
+	unique = {
+		### A/C/CR/D/E/F/G/H/Wickes/Clemson/S/Tribal/V/Town Classes ###
+		"Fraser" "St. Laurent" "Ottawa" "Restigouche" "Assiniboine" "Margaree" "Kootenay" "Gatineau" "Saskatchewan" "Qu'Appelle" "Chaudiere" 
+		"Algonquin" "Sioux" "Crescent" "Crusader" "Annapolis" "Caldwell" "Chelsea" "Columbia" "Georgetown" "Hamilton" "Lancaster" "Leamington" 
+		"Mansfield" "Montgomery" "Niagara" "Richmond" "St. Clair" "Salisbury" "Buxton" "St. Croix" "St. Francis" "Athabaskan" "Haida" "Huron" 
+		"Iroquois" "Cayuga" "Micmac" "Nootka" "Vendetta" "Voyager" "Waterhen" "Saguenay" "Skeena" "Cape Breton" "Dunver" "Grou" "Matane" "Montreal" 
+		"New Glasgow" "New Waterford" "Outremont" "Port Colborne" "Prince Rupert" "St. Catherine's" "St. John" "Stormont" "Swansea" "Valleyfield" 
+		"Waskesiu" "Wentworth" "Ettrick" "Meon" "Teme" "Annan" "Nene" "Monnow" "Ribble" "Patriot" "Patrician" "Vancouver" "Champlain"
+
+		### Frigates - River Class ###
+		"Annan" "Antigonish" "Beacon Hill" "Buckingham" "Cap de la Madeleine" "Capilano" "Carlplace" "Charlottetown" "Chebogue" "Coaticook" 
+		"Eastview" "Fort Erie" "Glace Bay" "Hallowell" "Inch Arran" "Joliette" "Jonquiere" "Kirkland" "Kokanee" "La Hulloise" "Lenark" "Lasalle" 
+		"Lauzon" "Levis" "Longueuil" "Magog" "Orkney" "Penetang" "Poundmaker" "Prestonian" "Prince Rupert" "Royal Mount" "Runnymede" "Sea Cliff" 
+		"Springhill" "St.Catharines" "St.Pierre" "St.Stephen" "Ste.Therese" "Stettler" "Stone Town" "Strathadam" "Sussexvale" "Thetford Mine" 
+		"Victoriaville" "Loch Achanalt" "Loch Alive" "Loch Morlich" 
+	}
+}
+
+### Escort Destroyer Names ###
+CAN_DE_HISTORICAL = { # Historical Models - Corvettes.
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = "HMCS "
+	fallback_name = "Royal Escort Destroyer %s"
+
+	unique = {
+		### Annapolis/Mackenzie/Restigouche/St.Laurent Classes ###
+	 	"Nipigon" "Mackenzie"  "Yukon" "Terra Nova"
+
+		### Corvettes - Flower Class ###
+		"Agassiz" "Alberni" "Algoma" "Amherst" "Arrowhead" "Arvida" "Asbestos" "Atholl" "Baddeck" "Barrie" "Battleford" "Beauharnois" "Belleville" 
+		"Bittersweet" "Brandon" "Brantford" "Buctouche" "Calgary" "Camrose" "Chambly" "Charlottetown" "Chicoutmi" "Chilliwack" "Cobalt" "Cobourg" 
+		"Collingwood" "Dauphin" "Dawson" "Drumheller" "Dundas" "Dunvegan" "Edmundston" "Eyebright" "Fennel" "Fergus" "Forrest Hill" "Fredericton" 
+		"Frontenac" "Galt" "Giffard" "Guelph" "Halifax" "Hawkesbury" "Hepatica" "Kamloops" "Kamsack" "Kenogami" "La Malbaie" "Lachute" "Lethridge" 
+		"Levis" "Lindsay" "Long Branch" "Louisburg" "Lunenburg" "Matapedia" "Mayflower" "Merritonia" "Midland" "Mimico" "Moncton" "Moose Jaw" 
+		"Morden" "Nanaimo" "Napanee" "New Westminster" "Norsyd" "North Bay" "Oakville" "Orillia" "Owen Sound" "Parry Sound" "Peterborough" "Pictou" 
+		"Port Arthur" "Prescott" "Quesnel" "Regina" "Rimouski" "Rivière du Loup" "Rosthern" "St.Lambert" "Sackville" "Saskatoon" "Shawinigan" 
+		"Shediac" "Sherbrooke" "Smiths Falls" "Snowberry" "Sorel" "Spikenard" "Stellarton" "Strathroy" "Sudbury" "Summerside" "The Pas" "Thorlock" 
+		"Timmins" "Trail" "Trentonian" "Trillium" "Wetaskiwin" "Weyburn" "Whitby" "Windflower" "Woodstock" "Arnprior" "Bowmanville" "Copper Cliff" 
+		"Hespeler" "Humberstone" "Huntsville" "Kincardie" "Leaside" "Orangeville" "Petrolia" "St.Thomas" "Tillsonburg" 
+	}
+}
+
+### Minesweeper Names ###
+CAN_MINESWEEPERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINESWEEPERS
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HMCS "
+	fallback_name = "Royal Minesweeper %s"
+
+	unique = {
+		### Algerine Class ###
+		"Kapuskasing" "Middlesex" "New Liskeard" "Oshawa" "Portage" "Rockcliffe" "St.Boniface" "Wallaceburg" "Winnipeg"
+
+		### Minesweepers ###
+		"Baleine" "Constance" "Curlew" "Chaleur" "Chignecto" "Comox" "Cowichan" "Fortune" "Fundy" "Gaspé" "James Bay" "Miramichi" "Quinte" 
+		"Resolute" "Thunder" "Trinity" "Ungava"
+
+		### Auxilary Minesweepers ###
+		"Bras d'Or" "Cape Beale" "Joan W. II" "Mitchell Bay" "Rayon d'Or" "Reo II" "Signal" "Star XVI" "Suderoy" "Takla" "Venosta" "Vercheres" 
+		"Gopher" "Musquash" "Anticosti" "Moresby" "Cordova"
+	} 
+}
+
+### Submarine Names ###
+CAN_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HMCS "							
+	fallback_name = "Royal Submarine %s"
+	
+	unique = {
+		### Balao/Oberon/Tench Classes ###
+		"Grilse" "Rainbow" "Ojibwa" "Okanagan" "Onondaga" 
+
+		### Additionals ###
+		"Olympus" "Osiris" "Victoria" "Windsor" "Corner Brook" "Chicoutimi"
+	}
+}
+
+##### Themes #####
+
+### Theme: Provinces ###
+CAN_THEME_PROVINCES = {
+	name = NAME_THEME_PROVINCES
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HMCS "
+	fallback_name = "Royal Ship-A %s"
+
+	unique = {
+		"Ontario" "Québec" "British Columbia" "Alberta" "Manitoba" "Saskatchewan" "Nova Scotia" "New Brunswick" "Prince Edward Island" "Northwest Territories" 
+		"Nunavut" "Yukon" "Newfoundland" "Labrador" 
+	}
+}
+
+### Theme: Cities ###
+CAN_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMCS "
+	fallback_name = "Royal Ship-B %s"
+
+	unique = {
+		"Toronto" "Montréal" "Vancouver" "Calgary" "Ottawa" "Edmonton" "Missisauga" "North York" "Winnipeg" "Hamilton" "Brampton" "Kitchener" "Surrey" "Laval" 
+		"Halifax" "London" "Victoria" "Windsor" "Oshawa" "Gatineau" "Vaughan" "Longueuil" "Burnaby" "Ladner" "Saskatoon" "Barrie" "Richmond" "Regina" "Oakville" 
+		"Burlington" "Sudbury" "Abbotsford" "St. Catharines" "Sherbrooke" "Lévis" "Kelowna" "Cambridge" "Trois-Rivières" "Guelph" "Coquitlam" "Kingston" "Chatham-Kent" 
+		"Delta" "Dartmouth" "Thunder Bay" "St.John's" "Waterloo" "Terrebonne" "Langley" "Pickering" "Brantford" "Moncton" "Nanaimo" "Sarnia" "Saint-Laurent" 
+		"Repentigny" "Fort McMurray" "Peterborough" "Ste.Marie" "Kawartha" "Lethbridge" "Maple Ridge" "Brossard" "Chilliwack" "Kamloops" "White Rock" "Princ George" 
+		"Medicine Hat" "Norflok" "Drummondville" "New Westminster" "St.Albert" "Sherwood" "Saint-Jérôme" "Jonquière" "Granby" "Fredericton" "Welland" "Saint Hyacinthe" 
+		"North Bay" "Shawinigan" "Belleville" "Cornwall" "Vernon" "Blainville" "Haldimand" "Timmins" "Châteauguay" "Quinte" "Charlottetown" "Rimouski"
+	}
+}
+
+### Theme: Mountains ###
+CAN_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMCS "
+	fallback_name = "Royal Ship-C %s"
+
+	unique = {
+		### Winston Churchill Range ###
+		"Columbia" "Tower" "Alberta" "Kitchener" "Dome" "Stufield" "Woolley" "Diadem" "Cromwell" "Engelhard" "Smythe" "Mushroom" "Thorington" "Nelson" "Palmer" "Gong" 
+		"Weiss" "Mitchell" "Morden Long" "McGuire" "Confederation"
+
+		### Continental Ranges ###
+		"Bare" "Bighorn" "Bosche" "De Smet" "Elk" "Fairholme" "First" "Fisher" "Greenhils" "Highwood" "Jacques" "Kananaskis" "Maligne" "Miette" "Murchison" "Nikanassin" 
+		"Opal" "Palliser" "Ram" "Sawback" "Slate" "Taylor" "Vermillion" "Victoria" "Whitegoat" "Wisukitsak" "Blackwater" "Bow" "Chaba" "Hooker" "Morkill" "Ottertail" 
+		"Selwyn" "Spray" "Sundance" "Ramparts" "Trident" "Wapta" "Waputik" "Brisco" "Hughes" "Stanford" "Van Nostrand"
+
+		### Front Range ###
+		"Grays" "Longs" "Pikes" "Silverheels" "Bard" "Arapaho" "Parry" "Specimen" "Waugh"
+
+		### Pioneer Range ###
+		"Bulley" "Boone" "Watts" "Paxton" "Gauthier" "Forgemenot"
+
+		### Solitude Range ###
+		"Stephenson" "Watson" "Goodrich" "Brazion" "Le Moray" "Pyramis" "Solitudes"
+	}
+}
+
+### Theme: Rivers ###
+CAN_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMCS "
+	fallback_name = "Royal Ship-D %s"
+
+	unique = {
+		### Alberta ###
+		"Athabasca" "Chaba" "Sunwapta" "Whirpool" "Astoria" "Miette" "Snaring" "Fiddle" "Berland" "Sakwatamau" "Freeman" "McLeod" "Pembina" "Tawatinaw" "La Bich" 
+		"Calling" "La Petite" "Pelican" "Licock" "Algar" "Clearwater" "Steepbank" "Mackay" "Muskeg" "Ells" "Marguerite" "Richardson" "Maybelle" "Saddle" "Spirit" 
+		"Smoky" "Jackspine" "Kawka" "Cutbank" "Puskwaskau" "Wapiti" "Whitemud" "Cadotte" "Notikewin" "Wolvernine" "Buffalo" "Keg" "Boyer" "Caribou" "Harmon" "Wabasca" 
+		"Claire" "Powder" "Leland" "Hornaday" "Hay" "Chinchaga" "Meader" "Steen" "Melvin" "Liard" "Yates"
+
+		### Hudson Bay ###
+		"Alexandra" "Howse" "Mistaya" "Siffleur" "Cline" "Bighorn" "Ram" "Baptiste" "Brazeau" "Sturgeon" "Redwater" "Monnery" "Jackfish" "Spruce" "Oldman" "Livingston" 
+		"Pipestone" "Raven" "Amisk" "Mooselake" "Martineau"
+
+		### Liard River Watershed ###
+		"Petiewewtot" "Sahtaneh" "Muskwa" "Prophet" "Minaker" "Besa" "Tetsa" "Chischa" "Tuchodi" "Buckinghorse" "Fontas" "Dunedin" "Beaver" "Toad" "Grayling" "Trout" 
+		"Vents" "Smith" "Gundahoo" "Kechika" "Turngain" "Gataga" "Dease" "Rapid"
+	}
+}
+
+### Theme: Tribes ###
+CAN_THEME_TRIBES = {
+	name = NAME_THEME_TRIBES
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMCS "
+	fallback_name = "Royal Ship-E %s"
+
+	unique = {
+		"Algonquin" "Anishinaabe" "Athabaskan" "Assiniboine" "Burrard" "Cayuga" "Chipewyan" "Chehalis" "Comox" "Cowichan" "Cree" "Haida" "Huron" "Innu" "Iroquois" 
+		"Kootenay" "Kwakiutl" "Lekwungen" "Lillooet" "Micmac" "Mohawk" "Nipissing" "Nlakapamuk" "Nootka" "Nuxálk" "Ojibwa" "Okanagan" "Oneida" "Onondaga" "Ottawa" 
+		"Penelakut" "Potawatomi" "Sechelt" "Seneca" "Shuswap" "Sinixt" "Sioux" "Snuneymuxw" "Stahlo" "Tlingit" "Tuscarora" "Wakashan" "Wyandot" 		
+	}
+}
+
+### Theme: Famous Battles ###
+CAN_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HMCS "
+	fallback_name = "Royal Ship-F %s"
+
+	unique = {
+		"Queenston Heights" "Stoney Creek" "Crysler" "Châteauguay" "Lundy's Lane" "Batoche" "Cut Knife" "Fort George" "Beaver Dams" "Plattsburgh" "Fish Creek" 
+		"Butte" "Thames" "Cook's Mills" "Mile Creek" "Odelltown" "St. Denis" "St. Eustache" "Eccles Hill" "Ridgeway" "Lachine" "Restigouche" "Thousand Islands" 
+		"Bloody Creek" "Fort Erie" "Lacolle Mills" "Longwoods" "Michilimackinac" "Point Pelee" 
+	}
+}

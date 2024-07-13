@@ -1,0 +1,487 @@
+##### Hollandish/Netherlandish Ship Names #####
+
+### Prefixes ###
+# HrMs = Harer Majesteits. (Official - Used)
+# VNS = Volk's Nautical Ship. (Made Up - Communist)
+
+### Aircraft Carrier Names ###
+HOL_CV_HISTORICAL = { # Aviators.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HrMs "
+	fallback_name = "Vliegdekschip %d"	
+
+	unique = {
+		"Anthony Fokker" "Frits Koolhoven" "Karel Doorman" "Evert van Dijk" "Jan Hilgers" "Willem Versteegh" "Rudolf de Rijk"
+		"Albert Plesman" "Bart van der Leck" "Gijsbertus de Lange" "Gerrit Jan van Heuven" "Albert Gillis von Baumhauer"
+		"Hugo Eckener" "Louis Raemaekers" "Joop Carp" "Johan de Jong" "Koene Dirk Parmentier" "Gerard Pieter de Kruijff"
+		"Gerben Sonderman" "Jean de Meester" "Henri Winkelman" "Christiaan Tonnet" "Roelof van Stirum" "Hendrik Walaardt Sacré"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+HOL_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "HrMs"
+	fallback_name = "Licht Vliegdekschip %d"
+
+	unique = {
+		"Adelaar" "Valk" "Havik" "Zwaluw" "Meeuw" "Albatros" "Reiger" "Krannvogel" "Condor" "Arend" "Buizerd" "Duif" "Uil" "Specht" 
+		"Zwaan" "Papegaai" "Bij" "Wesp" "Libelle" "Vinder" "Lepelaar" "Torenvalk" "Visarend" "Steenarend" "Zeearend" "Sperwer" 
+		"Ijsvogel" "Kraai" "Raaf" "Gier" "Kolibrie" "Roodborstje" "Mus" "Gierzwaluw" "Grutto" "Pelikaan" "Rietgors" "Fuut" "Patrijs" 
+		"Nachtegaal"
+	}
+}
+
+### Battleship Names ###
+HOL_BB_HISTORICAL = { # Importance - Figures.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HrMs "
+	fallback_name = "Slagschip %d"		
+
+	unique = {
+		### Royalty ###
+		"Koningin Wilhelmina" "Reinier Claeszen" "Koningin Regentes" "Frederik Hendrik" "Maurits van Nassau" "Prins Maurits" "Willem II"
+
+		### Admirals ###
+		"Evertsen" "Laurens Reael" "De Winter" "Asperen"
+
+		### Figures ###
+		"Johan de Witt" "Coen" "Hendrik Hudson" "Abel Tasman" "Willem Barentsz" "Riebeeck" "Houtman" "Roggeveen" "Vlamingh" "Hendrik Brouwer" 
+		"Willem I" "Linschoten" "Carpentier" "Keyser"
+	}
+}
+
+### Battlecruiser ###
+HOL_BC_HISTORICAL = { # Adjectives. (Dutch sure are weird)
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HrMs "
+	fallback_name = "Slagkruiser %d"		
+
+	unique = {
+		"Onverschrokken" "Meedogenloos" "Onstuitbaar" "Onversaagd" "Onverzettelijk" "Onvermoeibaar" "Onoverwinnelijk" "Onverschrokken" 
+		"Onverzoenlijk" "Onberekenbaar" "Onverzettelijk" "Ontembaar" "Onoverkomelijk" "Onoverwinnelijk" "Ongenaakbaar" "Ongrijpbaar"
+		"Onverbiddelijk" "Onverzettelijk" "Onvermoeibaar" "Onverschrokken" "Ongeëvenaard" "Onverschrokken" "Onverwoestbaar" "Ontembaar"
+		"Onvermoeibaar" "Onverbiddelijk" "Onvoorwaardelijk" "Onverzettelijk" "Onverwoestbaar" "Ongeëvenaard" "Onheilspellend"  
+	}
+}
+
+### Heavy Cruiser Names ###
+HOL_CA_HISTORICAL = { # Older Models - Generals.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HrMs "
+	fallback_name = "Panterschip %d"
+
+	unique = {
+		### Holland Class (1898) ###
+		"Zeeland" "Friesland" "Gelderland" "Noord-Brabant" "Utrecht"
+
+		### Additionals - Generals ###
+		"Willem Lodewijk" "Reede" "Ouwerkerk" "Coehoorn" "Schimmelpenninck" "Detmers" "Kornput" "Court" "Merkus de Kock" 
+		"Chassé" "Janssens" "Sedlnitsky" "Constant Rebecque" "List" "Godert de Ginkell" "Jan van Hout" "Oldenbarnevelt" 
+		"Sweelinck" "Riebeek" "Pallandt" "Daendels"
+
+		### Additionals - Overall ###
+		"Hertog Hendrik" "Soerabaja" "Batjan" "Ceram" "Ambon" "Banda" "Ternate"
+	}
+}
+
+### Light Cruiser Names ###
+HOL_CL_HISTORICAL = { # Older Models - Colonies - Figures.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HrMs "
+	fallback_name = "Lichte kruiser %d"
+
+	unique = {
+		### Java Class (1916) ###
+		"Java" "Sumatra" "Celebes"
+
+		### Tromp Class (1937) ###
+		"Tromp" "Jacob van Heemskerck"
+
+		### De Zeven Provinciën Class (1944) ###
+		"De Zeven Provinciën" "De Ruyter"
+
+		### Additionals - Unprotected Cruisers ###
+		"Atjeh" "Koningin Emma der Nederlanden" "Van Speijk" "Johan Willem Friso"
+
+		### Additionals - Admirals ###
+		"Liefde" "Kinsbergen" "Nes" "Adrien Banckert" "Floriszoon" "Hoop" "Meppel" "Houtman" "Lichthart" "Joost Banckert"
+		"Dirkszoon" "Schepers" "Reijntjes" "Lucas Wagenaer" "Kuyper" "David Vlugh" "Gilles Schey" "Verhoeff" "Dirk Gerritsz" 
+		"Duivenvoorde" "Capellen" "Johan van Treslong" "Rey"
+
+		### Additionals - Overall ###
+		"Kijkduin" "Drenthe" "Brabant" "Limburg"
+	}
+}
+
+### Destroyer Names ###
+HOL_DD_HISTORICAL = { # Figures - Regions - Animals - Weaponry.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HrMs "
+	fallback_name = "Torpedobootjager %d"					
+
+	unique = {
+		### Admiralen Class (1928) ###
+		"Van Ghent" "Eversten" "Kortenaer" "Piet Hein" "Van Galen" "Witte de With" "Banckert" "Van Nes"
+
+		### Gerard Callenburgh Class (1941) ###
+		"Gerard Callenburgh" "Isaac Sweers" "Tjerk Hiddes" "Philips van Almonde"
+
+		### Holland Class (1954) ###
+		"Holland" "Zeeland" "Noord-Brabant" "Gelderland"
+
+		### Friesland Class (1956) ###
+		"Friesland" "Groningen" "Limburg" "Overijssel" "Drenthe" "Utrecht" "Rotterdam" "Amsterdam"
+
+		### Older Models - Animals ###
+		"Wolf" "Fret" "Bulhond" "Jakhals" "Hermelijn" "Lynx" "Vos" "Panter"
+		
+		### Additionals - Animals ###
+		"Tijger" "Leeuw" "Luipaard" "Jachtluipaard" "Serval" "Karakal" "Zilvervos" "Palingrat" "Katachtige" 
+		"Miereneter" "Steppewolf" "Hyena" "Nerts" "Mangoest" "Jaguar" "Koytote" "Poema" "Roofdier" "Veldkat"
+
+		### Additionals - Weaponry ###
+		"Geweer" "Pistool" "Karabijn" "Mortier" "Vlammenwerper" "Zwaard" "Dolch" "Bajonet" "Sabel" "Bijl" 
+		"Kruisboorg" "Boog" "Pijl" "Speer" "Lans" "Hellebaard" "Musket" "Kanon" "Pik" "Rapiër" "Klewang" 
+		"Slinger"
+
+		### Additionals - Overall ###
+		"Campbelltown" "Marnix"
+	}
+}
+
+### Mineships Names ###
+HOL_MINESHIPS_HISTORICAL = { # Mythology - Figures.
+	name = NAME_THEME_MINESHIPS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HrMs "
+	fallback_name = "Mijnschip %d"
+
+	unique = {
+		### Hydra Class (1912) - Minelayers ###
+		"Hydra" "Medusa"
+
+		### Douwe Aukes Class (1922) - Minelayers ###
+		"Douwe Aukes" "Van Meerlant"
+
+		### Pro Patria Class (1923) - Standalone - Minelayer ###
+		"Pro Patria"
+
+		### Prins van Oranje Class (1932) - Minelayers ###
+		"Prins van Oranje" "Gouden Leeuw"
+
+		### Jan van Amstel Class (1937) - Minesweepers ###
+		"Jan van Amstel" "Pieter de Bitter" "Abraham Crijnssen" "Eland Dubois" "Willem van Ewijck" "Pieter Florisz" 
+		"Jan van Gelder" "Abraham van der Hulst"
+
+		### Willem van der Zaan Class (1939) - Standalone - Minelayer ###
+		"Willem van der Zaan"
+
+		### Additionals - Mythology ###
+		"Cerberus" "Typhon" "Chimera" "Echidna" "Siren" "Gorgon" "Scylla" "Charybdis" "Ladon" "Orthus" "Sphinx" 
+		"Centaur" "Chiron" "Thetis" "Galatea" "Leucothea"
+	}
+}
+
+### Submarine Names ###
+HOL_SS_OCLASS = { # Numbered.
+	name = NAME_THEME_HISTORICAL_SUBS_OCLASS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HrMs "
+	fallback_name = "O-%d"
+	
+	ordered = {
+		1 = {"O-%d"}
+		2 = {"O-%d"} 
+		3 = {"O-%d"} 
+		4 = {"O-%d"} 
+		5 = {"O-%d"}
+		6 = {"O-%d"}
+		7 = {"O-%d"}
+		8 = {"O-%d"}
+		9 = {"O-%d"}
+		10 = {"O-%d"}
+	}
+}
+
+HOL_SS_KCLASS = {
+	name = NAME_THEME_HISTORICAL_SUBS_KCLASS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HrMs "
+	fallback_name = "K-%d"
+	
+	ordered = {
+		1 = {"K-%s"}
+		2 = {"K-%s"} 
+		3 = {"K-%s"} 
+		4 = {"K-%s"} 
+		5 = {"K-%s"}
+		6 = {"K-%s"}
+		7 = {"K-%s"}
+		8 = {"K-%s"}
+		9 = {"K-%s"}
+		10 = {"K-%s"}
+	}
+}
+
+##### Themes #####
+
+### Theme: Regions  ###
+HOL_THEME_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HrMs "
+	fallback_name = "Oorlogsschip-A %d"
+
+	unique = {
+		### Mainland Europe ###
+		"Drenthe" "Flevoland" "Friesland" "Gelderland" "Groningen" "Limburg" "Noord-Brabant" "Noord-Holland" "Overijssel" "Zuid-Holland" 
+		"Utrecht" "Zeeland"
+
+		### Overseas ###
+		"Aruba" "Curaçao" "Sint Maarten" "Bonaire" "Sint Eustatius" "Saba"
+
+		### Dutch East Indies ###
+		"Java" "Sumatra" "Borneo" "Sulawesi" "Sunda Islands" "Maluku" "New Guinea"
+	}
+}
+
+### Theme: Cities ###
+HOL_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser destroyer }
+
+	prefix = "HrMs "
+	fallback_name = "Oorlogsschip-B %d"
+
+	unique = {
+		"Amsterdam" "Rotterdam" "Den Haag" "Utrecht" "Eindhoven" "Tilburg" "Groningen" "Almere Stad" "Breda" "Nijmegen" "Enschede" "Haarlem" 
+		"Arnhem" "Zaanstad" "Amersfoort" "Apeldoom" "Hertogenbosch" "Hoofddorp" "Maastricht" "Leiden" "Dordrecht" "Zoetermeer" "Zwolle" 
+		"Deventer" "Born" "Delft" "Alkmaar" "Heerlen" "Venlo" "Leeuwarden" "Hilversum" "Hengelo" "Amstelveen" "Roosendaal" "Purmenerend" 
+		"Oss" "Schiedam" "Spijkenisse" "Helmond" "Vlaardingen" "Almelo" "Gouda" "Zaandam" "Lelystad" "Delfshaven" "Hoorn" "Velsen" "Ede" 
+		"Bergen" "Capelle" "Assen" "Nieuwegein" "Veenendaal" "Zeist" "Den Helder" "Hardenberg" "Emmen"
+	}
+}
+
+### Theme: Mountains ###
+HOL_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HrMs "
+	fallback_name = "Oorlogsschip-C %d"
+
+	unique = {
+		"Scenery" "Quill" "Christoffelberg" "Bovern" "Accords" "Santa Barbara" "Yuana" "Sero Jamanota" "Sint Hieronymus" "Tent" "Signal" "Point Blanche"
+		"Hooiberg" "Seru Pretu" "Observant" "Ceru Wecua" "Billy Foly" "Old Booby" "Torenberg" "Prison" "Veeriberg" "Bergje" "Evertzberg" "Ronde Klip"
+		"Ravine Rogue" "Wasao" "Sentry" "Hettenheuvel" "Jarabi Mangel" "Sero Arikok" "Cay Bay" "Galiban" "Colebay" "Seru Commandant" "Seri Yuana" "Trial"
+		"Guana" "Amerongse" "Seru Dakue" "Seru Kima" "Wilhelminaberg" "Kabrietenberg" "Meiberg" "Gilboa" "Sero Cabai" "Archmerberg" "Gilboa" "Sero Cabai"
+		"Archemerberg" "Flagstaff" "Seru Pasku" "Sing Michielsberg" "Matividiri" "Oerd Blinkert" "Seru Sami" "Grote Koningsbelt" "Seru Pilaar" "Ceru Boca"
+		"Reward" "Signaal Imbosch" "Mazinga" "Seru di Domi" "Brederodeberg" "Jaburibari" "Alto Vista" "Matado Pascu" "Ruiterberg" "Bandera" "De Stompert"
+		"Williams" "Seru Kabaye"
+	}
+}
+
+### Theme: Rivers ###
+HOL_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HrMs "
+	fallback_name = "Oorlogsschip-D %d"
+
+	unique = {
+		"Westerschelde" "Schelde" "Oosterschelde" "Keeten-Mastgat" "Krammer" "Grevelingen" "Volkerak" "Steenbergse" "Dintel" "Mark" "Weerijs" "Diep" 
+		"Haringvliet" "Spui" "Oude Maas" "Nieuwe Merwede" "Boven Merwede" "Amer" "Dieze" "Aa" "Binnendieze" "Dommel" "Gender" "Niers" "Swalm" "Roer" 
+		"Wurm" "Geleenbeek" "Geul" "Geer" "Fouron" "Waterweg" "Het Scheur" "Schie" "Vilet" "Rotte" "Hollandse Ijssel" "Gouwe" "Oude Rijn" "Lek" 
+		"Nederrijn" "Pannerdens" "Bijlands" "Noord" "Ling Afgedamde" "Meuse" "Waal" "Bijlands" "Rijn" "Amstel" "Zaan" "Spaarne" "Vecht" "Schipbeek" 
+		"Berkel" "Dinkel" "Regge" "Lauwers" "Ems"
+	}
+}
+
+### Theme: Colonies ###
+HOL_THEME_COLONIES = {
+	name = NAME_THEME_COLONIES
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HrMs "
+	fallback_name = "Oorlogsschip-E %d"
+
+	unique = {
+		### Terretories ###
+		"Surinam" "Antilles" "Curaçao" "Sint Maarten" "Bonaire" "Sint Eustatius" "Saba" "Aruba" "Gold Coast" "Cape" "East Indies" "Ceylon" 
+		"Malacca" "New Guinea"
+
+		### Capitals ###
+		"Paramaribo" "Wilemstad" "Philipsburg" "Kralendijk" "Oranjestad" "Bottom" "Elmina" "Cape Town" "Batavia" "Colombo" "Malacca"
+
+		### Claimed Terretories ###
+		"Formosa" "Dejima"
+
+		### Dutch East Indies Geography ###
+		"Surabaya" "Bandung" "Medan" "Padang" "Palembang" "Pontianak" "Makassar" "Manado" "Kupang" "Denpasar" "Ambon" "Hollandia" "Semarang" 
+		"Yogyakarta" "Solo" "Banjamasin" "Merapi" "Bromo" "Semeru" "Rinjani" "Kerinci" "Krakatoa" "Agung" "Tambora" "Lawu" "Leuser" "Ciliwung" 
+		"Brantas" "Bengawan" "Kapuas" "Mahakam" "Mus" "Batang" "Barito" "Asahan" "Kampar"
+	}
+}
+
+### Theme: Animals ###
+HOL_THEME_ANIMALS = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HrMs "
+	fallback_name = "Oorlogsschip-F %d"
+
+	unique = {
+		"Hond" "Wolf" "Kat" "Leeuw" "Tijger" "Olifant" "Paard" "Rund" "Schaap" "Geit" "Varken" "Hert" "Ezel" "Giraffe" "Rhinoceros" "Buffel" 
+		"Luipaard" "Zebra" "Kameel" "Nijlpaard" "Panter" "Jachtluipaard" "Bizon" "Jaguar" "Stier" "Ram" "Lynx" "Beer" "Miereneter" "Bever" 
+		"Hyena" "Leeuwin" "Puma" "Krokodil" "Varaan" "Vos" "Wolverine" "Gazelle" "Jakhal" "Karakal" "Ijsbeer" "Wisent" "Muskusos" "Ocelot"
+	}
+}
+
+### Theme: Fish ###
+HOL_THEME_FISH = {
+	name = NAME_THEME_FISH
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_light ship_hull_submarine destroyer submarine }
+
+	prefix = "HrMs "
+	fallback_name = "Oorlogsschip-G %d"
+
+	unique = {
+		"Kabelijauw" "Haring" "Makreel" "Zalm" "Heek" "Snoek" "Baars" "Sardien" "Tonjin" "Zeebaars" "Paling" "Zeekreeft" "Krab" "Garnaal" 
+		"Mossel" "Oester" "Inktvis" "Zeekat" "Hondshaai" "Rog" "Schol" "Tong" "Tarbot" "Zeewolf" "Kreeft" "Zeepaardje" "Steur" "Stekelrog" 
+		"Zeewatermossel" "Zeewier" "Zee-egel" "Koolvis" "Bot" "Ansjovis" "Blauwe Vinvis" "Witte Dolfijn" "Zeehond" "Zwaardvis" "Maanvis" 
+		"Octopus" "Maanvis" "Langoest" "Pijlinktvis" "Dorade" "Rivierkreeft" "Goudvis" "Zeenaald" "Kardinaalbaars" "Rifbaars" "Kogelvis"
+	}
+}
+
+### Theme: Famous Battles ###
+HOL_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HrMs "
+	fallback_name = "Oorlogsschip-H %d"
+
+	unique = {
+		"Golden Spurs" "Brouwershaven" "Turnhout" "Nieuwpoort" "Ostend" "Gibraltar" "Slaak" "Downs" "Scheveningen" "Livorno" "Dungeness" 
+		"Medway" "Texel" "Solebay" "Saint-Denis" "Gibraltar" "Ekeren" "Malplaquet" "Ramillies" "Blenheim" "White" "Puerto Caballos" 
+		"Cape St. Vincent" "Cape Rachado" "Mantanzas" "Jemmingen" "Severn" "Hormuz" "Manila" "Bahia" "San Juan" "Recife" "Elmina" 
+		"Cape Finisterre" "Guararapes" "Gabbard" "Öland" "Cape Spartel" "Porto Calvo" "Playa Honda" "Corrientes" "Machichaco" "Guayaquil" 
+		"Liège" "Cavite" 
+	}
+}
+
+### Theme: Mythology ###
+HOL_THEME_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HrMs %d"
+	fallback_name = "Oorlogsschip-J %d"
+
+	unique = {
+		"Witte Wieven" "Erlking" "Lange Wapper" "Dondergod" "Nehalennia" "Fossegrim" "Kabouter" "Alvermannekes" "Glimworm" "Klaboutermanneke" 
+		"Spookhuis" "Duivel" "Wodan" "Hulde" "Melijn" "Hesken" "Reuzen" "Watergeest" "Dwaalicht" "Vuurman" "Donar" "Bokkenrijders" "Kikkerkoning" 
+		"Heer Halewijn" "Zwarte Piet" "Roodkapje" "Grutte Pier" "Stadsreus" "Zeemeeermin" "Mare" "Galgenveld" "Onrust" "Moerasgeest" "Vuuspuwer" 
+		"Tovenares" "Blauwe Gerrit" "Hellehond" "Koning Winter" "Spookkat" "Wolvenman" "Klaas Vaak" "Waternimf" "Spookjesboom" "Zwarte Jager" 
+		"Witte Wievensteen" "Helhond" "Dwaalichtjes" "Woeste Willem" "Nekker" "Bloedzuiger"
+	}
+}
+
+########################################################################################## Communist Ship Names ##########################################################################################

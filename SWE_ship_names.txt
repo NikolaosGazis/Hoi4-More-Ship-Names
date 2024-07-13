@@ -1,0 +1,336 @@
+﻿##### Swedish Ship Names #####
+
+### Prefixes ###
+# HMS = Hans Majestäts Skepp. (Official - Used)
+
+### Aicraft Carrier Names ###
+SWE_CV_HISTORICAL = { # Aviation Pioneers - Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "HMS "
+	fallback_name = "Hangarfartyg %d"	
+
+	unique = {
+		### Aviators ###
+		"Carl Cederström" "Hjalmar Nyrop" "Elsa Andersson" "Per Albin Hansson" "Arne Tamm" "Curt Casten Carlsson"
+		"Ernst Linder" "Axel Hammarskjöld"
+
+		### Flying Creatures ###
+		"Fågel" "Fjäril" "Fladdermus" "Mygga" "Bivråk" "Falk" "Trast" "Örn" "Sparv" "Mås" "Svala" "Duva" "Hök" "Kråka" "Skata" "And" 
+		"Svärta" "Pilfink" "Star" "Albatross" "Fiskmås" "Korp" "Trana" "Svale" "Kaja" "Tofsvipa" "Gäss" "Hackspett" "Lärka" "Rödstjärt" 
+		"Trast" "Örnuggla" "Lövsångare" "Nötväcka" "Gulsparv" "Sandsvala" "Knölsvan" "Stjärtmes" "Koltrast" 
+	}
+}
+
+### Battleship Names ###
+SWE_BB_HISTORICAL = { # Figures.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "HMS "
+	fallback_name = "Slagskepp %d"		
+
+	unique = {
+		### Older Models ###
+		"Karl XIV Johann" 
+
+		### Additionals ###
+		"Kronan" "Riksäpplet" "Spiran" "Dristigheten" "Jacob Bagge" "Gustav II Adolf" "Karl XII" "Karl XI" "Gustav III" "Gustav Vasa" 
+		"Charles XII" "Erik Segersäll" "Birger Jarl" "Carl Gustav Wrangel" "Axel Oxenstierna" "Anders Ljungstedt" "Selma Lagerlöf" 
+		"Alfred Nobel" "Anders Celsius" "August Strindberg" "Hjalmar Branting" "Gustav Möller" "Carl Swartz" "Oscar II" "Gustav V"
+	}
+}
+
+### Battlecruiser Names ###
+SWE_BC_HISTORICAL = { # Admirals.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "HMS "
+	fallback_name = "Stridsskepp %d"		
+
+	unique = {
+		"Anders Skjöldebrand" "Carl Ehrensvärd" "Carl Cronstedt" "Flemming af Sandeberg" "Karl Tersmeden" "Carl Wachtmeister"
+		"Henrik af Trolle" "Christian Fredrik" "Martin Jenisch" "Johan Jakobsson" "Gustaf af Klint" "Carl Hammarskjöld"
+		"Torsten Hammarström" "Oscar von Sydow" "Gustaf Dyrssen" "Ernst af Klint" "Carl Nordin" "Arvid Lindman" "Edvard af Klint"
+	}
+}
+
+### Heavy Cruiser Names ###
+SWE_CA_HISTORICAL = { # Generals - Figures.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "HMS "
+	fallback_name = "Tung Kryśsare %d"
+
+	unique = {
+		### Older Models ###
+		"Svea" "Göta" "Thule" "Oden" "Thor" "Niord" "Dristigheten" "Äran" "Wasa" "Tapperheten" "Manligheten" "Sverige" 
+		"Drottning Victoria"
+
+		### Additionals ###
+		"Klas Fleming" "Hans Wachtmeister" "Tre Kronor" "Älvsnabben" "Starkodder" "Styrbiörn" "Gotland" "Svealand" "Götaland" 
+		"Norrland" 
+	}
+}
+
+### Light Cruiser Names ###
+SWE_CL_HISTORICAL = { # Cities - Figures.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "HMS "
+	fallback_name = "Lätt Kryśsare %d"
+
+	unique = {
+		"Gotland" "Fylgia" "Klas Horn" "Klas Uggla" "Psilander" "Göta Lejon" "Tre Kronor" "Klas Fleming" "Kalmar" "Västervik" 
+		"Gävle" "Malmö" "Halmstad" "Karlskrona" "Sundsvall" "Luleå" "Umeå" "Härnösand" "Hudiksvall" "Uddevalla" "Helsingborg" 
+		"Varberg" "Norrköping" "Söderköping" "Visby" "Älvsnabben"
+	}
+}
+
+### Destroyer Names ###
+SWE_DD_HISTORICAL = { # Cities - Figures.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HMS "
+	fallback_name = "Jagare %d"					
+
+	unique = {											
+		"Göteborg" "Stockholm" "Malmö" "Karlskrona" "Gävle" "Norrköping" "Plisander" "Puke" "Visby" "Sundsvall" "Hälsingborg" "Kalmar" 
+		"Mode" "Magne" "Mjölner" "Munin" "Romulus" "Remus" "Öland" "Uppland" "Halland" "Småland" "Östergötland" "Södermanland" "Gästrikland" 
+		"Hälsingland" "Wrangel" "Wachtmeister" "Munin" "Ragnar" "Sigurd" "Vidar" "Hugin" "Wale" "Örnen" "Klas Horn" "Klas Uggla" "Ehrensköld" 
+		"Nordenskjöld"
+	}
+}
+
+### Submarine Names ###
+SWE_SS_HISTORICAL = { # Animals - Fish.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "HMS "
+	fallback_name = "Ubåt %d"
+	
+	unique = {
+		"Hajen" "Sälen" "Valrossen" "Bävern" "Illern" "Uttern" "Valen" "Draken" "Gripen" "Ulven" "Delfinen" "Nordkaparen" "Springaren"
+		"Sjölejonet" "Sjöbjörnen" "Sjöhunden" "Svärdfisken" "Tumlaren" "Dykaren" "Sjöhästen" "Sjöormen" "Sjöborren" "Neptun" "Najad" 
+		"Näcken" "Vargen" "Forellen" "Aborren" "Siken" "Gäddan" "Laxen" "Makrillen" 
+	}
+}
+
+##### Themes #####
+
+### Theme: Provinces ###
+SWE_THEME_PROVINCES = {
+	name = NAME_THEME_PROVINCES
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HMS "
+	fallback_name = "Skepp-A %d"
+
+	unique = {
+		"Ångermanland" "Blekinge" "Bohuslän" "Dalarna" "Dalsland" "Gästrikland" "Gotland" "Halland" "Hälsingland" "Härjedalen" "Jämtland" 
+		"Lappland" "Medelpad" "Närke" "Norrbotten" "Öland" "Skåne" "Småland" "Södermanland" "Uppland" "Värmland"
+	}
+}
+
+### Theme: Cities ###
+SWE_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMS "
+	fallback_name = "Skepp-B %d"
+
+	unique = {
+		"Sigtuna" "Skara" "Lund" "Västerås" "Södertälje" "Visby" "Helsingborg" "Kalmar" "Kungälv" "Varberg" "Nyköping" 
+		"Arboga" "Falköping" "Falsterbo" "Halmstad" "Laholm" "Marstrand" "Skanör" "Skänninge" "Söderköping" "Trelleborg" 
+		"Västervik" "Ystad" "Örebro" "Malmö" "Jönköping" "Uppsala" "Linköping" "Enköping" "Simrishamn" "Trosa" "Östhammar" 
+		"Torshälla" "Strängnäs" "Växjö" "Norrköping" "Ronnedy" "Eksjö" "Hjo" "Kungsbacka" "Skövde" "Ulricehamn" "Vadstena" 
+		"Vimmerby" "Landskrona" "Sölvesborg" "Lidköping" "Köping" "Öregrund"
+	}
+}
+
+### Themes: Mountains ###
+SWE_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HMS "
+	fallback_name = "Skepp-C %d"
+
+	unique = {
+		"Kebnekaise" "Sarektjåkkå" "Helagsfjället" "Anarisfjället" "Kaskasatjåkka" "Snøhetta" "Skierffe" "Sylarna" 
+		"Storulvån" "Sulitelma" "Åreskutan" "Städjan" "Njulla" "Sytertoppen" "Storfjället" "Tärnaglaciären" 
+		"Väretsfjället" "Åresjön" "Trollsjön" "Kaitumjåkka" "Härjedalsfjällen" "Sultartjåkkå" "Ålfjället" "Rapa Ätno" 
+		"Giebmegáisi" "Rautasjaure" "Vålådalen" "Jiehkkevárri" "Syterskalet" "Tarfala"
+	} 
+}
+
+### Theme: Rivers ###
+SWE_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HMS "
+	fallback_name = "Skepp-D %d"
+
+	unique = {
+		"Göta" "Klarälven" "Dalälven" "Torne" "Ljungan" "Indalsälven" "Ångermanälven" "Lule" "Skellefteälven" 
+		"Vindelälven" "Öreälven" "Piteälven" "Lagan" "Nissan" "Svartån" "Ätran" "Mörrumsån" "Faxälven" "Ätran" 
+		"Åbyälven" "Voxnan" "Gavleån" "Rönne" "Motala Ström" "Mörrumsån" "Storån" "Jämtlandsfjällen" "Åreälven" 
+		"Fyrisån"
+	}
+}
+
+### Theme: Famous Battles ###
+SWE_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "HMS "
+	fallback_name = "Skepp-E %d"
+
+	unique = {
+		"Kircholm" "Breitenfeld" "Lützen" "Warsaw" "Narva" "Fraustadt" "Gadebusch" "Grengam" "Svenskund" "Idstedt" 
+		"Heligoland" "Pulkkila" "Oravais" "Revolax" "Stäket" "Pälkäne" "Ratan" "Svolder" "Halmstad" "Lund" "Ledsund"
+	}
+}
+
+### Theme: Culture ###
+SWE_THEME_CULTURE = {
+	name = NAME_THEME_CULTURE
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMS "
+	fallback_name = "Skepp-F %d"
+
+	unique = {
+		"Oberoende" "Vasatiden" "Midsommar" "Norrsken" "Riskdagen" "Järn" "Runstenar" "Unionen" "Krig" "Slott" "Samisk" "Stjärnväv" 
+		"Älvstrand" "Sjöstjärna" "Iskrona" "Eldsjäl" "Isörn"
+	}
+}
+
+### Theme: Mythology ###
+SWE_THEME_NORDIC_MYTHOLOGY = {
+	name = NAME_THEME_NORDIC_MYTHOLOGY
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }
+
+	prefix = "HMS "
+	fallback_name = "Skepp-E %d"
+
+	unique = {
+		"Tor" "Oden" "Frej" "Frigg" "Freja" "Tyr" "Njord" "Balder" "Loki" "Heimdall" "Sif" "Idun" "Brage" "Forsete" "Hel" "Fenrisulven" "Midgardsormen" 
+		"Skade" "Vidar" "Vali" "Sigyn" "Nornor" "Mimir" "Yggdrasil" "Helheim" "Mispelheim" "Nifelheim" "Einherjar" "Sleipner" "Gullveig" "Asar" "Vaner" 
+		"Jättar" "Alvheim" "Vanaheim" "Svartalfheim" "Asgård" "Midgard" "Utgard"
+	}
+}
+
+### Theme: Kings ###
+SWE_THEME_KINGS = {
+	name = NAME_THEME_KINGS
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "HMS "
+	fallback_name = "Skepp-F %d"
+
+	unique = {
+		### House of Munsö ###
+		"Eric VII" "Olof" "Anund Jacob" "Emund"
+
+		### House of Stenkill ###
+		"Stenkil" "Halsten" "Håkan" "Inge" "Sweyn" "Eric VIII" "Philip" "Ragnvald"
+
+		### House of Sverker ###
+		"Magnus I" "Sverker I" "Eric IX" "Magnus II" "Charls VII" "Canute I" "Kol" "Sverker II" 
+		"Eric X" "John I" "Eric XI" "Canute II"
+
+		### House of Bjelbo ###
+		"Valdermar" "Magnus III" "Birger" "Magnus IV" "Eric XII"
+
+		### House of Mecklenburg ###
+		"Albert"
+
+		### Kalmar Union ###
+		"Margaret" "Eric XIII" "Christopher" "Charles VIII" "Christian I" "John II" "Christian II"
+
+		### House of Vasa ###
+		"Gustav I" "Eric XIV" "John III" "Sigismund" "Charles IX" "Gustav II Adolf" "Christina"
+
+		### House of Palatinate-Zweibrücken ###
+		"Charles X Gustav" "Charles XI" "Charles XII" "Ulrika"
+
+		### House of Hesse ###
+		"Frederick I"
+
+		### House of Holstein-Gottorp ###
+		"Adolf Frederick" "Gustav III" "Gustav IV Adolf" "Charles XIII"
+
+		### House of Bernadotte ###
+		"Charles XIV" "Oscar I" "Charles XV" "Oscar II" "Gustaf V" "Gustaf VI Adolf" 
+	} 
+}

@@ -1,0 +1,375 @@
+﻿##### Argentinian Ship Names #####
+
+### Prefixes ###
+# ARA = Armada de la República Argentina.
+
+### Aircraft Carrier Names ###
+ARG_CV_HISTORICAL = { # Importance - Principles - Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "ARA "
+	fallback_name = "Portaaviones %d"	
+
+	unique = {
+		### Colossus Class (1944) ###
+		"Independencia" "Veinticinco de Mayo"
+
+		### Additionals ###
+		"República" "Soberanía" "Patria" "Gloriosa" "Victoria" "Fortaleza" "Audaz" "Invicta" "Vanguardia" "Valerosa" "Majestad" "Triunfo"
+		"Impavida" "Vigilante"
+
+		### Additionals - Aviators ###
+		"Jorge Newbery" "Comodoro Güemes" "Tomás de Bustamante" "Élida Larguía" "General San Martín" "Juan Bielovucic" "Roberto Ortiz"
+		"Teodoro Fels" "Guillermo Rothe" "Armando Bo" "Isaac Blanco" "Gladys Pozzi"
+
+		### Flying Creatures ###
+		"Aguilucho Azul" "Cóndor Alado" "Águila Plateada" "Colibrí Dorado" "Búho Nocturno" "Fénix Ardiente" "Lechuza Celestial" "Pájaro Carmesí"
+		"Grifo Majestuoso" "Dragón de la Aurora" "Quetzal Esmeralda" "Pegaso Alado" "Sirena del Cielo" "Murciélago Nocturno" "Garza Lunar"
+		"Águila Dorada" "Cóndor Real" "Ave de la Aurora" "Grifo de la Noche" "Dragón Espectral" 
+	}
+}
+
+### Battleship Names ###
+ARG_BB_HISTORICAL = { # Older Models - Figures - Importance.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "ARA "
+	fallback_name = "Acorazado %d"		
+
+	unique = {
+		### Almirante Brown Class (1880) - Standalone ###
+		"Almirante Brown"
+
+		### Libertad Class (1892) (1/2) ###
+		"Libertad"
+
+		### Rivadavia Class (1911) ###
+		"Rivadavia" "Moreno"
+
+		### Additionals ###
+		"Azopardo" "Sarandí" "Espora" "El Plata" "Los Andes" "Rosas" "Malvinas" "Gauchos" "Andes" "Carlos Gardel" "Sáenz Peña"
+		"Borges" "Storni"
+	}
+}
+
+### Battlecruiser Names ###
+ARG_BC_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "ARA "
+	fallback_name = "Crucero de Batalla %d"		
+
+	unique = {
+		"Indomable" "Colosal" "Invicto" "Poderoso" "Majestuoso" "Intrépido" "Vigoroso" "Magnífico" "Formidable" "Dominante" "Valiente" 
+		"Espléndido" "Audaz" "Sublime" "Eterno" "Inquebrantable" "Resuelto" "Radiante" "Invulnerable" "Inquebrantado" "Imponente" 
+		"Insuperable" "Irrefrenable" "Incansable" 
+	}
+}
+
+### Heavy Cruiser Names ###
+ARG_CA_HISTORICAL = { # Importance - Geography - Generals - Explorers.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "ARA "
+	fallback_name = "Crucero Pesado %d"
+
+	unique = {
+		### Older Models ###
+		"Patagonia" "Garibaldi" "San Martin" "Pueyrredon" "Mariano Moreno" 
+
+		### Additionals - Generals ###
+		"Mitre" "Urquiza" "Güemes" "Lavalle" "Alvear" "Viamonte" "Artigas" "Lavalleja" "Aráoz" "Dorrego" "Paz" "Soler" "Alsina" "Pacheco"
+		"Alvarado" "Sarmiento" "Balcarce" "Magellan" "Viedma" "Azara" "FitzRoy" "Garay" "Magallenes" "Caboto" "Mendoza" "Solís" "Orellana" 
+		"Ercilla"
+	}
+}
+
+### Light Cruiser Names ###
+ARG_CL_HISTORICAL = { # Importance - Figures - Admirals.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "ARA "
+	fallback_name = "Crucero Ligero %d"
+
+	unique = {
+		### La Argentina Class (1937) - Standalone ###
+		"La Argentina"
+
+		### General Belegrano Class (1938) ###
+		"General Belegrano" "Nueve de Julio"
+
+		### Additionals - Admirals ###
+		"Zamudio" "Guzmán" "Sosa" "Dellepiane" "Larrea" "Encalada" "Hoz" "Bradley" "Thompson" "Sarmiento" "Soler" "Liniers" "Brown II" "Palacios" 
+		"Garibaldi" "López" "Díaz" "Castelli" "Zapiola" "Buchanan" "Silveyra" "Azopardo" "Maciel" "Lamadrid" "Quevedo" "Merlo"
+	}
+}
+
+### Destroyer Names ###
+ARG_DD_HISTORICAL = { # Provinces - Figures.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "ARA "
+	fallback_name = "Destructor %d"					
+
+	unique = {
+		### Corrientes Class (1896) ###
+		"Corrientes" "Misiones" "Entre Rios" "Santa Fe"
+
+		### Catamarca Class (1912) ###
+		"Catamarca" "Jujuy"
+
+		### La Plata Class (1912) ###
+		"La Plata" "Córdoba"
+
+		### Cervantes Class (1928) ###
+		"Cervantes" "Juan de Garay"
+
+		### Mendoza Class (1929) ###
+		"Mendoza" "La Rioja" "Tucumán"
+
+		### Buenos Aires Class (1938) (6/7) ###
+		"Buenos Aires" "Entre Ríos" "Corrientes" "San Juan" "San Luis" "Misiones" "Santa Cruz"
+
+		### Almirante Domecq Garcia Class (1942) (4/5) ###
+		"Almirante Domecq García" "Espora" "Rosales" "Almirante Storni"
+
+		### Seguí Class (1944) ###
+		"Seguí" "Bouchard" "Piedra Buena" 
+
+		### Py Class (1944) - Standalone ###
+		"Py" 
+
+		### Hércules Class (1972) ###
+		"Hércules" "Santísima Trinidad" 
+
+		### Additionals - Frigates/Corvettes/Gunboats ###
+		"Santiago" "Salta" "Murature" "King" "Heroína" "Sarandí" "República" "Azopardo" "Piedra Buena" "Drummond" "Guerrico" "Granville" "Zurubí" 
+		"Intrépida" "Indómita" "Baradero" "Barranqueras" "Clorinda" "Punta Mogotes" "Rio Santiago" "Constitución" "Bermejo" "Pilcomayo" "Spiro" 
+		"Parker" "Robinson" "Gómez Roca"
+	}
+}
+
+### Mineships Names ###
+ARG_MINESHIPS_HISTORICAL = { # Historical - Flowers.
+	name = NAME_THEME_HISTORICAL_MINES
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "ARA "
+	fallback_name = "Nave Minera %d"
+
+	unique = {
+		### Bathurst Class (1922) (6/10) ###
+		"Bathurst" "Fournier" "Jorge" "Pinedo" "Thorne" "Golondrina"
+
+		### Additionals - Flowers ###
+		"Margarita" "Lirio" "Rosa" "Violeta" "Orquídea" "Tulipán" "Jazmín" "Amapola" "Girasol" "Iris" "Jacinto" "Caléndula" "Peonía" "Dalia" "Magnolia" 
+		"Clavel" "Prímula" "Narciso" "Camelia" "Loto" "Azalea" "Gardenia" "Hortensia" "Verbena" "Geranio" "Diente de León" "Amarilis" "Pensamiento" 
+		"Alhelí" "Aciano" "Buganvilla" "Campanilla" "Cardo" "Clavelina" "Jacaranda" "Madreselva" "Malva"
+	} 
+}
+
+### Submarine Names ###
+ARG_SS_HISTORICAL = { # Historical Models - Fish.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "ARA "
+	fallback_name = "Submarino %d"
+	
+	unique = {
+		### Santa Fe Class (1933) ###
+		"Santa Fe" "Santiago del Estero" "Salta" "San Luis" 
+
+		### Santa Cruz Class (1984) ###
+		"Santa Cruz" "San Juan"
+
+		### Additionals - Fish ###
+		"Salmón" "Trucha" "Arenque" "Bacalao" "Atún" "Caballa" "Boquerón" "Sardina" "Perca" "Carpa" "Pez Espada" "Marlin" "Lubina" "Lenguado" 
+		"Rodaballo" "Tiburón" "Lucio" "Bagre" "Esturión" "Mero" "Dorado" "Barracuda" "Tilapia" "Pargo" "Anguila" "Pargo Rojo" "Pez Azul" "Rape" 
+		"Beluga" "Orca"
+	}
+}
+
+##### Themes #####
+
+### Theme: Provinces ###
+ARG_THEME_PROVINCES = {
+	name = NAME_THEME_PROVINCES
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "ARA "
+	fallback_name = "Barco-A %d"
+
+	unique = {
+		"Buenos Aires" "Catamarca" "Chaco" "Chubut" "Córdoba" "Corrientes" "Entre Ríos" "Formosa" "Jujuy" "La Pampa" "La Rioja" "Mendoza" 
+		"Misiones" "Neuquén" "Rio Negro" "Salta" "San Juan" "San Luis" "Santa Cruz" "Santa Fe" "Santiago del Estero" "Tierra del Fuego" "Tucumán"
+	}
+}
+
+### Theme: Cities ###
+ARG_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARA "
+	fallback_name = "Barco-B %d"
+
+	unique = {
+		"Rosario" "Quilmes" "Salta" "Resistencia" "Estero" "Corrientes" "Morón" "Posadas" "Bahía Blanca" "Paraná" "Neuquén" "Formosa" "Catamarca" 
+		"San Luis" "Rio Cuarto" "Concordia" "Comodoro Rivadavia" "San Nicolás" "Santa Rosa" "San Rafael" "Tandil" "Vila Mercedes" "San Carlos" 
+		"Trelew" "Villa María" "Reconquista" "Zárate" "Rafaela" "Pergamino" "Olavarría" "Río Gallegos" "Junín" "San Martin" "Luján" "Campana" 
+		"Necochea" "Gualeguaychú" "Cipolletti" "Gobernador Gálvez" "Chimbas" "General Roca" "Venado Tuerto" "Goya" "Vila Carlos Paz" "Puerto Madryn" 
+		"Tartagal" "Santo Tomé" "San Francisco" "San Pedro" "Ushuaia" "Punta Alta" "General Pico""Colegiales" "Oberá" "Chivilcoy" "Puerto Eldorado" 
+		"Azul" "Rio Tercero" "Mercedes" "Barranqueras" "Yerba Buena" "Viedma" "Tafí Viejo" "Palpalá" "San Lorenzo" "Cutral-Có" "Tres Arroyos" 
+		"Villa Constitución" "Santa Lucia" "Villa Ángela" "Chilecito" "Pocito" "Alta Gracia" "Retiro" "Alderetes" "San Vicente" "Casteli" 
+		"Curuzú Cuatiá" "Caleta Olivia" "Esperanza" "Bell Ville" "Nueve de Julio" "Chacabuco" "Vila Santa Rita"
+	}
+}
+
+### Theme: Mountains ###
+ARG_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARA "
+	fallback_name = "Barco-C %d"
+
+	unique = {
+		"Aconcagua" "El Plomo" "Ameghino" "Salado" "Cruces Sur" "Cazadero" "El Muerto" "Nacimiento" "Veladero" "El Cóndor" "Vallecitos" "Quebradas" 
+		"Medusa" "Colorados" "El Fraile" "Viento" "Pissis" "Bonette" "Llullailiaco" "Socompa" "Mercedario" "Ramada" "La Mesa" "Incahuasi" "Tupungato" 
+		"Negro Pabellón" "Polleras" "Antofalla" "Cachi" "Quemado" "Reclus" "Majadita" "Olivares" "Solo" "Tortolas" "Queva" "Colangüil" "Marmolejo" 
+		"Famatina" "Baboso" "Salin" "Laguna Blanca" "El Plata" "Chañi" "Galán"
+	}
+}
+
+### Theme: RIVERS ###
+ARG_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARA "
+	fallback_name = "Barco-D %d"
+
+	unique = {
+		"La Plata Basin" "Gualeguaychú" "Mocoretá" "Miriñay" "Aguapey" "Pepiri-Guazu" "Arrecifes" "Gualeguay" "Nogoyá" "Arroyo del Medio" "Saladillo" 
+		"Ludueña" "Carcarañá" "Tercero" "Cuarto" "Salado" "Horcones" "Urueña" "Arenales" "Guasamayo" "San Javier" "Feliciano" "Guayquiraró" 
+		"Corriente" "Tapenagá" "Palometa" "Santa Lucia" "Negro" "Guaycurú" "Bermejo" "Bermejito" "Dorado" "Teuquito" "Seco" "Grande" "Mojotaro" 
+		"Pescado" "Iruya" "Tarija" "Itaú" "Lipeo" "Pilcomayo" "Iguazu" "San Antonio" "Luján" "Matanza" "Samborombón" "Naposta" "Chico" "Colorado" 
+		"Atuel" "Diamante" "Tunuyán" "Castaño Viejo" "Calingasta" "Jáchal" "Huaco" "Barrancas" "Agrio" "Limay" "Collón Curá" "Aluminé" "Chimehuin" 
+		"Traful" "Chubut" "Senguerr" "Mayo" "Guenguel" "Tecka" "Pinturas" "La Leona" "Belgrano" "Coig" "Pelque" "Gallegos" "Fuego" "Caraperi" 
+		"Tartagal" "Salado" "Dulce" "Saladillo" "Sali" "Primero" "Conlara" "Quinto" "Malargüe"
+	}
+}
+
+### Theme: Inspirational ###
+ARG_THEME_INSPIRATION = {
+	name = NAME_THEME_INSPIRATION
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARA "
+	fallback_name = "Barco-E %d"
+
+	unique = {
+		"Valiente" "Centinela" "Resiliencia" "Guardián" "Triunfo" "Vigilante" "Esfuerzo" "Armonía" "Soberanía" "Determinación" "Radiante" "Coraje"
+		"Concordia" "Serenidad" "Cima" "Fortaleza" "Liderazgo" "Audacia" "Lealtad" "Firmeza" "Renacimiento" "Dignidad"
+	}
+}
+
+### Theme: Famous Battles ###
+ARG_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "ARA "
+	fallback_name = "Barco-F %d"
+
+	unique = {
+		"Salta" "Vuelta" "San Lorenzo" "Tuyutí" "Cepeda" "Maipú" "Pavón" "Chacabuco" "Curupayty" "San Nicolás" "Ituzaingó" "Quebracho Herrado"
+		"Los Corrales" "Montevideo" "Muerta" "Pavón" "Juncal" "San Cala" "Naranjal" "Tacuarí" "Arroyo Grande" "San Ignacio" "Angaco" "Caaguazú" 
+	}
+}
+
+### Theme: Presidents ###
+ARG_THEME_PRESIDENTS = {
+	name = NAME_THEME_PRESIDENTS
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "ARA "
+	fallback_name = "Barco-G %d"
+
+	unique = {
+		### Confederation ###
+		"Justo José de Urquiza" "Santiago Derqui" "Juan Esteban Pedernera"
+
+		### Argentine Republic ###
+		"Bartolomé Mitre" "Domingo Faustino Sarmiento" "Nicolás Avellaneda" "Julio Argentino Roca" "Miguel Ángel Celman" "Carlos Pellegrini"
+		"Luis Sáenz Peña" "José Evaristo Uriburu" "Julio Argentino Roca" "Manuel Quintana" "José Figueroa Alcorta" "Roque Sáenz Peña" 
+		"Victorino de la Plaza" "Hipólito Yrigoyen" "Marcelo Torcuato" "Hipólito Yrigoyen" "Enrique Martínez" "Agustín Pedro Justo"
+	}
+}
