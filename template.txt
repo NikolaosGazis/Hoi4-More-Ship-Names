@@ -156,4 +156,117 @@
 }
 
 ##### Themes #####
-# Additional Themes - Can be Regions-States-Cities-Mountains-Rivers-Famous Battles-Mythology-Colonies etc #
+
+### Theme: Regions ###
+<tag>_THEME_REGIONS = {
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "Ship-A %d"
+
+	unique = { # names go here.
+
+	}
+}
+
+### Theme: Mountains ###
+<tag>_THEME_MOUNTAINS = {
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "Ship-B %d"
+
+	unique = { # names go here.
+
+	}
+}
+
+### Theme: Cities ###
+<tag>_THEME_CITIES = {
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "Ship-C %d"
+
+	unique = { # names go here.
+
+	}
+}
+
+### Theme: Rivers ###
+<tag>_THEME_RIVERS = {
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "Ship-D %d"
+
+	unique = { # names go here.
+
+	}
+}
+
+### Theme: Famous Battles ###
+<tag>_THEME_BATTLES = {
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "Ship-E %d"
+
+	unique = { # names go here.
+
+	}
+}
+
+### Theme: Mythology ###
+<tag>_THEME_MYTHOLOGY = {
+	name = <name>
+
+	for_countries = { <tag(s)> }
+
+	can_use = {  } # if it needs a specified flag because formable or for a specific ideology.
+
+	type = ship # don't change
+	ship_types = { <hulls> }
+
+	prefix = "<prefix> " # leave a space.
+	fallback_name = "Ship-F %d"
+
+	unique = { # names go here.
+
+	}
+}
