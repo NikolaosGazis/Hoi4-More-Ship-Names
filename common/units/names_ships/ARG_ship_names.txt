@@ -129,6 +129,29 @@ ARG_CL_HISTORICAL = { # Importance - Figures - Admirals.
 	}
 }
 
+### Mineships Names ###
+ARG_MINESHIPS_HISTORICAL = { # Historical - Flowers.
+	name = NAME_THEME_HISTORICAL_MINES
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "ARA "
+	fallback_name = "Nave Minera %d"
+
+	unique = {
+		### Bathurst Class (1922) (6/10) ###
+		"Bathurst" "Fournier" "Jorge" "Pinedo" "Thorne" "Golondrina"
+
+		### Additionals - Flowers ###
+		"Margarita" "Lirio" "Rosa" "Violeta" "Orquídea" "Tulipán" "Jazmín" "Amapola" "Girasol" "Iris" "Jacinto" "Caléndula" "Peonía" "Dalia" "Magnolia" 
+		"Clavel" "Prímula" "Narciso" "Camelia" "Loto" "Azalea" "Gardenia" "Hortensia" "Verbena" "Geranio" "Diente de León" "Amarilis" "Pensamiento" 
+		"Alhelí" "Aciano" "Buganvilla" "Campanilla" "Cardo" "Clavelina" "Jacaranda" "Madreselva" "Malva"
+	} 
+}
+
 ### Destroyer Names ###
 ARG_DD_HISTORICAL = { # Provinces - Figures.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
@@ -179,29 +202,6 @@ ARG_DD_HISTORICAL = { # Provinces - Figures.
 	}
 }
 
-### Mineships Names ###
-ARG_MINESHIPS_HISTORICAL = { # Historical - Flowers.
-	name = NAME_THEME_HISTORICAL_MINES
-
-	for_countries = { ARG }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-
-	prefix = "ARA "
-	fallback_name = "Nave Minera %d"
-
-	unique = {
-		### Bathurst Class (1922) (6/10) ###
-		"Bathurst" "Fournier" "Jorge" "Pinedo" "Thorne" "Golondrina"
-
-		### Additionals - Flowers ###
-		"Margarita" "Lirio" "Rosa" "Violeta" "Orquídea" "Tulipán" "Jazmín" "Amapola" "Girasol" "Iris" "Jacinto" "Caléndula" "Peonía" "Dalia" "Magnolia" 
-		"Clavel" "Prímula" "Narciso" "Camelia" "Loto" "Azalea" "Gardenia" "Hortensia" "Verbena" "Geranio" "Diente de León" "Amarilis" "Pensamiento" 
-		"Alhelí" "Aciano" "Buganvilla" "Campanilla" "Cardo" "Clavelina" "Jacaranda" "Madreselva" "Malva"
-	} 
-}
-
 ### Submarine Names ###
 ARG_SS_HISTORICAL = { # Historical Models - Fish.
 	name = NAME_THEME_HISTORICAL_SUBMARINES
@@ -230,6 +230,29 @@ ARG_SS_HISTORICAL = { # Historical Models - Fish.
 
 ##### Themes #####
 
+### Theme: Presidents ###
+ARG_THEME_PRESIDENTS = {
+	name = NAME_THEME_PRESIDENTS
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "ARA "
+	fallback_name = "Barco-A %d"
+
+	unique = {
+		### Confederation ###
+		"Justo José de Urquiza" "Santiago Derqui" "Juan Esteban Pedernera"
+
+		### Argentine Republic ###
+		"Bartolomé Mitre" "Domingo Faustino Sarmiento" "Nicolás Avellaneda" "Julio Argentino Roca" "Miguel Ángel Celman" "Carlos Pellegrini"
+		"Luis Sáenz Peña" "José Evaristo Uriburu" "Julio Argentino Roca" "Manuel Quintana" "José Figueroa Alcorta" "Roque Sáenz Peña" 
+		"Victorino de la Plaza" "Hipólito Yrigoyen" "Marcelo Torcuato" "Hipólito Yrigoyen" "Enrique Martínez" "Agustín Pedro Justo"
+	}
+}
+
 ### Theme: Provinces ###
 ARG_THEME_PROVINCES = {
 	name = NAME_THEME_PROVINCES
@@ -240,35 +263,11 @@ ARG_THEME_PROVINCES = {
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "ARA "
-	fallback_name = "Barco-A %d"
+	fallback_name = "Barco-B %d"
 
 	unique = {
 		"Buenos Aires" "Catamarca" "Chaco" "Chubut" "Córdoba" "Corrientes" "Entre Ríos" "Formosa" "Jujuy" "La Pampa" "La Rioja" "Mendoza" 
 		"Misiones" "Neuquén" "Rio Negro" "Salta" "San Juan" "San Luis" "Santa Cruz" "Santa Fe" "Santiago del Estero" "Tierra del Fuego" "Tucumán"
-	}
-}
-
-### Theme: Cities ###
-ARG_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { ARG }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
-
-	prefix = "ARA "
-	fallback_name = "Barco-B %d"
-
-	unique = {
-		"Rosario" "Quilmes" "Salta" "Resistencia" "Estero" "Corrientes" "Morón" "Posadas" "Bahía Blanca" "Paraná" "Neuquén" "Formosa" "Catamarca" 
-		"San Luis" "Rio Cuarto" "Concordia" "Comodoro Rivadavia" "San Nicolás" "Santa Rosa" "San Rafael" "Tandil" "Vila Mercedes" "San Carlos" 
-		"Trelew" "Villa María" "Reconquista" "Zárate" "Rafaela" "Pergamino" "Olavarría" "Río Gallegos" "Junín" "San Martin" "Luján" "Campana" 
-		"Necochea" "Gualeguaychú" "Cipolletti" "Gobernador Gálvez" "Chimbas" "General Roca" "Venado Tuerto" "Goya" "Vila Carlos Paz" "Puerto Madryn" 
-		"Tartagal" "Santo Tomé" "San Francisco" "San Pedro" "Ushuaia" "Punta Alta" "General Pico""Colegiales" "Oberá" "Chivilcoy" "Puerto Eldorado" 
-		"Azul" "Rio Tercero" "Mercedes" "Barranqueras" "Yerba Buena" "Viedma" "Tafí Viejo" "Palpalá" "San Lorenzo" "Cutral-Có" "Tres Arroyos" 
-		"Villa Constitución" "Santa Lucia" "Villa Ángela" "Chilecito" "Pocito" "Alta Gracia" "Retiro" "Alderetes" "San Vicente" "Casteli" 
-		"Curuzú Cuatiá" "Caleta Olivia" "Esperanza" "Bell Ville" "Nueve de Julio" "Chacabuco" "Vila Santa Rita"
 	}
 }
 
@@ -292,6 +291,30 @@ ARG_THEME_MOUNTAINS = {
 	}
 }
 
+### Theme: Cities ###
+ARG_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARA "
+	fallback_name = "Barco-D %d"
+
+	unique = {
+		"Rosario" "Quilmes" "Salta" "Resistencia" "Estero" "Corrientes" "Morón" "Posadas" "Bahía Blanca" "Paraná" "Neuquén" "Formosa" "Catamarca" 
+		"San Luis" "Rio Cuarto" "Concordia" "Comodoro Rivadavia" "San Nicolás" "Santa Rosa" "San Rafael" "Tandil" "Vila Mercedes" "San Carlos" 
+		"Trelew" "Villa María" "Reconquista" "Zárate" "Rafaela" "Pergamino" "Olavarría" "Río Gallegos" "Junín" "San Martin" "Luján" "Campana" 
+		"Necochea" "Gualeguaychú" "Cipolletti" "Gobernador Gálvez" "Chimbas" "General Roca" "Venado Tuerto" "Goya" "Vila Carlos Paz" "Puerto Madryn" 
+		"Tartagal" "Santo Tomé" "San Francisco" "San Pedro" "Ushuaia" "Punta Alta" "General Pico""Colegiales" "Oberá" "Chivilcoy" "Puerto Eldorado" 
+		"Azul" "Rio Tercero" "Mercedes" "Barranqueras" "Yerba Buena" "Viedma" "Tafí Viejo" "Palpalá" "San Lorenzo" "Cutral-Có" "Tres Arroyos" 
+		"Villa Constitución" "Santa Lucia" "Villa Ángela" "Chilecito" "Pocito" "Alta Gracia" "Retiro" "Alderetes" "San Vicente" "Casteli" 
+		"Curuzú Cuatiá" "Caleta Olivia" "Esperanza" "Bell Ville" "Nueve de Julio" "Chacabuco" "Vila Santa Rita"
+	}
+}
+
 ### Theme: RIVERS ###
 ARG_THEME_RIVERS = {
 	name = NAME_THEME_RIVERS
@@ -302,7 +325,7 @@ ARG_THEME_RIVERS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ARA "
-	fallback_name = "Barco-D %d"
+	fallback_name = "Barco-E %d"
 
 	unique = {
 		"La Plata Basin" "Gualeguaychú" "Mocoretá" "Miriñay" "Aguapey" "Pepiri-Guazu" "Arrecifes" "Gualeguay" "Nogoyá" "Arroyo del Medio" "Saladillo" 
@@ -325,7 +348,7 @@ ARG_THEME_INSPIRATION = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ARA "
-	fallback_name = "Barco-E %d"
+	fallback_name = "Barco-F %d"
 
 	unique = {
 		"Valiente" "Centinela" "Resiliencia" "Guardián" "Triunfo" "Vigilante" "Esfuerzo" "Armonía" "Soberanía" "Determinación" "Radiante" "Coraje"
@@ -343,33 +366,10 @@ ARG_THEME_BATTLES = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "ARA "
-	fallback_name = "Barco-F %d"
+	fallback_name = "Barco-G %d"
 
 	unique = {
 		"Salta" "Vuelta" "San Lorenzo" "Tuyutí" "Cepeda" "Maipú" "Pavón" "Chacabuco" "Curupayty" "San Nicolás" "Ituzaingó" "Quebracho Herrado"
 		"Los Corrales" "Montevideo" "Muerta" "Pavón" "Juncal" "San Cala" "Naranjal" "Tacuarí" "Arroyo Grande" "San Ignacio" "Angaco" "Caaguazú" 
-	}
-}
-
-### Theme: Presidents ###
-ARG_THEME_PRESIDENTS = {
-	name = NAME_THEME_PRESIDENTS
-
-	for_countries = { ARG }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
-
-	prefix = "ARA "
-	fallback_name = "Barco-G %d"
-
-	unique = {
-		### Confederation ###
-		"Justo José de Urquiza" "Santiago Derqui" "Juan Esteban Pedernera"
-
-		### Argentine Republic ###
-		"Bartolomé Mitre" "Domingo Faustino Sarmiento" "Nicolás Avellaneda" "Julio Argentino Roca" "Miguel Ángel Celman" "Carlos Pellegrini"
-		"Luis Sáenz Peña" "José Evaristo Uriburu" "Julio Argentino Roca" "Manuel Quintana" "José Figueroa Alcorta" "Roque Sáenz Peña" 
-		"Victorino de la Plaza" "Hipólito Yrigoyen" "Marcelo Torcuato" "Hipólito Yrigoyen" "Enrique Martínez" "Agustín Pedro Justo"
 	}
 }

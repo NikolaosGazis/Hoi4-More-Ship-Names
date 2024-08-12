@@ -2,8 +2,8 @@
 
 ### Prefixes ###
 # RHS = Royal Hellenic Ship. (Official - Used)
-# HRS = Hellenic Republic Ship. (Communist)
-# RBS = Royal Byzantine Ship. (Byzantium)
+# HRS = Hellenic Republic Ship. (Made Up - Used)
+# RBS = Royal Byzantine Ship. (Byzantium - Not Used)
 
 ### Aircraft Carrier Names ###
 GRE_CV_HISTORICAL = { # Aces - Flying Creatures.
@@ -139,11 +139,30 @@ GRE_CL_HISTORICAL = { # Cities.
 		"Marousi" "Alexandroupoli" "Nea Smyrni" "Chalandri" "Lamia" "Serres" "Ilioupoli" "Sykies" "Trikala" "Ilion" "Katerini" 
 		"Mytilene" "Glyfada" "Keratsini" "Kalamaria" "Agrinio" "Stavroupoli" "Kallithea" "Evosmos" "Kerkyra" "Chalkida" "Nikaia" 
 		"Acharnes" "Chania" "Ioannina" "Rhodos" "Peristeri" "Volos" "Larisa" "Pireas" "Heraklion" "Patra"
- 	} 
+ 	}
+}
+
+### Mineship Names ###
+GRE_MNS_HISTORICAL = { # Flowers.
+	name = NAME_THEME_HISTORICAL_MINESHIPS
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "RHS "
+	fallback_name = "Narkoploio %d"
+
+	unique = {
+		###
+	}
 }
 
 ### Destroyer Names ###
-GRE_DD_HISTORICAL = { # Weaponry - Weather Phenomenom.
+GRE_DD_HISTORICAL = { # Weaponry - Weather Phenomenon.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
 	for_countries = { GRE }
@@ -215,31 +234,6 @@ GRE_THEME_PREFECTURES = {
 	}
 }
 
-### Theme: Cities ###
-GRE_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { GRE }
-
-	can_use = { not = { has_government = communism } }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	prefix = "RHS "
-	fallback_name = "Polemikó Ploío-B %d"
-
-	unique = {
-		"Peristeri" "Lárisa" "Kallithéa" "Nikaia" "Kalamaria" "Volos" "Nea Liosia" "Keratsínion" "Nea Smírni" "Khalándrion" "Vrilissia" 
-		"Aigáleo" "Amarousion" "Marousi" "Nea Ionia" "Palaio Faliro" "Ioánnina" "Víron" "Ayía Paraskeví" "Kavala" "Galátsion" "Rodos" 
-		"Kateríni" "Alexandroúpolis" "Petroúpolis" "Kalamata" "Trikala" "Xánthi" "Lamia" "Kifisiá" "Komotiní" "Sykéai" "Véroia" "Dráma" 
-		"Agrínion" "Kalamaki" "Polichni" "Alimos" "Karditsa" "Asprópirgos" "Cholargós" "Ayía Varvára" "Ptomelaida" "Voúla" "Áno Liósia" 
-		"Mytilíni" "Giannitsá" "Elefsína" "Trípoli" "Pérama" "Kaisarianí" "Árgos" "Megara" "Néa Filadélfia" "Moschato" "Pylaía" "Pýrgos" 
-		"Melíssia" "Thíva" "Livádeia" "Aígion" "Náousa" "Amaliás" "Kos" "Édessa" "Mesolóngi" "Ellinikón" "Náfpaktos" "Koropí" "Panórama" 
-		"Néa Erithraía" "Orestiás" "Peraía" "Meneméni" "Sparti" "Pallíni" "Néa Mákri" "Dafni"
-	}
-}
-
 ### Theme: Mountains ###
 GRE_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
@@ -252,7 +246,7 @@ GRE_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 
 	prefix = "RHS "
-	fallback_name = "Polemikó Ploío-C %d"
+	fallback_name = "Polemikó Ploío-B %d"
 
 	unique = {
 		"Olympos" "Smolikas" "Voras" "Grammos" "Gkiona" "Tymfi" "Vardoysia" "Parnassos" "Idi" "Leyka" "Kakarditsa" "Taygetos" "Kyllini"
@@ -265,6 +259,31 @@ GRE_THEME_MOUNTAINS = {
 		"Chtenias" "Ainos" "Pilio" "Kamvounia" "Souliou" "Saos" "Akarnika" "Chasia" "Kirfi" "Selena" "Tzoumeka" "Papikio" "Kalathio"
 		"Ourida" "Thryptis" "Vrontero" "Gouras" "Afrodisio" "Katafydi" "Kerketeas" "Orliakas" "Lykaio" "Antichasia" "Achladovouno" 
 		"Parnitha" "Kithaironas" "Kallidromo" "Ochi" "Tatrazi" "Kanalos" "Dovras" "Ntevas" "Skoteini" "Profitis Hlias" "Itamos"
+	}
+}
+
+### Theme: Cities ###
+GRE_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "RHS "
+	fallback_name = "Polemikó Ploío-C %d"
+
+	unique = {
+		"Peristeri" "Lárisa" "Kallithéa" "Nikaia" "Kalamaria" "Volos" "Nea Liosia" "Keratsínion" "Nea Smírni" "Khalándrion" "Vrilissia" 
+		"Aigáleo" "Amarousion" "Marousi" "Nea Ionia" "Palaio Faliro" "Ioánnina" "Víron" "Ayía Paraskeví" "Kavala" "Galátsion" "Rodos" 
+		"Kateríni" "Alexandroúpolis" "Petroúpolis" "Kalamata" "Trikala" "Xánthi" "Lamia" "Kifisiá" "Komotiní" "Sykéai" "Véroia" "Dráma" 
+		"Agrínion" "Kalamaki" "Polichni" "Alimos" "Karditsa" "Asprópirgos" "Cholargós" "Ayía Varvára" "Ptomelaida" "Voúla" "Áno Liósia" 
+		"Mytilíni" "Giannitsá" "Elefsína" "Trípoli" "Pérama" "Kaisarianí" "Árgos" "Megara" "Néa Filadélfia" "Moschato" "Pylaía" "Pýrgos" 
+		"Melíssia" "Thíva" "Livádeia" "Aígion" "Náousa" "Amaliás" "Kos" "Édessa" "Mesolóngi" "Ellinikón" "Náfpaktos" "Koropí" "Panórama" 
+		"Néa Erithraía" "Orestiás" "Peraía" "Meneméni" "Sparti" "Pallíni" "Néa Mákri" "Dafni"
 	}
 }
 
@@ -315,6 +334,25 @@ GRE_THEME_ISLANDS = {
 		"Agios Efstratios" "Schoinoussa" "Agathonisi" "Donousa" "Gavdos" "Irakleia" "Thymaina" "Telendos" "Trizonia" "Kastos" "Pserimos" 
 		"Palaio Trikeri" "Antikythira" "Arkoi" "Saria" "Peristera" "Delos" "Kalolimnos" "Gyali" "Antipaxos" "Dokos" "Farmakonisi" "Makronisos" 
 		"Piperi" "Marathi" "Samiopoula" "Antipsara" "Skorpios" "Kinaros" "Keros"
+	}
+}
+
+### Theme: Inspirational ###
+GRE_THEME_INSPIRATION = {
+	name = NAME_THEME_INSPIRATION
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "RHS "
+	fallback_name = "Polemikó Ploío-E %d"
+
+	unique = {
+		###
 	}
 }
 
@@ -444,7 +482,7 @@ GRE_THEME_BYZANTINE_MONARCHS = {
 	}
 }
 
-### Famous Battles ###
+### Theme: Famous Battles ###
 GRE_THEME_BATTLES = {
 	name = NAME_THEME_BATTLES
 

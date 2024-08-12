@@ -218,26 +218,6 @@ FIN_THEME_REGIONS = {
 	}
 }
 
-### Theme: Cities ###
-FIN_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { FIN }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	fallback_name = "Laiva-B %d"
-
-	unique = {
-		"Helsinki" "Espoo" "Tampere" "Vantaa" "Turku" "Oulu" "Lahti" "Kuopio" "Jyväskylä" "Pori" "Lappeenranta" "Vaasa" "Kotka" "Joensuu"
-		"Hämeenlinna" "Porvoo" "Mikkeli" "Hyvinkää" "Järvenpää" "Nurmijärvi" "Rauma" "Mellunkylä" "Lohja" "Vuosaari" "Kokkola" "Kajaani"
-		"Rovaniemi" "Tuusula" "Kirkkonummi" "Seinäjoki" "Kerava" "Kouvola" "Imatra" "Nokia" "Savonlinna" "Kallio" "Riihimäki" "Kaarela"
-		"Vihti" "Salo" "Kangasala" "Raisio" "Karhula" "Kemi" "Iisalmi" "Varkaus" "Raahe" "Ylöjärvi" "Hamina" "Kaarina" "Tornio" "Heinola"
-		"Hollola" "Valkeakoski" "Siilinjärvi" "Lauttasaari" "Sipoo" "Pietarsaari"
-	}
-}
-
 ### Theme: Mountains ###
 FIN_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
@@ -247,7 +227,7 @@ FIN_THEME_MOUNTAINS = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 
-	fallback_name = "Laiva-C %d"
+	fallback_name = "Laiva-B %d"
 
 	unique = {
 		"Taivaskero" "Yllästunturi" "Sokosti" "Kuivi" "Ropi" "Dierpmesvárri" "Kumpitunturi" "Outtakka" "Lainiotunturi" "Saana" "Akalauttapää"
@@ -255,6 +235,26 @@ FIN_THEME_MOUNTAINS = {
 		"Vuomapää" "Látnjoaivi" "Kätkätunturi" "Ailikas" "Kiilopää" "Luosto" "Suorsapää" "Otsamo" "Terävä-Nattanen" "Joutsitunturi" "Painopää"
 		"Karhutunturi" "Olostunturi" "Vuontiskero" "Nivatunturi" "Oratunturi" "Ruka" "Stuorrabogeoaivi" "Meekonvaara" "Korkea-Jehkas" "Äkäskero"
 		"Kesänkitunturi" "Vuotostunturi" "Lámmasoaivi"
+	}
+}
+
+### Theme: Cities ###
+FIN_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Laiva-C %d"
+
+	unique = {
+		"Helsinki" "Espoo" "Tampere" "Vantaa" "Turku" "Oulu" "Lahti" "Kuopio" "Jyväskylä" "Pori" "Lappeenranta" "Vaasa" "Kotka" "Joensuu"
+		"Hämeenlinna" "Porvoo" "Mikkeli" "Hyvinkää" "Järvenpää" "Nurmijärvi" "Rauma" "Mellunkylä" "Lohja" "Vuosaari" "Kokkola" "Kajaani"
+		"Rovaniemi" "Tuusula" "Kirkkonummi" "Seinäjoki" "Kerava" "Kouvola" "Imatra" "Nokia" "Savonlinna" "Kallio" "Riihimäki" "Kaarela"
+		"Vihti" "Salo" "Kangasala" "Raisio" "Karhula" "Kemi" "Iisalmi" "Varkaus" "Raahe" "Ylöjärvi" "Hamina" "Kaarina" "Tornio" "Heinola"
+		"Hollola" "Valkeakoski" "Siilinjärvi" "Lauttasaari" "Sipoo" "Pietarsaari"
 	}
 }
 
@@ -294,26 +294,6 @@ FIN_THEME_CULTURE = {
 	}
 }
 
-### Theme: Mythology ###
-FIN_THEME_NORDIC_MYTHOLOGY = {
-	name = NAME_THEME_NORDIC_MYTHOLOGY
-
-	for_countries = { FIN }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
-
-	fallback_name = "Laiva-F %d"
-
-	unique = {
-		"Väinämöinen" "Ilmarinen" "Lemminkäinen" "Louhi" "Aino" "Kullervo" "Mielikki" "Tapio" "Ukko" "Ahti" "Hiisi" "Ajatar" "Lempo" "Tellervo" 
-		"Kekri" "Äkräs" "Kalevatar" "Päivätär" "Päivöläinen" "Ilmatar" "Kipu-Tytto" "Mara" "Nyyrikki" "Suonetar" "Tuonetar" "Aijö" "Lokka" "Kalma" 
-		"Lalli" "Joukahainen" "Tursas" "Piru" "Kyllikki" "Menninkäinen" "Annikki" "Kave" "Turisas" "Rauni" "Sampsa" "Tuoni" "Loviatar" "Kuutar" 
-		"Vellamo" "Hongatar" "Tuulikki" "Äijö" "Haltija" "Pakkanen" "Ahto" "Ronka" "Mielikki" "Hisi" "Tuonetar" "Tuulento" "Iku-Turso" "Rauni" 
-		"Saari" "Vedenemo" "Näkki"
-	}
-}
-
 ### Theme: Famous Battles ###
 FIN_THEME_FAMOUS_BATTLES = {
 	name = NAME_THEME_BATTLES
@@ -323,14 +303,34 @@ FIN_THEME_FAMOUS_BATTLES = {
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }
 
-	fallback_name = "Laiva-G %d"
+	fallback_name = "Laiva-F %d"
 
 	unique = {
 		"Ruona" "Lappo" "Bomarsund" "Tampere" "Leningrad" "Vyborg" "Oravais" "Karstula" "Varkaus" "Lahti" "Karhumäki" "Kiestinki" "Vuoski" 
 		"Tolvajärvi" "Hangö" "Åland" "Tienhaara" "Ihantala" "Ilomantsi" "Napue" "Porrassalmi" "Parkumäki" "Kauhajoki" "Leppävirta" "Rautu" 
 		"Pyhäjoki" "Revonlahti" "Sikajoki" "Hattuvaara" "Kirkkokari" "Kirvesmäki" "Syrjä" "Kivinebb" "Antrea" "Vilppula" "Alavus" "Nykarleby"
 		"Koljonvirta" "Siuntio"
-	} 
+	}
+}
+
+### Theme: Mythology ###
+FIN_THEME_NORDIC_MYTHOLOGY = {
+	name = NAME_THEME_NORDIC_MYTHOLOGY
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
+
+	fallback_name = "Laiva-G %d"
+
+	unique = {
+		"Väinämöinen" "Ilmarinen" "Lemminkäinen" "Louhi" "Aino" "Kullervo" "Mielikki" "Tapio" "Ukko" "Ahti" "Hiisi" "Ajatar" "Lempo" "Tellervo" 
+		"Kekri" "Äkräs" "Kalevatar" "Päivätär" "Päivöläinen" "Ilmatar" "Kipu-Tytto" "Mara" "Nyyrikki" "Suonetar" "Tuonetar" "Aijö" "Lokka" "Kalma" 
+		"Lalli" "Joukahainen" "Tursas" "Piru" "Kyllikki" "Menninkäinen" "Annikki" "Kave" "Turisas" "Rauni" "Sampsa" "Tuoni" "Loviatar" "Kuutar" 
+		"Vellamo" "Hongatar" "Tuulikki" "Äijö" "Haltija" "Pakkanen" "Ahto" "Ronka" "Mielikki" "Hisi" "Tuonetar" "Tuulento" "Iku-Turso" "Rauni" 
+		"Saari" "Vedenemo" "Näkki"
+	}
 }
 
 ### Theme: Winter War Heroes ###

@@ -19,13 +19,13 @@ SOV_CV_HISTORICAL = { # Cities - Figures - Inspirational.
 
 	unique = {
 		### World of Warships ###
-		"Kosmomolets" "Serov" "Pobeda" "Volga" "Chkalov" "Admiral Nakhimov"
+		"Kosmomolets" "Serov" "Pobeda" "Volga" "Admiral Nakhimov"
 		
 		### Moskva Class (1967) ###
 		"Moskva" "Leningrad" 
 
 		### Kiev Class (1975) ###
-		"Oryol" "Kiyev" "Minsk"  "Novorossiysk" "Admiral Gorshkov" "Baku"
+		"Oryol" "Kiyev" "Minsk" "Novorossiysk" "Admiral Gorshkov" "Baku"
 
 		### Admiral Kuznetsov (1990) ###
 		"Admiral Kuznetsov" "Varyag"
@@ -33,12 +33,28 @@ SOV_CV_HISTORICAL = { # Cities - Figures - Inspirational.
 		### Ulyanovsk Class (1988) - Standalone ###
 		"Ulyanovsk"
 
+		### Additionals - Cold War Themes ###
+		"Leonid Brezhnev" "Sputnik" "Cosmonaut" "Luna"
+
 		### Additionals ###
 		"Kharkov" "Riga" "Tblisi" "Arktika" "Proletariat" "Kommunar" "Vostok" "Kolkhoznik" "Petrovsky" "Rodina" "Magnitogorsk"
 		"Dnipro" "Volgograd" "Norilsk" "Gorky" "Kharkiv" "Novosibirsk" "Yaroslavl" "Togliatti" "Krasnoyarsk" "Samara"
+	}
+}
 
-		### Additionals - Cold War ###
-		"Leonid Brezhnev" "Sputnik" "Cosmonaut" "Luna"
+### Light Aircraft Carrier Names ###
+SOV_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	fallback_name = "Legkiy Avianosets %d"
+
+	unique = {
+		###
 	}
 }
 
@@ -88,11 +104,17 @@ SOV_BC_HISTORICAL = { # (Soviet) Themes - Cities.
 	fallback_name = "Lineyny Kreyser %d"		
 
 	unique = {
-		### World of Warships ###
-		"Kronshtadt" "Sevastopol" "Stalingrad"
+		### Petropavlosk Class (1939) - Standalone ###
+		"Petropavlosk"
+
+		### Kronshtadt Class (1939) ###
+		"Kronshtadt" "Sevastopol" 
+
+		### Stalingrad Class (1954) (1/3) ###
+		"Stalingrad"
 		
 		### Additionals ####
-		"Kalinin" "Dzerzhinsky" "Admiral Lazarev" "Yuri Andropov"
+		"Kalinin" "Yuri Andropov"
 	}
 }
 
@@ -110,18 +132,16 @@ SOV_CA_HISTORICAL = { # Revolutionary Heroes - Admirals - Generals.
 	fallback_name = "Tyazhely Kreyser %d"
 
 	unique = {
-		### Current Models ###
-		"Kirov" "Voroshilov" "Maksim Gorky" "Molotov" "Kaganovich" "Kalinin" "Tallin" "Chapayev" "Zheleznyakov" "Kuybyshev" 
-		"Frunze" "Ordzhonikidze" "Sverdlov" "Kamenev" "Ovseenko" "Dybenko"
+		### Tallinn Class (1940) - Standalone ###
+		"Tallinn"
 		
 		### Additionals ###
-		"Zhdanov" "Admiral Lazarev" "Admiral Senyavin" "Dmitry Pozharsky" "Murmansk" "Mikhail Kutuzov" "Grozny" "Admiral Fokin" 
-		"Admiral Golovko" "Khabarovsk"
+		"Kamenev" "Ovseenko" "Dybenko" "Admiral Fokin" "Admiral Golovko" "Khabarovsk"
 	}
 }
 
 ### Light Cruiser Names ###
-SOV_CL_HISTORICAL = { # Revolutionary Heroes - Generals. 
+SOV_CL_HISTORICAL = { # Revolutionary Heroes - Admirals. 
 	name = NAME_THEME_HISTORICAL_CL
 
 	for_countries = { SOV }
@@ -134,14 +154,77 @@ SOV_CL_HISTORICAL = { # Revolutionary Heroes - Generals.
 	fallback_name = "Lyogky Kreyser %d"
 
 	unique = {
-		### Current Models ###
-		"Chapayev" "Zheleznyakov" "Kuybyshev" "Chkalov" "Ordzhonikidze" "Sverdlov" "Frunze" "Murmansk" "Komintern" "Krasny Krym" 
-		"Chervona Ukrayna" "Krasny Kavkaz" 
+		### Kirov Class (1936) ###
+		"Kirov" "Voroshilov"
+
+		### Maksim Gorky Class (1938) ###
+		"Maksim Gorky" "Molotov" "Kalinin" "Kaganovich"
+
+		### Chapayev Class (1941) ###
+		"Chapayev" "Kuybyshev" "Zheleznyakov" "Chkalov" "Frunze" "Ordzhonikidze" 
+
+		### Sverdlov Class (1950) (20/21) ###
+		"Sverdlov" "Zhdanov" "Admiral Nevski" "Admiral Lazarev" "Dzerzhinsk" "Admiral Senyavin" "Mikhail Kutuzov" "Aleksandr Suvorov"
+		"Dmitry Pozharsky" "Molotovsk" "Murmansk" "Koz‘ma Minin" "Dmitrii Donskoi" "Scherbakov" "Admiral Kornilov" "Varyag"
+
+		### Transferred Ships ###
+		"Admiral Makarov" "Kerch"
 		
-		### Additionals ###
-		"Zhdanov" "Admiral Lazarev" "Aleksandr Suvorov" "Admiral Senyavin" "Dmitry Pozharsky" "Mikhail Kutuzov" "Grozny" "Profintern" 
-		"Grozneft" "Azneft" "Vitse Admiral Drozd" "Admiral Zozulya" "Admiral Isakov" "Admiral Makarov" "Marshal Voroshilov" "Admiral Oktyabrsky" 
-		"Admiral Isachenkov" "Marshal Budyonny" "Vasily Chapayev" "Admiral Yumashev" "Nikolayev" "Ochakov" "Kerch" "Azov" "Admiral Flota Lobov" 
+		### Additionals - Older Models ###
+		"Profintern" "Komintern" "Krasny Krym" "Chervona Ukrayna" "Krasny Kavkaz" "Grozneft" "Azneft" "Vitse Admiral Drozd" 
+		"Admiral Zozulya" "Admiral Isakov" "Admiral Oktyabrsky" "Admiral Isachenkov" "Marshal Budyonny" "Admiral Yumashev" "Nikolayev" 
+		"Ochakov" "Kerch" "Azov"
+	}
+}
+
+### Minelayer Names ###
+SOV_MINELAYERS_HISTORICAL = { # Mountains - Rivers - Cities - Mythology.
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { SOV }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+	
+	fallback_name = "Minny Zagraditel' %d"
+
+	unique = {
+		### Cruiser & Destoyer Minelayers ###
+		"Bug" "Gidrograf" "Marti" "Murman" "Okean" "Okhotsk" "Zyuyd" "Don" "Katun" "Sukhona" "Vychegda" "Pripyat" 
+		
+		### Older Models ###
+		"Pervoye Maya" "Amur" "Yenisey" "Azimut" "Yanvarya" "Volga" "Voin" "Oko" "Mezen"
+
+		### Auxilary Minelayers ###
+		"Bureya" "Dyuna" "Ilmen" "Irtysh" "Khoper" "Lena" "Lovat" "Mtsa" "Mologa" "Ob" "Sheksna" "Svir" "Terek" "Ural" "Zeya" "Beshtau" "Dikhtau" 
+		"Mina" "Monogugai" "Shika" "Usuri" "Dobrynya" "Dulo" "Garpun" "Ilya Murometz" "Kitoboj" "Kometa" "Mikula" "Namet" "Nevod" "Planeta" "Stvol" 
+		"Svyatogor" "Tsapfa" "Tumba" "Yakor" "Batum" "Kharaks" "Khersonets" "Metcha" "Truvor" "Vesta" "Vityaz"
+	}
+}
+
+### Minesweeper Names ###
+SOV_MINESWEEPERS_HISTORICAL = { # Nautical Termninology.
+	name = NAME_THEME_HISTORICAL_MINESWEEPERS
+
+	for_countries = { SOV }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	fallback_name = "Tral'shchiki %d"
+
+	unique = {
+		### Fugas Class (1936) ###
+		"Fugas" "Strela" "Tros" "Podsekatel" "Provodnik" "Paravan" "Kapsyul" "Veha" "Cheka" "Zaryad" "Buj" "Patron" "Gafel" "Verp" "Shpil" "Shkiv" 
+		"Kneht" "Gak" "Rym" "Shtag" "Krambol" "Bugel" "Tral" "Minrep" "Gruz" "Sshit" "Vzryvatel" "Iskatel" "Mina" "Yakor" "Garporon" "Vzryv" 
+		"Zasshitnik" "Arsenly Raskin"
+
+		### Other Projects ###
+		"Pyotr Papkovich" "Ivan Maslov" "Vsevolod Vishnevsky" "Korall" "Khrustal" "Osetr" "Skat" "Sterlyad" "Sudak"
 	}
 }
 
@@ -174,58 +257,7 @@ SOV_DD_HISTORICAL = { # Adjectives - Animals - Weather Phenomenons.
 		"Garibaldi" "Pospeshny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchy" "Tiflis" "Vitse Admiral Drozd" "Polezny" 
 		"Prozorlivy" "Podvizhny" "Besstrashny" "Besshumny" "Okhotnik" "Oporny" "Ognedyshachy" "Obkhodnoy" "Otryvisty" "Opustoshitelny" "Osnashchonny" 
 		"Obzhigayushchy" "Okhranyayushchy" "Ozabochenny" "Volodarsky" "Uritsky" "Artyom" "Voykov" "Spartak" "Kuybyshev" "Karl Liebknecht" "Kalinin" 
-		"Dzerzhinsky" "Zheleznyakov" "Nezamozhnik" "Shaumyan" 
-	}
-}
-
-### Minelayer Names ###
-SOV_MINELAYERS_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_MINELAYERS
-
-	for_countries = { SOV }
-
-	can_use = { has_government = communism }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-	
-	fallback_name = "Minny Zagraditel' %d"
-
-	unique = {
-		### Cruiser & Destoyer Minelayers ###
-		"Bug" "Gidrograf" "Marti" "Murman" "Okean" "Okhotsk" "Zyuyd" "Don" "Katun" "Sukhona" "Vychegda" "Pripyat" 
-		
-		### Older Models ###
-		"Pervoye Maya" "Amur" "Yenisey" "Azimut" "Yanvarya" "Volga" "Voin" "Oko" "Mezen"
-
-		### Auxilary Minelayers ###
-		"Bureya" "Dyuna" "Ilmen" "Irtysh" "Khoper" "Lena" "Lovat" "Mtsa" "Mologa" "Ob" "Sheksna" "Svir" "Terek" "Ural" "Zeya" "Beshtau" "Dikhtau" 
-		"Mina" "Monogugai" "Shika" "Usuri" "Dobrynya" "Dulo" "Garpun" "Ilya Murometz" "Kitoboj" "Kometa" "Mikula" "Namet" "Nevod" "Planeta" "Stvol" 
-		"Svyatogor" "Tsapfa" "Tumba" "Yakor" "Batum" "Kharaks" "Khersonets" "Metcha" "Truvor" "Vesta" "Vityaz"
-	}
-}
-
-### Minesweeper Names ###
-SOV_MINESWEEPERS_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_MINESWEEPERS
-
-	for_countries = { SOV }
-
-	can_use = { has_government = communism }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-
-	fallback_name = "Tral'shchiki %d"
-
-	unique = {
-		### Fugas Class (1936) ###
-		"Fugas" "Strela" "Tros" "Podsekatel" "Provodnik" "Paravan" "Kapsyul" "Veha" "Cheka" "Zaryad" "Buj" "Patron" "Gafel" "Verp" "Shpil" "Shkiv" 
-		"Kneht" "Gak" "Rym" "Shtag" "Krambol" "Bugel" "Tral" "Minrep" "Gruz" "Sshit" "Vzryvatel" "Iskatel" "Mina" "Yakor" "Garporon" "Vzryv" 
-		"Zasshitnik" "Arsenly Raskin"
-
-		### Other Projects ###
-		"Pyotr Papkovich" "Ivan Maslov" "Vsevolod Vishnevsky" "Korall" "Khrustal" "Osetr" "Skat" "Sterlyad" "Sudak"
+		"Nezamozhnik" "Shaumyan" 
 	}
 }
 
@@ -294,7 +326,7 @@ SOV_SS_CLASS_K = {
 	}
 }
 
-##### Themes (Some are shared with other Ideologies) #####
+##### Themes #####
 
 ### Theme: Leaders ###
 SOV_THEME_LEADERS = {
@@ -330,6 +362,7 @@ SOV_THEME_STATES = {
 	fallback_name = "Korabl-B %d"
 
 	unique = {
+		### Current Republics ###
 		"Sovyetsky Soyuz" "Sovyetskaya Rossiya" "Sovyetskaya Ukrayna" "Sovyetskaya Byelorussiya" "Sovyetskaya Gruzinskaya" "Sovyetskaya Armyanskaya" 
 		"Sovyetskaya Azerbaydzhanskaya" "Sovyetskaya Kazakhskaya" "Sovyetskaya Tadzhikskaya" "Sovyetskaya Uzbekskaya" "Sovyetskaya Turkmenskaya" 
 		"Sovyetskaya Kirgizskaya"
@@ -342,6 +375,24 @@ SOV_THEME_STATES = {
 		### Old - New ###
 		"Sovyetskaya Zakavkazskaya" "Sovyetskaya Bukharskaya" "Sovyetskaya Turkestanskaya" "Sovyetskaya Khorezmskaya"
 		"Sovyetskaya Karelo-Finskaya" "Sovyetskaya Moldavskaya" "Sovyetskaya Litovskaya" "Sovyetskaya Latvyskaya" "Sovyetskaya Estonskaya"
+	}
+}
+
+### Theme: Mountains ###
+SOV_THEME_MOUNTAINS = {
+	name = "Mountains"
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	fallback_name = "Korabl-D %d"
+
+	unique = { 
+		"Elbrus" "Dychtau" "Dzagam" "Pamir" "Khan Tengri" "Ismoil Somoni" "Belukha" "Kazbek" "Shan" "Sulak" "Ararat" "Ural" "Altai" "Kunlun" 
+		"Putorana" "Sayan" "Pamir-Alay" "Khibiny" "Gissar" "Zailiysky Alatau" "Vaygach" "Yakutskaya Spoka" "Sikhote-Alin" "Saryaska" "Kolyma" 
+		"Yenisei" "Verkhoyansk"
 	}
 }
 
@@ -365,24 +416,6 @@ SOV_THEME_CITIES = {
 		"Orenburg" "Tomsk" "Kemerovo" "Ivanovo" "Krasnoyarsk" "Samarkand" "Khabarovsk" "Ulan Ude" "Frunze" "Chita" "Irkutsk" "Krasnodar" "Izhevsk" 
 		"Ulyanovsk" "Novokuznetsk" "Penza" "Kursk" "Magnitogorsk" "Tyumen" "Dushanbe" "Kyzyl" "Cheboksary" "Stavropol" "Bryansk" "Belgorod" 
 		"Novgorod" "Chernigov" "Voronezh" "Tambov" "Saratov" "Engels" "Tallin" "Riga" "Voroshilov"
-	}
-}
-
-### Theme: Mountains ###
-SOV_THEME_MOUNTAINS = {
-	name = "Mountains"
-
-	for_countries = { SOV }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-
-	fallback_name = "Korabl-D %d"
-
-	unique = { 
-		"Elbrus" "Dychtau" "Dzagam" "Pamir" "Khan Tengri" "Ismoil Somoni" "Belukha" "Kazbek" "Shan" "Sulak" "Ararat" "Ural" "Altai" "Kunlun" 
-		"Putorana" "Sayan" "Pamir-Alay" "Khibiny" "Gissar" "Zailiysky Alatau" "Vaygach" "Yakutskaya Spoka" "Sikhote-Alin" "Saryaska" "Kolyma" 
-		"Yenisei" "Verkhoyansk"
 	}
 }
 
@@ -433,9 +466,25 @@ SOV_THEME_BATTLES = {
 	for_countries = { SOV }
 
 	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }
 
 	fallback_name = "Korabl-G %d"
+
+	unique = {
+		###
+	}
+}
+
+### Theme: Mythology ###
+SOV_THEME_MYTHOLOGY = {
+	name = NAME_THEME_SLAVIC_MYTHOLOGY
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "Korabl-H %d"
 
 	unique = {
 		###

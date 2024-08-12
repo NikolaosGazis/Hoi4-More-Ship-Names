@@ -47,7 +47,7 @@ JAP_CV_HISTORICAL = { # Flying Creatures - Cranes - Dragons.
 }
 
 ### Light/Escort Aircraft Carrier Names ###
-JAP_CVL_HISTORICAL = { # Culture - Geography | Older Models - Seaplane Tenders.
+JAP_CVL_HISTORICAL = { # Culture - Geography / Older Models - Seaplane Tenders.
 	name = NAME_THEME_HISTORICAL_CVL
 
 	for_countries = { JAP }
@@ -143,11 +143,11 @@ JAP_BB_HISTORICAL = { # Provinces - Tradition/Symbolism.
 		"Tosa"
 
 		### Yamato Class (1941) (Proposed Names) ###
-		"Yamato" "Musashi" "Shinano" "Satsuma" "Inazuma"
+		"Yamato" "Musashi" "Shinano" "Satsuma" "Shikishima"
 		
 		### Older Models ###
-		"Izumo" "Fuji" "Yashima" "Shikishima" "Hatsuse" "Asahi" "Mikasa" "Tango" "Sagami" "Suwo" "Hizen" "Iwami" "Kashima" "Aki" "Kawachi" 
-		"Settsu" "Kii" "Owari" "Suruga" "Iki" 
+		"Izumo" "Fuji" "Yashima" "Hatsuse" "Asahi" "Mikasa" "Tango" "Sagami" "Suwo" "Hizen" "Iwami" "Kashima" "Aki" "Kawachi" "Settsu" "Kii" 
+		"Owari" "Suruga" "Iki"
 		
 		### Additionals ###
 		"Raiden" "Kaminari" "Dewa" "Hitachi" "Noto" "Hida" "Mino" "Mikawa" "Kai" "Izumi" "Iga" "Tanba" "Sanuki" "Awa" "Osumi" "Tajima" "Iyo" 
@@ -274,8 +274,30 @@ JAP_CL_HISTORICAL = { # Rivers.
 	}
 }
 
+### Minelayer Names ###
+JAP_MINELAYERS_HISTORICAL = { # Geography/Islands.
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	 
+	fallback_name = "Fusetsukan %d-go"
+
+	unique = {
+		### Cruiser & Destroyer Minelayers ###
+		"Okinoshima" "Hatsutaka" "Aotaka" "Wakataka" "Tsugaru" "Eijo" "Mino" "Katsuriki" "Shirataka" "Itsukushima" "Yaeyama"
+
+		### Older & Smaller Minelayer Names ###
+		"Natsushima" "Sokuten" "Toshima" "Kuroshima" "Ashizaki" "Katoku" "Kurokami" "Katashima" "Ento" "Enoshima" "Kurosaki" "Ninoshima" 
+		"Washizaki" "Kamome" "Tsubame" "Nasami" "Sarushima" "Shirakami" "Naryū" "Kyosai" "Ukishima" "Hirashima" "Hoko" "Ishizaki" "Takashima" 
+		"Saishu" "Niizaki" "Yurijima" "Nuwashima" "Maeshima" "Ajiro" "Kamishima" "Awashima" 
+	}
+}
+
 ### Destroyer Names ###
-JAP_DD_HISTORICAL = { # Wheather Phenomenoms.
+JAP_DD_HISTORICAL = { # Wheather Phenomenons.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
 	for_countries = { JAP }
@@ -345,28 +367,6 @@ JAP_DE_HISTORICAL = { # Islands.
 	}
 }
 
-### Minelayer Names ###
-JAP_MINELAYERS_HISTORICAL = { # Geography/Islands.
-	name = NAME_THEME_HISTORICAL_MINELAYERS
-
-	for_countries = { JAP }
-
-	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
-	 
-	fallback_name = "Fusetsukan %d-go"
-
-	unique = {
-		### Cruiser & Destroyer Minelayers ###
-		"Okinoshima" "Hatsutaka" "Aotaka" "Wakataka" "Tsugaru" "Eijo" "Mino" "Katsuriki" "Shirataka" "Itsukushima" "Yaeyama"
-
-		### Older & Smaller Minelayer Names ###
-		"Natsushima" "Sokuten" "Toshima" "Kuroshima" "Ashizaki" "Katoku" "Kurokami" "Katashima" "Ento" "Enoshima" "Kurosaki" "Ninoshima" 
-		"Washizaki" "Kamome" "Tsubame" "Nasami" "Sarushima" "Shirakami" "Naryū" "Kyosai" "Ukishima" "Hirashima" "Hoko" "Ishizaki" "Takashima" 
-		"Saishu" "Niizaki" "Yurijima" "Nuwashima" "Maeshima" "Ajiro" "Kamishima" "Awashima" 
-	}
-}
-
 ### Submarine Names ###
 JAP_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
@@ -420,6 +420,30 @@ JAP_THEME_PREFECTURES = {
 	}
 }
 
+### Theme: Mountains ###
+JAP_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "Gunkan-B %d-go"
+
+	unique = {
+		"Fuji" "Kita" "Okuhotaka" "Aino" "Yari" "Warusawa" "Akaishi" "Karasawa" "Kitahotaka" "Ōbami" "Maehotaka" "Naka" "Arakawa" "Ontake" "Nishinōtori" "Shiomi" 
+		"Senjō" "Norikura" "Tate" "Hijiri" "Tsurugi" "Suisho" "Kaikoma" "Kisokoma" "Shirouma" "Otensho" "Yakushi" "Washiba" "Aka" "Kasa" "Kashimayari" "Utsugi" "Jōnen"
+		"Sannosawa" "Minamikoma" "Kannon" "Kurobegorō" "Yoko" "Goryu" "Akanagi" "Yakushi" "Jizō" "Tsubakuro" "Iō" "Haku" "Hōei" "Nokogiri" "Chō" "Tengu" "Neishi"
+		"Kinpu" "Yumiori" "Tekari" "Nikko-Shirane" "Asame" "Tateshina" "Nantai" "Sanpo" "Yoko" "Hiuchi" "Yake" "Myōkō" "Hachimori" "Bessan" "Nishi" "Hiuchigatake"
+		"Azumaya" "Asahi" "Hokuchin" "Hakuun" "Kuma" "Pippu" "Ena" "Mamiya" "Kusatsu-Shirane" "Koizumi" "Nyū" "Hokkai" "Naeba" "Nokogiri" "Tomuraushi" "Matsuda"
+		"Sannomine" "Dainichi" "Ryōun" "Ogura" "Nyū" "Iide" "Nakanodake" "Aka" "Tokachi" "Eboshi" "Daibosatsu" "Poroshiri" "Biei" "Iwate" "Goshiki" "Kitamata" "Ōsasa"
+		"Midori" "Kumotori" "Nipesotsu" "Onishi" "Kuro" "Gassan" "Ishizuchi" "Tanigawa" "Ishikari" "Kenashi" "Amakazari" "Chūbetsu" "Tottabetsu" "Tsurugi" "Keigetsu" 
+		"Miyanoura" "Otofuke" "Krigamine" "Nasu" "Pipairo" "Hakkyō" "Furano" "Kitatottabetsu" "Yōtei" "Satsunai" "Miune" "Chiroro" "Bebetsu" "Oizuru" "Zaō" "Upepesanke" 
+		"Bandai" "Nukabira"
+	}
+}
+
 ### Theme: Cities ###
 JAP_THEME_CITIES = {
 	name = NAME_THEME_CITIES
@@ -429,7 +453,7 @@ JAP_THEME_CITIES = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "Gunkan-B %d-go"
+	fallback_name = "Gunkan-C %d-go"
 
 	unique = {
 		"Tokyo" "Yokohama" "Osaka" "Nagoya" "Sapporo" "Kobe" "Kyoto" "Fukuoka" "Kawasaki" "Saitama" "Hiroshima" "Sendai" "Kitakyushu" "Chiba" "Setagaya" 
@@ -446,30 +470,6 @@ JAP_THEME_CITIES = {
 		"Saga-shi" "Tsu-shi" "Sayama" "Kawanishi" "Oyama" "Ashikaga" "Narashino" "Nagareyama" "Katsuta" "Kamagaya" "Tottori" "Ōta" "Komaki" "Ōgaki" "Ōme" 
 		"Moriguchi" "Otaru" "Urayasu" "Yonago" "Kariya" "Musashino" "Zama" "Seto" "Ebetsu" "Tondabayashi" "Sanda" "Kakamigahara" "Abiko" "Kadoma" "Isesaki"
 		"Mino" "Asaka" "Kusatsu" "Yaizu" "Toda" "Ishinomaki" "Handa" "Koganei" "Mishima" "Kitami" "Kuwana" "Hikone" "Chikusei" "Hakusan" "Marugame" "Toride"
-	}
-}
-
-### Theme: Mountains ###
-JAP_THEME_MOUNTAINS = {
-	name = NAME_THEME_MOUNTAINS
-
-	for_countries = { JAP }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
-
-	fallback_name = "Gunkan-C %d-go"
-
-	unique = {
-		"Fuji" "Kita" "Okuhotaka" "Aino" "Yari" "Warusawa" "Akaishi" "Karasawa" "Kitahotaka" "Ōbami" "Maehotaka" "Naka" "Arakawa" "Ontake" "Nishinōtori" "Shiomi" 
-		"Senjō" "Norikura" "Tate" "Hijiri" "Tsurugi" "Suisho" "Kaikoma" "Kisokoma" "Shirouma" "Otensho" "Yakushi" "Washiba" "Aka" "Kasa" "Kashimayari" "Utsugi" "Jōnen"
-		"Sannosawa" "Minamikoma" "Kannon" "Kurobegorō" "Yoko" "Goryu" "Akanagi" "Yakushi" "Jizō" "Tsubakuro" "Iō" "Haku" "Hōei" "Nokogiri" "Chō" "Tengu" "Neishi"
-		"Kinpu" "Yumiori" "Tekari" "Nikko-Shirane" "Asame" "Tateshina" "Nantai" "Sanpo" "Yoko" "Hiuchi" "Yake" "Myōkō" "Hachimori" "Bessan" "Nishi" "Hiuchigatake"
-		"Azumaya" "Asahi" "Hokuchin" "Hakuun" "Kuma" "Pippu" "Ena" "Mamiya" "Kusatsu-Shirane" "Koizumi" "Nyū" "Hokkai" "Naeba" "Nokogiri" "Tomuraushi" "Matsuda"
-		"Sannomine" "Dainichi" "Ryōun" "Ogura" "Nyū" "Iide" "Nakanodake" "Aka" "Tokachi" "Eboshi" "Daibosatsu" "Poroshiri" "Biei" "Iwate" "Goshiki" "Kitamata" "Ōsasa"
-		"Midori" "Kumotori" "Nipesotsu" "Onishi" "Kuro" "Gassan" "Ishizuchi" "Tanigawa" "Ishikari" "Kenashi" "Amakazari" "Chūbetsu" "Tottabetsu" "Tsurugi" "Keigetsu" 
-		"Miyanoura" "Otofuke" "Krigamine" "Nasu" "Pipairo" "Hakkyō" "Furano" "Kitatottabetsu" "Yōtei" "Satsunai" "Miune" "Chiroro" "Bebetsu" "Oizuru" "Zaō" "Upepesanke" 
-		"Bandai" "Nukabira"
 	}
 }
 
@@ -502,7 +502,7 @@ JAP_THEME_ISLANDS = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "Gunkan-X %d-go"
+	fallback_name = "Gunkan-E %d-go"
 
 	unique = {
 		### Pacific Islands - Controlled ###
@@ -516,6 +516,54 @@ JAP_THEME_ISLANDS = {
 	}
 }
 
+### Theme: Imperial Holdings ###
+JAP_THEME_IMPERIAL_HOLDINGS = {
+	name = NAME_THEME_IMPERIAL_HOLDINGS
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "Gunkan-F %d-go"
+
+	unique = {
+		### Korea ###
+		"Chōsen" "Keijō" "Incheon" "Pusan" "Kyorai" "Tatoku" "Suen" "Kōshu" "Daijōn" "Urusan" "Jonshu" "Chōshu" "Jeshu" "Ando" "Jeshon" "Kibai" "Yanshu" 
+		"Koyan" "Shunshon" "Mokufu" "Kimushon" "Ansan" "Iksan" "Kumi" "Yosu" "Hōkō"
+
+		### Manchuria ###
+		"Manchukuo" "Hsinking" "Harubin" "Dairen" "Chichiharu" "Mutan Kyō" "Kirin Shi" "Fushun" "Anzan" "Shitsuei" "Tōwa" "Honsei" "Kurutao" "Kinshū" 
+		"Enkei" "Tonka" "Haishō" "Hōten" "Mukden" "Hufu" "Tōmon"
+
+		### Mongolia ###
+		"Menguko" "Ulan Bato" "Erudenetto" "Darkhan" "Choibalsan" "Zuunmod" "Barun Uruto" "Moron" "Sukubatāru" "Burgan" "Uran Gomu" "Tsetsurerugi" 
+		"Bayankongoru" "Arubaikiru" "Mandarugobi" "Arutai" "Karu Korin" "Orugii" "Daranzadogado" "Ubusu" "Narai"
+
+		### Taiwan ###
+		"Formosa" "Taihoku" "Tai Nan" "Shi Ei" "Houren" "I Ran" "Kīrun" "Taito" "Hōkō" "Taien" "Shinchiku" "Toryo" "Makō" "Tōpun" "Chūpei" "Nanto" 
+		"Kōshun" "Penghu"
+	}
+}
+
+### Theme: Inspirational ###
+JAP_THEME_ISNPIRATIONAL = {
+	name = NAME_THEME_INSPIRATION
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Gunkan-G %d-go"
+
+	unique = {
+		"Isamu" "Kibo" "Shinrai" "Meiyo" "Seigi" "Gekido" "Kensei" "Nakama" "Reimei" "Kagayaki" "Shizuka" "Shōgeki" "Tōmei" "Zettai" "Kowarezu" "Seikatsu" 
+		"Jiyū" "Seijitsu" "Kibishii" "Kiryoku" "Eien" "Hayai" "Fukutsu" "Akarui" "Yamashii" "Shizukesa" "Sōzō" "Mirai" "Gaman" "Sōzōryoku" "Kiseki" "Shinka" 
+		"Fushigi" "Kōun" "Yume" 
+	}
+}
+
 ### Theme: Weather ###
 JAP_THEME_WEATHER = {
 	name = NAME_THEME_WEATHER
@@ -525,7 +573,7 @@ JAP_THEME_WEATHER = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "Gunkan-E %d-go"
+	fallback_name = "Gunkan-H %d-go"
 
 	unique = {
 		"Kawakaze" "Tanikaze" "Minekaze" "Sawakaze" "Okikaze" "Shimakaze" "Nadakaze" "Yakaze" "Hakaze" "Shiokaze" "Akikaze" "Yukaze" "Tachikaze" "Hokaze" "Nokaze" 
@@ -549,7 +597,7 @@ JAP_THEME_NATURE = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "Gunkan-F %d-go"
+	fallback_name = "Gunkan-I %d-go"
 
 	unique = {
 		"Momo" "Kashi" "Hinoki" "Yanagi" "Enoki" "Maki" "Keyaki" "Kuwa" "Tsubaki" "Nara" "Momi" "Kaya" "Nashi" "Take" "Kaki" "Tsuga" "Nire" "Kuri" "Kiku" "Aoi" 
@@ -562,24 +610,6 @@ JAP_THEME_NATURE = {
 	}
 }
 
-### Theme: Inspirational ###
-JAP_THEME_ISNPIRATIONAL = {
-	name = NAME_THEME_INSPIRATION
-
-	for_countries = { JAP }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	fallback_name = "Gunkan-X %d-go"
-
-	unique = {
-		"Isamu" "Kibo" "Shinrai" "Meiyo" "Seigi" "Gekido" "Kensei" "Nakama" "Reimei" "Kagayaki" "Shizuka" "Shōgeki" "Tōmei" "Zettai" "Kowarezu" "Seikatsu" 
-		"Jiyū" "Seijitsu" "Kibishii" "Kiryoku" "Eien" "Hayai" "Fukutsu" "Akarui" "Yamashii" "Shizukesa" "Sōzō" "Mirai" "Gaman" "Sōzōryoku" "Kiseki" "Shinka" 
-		"Fushigi" "Kōun" "Yume" 
-	}
-}
-
 ### Theme: Culture ###
 JAP_THEME_CULTURE = {
 	name = NAME_THEME_CULTURE
@@ -589,7 +619,7 @@ JAP_THEME_CULTURE = {
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
 
-	fallback_name = "Gunkan-G %d-go"
+	fallback_name = "Gunkan-J %d-go"
 
 	unique = {
 		### Gods - Deities ###
@@ -608,35 +638,6 @@ JAP_THEME_CULTURE = {
  	}
 }
 
-### Theme: Imperial Holdings ###
-JAP_THEME_IMPERIAL_HOLDINGS = {
-	name = NAME_THEME_IMPERIAL_HOLDINGS
-
-	for_countries = { JAP }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
-
-	fallback_name = "Gunkan-X %d-go"
-
-	unique = {
-		### Korea ###
-		"Chōsen" "Keijō" "Incheon" "Pusan" "Kyorai" "Tatoku" "Suen" "Kōshu" "Daijōn" "Urusan" "Jonshu" "Chōshu" "Jeshu" "Ando" "Jeshon" "Kibai" "Yanshu" "Koyan" "Shunshon" 
-		"Mokufu" "Kimushon" "Ansan" "Iksan" "Kumi" "Yosu" "Hōkō"
-
-		### Manchuria ###
-		"Manchukuo" "Hsinking" "Harubin" "Dairen" "Chichiharu" "Mutan Kyō" "Kirin Shi" "Fushun" "Anzan" "Shitsuei" "Tōwa" "Honsei" "Kurutao" "Kinshū" "Enkei" "Tonka" "Haishō" 
-		"Hōten" "Mukden" "Hufu" "Tōmon"
-
-		### Mongolia ###
-		"Menguko" "Ulan Bato" "Erudenetto" "Darkhan" "Choibalsan" "Zuunmod" "Barun Uruto" "Moron" "Sukubatāru" "Burgan" "Uran Gomu" "Tsetsurerugi" "Bayankongoru" "Arubaikiru" 
-		"Mandarugobi" "Arutai" "Karu Korin" "Orugii" "Daranzadogado" "Ubusu" "Narai"
-
-		### Taiwan ###
-		"Formosa" "Taihoku" "Tai Nan" "Shi Ei" "Houren" "I Ran" "Kīrun" "Taito" "Hōkō" "Taien" "Shinchiku" "Toryo" "Makō" "Tōpun" "Chūpei" "Nanto" "Kōshun" "Penghu"
-	}
-}
-
 ### Theme: Symbolism ###
 JAP_THEME_SYMBOLISM = {
 	name = NAME_THEME_SYMBOLISM
@@ -646,30 +647,13 @@ JAP_THEME_SYMBOLISM = {
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
 
-	fallback_name = "Gunkan-H %d-go"
+	fallback_name = "Gunkan-K %d-go"
 
 	unique = {
 		"Kizuna" "Kokoro" "Eiyo" "Wa" "Seishin" "Rei" "Takumi" "Yume" "Shinbun" "Kenkyo" "Chikara" "Shinryoku" "Yukan" "Kibo" "Kansei" "Fukkatsu" "Yugen" "Shugyo" 
 		"Chinmoku" "Yuuki" "Eikan" "Shinjiru" "Risshin" "Kansha" "Jikan" "Genki" "Ketsui" "Yasukoku" "Kikyo" "Cho" "Tsubaki" "Tsuru" "Uchiwa" "Kujaku" "Botan" "Houou" 
 		"Matsunoki" "Ume" "Noshi" "Seigaiha" "Suzume" "Nami" "Nadeshiko" "Shida" "Kinoko" "Hyotan" "Shobu" "Hasu" "Momiji" "Asago" "Daidai" "Momo" "Yanagi" "Tombo"
  	}
-}
-
-### Theme: Famous Battles ###
-JAP_THEME_BATTLES = {
-	name = NAME_THEME_BATTLES
-
-	for_countries = { JAP }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
-
-	fallback_name = "Gunkan-I %d-go"
-
-	unique = {
-		"Sekigahara" "Tsushima" "Mukden" "Jinan" "Khasan" "Khalkin Gol" "Okehazame" "Shizugatake" "Osaka" "Fushimi" "Hara" "Miyajima" "Kawanakajima" "Hakodate" "Ueno" 
-		"Shimabara" "Awazu" "Koan" "Ulsan" "Sascheon" "Shiroyama" "Komaki" "Nagakute" "Kyushu" "Sunomatagawa" "Okinawa"
-	}
 }
 
 ### Theme: Legendary Weaponary ###
@@ -681,7 +665,7 @@ JAP_THEME_LEGENDARY_WEAPONARY = {
 	type = ship
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
 
-	fallback_name = "Gunkan-J %d-go"
+	fallback_name = "Gunkan-L %d-go"
 
 	unique = {
 		"Kusanagi" "Totsuka" "Ame" "Amanomurakumo" "Shichishito" "Iwatooshi" "Masamune" "Kogarasu" "Hofuri" "Kera" "Kagami" "Hoko" "Hagoromo" "Taima" "Muramasa" "Tonbogiri"
@@ -700,7 +684,7 @@ JAP_THEME_SAMURAIS = {
 	type = ship
 	ship_types = { ship_hull_heavy battleship battle_cruiser }
 
-	fallback_name = "Gunkan-K %d-go"
+	fallback_name = "Gunkan-M %d-go"
 
 	unique = {
 		"Yoshitsune" "Nobunaga" "Ieyasu" "Shingen" "Kenshin" "Tadakatsu" "Hanzo" "Yukimura" "Katamori" "Takamori" "Masanari" "Munenori" "Goemon" "Shikanosuke" "Ieyasu"
@@ -708,5 +692,22 @@ JAP_THEME_SAMURAIS = {
 		"Nobutomo" "Haruhida" "Yoshihisa" "Morinari" "Ekei" "Shigetsuna" "Chohichi" "Hakuseki" "Mkotokiyo" "Kihei" "Yoshikage" "Hisamasa" "Sukemasa" "Nobufusa" "Nagaharu" 
 		"Narimasa" "Morichika" "Kunichika" "Motochika" "Nobuchika" "Shigezane" "Toshikatsu" "Herardo" "Shinpei" "Naotsune" "Takeaki" "Fusahide" "Mitsuharu" "Masanori" 
 		"Katahide" "Ujisato" "Naomasa" "Shimoi" "Sanosuke" "Eishin" "Narinaga" "Toshizo" "Masahide" "Ujimasa" "Yoshiyasu" "Keisuke" "Yukimori" "Sudamitsu" "Mitsuhide" 
+	}
+}
+
+### Theme: Famous Battles ###
+JAP_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { JAP }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	fallback_name = "Gunkan-N %d-go"
+
+	unique = {
+		"Sekigahara" "Tsushima" "Mukden" "Jinan" "Khasan" "Khalkin Gol" "Okehazame" "Shizugatake" "Osaka" "Fushimi" "Hara" "Miyajima" "Kawanakajima" "Hakodate" "Ueno" 
+		"Shimabara" "Awazu" "Koan" "Ulsan" "Sascheon" "Shiroyama" "Komaki" "Nagakute" "Kyushu" "Sunomatagawa" "Okinawa"
 	}
 }

@@ -148,6 +148,32 @@ AST_CL_HISTORICAL = { # Admirals - Captains.
 	}
 }
 
+### Minesweeper Names ###
+AST_MINESWEEPERS_HISTORICAL = { # Geography - Bays.
+	name = NAME_THEME_MINESWEEPERS
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HMAS "
+	fallback_name = "Royal Minesweeper %s"
+
+	unique = {
+		### Historical Models ###
+		"Abraham Crinjessen" "Alfie Cam" "Allenwood" "Bermagui" "Bonthorpe" "Brolga" "Carole-S" "Coogee" "Doomba" "Durraween" "Goolgwai" "Goorangai" 
+		"Gunbar" "Gunundaal" "Kianga" "Koraaga" "Korowa" "Marrawah" "Mary Cam" "Medea" "Mercedes" "Nambucca" "Narani" "Olive Cam" "Orara" "Paterson" 
+		"Patricia Cam" "Samuel Benbow" "Tambar" "Terka" "Tolga" "Tongkol" "Toorie" "Uki" "Uraiba" "Warrawee" "Wilcannia"
+
+		### Additionals - Bays & Gulfs ###
+		"Botany" "Broken" "Carpentaria" "Collier" "Exmouth" "Bight" "Jervis" "Joseph Bonaparte" "Keppel" "Limmen" "Macquarie" "Moreton" "Davey" "Jackson"
+		"Phillip" "Charlotte" "Repulse" "St Vincent" "Spencer" "Van Diemen" "Wester"
+	}
+}
+
 ### Destroyer Names ###
 AST_DD_HISTORICAL = { # Geography - Figures - Flowers.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
@@ -198,32 +224,6 @@ AST_DE_HISTORICAL = { # Geography - Explorers.
 	}
 }
 
-### Minesweeper Names ###
-AST_MINESWEEPERS_HISTORICAL = { # Geography - Bays.
-	name = NAME_THEME_MINESWEEPERS
-
-	for_countries = { AST }
-
-	can_use = { not = { has_government = communism } }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-
-	prefix = "HMAS "
-	fallback_name = "Royal Minesweeper %s"
-
-	unique = {
-		### Historical Models ###
-		"Abraham Crinjessen" "Alfie Cam" "Allenwood" "Bermagui" "Bonthorpe" "Brolga" "Carole-S" "Coogee" "Doomba" "Durraween" "Goolgwai" "Goorangai" 
-		"Gunbar" "Gunundaal" "Kianga" "Koraaga" "Korowa" "Marrawah" "Mary Cam" "Medea" "Mercedes" "Nambucca" "Narani" "Olive Cam" "Orara" "Paterson" 
-		"Patricia Cam" "Samuel Benbow" "Tambar" "Terka" "Tolga" "Tongkol" "Toorie" "Uki" "Uraiba" "Warrawee" "Wilcannia"
-
-		### Additionals - Bays & Gulfs ###
-		"Botany" "Broken" "Carpentaria" "Collier" "Exmouth" "Bight" "Jervis" "Joseph Bonaparte" "Keppel" "Limmen" "Macquarie" "Moreton" "Davey" "Jackson"
-		"Phillip" "Charlotte" "Repulse" "St Vincent" "Spencer" "Van Diemen" "Wester"
-	}
-}
-
 ### Submarine Names ###
 AST_SS_HISTORICAL = { # Military.
 	name = NAME_THEME_HISTORICAL_SUBMARINES
@@ -266,32 +266,6 @@ AST_THEME_STATES = {
 	}
 }
 
-### Theme: Cities ###
-AST_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { AST }
-
-	can_use = { not = { has_government = communism } }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
-
-	prefix = "HMAS "
-	fallback_name = "Royal Ship-B %s"
-
-	unique = {
-		"Adelaide" "Brisbane" "Gold Coast" "Newcastle" "Canberra" "Wollongong" "Logan" "North Shore" "Geelong" "Cairns" "Parramatta" "Townsville" "Albury"
-		"Nowra" "Darwin" "Toowoomba" "Rainbow Beach" "Ballarat" "Mackay" "Mandurah" "Launceston" "Rockhampton" "Coffs Harbour" "Adelaide Hills" "Wagga Wagga"
-		"Bundaberg" "Pot Macquarie" "Mildura" "Hobart" "Torquay" "Mooloolaba" "Taree" "Bathust" "Orange" "Cranbourne" "Blacktown" "Caloundra" "Tamworth"
-		"Hoppers Crossing" "Kalgoorlie" "Castle Hill" "Frankston" "Shepparton" "St Albans" "Melton" "Queanbeyan" "Wodonga" "Lismore" "Gladstone" "Warrnambool"
-		"Sunbury" "Dubbo" "Banora Point" "Geraldton" "Maroubra" "Bunbury" "Mosman" "Alice Springs" "Port Stephens" "Randwick" "Quackers Hill" "Palmerston"
-		"Ferntree Gully" "Bentleigh" "Southport" "Albany" "Canning Vale" "Glen Iris" "Mount Gambier" "Marrickville" "Morphett Vale" "Granville"  "Armidale"
-		"Isa" "Caboolture" "Carlingford" "Liverpool" "Carringbah" "Goulburn" "Mornington" "Maryborough" "Booval" "Greensborough" "Kwinana" "Burnie" Brunswick
-		"Balwyn North" "Craigieburn" "Whyalla" "Camberwell" "Malvern" "Echuca" "Devonport" "Roebourne" "Glenmore" "Epping" "Notting"
-	}
-}
-
 ### Theme: Mountains ###
 AST_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
@@ -304,7 +278,7 @@ AST_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HMAS "
-	fallback_name = "Royal Ship-C %s"
+	fallback_name = "Royal Ship-B %s"
 
 	unique = {
 		"Kosciuszko" "Ossa" "Zeil" "Bartle Frere" "Legges Tor" "Bogong" "Bellenden Ker" "Elliot" "Bowen" "Thornton" "Brumlow" "St Mary" "Picton" "Ale"
@@ -312,6 +286,32 @@ AST_THEME_MOUNTAINS = {
 		"Kaputar" "Bluff Knoll" "Buller" "Meharry" "Hartz" "Bithongabel" "Blue" "Superbus" "Propsting" "Barrow" "Weld" "Federation" "Dryander" "Burbidge"
 		"Strzelecki" "Normanby" "Owen" "Frankland" "Barney" "Murchison" "Hill" "Round" "Latrobe" "Bimberi" "Gingera" "Kelly" "Scabby" "Namadgi" "Gudgenby"
 	}  
+}
+
+### Theme: Cities ###
+AST_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { AST }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMAS "
+	fallback_name = "Royal Ship-C %s"
+
+	unique = {
+		"Adelaide" "Brisbane" "Gold Coast" "Newcastle" "Canberra" "Wollongong" "Logan" "North Shore" "Geelong" "Cairns" "Parramatta" "Townsville" "Albury"
+		"Nowra" "Darwin" "Toowoomba" "Rainbow Beach" "Ballarat" "Mackay" "Mandurah" "Launceston" "Rockhampton" "Coffs Harbour" "Adelaide Hills" "Wagga Wagga"
+		"Bundaberg" "Pot Macquarie" "Mildura" "Hobart" "Torquay" "Mooloolaba" "Taree" "Bathust" "Orange" "Cranbourne" "Blacktown" "Caloundra" "Tamworth"
+		"Hoppers Crossing" "Kalgoorlie" "Castle Hill" "Frankston" "Shepparton" "St Albans" "Melton" "Queanbeyan" "Wodonga" "Lismore" "Gladstone" "Warrnambool"
+		"Sunbury" "Dubbo" "Banora Point" "Geraldton" "Maroubra" "Bunbury" "Mosman" "Alice Springs" "Port Stephens" "Randwick" "Quackers Hill" "Palmerston"
+		"Ferntree Gully" "Bentleigh" "Southport" "Albany" "Canning Vale" "Glen Iris" "Mount Gambier" "Marrickville" "Morphett Vale" "Granville"  "Armidale"
+		"Isa" "Caboolture" "Carlingford" "Liverpool" "Carringbah" "Goulburn" "Mornington" "Maryborough" "Booval" "Greensborough" "Kwinana" "Burnie" Brunswick
+		"Balwyn North" "Craigieburn" "Whyalla" "Camberwell" "Malvern" "Echuca" "Devonport" "Roebourne" "Glenmore" "Epping" "Notting"
+	}
 }
 
 ### Theme: Rivers ###
@@ -633,32 +633,6 @@ AST_THEME_STATES_COMMUNIST = {
 	}
 }
 
-### Theme: Cities ###
-AST_THEME_CITIES_COMMUNIST = {
-	name = NAME_THEME_COMMUNIST_CITIES
-
-	for_countries = { AST }
-
-	can_use = { has_government = communism }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
-
-	prefix = "RNS "
-	fallback_name = "Republican Ship-B %s"
-
-	unique = {
-		"Adelaide" "Brisbane" "Gold Coast" "Newcastle" "Canberra" "Wollongong" "Logan" "North Shore" "Geelong" "Cairns" "Parramatta" "Townsville" "Albury"
-		"Nowra" "Darwin" "Toowoomba" "Rainbow Beach" "Ballarat" "Mackay" "Mandurah" "Launceston" "Rockhampton" "Coffs Harbour" "Adelaide Hills" "Wagga Wagga"
-		"Bundaberg" "Pot Macquarie" "Mildura" "Hobart" "Torquay" "Mooloolaba" "Taree" "Bathust" "Orange" "Cranbourne" "Blacktown" "Caloundra" "Tamworth"
-		"Hoppers Crossing" "Kalgoorlie" "Castle Hill" "Frankston" "Shepparton" "St Albans" "Melton" "Queanbeyan" "Wodonga" "Lismore" "Gladstone" "Warrnambool"
-		"Sunbury" "Dubbo" "Banora Point" "Geraldton" "Maroubra" "Bunbury" "Mosman" "Alice Springs" "Port Stephens" "Randwick" "Quackers Hill" "Palmerston"
-		"Ferntree Gully" "Bentleigh" "Southport" "Albany" "Canning Vale" "Glen Iris" "Mount Gambier" "Marrickville" "Morphett Vale" "Granville"  "Armidale"
-		"Isa" "Caboolture" "Carlingford" "Liverpool" "Carringbah" "Goulburn" "Mornington" "Maryborough" "Booval" "Greensborough" "Kwinana" "Burnie" Brunswick
-		"Balwyn North" "Craigieburn" "Whyalla" "Camberwell" "Malvern" "Echuca" "Devonport" "Roebourne" "Glenmore" "Epping" "Notting"
-	}
-}
-
 ### Theme: Mountains ###
 AST_THEME_MOUNTAINS_COMMUNIST = {
 	name = NAME_THEME_COMMUNIST_MOUNTAINS
@@ -671,7 +645,7 @@ AST_THEME_MOUNTAINS_COMMUNIST = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "RNS "
-	fallback_name = "Republican Ship-C %s"
+	fallback_name = "Republican Ship-B %s"
 
 	unique = {
 		"Kosciuszko" "Ossa" "Zeil" "Bartle Frere" "Legges Tor" "Bogong" "Bellenden Ker" "Elliot" "Bowen" "Thornton" "Brumlow" "St Mary" "Picton" "Ale"
@@ -679,6 +653,32 @@ AST_THEME_MOUNTAINS_COMMUNIST = {
 		"Kaputar" "Bluff Knoll" "Buller" "Meharry" "Hartz" "Bithongabel" "Blue" "Superbus" "Propsting" "Barrow" "Weld" "Federation" "Dryander" "Burbidge"
 		"Strzelecki" "Normanby" "Owen" "Frankland" "Barney" "Murchison" "Hill" "Round" "Latrobe" "Bimberi" "Gingera" "Kelly" "Scabby" "Namadgi" "Gudgenby"
 	}  
+}
+
+### Theme: Cities ###
+AST_THEME_CITIES_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_CITIES
+
+	for_countries = { AST }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "RNS "
+	fallback_name = "Republican Ship-C %s"
+
+	unique = {
+		"Adelaide" "Brisbane" "Gold Coast" "Newcastle" "Canberra" "Wollongong" "Logan" "North Shore" "Geelong" "Cairns" "Parramatta" "Townsville" "Albury"
+		"Nowra" "Darwin" "Toowoomba" "Rainbow Beach" "Ballarat" "Mackay" "Mandurah" "Launceston" "Rockhampton" "Coffs Harbour" "Adelaide Hills" "Wagga Wagga"
+		"Bundaberg" "Pot Macquarie" "Mildura" "Hobart" "Torquay" "Mooloolaba" "Taree" "Bathust" "Orange" "Cranbourne" "Blacktown" "Caloundra" "Tamworth"
+		"Hoppers Crossing" "Kalgoorlie" "Castle Hill" "Frankston" "Shepparton" "St Albans" "Melton" "Queanbeyan" "Wodonga" "Lismore" "Gladstone" "Warrnambool"
+		"Sunbury" "Dubbo" "Banora Point" "Geraldton" "Maroubra" "Bunbury" "Mosman" "Alice Springs" "Port Stephens" "Randwick" "Quackers Hill" "Palmerston"
+		"Ferntree Gully" "Bentleigh" "Southport" "Albany" "Canning Vale" "Glen Iris" "Mount Gambier" "Marrickville" "Morphett Vale" "Granville"  "Armidale"
+		"Isa" "Caboolture" "Carlingford" "Liverpool" "Carringbah" "Goulburn" "Mornington" "Maryborough" "Booval" "Greensborough" "Kwinana" "Burnie" Brunswick
+		"Balwyn North" "Craigieburn" "Whyalla" "Camberwell" "Malvern" "Echuca" "Devonport" "Roebourne" "Glenmore" "Epping" "Notting"
+	}
 }
 
 ### Theme: Rivers ###

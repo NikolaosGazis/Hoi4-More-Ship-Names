@@ -49,7 +49,7 @@ USA_CV_HISTORICAL = { # Battles - Figures.
 	}
 }
 
-### Light Aircraft Names ###
+### Light Aircraft Carrier Names ###
 USA_CVL_HISTORICAL = { # Bays - Islands - Battles.
 	name = NAME_THEME_HISTORICAL_CVL
 
@@ -234,6 +234,35 @@ USA_CLAA_HISTORICAL = { # Cities.
 	}
 }
 
+### Minelayer Names ###
+USA_MINELAYERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	
+	prefix = "USS "							
+	fallback_name = "Minelayer CM-%d"
+
+	unique = {
+		### Cruiser & Destroyer Minelayers ###
+		"Terror" "Robert H Smith" "Thomas E Fraser" "Shannon" "Harry F Bauer" "Adams" "Tolman" "Henry A Wiley" "Shea" "J William Ditter" 
+		"Lindsey" "Gwin" "Aaron Ward" "Oglala" "Aroostook" 
+		
+		### Army Minelayers ###
+		"Chimo" "Planter" "Barricade" "Barbicon" "Bastion" "Obstructor" "Picket" "Trapper" "Camanche" "Canonicus" "Miantonomah" "Monadnock" 
+		"Nausett" "BG Henry L Abbott" "Col. Charles W Bundy" "Col. George Reacher" "Col. John Storey" "Col. George Armistead" "Col. Henry J. Hunt" 
+		"1LT William G Sylvester" "Gen. Henry Knox" "MG Arthur Murray" "BG Royal T Frank" "MG Erasmus Weaver" "Gen. Samuel L Mills" "Maj. Samuel Ringgold" 
+		"MG Wallace F Randolph" "Col. Alfred A Maybach" "	Col. Horace F Spurgin" 
+		
+		### Older Minelayers ###
+		"Shawmut" "Lancaster" "Pensacola" "Galena" "Marion" "Mohican" "Quinnebaug" "Swatara" "Boston" "Chicago" "Baltimore" "San Francisco" 
+		"Tahoe" "Yosemite" "Montgomery" "Anniston" "Minneapolis" "Olympia" "New Orleans" "Albany" "Tacoma"
+	}
+}
+
 ### Destoyer Names ###
 USA_DD_HISTORICAL = { # Marine Corp/Navy Heroes.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
@@ -385,35 +414,6 @@ USA_DE_HISTORICAL = { # Marine Corp/Navy Heroes.
 	}
 }
 
-### Minelayer Names ###
-USA_MINELAYERS_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_MINELAYERS
-
-	for_countries = { USA }
-
-	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
-	
-	prefix = "USS "							
-	fallback_name = "Minelayer CM-%d"
-
-	unique = {
-		### Cruiser & Destroyer Minelayers ###
-		"Terror" "Robert H Smith" "Thomas E Fraser" "Shannon" "Harry F Bauer" "Adams" "Tolman" "Henry A Wiley" "Shea" "J William Ditter" 
-		"Lindsey" "Gwin" "Aaron Ward" "Oglala" "Aroostook" 
-		
-		### Army Minelayers ###
-		"Chimo" "Planter" "Barricade" "Barbicon" "Bastion" "Obstructor" "Picket" "Trapper" "Camanche" "Canonicus" "Miantonomah" "Monadnock" 
-		"Nausett" "BG Henry L Abbott" "Col. Charles W Bundy" "Col. George Reacher" "Col. John Storey" "Col. George Armistead" "Col. Henry J. Hunt" 
-		"1LT William G Sylvester" "Gen. Henry Knox" "MG Arthur Murray" "BG Royal T Frank" "MG Erasmus Weaver" "Gen. Samuel L Mills" "Maj. Samuel Ringgold" 
-		"MG Wallace F Randolph" "Col. Alfred A Maybach" "	Col. Horace F Spurgin" 
-		
-		### Older Minelayers ###
-		"Shawmut" "Lancaster" "Pensacola" "Galena" "Marion" "Mohican" "Quinnebaug" "Swatara" "Boston" "Chicago" "Baltimore" "San Francisco" 
-		"Tahoe" "Yosemite" "Montgomery" "Anniston" "Minneapolis" "Olympia" "New Orleans" "Albany" "Tacoma"
-	}
-}
-
 ### Submarine Names ###
 USA_SS_HISTORICAL = { # Fish - Marines Mammals.
 	name = NAME_THEME_HISTORICAL_SUBMARINES
@@ -463,7 +463,7 @@ USA_SS_HISTORICAL = { # Fish - Marines Mammals.
 
 ##### Themes #####
 
-### Theme: Historical Leaders ###
+### Theme: Leaders ###
 USA_THEME_LEADERS = {
 	name = NAME_THEME_LEADERS
 
@@ -504,6 +504,27 @@ USA_THEME_STATES = {
 	}
 }
 
+### Theme: Mountains ###
+USA_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "USS "
+	fallback_name = "Ship-C %d"
+
+	unique = {
+		"McKinley" "Rainier" "Whitney" "Elbert" "Shasta" "Hood" "Teton" "Adams" "Baker" "St. Helens" "Peak" "Katahdin" "Jefferson" "Rainer" "San Jacinto" "Olympus" "Marcy"
+		"Diablo" "Mitchell" "Mansfield" "Sneffels" "Ritter" "Eielson" "Guyot" "Osceola" "Index" "Holy Cross" "Scott" "Democrat" "Nebo" "Charlenston" "Stuart" "Tecumseh"
+		"Hesperus" "Timpanogos" "McLoughlin" "Holyoke" "Zirkel" "Russell" "Moosilauke" "Zuma" "Spurr" "Wilson" "Flume" "Brindley" "Cheaha" "Monte Sano" "Capshaw" "Dirtseller"
+		"Frog" "Gunters" "Keel" "Halama" "Amak" "Amulet" "Annex" "Arthur" "Atuk" "Atna" "Begich" "Blackthorn" "Boggs" "Cantara" "Cecil Rhode" "Chichagof" "Denali" "Dilon"
+		"Divide" "Ellamar" "Hanagita" "Hogback"
+	}
+}
+
 ### Theme: Cities ###
 USA_THEME_CITIES = {
 	name = NAME_THEME_CITIES
@@ -514,7 +535,7 @@ USA_THEME_CITIES = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 	
 	prefix = "USS "
-	fallback_name = "Ship-C %d"						
+	fallback_name = "Ship-D %d"						
 
 	unique = {
 		"Washington" "New York City" "Chicago" "Los Angeles" "San Francisco" "Detroit" "Boston" "Philadelphia" "Pittsburgh" "Cleveland" "St. Louis" "Baltimore" 
@@ -528,27 +549,6 @@ USA_THEME_CITIES = {
 		"Raleigh" "Reno" "Richmond" "Roanoke" "St. Paul" "Salem" "Salt Lake City" "San Juan" "Santa Fe" "Saratoga" "Savannah" "Swatara" "Scranton" "Spokane" "Springfield" 
 		"Tacoma" "Tahoe" "Tallahassee" "Toledo" "Topeka" "Trenton" "Tucson" "Tulsa" "Tuscaloosa" "Vallejo" "Vicksburg" "Wichita" "Wilkes-Barre" "Wilmington" "Worcester" 
 		"Yosemite" "Youngstown"  
-	}
-}
-
-### Theme: Mountains ###
-USA_THEME_MOUNTAINS = {
-	name = NAME_THEME_MOUNTAINS
-
-	for_countries = { USA }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-
-	prefix = "USS "
-	fallback_name = "Ship-D %d"
-
-	unique = {
-		"McKinley" "Rainier" "Whitney" "Elbert" "Shasta" "Hood" "Teton" "Adams" "Baker" "St. Helens" "Peak" "Katahdin" "Jefferson" "Rainer" "San Jacinto" "Olympus" "Marcy"
-		"Diablo" "Mitchell" "Mansfield" "Sneffels" "Ritter" "Eielson" "Guyot" "Osceola" "Index" "Holy Cross" "Scott" "Democrat" "Nebo" "Charlenston" "Stuart" "Tecumseh"
-		"Hesperus" "Timpanogos" "McLoughlin" "Holyoke" "Zirkel" "Russell" "Moosilauke" "Zuma" "Spurr" "Wilson" "Flume" "Brindley" "Cheaha" "Monte Sano" "Capshaw" "Dirtseller"
-		"Frog" "Gunters" "Keel" "Halama" "Amak" "Amulet" "Annex" "Arthur" "Atuk" "Atna" "Begich" "Blackthorn" "Boggs" "Cantara" "Cecil Rhode" "Chichagof" "Denali" "Dilon"
-		"Divide" "Ellamar" "Hanagita" "Hogback"
 	}
 }
 
@@ -905,7 +905,7 @@ CSA_SS_CONFEDERATE = { # Southern River (Length).
 
 ##### Themes #####
 
-### Theme: Historical Leaders ###
+### Theme: Leaders ###
 CSA_THEME_LEADERS_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_LEADERS
 
@@ -960,40 +960,6 @@ CSA_THEME_STATES_CONFEDERATE = {
 	}
 }
 
-### Theme: Cities ###
-CSA_THEME_CITIES_CONFEDERATE = {
-	name = NAME_THEME_CONFEDERATE_CITIES
-
-	for_countries = { CSA USA }
-
-	can_use = {
-		OR = {
-			tag = CSA
-			has_completed_focus = USA_honor_the_confederacy
-		}
-	}
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_submarine heavy_cruiser light_cruiser submarine }
-	
-	prefix = "CSS "
-	fallback_name = "Confederate Ship-C %d"						
-
-	unique = {
-		"Washington" "New York City" "Chicago" "Los Angeles" "San Francisco" "Detroit" "Boston" "Philadelphia" "Pittsburgh" "Cleveland" "St. Louis" "Baltimore" 
-		"Kansas City" "Milwaukee" "New Orleans" "Cincinnati" "Miami" "Indianapolis" "Seattle" "Dallas" "Atlanta" "Buffalo" "Minneapolis" "Denver" "Omaha" "San Diego" 
-		"Nashville" "Oklahoma City" "Louisville" "Phoenix" "Portland" "Rochester" "Albany" "Albuquerque" "Alexandria" "Amsterdam" "Annapolis" "Anniston" "Asheville" 
-		"Astoria" "Augusta" "Baton Rouge" "Biloxi" "Birmingham" "Boise" "Bremerton" "Bridgeport" "Brooklyn" "Cambridge" "Cheyenne" "Charleston" "Charlotte" "Chattanooga" 
-		"Chester" "Columbia" "Columbus" "Concord" "Corpus Christi" "Dayton" "Des Moines" "Duluth" "Fall River" "Fargo" "Flint" "Frederick" "Fresno" "Galena" "Galveston" 
-		"Gary" "Greenville" "Groton" "Hampton" "Hartford" "Helena" "Honolulu" "Houston" "Huntington" "Huron" "Jacksonville" "Jefferson City" "Juneau" "Key West" "La Jolla" 
-		"Lancaster" "Long Beach" "Little Rock" "Macon" "Manchester" "Marblehead" "Marion" "Memphis" "Missoula" "Mobile" "Mohican" "Montgomery" "Montpelier" "New Haven" 
-		"Newark" "Newport News" "Norfolk" "Northampton" "Oakland" "Olympia" "Oregon City" "Pasadena" "Pensacola" "Portsmouth" "Providence" "Pueblo" "Quincy" "Quinnebaug" 
-		"Raleigh" "Reno" "Richmond" "Roanoke" "St. Paul" "Salem" "Salt Lake City" "San Juan" "Santa Fe" "Saratoga" "Savannah" "Swatara" "Scranton" "Spokane" "Springfield" 
-		"Tacoma" "Tahoe" "Tallahassee" "Toledo" "Topeka" "Trenton" "Tucson" "Tulsa" "Tuscaloosa" "Vallejo" "Vicksburg" "Wichita" "Wilkes-Barre" "Wilmington" "Worcester" 
-		"Yosemite" "Youngstown"  
-	}
-}
-
 ### Theme: Mountains ###
 CSA_THEME_MOUNTAINS_CONFEDERATE = {
 	name = NAME_THEME_CONFEDERATE_MOUNTAINS
@@ -1011,7 +977,7 @@ CSA_THEME_MOUNTAINS_CONFEDERATE = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 
 	prefix = "CSS "
-	fallback_name = "Confederate Ship-D %d"
+	fallback_name = "Confederate Ship-C %d"
 
 	unique = {
 		"McKinley" "Rainier" "Whitney" "Elbert" "Shasta" "Hood" "Teton" "Adams" "Baker" "St. Helens" "Peak" "Katahdin" "Jefferson" "Rainer" 
@@ -1020,6 +986,40 @@ CSA_THEME_MOUNTAINS_CONFEDERATE = {
 		"Zuma" "Spurr" "Wilson" "Flume" "Brindley" "Cheaha" "Monte Sano" "Capshaw" "Dirtseller" "Frog" "Gunters" "Keel" "Halama" "Amak" "Amulet" 
 		"Annex" "Arthur" "Atuk" "Atna" "Begich" "Blackthorn" "Boggs" "Cantara" "Cecil Rhode" "Chichagof" "Denali" "Dilon" "Divide" "Ellamar" 
 		"Hanagita" "Hogback"
+	}
+}
+
+### Theme: Cities ###
+CSA_THEME_CITIES_CONFEDERATE = {
+	name = NAME_THEME_CONFEDERATE_CITIES
+
+	for_countries = { CSA USA }
+
+	can_use = {
+		OR = {
+			tag = CSA
+			has_completed_focus = USA_honor_the_confederacy
+		}
+	}
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_submarine heavy_cruiser light_cruiser submarine }
+	
+	prefix = "CSS "
+	fallback_name = "Confederate Ship-D %d"						
+
+	unique = {
+		"Washington" "New York City" "Chicago" "Los Angeles" "San Francisco" "Detroit" "Boston" "Philadelphia" "Pittsburgh" "Cleveland" "St. Louis" "Baltimore" 
+		"Kansas City" "Milwaukee" "New Orleans" "Cincinnati" "Miami" "Indianapolis" "Seattle" "Dallas" "Atlanta" "Buffalo" "Minneapolis" "Denver" "Omaha" "San Diego" 
+		"Nashville" "Oklahoma City" "Louisville" "Phoenix" "Portland" "Rochester" "Albany" "Albuquerque" "Alexandria" "Amsterdam" "Annapolis" "Anniston" "Asheville" 
+		"Astoria" "Augusta" "Baton Rouge" "Biloxi" "Birmingham" "Boise" "Bremerton" "Bridgeport" "Brooklyn" "Cambridge" "Cheyenne" "Charleston" "Charlotte" "Chattanooga" 
+		"Chester" "Columbia" "Columbus" "Concord" "Corpus Christi" "Dayton" "Des Moines" "Duluth" "Fall River" "Fargo" "Flint" "Frederick" "Fresno" "Galena" "Galveston" 
+		"Gary" "Greenville" "Groton" "Hampton" "Hartford" "Helena" "Honolulu" "Houston" "Huntington" "Huron" "Jacksonville" "Jefferson City" "Juneau" "Key West" "La Jolla" 
+		"Lancaster" "Long Beach" "Little Rock" "Macon" "Manchester" "Marblehead" "Marion" "Memphis" "Missoula" "Mobile" "Mohican" "Montgomery" "Montpelier" "New Haven" 
+		"Newark" "Newport News" "Norfolk" "Northampton" "Oakland" "Olympia" "Oregon City" "Pasadena" "Pensacola" "Portsmouth" "Providence" "Pueblo" "Quincy" "Quinnebaug" 
+		"Raleigh" "Reno" "Richmond" "Roanoke" "St. Paul" "Salem" "Salt Lake City" "San Juan" "Santa Fe" "Saratoga" "Savannah" "Swatara" "Scranton" "Spokane" "Springfield" 
+		"Tacoma" "Tahoe" "Tallahassee" "Toledo" "Topeka" "Trenton" "Tucson" "Tulsa" "Tuscaloosa" "Vallejo" "Vicksburg" "Wichita" "Wilkes-Barre" "Wilmington" "Worcester" 
+		"Yosemite" "Youngstown"  
 	}
 }
 

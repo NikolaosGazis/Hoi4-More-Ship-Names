@@ -2,7 +2,7 @@
 ### Since its a formable of no Historical Basis, its compromised only from Themes and not 'Historical' Categories ###
 
 ### Prefixes ###
-# EUS = European Union Ship.
+# EUS = European Union Ship. (Made Up - Used)
 
 ### Theme: Nations ###
 EUR_THEME_NATIONS = {

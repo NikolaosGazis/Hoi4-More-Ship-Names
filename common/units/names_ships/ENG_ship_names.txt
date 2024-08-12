@@ -350,6 +350,60 @@ ENG_CLSC_HISTORICAL = { # Adjectives.
 	}
 }
 
+### Minelayer Names ###
+ENG_MINELAYERS_HISTORICAL = { # Figures - Mythology.
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { ENG }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+	
+	prefix = "HMS "							
+	fallback_name = "Royal Minelayer %s"
+
+	unique = {
+		### Older/Current Models ###
+		"Abdiel" "Agamemnon" "Angora" "Menestheus" "Plover" "Napier" "Princess Irene" "Princess Margaret" "Ariande" "Latona" "Manxman" "Welshman"
+
+		### Additionals ###
+		"Odysseus" "Hector" "Diomedes" "Patroclus" "Priam" "Jason" "Cadmus" "Meleager" "Hippolyta" "Briseis" "Deiphobus" "Glaucus" "Helenus" 
+		"Laocoon" "Pandarus" "Sarpedon" "Daedalus" "Iphigenia" "Phaedra" "Orestes" "Antigone"
+	}
+}
+
+### Minesweeper Names ###
+ENG_MINELAYERS_HISTORICAL = { # Flowers.
+	name = NAME_THEME_HISTORICAL_MINESWEEPERS
+
+	for_countries = { ENG }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+	
+	prefix = "HMS "							
+	fallback_name = "Minesweeper %s"
+
+	unique = {
+		### Acacia Class (1915) ###
+		"Acacia" "Anemone" "Aster" "Bluebell" "Daffodil" "Dahila" "Daphne" "Foxglove" "Hollyhock" "Honeysuckle" "Iris" "Jonquil" "Laburnum" "Lavender" "Lilac"
+		"Lily" "Mangolia" "Mallow" "Marigold" "Mimosa" "Primrose" "Sunflower" "Veronica"
+
+		### Azalea Class (1915) ###
+		"Azalea" "Begonia" "Camellia" "Carnation" "Clematis" "Heliotrope" "Jessamine" "Myrtie" "Narcissus" "Peony" "Snowdrop" "Zinnia"
+
+		### Arabis Class  (1915) ###
+		"Alysssum" "Amaryllis" "Arabis" "Asphodel" "Berberis" "Buttercup" "Campanula" "Celandine" "Cornoflower" "Crocus" "Cyclamen" "Delphinium" "Genista" "Gentian" 
+		"Geranium" "Gladiolus" "Godetia" "Hydrangea" "Lobelia" "Lupin" "Marguerite" "Mignonette" "Myosotis" "Nasturtium" "Nigella" "Pansy" "Pentstemon" "Petunia" 
+		"Poppy" "Primula" "Rosemary" "Snapdragon" "Velarian" "Verbena" "Wallflower" "Wistaria" "Aldébaran" "Algol" "Altair" "Antares" "Bellatrix" "Rigel" "Cassiopée" 
+		"Regulus"
+	}
+}
+
 ### Destroyer Names ###
 ENG_DD_HISTORICAL = { # Adjectives.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
@@ -448,60 +502,6 @@ ENG_DE_HISTORICAL = { # Historical Themes.
 	}
 }
 
-### Minelayer Names ###
-ENG_MINELAYERS_HISTORICAL = { # Figures - Mythology.
-	name = NAME_THEME_HISTORICAL_MINELAYERS
-
-	for_countries = { ENG }
-
-	can_use = { not = { has_government = communism } }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-	
-	prefix = "HMS "							
-	fallback_name = "Royal Minelayer %s"
-
-	unique = {
-		### Older/Current Models ###
-		"Abdiel" "Agamemnon" "Angora" "Menestheus" "Plover" "Napier" "Princess Irene" "Princess Margaret" "Ariande" "Latona" "Manxman" "Welshman"
-
-		### Additionals ###
-		"Odysseus" "Hector" "Diomedes" "Patroclus" "Priam" "Jason" "Cadmus" "Meleager" "Hippolyta" "Briseis" "Deiphobus" "Glaucus" "Helenus" 
-		"Laocoon" "Pandarus" "Sarpedon" "Daedalus" "Iphigenia" "Phaedra" "Orestes" "Antigone"
-	}
-}
-
-### Minesweeper Names ###
-ENG_MINELAYERS_HISTORICAL = { # Flowers.
-	name = NAME_THEME_HISTORICAL_MINESWEEPERS
-
-	for_countries = { ENG }
-
-	can_use = { not = { has_government = communism } }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-	
-	prefix = "HMS "							
-	fallback_name = "Minesweeper %s"
-
-	unique = {
-		### Acacia Class (1915) ###
-		"Acacia" "Anemone" "Aster" "Bluebell" "Daffodil" "Dahila" "Daphne" "Foxglove" "Hollyhock" "Honeysuckle" "Iris" "Jonquil" "Laburnum" "Lavender" "Lilac"
-		"Lily" "Mangolia" "Mallow" "Marigold" "Mimosa" "Primrose" "Sunflower" "Veronica"
-
-		### Azalea Class (1915) ###
-		"Azalea" "Begonia" "Camellia" "Carnation" "Clematis" "Heliotrope" "Jessamine" "Myrtie" "Narcissus" "Peony" "Snowdrop" "Zinnia"
-
-		### Arabis Class  (1915) ###
-		"Alysssum" "Amaryllis" "Arabis" "Asphodel" "Berberis" "Buttercup" "Campanula" "Celandine" "Cornoflower" "Crocus" "Cyclamen" "Delphinium" "Genista" "Gentian" 
-		"Geranium" "Gladiolus" "Godetia" "Hydrangea" "Lobelia" "Lupin" "Marguerite" "Mignonette" "Myosotis" "Nasturtium" "Nigella" "Pansy" "Pentstemon" "Petunia" 
-		"Poppy" "Primula" "Rosemary" "Snapdragon" "Velarian" "Verbena" "Wallflower" "Wistaria" "Aldébaran" "Algol" "Altair" "Antares" "Bellatrix" "Rigel" "Cassiopée" 
-		"Regulus"
-	}
-}
-
 ### Submarine Names ###
 ENG_SS_HISTORICAL = { # Adjectives - Marine Themes.
 	name = NAME_THEME_HISTORICAL_SUBMARINES
@@ -544,6 +544,29 @@ ENG_SS_HISTORICAL = { # Adjectives - Marine Themes.
 
 ##### Themes #####
 
+### Theme: Kings ###
+ENG_THEME_KINGS = {
+	name = NAME_THEME_KINGS # 1066 - 1936
+
+	for_countries = { ENG }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "HMS "
+	fallback_name = "Royal Ship-A %s"
+
+	unique = {
+		"King Edward VIII" "King George V" "King Edward VII" "Queen Victoria" "King William IV" "King George IV" "King George III" "King George II" "King George I"
+		"Queen Anne" "King William III" "King James II" "King Charles II" "King Charles I" "King James I" "Queen Elizabeth" "Queen Mary" "King Edward VI" "King Henry VIII"
+		"King Henry VII" "King Richard III" "King Edward V" "King Edward IV" "King Henry VI" "King Henry V" "King Henry IV" "King Richard II" "King Edward III"
+		"King Edward II" "King Edward I" "King Henry III" "King John" "King Richard I" "King Henry II" "King Stephen" "King Henry I" "King William II" "King William I"
+	}
+}
+
+
 ### Themes: Counties ###
 ENG_THEME_COUNTIES = {
 	name = NAME_THEME_COUNTIES
@@ -556,7 +579,7 @@ ENG_THEME_COUNTIES = {
 	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "HMS "
-	fallback_name = "Royal Ship-A %s"
+	fallback_name = "Royal Ship-B %s"
 
 	unique = {
 		"Yorkshire" "Lincolnshire" "Devon" "Norfolk" "Northumberland" "Lancashire" "Somerset" "Hampshire" "Kent" "Essex" "Cumberland" "Suffolk" "Sussex" "Wiltshire" "Cornwall" 
@@ -567,6 +590,32 @@ ENG_THEME_COUNTIES = {
 		"Berwickshire" "Roxburghshire" "Dumfriesshire" "Kirkcudbrightshire" "Wigtownshire" "Shetland" "Orkney" "Antrim" "Down" "Londonderry" "Tyrone" "Armagh" "Fermanagh" "Anglesey"
 		"Monmouthshire" "Glamorganshire" "Carmarthenshire" "Pembrokeshire" "Cardiganshire" "Brecknockshire" "Radnorshire" "Montgomeryshire" "Denbighshire" "Flintshire" "Merionethshire" 
 		"Caernarfonshire" 
+	}
+}
+
+### Theme: Mountains ###
+ENG_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { ENG }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMS "
+	fallback_name = "Royal Ship-C %s"
+
+	unique = {
+		### P600 Mountains of British Isles ###
+		"Nevis" "Macdui" "Lawers" "Càrn Eige" "More" "Lochnagar" "Lapaich" "Bian" "Alder" "Lui" "Mòr" "Meagaidh" "Cruachan" "Ghlò" "Chràileag" "Easain" "Bhùiridh" 
+		"Snowdon" "Dearg" "Choire Ghlais" "Schiehallion" "Chreachain" "Fhuaran" "Llewelyn" "Teallach" "Liathach" "Wyvis" "Cìche" "Carrauntoohil" "Gleouraich" "Fhada"
+		"Mhaoraich" "Bheithir" "Ìme" "Eighe" "Fawr" "Assynt" "Alasdair" "Alligin" "Vorlich" "Slioch" "Scafell" "Lomond" "Eagach" "Thuilm" "Klibreck" "Ruadh" "Brandon" 
+		"Halvellyn" "Sgulaird" "Ghairbh" "Skiddaw" "Chonzie" "Hope" "Lugnaquilla" "Galtymore" "Foinaven" "Fawddwy" "Lochain" "Eugallt" "Bhan" "Fell" "Idris" "Dhòmhnuill" 
+		"Fan" "Hee" "Siabod" "Baurtregaum" "Donard" "Ghiubhsachain" "Canisp" "Merrick" "Law" "Mweelrea" "Askival" "Fach" "Nephin" "Clisham" "Leinster" "Knockmealdown" 
+		"Fauscoum" "Òir" "Barrclashcame" "Ghaoithe" "Loyal" "Patrick" "Errigal" "Coigach" "Mhòr" "Coinnich" "Doune" "Caillich" "Carr" "Slievenamon" "Storr" "Knockboy"
+		"Gorm" "Keeper" "Croaghaun" "Maumtrasna" "Cuilagh" "Snaefell" "Snaght"
 	}
 }
 
@@ -582,7 +631,7 @@ ENG_THEME_CITIES = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HMS "
-	fallback_name = "Royal Ship-B %s"
+	fallback_name = "Royal Ship-D %s"
 
 	unique = {
 		"London" "Birmingham" "Leeds" "Glasgow" "Sheffield" "Bradford" "Liverpool" "Edinburgh" "Manchester" "Bristol" "Kirklees" "Fife" "Wirral" "Lanarkshire" 
@@ -597,64 +646,6 @@ ENG_THEME_CITIES = {
 		"Braintree" "Norwich" "Thanet" "Sussex" "Oxfordshire" "Guildford" "Elmbridge" "Stafford" "Powys" "Hertfordshire" "Torbay" "Devon" "Lindsey" "Halton" "Warwick" 
 		"Wiltshire" "Kesteven" "Glamorgan" "Reigate" "Banstead" "Chester" "Bedfordshire" "Horsham" "Nuneaton" "Bedworth" "Gwynedd" "Swale" "Havant" "Waterloo" "Teignbridge" 
 		"Cambridge" "Waverley"
-	}
-}
-
-### Theme: Colonies ###
-ENG_THEME_COLONIES = { # Overtime.
-	name = NAME_THEME_COLONIES
-
-	for_countries = { ENG }
-
-	can_use = { not = { has_government = communism } }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
-
-	prefix = "HMS "
-	fallback_name = "Royal Ship-C %s"
-
-	unique = {
-		### Countries ###
-		"Canada" "India" "Australia" "South Africa" "New Zealand" "Malaysia" "Nigeria" "Kenya" "Sudan" "Egypt" "Brunei" "Saint Kitts" "Nevis" "Antigua" 
-		"Barbuda" "Belize" "Vanuatu" "Zimbabwe" "Saint Vincent" "Kribati" "Saint Lucia" "Dominica" "Tuvalu" "Solomon" "Seychelles" "Grenada" "Bahamas" 
-		"Qatar" "Bahrain" "Oman" "Fiji" "Tonga" "Eswatini" "Mauritius" "Nauru" "Yemen" "Barbados" "Lesotho" "Botswana" "Guyana" "Maldives" "Gambia" 
-		"Zambia" "Malta" "Malawi" "Kenya" "Zanzibar" "Uganda" "Trinidad" "Tobago" "Jamaica" "Tanganyika" "Kuwait" "Sierra Leone" "Cyprus" "Somaliland"
-		"Malaya" "Ghana" "Libya" "Israel" "Sri Lanka" "Myanmar" "Pakistan" "Jordan" "Iraq" "Egypt" "Afghanistan" "Newfoundland" "New Zealand" "Ceylon" 
-		"Bangladesh" "Anguilla" "Rhodesia" "Bermuda" "Gibraltar" "Falkland"
-
-		### Capitals ###
-		"Ottawa" "New Delhi" "Canberra" "Cape Town" "Wellington" "Kuala Lumpur" "Abuja" "Nairobi" "Khartoum" "Cairo" "Bandar" "Belmopan" "Vila" "Halare" 
-		"Kingstown" "Tarawa" "Castries" "Roseau" "Funafuti" "Honiara" "Victoria" "St. George" "Nassau" "Doha" "Manama" "Muscat" "Suva" "Nukualofa" "Mbabane" 
-		"Louis" "Yaren" "Sana" "Bridgetown" "Maseru" "Gaborone" "Georgetown" "Male" "Banjul" "Lusaka" "Valleta" "Lilongwe" "Kampala" "Scarborough" "Kingston" 
-		"Nicosia" "Hargeisa" "Kuala Lumpur" "Accra" "Tripoli" "Jerusalem" "Colombo" "Naypyidaw" "Islamabad" "Amman" "Baghdad" "Kabul" "St. John" "Dhaka" 
-		"Valley" "Salisbury" "Hamilton" "Stanley"
-	} 
-}
-
-### Theme: Mountains ###
-ENG_THEME_MOUNTAINS = {
-	name = NAME_THEME_MOUNTAINS
-
-	for_countries = { ENG }
-
-	can_use = { not = { has_government = communism } }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	prefix = "HMS "
-	fallback_name = "Royal Ship-D %s"
-
-	unique = {
-		### P600 Mountains of British Isles ###
-		"Nevis" "Macdui" "Lawers" "Càrn Eige" "More" "Lochnagar" "Lapaich" "Bian" "Alder" "Lui" "Mòr" "Meagaidh" "Cruachan" "Ghlò" "Chràileag" "Easain" "Bhùiridh" 
-		"Snowdon" "Dearg" "Choire Ghlais" "Schiehallion" "Chreachain" "Fhuaran" "Llewelyn" "Teallach" "Liathach" "Wyvis" "Cìche" "Carrauntoohil" "Gleouraich" "Fhada"
-		"Mhaoraich" "Bheithir" "Ìme" "Eighe" "Fawr" "Assynt" "Alasdair" "Alligin" "Vorlich" "Slioch" "Scafell" "Lomond" "Eagach" "Thuilm" "Klibreck" "Ruadh" "Brandon" 
-		"Halvellyn" "Sgulaird" "Ghairbh" "Skiddaw" "Chonzie" "Hope" "Lugnaquilla" "Galtymore" "Foinaven" "Fawddwy" "Lochain" "Eugallt" "Bhan" "Fell" "Idris" "Dhòmhnuill" 
-		"Fan" "Hee" "Siabod" "Baurtregaum" "Donard" "Ghiubhsachain" "Canisp" "Merrick" "Law" "Mweelrea" "Askival" "Fach" "Nephin" "Clisham" "Leinster" "Knockmealdown" 
-		"Fauscoum" "Òir" "Barrclashcame" "Ghaoithe" "Loyal" "Patrick" "Errigal" "Coigach" "Mhòr" "Coinnich" "Doune" "Caillich" "Carr" "Slievenamon" "Storr" "Knockboy"
-		"Gorm" "Keeper" "Croaghaun" "Maumtrasna" "Cuilagh" "Snaefell" "Snaght"
 	}
 }
 
@@ -692,9 +683,41 @@ ENG_THEME_RIVERS = {
 	}
 }
 
-### Theme: Kings ###
-ENG_THEME_KINGS = {
-	name = NAME_THEME_KINGS # 1066 - 1936
+### Theme: Colonies ###
+ENG_THEME_COLONIES = { # (Overtime)
+	name = NAME_THEME_COLONIES
+
+	for_countries = { ENG }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HMS "
+	fallback_name = "Royal Ship-F %s"
+
+	unique = {
+		### Countries ###
+		"Canada" "India" "Australia" "South Africa" "New Zealand" "Malaysia" "Nigeria" "Kenya" "Sudan" "Egypt" "Brunei" "Saint Kitts" "Nevis" "Antigua" 
+		"Barbuda" "Belize" "Vanuatu" "Zimbabwe" "Saint Vincent" "Kribati" "Saint Lucia" "Dominica" "Tuvalu" "Solomon" "Seychelles" "Grenada" "Bahamas" 
+		"Qatar" "Bahrain" "Oman" "Fiji" "Tonga" "Eswatini" "Mauritius" "Nauru" "Yemen" "Barbados" "Lesotho" "Botswana" "Guyana" "Maldives" "Gambia" 
+		"Zambia" "Malta" "Malawi" "Kenya" "Zanzibar" "Uganda" "Trinidad" "Tobago" "Jamaica" "Tanganyika" "Kuwait" "Sierra Leone" "Cyprus" "Somaliland"
+		"Malaya" "Ghana" "Libya" "Israel" "Sri Lanka" "Myanmar" "Pakistan" "Jordan" "Iraq" "Egypt" "Afghanistan" "Newfoundland" "New Zealand" "Ceylon" 
+		"Bangladesh" "Anguilla" "Rhodesia" "Bermuda" "Gibraltar" "Falkland"
+
+		### Capitals ###
+		"Ottawa" "New Delhi" "Canberra" "Cape Town" "Wellington" "Kuala Lumpur" "Abuja" "Nairobi" "Khartoum" "Cairo" "Bandar" "Belmopan" "Vila" "Halare" 
+		"Kingstown" "Tarawa" "Castries" "Roseau" "Funafuti" "Honiara" "Victoria" "St. George" "Nassau" "Doha" "Manama" "Muscat" "Suva" "Nukualofa" "Mbabane" 
+		"Louis" "Yaren" "Sana" "Bridgetown" "Maseru" "Gaborone" "Georgetown" "Male" "Banjul" "Lusaka" "Valleta" "Lilongwe" "Kampala" "Scarborough" "Kingston" 
+		"Nicosia" "Hargeisa" "Kuala Lumpur" "Accra" "Tripoli" "Jerusalem" "Colombo" "Naypyidaw" "Islamabad" "Amman" "Baghdad" "Kabul" "St. John" "Dhaka" 
+		"Valley" "Salisbury" "Hamilton" "Stanley"
+	} 
+}
+
+### Theme: Famous Battles ###
+ENG_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES 
 
 	for_countries = { ENG }
 
@@ -704,13 +727,12 @@ ENG_THEME_KINGS = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "HMS "
-	fallback_name = "Royal Ship-F %s"
+	fallback_name = "Royal Ship-G %s"
 
 	unique = {
-		"King Edward VIII" "King George V" "King Edward VII" "Queen Victoria" "King William IV" "King George IV" "King George III" "King George II" "King George I"
-		"Queen Anne" "King William III" "King James II" "King Charles II" "King Charles I" "King James I" "Queen Elizabeth" "Queen Mary" "King Edward VI" "King Henry VIII"
-		"King Henry VII" "King Richard III" "King Edward V" "King Edward IV" "King Henry VI" "King Henry V" "King Henry IV" "King Richard II" "King Edward III"
-		"King Edward II" "King Edward I" "King Henry III" "King John" "King Richard I" "King Henry II" "King Stephen" "King Henry I" "King William II" "King William I"
+		"Waterloo" "Agincourt" "Cressy" "Poitiers" "Vitoria" "Salamanca" "Ramillies" "Blenheim" "Elixheim" "Oudenarde" "Lille" "Malplaquet" "Schellenberg" "Verneuil" 
+		"Boyne" "Culloden" "Plassey" "Balaklava" "Rorke's Drift" "Megiddo" "Assaye" "Stamford Bridge" "Edington" "Trafalgar" "Nile" "Jutland" "Sluys" "Quiberon Bay" 
+		"Quebec" "Maida" "Vimy Ridge" "Crecy" "Aliwal" "Alma" "Cawnpore" "Magdala" "Balaclava" "Amiens"
 	}
 }
 
@@ -726,34 +748,13 @@ ENG_THEME_MYTHOLOGY = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "HMS "
-	fallback_name = "Royal Ship-G %s"
+	fallback_name = "Royal Ship-H %s"
 
 	unique = {
 		"King Arthur" "Guinevere" "Uther Pendragon" "Mordred" "Agravain" "Bedivere" "Bors" "Caradoc" "Gaheris" "Galahad" "Galehaut" "Gareth" "Gawain" "Geraint" 
 		"Lamorak" "Lancelot" "Kay" "Lucan" "Palamedes" "Pelleas" "Pellinore" "Percival" "Sagramore" "Tristan" "Ywain" "Ector" "Merlin" "Nimue" "Morgan le Fay" 
 		"Excalibur" "Camelot" "Avalon" "Ambrosius" "Brutus" "Cassivellaunus" "Cadwaladr" "Caradocus" "Corineus" "Coel Hen" "Constantine" "Cunobeline" "Leir" 
 		"Lot" "Mark" "Urien" 
-	}
-}
-
-### Theme: Famous Battles ###
-ENG_THEME_BATTLES = {
-	name = NAME_THEME_BATTLES 
-
-	for_countries = { ENG }
-
-	can_use = { not = { has_government = communism } }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
-
-	prefix = "HMS "
-	fallback_name = "Royal Ship-H %s"
-
-	unique = {
-		"Waterloo" "Agincourt" "Cressy" "Poitiers" "Vitoria" "Salamanca" "Ramillies" "Blenheim" "Elixheim" "Oudenarde" "Lille" "Malplaquet" "Schellenberg" "Verneuil" 
-		"Boyne" "Culloden" "Plassey" "Balaklava" "Rorke's Drift" "Megiddo" "Assaye" "Stamford Bridge" "Edington" "Trafalgar" "Nile" "Jutland" "Sluys" "Quiberon Bay" 
-		"Quebec" "Maida" "Vimy Ridge" "Crecy" "Aliwal" "Alma" "Cawnpore" "Magdala" "Balaclava" "Amiens"
 	}
 }
 
@@ -1024,6 +1025,56 @@ ENG_CLAA_COMMUNISM = { # Cities.
 	}
 }
 
+### Minesweeper Names ###
+ENG_MINELAYERS_COMMUNIST = { # Flowers.
+	name = NAME_THEME_COMMUNIST_MINESWEEPERS
+
+	for_countries = { ENG }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+	
+	prefix = "RNS "							
+	fallback_name = "Republican Minesweeper %s"
+
+	unique = {
+		### Acacia Class (1915) ###
+		"Acacia" "Anemone" "Aster" "Bluebell" "Daffodil" "Dahila" "Daphne" "Foxglove" "Hollyhock" "Honeysuckle" "Iris" "Jonquil" "Laburnum" "Lavender" "Lilac"
+		"Lily" "Mangolia" "Mallow" "Marigold" "Mimosa" "Primrose" "Sunflower" "Veronica"
+
+		### Azalea Class (1915) ###
+		"Azalea" "Begonia" "Camellia" "Carnation" "Clematis" "Heliotrope" "Jessamine" "Myrtie" "Narcissus" "Peony" "Snowdrop" "Zinnia"
+
+		### Arabis Class  (1915) ###
+		"Alysssum" "Amaryllis" "Arabis" "Asphodel" "Berberis" "Buttercup" "Campanula" "Celandine" "Cornoflower" "Crocus" "Cyclamen" "Delphinium" "Genista" "Gentian" 
+		"Geranium" "Gladiolus" "Godetia" "Hydrangea" "Lobelia" "Lupin" "Marguerite" "Mignonette" "Myosotis" "Nasturtium" "Nigella" "Pansy" "Pentstemon" "Petunia" 
+		"Poppy" "Primula" "Rosemary" "Snapdragon" "Velarian" "Verbena" "Wallflower" "Wistaria" "Aldébaran" "Algol" "Altair" "Antares" "Bellatrix" "Rigel" "Cassiopée" 
+		"Regulus"
+	}
+}
+
+### Minelayer Names ###
+ENG_MINELAYERS_COMMUNIST = { # Figures - Mythology.
+	name = NAME_THEME_COMMUNIST_MINELAYERS
+
+	for_countries = { ENG }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+	
+	prefix = "RNS "							
+	fallback_name = "Republican Minelayer %s"
+
+	unique = {
+		### Older/Current Models ###
+		"Abdiel" "Agamemnon" "Angora" "Menestheus" "Plover" "Napier" "Ariande" "Latona" "Manxman" "Welshman"
+	}
+}
+
 ### Destroyer Names ###
 ENG_DD_COMMUNIST = { # Adjectives.
 	name = NAME_THEME_COMMUNIST_DD
@@ -1124,56 +1175,6 @@ ENG_DE_COMMUNISM = { # Historical Themes.
 	}
 }
 
-### Minelayer Names ###
-ENG_MINELAYERS_COMMUNIST = { # Figures - Mythology.
-	name = NAME_THEME_COMMUNIST_MINELAYERS
-
-	for_countries = { ENG }
-
-	can_use = { has_government = communism }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-	
-	prefix = "RNS "							
-	fallback_name = "Republican Minelayer %s"
-
-	unique = {
-		### Older/Current Models ###
-		"Abdiel" "Agamemnon" "Angora" "Menestheus" "Plover" "Napier" "Ariande" "Latona" "Manxman" "Welshman"
-	}
-}
-
-### Minesweeper Names ###
-ENG_MINELAYERS_COMMUNIST = { # Flowers.
-	name = NAME_THEME_COMMUNIST_MINESWEEPERS
-
-	for_countries = { ENG }
-
-	can_use = { has_government = communism }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-	
-	prefix = "RNS "							
-	fallback_name = "Republican Minesweeper %s"
-
-	unique = {
-		### Acacia Class (1915) ###
-		"Acacia" "Anemone" "Aster" "Bluebell" "Daffodil" "Dahila" "Daphne" "Foxglove" "Hollyhock" "Honeysuckle" "Iris" "Jonquil" "Laburnum" "Lavender" "Lilac"
-		"Lily" "Mangolia" "Mallow" "Marigold" "Mimosa" "Primrose" "Sunflower" "Veronica"
-
-		### Azalea Class (1915) ###
-		"Azalea" "Begonia" "Camellia" "Carnation" "Clematis" "Heliotrope" "Jessamine" "Myrtie" "Narcissus" "Peony" "Snowdrop" "Zinnia"
-
-		### Arabis Class  (1915) ###
-		"Alysssum" "Amaryllis" "Arabis" "Asphodel" "Berberis" "Buttercup" "Campanula" "Celandine" "Cornoflower" "Crocus" "Cyclamen" "Delphinium" "Genista" "Gentian" 
-		"Geranium" "Gladiolus" "Godetia" "Hydrangea" "Lobelia" "Lupin" "Marguerite" "Mignonette" "Myosotis" "Nasturtium" "Nigella" "Pansy" "Pentstemon" "Petunia" 
-		"Poppy" "Primula" "Rosemary" "Snapdragon" "Velarian" "Verbena" "Wallflower" "Wistaria" "Aldébaran" "Algol" "Altair" "Antares" "Bellatrix" "Rigel" "Cassiopée" 
-		"Regulus"
-	}
-}
-
 ### Submarine Names ###
 ENG_SS_COMMUNISM = { # Adjectives - Marine Themes.
 	name = NAME_THEME_COMMUNIST_SS
@@ -1243,36 +1244,6 @@ ENG_THEME_COUNTIES_COMMUNIST = {
 	}
 }
 
-### Theme: Cities ###
-ENG_THEME_CITIES_COMMUNIST = {
-	name = NAME_THEME_COMMUNIST_CITIES
-
-	for_countries = { ENG }
-
-	can_use = { has_government = communism }
-
-	type = ship
-	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
-
-	prefix = "RNS "
-	fallback_name = "Republican Ship-B %s"
-
-	unique = {
-		"London" "Birmingham" "Leeds" "Glasgow" "Sheffield" "Bradford" "Liverpool" "Edinburgh" "Manchester" "Bristol" "Kirklees" "Fife" "Wirral" "Lanarkshire" 
-		"Wakefield" "Cardiff" "Dudley" "Wigan" "East Riding" "Coventry" "Belfast" "Leicester" "Sunderland" "Sandwell" "Doncaster" "Stockport" "Sefton" "Nottingham" 
-		"Newcastle" "Kingston" "Bolton" "Walsall" "Plymouth" "Rotherham" "Stoke" "Wolverhampton" "Rhondda" "Gloucestershire" "Derby" "Swansea" "Salford" "Aberdeenshire" 
-		"Barnsley" "Tameside" "Oldham" "Trafford" "Aberdeen" "Southampton" "Highland" "Rochdale" "Soilhull" "Gateshed" "Milton Keynes" "Tyneside" "Calderdale" 
-		"Northampton" "Portsmouth" "Warrington" "Somerset" "Bury" "Luton" "St Helens" "Stockton" "Renfrewshire" "York" "Thamesdown" "Southend" "New Forest" "Carphilly" 
-		"Carmarthenshire" "Bath" "Wycombe" "Basildon" "Bournemouth" "Peterborough" "Lincolnshire" "Chelmsford" "Brighton" "Charnwood" "Aylesbury" "Colchester" "Knowsley" 
-		"Huntingdonshire" "Macclesfield" "Blackpool" "Lothian" "Somerset" "Dundee" "Basingstoke" "Deane" "Harrogate" "Dumfries" "Galloway" "Middlesbrough" "Flintshire" 
-		"Wrekin" "Newbury" "Falkirk" "Reading" "Wokingham" "Windsor" "Maidenhead" "Maidstone" "Redcar" "Cleveland" "Ayrshire" "Blackburn" "Poole" "Wealden" "Arun" "Bedford" 
-		"Oxford" "Lancaster" "Newport" "Canterbury" "Preston" "Dacorum" "Cherwell" "Perth" "Kinross" "Thurrock" "Tendring" "Norfolk" "St Albans" "Bridgend" "Cambridgeshire" 
-		"Braintree" "Norwich" "Thanet" "Sussex" "Oxfordshire" "Guildford" "Elmbridge" "Stafford" "Powys" "Hertfordshire" "Torbay" "Devon" "Lindsey" "Halton" "Warwick" 
-		"Wiltshire" "Kesteven" "Glamorgan" "Reigate" "Banstead" "Chester" "Bedfordshire" "Horsham" "Nuneaton" "Bedworth" "Gwynedd" "Swale" "Havant" "Waterloo" "Teignbridge" 
-		"Cambridge" "Waverley"
-	}
-}
-
 ### Theme: Admirals ###
 ENG_THEME_ADMIRALS_COMMUNIST = {
 	name = NAME_THEME_COMMUNIST_ADMIRALS # 1649 - 1665
@@ -1285,7 +1256,7 @@ ENG_THEME_ADMIRALS_COMMUNIST = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "RNS "
-	fallback_name = "Republican Ship-C %s"
+	fallback_name = "Republican Ship-B %s"
 
 	unique = {
 		"Blake" "Deane" "Popham" "Monck" "Penn" "Montague" "Desborow" "Jones" "Clerk" "Stone" "Burton" "Gooking" "Kelsey" "Ayscue" "Appleton" 
@@ -1304,7 +1275,7 @@ ENG_THEME_MOUNTAINS_COMMUNIST = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "RNS "
-	fallback_name = "Republican Ship-D %s"
+	fallback_name = "Republican Ship-C %s"
 
 	unique = {
 		### P600 Mountains of British Isles ###
@@ -1315,6 +1286,36 @@ ENG_THEME_MOUNTAINS_COMMUNIST = {
 		"Fan" "Hee" "Siabod" "Baurtregaum" "Donard" "Ghiubhsachain" "Canisp" "Merrick" "Law" "Mweelrea" "Askival" "Fach" "Nephin" "Clisham" "Leinster" "Knockmealdown" 
 		"Fauscoum" "Òir" "Barrclashcame" "Ghaoithe" "Loyal" "Patrick" "Errigal" "Coigach" "Mhòr" "Coinnich" "Doune" "Caillich" "Carr" "Slievenamon" "Storr" "Knockboy"
 		"Gorm" "Keeper" "Croaghaun" "Maumtrasna" "Cuilagh" "Snaefell" "Snaght"
+	}
+}
+
+### Theme: Cities ###
+ENG_THEME_CITIES_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_CITIES
+
+	for_countries = { ENG }
+
+	can_use = { has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "RNS "
+	fallback_name = "Republican Ship-D %s"
+
+	unique = {
+		"London" "Birmingham" "Leeds" "Glasgow" "Sheffield" "Bradford" "Liverpool" "Edinburgh" "Manchester" "Bristol" "Kirklees" "Fife" "Wirral" "Lanarkshire" 
+		"Wakefield" "Cardiff" "Dudley" "Wigan" "East Riding" "Coventry" "Belfast" "Leicester" "Sunderland" "Sandwell" "Doncaster" "Stockport" "Sefton" "Nottingham" 
+		"Newcastle" "Kingston" "Bolton" "Walsall" "Plymouth" "Rotherham" "Stoke" "Wolverhampton" "Rhondda" "Gloucestershire" "Derby" "Swansea" "Salford" "Aberdeenshire" 
+		"Barnsley" "Tameside" "Oldham" "Trafford" "Aberdeen" "Southampton" "Highland" "Rochdale" "Soilhull" "Gateshed" "Milton Keynes" "Tyneside" "Calderdale" 
+		"Northampton" "Portsmouth" "Warrington" "Somerset" "Bury" "Luton" "St Helens" "Stockton" "Renfrewshire" "York" "Thamesdown" "Southend" "New Forest" "Carphilly" 
+		"Carmarthenshire" "Bath" "Wycombe" "Basildon" "Bournemouth" "Peterborough" "Lincolnshire" "Chelmsford" "Brighton" "Charnwood" "Aylesbury" "Colchester" "Knowsley" 
+		"Huntingdonshire" "Macclesfield" "Blackpool" "Lothian" "Somerset" "Dundee" "Basingstoke" "Deane" "Harrogate" "Dumfries" "Galloway" "Middlesbrough" "Flintshire" 
+		"Wrekin" "Newbury" "Falkirk" "Reading" "Wokingham" "Windsor" "Maidenhead" "Maidstone" "Redcar" "Cleveland" "Ayrshire" "Blackburn" "Poole" "Wealden" "Arun" "Bedford" 
+		"Oxford" "Lancaster" "Newport" "Canterbury" "Preston" "Dacorum" "Cherwell" "Perth" "Kinross" "Thurrock" "Tendring" "Norfolk" "St Albans" "Bridgend" "Cambridgeshire" 
+		"Braintree" "Norwich" "Thanet" "Sussex" "Oxfordshire" "Guildford" "Elmbridge" "Stafford" "Powys" "Hertfordshire" "Torbay" "Devon" "Lindsey" "Halton" "Warwick" 
+		"Wiltshire" "Kesteven" "Glamorgan" "Reigate" "Banstead" "Chester" "Bedfordshire" "Horsham" "Nuneaton" "Bedworth" "Gwynedd" "Swale" "Havant" "Waterloo" "Teignbridge" 
+		"Cambridge" "Waverley"
 	}
 }
 

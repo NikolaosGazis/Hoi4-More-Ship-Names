@@ -155,30 +155,10 @@ DEN_THEME_REGIONS = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
 
 	prefix = "HDMS "
-	fallback_name = "Skib-F %d"
-
-	unique = {
-		"Hovedstaden" "Midtjylland" "Nordjylland" "Sjælland" "Syddanmark"
-	}
-}
-
-### Theme: Cities ###
-DEN_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { DEN }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	prefix = "HDMS "
 	fallback_name = "Skib-A %d"
 
 	unique = {
-		"Aarhus" "Odense" "Aalborg" "Esbjerg" "Randers" "Kolding" "Horsens" "Vejle" "Roskilde" "Herning" "Hørsholm" "Helsingør" "Silkeborg" "Næstved" 
-		"Fredericia" "Viborg" "Køge" "Holstebro" "Taastrup" "Slagelse" "Hillerød" "Holbæk" "Sønderborg" "Svendborg" "Hjørring" "Frederikshavn" 
-		"Nørresundby" "Ringsted" "Haderslev" "Ølstykke-Stenløse" "Skive" "Birkerød" "Farum" "Smørumnedre" "Skanderborg" "Nyborg" "Lillerød" "Kalundborg" 
-		"Frederikssund" "Aabenraa" "Solrød Strand" "Ikast" "Middelfart" "Grenaa" "Korsør" "Varde" "Rønne" "Thisted" "Værløse"
+		"Hovedstaden" "Midtjylland" "Nordjylland" "Sjælland" "Syddanmark"
 	}
 }
 
@@ -199,6 +179,27 @@ DEN_THEME_MOUNTAINS = { # Suprise suprise - Denmark is a flat country :/.
 	}
 }
 
+### Theme: Cities ###
+DEN_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HDMS "
+	fallback_name = "Skib-C %d"
+
+	unique = {
+		"Aarhus" "Odense" "Aalborg" "Esbjerg" "Randers" "Kolding" "Horsens" "Vejle" "Roskilde" "Herning" "Hørsholm" "Helsingør" "Silkeborg" "Næstved" 
+		"Fredericia" "Viborg" "Køge" "Holstebro" "Taastrup" "Slagelse" "Hillerød" "Holbæk" "Sønderborg" "Svendborg" "Hjørring" "Frederikshavn" 
+		"Nørresundby" "Ringsted" "Haderslev" "Ølstykke-Stenløse" "Skive" "Birkerød" "Farum" "Smørumnedre" "Skanderborg" "Nyborg" "Lillerød" "Kalundborg" 
+		"Frederikssund" "Aabenraa" "Solrød Strand" "Ikast" "Middelfart" "Grenaa" "Korsør" "Varde" "Rønne" "Thisted" "Værløse"
+	}
+}
+
+
 ### Theme: Rivers ###
 DEN_THEME_RIVERS = {
 	name = NAME_THEME_RIVERS
@@ -209,7 +210,7 @@ DEN_THEME_RIVERS = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 
 	prefix = "HDMS "
-	fallback_name = "Skib-C %d"
+	fallback_name = "Skib-D %d"
 
 	unique = {
 		"Gudenå" "Bredvad" "Mossø" "Gudensø" "Ry Mølle" "Lillesø" "Birksø" "Julsø" "Borre" "Brassø" "Langsø" "Sminge" "Tange" 
@@ -228,7 +229,7 @@ DEN_THEME_ISLANDS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HDMS "
-	fallback_name = "Skib-D %d"
+	fallback_name = "Skib-E %d"
 
 	unique = {
 		"Zealand" "Vendsyssel" "Funen" "Lolland" "Bornholm" "Falster" "Mors" "Als" "Langeland" "Møn" "Rømø" "Samsø" "Læsø" "Amager" "Ærø" 
@@ -246,7 +247,7 @@ DEN_THEME_CULTURE = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HDMS "
-	fallback_name = "Skib-E %d"
+	fallback_name = "Skib-F %d"
 
 	unique = { 
 		"Skjoldvagt" "Havbris" "Freyasol" "Ravnsværd" "Astrum" "Himmelblå" "Tordenskær" "Ørnsving" "Silhuet" "Lyngbrand" "Isbjørn" "Måneskær" 
@@ -264,7 +265,7 @@ DEN_THEME_BATTLES = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "HDMS "
-	fallback_name = "Skib-F %d"
+	fallback_name = "Skib-G %d"
 
 	unique = {
 		"Lyndanisse" "Bornhöved" "Fredericia" "Heligoland" "Als" "Sankelmark" "Bov" "Lundby" "Dybbøl" "Re" "Köge Bay" "Fehmarn"
@@ -282,7 +283,7 @@ DEN_THEME_NORDIC_MYTHOLOGY = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
 
 	prefix = "HDMS "
-	fallback_name = "Skib-G %d"
+	fallback_name = "Skib-H %d"
 
 	unique = {
 		"Odin" "Thor" "Frigg" "Loki" "Tyr" "Freya" "Freyr" "Heimadall" "Skadi" "Njord" "Aegir" "Idun" "Bragi" "Fenrir" "Jormungandr" 

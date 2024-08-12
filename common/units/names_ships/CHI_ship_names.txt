@@ -148,6 +148,24 @@ CHI_CL_HISTORICAL = { # Historical - Older Models - Counties.
 	}
 }
 
+### Minesweepers Names ###
+CHI_MINESWEEPERS_HISTORICAL = { # County Level Cities.
+	name = NAME_THEME_MINESWEEPERS
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	fallback_name = "%d Sǎoléi Jiàn"
+
+	unique = {
+		"Zhangjiagang" "Jingjiang" "Qingzhou" "Yucheng" "Renhuai" "Xuanwei" "Wudi" "Liuyang" "Luxi" "Xiaoyi" "Taishan" "Changshu" "Heshan"
+		"Chu An" "Xiangshan" "Chonging" "Fenghua" "Zhijiang" "Zhuji" "Haimen" "Wenling" "Pingdu" "Changyi" "Yangshuo" "Yongsheng" "Daxin"
+		"Huarong" "Rongjiang" "Qionghai" "Huoqiu" "Kushan" "Rudong" "Rongcheng" "Donggang" "Kaiping" "Taizihe" "Panshan" "Gongchangling"
+	}
+}
+
 ### Destroyer Names ###
 CHI_DD_HISTORICAL = { # Older Models - Cities.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
@@ -200,26 +218,6 @@ CHI_DE_HISTORICAL = { # Older Models - Frigates - Gunboats.
 		"Yung Sui" "Yung Sheng" "Jen Shen" "Ying Shan" "Ying Hao" "Lung Huan" "Hai Chow" "Tien Ping" "Tieh Pi" "Wei Lin Mi" "Ching Po"
 	}
 }
-
-### Minesweepers Names ###
-CHI_MINESWEEPERS_HISTORICAL = { # County Level Cities.
-	name = NAME_THEME_MINESWEEPERS
-
-	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-
-	fallback_name = "%d Sǎoléi Jiàn"
-
-	unique = {
-		"Zhangjiagang" "Jingjiang" "Qingzhou" "Yucheng" "Renhuai" "Xuanwei" "Wudi" "Liuyang" "Luxi" "Xiaoyi" "Taishan" "Changshu" "Heshan"
-		"Chu An" "Xiangshan" "Chonging" "Fenghua" "Zhijiang" "Zhuji" "Haimen" "Wenling" "Pingdu" "Changyi" "Yangshuo" "Yongsheng" "Daxin"
-		"Huarong" "Rongjiang" "Qionghai" "Huoqiu" "Kushan" "Rudong" "Rongcheng" "Donggang" "Kaiping" "Taizihe" "Panshan" "Gongchangling"
-	}
-}
-
-### Auxilary/Smaller Ships Names ###
 
 ### Submarines ###
 CHI_SS_HISTORICAL = {
@@ -288,27 +286,6 @@ CHI_THEME_PROVINCES = {
 	}
 }
 
-### Theme: Cities ###
-CHI_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
-
-	fallback_name = "%d Chuán-B"
-
-	unique = {
-		"Shangai" "Zhumadian" "Beijing" "Nanchong" "Hong Kong" "Tai An" "Yueyang" "Kaifeng" "Wuhan" "Chongqing" "Chengdu" "Tianjin" "Puyang"
-		"Shenyang" "Shiyan" "Harbin" "Xi An" "Lanzhiu" "Guangzhou" "Nanjing" "Shenzhen" "Taiyan" "Yunfu" "Changchun" "Zhongshan" "Changsha"
-		"Jinan" "Dalian" "Zhengzhou" "Shijazhuang" "Jilin" "Hangzhou" "Nanchang" "Qingdao" "Tangshan" "Xiyang" "Urumqi" "Fushun" "Luoyang"
-		"Hefei" "Liuyang" "Handan" "Suzhou" "Shantou" "Baotou" "Anshan" "Tongshan" "Fuzhou" "Guiuyang" "Dayan" "Wuxi" "Datong" "Changshu"
-		"Xianyang" "Huainan" "Kunming" "Jieyang" "Zhu Cheng" "Baoding" "Benxi" "Changzhou" "Huaibei" "Pingdingshan" "Qiqihar" "Wenzhou"
-		"Nanning" "Anyang" "Hohhot" "Shangyu" "Xining" "Qinhuangdao" "Hengyang" "Xinxiang" "Hegang" "Langfang" "Ningbo" "Yantai" "Zhuzhou"
-	}
-}
-
 ### Theme: Mountains ###
 CHI_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
@@ -318,7 +295,7 @@ CHI_THEME_MOUNTAINS = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "%d Chuán-C"
+	fallback_name = "%d Chuán-B"
 
 	unique = {
 		"Lhotse" "Makalu" "Broad" "Shishapangma" "Chomo Lonzo" "Kongur Tagh" "Gongga" "Ata" "Skyang" "Jongsong" "Kangri" "Jengish Chokusu"
@@ -328,6 +305,27 @@ CHI_THEME_MOUNTAINS = {
 		"Gora Alagordy" "Laojun" "Khüiten" "Tavan Bogd" "Nairamdal" "Yu" "Xueshan" "Sauyr Zhotasy" "Taibai" "Daxue" "Hanhua" "Dunheger" "Jizu"
 		"Emei" "Phu Si Lung" "Wutai" "Paektu" "Mazong" "Mian" "Jinfo" "Hua" "Shiren" "Kitten" "Baishi" "Heng" "Changbai" "Huangyajian" "Xiao"
 		"Huangshan" "Wuzhi" "Shiceng"
+	}
+}
+
+### Theme: Cities ###
+CHI_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "%d Chuán-C"
+
+	unique = {
+		"Shangai" "Zhumadian" "Beijing" "Nanchong" "Hong Kong" "Tai An" "Yueyang" "Kaifeng" "Wuhan" "Chongqing" "Chengdu" "Tianjin" "Puyang"
+		"Shenyang" "Shiyan" "Harbin" "Xi An" "Lanzhiu" "Guangzhou" "Nanjing" "Shenzhen" "Taiyan" "Yunfu" "Changchun" "Zhongshan" "Changsha"
+		"Jinan" "Dalian" "Zhengzhou" "Shijazhuang" "Jilin" "Hangzhou" "Nanchang" "Qingdao" "Tangshan" "Xiyang" "Urumqi" "Fushun" "Luoyang"
+		"Hefei" "Liuyang" "Handan" "Suzhou" "Shantou" "Baotou" "Anshan" "Tongshan" "Fuzhou" "Guiuyang" "Dayan" "Wuxi" "Datong" "Changshu"
+		"Xianyang" "Huainan" "Kunming" "Jieyang" "Zhu Cheng" "Baoding" "Benxi" "Changzhou" "Huaibei" "Pingdingshan" "Qiqihar" "Wenzhou"
+		"Nanning" "Anyang" "Hohhot" "Shangyu" "Xining" "Qinhuangdao" "Hengyang" "Xinxiang" "Hegang" "Langfang" "Ningbo" "Yantai" "Zhuzhou"
 	}
 }
 

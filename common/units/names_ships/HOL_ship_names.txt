@@ -2,7 +2,7 @@
 
 ### Prefixes ###
 # HrMs = Harer Majesteits. (Official - Used)
-# VNS = Volk's Nautical Ship. (Made Up - Communist)
+# VNS = Volk's Nautical Ship. (Made Up - Communist - Used)
 
 ### Aircraft Carrier Names ###
 HOL_CV_HISTORICAL = { # Aviators.
@@ -70,7 +70,7 @@ HOL_BB_HISTORICAL = { # Importance - Figures.
 }
 
 ### Battlecruiser ###
-HOL_BC_HISTORICAL = { # Adjectives. (Dutch sure are weird)
+HOL_BC_HISTORICAL = { # Adjectives.
 	name = NAME_THEME_HISTORICAL_BC
 
 	for_countries = { HOL }
@@ -110,7 +110,7 @@ HOL_CA_HISTORICAL = { # Older Models - Generals.
 		"Chassé" "Janssens" "Sedlnitsky" "Constant Rebecque" "List" "Godert de Ginkell" "Jan van Hout" "Oldenbarnevelt" 
 		"Sweelinck" "Riebeek" "Pallandt" "Daendels"
 
-		### Additionals - Overall ###
+		### Additionals - Mixed ###
 		"Hertog Hendrik" "Soerabaja" "Batjan" "Ceram" "Ambon" "Banda" "Ternate"
 	}
 }
@@ -147,6 +147,44 @@ HOL_CL_HISTORICAL = { # Older Models - Colonies - Figures.
 
 		### Additionals - Overall ###
 		"Kijkduin" "Drenthe" "Brabant" "Limburg"
+	}
+}
+
+### Mineships Names ###
+HOL_MINESHIPS_HISTORICAL = { # Mythology - Figures.
+	name = NAME_THEME_MINESHIPS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HrMs "
+	fallback_name = "Mijnschip %d"
+
+	unique = {
+		### Hydra Class (1912) - Minelayers ###
+		"Hydra" "Medusa"
+
+		### Douwe Aukes Class (1922) - Minelayers ###
+		"Douwe Aukes" "Van Meerlant"
+
+		### Pro Patria Class (1923) - Standalone - Minelayer ###
+		"Pro Patria"
+
+		### Prins van Oranje Class (1932) - Minelayers ###
+		"Prins van Oranje" "Gouden Leeuw"
+
+		### Jan van Amstel Class (1937) - Minesweepers ###
+		"Jan van Amstel" "Pieter de Bitter" "Abraham Crijnssen" "Eland Dubois" "Willem van Ewijck" "Pieter Florisz" 
+		"Jan van Gelder" "Abraham van der Hulst"
+
+		### Willem van der Zaan Class (1939) - Standalone - Minelayer ###
+		"Willem van der Zaan"
+
+		### Additionals - Mythology ###
+		"Cerberus" "Typhon" "Chimera" "Echidna" "Siren" "Gorgon" "Scylla" "Charybdis" "Ladon" "Orthus" "Sphinx" 
+		"Centaur" "Chiron" "Thetis" "Galatea" "Leucothea"
 	}
 }
 
@@ -189,44 +227,6 @@ HOL_DD_HISTORICAL = { # Figures - Regions - Animals - Weaponry.
 
 		### Additionals - Overall ###
 		"Campbelltown" "Marnix"
-	}
-}
-
-### Mineships Names ###
-HOL_MINESHIPS_HISTORICAL = { # Mythology - Figures.
-	name = NAME_THEME_MINESHIPS
-
-	for_countries = { HOL }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-
-	prefix = "HrMs "
-	fallback_name = "Mijnschip %d"
-
-	unique = {
-		### Hydra Class (1912) - Minelayers ###
-		"Hydra" "Medusa"
-
-		### Douwe Aukes Class (1922) - Minelayers ###
-		"Douwe Aukes" "Van Meerlant"
-
-		### Pro Patria Class (1923) - Standalone - Minelayer ###
-		"Pro Patria"
-
-		### Prins van Oranje Class (1932) - Minelayers ###
-		"Prins van Oranje" "Gouden Leeuw"
-
-		### Jan van Amstel Class (1937) - Minesweepers ###
-		"Jan van Amstel" "Pieter de Bitter" "Abraham Crijnssen" "Eland Dubois" "Willem van Ewijck" "Pieter Florisz" 
-		"Jan van Gelder" "Abraham van der Hulst"
-
-		### Willem van der Zaan Class (1939) - Standalone - Minelayer ###
-		"Willem van der Zaan"
-
-		### Additionals - Mythology ###
-		"Cerberus" "Typhon" "Chimera" "Echidna" "Siren" "Gorgon" "Scylla" "Charybdis" "Ladon" "Orthus" "Sphinx" 
-		"Centaur" "Chiron" "Thetis" "Galatea" "Leucothea"
 	}
 }
 
@@ -308,27 +308,6 @@ HOL_THEME_REGIONS = {
 	}
 }
 
-### Theme: Cities ###
-HOL_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { HOL }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser destroyer }
-
-	prefix = "HrMs "
-	fallback_name = "Oorlogsschip-B %d"
-
-	unique = {
-		"Amsterdam" "Rotterdam" "Den Haag" "Utrecht" "Eindhoven" "Tilburg" "Groningen" "Almere Stad" "Breda" "Nijmegen" "Enschede" "Haarlem" 
-		"Arnhem" "Zaanstad" "Amersfoort" "Apeldoom" "Hertogenbosch" "Hoofddorp" "Maastricht" "Leiden" "Dordrecht" "Zoetermeer" "Zwolle" 
-		"Deventer" "Born" "Delft" "Alkmaar" "Heerlen" "Venlo" "Leeuwarden" "Hilversum" "Hengelo" "Amstelveen" "Roosendaal" "Purmenerend" 
-		"Oss" "Schiedam" "Spijkenisse" "Helmond" "Vlaardingen" "Almelo" "Gouda" "Zaandam" "Lelystad" "Delfshaven" "Hoorn" "Velsen" "Ede" 
-		"Bergen" "Capelle" "Assen" "Nieuwegein" "Veenendaal" "Zeist" "Den Helder" "Hardenberg" "Emmen"
-	}
-}
-
 ### Theme: Mountains ###
 HOL_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
@@ -339,7 +318,7 @@ HOL_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HrMs "
-	fallback_name = "Oorlogsschip-C %d"
+	fallback_name = "Oorlogsschip-B %d"
 
 	unique = {
 		"Scenery" "Quill" "Christoffelberg" "Bovern" "Accords" "Santa Barbara" "Yuana" "Sero Jamanota" "Sint Hieronymus" "Tent" "Signal" "Point Blanche"
@@ -349,6 +328,27 @@ HOL_THEME_MOUNTAINS = {
 		"Archemerberg" "Flagstaff" "Seru Pasku" "Sing Michielsberg" "Matividiri" "Oerd Blinkert" "Seru Sami" "Grote Koningsbelt" "Seru Pilaar" "Ceru Boca"
 		"Reward" "Signaal Imbosch" "Mazinga" "Seru di Domi" "Brederodeberg" "Jaburibari" "Alto Vista" "Matado Pascu" "Ruiterberg" "Bandera" "De Stompert"
 		"Williams" "Seru Kabaye"
+	}
+}
+
+### Theme: Cities ###
+HOL_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser destroyer }
+
+	prefix = "HrMs "
+	fallback_name = "Oorlogsschip-C %d"
+
+	unique = {
+		"Amsterdam" "Rotterdam" "Den Haag" "Utrecht" "Eindhoven" "Tilburg" "Groningen" "Almere Stad" "Breda" "Nijmegen" "Enschede" "Haarlem" 
+		"Arnhem" "Zaanstad" "Amersfoort" "Apeldoom" "Hertogenbosch" "Hoofddorp" "Maastricht" "Leiden" "Dordrecht" "Zoetermeer" "Zwolle" 
+		"Deventer" "Born" "Delft" "Alkmaar" "Heerlen" "Venlo" "Leeuwarden" "Hilversum" "Hengelo" "Amstelveen" "Roosendaal" "Purmenerend" 
+		"Oss" "Schiedam" "Spijkenisse" "Helmond" "Vlaardingen" "Almelo" "Gouda" "Zaandam" "Lelystad" "Delfshaven" "Hoorn" "Velsen" "Ede" 
+		"Bergen" "Capelle" "Assen" "Nieuwegein" "Veenendaal" "Zeist" "Den Helder" "Hardenberg" "Emmen"
 	}
 }
 

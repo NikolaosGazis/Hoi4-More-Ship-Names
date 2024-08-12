@@ -1,4 +1,4 @@
-﻿### Austrian-Hungarian Empire Ship Names ###
+﻿### Austro-Hungarian Empire Ship Names ###
 
 ### Prefixes ###
 # SMS = Seiner Majestät Schiff. (Official - Imperial)
@@ -286,31 +286,6 @@ AUH_THEME_REGIONS = {
 	}
 }
 
-### Theme: Cities ###
-AUH_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { AUS HUN CZE CRO }
-
-	can_use = { has_cosmetic_tag = HUN_EMPIRE }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	prefix = "SMS "
-	fallback_name = "Schiff-B %d"
-
-	unique = {
-		"Wien" "Budapest" "Prag" "Krakau" "Laibach" "Pressburg" "Agram" "Triest" "Graz" "Lemberg" "Brünn" "Sarajewo" "Innsbruck" "Linz" "Debrecen" "Szegedin" 
-		"Ostrau" "Pula" "Spalato" "Klagenfurt" "Bukarest" "Belgrad" "Temeswar" "Klausenburg" "Neusatz" "Zara" "Marburg" "Fünfkirchen" "Esseg" "Arad" "Hermannstadt" 
-		"Banjaluka" "Großwardein" "Mostar" "Maria Theresiopel" "Pilsen" "Czernowitz" "Steinamanger" "Saratow" "Mieresch" "Plowdiw" "Kaschau" "Debrecen" "Braila" 
-		"Uschhorod" "Odessa" "Fiume" "Tuzla" "Miskolcz" "Kronstadt" "Varna" "Szolnok" "Ketschkemet" "Ketschkemet" "Nisch" "Tergowisch" "Bákau" "Semendria" "Schäßburg" 
-		"Frauenbach" "Kragujevac" "Pantschowa" "Raab" "Hermannstadt" "Neurmarkt" "Jassy" "Russe" "Salzburg" "Vilach" "Wels" "Steyr" "Dornbirn" "Bregenz" "Feldkirch" 
-		"Wolfsberg" "Baden" "Leoben" "Traun" "Amstetten" "Kapfenberg" "Mödling" "Lustenau" "Hallein" "Kufstein" "Schwechat" "Ansfelden" "Ternitz" "Eisenstadt" 
-		"Vöcklabruck" "Hard" "Korneuburg" "Rankweil" "Hollabrunn" "Mistelbach" "Enns" "Götzis" "Judenburg" "Laakirchen" "Imst"
-	}
-}
-
 ### Theme: Mountains ###
 AUH_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
@@ -323,12 +298,37 @@ AUH_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_light destroyer }
 
 	prefix = "SMS "
-	fallback_name = "Schiff-C %d"
+	fallback_name = "Schiff-B %d"
 
 	unique = {
 		"Grossglockner" "Dachstein" "Wilder Kaiser" "Zugspitze" "Hohe Tauern" "High Tatras" "Bieszczady" "Făgăraș" "Krkonoše" "Jeseníky" "Carpathian Flysch" 
 		"Velebit" "Dinara" "Gorski" "Biokovo" "Triglav" "Mangart" "Kanin" "Stara Planina" "Vitosha" "Rila" "Pirin" "Pindus" "Bucegi" "Tatra" "Retezat" 
 		"Oetztal" "Zilertal" "Karawanks" "Kamnik-Savinja Alps" "Steiner" "Orjen" "Krivan" "Bukk" "Gorce" "Pieniny" "Snieznik" "Slavkovsky"
+	}
+}
+
+### Theme: Cities ###
+AUH_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { AUS HUN CZE CRO }
+
+	can_use = { has_cosmetic_tag = HUN_EMPIRE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "SMS "
+	fallback_name = "Schiff-C %d"
+
+	unique = {
+		"Wien" "Budapest" "Prag" "Krakau" "Laibach" "Pressburg" "Agram" "Triest" "Graz" "Lemberg" "Brünn" "Sarajewo" "Innsbruck" "Linz" "Debrecen" "Szegedin" 
+		"Ostrau" "Pula" "Spalato" "Klagenfurt" "Bukarest" "Belgrad" "Temeswar" "Klausenburg" "Neusatz" "Zara" "Marburg" "Fünfkirchen" "Esseg" "Arad" "Hermannstadt" 
+		"Banjaluka" "Großwardein" "Mostar" "Maria Theresiopel" "Pilsen" "Czernowitz" "Steinamanger" "Saratow" "Mieresch" "Plowdiw" "Kaschau" "Debrecen" "Braila" 
+		"Uschhorod" "Odessa" "Fiume" "Tuzla" "Miskolcz" "Kronstadt" "Varna" "Szolnok" "Ketschkemet" "Ketschkemet" "Nisch" "Tergowisch" "Bákau" "Semendria" "Schäßburg" 
+		"Frauenbach" "Kragujevac" "Pantschowa" "Raab" "Hermannstadt" "Neurmarkt" "Jassy" "Russe" "Salzburg" "Vilach" "Wels" "Steyr" "Dornbirn" "Bregenz" "Feldkirch" 
+		"Wolfsberg" "Baden" "Leoben" "Traun" "Amstetten" "Kapfenberg" "Mödling" "Lustenau" "Hallein" "Kufstein" "Schwechat" "Ansfelden" "Ternitz" "Eisenstadt" 
+		"Vöcklabruck" "Hard" "Korneuburg" "Rankweil" "Hollabrunn" "Mistelbach" "Enns" "Götzis" "Judenburg" "Laakirchen" "Imst"
 	}
 }
 
@@ -353,9 +353,9 @@ AUH_THEME_RIVERS = {
 	}
 }
 
-### Theme: Famous Battles ###
-AUH_THEME_BATTLES = {
-	name = NAME_THEME_BATTLES
+### Theme: Monarchs ###
+AUH_THEME_MONARCHY = {
+	name = NAME_THEME_MONARCHS
 
 	for_countries = { AUS HUN CZE CRO }
 
@@ -368,10 +368,9 @@ AUH_THEME_BATTLES = {
 	fallback_name = "Schiff-E %d"
 
 	unique = {
-		"White Mountain" "Saint Gotthard" "Belgrade" "Novi" "Aspren-Essling" "Wagram" "Raab" "Custozza" "Zborov" "Raszyn" "Szoreg" "Sankt Michael" "Komarom" 
-		"Schwechat" "Bereza Kartuska" "Hohenfriedberg" "Soor" "Rossbach" "Kolín" "Krotzka" "Focșani" "Würzburg" "Sacile" "Gorizia" "Laibach" "Tolentino" 
-		"Königgrätz" "Liège" "Limanowa" "Caporetto" "Millesimo" "Bassano" "Lissa" "Krasnoi" "Komarów" "Rarańcza"
-	} 
+		"Ferdinand I" "Maximilan II" "Rudolf II" "Matthias" "Ferdinand II" "Ferdinand III" "Leopold I" "Joseph I" "Charles VI" "Maria Theresa" "Joseph II" 
+		"Leopold II" "Franz I" "Franz Joseph I"
+	}
 }
 
 ### Theme: Culture ###
@@ -395,9 +394,9 @@ AUH_THEME_CULTURE = {
 	}
 }
 
-### Theme: Monarchs ###
-AUH_THEME_MONARCHY = {
-	name = NAME_THEME_MONARCHS
+### Theme: Famous Battles ###
+AUH_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
 
 	for_countries = { AUS HUN CZE CRO }
 
@@ -410,9 +409,10 @@ AUH_THEME_MONARCHY = {
 	fallback_name = "Schiff-G %d"
 
 	unique = {
-		"Ferdinand I" "Maximilan II" "Rudolf II" "Matthias" "Ferdinand II" "Ferdinand III" "Leopold I" "Joseph I" "Charles VI" "Maria Theresa" "Joseph II" 
-		"Leopold II" "Franz I" "Franz Joseph I"
-	}
+		"White Mountain" "Saint Gotthard" "Belgrade" "Novi" "Aspren-Essling" "Wagram" "Raab" "Custozza" "Zborov" "Raszyn" "Szoreg" "Sankt Michael" "Komarom" 
+		"Schwechat" "Bereza Kartuska" "Hohenfriedberg" "Soor" "Rossbach" "Kolín" "Krotzka" "Focșani" "Würzburg" "Sacile" "Gorizia" "Laibach" "Tolentino" 
+		"Königgrätz" "Liège" "Limanowa" "Caporetto" "Millesimo" "Bassano" "Lissa" "Krasnoi" "Komarów" "Rarańcza"
+	} 
 }
 
 ### Theme: Mythology ###

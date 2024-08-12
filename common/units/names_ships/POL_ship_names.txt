@@ -257,27 +257,6 @@ POL_THEME_REGIONS = {
 	}
 }
 
-### Theme: Cities ###
-POL_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { POL }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-	
-	prefix = "ORP "
-	fallback_name = "Statek-D %d"
-
-	unique = {
-		"Łódź" "Kraków" "Wrocław" "Poznań" "Gdańsk" "Szczecin" "Bydgoszcz" "Lublin" "Katowice" "Białystok" "Gdynia" "Częstochowa" "Sosnowiec" "Radom" "Toruń" 
-		"Kielce" "Giwice" "Zabrze" "Bytom" "Bielsko-Biała" "Olsztyn" "Rzeszów" "Ruda Śląska" "Rybnik" "Górnicza" "Tychy" "Opole" "Elblag" "Płock" "Wałbrzych" 
-		"Wielkopolski" "Włocławek" "Zielona Góra" "Tarnów" "Chorzów" "Kalisz" "Koszalin" "Legnica" "Grudziądz" "Słupsk" "Jaworzno" "Zdrój" "Jelenia Góra" 
-		"Nowy Sącz" "Konin" "Piotrków Trybunalski" "Inowrocław" "Lubin" "Siedlce" "Piła" "Mysłowice" "Świętokrzyski" "Śląskie" "Wielkopolski" "Szczeciński" 
-		"Pabianice" "Gniezno" "Fordon" "Suwałki" "Głogów" "Chełm" "Mazowiecki" "Przemyśl" "Wola" "Zamość" "Koźle" "Łomża" "Leszno" "Żory" "Bełchatów"
-	}
-}
-
 ### Theme: Mountains ###
 POL_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
@@ -288,7 +267,7 @@ POL_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ORP "
-	fallback_name = "Statek-E %d"
+	fallback_name = "Statek-D %d"
 
 	unique = {
 		"Rysy" "Niżnie" "Cubryna" "Świnica" "Kozi" "Zamarła Turnia" "Klin" "Kościelec" "Jarząbczy" "Kamienista" "Krzesanica" "Mnich" "Wołowiec" "Kasprowy" 
@@ -296,6 +275,27 @@ POL_THEME_MOUNTAINS = {
 		"Malinów" "Magura" "Magurka" "Kopce" "Stołów" "Glinne" "Przysłop" "Szyndzielnia" "Muronka" "Jaworzyna" "Kościelec" "Czantoria" "Kiczory" "Korony" 
 		"Stożek" "Nowa" "Flaki" "Tokarnia"
  	}
+}
+
+### Theme: Cities ###
+POL_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { POL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+	
+	prefix = "ORP "
+	fallback_name = "Statek-E %d"
+
+	unique = {
+		"Łódź" "Kraków" "Wrocław" "Poznań" "Gdańsk" "Szczecin" "Bydgoszcz" "Lublin" "Katowice" "Białystok" "Gdynia" "Częstochowa" "Sosnowiec" "Radom" "Toruń" 
+		"Kielce" "Giwice" "Zabrze" "Bytom" "Bielsko-Biała" "Olsztyn" "Rzeszów" "Ruda Śląska" "Rybnik" "Górnicza" "Tychy" "Opole" "Elblag" "Płock" "Wałbrzych" 
+		"Wielkopolski" "Włocławek" "Zielona Góra" "Tarnów" "Chorzów" "Kalisz" "Koszalin" "Legnica" "Grudziądz" "Słupsk" "Jaworzno" "Zdrój" "Jelenia Góra" 
+		"Nowy Sącz" "Konin" "Piotrków Trybunalski" "Inowrocław" "Lubin" "Siedlce" "Piła" "Mysłowice" "Świętokrzyski" "Śląskie" "Wielkopolski" "Szczeciński" 
+		"Pabianice" "Gniezno" "Fordon" "Suwałki" "Głogów" "Chełm" "Mazowiecki" "Przemyśl" "Wola" "Zamość" "Koźle" "Łomża" "Leszno" "Żory" "Bełchatów"
+	}
 }
 
 ### Theme: Rivers ###

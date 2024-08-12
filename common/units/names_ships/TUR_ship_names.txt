@@ -164,6 +164,27 @@ TUR_SS_HISTORICAL = { # Events - Battles - Naval Figures.
 
 ##### Themes #####
 
+### Theme: Sultans ####
+TUR_THEME_SULTANS = {
+	name = NAME_THEME_SULTANS
+
+	for_countries = { TUR }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "TCG "
+	fallback_name = "%d. Gemi-A"
+
+	unique = {
+		"Osman I" "Orhan" "Murad I" "Bayezid I" "Isa Çelebi" "Süleyman Çelebi" "Musa Çelebi" "Mehmed Çelebi" "Mehmed I" "Mustafa Çelebi" 
+		"Murad II" "Mehmed II - The Conqueror" "Bayezid II" "Cem Sultan" "Selim I" "Suleiman I" "Selim II" "Murad III" "Mehmed III" 
+		"Ahmed I" "Mustafa I" "Osman II" "Murad IV" "Ibrahim" "Mehmed IV" "Suleiman II" "Ahmed II" "Mustafa II" "Ahmed III" "Mahmud I" 
+		"Osman III" "Mustafa III" "Abdul Hamid I" "Selim III" "Mustafa IV" "Mahmud II" "Abdulmejid I" "Abdulaziz" "Murad V" "Abdul Hamid II" 
+		"Mehmed V" "Mehmed VI" "Abdulmejid II"
+	}
+}
+
 ### Theme: Provinces ###
 TUR_THEME_PROVINCES = {
 	name = NAME_THEME_PROVINCES
@@ -174,7 +195,7 @@ TUR_THEME_PROVINCES = {
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "TCG "
-	fallback_name = "%d. Gemi-A"
+	fallback_name = "%d. Gemi-B"
 
 	unique = {
 		"Konya" "Sivas" "Ankara" "Erzurum" "Antalya" "Van" "Şanlıurfa" "Kayseri" "Mersin" "Diyarbakır" "Afyonkarahisar" "Balıkesir" "Kahramanmaraş" 
@@ -183,28 +204,6 @@ TUR_THEME_PROVINCES = {
 		"Artvin" "Niğde" "Hakkâri" "Şırnak" "Burdur" "Bitlis" "Gaziantep" "Giresun" "Kırşehir" "Gümüşhane" "Tekirdağ" "Kırklareli" "Edirne" "Ordu" 
 		"Hatay" "Sinop" "Amasya" "Siirt" "Nevşehir" "Uşak" "İstanbul" "Ardahan" "Sakarya" "Trabzon" "Batman" "Kırıkkale" "Bilecik" "Karabük" "Rize" 
 		"Bayburt" "Kocaeli" "Iğdır" "Zonguldak" "Osmaniye" "Düzce" "Bartın" "Kilis" "Yalova"
-	}
-}
-
-### Theme: Cities ###
-TUR_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { TUR }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	prefix = "TCG "
-	fallback_name = "%d. Gemi-B"
-
-	unique = {
-		"Çankaya" "Bağcılar" "Bahçelievler" "Umraniye" "Mercin" "Esenler" "Karabağlar" "Sultangazi" "Maltepe" "Ataşehir" "Şişli" "Batikent" 
-		"Zeytinburnu" "Adapazari" "Sultanbeyli" "Gebze" "Tarsus" "Sancaktepe" "Esenyurt" "Kirikkale" "Çorlu" "Başakşehir" "Siverek" "Büyükçekmece" 
-		"İskenderun" "Antioch" "Viranşehir" "Kızıltepe" "Inegeul" "Beylikdüzü" "Nazilli" "Alanya" "Turhal" "Bandırma" "Turgultu" "Manavgat" "Polatlı" 
-		"Bafra" "Ereğli" "Erciş" "Luleburgaz" "Körfez" "Nusaybin" "Salihli" "Kozan" "Patnos" "Akhisar" "Amasya" "Muş" "Nizip" "Kilis" "Fatsa" "Cizre" 
-		"Bingöl" "Elbistan" "Hakkari" "Unieh" "Kars" "Midyat" "Iğdır" "Nevşehir" "Silifke" "Silopi" "Bismil" "Belek" "Tatvan" "Kâhta" "Yüksekova"
-		"Khanjarah" "Mardin" "Yalova" "Gemlik" "Kastamonu" "Kadirli" "Doğubayazıt" "Söke" "Ardeşen" "Hypaepa" "Çerkezköy" "Burdur" "Silvan" "Soma"
 	}
 }
 
@@ -227,6 +226,28 @@ TUR_THEME_MOUNTAINS = {
 	}
 }
 
+### Theme: Cities ###
+TUR_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { TUR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "TCG "
+	fallback_name = "%d. Gemi-D"
+
+	unique = {
+		"Çankaya" "Bağcılar" "Bahçelievler" "Umraniye" "Mercin" "Esenler" "Karabağlar" "Sultangazi" "Maltepe" "Ataşehir" "Şişli" "Batikent" 
+		"Zeytinburnu" "Adapazari" "Sultanbeyli" "Gebze" "Tarsus" "Sancaktepe" "Esenyurt" "Kirikkale" "Çorlu" "Başakşehir" "Siverek" "Büyükçekmece" 
+		"İskenderun" "Antioch" "Viranşehir" "Kızıltepe" "Inegeul" "Beylikdüzü" "Nazilli" "Alanya" "Turhal" "Bandırma" "Turgultu" "Manavgat" "Polatlı" 
+		"Bafra" "Ereğli" "Erciş" "Luleburgaz" "Körfez" "Nusaybin" "Salihli" "Kozan" "Patnos" "Akhisar" "Amasya" "Muş" "Nizip" "Kilis" "Fatsa" "Cizre" 
+		"Bingöl" "Elbistan" "Hakkari" "Unieh" "Kars" "Midyat" "Iğdır" "Nevşehir" "Silifke" "Silopi" "Bismil" "Belek" "Tatvan" "Kâhta" "Yüksekova"
+		"Khanjarah" "Mardin" "Yalova" "Gemlik" "Kastamonu" "Kadirli" "Doğubayazıt" "Söke" "Ardeşen" "Hypaepa" "Çerkezköy" "Burdur" "Silvan" "Soma"
+	}
+}
+
 ### Theme: Rivers ###
 TUR_THEME_RIVERS = {
 	name = NAME_THEME_RIVERS
@@ -237,7 +258,7 @@ TUR_THEME_RIVERS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "TCG "
-	fallback_name = "%d. Gemi-D"
+	fallback_name = "%d. Gemi-E"
 
 	unique = {
 		"Kizilirmak" "Delice" "Devrez" "Gök" "Sakarya" "Seydisuyu" "Porsuk" "Yeşilirmak" "Çekerek" "Kelkit" "Yağlidere" "Tohumluk" "Batlama" "Bartin" 
@@ -257,34 +278,13 @@ TUR_THEME_ISLANDS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "TCG "
-	fallback_name = "%d. Gemi-E"
+	fallback_name = "%d. Gemi-F"
 
 	unique = {
 		"Bayrak" "Çil" "Dalaman" "Dalyan" "Dipburnu" "Gökada" "Güvercinada" "Ikizce" "Karahayit" "Kuyulu" "Panayir" "Sapli" "Sandal" "Su" "Yeşilada" 
 		"Akoğlu" "Akvaryum" "Asli" "Büyük" "Balik" "Kutu" "Büyükkaraada" "Cunda" "Çiçek" "Çiplak" "Gizlikayalar" "Haşir" "Kalamopulo" "İkizkayalar" 
 		"Kalemli" "Kamiş" "Kayabaşi" "Kiz" "Kizlarmanastiri" "Kumru" "Küçükmaden" "Küçük" "Lale" "Melina" "Mirmircalar" "Pinar" "Pirgos" "Salziada" 
 		"Tasli" "Tavuk" "Tūzüner"
-	}
-}
-
-### Theme: Sultans ####
-TUR_THEME_SULTANS = {
-	name = NAME_THEME_SULTANS
-
-	for_countries = { TUR }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
-
-	prefix = "TCG "
-	fallback_name = "%d. Gemi-F"
-
-	unique = {
-		"Osman I" "Orhan" "Murad I" "Bayezid I" "Isa Çelebi" "Süleyman Çelebi" "Musa Çelebi" "Mehmed Çelebi" "Mehmed I" "Mustafa Çelebi" 
-		"Murad II" "Mehmed II - The Conqueror" "Bayezid II" "Cem Sultan" "Selim I" "Suleiman I" "Selim II" "Murad III" "Mehmed III" 
-		"Ahmed I" "Mustafa I" "Osman II" "Murad IV" "Ibrahim" "Mehmed IV" "Suleiman II" "Ahmed II" "Mustafa II" "Ahmed III" "Mahmud I" 
-		"Osman III" "Mustafa III" "Abdul Hamid I" "Selim III" "Mustafa IV" "Mahmud II" "Abdulmejid I" "Abdulaziz" "Murad V" "Abdul Hamid II" 
-		"Mehmed V" "Mehmed VI" "Abdulmejid II"
 	}
 }
 

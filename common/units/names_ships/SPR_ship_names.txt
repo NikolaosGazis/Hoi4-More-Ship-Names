@@ -16,7 +16,7 @@ SPR_CV_HISTORICAL = { # Historical - Aviation Pioneers.
 	fallback_name = "Portaaviones %d"	
 
 	unique = {
-		### Historical Ships ###
+		### Historical Models ###
 		"Dédalo" "Príncipe de Asturias"
 
 		### Additionals - Aviation Pioneers ###
@@ -255,29 +255,6 @@ SPR_THEME_COMMUNITIES = {
 	}
 }
 
-### Theme: Cities ###
-SPR_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { SPR }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	prefix = "ARE "
-	fallback_name = "Barco-C %d"
-
-	unique = {
-		"Marblla" "León" "Cadiz" "Dos Hermanas" "Mataró" "Santa Coloma" "Torrejón" "Jaén" "Algeciras" "Parla" "Ciutat Vella" "Delicias" "Alcobendas" "Ourense" "Reus" 
-		"Torrevieja" "Telde" "Barakaldo" "Lugo" "San Fernando" "Girona" "Compostela" "Cáceres" "Lorca" "Coslada" "Talavera" "Santa María" "Llobregat" "Las Rozas" 
-		"Orihuela" "Avilés" "El Ejido" "Guadalajara" "Roquetas" "Palencia" "Algorta" "Sant Boi" "Toledo" "Ponevedra" "Getxo" "Gandia" "Santa Cugat" "Ceuta" "Arona" 
-		"Torrent" "Frontera" "Manresa" "San Sebastian" "Ferrol" "Vélez" "Ciudad Real" "Mijas" "Melilla" "Rubí" "Fuengirola" "Benidorm" "Guadaira" "Ponferrada" 
-		"Vaciamadrid" "Majadahonda" "Zamora" "Sagunto" "Vilanova" "Sanlúcar" "Estepona" "Torremolinos" "La Linea" "Segura" "Paterna" "Santa Lucía" "Viladecans" 
-		"El Prat" "Valdemono" "Murviedro" "Castelldefels" "Alcoy" "Linares" "Irun" "Granollers" "Motril" "Santutxu" "Arrecife" "Benalmádena" "Vallès" "Caballeros" 
-		"Segovia" "Mérida" "Torrelavega" "Cuenca" "Elda" "Collado" "Aranjuez" "San Vincent" "Vallès" "San Bartolomé" "Huesca" "Puertollano" "Calvià" "Arganda" "Vila-real"
-	}
-}
-
 ### Theme: Mountains ###
 SPR_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
@@ -288,13 +265,36 @@ SPR_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 
 	prefix = "ARE "
-	fallback_name = "Barco-D %d"
+	fallback_name = "Barco-C %d"
 
 	unique = {
 		"Almanzor" "Torre Santa" "Costa Cabirolera" "Chullo" "Peña Vieja" "Torre Blanca" "Aspe" "Vulturó" "Torre Cerredo" "Alto de Guajara" "Peña Collarada" "Puigmal"
 		"Cotiella" "Robiñera" "Caballo" "Comaloforno" "Aragüells" "Argualas" "Astazu" "Picón de Jeres" "Punta Gabarró" "Pic Verdaguer" "La Munia" "Viejo" "Pica d'Estats" 
 		"Balaitus" "Puntal de Vacares" "Russell" "Perdiguero" "Vignemale" "Maladeta" "Campanario" "Salón" "Cilindro de Marboré" "Espadas" "Maldito" "Perdido" "Alcazaba" 
 		"Llardana" "Veleta" "Aneto" "Mulhacén" "Teide"
+	}
+}
+
+### Theme: Cities ###
+SPR_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARE "
+	fallback_name = "Barco-D %d"
+
+	unique = {
+		"Marblla" "León" "Cadiz" "Dos Hermanas" "Mataró" "Santa Coloma" "Torrejón" "Jaén" "Algeciras" "Parla" "Ciutat Vella" "Delicias" "Alcobendas" "Ourense" "Reus" 
+		"Torrevieja" "Telde" "Barakaldo" "Lugo" "San Fernando" "Girona" "Compostela" "Cáceres" "Lorca" "Coslada" "Talavera" "Santa María" "Llobregat" "Las Rozas" 
+		"Orihuela" "Avilés" "El Ejido" "Guadalajara" "Roquetas" "Palencia" "Algorta" "Sant Boi" "Toledo" "Ponevedra" "Getxo" "Gandia" "Santa Cugat" "Ceuta" "Arona" 
+		"Torrent" "Frontera" "Manresa" "San Sebastian" "Ferrol" "Vélez" "Ciudad Real" "Mijas" "Melilla" "Rubí" "Fuengirola" "Benidorm" "Guadaira" "Ponferrada" 
+		"Vaciamadrid" "Majadahonda" "Zamora" "Sagunto" "Vilanova" "Sanlúcar" "Estepona" "Torremolinos" "La Linea" "Segura" "Paterna" "Santa Lucía" "Viladecans" 
+		"El Prat" "Valdemono" "Murviedro" "Castelldefels" "Alcoy" "Linares" "Irun" "Granollers" "Motril" "Santutxu" "Arrecife" "Benalmádena" "Vallès" "Caballeros" 
+		"Segovia" "Mérida" "Torrelavega" "Cuenca" "Elda" "Collado" "Aranjuez" "San Vincent" "Vallès" "San Bartolomé" "Huesca" "Puertollano" "Calvià" "Arganda" "Vila-real"
 	}
 }
 
@@ -318,6 +318,23 @@ SPR_THEME_RIVERS = {
 	}
 }
 
+### Theme: Islands ###
+SPR_THEME_ISLANDS = {
+	name = NAME_THEME_ISLANDS
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARE "
+	fallback_name = "Barco-F %d"
+
+	unique = {
+		###
+	}
+}
+
 ### Theme: Colonies ###
 SPR_THEME_COLONIES = {
 	name = NAME_THEME_COLONIES
@@ -328,7 +345,7 @@ SPR_THEME_COLONIES = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ARE "
-	fallback_name = "Barco-F %d"
+	fallback_name = "Barco-G %d"
 
 	unique = {
 		### Africa ###
@@ -343,28 +360,9 @@ SPR_THEME_COLONIES = {
 	}
 }
 
-### Theme: Wheather ###
-SPR_THEME_WHEATHER_ = {
-	name = NAME_THEME_WEATHER
-
-	for_countries = { SPR }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	prefix = "ARE "
-	fallback_name = "Barco-G %d"
-
-	unique = {
-		"Sol" "Lluvia" "Nieve" "Viento" "Tormenta" "Niebla" "Granizo" "Trueno" "Relámpago" "Arcoíris" "Helada" "Tornado" "Hurricane" "Neblina" "Escarcha" "Ciclón"
-		"Aguacero" "Vendaval" "Tempestad" "Bruma" "Chaparrón" "Ráfaga" "Rocío" "Calor" "Frío" "Calina" "Nublina" "Ventisca" "Despejado" "Bochorno" "Chubasco" "Barro"
-		"Escarcha" "Granizada" "Liovizna" "Cencellada" "Calabobos" "Templado" "Nevado" "Soleado" "Nuboso" "Inundación" "Sequía" "Alud" "Tsunami" "Crecida" "Chipsa"
-	}
-}
-
 ### Theme: Inspirational ###
-SPR_THEME_INSPIRATIONAL = {
-	name = NAME_THEME_INSPIRATIONAL
+SPR_THEME_INSPIRATION = {
+	name = NAME_THEME_INSPIRATION
 
 	for_countries = { SPR }
 
@@ -381,6 +379,25 @@ SPR_THEME_INSPIRATIONAL = {
 	}
 }
 
+### Theme: Wheather ###
+SPR_THEME_WHEATHER_ = {
+	name = NAME_THEME_WEATHER
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARE "
+	fallback_name = "Barco-J %d"
+
+	unique = {
+		"Sol" "Lluvia" "Nieve" "Viento" "Tormenta" "Niebla" "Granizo" "Trueno" "Relámpago" "Arcoíris" "Helada" "Tornado" "Hurricane" "Neblina" "Escarcha" "Ciclón"
+		"Aguacero" "Vendaval" "Tempestad" "Bruma" "Chaparrón" "Ráfaga" "Rocío" "Calor" "Frío" "Calina" "Nublina" "Ventisca" "Despejado" "Bochorno" "Chubasco" "Barro"
+		"Escarcha" "Granizada" "Liovizna" "Cencellada" "Calabobos" "Templado" "Nevado" "Soleado" "Nuboso" "Inundación" "Sequía" "Alud" "Tsunami" "Crecida" "Chipsa"
+	}
+}
+
 ### Theme: Animals ###
 SPR_THEME_ANIMALS = {
 	name = NAME_THEME_ANIMALS
@@ -391,7 +408,7 @@ SPR_THEME_ANIMALS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ARE "
-	fallback_name = "Barco-X %d"
+	fallback_name = "Barco-K %d"
 
 	unique = {
 		###
@@ -410,7 +427,7 @@ SPR_THEME_Royalty = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "ARE "
-	fallback_name = "Barco-I %d"
+	fallback_name = "Barco-L %d"
 
 	unique = {
 		### House of Trastámara ###
@@ -449,7 +466,7 @@ SPR_THEME_BATTLES = {
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "ARE "
-	fallback_name = "Barco-J %d"
+	fallback_name = "Barco-M %d"
 
 	unique = {
 		"Covadonga" "Simancas" "Tolosa" "Aljubarrota" "Granada" "Garigliano" "Ceriñola" "Pavia" "Mühlberg" "St. Quentin" "Lepanto" "Gembloux" "Antwerp" "St. Vincent" 
@@ -468,7 +485,7 @@ SPR_THEME_MYTHOLOGY = {
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser ship_hull_light carrier battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ARE "
-	fallback_name = "Barco-L %d"
+	fallback_name = "Barco-N %d"
 
 	unique = {
 		"Cerunnos" "Epona" "Teutates" "Brigantia" "Lugus" "Abandinus" "Endovelicus" "Nabia" "Reue" "Tongoenabiagus" "Eiocha" "Arentio" "Candamius" "Reva" "Cosus" 

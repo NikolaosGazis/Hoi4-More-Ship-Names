@@ -22,6 +22,25 @@ ICE_CV_HISTORICAL = { # Flying Creatures - Mythological.
 	}
 }
 
+### Light Aircraft Carrier Names ###
+ICE_CVL_HISTORICAL = { # Glaciers.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { ICE }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "ICGV "
+	fallback_name = "Létt Flugmóðurskip %s"
+
+	unique = {
+		"Vatnajökull" "Brúarjökull" "Eyjabakkajökull" "Kverkkvíslarjökull" "Kvíslarjökull" "Vesturdalsjökull" "Suðurfjallsjökull" "Axarfellsjökull"
+		"Norðurtungnajökull" "Austurtungnajökull" "Lambatungnajökull" "Hoffellsjökull" "Svínafellsjökull" "Viðborðsjökull" "Fláajökull" "Heinabergsjökull"
+		"Skálafellsjökull" "Eyvindstungnajökull" "Birnudalsjökull" "Breiðamerkurjökull" "Brókarjökull" "Fellsárjökull" "Norðlingalæðarjökull"
+	}
+}
+
 ### Battleship Names ###
 ICE_BB_HISTORICAL = { # Figures - Improtance.
 	name = NAME_THEME_HISTORICAL_BB
@@ -116,7 +135,7 @@ ICE_CL_HISTORICAL = { # Norse Symbols.
 }
 
 ### Destroyer Names ###
-ICE_DD_HISTORICAL = { # Viking Values.
+ICE_DD_HISTORICAL = { # Viking Values - Animals.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
 	for_countries = { ICE }
@@ -127,9 +146,15 @@ ICE_DD_HISTORICAL = { # Viking Values.
 	prefix = "ICGV "							
 	fallback_name = "Skemmdarvargur %s"					
 
-	unique = {											
+	unique = {
+		###	Viking Values ###
 		"Örlög" "Heiðinn" "Hávamál" "Frith" "Sjálfsánn" "Víg" "Hamingja" "Ár" "Hugr" "Hrafn" "Herja" "Dreyra" "Líf" "Váli" "Fornyrðislag" 
 		"Dyggð" "Orka" "Edlr" "Gæði" "Seiðr"
+
+		### Animals ###
+		"Úlfur" "Ljón" "Hýena" "Gepardi" "Leopard" "Tígrisdýr" "Björn" "Fíll" "Nashyrningur" "Úlfaldi" "Krókódíll" "Jagúar" "Nafri" "Gíraffi" 
+		"Pantera" "Hreindýr" "Snákur" "Hleypidýr" "Bölvaður" "Grábjörn" "Myskox" "Skjadbaka" "Steingeit" "Nornaköttur" "Flóðhestur" "Ánótahestur" 
+		"Górilla" "Rándýr" "Bjarndýr "
 	}
 }
 
@@ -154,23 +179,24 @@ ICE_SS_HISTORICAL = { # Sea Creatures.
 
 ##### Themes #####
 
-### Theme: Localities ###
-ICE_THEME_LOCALITIES = {
-	name = NAME_THEME_LOCALITIES
+### Theme: Glaciers ###
+ICE_THEME_GLACIERS = {
+	name = NAME_THEME_GLACIERS
 
 	for_countries = { ICE }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser ship_hull_light carrier battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ICGV "
 	fallback_name = "Skip-A %s"
 
 	unique = {
-		"Reykjavík" "Kópavogur" "Hafnarfjörður" "Akureyri" "Reykjanesbær" "Garðabær" "Mosfellsbær" "Selfoss" "Akranes" "Seltjarnarnes" "Vestmannaeyjar" "Grindavík"
-		"Ísafjörður" "Álftanes" "Sauðárkrókur" "Hveragerði" "Egilsstaðir" "Húsavík" "Borgarnes" "Sandgerði" "Höfn" "Þorlákshöfn" "Garður" "Neskaupstaður" "Dalvík"
-		"Reyðarfjörður" "Siglufjörður" "Vogar" "Stykkishólmur" "Eskifjörður" "Ólafsvík" "Hvolsvöllur" "Bolungarvík" "Hella" "Grundarfjörður" "Blönduós" "Ólafsfjörður"
-		"Fáskrúðsfjörður" "Patreksfjörður" "Seyðisfjörður"
+		"Esjufjallajökull" "Mávabyggðajökull" "Öræfajökull" "Fjallsjökull" "Hrútárjökull" "Bræðrajökull" "Kviarjökull" "Hólárjökull" "Stigárjökull" 
+		"Stórhöfðajökull" "Gljúfursárjökull" "Rótarfjallsjökull" "Kotárjökull" "Virkisjökull" "Falljökull" "Svínafellsjökull" "Skaftafellsjökull" 
+		"Skeiðarárjökull" "Grænalónsjökull" "Djúpárjökull" "Beinadalsjökull" "Síðujökull" "Skaftárjökull" "Tungnaárjökull" "Sylgjujökull" 
+		"Köldukvíslarjökull" "Bárðarbunga" "Rjúpnabrekkujökull" "Dyngjujökull" "Kverkjökull" "Skarphéðinsjökull" "Langjökull" "Baldjökull" 
+		"Þjófadalajökull" "Leiðarjökull" "Kirkjujökull" "Norðurjökull" "Suðurjökull" "Eystri-Hagafellsjökull" "Vestari-Hagafellsjökull" "Lónsjökull"
 	}
 }
 
@@ -192,6 +218,26 @@ ICE_THEME_MOUNTAINS = {
 	}
 }
 
+### Theme: Localities ###
+ICE_THEME_LOCALITIES = {
+	name = NAME_THEME_LOCALITIES
+
+	for_countries = { ICE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "ICGV "
+	fallback_name = "Skip-C %s"
+
+	unique = {
+		"Reykjavík" "Kópavogur" "Hafnarfjörður" "Akureyri" "Reykjanesbær" "Garðabær" "Mosfellsbær" "Selfoss" "Akranes" "Seltjarnarnes" "Vestmannaeyjar" "Grindavík"
+		"Ísafjörður" "Álftanes" "Sauðárkrókur" "Hveragerði" "Egilsstaðir" "Húsavík" "Borgarnes" "Sandgerði" "Höfn" "Þorlákshöfn" "Garður" "Neskaupstaður" "Dalvík"
+		"Reyðarfjörður" "Siglufjörður" "Vogar" "Stykkishólmur" "Eskifjörður" "Ólafsvík" "Hvolsvöllur" "Bolungarvík" "Hella" "Grundarfjörður" "Blönduós" "Ólafsfjörður"
+		"Fáskrúðsfjörður" "Patreksfjörður" "Seyðisfjörður"
+	}
+}
+
 ### Theme: Rivers ###
 ICE_THEME_RIVERS= {
 	name = NAME_THEME_RIVERS
@@ -202,52 +248,12 @@ ICE_THEME_RIVERS= {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ICGV "
-	fallback_name = "Skip-C %s"
+	fallback_name = "Skip-D %s"
 
 	unique = {
 		"Hvítá" "Krossá" "Kúðafljót" "Markarfljót" "Mustafl" "Ölfusá" "Rangá" "Skaftá" "Skeiðará" "Skógá" "Sog" "Þjórsá" "Tungnaá" "Fossá" "Kjarrá–Thervá" "Norðurá" 
 		"Dynjandi" "Kolbeinsá" "Staðará" "Blanda" "Eyjafjarðará" "Eystri Jökulsá" "Fnjóská" "Glerá" "Héraðsvötn" "Hörgá" "Jökulsá á Fjöllum" "Laxá" "Norðurá" 
 		"Skjálfandafljót" "Vatnsdalsá" "Hamarsá" "Hofsá" "Dal" "Fljótsdal" "Lóni" "Lagarfljót" "Selfljót" 
-	}
-}
-
-### Theme: Mythology ###
-ICE_THEME_NORDIC_MYTHOLOGY = {
-	name = NAME_THEME_NORDIC_MYTHOLOGY
-	
-	for_countries = { ICE }
-
-	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser ship_hull_heavy battleship }			
-
-	prefix = "ICGV "							
-	fallback_name = "Skip-D %s"					
-
-	unique = {											
-		"Ægir" "Baldur" "Borr" "Bragi" "Búri" "Dagur" "Delling" "Eir" "Ēostre" "Elli" "Forseti" "Freyja" "Freyr" "Frigg" "Fulla" "Gefjun" "Hel" 
-		"Heimdallur" "Hermóður" "Hlín" "Höðr" "Hœnir" "Iðunn" "Jörð" "Kvasir" "Lofn" "Loki" "Magni" "Máni" "Mímir" "Nanna" "Nerþus" "Njörður" 
-		"Nótt" "Óðinn" "Sága" "Rán" "Sif" "Sigyn" "Sjöfn" "Skaði" "Snotra" "Sol" "Thor" "Thruer" "Týr" "Ullr" "Váli" "Vár" "Vé" "Víðarr" "Vör" 
-		"Yggdrasil" "Andhrímnir"
-	}
-}
-
-### Theme: Volcanoes ###
-ICE_THEME_VOLCANOES = {
-	name = NAME_THEME_VOLCANOES
-
-	for_countries = { ICE }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-
-	prefix = "ICGV "
-	fallback_name = "Skip-E %s"
-
-	unique = {
-		"Öræfajökull" "Bárðarbunga" "Kverkfjöll" "Hofsjökull" "Esjufjöll" "Grímsvötn" "Laki" "Herðubreið" "Eyjafjallajökull" "Thórðarhyrna" "Loki-Fögrufjöll" 
-		"Tungnafellsjökull" "Askja" "Katla" "Hekla" "Kerlingarfjöll" "Trölladyngja" "Tindfjallajökull" "Snæfellsjökull" "Prestahnúkur" "Hveravellir" "Torfajökull"
-		"Vatnafjöll" "Kollóttadyngja" "Ljósufjöll" "Helgrindur" "Fremrinámur" "Hengill" "Eldgjá" "Holuhraun" "Krafla" "Brennisteinsfjöll" "Theistareykir"
-		"Hrómundartindur" "Grensdalur" "Heiðarsporðar" "Hverfjall" "Fagradalsfjall" "Krýsuvík" "Vestmannaeyjar" "Eldfell" "Eldvörp–Svartsengi" "Helgafell"
 	}
 }
 
@@ -261,7 +267,7 @@ ICE_THEME_RUNES = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "ICGV "
-	fallback_name = "Skip-F %s"
+	fallback_name = "Skip-E %s"
 
 	unique = {
 		### Elder Futhark ###
@@ -272,5 +278,45 @@ ICE_THEME_RUNES = {
 		"Að unni" "Ægishjálmur" "Angurgapi" "Brýnslustafir" "Draumstafir" "Dreprún" "Feingur" "Gapaldur" "Ginfaxi" "Hólastafur" "Kaupaloki"
 		"Lásabrjótur" "Lukkustafir" "Máladeilan" "Nábrókarstafur" "Skelkunarstafur" "Rosahringur minni" "Smjörhnútur" "Stafur" "Þjófastafur"
 		"Tóustefna" "Vatnahlífir" "Varnarstafur Valdemars" "Vegvísir" "Veiðistafur"
+	}
+}
+
+### Theme: Volcanoes ###
+ICE_THEME_VOLCANOES = {
+	name = NAME_THEME_VOLCANOES
+
+	for_countries = { ICE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "ICGV "
+	fallback_name = "Skip-F %s"
+
+	unique = {
+		"Öræfajökull" "Bárðarbunga" "Kverkfjöll" "Hofsjökull" "Esjufjöll" "Grímsvötn" "Laki" "Herðubreið" "Eyjafjallajökull" "Thórðarhyrna" "Loki-Fögrufjöll" 
+		"Tungnafellsjökull" "Askja" "Katla" "Hekla" "Kerlingarfjöll" "Trölladyngja" "Tindfjallajökull" "Snæfellsjökull" "Prestahnúkur" "Hveravellir" "Torfajökull"
+		"Vatnafjöll" "Kollóttadyngja" "Ljósufjöll" "Helgrindur" "Fremrinámur" "Hengill" "Eldgjá" "Holuhraun" "Krafla" "Brennisteinsfjöll" "Theistareykir"
+		"Hrómundartindur" "Grensdalur" "Heiðarsporðar" "Hverfjall" "Fagradalsfjall" "Krýsuvík" "Vestmannaeyjar" "Eldfell" "Eldvörp–Svartsengi" "Helgafell"
+	}
+}
+
+### Theme: Mythology ###
+ICE_THEME_NORDIC_MYTHOLOGY = {
+	name = NAME_THEME_NORDIC_MYTHOLOGY
+	
+	for_countries = { ICE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser heavy_cruiser ship_hull_heavy battleship }			
+
+	prefix = "ICGV "							
+	fallback_name = "Skip-G %s"					
+
+	unique = {											
+		"Ægir" "Baldur" "Borr" "Bragi" "Búri" "Dagur" "Delling" "Eir" "Ēostre" "Elli" "Forseti" "Freyja" "Freyr" "Frigg" "Fulla" "Gefjun" "Hel" 
+		"Heimdallur" "Hermóður" "Hlín" "Höðr" "Hœnir" "Iðunn" "Jörð" "Kvasir" "Lofn" "Loki" "Magni" "Máni" "Mímir" "Nanna" "Nerþus" "Njörður" 
+		"Nótt" "Óðinn" "Sága" "Rán" "Sif" "Sigyn" "Sjöfn" "Skaði" "Snotra" "Sol" "Thor" "Thruer" "Týr" "Ullr" "Váli" "Vár" "Vé" "Víðarr" "Vör" 
+		"Yggdrasil" "Andhrímnir"
 	}
 }

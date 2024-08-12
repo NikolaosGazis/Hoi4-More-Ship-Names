@@ -4,7 +4,7 @@
 # HMS = Hans Majestäts Skepp. (Official - Used)
 
 ### Aicraft Carrier Names ###
-SWE_CV_HISTORICAL = { # Aviation Pioneers - Flying Creatures.
+SWE_CV_HISTORICAL = { # Aviators.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
 	for_countries = { SWE }
@@ -16,14 +16,27 @@ SWE_CV_HISTORICAL = { # Aviation Pioneers - Flying Creatures.
 	fallback_name = "Hangarfartyg %d"	
 
 	unique = {
-		### Aviators ###
-		"Carl Cederström" "Hjalmar Nyrop" "Elsa Andersson" "Per Albin Hansson" "Arne Tamm" "Curt Casten Carlsson"
-		"Ernst Linder" "Axel Hammarskjöld"
+		"Carl Cederström" "Hjalmar Nyrop" "Elsa Andersson" "Per Albin Hansson" "Arne Tamm" "Curt Casten Carlsson" "Ernst Linder" 
+		"Axel Hammarskjöld" 
+	}
+}
 
-		### Flying Creatures ###
+### Light Aircraft Carrier Names ###
+SWE_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "HMS "
+	fallback_name = "Lätt Hangarfartyg %d"
+
+	unique = {
 		"Fågel" "Fjäril" "Fladdermus" "Mygga" "Bivråk" "Falk" "Trast" "Örn" "Sparv" "Mås" "Svala" "Duva" "Hök" "Kråka" "Skata" "And" 
 		"Svärta" "Pilfink" "Star" "Albatross" "Fiskmås" "Korp" "Trana" "Svale" "Kaja" "Tofsvipa" "Gäss" "Hackspett" "Lärka" "Rödstjärt" 
-		"Trast" "Örnuggla" "Lövsångare" "Nötväcka" "Gulsparv" "Sandsvala" "Knölsvan" "Stjärtmes" "Koltrast" 
+		"Trast" "Örnuggla" "Lövsångare" "Nötväcka" "Gulsparv" "Sandsvala" "Knölsvan" "Stjärtmes" "Koltrast"
 	}
 }
 
@@ -70,7 +83,7 @@ SWE_BC_HISTORICAL = { # Admirals.
 }
 
 ### Heavy Cruiser Names ###
-SWE_CA_HISTORICAL = { # Generals - Figures.
+SWE_CA_HISTORICAL = { # Mythology - Generals - Figures.
 	name = NAME_THEME_HISTORICAL_CA
 
 	for_countries = { SWE }
@@ -170,27 +183,6 @@ SWE_THEME_PROVINCES = {
 	}
 }
 
-### Theme: Cities ###
-SWE_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { SWE }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	prefix = "HMS "
-	fallback_name = "Skepp-B %d"
-
-	unique = {
-		"Sigtuna" "Skara" "Lund" "Västerås" "Södertälje" "Visby" "Helsingborg" "Kalmar" "Kungälv" "Varberg" "Nyköping" 
-		"Arboga" "Falköping" "Falsterbo" "Halmstad" "Laholm" "Marstrand" "Skanör" "Skänninge" "Söderköping" "Trelleborg" 
-		"Västervik" "Ystad" "Örebro" "Malmö" "Jönköping" "Uppsala" "Linköping" "Enköping" "Simrishamn" "Trosa" "Östhammar" 
-		"Torshälla" "Strängnäs" "Växjö" "Norrköping" "Ronnedy" "Eksjö" "Hjo" "Kungsbacka" "Skövde" "Ulricehamn" "Vadstena" 
-		"Vimmerby" "Landskrona" "Sölvesborg" "Lidköping" "Köping" "Öregrund"
-	}
-}
-
 ### Themes: Mountains ###
 SWE_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
@@ -201,7 +193,7 @@ SWE_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 
 	prefix = "HMS "
-	fallback_name = "Skepp-C %d"
+	fallback_name = "Skepp-B %d"
 
 	unique = {
 		"Kebnekaise" "Sarektjåkkå" "Helagsfjället" "Anarisfjället" "Kaskasatjåkka" "Snøhetta" "Skierffe" "Sylarna" 
@@ -209,6 +201,27 @@ SWE_THEME_MOUNTAINS = {
 		"Väretsfjället" "Åresjön" "Trollsjön" "Kaitumjåkka" "Härjedalsfjällen" "Sultartjåkkå" "Ålfjället" "Rapa Ätno" 
 		"Giebmegáisi" "Rautasjaure" "Vålådalen" "Jiehkkevárri" "Syterskalet" "Tarfala"
 	} 
+}
+
+### Theme: Cities ###
+SWE_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMS "
+	fallback_name = "Skepp-C %d"
+
+	unique = {
+		"Sigtuna" "Skara" "Lund" "Västerås" "Södertälje" "Visby" "Helsingborg" "Kalmar" "Kungälv" "Varberg" "Nyköping" 
+		"Arboga" "Falköping" "Falsterbo" "Halmstad" "Laholm" "Marstrand" "Skanör" "Skänninge" "Söderköping" "Trelleborg" 
+		"Västervik" "Ystad" "Örebro" "Malmö" "Jönköping" "Uppsala" "Linköping" "Enköping" "Simrishamn" "Trosa" "Östhammar" 
+		"Torshälla" "Strängnäs" "Växjö" "Norrköping" "Ronnedy" "Eksjö" "Hjo" "Kungsbacka" "Skövde" "Ulricehamn" "Vadstena" 
+		"Vimmerby" "Landskrona" "Sölvesborg" "Lidköping" "Köping" "Öregrund"
+	}
 }
 
 ### Theme: Rivers ###
@@ -231,24 +244,6 @@ SWE_THEME_RIVERS = {
 	}
 }
 
-### Theme: Famous Battles ###
-SWE_THEME_BATTLES = {
-	name = NAME_THEME_BATTLES
-
-	for_countries = { SWE }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
-
-	prefix = "HMS "
-	fallback_name = "Skepp-E %d"
-
-	unique = {
-		"Kircholm" "Breitenfeld" "Lützen" "Warsaw" "Narva" "Fraustadt" "Gadebusch" "Grengam" "Svenskund" "Idstedt" 
-		"Heligoland" "Pulkkila" "Oravais" "Revolax" "Stäket" "Pälkäne" "Ratan" "Svolder" "Halmstad" "Lund" "Ledsund"
-	}
-}
-
 ### Theme: Culture ###
 SWE_THEME_CULTURE = {
 	name = NAME_THEME_CULTURE
@@ -259,30 +254,11 @@ SWE_THEME_CULTURE = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HMS "
-	fallback_name = "Skepp-F %d"
+	fallback_name = "Skepp-E %d"
 
 	unique = {
 		"Oberoende" "Vasatiden" "Midsommar" "Norrsken" "Riskdagen" "Järn" "Runstenar" "Unionen" "Krig" "Slott" "Samisk" "Stjärnväv" 
 		"Älvstrand" "Sjöstjärna" "Iskrona" "Eldsjäl" "Isörn"
-	}
-}
-
-### Theme: Mythology ###
-SWE_THEME_NORDIC_MYTHOLOGY = {
-	name = NAME_THEME_NORDIC_MYTHOLOGY
-
-	for_countries = { SWE }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }
-
-	prefix = "HMS "
-	fallback_name = "Skepp-E %d"
-
-	unique = {
-		"Tor" "Oden" "Frej" "Frigg" "Freja" "Tyr" "Njord" "Balder" "Loki" "Heimdall" "Sif" "Idun" "Brage" "Forsete" "Hel" "Fenrisulven" "Midgardsormen" 
-		"Skade" "Vidar" "Vali" "Sigyn" "Nornor" "Mimir" "Yggdrasil" "Helheim" "Mispelheim" "Nifelheim" "Einherjar" "Sleipner" "Gullveig" "Asar" "Vaner" 
-		"Jättar" "Alvheim" "Vanaheim" "Svartalfheim" "Asgård" "Midgard" "Utgard"
 	}
 }
 
@@ -296,7 +272,7 @@ SWE_THEME_KINGS = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "HMS "
-	fallback_name = "Skepp-F %d"
+	fallback_name = "Skepp-G %d"
 
 	unique = {
 		### House of Munsö ###
@@ -333,4 +309,41 @@ SWE_THEME_KINGS = {
 		### House of Bernadotte ###
 		"Charles XIV" "Oscar I" "Charles XV" "Oscar II" "Gustaf V" "Gustaf VI Adolf" 
 	} 
+}
+
+### Theme: Famous Battles ###
+SWE_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "HMS "
+	fallback_name = "Skepp-H %d"
+
+	unique = {
+		"Kircholm" "Breitenfeld" "Lützen" "Warsaw" "Narva" "Fraustadt" "Gadebusch" "Grengam" "Svenskund" "Idstedt" 
+		"Heligoland" "Pulkkila" "Oravais" "Revolax" "Stäket" "Pälkäne" "Ratan" "Svolder" "Halmstad" "Lund" "Ledsund"
+	}
+}
+
+### Theme: Mythology ###
+SWE_THEME_NORDIC_MYTHOLOGY = {
+	name = NAME_THEME_NORDIC_MYTHOLOGY
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }
+
+	prefix = "HMS "
+	fallback_name = "Skepp-J %d"
+
+	unique = {
+		"Tor" "Oden" "Frej" "Frigg" "Freja" "Tyr" "Njord" "Balder" "Loki" "Heimdall" "Sif" "Idun" "Brage" "Forsete" "Hel" "Fenrisulven" "Midgardsormen" 
+		"Skade" "Vidar" "Vali" "Sigyn" "Nornor" "Mimir" "Yggdrasil" "Helheim" "Mispelheim" "Nifelheim" "Einherjar" "Sleipner" "Gullveig" "Asar" "Vaner" 
+		"Jättar" "Alvheim" "Vanaheim" "Svartalfheim" "Asgård" "Midgard" "Utgard"
+	}
 }

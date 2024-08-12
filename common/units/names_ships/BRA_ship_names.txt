@@ -170,29 +170,6 @@ BRA_THEME_PROVINCES = {
 	}
 }
 
-### Theme: Cities ###
-BRA_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { BRA }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
-
-	prefix = "NRB "
-	fallback_name = "Navio-B %d"
-
-	unique = {
-		"Fortaleza" "Salvador" "Belo Horizonte" "Manaus" "Curitiba" "Recife" "Goiânia" "Alegre" "Belém" "Guarulhos" "Campinas" "São Luís" "Maceió" "Campo Grande" 
-		"São Gonçalo" "Teresina" "João Pessoa" "São Bernardo" "Duque" "Nova Iguaçu" "Natal" "Santo André" "Osasco" "Sorocaba" "Uberlândia" "Ribeirão Preto" "São José"
-		"Cuiabá" "Jaboatão" "Contagem" "Joinville" "Feira de Santana" "Aracaju" "Londrina" "Juiz de Fora" "Florianópolis" "Aparecida" "Serra" "Goytacazes" "Belford Roxo" 
-		"Niterói" "Ananindeua" "Vila Velha" "Caxias" "Velho" "Mogi" "Jundiaí" "Macapá" "Meriti" "Piracicaba" "Campina Grande" "Santos" "Mauá" "Montes Claros" "Boa Vista" 
-		"Betim" "Maringá" "Anápolis" "Diadema" "Carapicuíba" "Petrolina" "Bauru" "Caruaru" "Conquista" "Itaquaquecetuba" "Rio Branco" "Blumenau" "Ponta Grossa" "Caucaia" 
-		"Cariacica" "Franca" "Olinda" "Praia Grande" "Cascavel" "Canoas" "Paulista" "Uberaba" "Santarém" "São Vicente" "Pinhais" "Neves" "Pelotas" "Vitória" "Barueri" 
-		"Taubaté" "Suzano" "Palmas" "Camaçari" "Várzea Grande" "Limeira" "Guarujá" "Juazeiro" "Sumaré" "Petrópolis" "Cotia"
-	}
-}
-
 ### Theme: Mountains ###
 BRA_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
@@ -203,11 +180,34 @@ BRA_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "NRB "
-	fallback_name = "Navio-C %d"
+	fallback_name = "Navio-B %d"
 
 	unique = {
 		"Neblina" "Março" "Bandeira" "Cruzeiro" "Calçado" "Mina" "Agulhas Negras" "Cristal" "Roraima" "Marins" "Barbado" "Paraná" "Boa Vista" "Igreja" "Antenas" "Caburaí"
 		"Monte Negro" "São Sebastião" "Capão Doce" "Papagaio" "Jabre" "Jaraguá" "Alto" "Urucum" "ijuca" "Corcovado" "Pascoal" "Açúcar"
+	}
+}
+
+### Theme: Cities ###
+BRA_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "NRB "
+	fallback_name = "Navio-C %d"
+
+	unique = {
+		"Fortaleza" "Salvador" "Belo Horizonte" "Manaus" "Curitiba" "Recife" "Goiânia" "Alegre" "Belém" "Guarulhos" "Campinas" "São Luís" "Maceió" "Campo Grande" 
+		"São Gonçalo" "Teresina" "João Pessoa" "São Bernardo" "Duque" "Nova Iguaçu" "Natal" "Santo André" "Osasco" "Sorocaba" "Uberlândia" "Ribeirão Preto" "São José"
+		"Cuiabá" "Jaboatão" "Contagem" "Joinville" "Feira de Santana" "Aracaju" "Londrina" "Juiz de Fora" "Florianópolis" "Aparecida" "Serra" "Goytacazes" "Belford Roxo" 
+		"Niterói" "Ananindeua" "Vila Velha" "Caxias" "Velho" "Mogi" "Jundiaí" "Macapá" "Meriti" "Piracicaba" "Campina Grande" "Santos" "Mauá" "Montes Claros" "Boa Vista" 
+		"Betim" "Maringá" "Anápolis" "Diadema" "Carapicuíba" "Petrolina" "Bauru" "Caruaru" "Conquista" "Itaquaquecetuba" "Rio Branco" "Blumenau" "Ponta Grossa" "Caucaia" 
+		"Cariacica" "Franca" "Olinda" "Praia Grande" "Cascavel" "Canoas" "Paulista" "Uberaba" "Santarém" "São Vicente" "Pinhais" "Neves" "Pelotas" "Vitória" "Barueri" 
+		"Taubaté" "Suzano" "Palmas" "Camaçari" "Várzea Grande" "Limeira" "Guarujá" "Juazeiro" "Sumaré" "Petrópolis" "Cotia"
 	}
 }
 

@@ -1,7 +1,7 @@
 ##### Italian Ship Names #####
 
 ### Prefixes ###
-# RM = Regia Marina. (Official (General) - Used) 
+# RM = Regia Marina. (Official - Used) 
 # RN = Regia Nave. (Hull Prefix)
 # RI = Regio Incrociatore. (Hull Prefix)
 # RCT = Regio Cacciatorpediniere. (Hull Prefix)
@@ -53,9 +53,9 @@ ITA_CV_ACES = { # World War 1 Aces.
 	} 
 }
 
-### Aircraft Carrier Names - Alternative ###
+### Light Aircraft Carrier Names ###
 ITA_CV_AVIATORS = { # Aviators.
-	name = NAME_THEME_AVIATORS
+	name = NAME_THEME_HISTORICAL_CVL
 
 	for_countries = { ITA }
 
@@ -63,7 +63,7 @@ ITA_CV_AVIATORS = { # Aviators.
 	ship_types = { ship_hull_carrier carrier }
 
 	prefix = "RN " 
-	fallback_name = "Portaerei-C %s"
+	fallback_name = "Portaerei Leggera %s"
 
 	unique = {
 		"Francesco de Pinedo" "Giuseppe Miraglia" "Gaby Angelini" "Mario Aramu" "Bartolomeo Costantini" "Giacomo D'Angelis" "Gianni Widmer"
@@ -247,7 +247,7 @@ ITA_CL_HISTORICAL = { # Figures - Regions - Cities.
 }
 
 ### Torpedo Light Cruisers ###
-ITA_CL_TORPEDO = { # Wheather - Battles - Mythology - Cities.
+ITA_CLTRP_HISTORICAL = { # Wheather - Battles - Mythology - Cities.
 	name = NAME_THEME_HISTORICAL_CLTRP
 
 	for_countries = { ITA }
@@ -272,7 +272,29 @@ ITA_CL_TORPEDO = { # Wheather - Battles - Mythology - Cities.
 		"Agirdat" "Coatit"
 
 		### Additionals - Cities ###
-		"Sciacca" "Jesi" "Marcianise" "Sassuolo" "Imperia" "Seregno" "Grugliasco" "Fasano" "Arzano" "Cascina" "Avezzano" "Civitanova" "Corigliano" "Voghera"
+		"Sciacca" "Jesi" "Marcianise" "Sassuolo" "Imperia" "Seregno" "Grugliasco" "Fasano" "Arzano" "Cascina" "Avezzano" "Civitanova" "Corigliano" 
+		"Voghera"
+	}
+}
+
+### Minelayer Names ###
+ITA_MINELAYERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+
+	prefix = "RN "
+	fallback_name = "Posamine %s"
+
+	unique = {
+		### Older Models (6 pre-World War 2 Azio Class) ###
+		"Dardanelli" "Milazzo" "Ostia" "Legnano" "Lepanto" "Azio"
+		
+		### Auxiliary Models (7 Converted Motor Ships) ###
+		"Brioni" "Buffoluto" "Lero" "Monte Gargano" "Panigaglia" "San Giusto" "Vallelunga"
 	}
 }
 
@@ -317,27 +339,6 @@ ITA_DD_HISTORICAL = { # Figures.
 		
 		### Additionals ###
 		"Carlo Alberto Racchia" "Insidioso" "Irrequieto" "Pilade Bronzetti" "Agostino Bertani" "Benedetto Cairoli"
-	}
-}
-
-### Minelayer Names ###
-ITA_MINELAYERS_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_MINELAYERS
-
-	for_countries = { ITA }
-
-	type = ship
-	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
-
-	prefix = "RN "
-	fallback_name = "Posamine %s"
-
-	unique = {
-		### Older Models (6 pre-World War 2 Azio Class) ###
-		"Dardanelli" "Milazzo" "Ostia" "Legnano" "Lepanto" "Azio"
-		
-		### Auxiliary Models (7 Converted Motor Ships) ###
-		"Brioni" "Buffoluto" "Lero" "Monte Gargano" "Panigaglia" "San Giusto" "Vallelunga"
 	}
 }
 
@@ -400,6 +401,28 @@ ITA_THEME_REGIONS = {
 	}
 }
 
+### Theme: Mountains ###
+ITA_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "RN "
+	fallback_name = "Nave-B %s"
+
+	unique = {
+		"Moschesin" "Sanson" "Ledu" "Berg" "Arera" "Alto" "Alta" "Seleron" "Steinwand" "Presolana" "Scale"  "Quarazza" "Coltorondo" "Cavregasco" 
+		"Talvena" "Cresto" "Mura" "Brentoni" "Montanaia" "Concarena" "Piccolo" "Capolago" "Signori" "Buinz" "Bo" "Maurekopf" "Schiara" "Longerin" 
+		"Setsas" "Buse" "Plose" "Cridola" "Vancomun" "Terza Grande" "Kanin" "Monte Gorio" "Mars" "Cabianca" "Ciastelin" "Mezzodi" "Rouss" "Legnone" 
+		"Steliere" "Gelato" "Sute" "Orientale" "Pradella" "Vedetta Alta" "Mongioie" "Averau" "Marguareis" "Guiau" "Ilmenspitze" "Giezza" "Fana" 
+		"Cernera" "Bruffione" "Fuart" "Duranno" "Stubele" "Ciampac" "Forcola" "Santa Maria" "Mangart" "Tempesta" "Serraglio" "Cavalino" "Peralba" 
+		"Fraiteve" "Preti" "Slavaci" "Campo" "Straciugo" "Ambrizzola" "Zerbion" "Claro" "Carnera" "Bocche" 
+	}
+}
+
 ### Theme: Cities ###
 ITA_THEME_CITIES = {
 	name = NAME_THEME_CITIES
@@ -410,7 +433,7 @@ ITA_THEME_CITIES = {
 	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "RN "
-	fallback_name = "Nave-B %s"
+	fallback_name = "Nave-C %s"
 
 	unique = {
 		"Milano" "Napoli" "Torino" "Palermo" "Genova" "Florence" "Bologna" "Bari" "Catania" "Venice" "Verona" "Messina" "Trieste" "Padova" "Taranto" "Brescia" "Mestre"
@@ -423,28 +446,6 @@ ITA_THEME_CITIES = {
 		"Bisceglie" "Piceno" "Folingo" "Taramo" "Bagheria" "San Giorgo" "Campobasso" "San Remo" "Fiumicino" "Battipaglia" "Rovigo" "Rho" "Acireale" "Scandicci"
 	}
 }
-
-### Theme: Mountains ###
-ITA_THEME_MOUNTAINS = {
-	name = NAME_THEME_MOUNTAINS
-
-	for_countries = { ITA }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	prefix = "RN "
-	fallback_name = "Nave-C %s"
-
-	unique = {
-		"Moschesin" "Sanson" "Ledu" "Berg" "Arera" "Alto" "Alta" "Seleron" "Steinwand" "Presolana" "Scale"  "Quarazza" "Coltorondo" "Cavregasco" 
-		"Talvena" "Cresto" "Mura" "Brentoni" "Montanaia" "Concarena" "Piccolo" "Capolago" "Signori" "Buinz" "Bo" "Maurekopf" "Schiara" "Longerin" 
-		"Setsas" "Buse" "Plose" "Cridola" "Vancomun" "Terza Grande" "Kanin" "Monte Gorio" "Mars" "Cabianca" "Ciastelin" "Mezzodi" "Rouss" "Legnone" 
-		"Steliere" "Gelato" "Sute" "Orientale" "Pradella" "Vedetta Alta" "Mongioie" "Averau" "Marguareis" "Guiau" "Ilmenspitze" "Giezza" "Fana" 
-		"Cernera" "Bruffione" "Fuart" "Duranno" "Stubele" "Ciampac" "Forcola" "Santa Maria" "Mangart" "Tempesta" "Serraglio" "Cavalino" "Peralba" 
-		"Fraiteve" "Preti" "Slavaci" "Campo" "Straciugo" "Ambrizzola" "Zerbion" "Claro" "Carnera" "Bocche" 
-	}
-} 
 
 ### Theme: Rivers ###
 ITA_THEME_RIVERS = {
@@ -468,24 +469,6 @@ ITA_THEME_RIVERS = {
 	}
 }
 
-### Theme: Inspirational ###
-ITA_THEME_INSPIRATIONAL = {
-	name = NAME_THEME_INSPIRATION
-
-	for_countries = { ITA }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	prefix = "RN "
-	fallback_name = "Nave-E %s"
-
-	unique = {
-		"Impressa" "Viaggiatore" "Maestoso" "Fortitudine" "Unità" "Tranquillità" "Serenità" "Pellegrino" "Libertà" "Eredità" "Radiosità" "Patriota" 
-		"Patrimonio" "Sovrano" "Gloria" "Vittoria" "Spirito" "Valore" "Rinascimento" "Harmony" "Coraggio" "Speranza" "Forza" "Ispirazione" "Trionfo"
-	}
-}
-
 ### Theme: Colonies ###
 ITA_THEME_COLONIES = { # Countries - Capitals.
 	name = NAME_THEME_COLONIES
@@ -496,12 +479,30 @@ ITA_THEME_COLONIES = { # Countries - Capitals.
 	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "RN "
-	fallback_name = "Nave-F %s"
+	fallback_name = "Nave-E %s"
 
 	unique = {
 		"Eritrea" "Asmara" "Massawa" "Keren" "Assab" "Somalia" "Mogadishu" "Merca" "Brava" "Chisimaio" "Libya" "Tripoli" "Benghazi" "Derna" 
 		"Misrata" "Ethiopia" "Addis Ababa" "Harar" "Dire Dawa" "Tunisia" "Tunis" "Rodi" "Egeo" "Kos" "Leros" "Kalymnos" "Ionia" "Argostoli" 
 		"Corfu" "Zante" "Cephalonia" "Albania" "Tirana" "Vlore" "Abissinia" "Jimna" "Scioa" "Tobruk" "Asmara"
+	}
+}
+
+### Theme: Inspirational ###
+ITA_THEME_INSPIRATIONAL = {
+	name = NAME_THEME_INSPIRATION
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "RN "
+	fallback_name = "Nave-F %s"
+
+	unique = {
+		"Impressa" "Viaggiatore" "Maestoso" "Fortitudine" "Unità" "Tranquillità" "Serenità" "Pellegrino" "Libertà" "Eredità" "Radiosità" "Patriota" 
+		"Patrimonio" "Sovrano" "Gloria" "Vittoria" "Spirito" "Valore" "Rinascimento" "Harmony" "Coraggio" "Speranza" "Forza" "Ispirazione" "Trionfo"
 	}
 }
 
@@ -598,9 +599,27 @@ ITA_THEME_ROMAN_LEGIONS = {
 	fallback_name = "Nave-I %s"
 
 	unique = {
-		"Adiutrix" "Italica" "Macriana Liberatrix" "Minervia" "Parthica" "Augusta" "Traiana Fortis" "Cyrenaica" "Gallica"
-		"Germanica" "Flavia Felix" "Macedonia" "Scythia" "Ferrata" "Victrix" "Claudia Pia Fidelis" "Hispana" "Fretensis"
-		"Gemina" "Fulminata" "Apollinaris" "Primigenia" "Rapax" "Deiotariana" "Ulpia Victrix" 
+		"Adiutrix" "Italica" "Macriana Liberatrix" "Minervia" "Parthica" "Augusta" "Traiana Fortis" "Cyrenaica" "Gallica" "Germanica" "Flavia Felix" 
+		"Macedonia" "Scythia" "Ferrata" "Victrix" "Claudia Pia Fidelis" "Hispana" "Fretensis" "Gemina" "Fulminata" "Apollinaris" "Primigenia" "Rapax" 
+		"Deiotariana" "Ulpia Victrix" 
+	}
+}
+
+### Theme: Famous Battles ###
+ITA_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "RN "
+	fallback_name = "Nave-J %s"
+
+	unique = {
+		"Adwa" "Amba Alagi" "Piave" "Gorizia" "Caporetto" "Mentana" "Custoza" "Gebora" "Tobruk" "Isonzo" "Montecassino" "Dogali" 
+		"Bardia" "Kurfa" "Fentihan" "Smara" "Agordat" "Shire" "Keren"
 	}
 }
 
@@ -614,7 +633,7 @@ ITA_THEME_ROMAN_MYTHOLOGY = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
 
 	prefix = "RN "
-	fallback_name = "Nave-J %s"
+	fallback_name = "Nave-K %s"
 
 	unique = {
 		"Aeneas" "Amor" "Amuliums" "Angerona" "Aries" "Ascanius" "Aurora" "Auster" "Bellona" "Camilla" "Cardea" "Cerere" "Ceres" "Clementia" "Concordia" "Consus" 
@@ -625,22 +644,4 @@ ITA_THEME_ROMAN_MYTHOLOGY = {
 		"Thisbe" "Turnus" "Ulysses" "Venere" "Venus" "Vesper" "Vesta" "Victoria" "Vulcan" "Apollo" "Dioniso" "Plutone" "Giunone" "Giove" "Saturno" "Urano" "Prometeo" 
 		"Cariddi" "Ippocampo" "Mercurio"
     }
-}
-
-### Theme: Famous Battles ###
-ITA_THEME_BATTLES = {
-	name = NAME_THEME_BATTLES
-
-	for_countries = { ITA }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
-
-	prefix = "RN "
-	fallback_name = "Nave-K %s"
-
-	unique = {
-		"Adwa" "Amba Alagi" "Piave" "Gorizia" "Caporetto" "Mentana" "Custoza" "Gebora" "Tobruk" "Isonzo" "Montecassino" "Dogali" 
-		"Bardia" "Kurfa" "Fentihan" "Smara" "Agordat" "Shire" "Keren"
-	}
 }

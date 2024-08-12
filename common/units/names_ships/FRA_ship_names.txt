@@ -43,7 +43,7 @@ FRA_CV_HISTORICAL = { # World War 1 Aces - World War 2 Aces.
 		"Pierre Marinovitch" "Paul Tarascon" "André Herbelin" "Jacques Ortoli" "René Fonck"
 
 		### World War 2 Aces ###
-		"Marcel Albert" "Pierre Le Gloan" "Pierre Henri Clostermann" " Jean Demozay" "Edmond Marin La Meslee" "Michel Dorance" "Camille Plubeau" "Roland de La Poype" 
+		"Marcel Albert" "Pierre Le Gloan" "Pierre Henri Clostermann" "Jean Demozay" "Edmond Marin La Meslee" "Michel Dorance" "Camille Plubeau" "Roland de La Poype" 
 		"Roger Sauvage" "Louis Delfino" "Jean Marie Accart" "Jacques Andre" "Leon Vuillemain" "Jean Accart" "Jacques André" "Pierre Clostermann" "Jean Maridor" 
 		"Pierre Laureys" "Émile Leblanc" "Amaury Montfort"
 	} 
@@ -110,16 +110,16 @@ FRA_BB_HISTORICAL = { # Figures - Cities - Principles.
         ### Alsace Class (1939) (2/3) ###
         "Alsace" "Lorraine"
         
-        ### Additionals - Importance Figures ###
+        ### Additionals - Important Figures ###
         "Napoleon" "Champagne"
 
         ### Additionals - Older Models - Principles ###
-       	"Flandre" "Bourgogne" "Paris" "France" "Patrie" "République" "Liberté" "Justice" "Vérité" "Démocratie" "Unité" "Solidarité" 
-       	"Libération" "Egalité" "Fraternité" "Prospérité" "Courbet" "Bretagne" "Provence" "Normandie" "Languedoc" "Lyon" "Duquesne" "Lille" "Tourville" 
-       	"Orléans" "Marseille" "Toulouse" "Nice" "Océan" "Poitou" "Artois" "Foix" "Gaulois" "Iéna" "Picardie"
+       	"Flandre" "Bourgogne" "Paris" "France" "Patrie" "République" "Liberté" "Justice" "Vérité" "Démocratie" "Unité" "Solidarité" "Libération" 
+       	"Egalité" "Fraternité" "Prospérité" "Courbet" "Bretagne" "Provence" "Normandie" "Languedoc" "Lyon" "Duquesne" "Lille" "Tourville" "Orléans" 
+       	"Marseille" "Toulouse" "Nice" "Océan" "Poitou" "Artois" "Foix" "Gaulois" "Iéna" "Picardie"
 
        	### Additionals - Figures ###
-       	"Lyautey" "Ladmirault" "Destouches" "Loti" "Crillon" "Lapeyrère" "De Monnier" "Bouët-Willaumez" "Beauchêne" "Vaudreuil" "" "Jomini" "Vendôme" 
+       	"Lyautey" "Ladmirault" "Destouches" "Loti" "Crillon" "Lapeyrère" "De Monnier" "Bouët-Willaumez" "Beauchêne" "Vaudreuil" "Jomini" "Vendôme" 
        	"Villette-Mursay"
 	}
 }
@@ -218,64 +218,7 @@ FRA_CL_HISTORICAL = { # Cities - Generals - Figures.
 		"La Tour d'Auvergne" "Jurien de la Gravière" "Jauréguiberry" "Masséna" "Bouvet" "Carnot" "D'Entrecasteaux" "D'Estrées" "L'Infernet" "Condorcet" "Danton" 
 		"Diderot" "Mirabeau" "Vergniaud" "Voltaire" "Pluton" "Tage" "Amiral Cécille" "Davout" "Suchet" "Coëtlogon" "Troude" "Cosmao" "Lalande" "Isly" "Alger" 
 		"Friant" "Bugeaud" "Galilée" "Lavoisier" "Descartes" "D'Assas" "Du Chayla" "Chasseloup-Laubat" "Galaup" "Lannes" "Mazarin" "Montaigne" "Rabelais" "Corneille"
-	}
-}
-
-### Destroyer Names ###
-FRA_DD_HISTORICAL = { # Adjectives.
-	name = NAME_THEME_HISTORICAL_DESTROYERS
-
-	for_countries = { FRA }
-
-	type = ship
-	ship_types = { ship_hull_light destroyer }			
-
-	fallback_name = "%d Contre-Torpilleur"					
-
-	unique = {
-		### Le Fantasque Class (1934) ###
-		"Le Fantasque" "Le Terrible" "L'Audacieux" "Le Malin" "Le Triomphant" "L'Indomptable" 
-
-		### Mogador Class (1939) ###
-		"Mogador" "Volta"
-
-		### Additionals ###
-		"Hoche" "Marceau" "La Combattante" "Vauquelin" "Cassard" "Maillé Brézé" "Kersaint" "Tartu" "Chevalier Paul" "Aigle" "Gerfaut" "Albatros" "Vautour"
-		"Épervier" "Milan" "Guépard" "Bison" "Valmy" "Verdun" "Lion" "Vauban"  "Chacal" "Tigre" "Jaguar" "Panthère" "Léopard" "Lynx" "Enseigne Roux"
-		"Mécanicien Principal Lestin" "Enseigne Gabolde" "Algérien" "Annamite" "Arabe" "Bambara" "Hova" "Kabyle" "Marocain" "Sakalave" "Sénégalais" "Somali"
-		"Tonkinois" "Touareg" "Bisson" "Renaudin" "Commandant Lucas" "Protet" "Mangini" "Magon" "Bouclier" "Boutefeu" "Capitaine Mehl" "Casque" "Cimeterre"
-		"Commandant Bory" "Commandant Rivière" "Dague" "Dehorter" "Faulx" "Fourche" "Francis Garnier" "Chasseur" "Cavalier" "Fantassin" "Janissaire"
-		"Voltigeur" "Tirailleur" "Spahi" "Hussard" "Carabinier" "Lansquenet" "Mameluk" "Enseigne Henry" "Aspirant Herber" "Capitaine" "Commandant" "Colonel"
-		"Lieutenant" "Adjudant" "Fusilier" "Loup" "Requin" "Taureau" "Cobra" "Éléphant" "Rhinocéros" "Griffon" "Cerbère" "Hydre" "Sabre" "Fléau" "Hache"
-		"Arbalète" "Épée" "Javelot" "Arc" "Lance" "Mousquet" "Pique" "Coutelas" "Fauchon" "Claymore" "Estoc" "Glaive" "Rapière" "Massue" "Trident" "Canonnade"
-		"Scimmitarre" "Katana" "Bâton" "Marteau"
-	}
-}
-
-### Escort Destroyers ###
-FRA_DE_HISTORICAL = { # Adjectives.
-	name = NAME_THEME_HISTORICAL_LIGHT_DDS
-
-	for_countries = { FRA }
-
-	type = ship
-	ship_types = { ship_hull_light destroyer }			
-
-	fallback_name = "%d Légère Contre-Torpilleur"					
-
-	unique = {
-		### La Melpomène Class (1935) ###
-		"La Melpomène" "La Pomone" "La Flore" "L'Iphigénie" "La Bayonnaise" "La Cordelière" "L'Incomprise" "La Poursuivante" "Bombarde" "Branlebas" "Bouclier"
-
-		### Additionals ###
-		"Le Hardi" "Fleuret" "Epée" "Casque" "Lansquenet" "Mameluk" "Le Corsaire" "Le Filibustier" "L'Intrépide" "Le Téméraire" "L'Aventurier" "L'Opiniâtre" 
-		"Baliste" "Le Fier" "L'Agile" "L'Entreprenant" "Le Farouche" "L'Alsacien" "Le Corse" "Le Breton" "Le Tunisien" "Le Normand" "Le Parisien" "Le Provençal" 
-		"Le Saintongeais" "Le Niçois" "Le Savoyard" "La Bastiase" "La Malouine" "La Dieppoise" "La Paimpolaise" "L'Arquebuse" "L'Hallebarde" "Sabre" "Poignard" 
-		"Tromblon" "Javeline" "Aconit" "Alysse" "Commandant d'Estienne d'Orves" "Commandant Detroyat" "Commandant Drogou" "Lobelia" "Mimose" "Renoncule" "Roselys" 
-		"L'Adroit" "Basque" "Bordelais" "Boulonnais" "Brestois" "Forbin" "Frondeur" "L'Alcyon" "La Palme" "La Railleuse" "Le Fortuné" "Le Mars" "Le Foudroyant" 
-		"Fougueux" "Bourrasque" "Cyclone" "Orage" "Sirocco" "Tramontane" "Mistral" "Ouragan" "Simoun" "Tempête" "Tornade" "Trombe" "Typhon" "Amiens" "Calais" 
-		"Craonne" "Epernay" "Liévin" "Lunéville" "Montdement" "Montmirail" "Arras" "Dunkerque" "Reims" "Verdun" "Baccarat" "Béthune" "Bapaume" "Bar-le-Duc" 
-		"Belfort" "Coucy" "Epinal" "Lassigny" "Les Eparges" "Nancy" "Péronne" "Remiremont" "Revigny" "Tahure" "Toul" "Vauquois" "Vimy" "Vitry-le-François" 
+		"Ronald" "Gisela" "Wido"
 	}
 }
 
@@ -299,6 +242,99 @@ FRA_MINELAYERS_HISTORICAL = { # Admirals - Explorers.
 		"La Batailleuse" "La Boudeuse" "La Capricieuse" "Commandant Bory" "Commandant Delage" "Commandant Dominé" "Commandant Duboc" "Commandant Rivière" 
 		"La Curieuse" "La Gracieuse" "L'Impétueuse" "La Moqueuse" "Aldébaran" "Algol" "Altair" "Antares" "Bellatrix" "Rigel" "Cassiopée" "Regulus" "Pluton" 
 		"Cerbère" "Le Gladiateur" "Châteaurenault"
+	}
+}
+
+
+### Destroyer Names ###
+FRA_DD_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "%d Contre-Torpilleur"					
+
+	unique = {
+		### Le Fantasque Class (1934) - Current Construction ###
+		"Le Fantasque" "Le Terrible" "L'Audacieux" "Le Malin" "Le Triomphant" "L'Indomptable"
+		
+		### Mogador Class (1939) ###
+		"Mogador" "Volta"
+		
+		### Vauquelin Class (1931) ###
+		"Vauquelin" "Cassard" "Maillé Brézé" "Kersaint" "Tartu" "Chevalier Paul"
+		
+		### Aigle Class (1930) ###
+		"Aigle" "Gerfaut" "Albatros" "Vautour" "Épervier" "Milan"
+		
+		### Guépard Class (1929) ###
+		"Guépard" "Bison" "Valmy" "Verdun" "Lion" "Vauban"
+		
+		### Chacal Class (1924) ###
+		"Chacal" "Tigre" "Jaguar" "Panthère" "Léopard" "Lynx"
+		
+		### Bourrasque Class (1925) ###
+		"Enseigne Roux" "Mécanicien Principal Lestin" "Enseigne Gabolde"
+		
+		### L'Adroit Class (1927) ###
+		"Algérien" "Annamite" "Arabe" "Bambara" "Hova" "Kabyle" "Marocain" "Sakalave" "Sénégalais" "Somali" "Tonkinois" "Touareg"
+		
+		### Enseigne Roux Class (1925) ###
+		"Enseigne Henry" "Aspirant Herber"
+
+		### Bisson Class (1913) ###
+		"Bisson" "Renaudin"
+		
+		### Bouclier Class (1910) ###
+		"Bouclier" "Protet" "Mangini" "Magon" "Commandant Lucas" "Boutefeu" "Capitaine Mehl" "Casque" "Cimeterre" "Commandant Bory" "Commandant Rivière" 
+		"Dague" "Dehorter" "Faulx" "Fourche"
+		
+		### Spahi Class (1911) ###
+		"Spahi" "Francis Garnier" "Chasseur" "Cavalier" "Fantassin" "Janissaire" "Voltigeur" "Tirailleur" "Hussard" "Carabinier" "Lansquenet" "Mameluk"
+
+		### Interwar Models ###
+		"Hoche" "Marceau"
+		
+		### World War I Models ###
+		"Fusilier" "Loup" "Requin" "Taureau" "Cobra" "Éléphant" "Rhinocéros"
+		
+		### Post-War Models ###
+		"Griffon" "Cerbère" "Hydre" "Sabre" "Fléau" "Hache" "Arbalète" "Épée" "Javelot" "Arc" "Lance" "Mousquet" "Pique" "Coutelas" "Fauchon" "Claymore" 
+		"Estoc" "Glaive" "Rapière" "Massue" "Trident" "Canonnade" "Scimmitarre" "Katana" "Bâton" "Marteau"
+	}
+}
+
+### Escort Destroyers ###
+FRA_DE_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_LIGHT_DDS
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "%d Légère Contre-Torpilleur"					
+
+	unique = {
+		### 
+
+		### La Melpomène Class (1935) ###
+		"La Melpomène" "La Pomone" "La Flore" "L'Iphigénie" "La Bayonnaise" "La Cordelière" "L'Incomprise" "La Poursuivante" "Bombarde" "Branlebas" "Bouclier"
+
+		### Le Hardi Class (1938) ###
+		"Le Hardi" "Fleuret" "Epée" "Casque" "Lansquenet" "Mameluk" "Le Corsaire" "Le Filibustier" "L'Intrépide" "Le Téméraire" "L'Aventurier" "L'Opiniâtre"
+
+		### Historical & Older Models ###
+		"Baliste" "Le Fier" "L'Agile" "L'Entreprenant" "Le Farouche" "L'Alsacien" "Le Corse" "Le Breton" "Le Tunisien" "Le Normand" "Le Parisien" "Le Provençal" 
+		"Le Saintongeais" "Le Niçois" "Le Savoyard" "La Bastiase" "La Malouine" "La Dieppoise" "La Paimpolaise" "L'Arquebuse" "L'Hallebarde" "Sabre" "Poignard" 
+		"Tromblon" "Javeline" "Aconit" "Alysse" "Commandant d'Estienne d'Orves" "Commandant Detroyat" "Commandant Drogou" "Lobelia" "Mimose" "Renoncule" "Roselys" 
+		"L'Adroit" "Basque" "Bordelais" "Boulonnais" "Brestois" "Forbin" "Frondeur" "L'Alcyon" "La Palme" "La Railleuse" "Le Fortuné" "Le Mars" "Le Foudroyant" 
+		"Fougueux" "Bourrasque" "Cyclone" "Orage" "Sirocco" "Tramontane" "Mistral" "Ouragan" "Simoun" "Tempête" "Tornade" "Trombe" "Typhon" "Amiens" "Calais" 
+		"Craonne" "Epernay" "Liévin" "Lunéville" "Montdement" "Montmirail" "Arras" "Dunkerque" "Reims" "Verdun" "Baccarat" "Béthune" "Bapaume" "Bar-le-Duc" 
+		"Belfort" "Coucy" "Epinal" "Lassigny" "Les Eparges" "Nancy" "Péronne" "Remiremont" "Revigny" "Tahure" "Toul" "Vauquois" "Vimy" "Vitry-le-François" 
 	}
 }
 
@@ -333,6 +369,28 @@ FRA_SS_HISTORICAL = { # Figures - Elements - Gemstones.
 
 ##### Themes #####
 
+### Theme: Kings ###
+FRA_THEME_KINGS = {
+	name = NAME_THEME_KINGS # 751 - 1789
+
+	for_countries = { FRA }
+
+	can_use = { NOT = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	fallback_name = "%d Bateau-A"
+
+	unique = {
+		"Pépin le Bref" "Carloman" "Charlemagne" "Louis le Pieux" "Charles le Chauve" "Louis le Bègue" "Charles le Gros" "Charles le Simple" "Raoul de Bourgogne" "Louis d'Outremer" 
+		"Louis le Fainéant" "Hugues Capet" "Robert le Pieux" "Philippe l'Amoureux" "Louis le Batailleur" "Louis le Jeune" "Philippe Auguste" "Louis le Lion" "Saint-Louis" 
+		"Philippe le Hardi" "Philippe le Bel" "Louis le Hutin" "Jean le Posthume" "Philippe le Long" "Charles le Bel" "Philippe de Valois" "Jean le Bon" "Charles le Sage" 
+		"Charles le Bien-Aimé" "Charles le Bien Servi" "Louis le Prudent" "Charles l'Affable" "Louis le Père du Peuple" "François d'Orléans" "Henri le Vert-Galant" "Louis le Juste" 
+		"Louis le Roi-Soleil" "Louis le Bien-Aimé" 
+	}
+}
+
 ### Theme: Regions ###
 FRA_THEME_REGIONS = {
 	name = NAME_THEME_REGIONS
@@ -342,7 +400,7 @@ FRA_THEME_REGIONS = {
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
-	fallback_name = "%d Bateau-A"
+	fallback_name = "%d Bateau-B"
 
 	unique = {
 		### Metropolitan ###
@@ -351,35 +409,8 @@ FRA_THEME_REGIONS = {
 		"Artois" "Roussillon" "Flanders" "Hainaut" "Franche-Comté" "Lorraine" "Barrois" "Corsica" "Nivernais" "Venaissin" "Saarwerden" "Principality" "Mulhouse" 
 		"Montbéliard" "Savoy"
 
-		### Overseas ###
+		### Overseas/Colonial ###
 		"Guadeloupe" "Martinique" "Mayotte" "Réunion" "Afrique Occidentale" "Afrique Equatoriale" "Indochine" "Maroc" "Madagascar" "Antilles" "Polynésie"
-	}
-}
-
-### Theme: Cities ###
-FRA_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { FRA }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	fallback_name = "%d Bateau-B"
-
-	unique = {
-		"Paris" "Marseilles" "Lyon" "Toulouse" "Nice" "Nantes" "Strasbourg" "Montpellier" "Bordeaux" "Lille" "Rennes" "Reims" "Le Havre" "Saint-Étienne" "Toulon" 
-		"Grenoble" "Dijon" "Nîmes" "Angers" "Villeurbanne" "Le Mans" "Saint-Denis" "Aix-en-Provence" "Clermont-Ferrand" "Brest" "Limoges" "Tours" "Amiens" "Perpignan" 
-		"Metz" "Besançon" "Boulogne" "Orléans" "Mulhouse" "Rouen" "Caen" "Argenteuil" "Saint-Paul" "Montreuil" "Nancy" "Roubaix" "Tourcoing" "Nanterre" "Avignon" 
-		"Vitry-sur-Seine" "Créteil" "Dunkerque" "Poitiers" "Asnières-sur-Seine" "Courbevoie" "Versailles" "Colombes" "Fort-de-France" "Aulnay-sous-Bois" "Saint-Pierre" 
-		"Rueil-Malmaison" "Pau" "Aubervilliers" "Champigny-sur-Marne" "Antibes" "Béziers" "La Rochelle" "Cannes" "Calais" "Saint-Nazaire" "Mérignac" "Drancy" "Colmar" 
-		"Ajaccio" "Bourges" "La Seyne" "Quimper" "Valence" "Vénissieux" "Pessac" "Troyes" "Chambéry" "Lorient" "Les Abymes" "Montauban" "Sarcelles" "Niort" "Villejuif" 
-		"Saint-André" "Hyères" "Saint-Quentin" "Beauvais" "Épinay-sur-Seine" "Cayenne" "Cholet" "Meaux" "Évry" "Fréjus" "Vannes" "La Roche-sur-Yon" "Saint-Louis" "Arles" 
-		"Clamart" "Narbonne" "Annecy" "Sartrouville" "Grasse" "Laval" "Belfort" "Évreux" "Vincennes" "Montrouge" "Sevran" "Albi" "Charleville-Mézières" "Suresnes" "Martigues" 
-		"Corbeil-Essonnes" "Saint-Ouen" "Bayonne" "Carcassonne" "Massy" "Blois" "Saint-Brieuc" "Aubagne" "Châteauroux" "Saint-Malo" "Châlons-sur-Marne" "Sète" "Valenciennes" 
-		"Angoulême" "Thionville" "Arras" "Alès" "La Courneuve" "Compiègne" "Melun" "Chartres" "Poissy" "Châtillon" "Échirolles" "Saint-Chamond" "Auxerre" "Nevers" "Agen" 
-		"Saint-Raphaël" "Mâcon" "Cambrai" "Sainte-Marie" "Dreux" "Dieppe" "Périgueux" "Vienne" "Saint-Cloud" "Yerres" "Soissons" "Ermont" "Saumur" "Alençon" "Montbéliard" 
-		"Saint-Dizier" "Saintes" "Vichy"
 	}
 }
 
@@ -415,6 +446,33 @@ FRA_THEME_MOUNTAINS = {
 	}
 }
 
+### Theme: Cities ###
+FRA_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "%d Bateau-D"
+
+	unique = {
+		"Paris" "Marseilles" "Lyon" "Toulouse" "Nice" "Nantes" "Strasbourg" "Montpellier" "Bordeaux" "Lille" "Rennes" "Reims" "Le Havre" "Saint-Étienne" "Toulon" 
+		"Grenoble" "Dijon" "Nîmes" "Angers" "Villeurbanne" "Le Mans" "Saint-Denis" "Aix-en-Provence" "Clermont-Ferrand" "Brest" "Limoges" "Tours" "Amiens" "Perpignan" 
+		"Metz" "Besançon" "Boulogne" "Orléans" "Mulhouse" "Rouen" "Caen" "Argenteuil" "Saint-Paul" "Montreuil" "Nancy" "Roubaix" "Tourcoing" "Nanterre" "Avignon" 
+		"Vitry-sur-Seine" "Créteil" "Dunkerque" "Poitiers" "Asnières-sur-Seine" "Courbevoie" "Versailles" "Colombes" "Fort-de-France" "Aulnay-sous-Bois" "Saint-Pierre" 
+		"Rueil-Malmaison" "Pau" "Aubervilliers" "Champigny-sur-Marne" "Antibes" "Béziers" "La Rochelle" "Cannes" "Calais" "Saint-Nazaire" "Mérignac" "Drancy" "Colmar" 
+		"Ajaccio" "Bourges" "La Seyne" "Quimper" "Valence" "Vénissieux" "Pessac" "Troyes" "Chambéry" "Lorient" "Les Abymes" "Montauban" "Sarcelles" "Niort" "Villejuif" 
+		"Saint-André" "Hyères" "Saint-Quentin" "Beauvais" "Épinay-sur-Seine" "Cayenne" "Cholet" "Meaux" "Évry" "Fréjus" "Vannes" "La Roche-sur-Yon" "Saint-Louis" "Arles" 
+		"Clamart" "Narbonne" "Annecy" "Sartrouville" "Grasse" "Laval" "Belfort" "Évreux" "Vincennes" "Montrouge" "Sevran" "Albi" "Charleville-Mézières" "Suresnes" "Martigues" 
+		"Corbeil-Essonnes" "Saint-Ouen" "Bayonne" "Carcassonne" "Massy" "Blois" "Saint-Brieuc" "Aubagne" "Châteauroux" "Saint-Malo" "Châlons-sur-Marne" "Sète" "Valenciennes" 
+		"Angoulême" "Thionville" "Arras" "Alès" "La Courneuve" "Compiègne" "Melun" "Chartres" "Poissy" "Châtillon" "Échirolles" "Saint-Chamond" "Auxerre" "Nevers" "Agen" 
+		"Saint-Raphaël" "Mâcon" "Cambrai" "Sainte-Marie" "Dreux" "Dieppe" "Périgueux" "Vienne" "Saint-Cloud" "Yerres" "Soissons" "Ermont" "Saumur" "Alençon" "Montbéliard" 
+		"Saint-Dizier" "Saintes" "Vichy"
+	}
+}
+
 ### Theme: Rivers ###
 FRA_THEME_RIVERS = {
 	name = NAME_THEME_RIVERS
@@ -424,7 +482,7 @@ FRA_THEME_RIVERS = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "%d Bateau-D"
+	fallback_name = "%d Bateau-E"
 
 	unique = {
 		### North Sea ###
@@ -454,7 +512,7 @@ FRA_THEME_COLONIES = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "%d Bateau-E"
+	fallback_name = "%d Bateau-F"
 
 	unique = {
 		"Algerié" "Indochine" "Syrie" "Liban" "Maroc" "Polynésie" "Tunisie" "Dahomey" "Côte d'Ivoire" "Mali" "Cameroun" "Soudan" "Sénégal" "Madagascar" "Annam" "Cochinchine" 
@@ -467,21 +525,25 @@ FRA_THEME_COLONIES = {
 	}
 }
 
-### Theme: Weather Phenomenons/Elements ###
-FRA_THEME_WEATHER = {
-	name = NAME_THEME_WEATHER
+### Theme: Historical Holdings ###
+FRA_THEME_HISTORICAL_HOLDINGS = {
+	name = NAME_THEME_HISTORICAL_HOLDINGS
 
 	for_countries = { FRA }
-	
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
-	fallback_name = "%d Bateau-F"
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "% Bateau-G"
 
 	unique = {
-		"Pluie" "Neige" "Vent" "Tempête" "Orage" "Éclair" "Brume" "Brouillard" "Grêle" "Gel" "Ouragan" "Tornade" "Avalanche" "Inondation" "Sècheresse" "Éclipse" "Marée"
-		"Érosion" "Averse" "Bruine" "Mistral" "Rafale" "Brise" "Cyclone" "Givre" "Tsunami" "Typhon" "Grésil" "Crépuscule" "Aurore" "Aube" "Crépuscule" "Bourrasque" "Virga"
-		"Dégel" "Soleil" "Foudre" "Humidité" "Nuage" "Ciel" "Climat" "Blizzard" "Bise" "Verglas" "Pression" "Courant" "Crue" "Chaleur" "Séisme" "Lumière" "Poudrerie" "Alizé"
+		### Capitals/Cities ###
+		"Bruxelles" "Amsterdam" "La Haye" "Rome" "Milan" "Turin" "Gênes" "Naples" "Vienne" "Hambourg" "Francfort" "Berlin" "Varsovie" "Madrid" "Lisbonne" "Zagreb" 
+		"Ljubljana" "Prague" "Braislava" "Genève" "Berne" "Zurich" "Dubrovnik" "Split"
+
+		### Countries/Provinces ###
+		"Belgique" "Luxembourg" "Pays-Bas" "Cisalpine" "Piémont" "Ligurie" "Rhin" "Suisse" "Espagne" "Autriche" "Pologne" "Portugal" "Croatie" "Illyriennes"
+		"Slovénie" "Monténégro"
 	}
 }
 
@@ -494,13 +556,31 @@ FRA_THEME_INSPIRATIONAL = {
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
 
-	fallback_name = "%d Bateau-G"
+	fallback_name = "%d Bateau-H"
 
 	unique = {
 		"Patrie" "Démocratie" "République" "Renaissance" "Liberté" "Fraternité" "Camaraderie" "Émancipation" "Justice" "Égalité" "Paix" "Héritage" "Altruisme" "Résistance" 
 		"Espoir" "Courage" "Victoire" "Solidarité" "Unité" "Engagement" "Fédération" "Libération" "Vérité" "Volonté" "Persévérance" "Optimisme" "Fierté" "Tricolore" "Clarté"
 		"Dévouement" "Bravoure" "Honneur" "Souveraineté" "Valeur" "Espérance" "Fortitude" "Loyauté" "Triomphe" "Sérénité" "Sagesse" "Bonté" "Vigilance" "Dignité" "Assurance"
 		"Grandeur" "Vaillance" "Héroïsme" "Mérite" "Brillance" "Fidèle"
+	}
+}
+
+### Theme: Weather Phenomenons/Elements ###
+FRA_THEME_WEATHER = {
+	name = NAME_THEME_WEATHER
+
+	for_countries = { FRA }
+	
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "%d Bateau-I"
+
+	unique = {
+		"Pluie" "Neige" "Vent" "Tempête" "Orage" "Éclair" "Brume" "Brouillard" "Grêle" "Gel" "Ouragan" "Tornade" "Avalanche" "Inondation" "Sècheresse" "Éclipse" "Marée"
+		"Érosion" "Averse" "Bruine" "Mistral" "Rafale" "Brise" "Cyclone" "Givre" "Tsunami" "Typhon" "Grésil" "Crépuscule" "Aurore" "Aube" "Crépuscule" "Bourrasque" "Virga"
+		"Dégel" "Soleil" "Foudre" "Humidité" "Nuage" "Ciel" "Climat" "Blizzard" "Bise" "Verglas" "Pression" "Courant" "Crue" "Chaleur" "Séisme" "Lumière" "Poudrerie" "Alizé"
 	}
 }
 
@@ -513,7 +593,7 @@ FRA_THEME_BATTLES = {
 	type = ship
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
 
-	fallback_name = "%d Bateau-H"
+	fallback_name = "%d Bateau-J"
 
 	unique = {
 		### National Convention ###
@@ -537,25 +617,21 @@ FRA_THEME_BATTLES = {
 	}
 }
 
-### Theme: Historical Holdings ###
-FRA_THEME_HISTORICAL_HOLDINGS = {
-	name = NAME_THEME_HISTORICAL_HOLDINGS
+### Theme: Mythology ###
+FRA_THEME_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
 
 	for_countries = { FRA }
 
 	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
 
-	fallback_name = "% Bateau-X"
+	fallback_name = "%d Bateau-K"
 
 	unique = {
-		### Capitals/Cities ###
-		"Bruxelles" "Amsterdam" "La Haye" "Rome" "Milan" "Turin" "Gênes" "Naples" "Vienne" "Hambourg" "Francfort" "Berlin" "Varsovie" "Madrid" "Lisbonne" "Zagreb" 
-		"Ljubljana" "Prague" "Braislava" "Genève" "Berne" "Zurich" "Dubrovnik" "Split"
-
-		### Countries/Provinces ###
-		"Belgique" "Luxembourg" "Pays-Bas" "Cisalpine" "Piémont" "Ligurie" "Rhin" "Suisse" "Espagne" "Autriche" "Pologne" "Portugal" "Croatie" "Illyriennes"
-		"Slovénie" "Monténégro"
+		"Cenunnos" "Epona" "Brigid" "Lugus" "Danu" "Morrígan" "Esus" "Taranis" "Sucellos" "Belenus" "Fay" "Melusine" "Dane" "Galienne" "Loup-Garou" "Dame Blanche" "Tarasque" 
+		"Fées" "Farfadets" "Gargouille" "Cat Sidhe" "Morgane" "Ganieda" "Lancelot" "Percival" "Ys" "Ankou" "Mercury" "Jupiter" "Dagda" "Morrigan" "Cernach" "Llyr" 
+		"Bran" "Nodens" "Maponus" "Mabon" "Arianrhod" "Ogmios" "Sirona" "Erecura" "Rosmerta" "Nantosuelta" "Teutates" "Ritona"
 	}
 }
 
@@ -570,7 +646,7 @@ FRA_THEME_PRESIDENTS = {
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
-	fallback_name = "%d Bateau-I"
+	fallback_name = "%d Bateau-L"
 
 	unique = {
 		### First Republic ###
@@ -598,45 +674,6 @@ FRA_THEME_PRESIDENTS = {
 	}
 }
 
-### Theme: Kings ###
-FRA_THEME_KINGS = {
-	name = NAME_THEME_KINGS # 751 - 1789
-
-	for_countries = { FRA }
-
-	can_use = { NOT = { has_government = communism } }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
-
-	fallback_name = "%d Bateau-J"
-
-	unique = {
-		"Pépin le Bref" "Carloman" "Charlemagne" "Louis le Pieux" "Charles le Chauve" "Louis le Bègue" "Charles le Gros" "Charles le Simple" "Raoul de Bourgogne" "Louis d'Outremer" 
-		"Louis le Fainéant" "Hugues Capet" "Robert le Pieux" "Philippe l'Amoureux" "Louis le Batailleur" "Louis le Jeune" "Philippe Auguste" "Louis le Lion" "Saint-Louis" 
-		"Philippe le Hardi" "Philippe le Bel" "Louis le Hutin" "Jean le Posthume" "Philippe le Long" "Charles le Bel" "Philippe de Valois" "Jean le Bon" "Charles le Sage" 
-		"Charles le Bien-Aimé" "Charles le Bien Servi" "Louis le Prudent" "Charles l'Affable" "Louis le Père du Peuple" "François d'Orléans" "Henri le Vert-Galant" "Louis le Juste" 
-		"Louis le Roi-Soleil" "Louis le Bien-Aimé" 
-	}
-}
-
-### Theme: Mythology ###
-FRA_THEME_MYTHOLOGY = {
-	name = NAME_THEME_MYTHOLOGY
-
-	for_countries = { FRA }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
-
-	fallback_name = "%d Bateau-K"
-
-	unique = {
-		"Cenunnos" "Epona" "Brigid" "Lugus" "Danu" "Morrígan" "Esus" "Taranis" "Sucellos" "Belenus" "Fay" "Melusine" "Dane" "Galienne" "Loup-Garou" "Dame Blanche" "Tarasque" 
-		"Fées" "Farfadets" "Gargouille" "Cat Sidhe" "Morgane" "Ganieda" "Lancelot" "Percival" "Ys" "Ankou" "Mercury" "Jupiter" "Dagda" "Morrigan" "Cernach" "Llyr" 
-		"Bran" "Nodens" "Maponus" "Mabon" "Arianrhod" "Ogmios" "Sirona" "Erecura" "Rosmerta" "Nantosuelta" "Teutates" "Ritona"
-	}
-}
 
 ### Theme: Marshals ###
 FRA_THEME_MARSHALS = {
@@ -647,7 +684,7 @@ FRA_THEME_MARSHALS = {
 	type = ship
 	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
 
-	fallback_name = "%d Bateau-L"
+	fallback_name = "%d Bateau-K"
 
 	unique = {
 		"Albéric Clément" "Henri Clément" "Guillaume de Bournel" "Nivelon d'Arras" "Guillaume de La Tournelle" "Ferry Pasté" "Jean Guillaume de Beaumont" "Gauthier de Nemours" 
@@ -701,7 +738,7 @@ FRA_THEME_PARIS_COMMUNE = {
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_battleship ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
 
-	fallback_name = "%d Bateau-A"
+	fallback_name = "%d Navire Républicain"
 
 	unique = {
 		"Louis Charles Delescluze" "Louise Michel" "Eugène Varlin" "Nathalie Le Mel" "Théophile Ferré" "Charles Beslay" "Charles Longuet" "Sigismond Sierakowski"

@@ -1,10 +1,10 @@
-﻿##### Norwish Ship Names #####
+﻿##### Norwegian Ship Names #####
 
 ### Prefixes ###
 # HNoMS = His Norwegian Majesty's Ship. (Official - Used)
 
 ### Aircraft Carrier Names ###
-NOR_CV_HISTORICAL = { # Aviators - Flying Creatures.
+NOR_CV_HISTORICAL = { # Aviators.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
 	for_countries = { NOR }
@@ -16,12 +16,25 @@ NOR_CV_HISTORICAL = { # Aviators - Flying Creatures.
 	fallback_name = "Hangarskip %d"	
 
 	unique = {
-		### Aviators ###
 		"Bernt Balchen" "Fridtjof Nansen" "Tryggve Gran" "Hanna Reitsch" "Thor Solberg" "Leif V. Aase" "Hjalmar Riiser-Larsen"
 		"Andreas B. Heide" "Henning Wang" "Birger F. Motzfeldt" "Einar Sem-Jacobsen" "Lars Christensen" "Dag Krohn-Hansen"
 		"Bjørn Granlund" "Bjørn F. Andresen"
+	}
+}
 
-		### Flying Creatures ###
+### Light Aircraft Carrier Names ###
+NOR_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "HNoMS "
+	fallback_name = "Lett Hangarskip %d"
+
+	unique = {
 		"Fugi" "Sommerfugl" "Flaggermus" "Øyenstikker" "Ørn" "Hauk" "Spurv" "Måke" "Svane" "Kolibri" "Ugle" "Due" "Bie" "Veps" 
 		"Flue" "Møll" "Pelikan" "Albatross" "Kondor" "Seiler" "Pterosaur" "Fe" "Lyktemann"
 	}
@@ -111,6 +124,27 @@ NOR_CL_HISTORICAL = { # Fjords.
 	}
 }
 
+### Mineships Names ###
+NOR_MNS_HISTORICAL = { # Mythology.
+	name = NAME_THEME_MINES
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HNoMS "
+	fallback_name = "Gruveskip %d"
+
+	unique = {
+		### Minelayers ###
+		"Tyr" "Gor" "Vidar" "Brage" "Nor" "Vale" "Uller"
+
+		### Minesweepers ###
+		"Jeløy" "Karmøy" "Oskøy" "Tromøy"
+	}
+}
+
 ### Destroyer Names ###
 NOR_DD_HISTORICAL = { # Cities.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
@@ -124,13 +158,13 @@ NOR_DD_HISTORICAL = { # Cities.
 	fallback_name = "Ødeleggeren %d"					
 
 	unique = {
-		### Draug Class ###
+		### Draug Class (1896) ###
 		"Draug" "Troll" "Garm"
 
-		### Others ###
+		### Standalones ###
 		"Glommen" "Laugen"
 
-		### Stord Class ###
+		### Stord Class (1943) ###
 		"Stord" "Svenner" "Oslo" "Bergen" "Trondheim" "Stavanger"
 
 		### Additionals ###
@@ -154,29 +188,8 @@ NOR_TB_HISTORICAL = { # Mythology.
 	fallback_name = "Torpedobåt %d"
 
 	unique = {
-		### Sleipner Class ###
+		### Sleipner Class (1936) ###
 		"Sleipner" "Aeger" "Gyller" "Odin" "Balder" "Thor"
-	}
-}
-
-### Minesweepers/Laying Names ###
-NOR_MIN_HISTORICAL = { # Mythology.
-	name = NAME_THEME_MINES
-
-	for_countries = { NOR }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-
-	prefix = "HNoMS "
-	fallback_name = "Gruveskip %d"
-
-	unique = {
-		### Minelayers ###
-		"Tyr" "Gor" "Vidar" "Brage" "Nor" "Vale" "Uller"
-
-		### Minesweepers ###
-		"Jeløy" "Karmøy" "Oskøy" "Tromøy"
 	}
 }
 
@@ -218,24 +231,23 @@ NOR_THEME_REGIONS = {
 	}
 }
 
-### Theme: Cities ###
-NOR_THEME_CITIES = {
-	name = NAME_THEME_CITIES
+### Theme: Glaciers ###
+NOR_THEME_GLACIERS = {
+	name = NAME_THEME_GLACIERS
 
 	for_countries = { NOR }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "HNoMS "
 	fallback_name = "Skip-B %d"
 
 	unique = {
-		"Oslo" "Bergen" "Trondheim" "Stavanger" "Kristiansand" "Fredrikstad" "Sandnes" "Tromsø" "Skien" "Drammen" "Sarpsborg" 
-		"Bodø" "Sandefjord" "Ålesund" "Larvik" "Arendal" "Tønsberg" "Porgrunn" "Haugesund" "Hamar" "Halden" "Moss" "Gjøvik" 
-		"Lilehammer" "Horten" "Molde" "Kongsberg" "Harstad" "Kristiansund" "Steinkjer" "Grimstad" "Narvik" "Kongsvinger" 
-		"Hønefoss" "Mandal" "Egersund" "Namsos" "Notodden" "Holmestrand" "Farsund" "Hammerfest" "Flekkefjord" "Florø" "Risør" 
-		"Vadsø" "Svolvær" "Vardø"
+		"Jostedalsbreen" "Svartisen" "Folgefonna" "Blåmannsisen" "Hardangerjøkulen" "Myklebustbreen" "Okstindbreen" "Øksfjordjøkelen" "Harbardsbreen" 
+		"Salajekna" "Frostisen" "Gihtsejiegŋa" "Sekkebreen" "Tindefjellbreen" "Simlebreen" "Tystigbreen" "Holåbreen" "Grovareen" "Ålfotbreen" 
+		"Fresvikbreen" "Sørbreen" "Seilandsjøkelen" "Smørstabbrean" "Strupbree" "Gjegnalundsbreen" "Memurubreen" "Spidstinden" "Storsteinsfjellbreen" 
+		"Jostefonn" "Veobreen" "Weyprechtbreen" "Langfjordjøkelen" "Kjerulfbreen"
 	}
 }
 
@@ -259,6 +271,26 @@ NOR_THEME_MOUNTAINS = {
 	}
 }
 
+### Theme: Cities ###
+NOR_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HNoMS "
+	fallback_name = "Skip-D %d"
+
+	unique = {
+		"Oslo" "Bergen" "Trondheim" "Stavanger" "Kristiansand" "Fredrikstad" "Sandnes" "Tromsø" "Skien" "Drammen" "Sarpsborg" "Bodø" 
+		"Sandefjord" "Ålesund" "Larvik" "Arendal" "Tønsberg" "Porgrunn" "Haugesund" "Hamar" "Halden" "Moss" "Gjøvik" "Lilehammer" 
+		"Horten" "Molde" "Kongsberg" "Harstad" "Kristiansund" "Steinkjer" "Grimstad" "Narvik" "Kongsvinger" "Hønefoss" "Mandal" 
+		"Egersund" "Namsos" "Notodden" "Holmestrand" "Farsund" "Hammerfest" "Flekkefjord" "Florø" "Risør" "Vadsø" "Svolvær" "Vardø"
+	}
+}
+
 ### Theme: Rivers ###
 NOR_THEME_RIVERS = {
 	name = NAME_THEME_RIVERS
@@ -269,30 +301,12 @@ NOR_THEME_RIVERS = {
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 
 	prefix = "HNoMS "
-	fallback_name = "Skip-D %d"
+	fallback_name = "Skip-E %d"
 
 	unique = {
 		"Glomma" "Numedalslågen" "Drammenselva" "Nidelva" "Orkla" "Altaelva" "Tanaelva" "Målselva" "Vefsna" "Vossavassdraget" 
 		"Gaula" "Otra" "Sira" "Oselva" "Namsen" "Lakselva" "Nea-Nidelvvassdraget" "Suldalslågen" "Begna" "Figgjo" "Lågen" 
 		"Aura" "Begna" "Gaula" "Driva" "Vosso" "Vinjevassdraget" "Numedalslågen" "Trysilelva"
-	}
-}
-
-### Theme: Famous Battles ###
-NOR_THEME_BATTLES = {
-	name = NAME_THEME_BATTLES
-
-	for_countries = { NOR }
-
-	type = ship
-	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
-
-	prefix = "HNoMS "
-	fallback_name = "Skip-E %d"
-
-	unique = {
-		"Hafrsfjord" "Svolder" "Stamford Bridge" "Largs" "Oslo" "Oslofjord" "Kringen" "Langnes" "Trangen" "Lyngør" "Re"
-		"Vågen" "Dynekilen" "Gjellebekk" "Prestebakke" "Lier" "Stiklestad" "Fimreite" "Matrand" "Strömstad" "Rødenes"
 	}
 }
 
@@ -316,26 +330,6 @@ NOR_THEME_FJORDS = { # <10km.
 	}
 }
 
-### Theme: Glaciers ###
-NOR_THEME_GLACIERS = {
-	name = NAME_THEME_GLACIERS
-
-	for_countries = { NOR }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
-
-	prefix = "HNoMS "
-	fallback_name = "Skip-G %d"
-
-	unique = {
-		"Jostedalsbreen" "Svartisen" "Folgefonna" "Blåmannsisen" "Hardangerjøkulen" "Myklebustbreen" "Okstindbreen" "Øksfjordjøkelen" "Harbardsbreen" 
-		"Salajekna" "Frostisen" "Gihtsejiegŋa" "Sekkebreen" "Tindefjellbreen" "Simlebreen" "Tystigbreen" "Holåbreen" "Grovareen" "Ålfotbreen" 
-		"Fresvikbreen" "Sørbreen" "Seilandsjøkelen" "Smørstabbrean" "Strupbree" "Gjegnalundsbreen" "Memurubreen" "Spidstinden" "Storsteinsfjellbreen" 
-		"Jostefonn" "Veobreen" "Weyprechtbreen" "Langfjordjøkelen" "Kjerulfbreen"
-	}
-}
-
 ### Theme: Culture ###
 NOR_THEME_CULTURE = {
 	name = NAME_THEME_CULTURE
@@ -346,11 +340,29 @@ NOR_THEME_CULTURE = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HNoMS "
-	fallback_name = "Skip-H %d"
+	fallback_name = "Skip-G %d"
 
 	unique = {
 		"Uavhengighet" "Midnattssol" "Nordlys" "Stortinget" "Skald" "Unionen" "Krig" "Konstitusjonen" "Samisk" "Havbris" "Nordstjerne" "Sjøfalk" 
 		"Nordavind" "Skute" "Kystvind" "Havhest"
+	}
+}
+
+### Theme: Famous Battles ###
+NOR_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { NOR }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
+
+	prefix = "HNoMS "
+	fallback_name = "Skip-H %d"
+
+	unique = {
+		"Hafrsfjord" "Svolder" "Stamford Bridge" "Largs" "Oslo" "Oslofjord" "Kringen" "Langnes" "Trangen" "Lyngør" "Re"
+		"Vågen" "Dynekilen" "Gjellebekk" "Prestebakke" "Lier" "Stiklestad" "Fimreite" "Matrand" "Strömstad" "Rødenes"
 	}
 }
 
@@ -367,7 +379,7 @@ NOR_THEME_NORDIC_MYTHOLOGY = {
 	fallback_name = "Skip-I %d"
 
 	unique = {
-		### Gods/Godesses #
+		### Gods/Godesses ###
 		"Odin" "Thor" "Frøya" "Loke" "Frøy" "Tyr" "Balder" "Frigg" "Hel" "Njord" "Idun" "Skadi" "Forseti" "Heimdall" "Sif" "Bragi" "Eir" 
 		"Vidar" "Sól" "Mani" "Mimir" "Høne" "Modi" "Magni" "Ran" "Hoder" "Snotra" "Vili" "Ve" "Grid" "Jord" "Syn" "Gna" "Aegir" "Bestla" 
 		"Ullr" "Hjuki" "Bil" "Skudl" "Verdandi" "Skogul" "Alfrigg"

@@ -230,29 +230,6 @@ POR_THEME_DISTRICTS = {
 	}
 }
 
-### Theme: Cities ###
-POR_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { POR }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
-
-	prefix = "NRP "
-	fallback_name = "Enviar-B %d"
-
-	unique = {
-		"Lisbon" "Porto" "Vila Nova de Gaia" "Amadora" "Braga" "Coimbra" "Funchal" "Setúbal" "Almada" "Agualva-Cacém" "Quelez" "Rio Tinto" 
-		"Barreiro" "Aveiro" "Viseu" "Odivelas" "Guimarães" "Leiria" "Faro" "Matoshinhos" "Loures" "Portimão" "Póvoa de Varzim" "Amora" "Maia" 
-		"Évora" "Montijo" "Ponta Delgada" "Ermesinde" "Viana do Castelo" "Vila Nova de Famalicão" "Castelo Branco" "Covilhã" "Felgueiras"
-		"Alverca do Ribatejo" "Seixal" "Santarém" "Figueira da Foz" "Vila do Conde" "Póvoa de Santa Iria" "Olhão" "Caldas da Rainha" "Vila Real" 
-		"Santo Tirso" "Gondomar" "Senhoa da Hora" "Valongo" "Guarda" "Sacavém" "Bragança" "São Mamede de Infesta" "Beja" "São João da Madeira" 
-		"Albufeira" "Chaves" "Espinho" "Caniço" "Barcelos" "Paredes" "Entroncamento" "Lagos" "Torres Vedras" "Quarteira" "Abrantes" "Trofa" 
-		"Over" "Vila Franca de Xira" "Fafe" "Oliveira de Azeméis"
-	}
-}
-
 ### Theme: Mountains ###
 POR_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
@@ -263,7 +240,7 @@ POR_THEME_MOUNTAINS = {
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "NRP "
-	fallback_name = "Enviar-C %d"
+	fallback_name = "Enviar-B %d"
 
 	unique = {
 		### Pico Island/Azores ###
@@ -295,6 +272,29 @@ POR_THEME_MOUNTAINS = {
 	}
 }
 
+### Theme: Cities ###
+POR_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "NRP "
+	fallback_name = "Enviar-C %d"
+
+	unique = {
+		"Lisbon" "Porto" "Vila Nova de Gaia" "Amadora" "Braga" "Coimbra" "Funchal" "Setúbal" "Almada" "Agualva-Cacém" "Quelez" "Rio Tinto" 
+		"Barreiro" "Aveiro" "Viseu" "Odivelas" "Guimarães" "Leiria" "Faro" "Matoshinhos" "Loures" "Portimão" "Póvoa de Varzim" "Amora" "Maia" 
+		"Évora" "Montijo" "Ponta Delgada" "Ermesinde" "Viana do Castelo" "Vila Nova de Famalicão" "Castelo Branco" "Covilhã" "Felgueiras"
+		"Alverca do Ribatejo" "Seixal" "Santarém" "Figueira da Foz" "Vila do Conde" "Póvoa de Santa Iria" "Olhão" "Caldas da Rainha" "Vila Real" 
+		"Santo Tirso" "Gondomar" "Senhoa da Hora" "Valongo" "Guarda" "Sacavém" "Bragança" "São Mamede de Infesta" "Beja" "São João da Madeira" 
+		"Albufeira" "Chaves" "Espinho" "Caniço" "Barcelos" "Paredes" "Entroncamento" "Lagos" "Torres Vedras" "Quarteira" "Abrantes" "Trofa" 
+		"Over" "Vila Franca de Xira" "Fafe" "Oliveira de Azeméis"
+	}
+}
+
 ### Theme: Rivers ###
 POR_THEME_RIVERS = {
 	name = NAME_THEME_RIVERS
@@ -312,25 +312,6 @@ POR_THEME_RIVERS = {
 		"Sorraira" "Antuã" "Bensefrim" "Algoz" "Dão" "Alto" "Tagus" "Espiche" "Águeda" "Fervença" "Falacho" "Douro" "Barxas" "Aljezur" 
 		"Odelouca" "Arade" "Caia" "Alcantarilha" "Mira" "Zêzere" "Algibre" "Arda" "Alva" "Vez" "Salas" "Algés" "Nabão" "Sado" "Mondego" 
 		"Balsemão" "Gévora" "Este" "Paiva" "Lizandro"
-	}
-}
-
-### Theme: Animals ###
-POR_THEME_ANIMALS = {
-	name = NAME_THEME_ANIMALS
-
-	for_countries = { POR }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
-
-	prefix = "NRP "
-	fallback_name = "Enviar-X %d"
-
-	unique = {
-		"Elefante" "Leão" "Tigre" "Urso" "Rinoceronte" "Girafa" "Zebra" "Lobo" "Raposa" "Cervo" "Canguru" "Macaco" "Gorila" "Chimpanzé"
-		"Búfalo" "Camelo" "Hipopótamo" "Antílope" "Coiote" "Jaguar" "Pantera" "Puma" "Alce" "Bisonte" "Lince" "Gnu" "Hiena" "Javali"
-		"Guaxinim" "Preguiça" "Ouriço" "Tamanduá" "Suricate" "Esquilo" "Doninha" "Texugo" "Marmota" "Rena" "Cabra" "Overlha"
 	}
 }
 
@@ -360,6 +341,25 @@ POR_THEME_COLONIES = {
 	}
 }
 
+### Theme: Animals ###
+POR_THEME_ANIMALS = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "NRP "
+	fallback_name = "Enviar-F %d"
+
+	unique = {
+		"Elefante" "Leão" "Tigre" "Urso" "Rinoceronte" "Girafa" "Zebra" "Lobo" "Raposa" "Cervo" "Canguru" "Macaco" "Gorila" "Chimpanzé"
+		"Búfalo" "Camelo" "Hipopótamo" "Antílope" "Coiote" "Jaguar" "Pantera" "Puma" "Alce" "Bisonte" "Lince" "Gnu" "Hiena" "Javali"
+		"Guaxinim" "Preguiça" "Ouriço" "Tamanduá" "Suricate" "Esquilo" "Doninha" "Texugo" "Marmota" "Rena" "Cabra" "Overlha"
+	}
+}
+
 ### Theme: Famous Battles ###
 POR_THEME_BATTLES = {
 	name = NAME_THEME_BATTLES
@@ -370,7 +370,7 @@ POR_THEME_BATTLES = {
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "NRP "
-	fallback_name = "Enviar-F %d"
+	fallback_name = "Enviar-G %d"
 
 	unique = {
 		"Ceuta" "Diu" "Cochin" "Guinea" "Hormuz" "Mbwila" "Matanzas" "St. Vincent" "Buçaco" "Vimeiro" "Ksar El Kebir" "Ngomano" "La Lys" 

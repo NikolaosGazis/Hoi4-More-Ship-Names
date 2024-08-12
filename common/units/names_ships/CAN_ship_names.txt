@@ -126,6 +126,32 @@ CAN_CL_HISTORICAL = { # Generals - States - Cities.
 	}
 }
 
+### Minesweeper Names ###
+CAN_MINESWEEPERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINESWEEPERS
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HMCS "
+	fallback_name = "Royal Minesweeper %s"
+
+	unique = {
+		### Algerine Class ###
+		"Kapuskasing" "Middlesex" "New Liskeard" "Oshawa" "Portage" "Rockcliffe" "St.Boniface" "Wallaceburg" "Winnipeg"
+
+		### Minesweepers ###
+		"Baleine" "Constance" "Curlew" "Chaleur" "Chignecto" "Comox" "Cowichan" "Fortune" "Fundy" "Gaspé" "James Bay" "Miramichi" "Quinte" 
+		"Resolute" "Thunder" "Trinity" "Ungava"
+
+		### Auxilary Minesweepers ###
+		"Bras d'Or" "Cape Beale" "Joan W. II" "Mitchell Bay" "Rayon d'Or" "Reo II" "Signal" "Star XVI" "Suderoy" "Takla" "Venosta" "Vercheres" 
+		"Gopher" "Musquash" "Anticosti" "Moresby" "Cordova"
+	} 
+}
+
 ### Destroyer Names ###
 CAN_DD_HISTORICAL = { # Historical Models - Frigates. 
 	name = NAME_THEME_HISTORICAL_DESTROYERS
@@ -186,32 +212,6 @@ CAN_DE_HISTORICAL = { # Historical Models - Corvettes.
 	}
 }
 
-### Minesweeper Names ###
-CAN_MINESWEEPERS_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_MINESWEEPERS
-
-	for_countries = { CAN }
-
-	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
-
-	prefix = "HMCS "
-	fallback_name = "Royal Minesweeper %s"
-
-	unique = {
-		### Algerine Class ###
-		"Kapuskasing" "Middlesex" "New Liskeard" "Oshawa" "Portage" "Rockcliffe" "St.Boniface" "Wallaceburg" "Winnipeg"
-
-		### Minesweepers ###
-		"Baleine" "Constance" "Curlew" "Chaleur" "Chignecto" "Comox" "Cowichan" "Fortune" "Fundy" "Gaspé" "James Bay" "Miramichi" "Quinte" 
-		"Resolute" "Thunder" "Trinity" "Ungava"
-
-		### Auxilary Minesweepers ###
-		"Bras d'Or" "Cape Beale" "Joan W. II" "Mitchell Bay" "Rayon d'Or" "Reo II" "Signal" "Star XVI" "Suderoy" "Takla" "Venosta" "Vercheres" 
-		"Gopher" "Musquash" "Anticosti" "Moresby" "Cordova"
-	} 
-}
-
 ### Submarine Names ###
 CAN_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
@@ -253,29 +253,6 @@ CAN_THEME_PROVINCES = {
 	}
 }
 
-### Theme: Cities ###
-CAN_THEME_CITIES = {
-	name = NAME_THEME_CITIES
-
-	for_countries = { CAN }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
-
-	prefix = "HMCS "
-	fallback_name = "Royal Ship-B %s"
-
-	unique = {
-		"Toronto" "Montréal" "Vancouver" "Calgary" "Ottawa" "Edmonton" "Missisauga" "North York" "Winnipeg" "Hamilton" "Brampton" "Kitchener" "Surrey" "Laval" 
-		"Halifax" "London" "Victoria" "Windsor" "Oshawa" "Gatineau" "Vaughan" "Longueuil" "Burnaby" "Ladner" "Saskatoon" "Barrie" "Richmond" "Regina" "Oakville" 
-		"Burlington" "Sudbury" "Abbotsford" "St. Catharines" "Sherbrooke" "Lévis" "Kelowna" "Cambridge" "Trois-Rivières" "Guelph" "Coquitlam" "Kingston" "Chatham-Kent" 
-		"Delta" "Dartmouth" "Thunder Bay" "St.John's" "Waterloo" "Terrebonne" "Langley" "Pickering" "Brantford" "Moncton" "Nanaimo" "Sarnia" "Saint-Laurent" 
-		"Repentigny" "Fort McMurray" "Peterborough" "Ste.Marie" "Kawartha" "Lethbridge" "Maple Ridge" "Brossard" "Chilliwack" "Kamloops" "White Rock" "Princ George" 
-		"Medicine Hat" "Norflok" "Drummondville" "New Westminster" "St.Albert" "Sherwood" "Saint-Jérôme" "Jonquière" "Granby" "Fredericton" "Welland" "Saint Hyacinthe" 
-		"North Bay" "Shawinigan" "Belleville" "Cornwall" "Vernon" "Blainville" "Haldimand" "Timmins" "Châteauguay" "Quinte" "Charlottetown" "Rimouski"
-	}
-}
-
 ### Theme: Mountains ###
 CAN_THEME_MOUNTAINS = {
 	name = NAME_THEME_MOUNTAINS
@@ -306,6 +283,29 @@ CAN_THEME_MOUNTAINS = {
 
 		### Solitude Range ###
 		"Stephenson" "Watson" "Goodrich" "Brazion" "Le Moray" "Pyramis" "Solitudes"
+	}
+}
+
+### Theme: Cities ###
+CAN_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMCS "
+	fallback_name = "Royal Ship-B %s"
+
+	unique = {
+		"Toronto" "Montréal" "Vancouver" "Calgary" "Ottawa" "Edmonton" "Missisauga" "North York" "Winnipeg" "Hamilton" "Brampton" "Kitchener" "Surrey" "Laval" 
+		"Halifax" "London" "Victoria" "Windsor" "Oshawa" "Gatineau" "Vaughan" "Longueuil" "Burnaby" "Ladner" "Saskatoon" "Barrie" "Richmond" "Regina" "Oakville" 
+		"Burlington" "Sudbury" "Abbotsford" "St. Catharines" "Sherbrooke" "Lévis" "Kelowna" "Cambridge" "Trois-Rivières" "Guelph" "Coquitlam" "Kingston" "Chatham-Kent" 
+		"Delta" "Dartmouth" "Thunder Bay" "St.John's" "Waterloo" "Terrebonne" "Langley" "Pickering" "Brantford" "Moncton" "Nanaimo" "Sarnia" "Saint-Laurent" 
+		"Repentigny" "Fort McMurray" "Peterborough" "Ste.Marie" "Kawartha" "Lethbridge" "Maple Ridge" "Brossard" "Chilliwack" "Kamloops" "White Rock" "Princ George" 
+		"Medicine Hat" "Norflok" "Drummondville" "New Westminster" "St.Albert" "Sherwood" "Saint-Jérôme" "Jonquière" "Granby" "Fredericton" "Welland" "Saint Hyacinthe" 
+		"North Bay" "Shawinigan" "Belleville" "Cornwall" "Vernon" "Blainville" "Haldimand" "Timmins" "Châteauguay" "Quinte" "Charlottetown" "Rimouski"
 	}
 }
 

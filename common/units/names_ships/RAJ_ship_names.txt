@@ -1,12 +1,14 @@
 ﻿##### British Raj/Indian Ship Names #####
 
+### Prefixes ###
 # HMIS = His Majesty's Indian Ship. (Official - Used)
+# INS = Indian Naval Ship. (Official)
 
 ### Aircraft Carrier Names ###
-RAJ_CV_HISTORICAL = {
+RAJ_CV_HISTORICAL = { # Adjectives.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { RAJ }
+	for_countries = { RAJ PAK BRM }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -15,15 +17,17 @@ RAJ_CV_HISTORICAL = {
 	fallback_name = "Carrier %s"		
 
 	unique = {
-		"Vikrant" "Vishnu" "Vikramaditya" "Viraat" "Vishal"
+		"Valiant" "Indomitable" "Courageous" "Invicible" "Gallant" "Triumphant" "Majestic" "Noble" "Resolute" "Steadfast" "Glorious" 
+		"Interpid" "Valorous" "Mighty" "Fearless" "Formidable" "Honorable" "Dauntless" "Victorious" "Proud" "Defiant" "Unyielding" 
+		"Stalwat" "Luminous" "Supreme"
 	}
 }
 
 ### Light Aircraft Carrier Names ###
-RAJ_CVL_HISTORICAL = {
+RAJ_CVL_HISTORICAL = { # Flying Creatures.
 	name = NAME_THEME_HISTORICAL_CVL
 
-	for_countries = { RAJ }
+	for_countries = { RAJ PAK BRM }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -32,15 +36,17 @@ RAJ_CVL_HISTORICAL = {
 	fallback_name = "Light Carrier %s"
 
 	unique = {
-		###
+		"Hawk" "Falcon" "Eagle" "Osprey" "Kestrel" "Harrier" "Albatross" "Condor" "Vulture" "Peregrine" "Merlin" "Sparrowhawk" 
+		"Kite" "Buzzard" "Raven" "Seagull" "Swallow" "Swift" "Nightjar" "Heron" "Peacock" "Parakeet" "Kingfisher" "Hornbill" 
+		"Sunbird" "Mynah" "Ibis" "Hoopoe" "Drongo" "Sarus Crane" "Vulture" "Roller" "Pigeon" "Bulbul"
 	}
 }
 
 ### Battleship Names ###
-RAJ_BB_HISTORICAL = {
+RAJ_BB_HISTORICAL = { # Figures - Importance - Adjectives.
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { RAJ }
+	for_countries = { RAJ PAK BRM }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -54,10 +60,10 @@ RAJ_BB_HISTORICAL = {
 }
 
 ### Battlecruiser Names ###
-RAJ_BC_HISTORICAL = {
+RAJ_BC_HISTORICAL = { # Adjectives.
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { RAJ }
+	for_countries = { RAJ PAK BRM }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -66,7 +72,7 @@ RAJ_BC_HISTORICAL = {
 	fallback_name = "Battlecruiser %s"		
 
 	unique = {
- 		"India" "Raj" "Empress" "Emperor" "Hindustan" "Revenge" "Retribution" "Vengeance" "Nemesis" 
+ 		### 
 	}
 }
 
@@ -74,7 +80,7 @@ RAJ_BC_HISTORICAL = {
 RAJ_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { RAJ }
+	for_countries = { RAJ PAK BRM }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -91,7 +97,7 @@ RAJ_CA_HISTORICAL = {
 RAJ_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { RAJ }
+	for_countries = { RAJ PAK BRM }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -108,7 +114,7 @@ RAJ_CL_HISTORICAL = {
 RAJ_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { RAJ }
+	for_countries = { RAJ PAK BRM }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
@@ -117,9 +123,9 @@ RAJ_DD_HISTORICAL = {
 	fallback_name = "Destroyer %s"					
 
 	unique = {											
-		"Sutlej" "Jumna" "Narbada" "Godavari" "Kistna" "Cauvery" "Sabarmati" "Vatrak" "Mohar" "Mahi" "Panam" "Anas" "Moran" "Banas" "Luni" "Sukari" "Bandi" "Chambel" 
-		"Asan" "Ghaghara" "Sarda" "Gandak" "Koshi" "Mahananda" "Brahmaputra" "Kopili" "Digaru" "Puthimari" "Baralia" "Pagaldiya" "Kaladiya" "Beki" "Manas" "Champabati" 
-		"Shil Torsa" "Tir" "Talwar" "Trishul"
+		"Sutlej" "Jumna" "Narbada" "Godavari" "Kistna" "Cauvery" "Sabarmati" "Vatrak" "Mohar" "Mahi" "Panam" "Anas" "Moran" "Banas" "Luni" 
+		"Sukari" "Bandi" "Chambel" "Asan" "Ghaghara" "Sarda" "Gandak" "Koshi" "Mahananda" "Brahmaputra" "Kopili" "Digaru" "Puthimari" 
+		"Baralia" "Pagaldiya" "Kaladiya" "Beki" "Manas" "Champabati" "Shil Torsa" "Tir" "Talwar" "Trishul"
 	}
 }
 
@@ -127,7 +133,7 @@ RAJ_DD_HISTORICAL = {
 RAJ_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { RAJ }
+	for_countries = { RAJ PAK BRM }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -146,7 +152,7 @@ RAJ_SS_HISTORICAL = {
 RAJ_THEME_PROVINCES = {
 	name = NAME_THEME_PROVINCES
 
-	for_countries = { RAJ }
+	for_countries = { RAJ PAK BRM }
 
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
@@ -160,35 +166,135 @@ RAJ_THEME_PROVINCES = {
 	}
 }
 
-### Theme: Cities ###
-RAJ_THEME_CITIES = {
-	name = NAME_THEME_CITIES
+### Theme: Mountains ###
+RAJ_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
 
-	for_countries = { RAJ }
+	for_countries = { RAJ PAK BRM }
 
 	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HMIS "
 	fallback_name = "Ship-B %s"
 
 	unique = {
+		### India ###
+		"Kangchenjunga" "Nanda Devi" "Kamet" "Saltoro" "Saser" "Mamostong" "Teram" "Jongsong" "Kabru" "Ghent" "Rimo" "Kirat Chuli" 
+		"Mana" "Apsarasas" "Mukut Parbat" "Singhi" "Hardeol" "Chaukhamba" "Nun-Kun" "Pauhurni" "Pathibhara" "Trisul" "Satopanth" 
+		"Tirsuli" "Chong Kumdang" "Dunagiri" "Kangto" "Nyegyi" "Padmanabh" "Shudu Tsenpa" "Chamshen" "Aq Tash" "Rishi" "Thalay" "Lakshmi" 
+		"Kedarnath" "Langpo" "Saraswati" "Shahi" "Sri" "Kalanka" "Chorten" "Saf" "Agastyamalai" "Anginda" "Bandarpunch" "Brammah" 
+		"Chandrashila" "Changuch" "Churdhar" "Deomali" "Girnar" "Gya" "Harmukh" "Indrasan" "Japfü" "Kalsubai" "Kolaribetta" "Kolukkumalai" 
+		"Maiktoli" "Manirang" "Mol Len" "Mukurthi" "Shilla" "Sispara"
+
+		### Pakistan ###
+		"Gasherbrum" "Distaghill" "Kunyang" "Masherbrum" "Batura" "Kanjut" "Rakaposhi" "Batura" "Saltoro" "Tirich" "Chogolisa" "Shispare" 
+		"Silberzacken" "Trivor" "Noshaq" "Passu" "Skil" "Ghent" "Ultar" "Haramosh"
+
+		### Burma ###
+		"Hkakabo" "Gamlang" "Dindaw" "Tami" "Phangran" "Phonyin" "Taungnyo" "Hkaru" "Mol Len" "Bumhpa" "Nat Ma" "Kennedy" "Sangpang" "Zinghmuh" 
+		"Loi Leng" "Nattaung" "Lee" "Nakthar" "Mela" "Leen"
+	}
+}
+
+### Theme: Cities ###
+RAJ_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { RAJ PAK BRM }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HMIS "
+	fallback_name = "Ship-C %s"
+
+	unique = {
 	   "Delhi" "Bombay" "Mysore" "Karachi" "Rangoon" "Hyderabad" "Lucknow" "Ahmadabad" "Patna" "Mandalay" "Dacca" "Calcutta" 
 	   "Bhopal" "Agra" "Madras" "Cochin" "Trivandrum" "Baroda" "Pondicherry"  "Aurangabad" "Mahabubabad" "Mahbubnagar" "Osmanabad" 
-	   "Lahore" "Faisalabad" "Rawalpindi" "	Gujranwala" "Peshawar" "Multan" "Islamabad" "Quetta"  
-	   "Ahmednagar" "Shimla" "Ahmedabad" "Sultanpur" "Muzaffarnagar" "Akbarpur" "Jubbulpore" "Jajesmow" "Cawnpore" "Cuddapah" "Belgaum" "Tumkur" 
-	   "Hubli" "Shimoga" "Hospet" "Gulbarga" "Chikmagalur" "Bijapur" "Bellary" "Mangalore" "Rajahmundry" "Gurgaon" "Allahabad" 
-	   "Alleppey" "Gauhati" "Indhur" "Conjevaram" "Cannanore" "Quilon" "Quilandi" "Calicut" "Kudanthai" "Mayavaram" "Nerbudda" 
-	   "Nowgong" "Palghat" "Panjim" "Poona" "Ramnad" "Saugor" "Simla" "Tellicherry" "Tanjore" "Tuticorin" "Trichur" 
-	   "Tinthirivanam" "Trichinopoly" "Tinnevelly" "Triplicane" "Ootacamund" "Vizhupparaiyar" "Benares" "Badagara" "Vriddhachalam" 
+	   "Lahore" "Faisalabad" "Rawalpindi" "	Gujranwala" "Peshawar" "Multan" "Islamabad" "Quetta" "Ahmednagar" "Shimla" "Ahmedabad" 
+	   "Sultanpur" "Muzaffarnagar" "Akbarpur" "Jubbulpore" "Jajesmow" "Cawnpore" "Cuddapah" "Belgaum" "Tumkur" "Hubli" "Shimoga" 
+	   "Hospet" "Gulbarga" "Chikmagalur" "Bijapur" "Bellary" "Mangalore" "Rajahmundry" "Gurgaon" "Allahabad" "Alleppey" "Gauhati" 
+	   "Indhur" "Conjevaram" "Cannanore" "Quilon" "Quilandi" "Calicut" "Kudanthai" "Mayavaram" "Nerbudda" "Nowgong" "Palghat" 
+	   "Panjim" "Poona" "Ramnad" "Saugor" "Simla" "Tellicherry" "Tanjore" "Tuticorin" "Trichur" "Tinthirivanam" "Trichinopoly" 
+	   "Tinnevelly" "Triplicane" "Ootacamund" "Vizhupparaiyar" "Benares" "Badagara" "Vriddhachalam" 
 	   "Bejawada" "Waltair" 
 	}
 }
 
-### Theme: Mountains ###
-
 ### Theme: Rivers ###
+RAJ_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { RAJ PAK BRM }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HMIS "
+	fallback_name = "Ship-D %s"
+
+	unique = {
+		### India ###
+		"Meghna" "Dhaleshwari" "Dakatia" "Gumti" "Feni" "Tista" "Surma" "Kangsha" "Someshwari" "Kushiyara" "Manu" "Barak" "Tuivai" "Irang" 
+		"Ganga" "Brahmaputra" "Hooghly" "Damodar" "Barakar" "Jahnavi" "Jalangi" "Churni" "Ichamati" "Rupnarayan" "Ajay" "Mayurakshi" "Dwaakeswar" 
+		"Mundeswari" "Meghna" "Punarbhaba" "Atrai" "Mahananda" "Kosi" "Kamla" "Bagmati" "Burhi" "Phaglu" "Gandaki" "Son" "Kanhar" "Theme" "Lanva" 
+		"Pandu" "Goita"
+
+		### Pakistan ###
+		"Dasht" "Basol" "Hingol" "Porali" "Hub" "Orangi" "Malir" "Lyari" "Gujjar" "Indus" "Panjnad" "Chenab" "Ravi" "Jhelum" "Poonch" "Kunhar" 
+		"Neelum" "Tawi" "Manawar" "Sultej" "Gomal" "Kundar" "Zhob" "Kurrama" "Tochi" "Soan" "Ling" "Haro" "Kabul" "Swat" "Jindi" "Panjkora" "Bara" 
+		"Kunar" "Lutkho" "Siran" "Tangir"
+	}
+}
 
 ### Theme: Inspirational ###
+RAJ_THEME_INSPIRATION = {
+	name = NAME_THEME_INSPIRATION
+
+	for_countries = { RAJ PAK BRM }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HMIS "
+	fallback_name = "Ship-E %s"
+
+	unique = {
+		###
+	}
+}
 
 ### Theme: Famous Battles ###
+RAJ_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { RAJ PAK BRM }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HMIS "
+	fallback_name = "Ship-X %s"
+
+	unique = {
+		###
+	}
+}
+
+### Theme: Mythology ###
+RAJ_THEME_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { RAJ PAK BRM }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HMIS "
+	fallback_name = "Ship-F %s"
+
+	unique = {
+		###
+	}
+}

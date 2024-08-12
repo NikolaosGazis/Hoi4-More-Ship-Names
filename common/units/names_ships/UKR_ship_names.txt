@@ -1,0 +1,321 @@
+### Ukrainian Ship Names ###
+
+### Prefixes ###
+# -
+
+### Aircraft Carrier Names ###
+UKR_CV_HISTORICAL = { # Aviators.
+	name = NAME_THEME_HISTORICAL_CV
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	fallback_name = "Avianosets %d"
+
+	unique = {
+		"Pyotr Nesterov" "Pavel Rychagov" "Marina Raskova" "Anatoly Serov" "Alexander Seversky" "Stepan Balakin" "Mikhail Gromov" "Stepan Suprun" 
+		"Mikhail Babushkin" "Viktor Talalikhin" "Lev Shestakov" "Yevgeny Stepanov" "Arseny Vorozheykin" "Pyotr Khokhlov" "Alexei Maresyev" 
+		"Mikhail Devyatayev" "Boris Safonov" "Stepan Makarov" "Gerasim Lavrov" "Yevgeny Preobrazhensky"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+UKR_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	fallback_name = "Lehkyy Avianosets %d"
+
+	unique = {
+		"Lastivka" "Orel" "Sova" "Leleka" "Sokil" "Holub" "Kachka" "Kanareyka" "Coma" "Konyk" "Zhayvoronok" "Vorona" "Shpak" "Chayka" 
+		"Bdzhola" "Straus" "Metelyk" "Kazhan" "Dyatel" "Horobets" "Kolibri" "Solovey" "Martyn" "Zhuravel" "Synytsa" "Horlytsya" "Perepel" 
+		"Vedmedyk" "Strekoza" "Fazan" "Chaplya" "Drozd" "Kivi" "Papuga" "Hryph" "Shulyka" "Kropyvyanka" "Kulyk" "Lebid" "Norka" "Murena" 
+		"Ocheretyanka" "Perepilka" "Soroka" "Teterev" "Yastrub"
+	}
+}
+
+### Battleship Names ###
+UKR_BB_HISTORICAL = { # Figures - Importance.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	fallback_name = "Bronenosets %d"
+
+	unique = {
+		### Importance ###
+		"Ukrayina"
+
+		### Figures ###
+		"Hetman Bohdan Khmelnytsky" "Taras Shevchenko" "Ivan Mazepa" "Yaroslav" "Knyahynya Olga" "Mykola Lysenko" "Lesya Ukrainka" 
+		"Ivan Franko" "Symon Petliura" "Hryhorii Skovoroda" "Danylo Halytsky" "Volodymyr Velykyi" "Pavlo Skoropadskyi" "Olena Teliha" 
+		"Nestor Makhno" "Yurii Lypa" "Hetman Ivan Vyhovsky" "Petro Mohyla" "Ilarion" "Oleksandr Konysky" "Hryhoriy Epik" "Vsevolod Holubovych" 
+		"Serhiy Yefremov" "Mykhailo Drahomanov" "Mykhailo Hrushevsky" "Kost Levytsky" "Maksym Kryvonis" "Ivan Puliui" "Stepan Rudansky" 
+		"Nikolai Miklukho-Maklai" "Oleksa Dovbush" "Mykola Mikhnovsky"
+	}
+}
+
+### Battlecruiser Names ###
+UKR_BC_HISTORICAL = { # Values.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	fallback_name = "Lineynyy Kreyser %d"
+
+	unique = {
+		"Nezalezhnist" "Svoboda" "Hidnist" "Yednist" "Riznomanitnist" "Demokratiya" "Suverenitet" "Smilyvist" "Tradytsiya" "Stiykist" 
+		"Solidarnist" "Spravedlyvist" "Prohres" "Innovatsiya" "Tsilisnist" "Nadiya" "Syla" "Patriotyzm" "Prozorist" "Spravedlyvist" 
+		"Harmoniya" "Natkhnennya" "Bachennya" "Pristrast" "Muzhnist" "Ambitsiya" "Vira"
+	}
+}
+
+### Heavy Cruiser Names ###
+UKR_CA_HISTORICAL = { # Generals.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	fallback_name = "Vazhkyy Kreyser %d"
+
+	unique = {
+		###
+	}
+}
+
+### Light Cruiser Names ###
+UKR_CL_HISTORICAL = { # Admirals.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	fallback_name = "Lehkyy Kreyser %d"
+
+	unique = {
+		###
+	}
+}
+
+### Mineship Names ###
+UKR_MINESHIP_HISTORICAL = { # Flowers.
+	name = NAME_THEME_MINESHIP
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	fallback_name = "Shakhtnyy-Korabel %d"
+
+	unique = {
+		###
+	}
+}
+
+### Destroyer Names ###
+UKR_DD_HISTORICAL = { # Cities.
+	name = NAME_THEME_HISTORICAL_DD
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	fallback_name = "Ruynivnyk %d"
+
+	unique = {
+		"Kiev" "Kharkiv" "Dnipropetrovsk" "Donetsk" "Odessa" "Zaporizhzhya" "Lviv" "Kryvyy Rih" "Mykolayiv" "Mariupol" "Luhans" 
+		"Khmelnytskyy" "Sevastopol" "Makiyivka" "Simferopol" "Vinnytsya" "Kherson" "Poltava" "Chernihiv" "Cherkasy" "Sumy" "Zhytomyr" 
+		"Zhytomyr" "Horlivka" "Rivne" "Kirovohrad" "Dniprodzerzhynsk" "Chrnivtsi" "Ternopil" "Kremenchuk" "Lutsk" "Ivano-Frankivs" 
+		"Bila Tserkva" "Kramatorsk" "Melitopol" "Kerch" "Nikopol" "Syeverodonetsk" "Sloviansk" "Berdyansk" "Uzhhorod" "Alchevsk" 
+		"Pavlohrad" "Lisichansk" "Yevpatoriya" "Yenakiyeve" "Oleksandriya" "Kamieniec Podolski" "Konotop" "Kostyantynivka" 
+		"Krasnyy Luch" "Brovary" "Uman" "Berdychiv" "Shostka" "Stakhanov" "Chervonograd" "Izmayil" "Mukacheve" "Artemivsk" "Yalta" 
+		"Drogobych" "Nizhyn" "Novomoskovsk" "Nyzhnohirskyy" "Feodosiya" "Shakhtërsk" "Pervomaysk" "Krasnoarmiysk" "Torez"
+	}
+}
+
+### Submarine Names ###
+UKR_SS_HISTORICAL = { # Sea Creatures - Deities.
+	name = NAME_THEME_HISTORICAL_SS
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	fallback_name = "Pidvodnyy Choven %d"
+
+	unique = {
+		"Poseidon" "Tryton" "Nerey" "Keto" "Okean" "Talassa" "Syrena" "Ssyla" "Kharybda" "Delfin" "Hipokamp" "Haliya" "Hloriya" 
+		"Nayada" "Amfitryta" "Nereyda" "Akula" "Perlyna" "Tetis" "Niks" "Pont" "Fetyda" "Hydra" "Kalipso" "Telkhin" "Okeanida" 
+		"Nereya" "Dorida" "Pehas" "Halifeya" "Proty" "Forkis" "Evrynoma" "Doris" "Tytonida" "Arho" "Kharon" "Tunets" "Oseter" 
+		"Som" "Kambala" "Sargan" "Losos" "Skumbriya" "Shchuka" "Forel" "Korop" "Paltus" "Oseldets" "Akula" "Bychok" "Zubatka" 
+		"Kefal" "Barabulya"
+	}
+}
+
+##### Themes #####
+
+### Theme: Regions ###
+UKR_THEME_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser }
+
+	fallback_name = "Korabel-A %d"
+
+	unique = {
+		"Cherkasy" "Chernihiv" "Chernivtsi" "Dnipropetrovsk" "Donetsk" "Ivano-Frankivsk" "Kharkiv" "Kherson" "Khmelnytskyi" 
+		"Kirovohrad" "Luhansk" "Lviv" "Mykolaiv" "Odesa" "Poltava" "Rivne" "Sumy" "Ternopil" "Vinnytsia" "Volyn" "Zakarpattia" 
+		"Zaporizhzhia" "Zhytomyr" "Crimea"
+	}
+}
+
+### Theme: Mountains ###
+UKR_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallbaack_name = "Korabel-B %d"
+
+	unique = {
+		"Hoverla" "Brebeneskul" "PipIvan" "Petros" "Hutyn Tomnatyk" "Rebra" "Menchul" "Turkul" "Breskul" "Smotrych" "Blyznytsya" 
+		"Dzemrbonia" "Shpytsi" "Petrosul" "Dantsir" "Pozhyzhevska" "Neniska Velyka" "Syvulya" "Ihrovets" "Zherban" "Bratkivska" 
+		"Homul" "Shuryn" "Velyky Kotel" "Chyvchyn" "Dohyaska" "Hropa" "Dragobrat" "Dovbushanka" "Grofa" "Popadya" "Koman" "Moloda" 
+		"Strymba" "Chorna Kleva" "Tataruka" "Durna" "Unharyaska" "Nehrovets" "Stih" "Bushtul" "Ilemske" "Budychevska Velyka" "Stiy" 
+		"Bert" "Synyak" "Tempa" "Pidpula" "Perehinske" "Baba-Lyudova" "Kernychny" "Gorgan-Ilemsky" "Skupova" "Yarovytsya" "Berlyaska" 
+		"Tarnavystya" "Roman-Kosh" "Roztitska" "Pikui" "Parashka" "Trostian" "Verkh"
+	}
+}
+
+### Theme: Cities ###
+UKR_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Korabel-C %d"
+
+	unique = {
+		###
+	}
+}
+
+### Theme: Rivers ###
+UKR_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Korabel-D %d"
+
+	unique = {
+		"Dnieper" "Bug" "Dniester" "Donets" "Desna" "Horyn" "Inhulets" "Psel" "Sluch" "Styr" "Teteriv" "Sula" "Inhul" "Vorskia" "Ros" 
+		"Oril" "Udai" "Vovcha" "Samara" "Khorol" "Prut" "Pripyat" "Uzh" "Zbruch" "Seret" "Stryi" "Seim" "Aidar" "Kalmius" "Salhir" 
+		"Tysa" "Vysun" "Oster" "Luhan" "Molochna" "Snov" "Stokhid" "Turija" "Oskil" "Danube" "Ubort" "Krynka" "Smotrych" "Murafa" 
+		"Irpin" "Tiasmyn" "Bazavluk" "Ikva" "Chychyklia" "Tylihul" "Derkul" "Stvyha" 
+	}
+}
+
+### Theme: Animals ###
+UKR_THEME_ANIMALS = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	fallback_name = "Korabel-E %d"
+
+	unique = {
+		###
+	}
+}
+
+### Theme: Inspirational ###
+UKR_THEME_INSPIRATION = {
+	name = NAME_THEME_INSPIRATION
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "Korabel-F %d"
+
+	unique = {
+		"Neperemozhnyi" "Smilyvyi" "Avanhard" "Yasnyi" "Vytryvalyi" "Velychnyi" "Neukhylnyi" "Khorobryi" "Nepokhytniy" "Bezstrashnyi" 
+		"Bezstrashnyi" "Neprokynnyi" "Shliakhetnyi" "Stiykyi" "Napolehlyvyi" "Heroichnyi" "Rishuchyi" "Ehida" "Zaliznyi" "Tytanychnyi" 
+		"Hrіznyy" "Nezlamnyi" "Mohutniy" "Slavnyi" "Nevidvorotnyy" "Blyskuchyy" "Nezvorushnyy" "Hroznyy" "Nepokhytniy" "Neskorenyi"
+	}
+}
+
+### Theme: Famous Battles ###
+UKR_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "Korabel-G %d"
+
+	unique = {
+		"Kulikovo" "Zhovti Vody" "Korsun" "Pyliavtsi" "Konotop" "Azov" "Khotyn" "Pruth" "Ochakov" "Kagul" "Izmail" "Borodino" "Berezina" 
+		"Daugavpils" "Komarów" "Warsaw" "Blue Waters" "Grunwald" "Orsha" "Obertyn" "Keresztes" "Cecora" "Chudnov" "Uman" "Focșani" "Rymnik" 
+		"Kinburn" "Anapa" "Machin" "Craiova" "Berezhany" "Kars" "Stanislawów" "Nieman"
+	}
+}
+
+### Theme: Mythology ###
+UKR_THEME_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { UKR }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "Korabel-H %d"
+
+	unique = {
+		"Perun" "Dazhbog" "Mokosh" "Svarog" "Lada" "Veles" "Ilya Muromets" "Dobrynya Nikitich" "Alyosha Popovich" "Kyi" "Shchek" "Khoryv" 
+		"Lybid" "Domovyk" "Rusalka" "Leshy" "Chort" "Zmey Gorynych" "Baba Yaga" "Stribog" "Rod" "Svetovid" "Yarilo" "Kupala" "Zhiva" 
+		"Morana" "Hors" "Volkh Vseslavich" "Svyatogor" "Mikula Selyaninovich" "Vasyl Buslaev" "Sadko" "Poludnitsa" "Kikimora" "Vodyanoy" 
+		"Ovinnyk" "Upyr" "Strzyga" "Navi" "Pizhon" "Bolotnik" "Triglav" "Belobog" "Chernobog" "Tugarin Zmeyevich" "Duke Stepanovich"
+		"Alkonost" "Sirin" "Karachun" "Dvorovoi" "Vila"
+	}
+}
