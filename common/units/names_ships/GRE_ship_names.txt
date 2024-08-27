@@ -6,7 +6,7 @@
 # RBS = Royal Byzantine Ship. (Byzantium - Not Used)
 
 ### Aircraft Carrier Names ###
-GRE_CV_HISTORICAL = { # Aces - Flying Creatures.
+GRE_CV_HISTORICAL = { # Aces.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
 	for_countries = { GRE }
@@ -26,8 +26,24 @@ GRE_CV_HISTORICAL = { # Aces - Flying Creatures.
 		### World War 2 Aces ###
 		"Ioannis Lolos" "Marinos Mitralexis" "Panagiotis Argyropoulos" "Andreas Antoniou" "Spiros Pisanos" "Basilios Vassiliadis" 
 		"Ioannis Agorastos"
-		
-		### Flying Creatures ###
+	}
+}
+
+### Light Aircraft Carrier Names ###
+GRE_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { GRE }
+
+	can_use = { not = { has_government = communism } }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "RHS "
+	fallback_name = "Elafri Aeroplanoforo %d"
+
+	unique = {
 		"Aetos" "Gypas" "Geraki" "Koukouváyia" "Kirkinaki" "Kondoras" "Psaraetos" "Pigargos" "Kerasforos" "Alkotan" "Tsountso" 
 		"Boursado" "Nychterída" "Sfínga" "Petalouda" "Mélissa" "Kolimpri" "Harpyia" "Phoínikas" "Spourgíti" "Kounoupi" "Drakos"
 	}
@@ -154,10 +170,13 @@ GRE_MNS_HISTORICAL = { # Flowers.
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
 
 	prefix = "RHS "
-	fallback_name = "Narkoploio %d"
+	fallback_name = "Narkomachiko %d"
 
 	unique = {
-		###
+		"Triantafyllo" "Krinos" "Toulipa" "Iliotropio" "Margarita" "Orchidea" "Violeta" "Yasemi" "Garyfallo" "Yakinthos" "Levanta" 
+		"Paionia" "Chrysanthemo" "Iris" "Gardenia" "Narkissos" "Paparouna" "Kamelia" "Gerani" "Anemoni" "Mimoza" "Vasilikos" "Anaryllis" 
+		"Kalles" "Dalia" "Paschalia" "Frezia" "Lamonia" "Panses" "Zinia" "Pikrodafni" "Neragkoula" "Manolia" "Mantzourana" "Protea" 
+		"Asfodelos"
 	}
 }
 
@@ -352,7 +371,10 @@ GRE_THEME_INSPIRATION = {
 	fallback_name = "Polemikó Ploío-E %d"
 
 	unique = {
-		###
+		"Allilengýi" "Adámastos" "Dýnami" "Andréia" "Písti" "Aioniótita" "Akeraiótita" "Thárros" "Afovía" "Epimoní" "Axioprépeia" "Afosíosi" 
+		"Sthénos" "Enótita" "Antístasi" "Perifánia" "Dikaiosýni" "Apofasistikótita" "Anthektikótita" "Irida" "Euthychía" "Phos" "Spoudí" 
+		"Evgnomosýni" "Eleos" "Filotimía" "Efthýni" "Sophía" "Areti" "Galíni" "Ischý" "Ethniki" "Díkaio" "Endóchora" "Ethos" "Iseia" "Lógos" 
+		"Nóstos" "Katalýsi" "Ametákleptos" "Prostásia" "Alithía" "Kallipolemos" "Epifáneia" "Eftychiá" "Euthymía" "Harmonia"
 	}
 }
 
@@ -564,7 +586,7 @@ GRE_THEME_SAINTS = {
 ########################################################### Greece - Communist Ship Names ###################################################################################
 
 ### Aircraft Carrier Names ###
-GRE_CV_COMMUNIST = { # Aces - Flying Creatures.
+GRE_CV_COMMUNIST = { # Aces.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
 	for_countries = { GRE }
@@ -584,10 +606,26 @@ GRE_CV_COMMUNIST = { # Aces - Flying Creatures.
 		### World War 2 Aces ###
 		"Ioannis Lolos" "Marinos Mitralexis" "Panagiotis Argyropoulos" "Andreas Antoniou" "Spiros Pisanos" "Basilios Vassiliades" 
 		"Ioannis Agorastos"
-		
-		### Flying Creatures ###
+	}
+}
+
+### Light Aircraft Carrier Names ###
+GRE_CVL_COMMUNIST = { # Flying Creatures.
+	name = NAME_THEME_COMMUNIST_CVL
+
+	for_countries = { GRE }
+
+	can_use = { has_government = communism } 
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "HRS "
+	fallback_name = "Elafri Aeroplanoforo %d"
+
+	unique = {
 		"Aetos" "Gypas" "Geraki" "Koukouváyia" "Kirkinaki" "Kondoras" "Psaraetos" "Pigargos" "Kerasforos" "Alkotan" "Tsountso" 
-		"Boursado" "Nychterída" "Sfínga" "Petalouda" "Mélissa" "Kolimpri" "Harpyia" "Phoínix" "Spourgíti" "Kounoupi"
+		"Boursado" "Nychterída" "Sfínga" "Petalouda" "Mélissa" "Kolimpri" "Harpyia" "Phoínikas" "Spourgíti" "Kounoupi" "Drakos"
 	}
 }
 
@@ -698,6 +736,28 @@ GRE_CL_COMMUNIST = { # Cities.
 		"Mytilene" "Glyfada" "Keratsini" "Kalamaria" "Agrinio" "Stavroupoli" "Kallithea" "Evosmos" "Kerkyra" "Chalkida" "Nikaia" 
 		"Acharnes" "Chania" "Ioannina" "Rhodos" "Peristeri" "Volos" "Larisa" "Pireas" "Heraklion" "Patra"
  	} 
+}
+
+### Mineship Names ###
+GRE_MNS_COMMUNIST = { # Flowers.
+	name = NAME_THEME_COMMUNIST_MINESHIPS
+
+	for_countries = { GRE }
+
+	can_use = { has_government = communism } 
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HRS "
+	fallback_name = "Narkomachiko %d"
+
+	unique = {
+		"Triantafyllo" "Krinos" "Toulipa" "Iliotropio" "Margarita" "Orchidea" "Violeta" "Yasemi" "Garyfallo" "Yakinthos" "Levanta" 
+		"Paionia" "Chrysanthemo" "Iris" "Gardenia" "Narkissos" "Paparouna" "Kamelia" "Gerani" "Anemoni" "Mimoza" "Vasilikos" "Anaryllis" 
+		"Kalles" "Dalia" "Paschalia" "Frezia" "Lamonia" "Panses" "Zinia" "Pikrodafni" "Neragkoula" "Manolia" "Mantzourana" "Protea" 
+		"Asfodelos"
+	}
 }
 
 ### Destroyer Names ###
@@ -895,6 +955,28 @@ GRE_THEME_ANIMALS_COMMUNIST = {
 		"Leopardali" "Nychterída" "Ouragotakos" "Pouma" "Rinokeros" "Chibatzis" "Toukan" "Skylos" "Gata" "Papagalos" "Chámster" "Arkouda"
 		"Kanarini" "Gaidaros" "Pigkouinos" "Delfini" "Falaina" "Karxarias" "Psari" "Medousas" "Achinos" "Xiphias" "Sfyrokefalos" "Lykos"
 	} 
+}
+
+### Theme: Inspirational ###
+GRE_THEME_INSPIRATION_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_INSPIRATION
+
+	for_countries = { GRE }
+
+	can_use = {  has_government = communism }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "RHS "
+	fallback_name = "Polemikó Ploío-E %d"
+
+	unique = {
+		"Allilengýi" "Adámastos" "Dýnami" "Andréia" "Písti" "Aioniótita" "Akeraiótita" "Thárros" "Afovía" "Epimoní" "Axioprépeia" "Afosíosi" 
+		"Sthénos" "Enótita" "Antístasi" "Perifánia" "Dikaiosýni" "Apofasistikótita" "Anthektikótita" "Irida" "Euthychía" "Phos" "Spoudí" 
+		"Evgnomosýni" "Eleos" "Filotimía" "Efthýni" "Sophía" "Areti" "Galíni" "Ischý" "Ethniki" "Díkaio" "Endóchora" "Ethos" "Iseia" "Lógos" 
+		"Nóstos" "Katalýsi" "Ametákleptos" "Prostásia" "Alithía" "Kallipolemos" "Epifáneia" "Eftychiá" "Euthymía" "Harmonia"
+	}
 }
 
 ### Famous Battles ###

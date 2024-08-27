@@ -15,9 +15,8 @@ UKR_CV_HISTORICAL = { # Aviators.
 	fallback_name = "Avianosets %d"
 
 	unique = {
-		"Pyotr Nesterov" "Pavel Rychagov" "Marina Raskova" "Anatoly Serov" "Alexander Seversky" "Stepan Balakin" "Mikhail Gromov" "Stepan Suprun" 
-		"Mikhail Babushkin" "Viktor Talalikhin" "Lev Shestakov" "Yevgeny Stepanov" "Arseny Vorozheykin" "Pyotr Khokhlov" "Alexei Maresyev" 
-		"Mikhail Devyatayev" "Boris Safonov" "Stepan Makarov" "Gerasim Lavrov" "Yevgeny Preobrazhensky"
+		"Nesterov" "Rychagov" "Raskova" "Serov" "Seversky" "Balakin" "Gromov" "Suprun" "Babushkin" "Talalikhin" "Shestakov" "Stepanov" 
+		"Vorozheykin" "Khokhlov" "Maresyev" "Devyatayev" "Safonov" "Makarov" "Lavrov" "Preobrazhensky"
 	}
 }
 
@@ -94,7 +93,9 @@ UKR_CA_HISTORICAL = { # Generals.
 	fallback_name = "Vazhkyy Kreyser %d"
 
 	unique = {
-		###
+		"Skoropadsky" "Dragomirov" "Khmelnytsky" "Shapoval" "Shcherbatov" "Vasylkivsky" "Berezovsky" "Petlyura" "Vyhovsky" "Kryvonis" 
+		"Dorokhov" "Goncharenko" "Bozhko" "Gorchakov" "Mazepa" "Repnin" "Orlik" "Rudnitsky" "Polubotok" "Koshevoi" "Hulyanytsky" 
+		"Krutnytsky" "Sagaidachny" "Sulima" "Zaporozhets" "Morozov" "Paliy" "Vyhovsky" "Savenko"
 	}
 }
 
@@ -110,7 +111,11 @@ UKR_CL_HISTORICAL = { # Admirals.
 	fallback_name = "Lehkyy Kreyser %d"
 
 	unique = {
-		###
+		"Nakhimov" "Ushakov" "Kornilov" "Nemitz" "Arkas" "Dibich-Zabalkansky" "Bodisko" "Greig" "Nevelskoy" "Bezobrazov" "Tirpen"
+		"Glazenap" "Yakolev" "Likhachev" "Stark" "Vitgeft" "Rudnev" "Bredov" "Crichton" "Vernyhora" "Istomin" "Kazarksy" "Kontratiev" 
+		"Belli" "Kolchak" "Zhdanko" "Kononov" "Skripko" "Zotov" "Butakov" "Shestakov" "Burakov" "Kravchenko" "Mordvinov" "Aleskeev" 
+		"Annenkov" "Lazarev" "Panin" "Shcherbatov" "Voznesensky" "Fomin" "Chikhachev" "Bahrushin" "Zaslonov" "Tihonov" "Shishkov" 
+		"Sobolev"
 	}
 }
 
@@ -126,7 +131,10 @@ UKR_MINESHIP_HISTORICAL = { # Flowers.
 	fallback_name = "Shakhtnyy-Korabel %d"
 
 	unique = {
-		###
+		"Troyanda" "Romashka" "Sonyashnyk" "Liliya" "Tyulpan" "Fialka" "Nartsys" "Hvozdika" "Orkhideya" "Lavanda" "Kulbaba" "Irys" 
+		"Pivoniya" "Zhorzhyna" "Hladiolus" "Hibiskus" "Mak" "Buzok" "Khryzantema" "Magnoliya" "Krokus" "Amarilis" "Azaliya" "Kameliya" 
+		"Georgina" "Anemona" "Begoniya" "Kalla" "Verbena" "Lavatera" "Petuniya" "Primula" "Rudbekiya" "Frezia" "Dzhonkilya" "Klematis" 
+		"Kashka" "Eustoma" "Zinnia" "Edelveys"
 	}
 }
 
@@ -142,12 +150,12 @@ UKR_DD_HISTORICAL = { # Cities.
 	fallback_name = "Ruynivnyk %d"
 
 	unique = {
-		"Kiev" "Kharkiv" "Dnipropetrovsk" "Donetsk" "Odessa" "Zaporizhzhya" "Lviv" "Kryvyy Rih" "Mykolayiv" "Mariupol" "Luhans" 
-		"Khmelnytskyy" "Sevastopol" "Makiyivka" "Simferopol" "Vinnytsya" "Kherson" "Poltava" "Chernihiv" "Cherkasy" "Sumy" "Zhytomyr" 
-		"Zhytomyr" "Horlivka" "Rivne" "Kirovohrad" "Dniprodzerzhynsk" "Chrnivtsi" "Ternopil" "Kremenchuk" "Lutsk" "Ivano-Frankivs" 
-		"Bila Tserkva" "Kramatorsk" "Melitopol" "Kerch" "Nikopol" "Syeverodonetsk" "Sloviansk" "Berdyansk" "Uzhhorod" "Alchevsk" 
-		"Pavlohrad" "Lisichansk" "Yevpatoriya" "Yenakiyeve" "Oleksandriya" "Kamieniec Podolski" "Konotop" "Kostyantynivka" 
-		"Krasnyy Luch" "Brovary" "Uman" "Berdychiv" "Shostka" "Stakhanov" "Chervonograd" "Izmayil" "Mukacheve" "Artemivsk" "Yalta" 
+		"Kiev" "Kharkiv" "Dnipropetrovsk" "Donetsk" "Odessa" "Zaporizhzhya" "Lviv" "Kryvyy Rih" "Mykolayiv" "Mariupol" "Luhans"
+		"Khmelnytskyy" "Sevastopol" "Makiyivka" "Simferopol" "Vinnytsya" "Kherson" "Poltava" "Chernihiv" "Cherkasy" "Sumy" "Zhytomyr"
+		"Zhytomyr" "Horlivka" "Rivne" "Kirovohrad" "Dniprodzerzhynsk" "Chrnivtsi" "Ternopil" "Kremenchuk" "Lutsk" "Ivano-Frankivs"
+		"Bila Tserkva" "Kramatorsk" "Melitopol" "Kerch" "Nikopol" "Syeverodonetsk" "Sloviansk" "Berdyansk" "Uzhhorod" "Alchevsk"
+		"Pavlohrad" "Lisichansk" "Yevpatoriya" "Yenakiyeve" "Oleksandriya" "Kamieniec Podolski" "Konotop" "Kostyantynivka" "Yalta" 
+		"Krasnyy Luch" "Brovary" "Uman" "Berdychiv" "Shostka" "Stakhanov" "Chervonograd" "Izmayil" "Mukacheve" "Artemivsk"
 		"Drogobych" "Nizhyn" "Novomoskovsk" "Nyzhnohirskyy" "Feodosiya" "Shakhtërsk" "Pervomaysk" "Krasnoarmiysk" "Torez"
 	}
 }

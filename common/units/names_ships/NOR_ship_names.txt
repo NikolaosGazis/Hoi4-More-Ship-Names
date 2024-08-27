@@ -18,7 +18,7 @@ NOR_CV_HISTORICAL = { # Aviators.
 	unique = {
 		"Bernt Balchen" "Fridtjof Nansen" "Tryggve Gran" "Hanna Reitsch" "Thor Solberg" "Leif V. Aase" "Hjalmar Riiser-Larsen"
 		"Andreas B. Heide" "Henning Wang" "Birger F. Motzfeldt" "Einar Sem-Jacobsen" "Lars Christensen" "Dag Krohn-Hansen"
-		"Bjørn Granlund" "Bjørn F. Andresen"
+		"Bjørn Granlund" "Bjørn F. Andresen" "Fredrik Lützow-Holm" "Hans Hagerup Krag" "Carl Gustav Fleischer" "Jens Müllenbach"
 	}
 }
 
@@ -35,8 +35,9 @@ NOR_CVL_HISTORICAL = { # Flying Creatures.
 	fallback_name = "Lett Hangarskip %d"
 
 	unique = {
-		"Fugi" "Sommerfugl" "Flaggermus" "Øyenstikker" "Ørn" "Hauk" "Spurv" "Måke" "Svane" "Kolibri" "Ugle" "Due" "Bie" "Veps" 
-		"Flue" "Møll" "Pelikan" "Albatross" "Kondor" "Seiler" "Pterosaur" "Fe" "Lyktemann"
+		"Fugi" "Sommerfugl" "Flaggermus" "Øyenstikker" "Ørn" "Hauk" "Spurv" "Måke" "Svane" "Kolibri" "Ugle" "Due" "Bie" "Veps" "Stær"
+		"Flue" "Møll" "Pelikan" "Albatross" "Kondor" "Seiler" "Pterosaur" "Fe" "Lyktemann" "Trost" "Ravn" "Kråke" "Falk" "Hakkespett" 
+		"Svale" "Skarv" "Terne" "Sothøne" "Heilo" "And" "Stork" "Flamingo" "Ibis" "Kanarifugl" "Tårnseiler" "Nattergal" "Kongeørn"
 	}
 }
 
@@ -120,7 +121,6 @@ NOR_CL_HISTORICAL = { # Fjords.
 		"Balsfjorden" "Hjeltefjorden" "Lustrafjorden" "Rijpfjorden" "Sørfjorden" "Altafjorden" "Førdefjorden" "Duvefjorden" "Gullesfjorden" "Langfjorden" 
 		"Namsfjorden" "Bjørnafjorden" "Gardssundfjord" "Melfjorden" "Skjerstadfjorden" "Bømlafjorden" "Velfjorden" "Astafjorden" "Dicksonfjorden" "Drammensfjord" 
 		"Hornsund" "Krossfjorden" "Liefdefjorden"
-		#30km
 	}
 }
 
@@ -138,10 +138,10 @@ NOR_MNS_HISTORICAL = { # Mythology.
 
 	unique = {
 		### Minelayers ###
-		"Tyr" "Gor" "Vidar" "Brage" "Nor" "Vale" "Uller"
+		"Tyr" "Gor" "Vidar" "Brage" "Nor" "Vale" "Uller" "Olav Tryggvason" "Lauparen" "Otra" "Tordenskjold" "Viking"
 
 		### Minesweepers ###
-		"Jeløy" "Karmøy" "Oskøy" "Tromøy"
+		"Jeløy" "Karmøy" "Oskøy" "Tromøy" "Rauma" "Glommen" "Garsøy" "Snøgg" "Stord" "Mjølner"
 	}
 }
 

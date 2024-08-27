@@ -58,7 +58,7 @@ ICE_BB_HISTORICAL = { # Figures - Improtance.
 		"Snorri Sturluson" "Leif Erikson" "Gudrid Thorbjarnardóttir" "Bishop Jón Arason" "Eggert Ólafsson" "Ragnheiður Jónsdóttir" 
 		"Brynjólfur Sveinsson" "Hannes Hafstein" "Guðmundur Kamban" 
 
-		### Additionals ###
+		### Additionals - Importance ###
 		"Ísland"
 	}
 }

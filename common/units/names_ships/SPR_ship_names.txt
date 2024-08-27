@@ -331,7 +331,12 @@ SPR_THEME_ISLANDS = {
 	fallback_name = "Barco-F %d"
 
 	unique = {
-		###
+		"Ízaro" "Garraitz" "Santa Clara" "Aquech" "Txatxarramendi" "Vilano" "Faisanes" "Zuaza" "Montehano" "Santa Marina" "Pedrosa" "Virgen del Mar" 
+		"Castro" "San Pdruco" "Oliva" "Conejera" "Liencres" "Sarnosa" "Castril" "Solita" "Torre" "Moja el Rabo" "Ratones" "Horadada" "Ansión" "Segunda" 
+		"Casilda" "Neptuno Niño" "Oriñón" "Cuarezo" "Llera" "Águila" "Suaces" "Garfanta" "Hierba" "Campanuca" "Bayas" "Pantorgas" "Póo" "Herbosa" 
+		"Santiuste" "Forcón" "Borizo" "Carmen" "Islona" "Tapia" "Veiga" "Ballota" "Arousa" "Cies" "Ons" "Sálvora" "La Toja" "Toralla" "Sisargas" 
+		"Cortegada" "Onza" "Tambo" "Estelas" "Coelleira" "Touris Novo" "San Pedro" "Sagres" "Vionta" "Toralla" "Marma" "Lobeiras" "Centoleiras" "Beiro" 
+		"Farallóns" "Malveiras" "Briñas" "San Simón" "Area" "Santa Cruz" "San Vicente" "Pancha" "Gavoteira" "Canela" "Saltés" "Mayor"
 	}
 }
 
@@ -411,7 +416,9 @@ SPR_THEME_ANIMALS = {
 	fallback_name = "Barco-K %d"
 
 	unique = {
-		###
+		"León" "Tigre" "Oso" "Lobo" "Zorro" "Jabalí" "Ciervo" "Búfalo" "Elefante" "Coyote" "Ricoceronte" "Pantera" "Gorila" "Leopardo" "Cebra" "Canguro" "Guepardo" 
+		"Mapache" "Jaguar" "Caballo" "Iguana" "Armadillo" "Erizo" "Murciélago" "Hipopótamo" "Serpiente" "Camello" "Alce" "Ñu" "Zarigüeya" "Puma" "Tapir" "Gacela" 
+		"Bisonte" "Llama" "Canguro" "Comadreja" "Tejón" "Mandril" "Carpincho" "Gatomontés" "Antilope" "Chinchilla" "Lémur" "Dromedario" "Hurón"
 	}
 }
 

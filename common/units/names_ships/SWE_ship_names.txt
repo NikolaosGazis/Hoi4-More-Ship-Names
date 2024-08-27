@@ -17,7 +17,9 @@ SWE_CV_HISTORICAL = { # Aviators.
 
 	unique = {
 		"Carl Cederström" "Hjalmar Nyrop" "Elsa Andersson" "Per Albin Hansson" "Arne Tamm" "Curt Casten Carlsson" "Ernst Linder" 
-		"Axel Hammarskjöld" 
+		"Axel Hammarskjöld" "Henrik David Hamilton" "Ivar Krüger" "Einar Lundborg" "Birger Schyberg" "Gösta von Porat"
+		"Bror af Rosenschöld" "Gösta Andrée" "Gustaf Asplund" "Knut Kinner" "Einar Bergström" "Birger Ljungström"
+		"Henrik Thore Cederström" "Einar Lundborg"
 	}
 }
 
@@ -136,11 +138,29 @@ SWE_DD_HISTORICAL = { # Cities - Figures.
 	prefix = "HMS "
 	fallback_name = "Jagare %d"					
 
-	unique = {											
+	unique = {
+		### Västergötland Class (1936) - Current Construction ###
+		"Västergötland" "Östergötland" "Norrköping" "Jönköping"
+
+		### Öland Class (1939) ###
+		"Öland" "Södermanland"
+
+		### Gävle Class (1942) ###
+		"Gävle" "Karlstad" "Sundsvall" "Östersund"
+
+		### Göteborg Class (1929) - Standalone ###
+		"Göteborg"
+
+		### Stockholm Class (1929) ###
+		"Stockholm" "Malmö" "Göteborg" "Uppsala"
+
+		### Older Models - Standalones ###
 		"Göteborg" "Stockholm" "Malmö" "Karlskrona" "Gävle" "Norrköping" "Plisander" "Puke" "Visby" "Sundsvall" "Hälsingborg" "Kalmar" 
 		"Mode" "Magne" "Mjölner" "Munin" "Romulus" "Remus" "Öland" "Uppland" "Halland" "Småland" "Östergötland" "Södermanland" "Gästrikland" 
-		"Hälsingland" "Wrangel" "Wachtmeister" "Munin" "Ragnar" "Sigurd" "Vidar" "Hugin" "Wale" "Örnen" "Klas Horn" "Klas Uggla" "Ehrensköld" 
-		"Nordenskjöld"
+		"Hälsingland" "Wrangel" "Wachtmeister" "Munin" "Ragnar" "Sigurd" "Vidar" "Hugin" "Wale" "Örnen" "Klas Horn" "Klas Uggla" 
+
+		### Additionals ###
+		"Ehrensköld" "Nordenskjöld"
 	}
 }
 
@@ -159,7 +179,7 @@ SWE_SS_HISTORICAL = { # Animals - Fish.
 	unique = {
 		"Hajen" "Sälen" "Valrossen" "Bävern" "Illern" "Uttern" "Valen" "Draken" "Gripen" "Ulven" "Delfinen" "Nordkaparen" "Springaren"
 		"Sjölejonet" "Sjöbjörnen" "Sjöhunden" "Svärdfisken" "Tumlaren" "Dykaren" "Sjöhästen" "Sjöormen" "Sjöborren" "Neptun" "Najad" 
-		"Näcken" "Vargen" "Forellen" "Aborren" "Siken" "Gäddan" "Laxen" "Makrillen" 
+		"Näcken" "Vargen" "Forellen" "Aborren" "Siken" "Gäddan" "Laxen" "Makrillen"
 	}
 }
 
@@ -196,10 +216,12 @@ SWE_THEME_MOUNTAINS = {
 	fallback_name = "Skepp-B %d"
 
 	unique = {
-		"Kebnekaise" "Sarektjåkkå" "Helagsfjället" "Anarisfjället" "Kaskasatjåkka" "Snøhetta" "Skierffe" "Sylarna" 
-		"Storulvån" "Sulitelma" "Åreskutan" "Städjan" "Njulla" "Sytertoppen" "Storfjället" "Tärnaglaciären" 
-		"Väretsfjället" "Åresjön" "Trollsjön" "Kaitumjåkka" "Härjedalsfjällen" "Sultartjåkkå" "Ålfjället" "Rapa Ätno" 
-		"Giebmegáisi" "Rautasjaure" "Vålådalen" "Jiehkkevárri" "Syterskalet" "Tarfala"
+		"Kebnekaise" "Sarektjåkkå" "Helagsfjället" "Anarisfjället" "Kaskasatjåkka" "Snøhetta" "Skierffe" "Sylarna" "Storulvån" "Sulitelma" 
+		"Åreskutan" "Städjan" "Njulla" "Sytertoppen" "Storfjället" "Tärnaglaciären" "Väretsfjället" "Åresjön" "Trollsjön" "Kaitumjåkka" 
+		"Härjedalsfjällen" "Sultartjåkkå" "Ålfjället" "Rapa Ätno" "Giebmegáisi" "Rautasjaure" "Vålådalen" "Jiehkkevárri" "Syterskalet" "Tarfala"
+		"Gällivare" "Hogsåsen" "Børgefjell" "Vinkelfjäll" "Piedestalfjället" "Durkfjället" "Rödkläppen" "Stortoppen" "Ruvfläck" "Fjällstation" 
+		"Kälenfjället" "Höglunda" "Gåsenfjället" "Kårsavagge" "Vassfjäla" "Trollheimen" "Skäckerfjällen" "Söderfjällen" "Hållfjället" "Yttermalmen"
+		"Klapperfjället" "Västerfjäll" "Söderåsen" "Bjärvåfjäll" "Gånglången" "Fiskfjället" "Kälfjället" "Sälenfjällen" "Årefjällen"
 	} 
 }
 
@@ -216,11 +238,11 @@ SWE_THEME_CITIES = {
 	fallback_name = "Skepp-C %d"
 
 	unique = {
-		"Sigtuna" "Skara" "Lund" "Västerås" "Södertälje" "Visby" "Helsingborg" "Kalmar" "Kungälv" "Varberg" "Nyköping" 
-		"Arboga" "Falköping" "Falsterbo" "Halmstad" "Laholm" "Marstrand" "Skanör" "Skänninge" "Söderköping" "Trelleborg" 
-		"Västervik" "Ystad" "Örebro" "Malmö" "Jönköping" "Uppsala" "Linköping" "Enköping" "Simrishamn" "Trosa" "Östhammar" 
-		"Torshälla" "Strängnäs" "Växjö" "Norrköping" "Ronnedy" "Eksjö" "Hjo" "Kungsbacka" "Skövde" "Ulricehamn" "Vadstena" 
-		"Vimmerby" "Landskrona" "Sölvesborg" "Lidköping" "Köping" "Öregrund"
+		"Sigtuna" "Skara" "Lund" "Västerås" "Södertälje" "Visby" "Helsingborg" "Kalmar" "Kungälv" "Varberg" "Nyköping" "Arboga" 
+		"Falköping" "Falsterbo" "Halmstad" "Laholm" "Marstrand" "Skanör" "Skänninge" "Söderköping" "Trelleborg" "Västervik" 
+		"Ystad" "Örebro" "Malmö" "Jönköping" "Uppsala" "Linköping" "Enköping" "Simrishamn" "Trosa" "Östhammar" "Torshälla" 
+		"Strängnäs" "Växjö" "Norrköping" "Ronnedy" "Eksjö" "Hjo" "Kungsbacka" "Skövde" "Ulricehamn" "Vadstena" "Vimmerby" 
+		"Landskrona" "Sölvesborg" "Lidköping" "Köping" "Öregrund"
 	}
 }
 
@@ -237,10 +259,11 @@ SWE_THEME_RIVERS = {
 	fallback_name = "Skepp-D %d"
 
 	unique = {
-		"Göta" "Klarälven" "Dalälven" "Torne" "Ljungan" "Indalsälven" "Ångermanälven" "Lule" "Skellefteälven" 
-		"Vindelälven" "Öreälven" "Piteälven" "Lagan" "Nissan" "Svartån" "Ätran" "Mörrumsån" "Faxälven" "Ätran" 
-		"Åbyälven" "Voxnan" "Gavleån" "Rönne" "Motala Ström" "Mörrumsån" "Storån" "Jämtlandsfjällen" "Åreälven" 
-		"Fyrisån"
+		"Göta" "Klarälven" "Dalälven" "Torne" "Ljungan" "Indalsälven" "Ångermanälven" "Lule" "Skellefteälven" "Vindelälven" "Öreälven" 
+		"Piteälven" "Lagan" "Nissan" "Svartån" "Ätran" "Mörrumsån" "Faxälven" "Åbyälven" "Voxnan" "Gavleån" "Rönne" "Motala Ström" 
+		"Storån" "Jämtlandsfjällen" "Åreälven" "Fyrisån" "Stora Le" "Lidan" "Österdalälven" "Ramsjöån" "Tollå" "Kånnaån" "Husån" 
+		"Lilla Edet" "Läppen" "Porså" "Säveån" "Värnamoån" "Stöån" "Rialaån" "Höga Kusten" "Vikån" "Storsjöälven" "Tännsjöån" "Håverud" 
+		"Gimoån" "Sundsvallsån" "Vargån" "Gärdstaån" "Nedre Dalälven" "Grönaån" "Rörsjöån" "Sorseleälven" "Kälaån" "Östervålaån"
 	}
 }
 
@@ -258,7 +281,8 @@ SWE_THEME_CULTURE = {
 
 	unique = {
 		"Oberoende" "Vasatiden" "Midsommar" "Norrsken" "Riskdagen" "Järn" "Runstenar" "Unionen" "Krig" "Slott" "Samisk" "Stjärnväv" 
-		"Älvstrand" "Sjöstjärna" "Iskrona" "Eldsjäl" "Isörn"
+		"Älvstrand" "Sjöstjärna" "Iskrona" "Eldsjäl" "Isörn" "Måne" "Viking" "Sjöman" "Runor" "Kalla" "Väktare" "Borgen" "Riksgräns"
+		"Drottning" "Stjärna" "Följare" "Havsfågel" "Fjällsjäla" "Huvudman"
 	}
 }
 
@@ -324,8 +348,10 @@ SWE_THEME_BATTLES = {
 	fallback_name = "Skepp-H %d"
 
 	unique = {
-		"Kircholm" "Breitenfeld" "Lützen" "Warsaw" "Narva" "Fraustadt" "Gadebusch" "Grengam" "Svenskund" "Idstedt" 
-		"Heligoland" "Pulkkila" "Oravais" "Revolax" "Stäket" "Pälkäne" "Ratan" "Svolder" "Halmstad" "Lund" "Ledsund"
+		"Kircholm" "Breitenfeld" "Lützen" "Warsaw" "Narva" "Fraustadt" "Gadebusch" "Grengam" "Svenskund" "Idstedt" "Heligoland" "Pulkkila" 
+		"Oravais" "Revolax" "Stäket" "Pälkäne" "Ratan" "Svolder" "Lund" "Ledsund" "Tyringe" "Öland" "Malmö" "Röki" "Colberger Heide" 
+		"Gustavus Adolphus" "Västerås" "Arensburg" "Uppsala" "Piteå" "Stjärn" "Helsingborg" "Lerum" "Hedemora" "Viborg" "Fårö" "Ränneslätt" 
+		"Nässjö" "Lövö" "Österbybruk" "Ronneby" "Kopparberg" "Jönköping" "Borås" "Karlskrona"
 	}
 }
 

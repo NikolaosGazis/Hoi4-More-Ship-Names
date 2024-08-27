@@ -54,7 +54,9 @@ SOV_CVL_HISTORICAL = { # Flying Creatures.
 	fallback_name = "Legkiy Avianosets %d"
 
 	unique = {
-		###
+		"Oryol" "Sokol" "Voron" "Yastreb" "Korshun" "Stizh" "Lastochka" "Filin" "Sova" "Kondor" "Stevyatnik" "Berkut" "Chayka" "Snegir" 
+		"Pelikan" "Grif" "Kukushka" "Zhuravl" "Fregat" "Albatros" "Lebed" "Ptitsa" "Dyatel" "Teteriv" "Sinitsa" "Kryakva" "Golub" 
+		"Sizovoronka" "Indeyka" "Utka" "Tkach"
 	}
 }
 
@@ -392,7 +394,8 @@ SOV_THEME_MOUNTAINS = {
 	unique = { 
 		"Elbrus" "Dychtau" "Dzagam" "Pamir" "Khan Tengri" "Ismoil Somoni" "Belukha" "Kazbek" "Shan" "Sulak" "Ararat" "Ural" "Altai" "Kunlun" 
 		"Putorana" "Sayan" "Pamir-Alay" "Khibiny" "Gissar" "Zailiysky Alatau" "Vaygach" "Yakutskaya Spoka" "Sikhote-Alin" "Saryaska" "Kolyma" 
-		"Yenisei" "Verkhoyansk"
+		"Yenisei" "Verkhoyansk" "Sopka" "Chimgan" "Viskhach" "Koryaksky" "Fann" "Zabalkansky" "Krestovaya" "Olyutorsky" "Shkhara" "Klyuchevskaya" 
+		"Karakol" "Sredinny" "Nura" "Chukotsky" "Zabaikalye" "Dzhungarsky" "Turgen" "Alay" "Khentii" "Shor" "Belaya" "Barguzin" "Amur" "Pskem"
 	}
 }
 
@@ -471,7 +474,10 @@ SOV_THEME_BATTLES = {
 	fallback_name = "Korabl-G %d"
 
 	unique = {
-		###
+		"Tsushima" "Port Arthur" "Poltava" "Austerlitz" "Borodino" "Plevna" "Balaklava" "Tsukrova" "Taman" "Taganrog" "St. George" "Grunwald" "Kazan"
+		"Narva" "Vyborg" "Chocim" "Kars" "Tannenberg" "Neva" "Lipetsk" "Lake Peipus" "Kumanovo" "Bender" "Azov" "Sandomierz" "Praga" "Zboriv" 
+		"Mikhailovskaya" "Khotin" "Klushino" "Kurland" "Oder" "Szigetvár" "Salsk" "Sarikamis" "Taganrog" "Vistula" "Zamosc" "Tsaritsyn" "Kazan" "Perekop"
+		"Orel" "Voronezh" "Ufa" "Don" "Shakthty" "Tula" "Tambov" "Vologda"
 	}
 }
 
@@ -487,7 +493,9 @@ SOV_THEME_MYTHOLOGY = {
 	fallback_name = "Korabl-H %d"
 
 	unique = {
-		###
+		"Perun" "Veles" "Mokosh" "Stribog" "Dazhbog" "Baba Yaga" "Koschei" "Zorya" "Rusalka" "Domovoy" "Leshy" "Kikimora" "Vodyanoy" "Gorynych" "Svytogor" 
+		"Ilya Muromets" "Alkonost" "Rarog" "Tsvetok" "Kostroma" "Rusalka" "Morozko" "Chur" "Kupala" "Yarilo" "Mavka" "Moroz" "Rod" "Zlata" "Marzanna" 
+		"Zagovora" "Kostroma" "Lesovik" "Poludnica" "Shchuka" "Lada" "Zarya" "Tikhon" "Rodina"
 	}
 }
 
