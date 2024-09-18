@@ -1,0 +1,319 @@
+﻿##### Chilean Ship Names #####
+
+### Prefixes ###
+# BACH = Buques de la Armada Chile. (Official - Used)
+
+### Aircraft Carrier Names ###
+CHL_CV_HISTORICAL = { # Aviators - Importance.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "BACH "
+	fallback_name = "Portaaviones %d"	
+
+	unique = {
+		"Arturo Benítez" "José González" "Dagoberto Godoy" "Luis Omar Page" "Clodomiro Figueroa" "Carlos Bezanilla" "Roberto Parragué Singer"
+		"César Copetta" "René Le Feuvre" "Armando Cortínez" "Manuel Ávalos Prado" "Germán Acevedo Salinas" "Raúl Vergara Meneses" "Carlos Kraemer"
+		"Enrique Flores" "Luis Pardo Villalón" "Pedro Pablo Dartnell" "Eulogio Sánchez Errázuriz" "Herbert Sommerhoff" "Rolando González Burnier"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+CHL_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "BACH "
+	fallback_names = "Portaaviones Ligero %d"
+
+	unique = {
+		"Vencejo" "Pato" "Quetzal" "Palorma" "Avispa" "Cuervo" "Martinete" "Tórtola" "Gaviota" "Pavo Real" "Azor" "Abeja" "Gavilán"
+		"Ibis" "Murciélago" "Colibrí" "Papagayo" "Libélula" "Alondra" "Periquito" "Jilguero" "Halcon" "Faisán" "Golondrina" "Cárabo"
+		"Canario" "Águila" "Avetoro" "Zarapito" "Cisne" "Búho" "Cigüeña" "Gorrión" "Cóndor" "Gorrión" "Petirrojo" "Cotorra" "Ánsar"
+		"Azor"
+	}
+}
+
+### Battleship Names ###
+CHL_BB_HISTORICAL = { # Importance - Figures.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "BACH "
+	fallback_name = "Acorazado %d"		
+
+	unique = {
+		"Almirante Latorre" "República de Chile" "Lima" "Peruana" "Libertad" "Trujillana" "Argentina" "Pacífico" "Neptuno" "Cazador" "Cochrane" 
+		"Rímac" "County of Peebles" "Majestic" "Betelgeuse" "Almirante Brown" "Almirante Miranda" "Victoria" "Honor" "Valor" "Gloria" "Orion" 
+		"Andromeda" "Aurora" "Vulcan" "Hércules" "Atlas" "Poseidón" "Achilles" "Invencible" "Vanguardia" "Centurión"
+	}
+}
+
+### Battlecruiser Names ###
+CHL_BC_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "BACH "
+	fallback_name = "Crucero de Batalla %d"		
+
+	unique = {
+		"Audaz" "Valiente" "Intrépido" "Fiero" "Indomable" "Invencible" "Bravo" "Fulgor" "Acorazado" "Temerario" "Impetuoso" "Vengador" "Resuelto" 
+		"Inquebrantable" "Firme" "Implacable" "Aguerrido" "Furioso" "Letal" "Dominante" "Imponente" "Rugiente" "Heroico" "Audaz" "Tempestuoso" 
+		"Resoluto" "Insuperable" "Invulnerable"
+	}
+}
+
+### Heavy Cruiser Names ###
+CHL_CA_HISTORICAL = { # Generals.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "BACH "
+	fallback_name = "Crucero Pesado %d"
+
+	unique = {
+		"Bernardo O'Higgins" "Manuel Bulnes" "Ramón Freire" "José de San Martín" "José Miguel Carrera" "Pedro Lagos" "Emilio Kosterlitzky" 
+		"Arturo Prat" "Carlos Ibáñez del Campo" "Luis Urzúa" "Augusto Pinochet" "Rafael Jofré" "Antonio Varas" "Héctor Herrera" "Juan Antonio Ríos" 
+		"Luis Altamirano" "José Luis Pérez de Arce" "Vicente Pérez Rosales" "Juan José Latorre" "Héctor Pinto"
+	}
+}
+
+### Light Cruiser Names ###
+CHL_CL_HISTORICAL = { # Various.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "BACH "
+	fallback_name = "Crucero Ligero %d"
+
+	unique = {
+		"Chacabuco" "Araucano" "Santiago de Chile" "Valparaiso" "Valdivia" "Osorno" "Punta Arenas" "Chillán" "Talcahuano" "Rancagua" "Coquimbo"
+		"Elena" "Galvarino" "Bárbara" "Moctezuma" "Teresana" "Inglés" "Dos Amigos" "Valparaíso" "Confederación" "Huanay" "Janequeo" "Santa Lucía"
+		"Colo Colo" "Fresia" "Contreras" "Videla" "Leucotón" "O'Higgins" "Lautaro" "San Martín" "María Isabel" "Cóndor" "Zaldívar"
+	}
+}
+
+### Mineship Names ###
+CHL_MNS_HISTORICAL = { # Flowers.
+	name = NAME_THEME_HISTORICAL_MINESHIPS
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "BACH "
+	fallback_name = "Barco Minero %d"
+
+	unique = {
+		"Copihue" "Alstroemeria" "Pata de Guanaco" "Añañuca" "Mutisia" "Rosa mosqueta" "Maitén" "Chilco" "Quisquito" "Matico" "Lupino" "Llareta"
+		"Ciruelo" "Flor de Litre" "Viola" "Lavanda" "Malvilla" "Ñipa" "Chagual" "Espino" "Calafate" "Canelo" "Topa Topa" "Dedal de Oro" "Aromo"
+		"Amancay" "Papayo" "Copao" "Toronjil" "Pasiflora" "Quillay" "Suspiro" "Ortiga" "Chaura" "Corcolén" "Tara" "Lapageria" "Michay" "Siete Camisas"
+		"Culen" "Michay" "Arrayán" "Peumo"
+	}
+}
+
+### Destroyer Names ###
+CHL_DD_HISTORICAL = { # Admirals - Figures - Geography.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "BACH "
+	fallback_name = "Destructor %d"					
+
+	unique = {											
+		"Almirante Lynch" "Almirante Condell" "Aldea" "Hyatt" "Orella" "Requelme" "Videla" "Almirante Riveros" "Almirante Williams" "Blanco Encalada" 
+		"Cochrane" "Ministro Zenteno" "Ministro Portales" "Potrillo" "Perla" "Pueyrredón" "Águila" "Araucano" "Fortunata" "María" "Rambler" "Magdalena" 
+		"Chacabuco" "Dolores" "Begoña" "Intrépido" "Jerezana" "Independencia" "Esmeralda" "Hércules" "Ave María" "Voltaire" "Constituyente" "Joven Daniel" 
+		"Socabaya" "Gipsy" "Orión" "Señorense" "Abtao" "Thalaba" "Itata" "Amazonas" "Rucumilla" "Domingo Santa María" "Mapocho" "Bío Bío" "Yañez" "Serrano" 
+		"Orella" "Muñoz Gamero" "Yelcho" "Iquique" "Errázuriz" "Caupolicán" "Uribe" "Capitán Prat" 
+	}
+}
+
+### Submarine Names ###
+CHL_SS_HISTORICAL = { # Figures - Rivers.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "BACH "
+	fallback_name = "Submarino %d"
+	
+	unique = {
+		"Gualcolda" "Tegualda" "Rucumilla" "Quidora" "Fresia" "Guale" "Capitán O`Brien" "Almirante Simpson" "Capitán Thomson" "O`Higgins" 
+		"Carrera" "Pizarro" "Ñuble" "Arturo" "Fósforo" "Carlos" "Toltén" "Mapocho" "Bío Bío" "Yañez" "Serrano" "Orella" "Muñoz Gamero" 
+		"Yelcho" "Iquique" "Errázuriz" "Caupolicán" "Uribe" "Capitán Prat"
+	}
+}
+
+##### Themes #####
+
+### Theme: Regions ###
+CHL_THEME_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARA"
+	fallback_name = "Barco-A %d"
+
+	unique = {
+		"Arica" "Parinocata" "Tarapacá" "Antofagasta" "Atacama" "Coquimbo" "Valparaíso" "Metropolitan" "O'Higgins" "Maule" "Maule"
+		"Ñuble" "Biobío" "Araucanía" "Los Ríos" "Los Lagos" "Aysén" "Magallanes"
+	}
+}
+
+### Theme: Mountains ###
+CHL_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARA"
+	fallback_name = "Barco-B %d"
+
+	unique = {
+		"Acotango" "Aritinca" "Capurata" "Guallatiri" "Parinacota" "Pomerape" "Taapaca" "Tacora" "Alto Torini" "Irruputuncu" "Isluga"
+		"Acamarachi" "Aguas Calientes" "Aucanquilcha" "Azufre" "Caichinque" "Chiliques" "Colachi" "Colorado" "Escorial" "Guayaques"
+		"Incahuasi" "Juriques" "Lascar" "Lastarria" "Licancabur" "Linzor" "Llullaillaco" "Minchincha" "Miñiques" "Miño" "Miscanti"
+		"Olca" "Ollagüe" "Palpana" "Paranal" "Paruma" "Pular" "Putana" "Sairecabur" "Toco" "Zapaleri" "Bayo" "Solo" "Incahuasi" "Plomo"
+	}
+}
+
+### Theme: Cities ###
+CHL_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARA"
+	fallback_name = "Barco-C %d"
+
+	unique = {
+		"Rancagua" "La Pintana" "Talca" "Arica" "Coquimbo" "Puerto Montt" "La Serena" "Chillán" "Calama" "Osorno" "Valdivia" "Quilpué"
+		"Copiapó" "Los Ángeles" "Punta Arenas" "Lo Prado" "Curicó" "Vila Alemana" "Coronel" "San Antonio" "Chiguayante" "Ovalle" "Linares"
+		"Quillota" "Peñaflor" "Melipilla" "San Felipe" "Los Andes" "Buin" "Talagante" "Lota" "Hacienda La Calera" "Tomé" "Penco" "Coihaique"
+		"Vallenar" "Angol" "Rengo" "Constitución" "Limache" "Santa Cruz" "Paine" "Villarrica" "San Carlos" "Cauquenes" "Curanilahue"
+		"Las Animas" "Castro" "Lampa" "Molina" "Ancud" "Machalí" "Pucón" "Parral" "La Unión" "Puerto Varas" "La Ligua" "Arauco" "Victoria"
+		"Tocopilla" "Graneros" "El Monte" "Illapel" "San Vicente" "San Javier" "Lebu" "Mulchén" "Puerto Quellón" "Lautaro" "Nacimiento"
+	}
+}
+
+### Theme: Rivers ###
+CHL_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARA"
+	fallback_name = "Barco-D %d"
+
+	unique = {
+		"Amancay" "Caiván" "Aconcagua" "Bravo" "Alvarado" "Abutarda" "Bertrand" "Calbuco" "Almendro" "Ancoa" "Callao" "Canelos" "Caico"
+		"Agrio" "Ajatama" "Cajones" "Blanco" "Achibueno" "Calafate" "Blanquillo" "Carpa" "Cancura" "Cabrera" "Amarillo" "Captrén" "Aqua Blanca"
+		"Aisen" "Butaco" "Caicupil" "Ana" "Caritaya" "Caronte" "Aguada" "Abtao" "Calle" "Amargo" "Caspana" "Alhueco" "Bermejo" "Caldera"
+		"Calonje" "Antucol" "Alerce" "Álvarez" "Ahinco" "Bullilico" "Ancoma" "Anay" "Abelmos" "Bellavista" "Ancatraro" "Budi" "Arco" "Caracol"
+		"Camisas" "Carpintero" "Calles" "Bueno" "Cachaco" "Casitas" "Camare" "Caleu"
+	}
+}
+
+### Theme: Animals ###
+CHL_THEME_ANIMALS = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARA"
+	fallback_name = "Barco-E %d"
+
+	unique = {
+		"Lobo" "Puma" "Zorro" "Guanaco" "Culpeo" "Chingue" "Jaguar" "Huemul" "Tigre" "Quirquincho" "Piche" "León" "Lagarto" "Ciervo" "Jabalí"
+		"Gato Montés" "Caracal" "Ocelote" "Pudu" "Lince" "Yaguarundí" "Coipo" "Vizcacha" "Tarántula" "Iguana" "Nutria" "Puma Andino" "Liebre"
+		"Venado" "Comadreja" "Zorrillo" "Rata" "Tejón" "Erizo" "Mofeta" "Pangolín"
+	}
+}
+
+### Theme: Famous Battles ###
+CHL_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_light carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "ARA "
+	fallback_name = "Barco-F %d"
+
+	unique = {
+		"Chacabuco" "Maipú" "El Roble" "Pangal" "Licray" "Yungay" "Pisagua" "Dolores" "Tarapacá" "Tacna" "Arica" "Chorrillos" "Miraflores" 
+		"La Concepción" "Huamachuco" "Placilla" "Concón" "Pozo Almonte" "Loncomilla" "Cerro Grande" "Membrillar" "Quechereguas" "Curapalihue" 
+		"Pampa Germania"
+	}
+}
+
+### Theme: Mythology ###
+CHL_THEME_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "ARA "
+	fallback_name = "Barco-G %d"
+
+	unique = {
+		"Trentren Vilu" "Caicai Vilu" "Pillán" "Nguruvilú" "Anchimayen" "Caleuche" "La Pincoya" "La Fiura" "El Trauco" "Coñilhuan" "Tenten"
+		"Chonchón" "Mapurbe" "Wekufe" "Invunche" "Alwe" "Rere" "Alicanto" "Huecuvus" "Lanalhue" "Millalobo" "Pincoy" "Tegualda" "Raimán"
+		"Carbunco" "Chivato" "Brujo de Chiloé" "Camahueto" "Sumpall" "Huella del Puma"
+	}
+}

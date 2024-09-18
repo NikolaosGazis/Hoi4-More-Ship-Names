@@ -100,8 +100,8 @@ DEN_CL_HISTORICAL = { # Mythical Places.
 	fallback_name = "Lys Cruiseren %d"
 
 	unique = {
-		"Asgård" "Bryggen" "Dværgelandet" "Havbjerget" "Lidenlund" "Nordlandet" "Risvangen" "Skrømtelandet" "Solstråleøen" "Sørøverbugten" "Troldebjerg" 
-		"Vætteskoven" "Kæmpeskoven" "Nattehimlen" "Dragebjerg" "Himmelbroen" "Elverhøj" "Troldlandet" "Nattens Bro"
+		"Asgård" "Bryggen" "Dværgelandet" "Havbjerget" "Lidenlund" "Nordlandet" "Risvangen" "Skrømtelandet" "Solstråleøen" "Sørøverbugten" 
+		"Troldebjerg" "Vætteskoven" "Kæmpeskoven" "Nattehimlen" "Dragebjerg" "Himmelbroen" "Elverhøj" "Troldlandet" "Nattens Bro"
 	}
 }
 
@@ -118,9 +118,9 @@ DEN_DD_HISTORICAL = { # Marine Creatures - Nautical Concepts.
 	fallback_name = "Destroyer %d"					
 
 	unique = {											
-		"Nymfen" "Najaden" "Søridderen" "Flyvefisken" "Søulven" "Hvalrossen" "Delfinen" "Sværdfisken" "Springeren" "Støren" "Søløven" "Søhunden" "Havhesten" 
-		"Narhvalen" "Makrelen" "Nordkaperen" "Havkatten" "Sælen" "Dragen" "Hvalen" "Laxen" "Søhesten" "Sirenen" "Mågefuglen" "Havgudinden" "Bølgebruderen" 
-		"Koralreven" "Stjerneskibet" "Sydhavet" "Kaskelotten"
+		"Nymfen" "Najaden" "Søridderen" "Flyvefisken" "Søulven" "Hvalrossen" "Delfinen" "Sværdfisken" "Springeren" "Støren" "Søløven" "Søhunden" 
+		"Havhesten" "Narhvalen" "Makrelen" "Nordkaperen" "Havkatten" "Sælen" "Dragen" "Hvalen" "Laxen" "Søhesten" "Sirenen" "Mågefuglen" "Havgudinden" 
+		"Bølgebruderen" "Koralreven" "Stjerneskibet" "Sydhavet" "Kaskelotten"
 	}
 }
 
@@ -194,8 +194,8 @@ DEN_THEME_CITIES = {
 	unique = {
 		"Aarhus" "Odense" "Aalborg" "Esbjerg" "Randers" "Kolding" "Horsens" "Vejle" "Roskilde" "Herning" "Hørsholm" "Helsingør" "Silkeborg" "Næstved" 
 		"Fredericia" "Viborg" "Køge" "Holstebro" "Taastrup" "Slagelse" "Hillerød" "Holbæk" "Sønderborg" "Svendborg" "Hjørring" "Frederikshavn" 
-		"Nørresundby" "Ringsted" "Haderslev" "Ølstykke-Stenløse" "Skive" "Birkerød" "Farum" "Smørumnedre" "Skanderborg" "Nyborg" "Lillerød" "Kalundborg" 
-		"Frederikssund" "Aabenraa" "Solrød Strand" "Ikast" "Middelfart" "Grenaa" "Korsør" "Varde" "Rønne" "Thisted" "Værløse"
+		"Nørresundby" "Ringsted" "Haderslev" "Ølstykke-Stenløse" "Skive" "Birkerød" "Farum" "Smørumnedre" "Skanderborg" "Nyborg" "Lillerød" 
+		"Kalundborg" "Frederikssund" "Aabenraa" "Solrød Strand" "Ikast" "Middelfart" "Grenaa" "Korsør" "Varde" "Rønne" "Thisted" "Værløse"
 	}
 }
 
@@ -237,6 +237,23 @@ DEN_THEME_ISLANDS = {
 	} 
 }
 
+### Theme: Inspirational ###
+DEN_THEME_INSPIRATIONAL = {
+	name = NAME_THEME_INSPIRATION
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_hevay ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HDMS "
+	fallback_name = "Skib-F %d"
+
+	unique = {
+		###
+	}
+}
+
 ### Theme: Culture ###
 DEN_THEME_CULTURE = {
 	name = NAME_THEME_CULTURE
@@ -247,7 +264,7 @@ DEN_THEME_CULTURE = {
 	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HDMS "
-	fallback_name = "Skib-F %d"
+	fallback_name = "Skib-G %d"
 
 	unique = { 
 		"Skjoldvagt" "Havbris" "Freyasol" "Ravnsværd" "Astrum" "Himmelblå" "Tordenskær" "Ørnsving" "Silhuet" "Lyngbrand" "Isbjørn" "Måneskær" 
@@ -265,7 +282,7 @@ DEN_THEME_BATTLES = {
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
 
 	prefix = "HDMS "
-	fallback_name = "Skib-G %d"
+	fallback_name = "Skib-H %d"
 
 	unique = {
 		"Lyndanisse" "Bornhöved" "Fredericia" "Heligoland" "Als" "Sankelmark" "Bov" "Lundby" "Dybbøl" "Re" "Köge Bay" "Fehmarn"

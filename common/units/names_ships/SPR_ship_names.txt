@@ -154,6 +154,62 @@ SPR_CL_HISTORICAL = { # Historical - Cities.
 	}
 }
 
+### Minesweeper Names ###
+SPR_MINESWEEPERS_HISTORICAL = { # Deities - Rivers - Figures.
+	name = NAME_THEME_HISTORICAL_MINESWEEPERS
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "ARE "
+	fallback_name = "Buscaminas %d"
+
+	unique = {
+		### Bidasoa Class (1906) ###
+		"Bidasoa" "Ebro" "Segre"
+
+		### Cíclope Class (1916) ###
+		"Cíclope" "Tritón" "Prosperina"
+
+		### Converted ###
+		"Lepanto" "Neptuno" "Girona" "Mistral"
+
+		### Others ###
+		"Martín Álvarez" "Capitán Miranda" "Jovellanos" "Galicia" "Virgen de la Caridad"
+
+		### Additionals ###
+		"Sagunto" "Numancia" "Covadonga" "Sarmiento" "Cervantes" "Apolón" "Minerva" "Zeus" "Iberia" "Castilla" 
+		"Asturias" "Navarra"
+	}
+}
+
+
+### Minelayer Names ###
+SPR_MINELAYER_HISTORICAL = { # Deities - Geography.
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "ARE "
+	fallback_name = "Cazaminas %d"
+
+	unique = {
+		### Historical Models ###
+		"Júpiter" "Poseidón" "Vulcano" "Marte" "Anteo"
+
+		### Additionals - Geography ###
+		"Teide" "Mulhacén" "Aneto" "Tormes" "Tagus" "Pyrenees" "Sieera Nevada" "Ibiza"
+
+		### Additionals - Deities ###
+		"Atlante" "Cronos" "Hebe" "Selene" "Calypso" "Eolia" "Oceano" "Atlas"
+	}
+}
+
 ### Destroyer Names ###
 SPR_DD_HISTORICAL = { # Military Officers - Geography - Adjectives.
 	name = NAME_THEME_HISTORICAL_DESTROYERS

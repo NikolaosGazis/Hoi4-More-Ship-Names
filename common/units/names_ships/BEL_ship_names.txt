@@ -1,0 +1,266 @@
+﻿##### Belgian Ship Names #####
+
+### Prefixes ###
+# BNS = Belgian Navy Ship. (NATO - Used)
+
+### Aircraft Carrier Names ###
+BEL_CV_HISTORICAL = { # Aviators - Importance.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "BNS "
+	fallback_name = "Porte-Avions %d"	
+
+	unique = {
+		"Graaf van Vlaanderen" "Hainaut" "Robrecht de Béthune" 	"Aster" "Bellis" "Crocus" "Lobelia" "Narcis" "Primula" 
+	}
+}
+
+### Light Aircraft Carrier Names ###
+BEL_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "BNS "
+	fallback_name = "Porte-Avions Léger %d"
+
+	unique = {
+		###
+	}
+}
+
+### Battleship Names ###
+BEL_BB_HISTORICAL = { # Importance - Figures.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "BNS "
+	fallback_name = "Navire de Ligne %d"		
+
+	unique = {
+		"Roi Leopold I" "Roi Leopold II" "Roi Albert I" "Reine Astrid" "Jeneval" "General Brialmont" "Leopoldville" 
+	}
+}
+
+### Battlecruiser Names ###
+BEL_BC_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "BNS "
+	fallback_name = "Croiseur Cuirassé %d"		
+
+	unique = {
+		"Roi Leopold I" "Roi Leopold II" "Roi Albert I" "Reine Astrid" "Jeneval" "General Brialmont" "Leopoldville" 
+	}
+}
+
+### Heavy Cruiser Names ###
+BEL_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "BNS "
+	fallback_name = "Croiseur Lourd %d"
+
+	unique = {
+		"Wielingen" "Westdiep" "Wandelaar" "Albertville" "Elisabethville" "Antwerpen" "Bruxelles" "Gent" "Ieper" "Liege" "Brugge" "Roeselare" 
+	}
+}
+
+### Light Cruiser Names ###
+BEL_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "BNS "
+	fallback_name = "Croiseur Léger %d"
+
+	unique = {
+		"Wielingen" "Westdiep" "Wandelaar" "Albertville" "Elisabethville" "Antwerpen" "Bruxelles" "Gent" "Ieper" "Liege" "Brugge" "Roeselare" 
+	}
+}
+
+### Mineship Names ###
+BEL_MNS_HISTORICAL = { # Flowers.
+	name = NAME_THEME_HISTORICAL_MINESHIPS
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "BNS "
+	fallback_name = "Chasseur de Mines %d"
+
+	unique = {
+		###
+	}
+}
+
+### Destroyer Names ###
+BEL_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "BNS "
+	fallback_name = "Contre-Torpilleur %d"					
+
+	unique = {											
+		"Artevelde" "Zinnia" "Jan Breydel" "Victor Billet" "Wielingen" "Westdiep" "Wandelaar" "Westhinder" "Leopold I" "Louise-Marie" "Brugge" 
+	}
+}
+
+### Submarine Names ###
+BEL_SS_HISTORICAL = { # Sea Creatures.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "BNS "
+	fallback_name = "Sous-Marin %d"
+	
+	unique = {
+		"Artevelde" "Zinnia" "Jan Breydel" "Victor Billet" "Wielingen" "Westdiep" "Wandelaar" "Westhinder" "Leopold I" "Louise-Marie" "Brugge" 
+	}
+}
+
+##### Themes #####
+
+### Theme: Regions ###
+BEL_THEME_REGIONS = {
+	###
+}
+
+### Theme: Mountains ###
+BEL_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "BNS "
+	fallback_name = "Navire de Guerre-B %d"
+
+	unique = {
+		###
+	}
+}
+
+### Theme: Cities ###
+BEL_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "BNS "
+	fallback_name = "Navire de Guerre-C %d"
+
+	unique = {
+		###
+	}
+}
+
+### Theme: Rivers ###
+BEL_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "BNS "
+	fallback_name = "Navire de Guerre-D %d"
+
+	unique = {
+		###
+	}
+}
+
+### Theme: Weather Phenomenons ###
+BEL_THEME_WEATHER = {
+	name = NAME_THEME_WEATHER
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "BNS "
+	fallback_name = "Navire de Guerre-E %d"
+
+	unique = {
+		###
+	}
+}
+
+### Theme: Famous Battles ###
+BEL_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "BNS "
+	fallback_name = "Navire de Guerre-F %d"
+
+	unique = {
+		###
+	}
+}
+
+### Theme: Mythology ###
+BEL_THEME_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "BNS "
+	fallback_name = "Navire de Guerre-G %d"
+
+	unique = {
+		###
+	}
+}

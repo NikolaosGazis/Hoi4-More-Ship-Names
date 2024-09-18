@@ -1,0 +1,265 @@
+﻿##### Romanian Ship Names #####
+
+### Prefixes ###
+# NMS = Nava Majestăţii Sale. (Official - Used)
+
+### Aircraft Carrier Names ###
+ROM_CV_HISTORICAL = { # Aviators - Importance.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "NMS "
+	fallback_name = "Portavion %d"	
+
+	unique = {
+		"Romania" "Bucuresti" "Banat" "Constanta" "Mangalia" "Sulina" "Navodari" 
+	}
+}
+
+### Light Aircraft Carrier Names ###
+ROM_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "NMS "
+	fallback_name = "Portavion Ușor %d"
+
+	unique = {
+		###
+	}
+}
+
+### Battleship Names ###
+ROM_BB_HISTORICAL = { # Importance - Figures.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "NMS "
+	fallback_name = "Vas de Razboi %d"		
+
+	unique = {
+		"Constanta" "Tirgu Mures" "Cluj Napoca" 
+	}
+}
+
+### Battlecruiser Names ###
+ROM_BC_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "NMS "
+	fallback_name = "Crucisator Lupta %d"		
+
+	unique = {
+		"Constanta" "Tirgu Mures" "Cluj Napoca" 
+	}
+}
+
+### Heavy Cruiser Names ###
+ROM_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "NMS "
+	fallback_name = "Crucisator Grea %d"
+
+	unique = {
+		"Elisabeta" "Timosoara" "Arad" "Oradea" "Baia Mare" "Sighetu Marmatiei" "Bistrita" "Reghin" "Pitesti" "Rosiori de Vede" 
+	}
+}
+
+### Light Cruiser Names ###
+ROM_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "NMS "
+	fallback_name = "Crucisator Lumina %d"
+
+	unique = {
+		"Elisabeta" "Timosoara" "Arad" "Oradea" "Baia Mare" "Sighetu Marmatiei" "Bistrita" "Reghin" "Pitesti" "Rosiori de Vede" 
+	}
+}
+
+### Mineship Names ###
+ROM_MNS_HISTORICAL = { # Flowers.
+	name = NAME_THEME_HISTORICAL_MINESHIPS
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "NMS "
+	fallback_name = "Nave de Mine %d"
+
+	unique = {
+		###
+	}
+}
+
+### Destroyer Names ###
+ROM_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "NMS "
+	fallback_name = "Distrugator %d"					
+
+	unique = {											
+		"Marasti" "Marasesti" "Regele Ferdinand" "Regina Maria" "Vifor" "Viscul" 
+		"Vice-Amiral Rosca" "Amiral Barbuneanu" "Contraamiral Sebastian" "Contraamiral Macellariu" "Zborul" "Pescarusul" "Lastunul" 
+	}
+}
+
+### Submarine Names ###
+ROM_SS_HISTORICAL = { # Sea Creatures.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "NMS "
+	fallback_name = "Submarin %d"
+	
+	unique = {
+		"Delfinul" "Rechinul" "Marsuinul" "Baracuda" "Narval" "Nautilus" "Somonul" "Peste-Spada" 
+	}
+}
+
+##### Themes #####
+
+### Theme: Regions ###
+ROM_THEME_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "NMS "
+	fallback_name = "Navă-A %d"
+
+	unique = {
+		"Bucuresti" "Muntenia" "Oltenia" "Banat" "Constanta" "Transilvania" "Moldova" "Dobruja" "Crisana" "Maramures" "Basarabia" "Bukovina" 
+		"Herta" "Budjak" 
+	}
+}
+
+### Theme: Mountains ###
+ROM_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "NMS "
+	fallback_name = "Navă-B %d"
+
+	unique = {
+		###
+	}
+}
+
+### Theme: Cities ###
+ROM_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser ship_hull_light carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "NMS "
+	fallback_name = "Navă-C %d"
+
+	unique = {
+		"Bucuresti" "Cluj" "Constanta" "Puebla" "Iasi" "Craiova" "Brasov" "Galati" "Ploiesti" "Oradea" "Arad" "Pitesti" "Brăila" "Sibiu" "Bacău" "Târgu Mures" 
+		"Baia Mare" "Buzău" "Botosani" "Satu Mare" "Râmnicu Vâlcea" "Piatra Neamt" "Piatra Neamt" "Târgu Jiu" "Târgoviste" "Focsani" "Bistrita" "Tulcea" "Resita" 
+		"Slatina" "Călărasi" "Alba Iulia" "Giurgiu" "Deva" "Zalău" "Sfântu Gheorghe" "Vaslui" "Slobozia" "Alexandria" "Miercurea Ciuc" 
+	}
+}
+
+### Theme: Rivers ###
+ROM_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "NMS "
+	fallback_name = "Navă-D %d"
+
+	unique = {
+		###
+	}
+}
+
+### Theme: Famous Battles ###
+ROM_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { ROM }
+
+	type = ship 
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "NMS "
+	fallback_name = "Navă-E %d"
+
+	unique = {
+		###
+	}
+}
+
+### Theme: Mythology ###
+ROM_THEME_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "NMS "
+	fallback_name = "Navă-F %d"
+
+	unique = {
+		###
+	}
+}

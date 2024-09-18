@@ -1,4 +1,4 @@
-### Ukrainian Ship Names ###
+##### Ukrainian Ship Names #####
 
 ### Prefixes ###
 # -
@@ -150,13 +150,13 @@ UKR_DD_HISTORICAL = { # Cities.
 	fallback_name = "Ruynivnyk %d"
 
 	unique = {
-		"Kiev" "Kharkiv" "Dnipropetrovsk" "Donetsk" "Odessa" "Zaporizhzhya" "Lviv" "Kryvyy Rih" "Mykolayiv" "Mariupol" "Luhans"
+		"Kyiv" "Kharkiv" "Dnipro" "Donetsk" "Odessa" "Zaporizhzhya" "Lviv" "Kryvyy Rih" "Mykolayiv" "Mariupol" "Luhans"
 		"Khmelnytskyy" "Sevastopol" "Makiyivka" "Simferopol" "Vinnytsya" "Kherson" "Poltava" "Chernihiv" "Cherkasy" "Sumy" "Zhytomyr"
-		"Zhytomyr" "Horlivka" "Rivne" "Kirovohrad" "Dniprodzerzhynsk" "Chrnivtsi" "Ternopil" "Kremenchuk" "Lutsk" "Ivano-Frankivs"
-		"Bila Tserkva" "Kramatorsk" "Melitopol" "Kerch" "Nikopol" "Syeverodonetsk" "Sloviansk" "Berdyansk" "Uzhhorod" "Alchevsk"
-		"Pavlohrad" "Lisichansk" "Yevpatoriya" "Yenakiyeve" "Oleksandriya" "Kamieniec Podolski" "Konotop" "Kostyantynivka" "Yalta" 
-		"Krasnyy Luch" "Brovary" "Uman" "Berdychiv" "Shostka" "Stakhanov" "Chervonograd" "Izmayil" "Mukacheve" "Artemivsk"
-		"Drogobych" "Nizhyn" "Novomoskovsk" "Nyzhnohirskyy" "Feodosiya" "Shakhtërsk" "Pervomaysk" "Krasnoarmiysk" "Torez"
+		"Zhytomyr" "Horlivka" "Rivne" "Kropyvnytskyi" "Kamianske" "Chernivtsi" "Ternopil" "Kremenchuk" "Lutsk" "Ivano-Frankivsk"
+		"Bila Tserkva" "Kramatorsk" "Melitopol" "Kerch" "Nikopol" "Sievierodonetsk" "Sloviansk" "Berdyansk" "Uzhhorod" "Alchevsk"
+		"Pavlohrad" "Lysychansk" "Yevpatoriya" "Yenakiyeve" "Oleksandriya" "Kamianets-Podilskyi" "Konotop" "Kostyantynivka" "Yalta" 
+		"Krasnyy Luch" "Brovary" "Uman" "Berdychiv" "Shostka" "Stakhanov" "Chervonohrad" "Izmayil" "Mukacheve" "Artemivsk"
+		"Drogobych" "Nizhyn" "Novomoskovsk" "Nyzhnohirskyy" "Feodosiya" "Shakhtarsk" "Pervomaysk" "Krasnoarmiysk" "Torez"
 	}
 }
 
@@ -233,7 +233,12 @@ UKR_THEME_CITIES = {
 	fallback_name = "Korabel-C %d"
 
 	unique = {
-		###
+		"Khartsyzsk" "Rubizhne" "Pryluky" "Druzhkovka" "Lozova" "Kolomyya" "Antratsit" "Stryy" "Novovolyns’k" "Novohrad-Volyns’kyy" 
+		"Energodar" "Snizhne" "Boryspil" "Illichivs’k" "Izyum" "Rovenki" "Lubny" "Bryanka" "Komsomolsk" "Zhovti Vody" "Fastiv" "Nova Kakhovka" 
+		"Marhanets" "Bilhorod-Dnistrovs’kyy" "Okhtyrka" "Krasnodon" "Romny" "Svitlovods’k" "Shepetivka" "Bucha" "Voznesensk" "Dzerzhyns’k" 
+		"Dzhankoy" "Pervomaysk" "Myrhorod" "Irpin" "Kotovs’k" "Kirovsk" "Kuznetsovs’k" "Vasyl’kiv" "Yuzhnoukrains'k" "Volodymyr-Volyns’kyy" 
+		"Dubno" "Yasinovataya" "Kakhovka" "Boryslav" "Chuhuyiv" "Dobropol’ye" "Zhmerynka" "Avdeyevka" "Hlukhiv" "Sambir" "Tokmak" "Boyarka" 
+		"Dolyns'ka" "Starokostyantyniv" "Vyshneve" "Slavuta" "Netishyn" "Obukhiv" "Bakakliya"
 	}
 }
 
@@ -268,7 +273,9 @@ UKR_THEME_ANIMALS = {
 	fallback_name = "Korabel-E %d"
 
 	unique = {
-		###
+		"Vovk" "Pes" "Lysytsya" "Vedmid" "Kit" "Zayets" "Olen" "Kaban" "Yizhak" "Lev" "Tyhr" "Slon" "Korova" "Kin" "Vivtsya" "Koza" 
+		"Verblyud" "Byk" "Krolyk" "Mysha" "Zhyrafa" "Hepard" "Puma" "Rys" "Borsuk" "Los" "Horyla" "Leopard" "Behemot" "Antylopa" "Svynya" 
+		"Bober" "Koala" "Panda" "Yenot" "Surykat" "Yekhynda" "Bizon" "Muravey" "Varan" "Babak" "Zubr"
 	}
 }
 
