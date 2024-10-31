@@ -321,6 +321,7 @@
  NAME_THEME_IMPERIAL_MYTHOLOGY:0 "Mythology (Imperial)"
  NAME_THEME_IMPERIAL_CAPITAL:0 "Imperial Capital Ships"
  NAME_THEME_GOVERNORATES:0 "Imperial Governorates"
+ NAME_THEME_IMPERIAL_KNIGHTS:0 "Imperial Knights"
 
  # Communist Themes #
  NAME_THEME_COMMUNIST_CV:0 "Communist Carriers"
@@ -375,8 +376,10 @@
  NAME_THEME_ROMAN_EMPERORS:0 "Roman Emperors"
  NAME_THEME_BYZANTINE_MONARCHS:0 "Byzantine Monarchs"
  NAME_THEME_SAMURAIS:0 "Samurais"
+ NAME_THEME_NINE_REALMS:0 "Nine Realms"
 
  # General Themes #
+ NAME_THEME_KNIGHTS:0 "Knights"
  NAME_THEME_DISTRICTS:0 "Districts"
  NAME_THEME_HISTORICAL_HOLDINGS:0 "Historical Holdings"
  NAME_THEME_ADMINISTRATIVE_DIVISIONS:0 "Administrative Divisions"
@@ -424,6 +427,7 @@
  NAME_THEME_ROMAN_MYTHOLOGY:0 "Roman Mythology"
  NAME_THEME_GREEK_MYTHOLOGY:0 "Greek Mythology"
  NAME_THEME_NORDIC_MYTHOLOGY:0 "Nordic Mythology"
+ NAME_THEME_NORSE_MYTHOLOGY:0 "Norse Mythology"
  NAME_THEME_SLAVIC_MYTHOLOGY:0 "Slavic Mythology"
  NAME_THEME_GERMANIC_MYTHOLOGY:0 "Germanic Mythology"
  NAME_THEME_AZTECS:0 "Aztec Mythology"

@@ -4,7 +4,7 @@
 # NMS = Nava Majestăţii Sale. (Official - Used)
 
 ### Aircraft Carrier Names ###
-ROM_CV_HISTORICAL = { # Aviators - Importance.
+ROM_CV_HISTORICAL = { # Aviators.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
 	for_countries = { ROM }
@@ -16,7 +16,10 @@ ROM_CV_HISTORICAL = { # Aviators - Importance.
 	fallback_name = "Portavion %d"	
 
 	unique = {
-		"Romania" "Bucuresti" "Banat" "Constanta" "Mangalia" "Sulina" "Navodari" 
+		"Traian Vuia" "Aurel Vlaicu" "Petre Ivanovici" "Ion Sava" "Dumitru Mărdărescu" "Nicoale Caranfil" "Alexandru Papană" "Smaranda Brăescu"
+		"Ionel Fernic" "Nicolae Bălan" "Gheorghe Bănciulescu" "Victor Anastasiu" "Eugen Wolff" "Nicolae Pîrvulescu" "Grigore Gafencu"
+		"Mihail Pantazi" "Elie Carafoli" "Mircea Zorileanu" "Andrei Popovici" "Nicolae Capșa" "Marcel Drăgănescu" "Constantin Manolache"
+		"Vasile Niculescu" "Andrei Șaguna"
 	}
 }
 
@@ -33,7 +36,9 @@ ROM_CVL_HISTORICAL = { # Flying Creatures.
 	fallback_name = "Portavion Ușor %d"
 
 	unique = {
-		###
+		"Pasăre" "Fluture" "Liliac" "Vultur" "Șoim" "Pescăruș" "Porumbel" "Colibri" "Vrăbiuță" "Șoim călător" "Bufniță" "Lebădă" 
+		"Pelican" "Albatroș" "Albină" "Libelulă" "Viespe" "Papagal" "Bondar" "Păianjen Zburător" "Grifon" "Rândunică" "Furnică Zburătoare" 
+		"Lăcustă" "Gărgăriță" "Păsărar" "Pescărel" "Cuc"
 	}
 }
 
@@ -50,7 +55,9 @@ ROM_BB_HISTORICAL = { # Importance - Figures.
 	fallback_name = "Vas de Razboi %d"		
 
 	unique = {
-		"Constanta" "Tirgu Mures" "Cluj Napoca" 
+		"Romania" "Bucuresti" "Banat" "Constanta" "Mangalia" "Sulina" "Navodari" "Constanta" "Tirgu Mures" "Cluj Napoca" "Dacia" "Decebal" "Traian" 
+		"Mircea cel Bătrân" "Mihai Viteazul" "Ștefan cel Mare" "Regele Carol" "Ardealul" "Independența" "Unirea" "Carpații" "Libertatea" "Vitejia" 
+		"Eroismul" "Patriotul" "Forța" "Gloria" "Coroana" "Credința"
 	}
 }
 
@@ -67,7 +74,9 @@ ROM_BC_HISTORICAL = { # Adjectives.
 	fallback_name = "Crucisator Lupta %d"		
 
 	unique = {
-		"Constanta" "Tirgu Mures" "Cluj Napoca" 
+		"Puternic" "Rapid" "Neînfricat" "Invincibil" "Agil" "Temut" "Impunător" "Fioros" "Indestructibil" "Viteaz" "Curajos" "Letal" "Năpraznic" 
+		"Devastator" "Fulgerător" "Tăcut" "Nemilos" "Victorios" "Invulnerabil" "Strategic" "Dominant" "Redutabil" "Necruțător" "Pustiitor" "Răzbunător" 
+		"Neabătut" "Aprig" "Formidabil" "Imbatabil" "Dezarmant" "Precise" "Colosal"
 	}
 }
 
@@ -84,12 +93,14 @@ ROM_CA_HISTORICAL = {
 	fallback_name = "Crucisator Grea %d"
 
 	unique = {
-		"Elisabeta" "Timosoara" "Arad" "Oradea" "Baia Mare" "Sighetu Marmatiei" "Bistrita" "Reghin" "Pitesti" "Rosiori de Vede" 
+		"Constantin Cantacuzino" "Alexandru Golescu" "Gheorghe Magheru" "Barbu Catargiu" "Mihail Cerchez" " Ioan Florescu" "Ion Dragalina" 
+		"Alexandru Averescu" "Constantin Arion" "Constantin Cernat" "Nicolae Haralambie" "Grigore Brătianu" "Gheorghe Manu" "Alexandru Lahovari" 
+		"Dimitrie Lecca" "Ernest Broșteanu" "Constantin Prezan" "Eremia Grigorescu" "Ioan Culcer" "Constantin Coandă"
 	}
 }
 
 ### Light Cruiser Names ###
-ROM_CL_HISTORICAL = {
+ROM_CL_HISTORICAL = { # Admirals - Captains.
 	name = NAME_THEME_HISTORICAL_CL
 
 	for_countries = { ROM }
@@ -101,7 +112,11 @@ ROM_CL_HISTORICAL = {
 	fallback_name = "Crucisator Lumina %d"
 
 	unique = {
-		"Elisabeta" "Timosoara" "Arad" "Oradea" "Baia Mare" "Sighetu Marmatiei" "Bistrita" "Reghin" "Pitesti" "Rosiori de Vede" 
+		"Nicolae Sternade" "Ioan Murgescu" "Eustațiu Sebastian" "Horia Macellariu" "Alexandru Cătuneanu" "Constantin Bălescu" "Nicolae Bardescu"
+		"Petre Bărbuneanu" "Gheorghe Dumitrescu" "Eugeniu Rosetti" "Constantin Manolache" "Ioan Bălănesc" "Gheorghe Ioanid" "Petru Damaschin"
+		"Nicolae Milescu" "Andrei Mocanu" "Dimitrie Sturdza" "Gheorghe Murgoci" "Carol Davila" "Ioan Culcer" "Theodor Murgescu" "Grigore Prezan"
+		"Constantin Atanasiu" "Dimirie Giurescu" "Constantin Aurelian" "Constantin Chiru" "Alexandru Emandi" "Nicolae Romalo" "Victor Voinescu"
+		"Gheorghe Leahu" "Ion Zaharia"
 	}
 }
 
@@ -118,12 +133,14 @@ ROM_MNS_HISTORICAL = { # Flowers.
 	fallback_name = "Nave de Mine %d"
 
 	unique = {
-		###
+		"Trandafir" "Lalea" "Margaretă" "Crin" "Garoafă" "Iasomie" "Bujor" "Narcisă" "Zambilă" "Liliac" "Viorea" "Toporaș" "Albăstrea" "Crizantemă" 
+		"Iris" "Mac" "Frezie" "Orhidee" "Ghiocei" "Violete" "Ciclamă" "Lavandă" "Anemonă" "Gălbenele" "Cale" "Begonie" "Daliă" "Mușețel" "Petunie" 
+		"Gladiole" "Hortensie" "Camelie" "Brândușă" "Rododendron" "Colț" "Panseluță"
 	}
 }
 
 ### Destroyer Names ###
-ROM_DD_HISTORICAL = {
+ROM_DD_HISTORICAL = { # Figures - Weather Phenomenons - Weaponry.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
 	for_countries = { ROM }
@@ -134,9 +151,20 @@ ROM_DD_HISTORICAL = {
 	prefix = "NMS "
 	fallback_name = "Distrugator %d"					
 
-	unique = {											
-		"Marasti" "Marasesti" "Regele Ferdinand" "Regina Maria" "Vifor" "Viscul" 
-		"Vice-Amiral Rosca" "Amiral Barbuneanu" "Contraamiral Sebastian" "Contraamiral Macellariu" "Zborul" "Pescarusul" "Lastunul" 
+	unique = {
+		### Mărăști Class (1917) ###
+		"Marasti" "Marasesti" "Vifor" "Viscul"
+
+		### Regele Ferdinand Class (1928) ###
+		"Regele Ferdinand" "Regina Maria" 
+
+		### Additionals - Figures ###
+		"Melila" "Ceuta" "Vice-Amiral Rosca" "Amiral Barbuneanu" "Contraamiral Sebastian" "Contraamiral Macellariu" "Zborul" "Pescarusul" "Lastunul" 
+
+		### Additionals - Wheather Phenomenons - Weaponry ###
+		"Tunetul" "Fulgerul" "Furtuna" "Viscolul" "Vârtejul" "Tornada" "Norul" "Vijelia" "Briza" "Ploaia" "Sabia" "Pumnalul" "Lancea" "Sulița" "Toporul" 
+		"Arcul" "Balista" "Scutul" "Ghioaga" "Securea" "Trăsnetul" "Grindina" "Ciclonul" "Tsunami" "Avalanșa" "Tăișul" "Împunsătura" "Fulgurația" 
+		"Cutremurul" "Erupția" "Pulberizatorul" "Vulcanul" "Grenada" "Obuzul" "Artileria" "Catapulta" "Torța" "Barda" "Halta" "Șuierul"
 	}
 }
 
@@ -153,7 +181,13 @@ ROM_SS_HISTORICAL = { # Sea Creatures.
 	fallback_name = "Submarin %d"
 	
 	unique = {
-		"Delfinul" "Rechinul" "Marsuinul" "Baracuda" "Narval" "Nautilus" "Somonul" "Peste-Spada" 
+		### Delfinul Class (1936) - Standalone ###
+		"Delfinul" 
+
+		### Additionals ###
+		"Rechinul" "Marsuinul" "Baracuda" "Narval" "Nautilus" "Somonul" "Peste-Spada" "Ton" "Calmar" "Caracatiță" "Crevete" "Langustă" "Homar" "Pisica de mare" 
+		"Morcov de mare" "Meduză" "Hering" "Murena" "Păstrăv" "Anșoa" "Sturion" "Halibut" "Cambulă" "Scrumbie" "Crap" "Guvid" "Știucă" "Plătică" "Zărgan" 
+		"Zglăvoacă" "Lufar" "Pisică de mare" "Țipar" "Biban" "Rapana" "Pălămidă" "Coral" "Manta" "Doradă" "Calcan" "Hamsie" "Macrou" "Vulpe de mare" "Lufar"
 	}
 }
 
@@ -172,8 +206,11 @@ ROM_THEME_REGIONS = {
 	fallback_name = "Navă-A %d"
 
 	unique = {
-		"Bucuresti" "Muntenia" "Oltenia" "Banat" "Constanta" "Transilvania" "Moldova" "Dobruja" "Crisana" "Maramures" "Basarabia" "Bukovina" 
-		"Herta" "Budjak" 
+		### Default ###
+		"Crișana" "Banat" "Maramureș" "Transilvania" "Bucovina" "Moldova" "Basarabia" "Oltenia" "Mutenia" "Dobrogea"
+
+		### Additional/Historical ###
+		"Cadrilater" "Partium" "Herța" "Transnistria" "Margraviate"
 	}
 }
 
@@ -190,7 +227,11 @@ ROM_THEME_MOUNTAINS = {
 	fallback_name = "Navă-B %d"
 
 	unique = {
-		###
+		"Moldoveanu" "Negoiu" "Viștea" "Parângu" "Lespezi" "Omu" "Peleaga" "Păpușa" "Vânătarea" "Darei" "Bucura" "Dara" "Retezat" "Iezeru" "Pietrosul"
+		"Gugu" "Suru" "Ineu" "Cindrel" "Șteflești" "La Om" "Godeanu" "Tarcu" "Căleanu" "Leaota" "Ursu" "Pietrosu" "Șureanu" "Farcău" "Ciucaș" "Toroiaga"
+		"Ocolașu" "Toaca" "Straja" "Budacu" "Giumalău" "Cucurbăta" "Vârful" "Vlădeasa" "Muntele" "Harghita" "Hășmașu" "Pietrosu" "Goru" "Lăcăuț" "Saca"
+		"Penteleu" "Vlașcu" "Cozia" "Grinduș" "Rarău" "Nemira" "Heniu" "Lucina" "Cucu" "Bivolu" "Pașcani" "Piatra" "Gutâi" "Poienița" "Padeș" "Dâmbău"
+		"Igniș" "Ciomatu" "Detunata" "Svinecea" "Drocea"
 	}
 }
 
@@ -207,9 +248,9 @@ ROM_THEME_CITIES = {
 	fallback_name = "Navă-C %d"
 
 	unique = {
-		"Bucuresti" "Cluj" "Constanta" "Puebla" "Iasi" "Craiova" "Brasov" "Galati" "Ploiesti" "Oradea" "Arad" "Pitesti" "Brăila" "Sibiu" "Bacău" "Târgu Mures" 
-		"Baia Mare" "Buzău" "Botosani" "Satu Mare" "Râmnicu Vâlcea" "Piatra Neamt" "Piatra Neamt" "Târgu Jiu" "Târgoviste" "Focsani" "Bistrita" "Tulcea" "Resita" 
-		"Slatina" "Călărasi" "Alba Iulia" "Giurgiu" "Deva" "Zalău" "Sfântu Gheorghe" "Vaslui" "Slobozia" "Alexandria" "Miercurea Ciuc" 
+		"Cluj" "Constanta" "Puebla" "Iasi" "Craiova" "Brasov" "Galati" "Ploiesti" "Oradea" "Arad" "Pitesti" "Brăila" "Sibiu" "Bacău" "Târgu Mures" 
+		"Baia Mare" "Buzău" "Botosani" "Satu Mare" "Râmnicu Vâlcea" "Piatra Neamt" "Piatra Neamt" "Târgu Jiu" "Târgoviste" "Focsani" "Bistrita" "Tulcea" 
+		"Resita" "Slatina" "Călărasi" "Alba Iulia" "Giurgiu" "Deva" "Zalău" "Sfântu Gheorghe" "Vaslui" "Slobozia" "Alexandria" "Miercurea Ciuc" 
 	}
 }
 
@@ -226,7 +267,29 @@ ROM_THEME_RIVERS = {
 	fallback_name = "Navă-D %d"
 
 	unique = {
-		###
+		"Danube" "Mureș" "Prut" "Olt" "Siret" "Ialomița" "Someș" "Argeș" "Jiu" "Buzău" "Dâmbovița" "Bistrița" "Jijia" "Târnava" "Timiș" "Crișul Alb" "Vedea" 
+		"Mare" "Bârlad" "Mică" "Prahova" "Neajilov" "Olteț" "Mic" "Suceava" "Bega" "Arieș" "Trotuș" "Oltul Mic" "Râul Doamnei" "Teleajen" "Bâsca" "Gilort" 
+		"Topolog" "Lotru" "Motru" "Bistrița Aurie" "Râmnicul Sărat" "Bega Veche" "Iza" "Tisa" "Cerna" "Tazlău" "Putna" "Șieu" "Baraolt" "Bâsca Mare" "Drăgan" 
+		"Crișul Negru" "Timișul Sec" "Bahlui" "Slănic" "Valea Seacă"
+	}
+}
+
+### Theme: Animals ###
+ROM_THEME_ANIMALS = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "NMS "
+	fallback_name = "Navă-X %d"
+
+	unique = {
+		"Jaguar" "Lup" "Leu" "Tigrul" "Urs" "Elefant" "Girafă" "Zebru" "Cangur" "Rinocer" "Hipopotam" "Maimuță" "Vulpe" "Cârtiță" "Șoarece" "Iepure" 
+		"Cerb" "Bizon" "Pisică" "Câine" "Gâscan" "Mistreț" "Cobra" "Lilieci" "Buburuza" "Cobra" "Teren" "Cobra" "Panda" "Koala" "Porc-spin" "Veveriță" 
+		"Cameleon" "Păun" "Căprioară" "Oaie" "Capră" "Sărut" "Găină" "Curcan" "Găină" "Boul" "Taur"
 	}
 }
 
@@ -243,7 +306,10 @@ ROM_THEME_BATTLES = {
 	fallback_name = "Navă-E %d"
 
 	unique = {
-		###
+		"Mărășești" "Oituz" "Turtucaia" "Vidin" "Rahova" "Plevna" "Grivița" "Cernavodă" "Dobrich" "Bălți" "Kjustendil" "Silistra" "Călărași" "Argeș" 
+		"Rovine" "Nicopole" "Valea Albă" "Mohaș" "Bălănești" "Războieni" "Târgoviște" "Călugăreni" "Gorăslău" "Șelimbăr" "Albești" "Băița" "Timișoara" 
+		"Gura Humorului" "Budapesta" "Cernăuți" "Vâlcea" "Botoșani" "Cerna" "Războieni" "Miercurea Ciuc" "Bălți" "Câmpulung" "Fălticeni" "Târgu Frumos" 
+		"Sculeni" "Războieni" "Gura Humorului" "Băneasa" "Pitești" "Valea Albă"
 	}
 }
 
@@ -260,6 +326,8 @@ ROM_THEME_MYTHOLOGY = {
 	fallback_name = "Navă-F %d"
 
 	unique = {
-		###
+		"Zâna" "Muma Pădurii" "Iele" "Baba Cloanța" "Făt-Frumos" "Mâncătorul de Foc" "Vârcolac" "Păcală" "Ursitoarele" "Moșneagul" "Dacii" "Duhul Focului" 
+		"Sânziana" "Drăculea" "Căpcăun" "Baba Dochia" "Zmeu" "Țara Moșneagului" "Lia" "Carpații" "Zmeoaică" "Muma Pădurii" "Pădureni" "Cercelul" "Bătrâna Vâsc" 
+		"Făptura" "Ursul" "Moșneagul" "Căpcăun" "Ursitoarele" "Iele" "Vâlva" "Fata Pădurii" "Jorj" "Războinica" "Omenia" "Fata Babei"
 	}
 }

@@ -91,12 +91,15 @@ MEX_CA_HISTORICAL = { # Generals.
 	fallback_name = "Crucero Pesado No.%d"
 
 	unique = {
-		###
+		"Antonio de Santa Anna" "Emiliano Zapata" "Pancho Villa" "Porfirio Díaz" "Vicente Guerrero" "Lázaro Cárdenas" "José Morelos" "Francisco Madero" 
+		"Manuel Garza" "Álvaro Obregón" "Mariano Escobedo" "Jesús Ortega" "Manuel Flores" "Juan Almonte" "Francisco Villa" "José de Urrea" "Vicente Palacio" 
+		"Felipe Ángeles" "José Suárez" "Antonio Rosales" "Rafael Guerra" "José Márquez" "José Pavón" "Agustín de Iturbide" "Manuel Ponce" "Mariano Escobedo" 
+		"José Arteaga" "Juan Almonte"
 	}
 }
 
 ### Light Cruiser Names ###
-MEX_CL_HISTORICAL = { # Various.
+MEX_CL_HISTORICAL = { # Admirals.
 	name = NAME_THEME_HISTORICAL_CL
 
 	for_countries = { MEX }
@@ -108,8 +111,10 @@ MEX_CL_HISTORICAL = { # Various.
 	fallback_name = "Crucero Ligero No.%d"
 
 	unique = {
-		"Zaragoza" "Guadalajara" "Progreso" "Porfirio Díaz" "Vicente Guerrero" "José María Morelos" "Miguel Hidalgo" "Pancho Villa" 
-		"Río Lobo" "Mérida" "Monterrey" "Río Grande" "Tijuana" "Río del Norte" "Chiapas" "Chuela" 
+		"José de la Peña" "Manuel Azueta" "José de Uranga" "Joaquín Zárate" "Francisco de la Torre" "José González" "Pablo de la Garza" "José María de la Vega" 
+		"Manuel Salas" "Julio S. Salazar" "Adolfo de la Huerta" "Andrés Manuel del Río" "Rafael Melgar" "Luis de la Garza" "Antonio de las Fuentas" "Joaquín Leyva" 
+		"José de la Rúa" "Félix Díaz" "Manuel García" "Francisco de Miranda" "Alejandro Pacheco" "José de Herrera" "José de los Reyes" "Emilio Gómez" 
+		"Salvador Alvarado" "Emilio Carranza" "Rafael Zubarán" "Francisco Medina" "Humberto Téllez"
 	}
 }
 
@@ -208,7 +213,14 @@ MEX_THEME_MOUNTAINS = {
 	fallback_name = "Barco-B No.%d"
 
 	unique = {
-		###
+		"Orizaba" "Iztaccíhuatl" "Popocatépetl" "Nevado de Toluca" "Cofre de Perote" "Negra" "Malinche" "de la Silla" "de la Estrella" "del Ajusco" 
+		"Grande" "Mohinora" "Las Mitras" "el Potosí" "Juárez" "San Pedro Mártir" "de la Laguna" "del Carmen" "Santa Rosa" "del Nido" "Fría" "de Álvarez" 
+		"del Topo Chico" "de Lobos" "Madre Oriental" "Madre Occidental" "Madre del Sur" "de los Tuxtlas" "Prieto" "del Chichonal" "del Tepozteco" 
+		"del Cubilete" "San Cristóbal" "Azul" "Tancítaro" "de la Bufa" "de las Campanas" "de los Remedios" "San Felipe" "del Borrego" "de los Gallos" 
+		"del Tepeyac" "Monserrate" "de la Calavera" "Bola" "Quemado" "Colorado" "de Jilotzingo" "del Metate" "del Baúl" "Culiacán" "de Santiago" 
+		"del Muerto" "de Chontalcoatlán" "de la Vieja" "El Chango" "del Sarnoso" "Los Picachos" "Viejo" "Ventanas" "Las Antenas" "del Obispado" 
+		"del Mezquital" "Colorado" "de la Peña" "de Enmedio" "de Chichinautzin" "del Elefante" "del Sombrerete" "del Laurel" "del Chapulín" 
+		"de la Llorona" "del Huérfano" "Las Navajas" "del Carrizo" "del Venado" "Alto" "Las Mesas" "del Azufre" "de La Tetilla" "El Vigía"
 	}
 }
 
@@ -248,30 +260,11 @@ MEX_THEME_RIVERS = {
 	fallback_name = "Barco-D No.%d"
 
 	unique = {
-		"Río Grande" "Río del Norte" "Río Bravo" "Agua Prieta" "Río Grijalva" "Río Colorado" "Río Usumacinta" "Río Nazas" "Río Aguanaval"
-		"Río Culiacán" "Río Balsas" "Río Lerma" "Río Fuerte" "Río Pánuco" "Río Conchos" "Río Soto La Marina" "Río Yaqui" "Río San Fernando"
-		"Río Mayo" "Río Tecolutla" "Río Jamapa" "Río Papaloapan" "Río Sinaloa" "Río Verde" "Río Concepción" "Río Coatzacoalcos" "Río San Lorenzo"
-		"Río Sonoyta" "Río San Pedro Mezquital" 
-	}
-}
-
-## Theme: Aztec Culture ###
-MEX_THEME_AZTECS = {
-	name = NAME_THEME_AZTECS
-
-	for_countries = { MEX }
-
-	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
-
-	prefix = "ARM "
-	fallback_name = "Barco-E No.%d"
-
-	unique = {
-		"Quetzalcoatl" "Huitzilopochtli" "Tlaloc" "Tonatiuh" "Tezcatlipoca" "Chalchiuhtlicue" "Centeotl" "Xipe Totec" "Mayahuel" "Tlaltechutli"
-		"Atlahua" "Oxomoco" "Ixtlilton" "Ehecatotontli" "Mictlanpachecatl" "Cihuatecayotl" "Tlalocayotl" "Huitztlampaehecatl" "Mictlantecuhtli"
-		"Xiuhtecuhtli" "Mixcoatl" "Ometeotl" "Tonacatecuhtli" "Xolotl" "Tlahuizcalpantecuhtli" "Opochtli" "Cuauhtémoc" "Cuitláhuac" "Nezahualcoyotl" 
-		"Moctezuma" "Xochichapal" 
+		"Grande" "del Norte" "Bravo" "Agua Prieta" "Grijalva" "Colorado" "Usumacinta" "Nazas" "Aguanaval" "Culiacán" "Balsas" "Lerma" "Fuerte" "Pánuco" 
+		"Conchos" "Soto La Marina" "Yaqui" "San Fernando"c"Mayo" "Tecolutla" "Jamapa" "Papaloapan" "Sinaloa" "Verde" "Concepción" "Coatzacoalcos" "San Lorenzo"
+		"Sonoyta" "San Pedro Mezquital" "Ameca" "Hondo" "Sabinas" "Tamesí" "Suchiate" "Tijuana" "Cazones" "Zahuapan" "Sabinal" "Chilapa" "Atoyac" "Temascales" 
+		"Tula" "Tehuantepec" "Tehuacán" "Amacuzac" "Chinipas" "Escuintla" "Chapala" "Metztitlán" "Acaponeta" "San Juan" "Huaynamota" "Matlapa" "Tulija" "Blanco" 
+		"Chicayán" "Temascales" "Mixteco" "Cutzamala" "Cuautla" "Zapotitlán" "Tula" "Coahuayana" "Apulco" "Cañas"
 	}
 }
 
@@ -311,7 +304,10 @@ MEX_THEME_BATTLES = {
 	fallback_name = "Barco-G No.%d"
 
 	unique = {
-		###
+		"San Antonio" "Rosillo Creek" "Medina" "Resaca de la Palma" "San Jacinto" "Tucson" "Monterrey" "Goliad" "Laredo" "Sacramento" "El Brazito" 
+		"Agua Prieta" "Chihuahua" "Tampico" "Victoria" "Alamo" "San Felipe" "Santa Cruz de Rosales" "Old Baldy" "La Trinidad" "San Luis Potosí" 
+		"Cañada" "Zacatecas" "Monterrey" "Alamo" "Chapultepec" "Cerro Gordo" "San Juan" "Cuidad Juárez" "Mier" "Aguascalientes" "Nacogdoches" 
+		"Sacred War" "Coahuila" "San Pedro" "Pasco" "Piedras Negras"
 	}
 }
 
@@ -328,6 +324,11 @@ MEX_THEME_MYTHOLOGY = {
 	fallback_name = "Barco-H No.%d"
 
 	unique = {
-		###
+		"Quetzalcoatl" "Huitzilopochtli" "Tlaloc" "Tonatiuh" "Tezcatlipoca" "Chalchiuhtlicue" "Centeotl" "Xipe Totec" "Mayahuel" "Tlaltechutli"
+		"Atlahua" "Oxomoco" "Ixtlilton" "Ehecatotontli" "Mictlanpachecatl" "Cihuatecayotl" "Tlalocayotl" "Huitztlampaehecatl" "Mictlantecuhtli"
+		"Xiuhtecuhtli" "Mixcoatl" "Ometeotl" "Tonacatecuhtli" "Xolotl" "Tlahuizcalpantecuhtli" "Opochtli" "Cuauhtémoc" "Cuitláhuac" "Nezahualcoyotl" 
+		"Moctezuma" "Xochichapal" "Tlalocan" "Chicomecoatl" "Tlazolteotl" "Huehuecoyotl" "Tzitzimitl" "Mictecacihuatl" "Tonantzin" "Xochiquetzal" 
+		"Chicatl" "Ometecuhtli" "Yohualli" "Cipactli" "Mictlantecuhtli" "Ahuizotl" "Iztac" "Mazatl" "Coatlicue" "Tlahuiztli" "Iztaccíhuatl" 
+		"Quetzalpetlatl" "Xiuhcoatl" "Chantico" "Tlazolteotl" "Tepeyollotl" "Tlaltecuhtli" "Cihuacoatl"
 	}
 }

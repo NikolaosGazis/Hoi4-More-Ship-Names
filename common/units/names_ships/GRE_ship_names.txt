@@ -6,7 +6,7 @@
 # RBS = Royal Byzantine Ship. (Byzantium - Not Used)
 
 ### Aircraft Carrier Names ###
-GRE_CV_HISTORICAL = { # Aces.
+GRE_CV_HISTORICAL = { # Aces - Aviators.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
 	for_countries = { GRE }
@@ -24,8 +24,13 @@ GRE_CV_HISTORICAL = { # Aces.
 		"Aristeidis Moraitinis"
 		
 		### World War 2 Aces ###
-		"Ioannis Lolos" "Marinos Mitralexis" "Panagiotis Argyropoulos" "Andreas Antoniou" "Spiros Pisanos" "Basilios Vassiliadis" 
+		"Ioannis Lolos" "Marinos Mitralexis" "Panagiotis Argyropoulos" "Andreas Antoniou" "Spiros Pisanos" "Vasilios Vassiliadis" 
 		"Ioannis Agorastos"
+
+		### Aviators ###
+		"Aristeidis Moraitinis" "Michalis Moutoussis" "Christos Adamidis" "Anastasios Sioulas" "Emmanouil Argyropoulos" 
+		"Konstantinos Maniadakis" "Panagiotis Danglis" "Dimitrios Kamberos" "Antonis Papadakis" "Georgios Konstantinidis" 
+		"Theodoros Moraitinis" "Konstantinos Kavvadias" "Alexandros Zannas" "Nikolaos Stamatelopoulos" "Dimitrios Laskaratos" 
 	}
 }
 
@@ -44,8 +49,10 @@ GRE_CVL_HISTORICAL = { # Flying Creatures.
 	fallback_name = "Elafri Aeroplanoforo %d"
 
 	unique = {
-		"Aetos" "Gypas" "Geraki" "Koukouváyia" "Kirkinaki" "Kondoras" "Psaraetos" "Pigargos" "Kerasforos" "Alkotan" "Tsountso" 
-		"Boursado" "Nychterída" "Sfínga" "Petalouda" "Mélissa" "Kolimpri" "Harpyia" "Phoínikas" "Spourgíti" "Kounoupi" "Drakos"
+		"Gypas" "Koukouváyia" "Kirkinaki" "Kondoras" "Psaraetos" "Pigargos" "Kerasforos" "Alkotan" "Tsountso" "Boursado" 
+		"Nychterída" "Sfínga" "Petalouda" "Mélissa" "Kolimpri" "Harpyia" "Phoínikas" "Spourgíti" "Kounoupi" "Drakos" "Peristeri" 
+		"Petritis" "Glaros" "Xelidoni" "Psaroni" "Agrioperistero" "Sapfira" "Karaboktena" "Chelonionas" "Diatrita" "Anatropi" 
+		"Chrysopetalo" "Vrahokorakas" "Araklas" "Kyknos" "Tsiknakas" "Anakolios" "Gelastis" "Sapounizoni" "Mavropetritis"
 	}
 }
 
@@ -64,19 +71,25 @@ GRE_BB_HISTORICAL = { # Older Models - Figures - Cities - Principles.
 	fallback_name = "Thorikto %d"		
 
 	unique = {
-		### Older Models ###
-		"Salamis" "Kilkis" "Lemnos"
+		### Salamis Class (1912) - Standalone ###
+		"Salamis"
 
-		### Important Figures ###
-		"Georgios Papanikolaou" "Theodoros Kolokotronis" "Georgios Koundouriotis" "Georgios Karaiskakis" "Eleftherios Venizelos" 
-		"Ioannis Kapodistrias" "Odysseas Elytis" "Mégas Aléxandros" "Sokrátis" "Aristotélis" "Pláton" "Periklís" "Themistoklís"
-		"Leonídas" "Ómiros"
+		### Kilkis Class (1914) - Standalone ###
+		"Kilkis"
+
+		### Lemnos Class (1914) - Standalone ###
+		"Lemnos"
 		
 		### Additionals - Cities/Capitals ###
 		"Athina" "Thessaloniki" "Konstantinoúpoli" "Nafplio" "Aigina"
 
 		### Additionals - Principles ###
 		"Patrida" "Eleftheria" "Enosis" "Kyríarchos" "Dimokratía" "Monarchia" "Vasileía" "Ellada"
+
+		### Additionals - Important Figures ###
+		"Georgios Papanikolaou" "Theodoros Kolokotronis" "Georgios Koundouriotis" "Georgios Karaiskakis" "Eleftherios Venizelos" 
+		"Ioannis Kapodistrias" "Odysseas Elytis" "Mégas Aléxandros" "Sokrátis" "Aristotélis" "Pláton" "Periklís" "Themistoklís"
+		"Leonídas" "Ómiros"
 	}
 }
 
@@ -116,7 +129,7 @@ GRE_CA_HISTORICAL = { # Figures - Generals.
 	fallback_name = "Vari Katadromiko %d"
 
 	unique = {
-		### Georgios Averof Class - Standalone ###
+		### Georgios Averof Class (1911) - Standalone ###
 		"Georgios Averof" 
 
 		### Additionals ###
@@ -146,6 +159,10 @@ GRE_CL_HISTORICAL = { # Cities.
 	fallback_name = "Elafri Katadromiko %d"
 
 	unique = {
+		### Elli Class (1914) - Standalone ###
+		"Elli"
+
+		### Additionals - Cities ###
 		"Dafni" "Koufalia" "Oropos" "Spata" "Messolongi" "Melissia" "Sparta" "Nea Filadelfeia" "Argostoli" "Kastoria" "Thiva" 
 		"Nea Moudania" "Megara" "Orestiada" "Oraiokastro" "Salamina" "Dionysos" "Moschato" "Zakynthos" "Lagadas" "Alexandreia" 
 		"Alimos" "Argos" "Arta" "Cholargos" "Ptolemaida" "Sindos" "Fili" "Chaidari" "Tripoli" "Pyrgos" "Voula" "Heraklion" 
@@ -174,9 +191,9 @@ GRE_MNS_HISTORICAL = { # Flowers.
 
 	unique = {
 		"Triantafyllo" "Krinos" "Toulipa" "Iliotropio" "Margarita" "Orchidea" "Violeta" "Yasemi" "Garyfallo" "Yakinthos" "Levanta" 
-		"Paionia" "Chrysanthemo" "Iris" "Gardenia" "Narkissos" "Paparouna" "Kamelia" "Gerani" "Anemoni" "Mimoza" "Vasilikos" "Anaryllis" 
-		"Kalles" "Dalia" "Paschalia" "Frezia" "Lamonia" "Panses" "Zinia" "Pikrodafni" "Neragkoula" "Manolia" "Mantzourana" "Protea" 
-		"Asfodelos"
+		"Paionia" "Chrysanthemo" "Iris" "Gardenia" "Narkissos" "Paparouna" "Kamelia" "Gerani" "Anemoni" "Mimoza" "Vasilikos" 
+		"Anaryllis" "Kalles" "Dalia" "Paschalia" "Frezia" "Lamonia" "Panses" "Zinia" "Pikrodafni" "Neragkoula" "Manolia" "Mantzourana" 
+		"Protea" "Asfodelos"
 	}
 }
 
@@ -195,12 +212,21 @@ GRE_DD_HISTORICAL = { # Weaponry - Weather Phenomenon.
 	fallback_name = "Antitorpiliko %d"					
 
 	unique = {
-		### Weaponry ###
+		### Aetos Class (1912) ###
+		"Aetos" "Pantir" "Leon" "Ierax"
+
+		### Kountouriotis Class (1931) ###
+		"Kountouriotis" "Spetsai" "Hydra" "Psara"
+
+		### Vasilefs Georgios Class (1938) ###
+		"Vasilefs Georgios" "Vasilissa Olga"
+
+		### Additionals - Weaponry ###
 		"Lonchi" "Aspis" "Spathi" "Dory" "Xiphos" "Akontio" "Tokso" "Velos" "Kranos" "Thorakas" "Knimides" "Kopis" "Pyrovoliko" 
 		"Sarissa" "Pilos" "Akontion" "Arma" "Xyston" "Sfentona" "Katapeltis" "Martiobarbuli" "Romphaia" "Pelta" "Gastraphetes"
 		"Arpi" "Sica" "Olisideron" "Arpaga" "Akon" "Sfaira" "Kanoni"
 
-		### Weather Phenomenons ###
+		### Additionals - Weather Phenomenons ###
 		"Vrochí" "Chióni" "Ánemos" "Kataigída" "Kerav̱nós" "Astrapí" "Néfos" "Omíchli" "Chalázi" "Sífounas" "Tyfónas" "Seismós"
 		"Plimmýra" "Tsounámi" "Chionothýella" "Palírrua" "Sfondýlia" "Káfsōnas" "Mousónas" "Lygariá" "Ammothýella" "Sélas" 
 		"Kyklónas"
@@ -222,10 +248,17 @@ GRE_SS_HISTORICAL = { # Figures - Mythology.
 	fallback_name = "Ypovrychio %d"
 	
 	unique = {
-		"Katsonis" "Papanikolis" "Protefs" "Nirefs" "Triton" "Glafkos" "Mastrozos" "Pipinos" "Delfin" "Argonautis" "Triaina" "Amphitrite"
-		"Xifias" "Poseidonas" "Potamoi" "Okeanos" "Okeanides" "Doris" "Tethys" "Leucothea" "Galene" "Eurybia" "Ceto" "Phorcys" "Pontus"
-		"Nereids" "Alseids" "Auloniads" "Aura" "Crinaeae" "Dryad" "Eleionomae" "Hamadryad" "Hesperides" "Limnads" "Lampades" "Meliae"
-		"Melinoë" "Naiads" "Oread" "Pegaeae" "Pegasides" "Pleiades" "Potamides" "Thaumas"
+		### Katsonis Class (1928) ###
+		"Katsonis" "Papanikolis" 
+
+		### Protefs Class (1930) ###
+		"Protefs" "Nirefs" 
+
+		### Additionals - Mythology ###
+		"Triton" "Glafkos" "Mastrozos" "Pipinos" "Delfin" "Argonautis" "Triaina" "Amphitrite" "Xifias" "Poseidonas" "Potamoi" "Okeanos" 
+		"Okeanides" "Doris" "Tethys" "Leucothea" "Galene" "Eurybia" "Ceto" "Phorcys" "Pontus" "Nereids" "Alseids" "Auloniads" "Aura" 
+		"Crinaeae" "Dryad" "Eleionomae" "Hamadryad" "Hesperides" "Limnads" "Lampades" "Meliae" "Melinoë" "Naiads" "Oread" "Pegaeae" 
+		"Pegasides" "Pleiades" "Potamides" "Thaumas"
 	}
 }
 
@@ -246,10 +279,10 @@ GRE_THEME_PREFECTURES = {
 	fallback_name = "Polemikó Ploío-A %d"
 
 	unique = {
-		"Attikí" "Peiraiás" "Fthiótidas" "Évvoia" "Viotía" "Fokídos" "Evrytania" "Serres" "Chalkidiki" "Kilkis" "Pella" "Imathia" "Pieria"
-		"Irákleio" "Chaniá" "Lasithi" "Réthymno" "Évros" "Rodópi" "Arta" "Thesprotia" "Kefalloniá" "Kerkyra" "Zákynthos" "Lefkada"
-		"Arkadía" "Lakonía" "Messinía" "Korinthos" "Argolída" "Dodekánisa" "Kykládes" "Akarnanía" "Achaḯas" "Élis" "Kozáni" "Grevena" 
-		"Florina" "Kastoria"
+		"Attikí" "Peiraiás" "Fthiótidas" "Évvoia" "Viotía" "Fokídos" "Evrytania" "Serres" "Chalkidiki" "Kilkis" "Pella" "Imathia" 
+		"Pieria" "Irákleio" "Chaniá" "Lasithi" "Réthymno" "Évros" "Rodópi" "Arta" "Thesprotia" "Kefalloniá" "Kerkyra" "Zákynthos" 
+		"Lefkada" "Arkadía" "Lakonía" "Messinía" "Korinthos" "Argolída" "Dodekánisa" "Kykládes" "Akarnanía" "Achaḯas" "Élis" "Kozáni" 
+		"Grevena" "Florina" "Kastoria"
 	}
 }
 
@@ -393,14 +426,15 @@ GRE_THEME_ANIMALS = {
 	fallback_name = "Polemikó Ploío-F %d"
 
 	unique = {
-		"Tígri" "Liontari" "Alogo" "Gatopardos" "Antilopi" "Gorilas" "Elefantas" "Zevra" "Ippopotamos" "Kamilopardali" "Alepou"
-		"Leopardali" "Nychterída" "Ouragotakos" "Pouma" "Rinokeros" "Chibatzis" "Toukan" "Skylos" "Gata" "Papagalos" "Chámster" "Arkouda"
-		"Kanarini" "Gaidaros" "Pigkouinos" "Delfini" "Falaina" "Karxarias" "Psari" "Medousas" "Achinos" "Xiphias" "Sfyrokefalos" "Lykos"
+		"Tígri" "Liontari" "Alogo" "Gatopardos" "Antilopi" "Gorilas" "Elefantas" "Zevra" "Ippopotamos" "Kamilopardali" "Alepou" "Leopardali" 
+		"Ouragotakos" "Pouma" "Rinokeros" "Chibatzis" "Toukan" "Skylos" "Gata" "Chámster" "Arkouda" "Gaidaros" "Lykos" "Alvinos" "Vonasos" 
+		"Agriochoiros" "Kouneli" "Chelona" "Tragos" "Diavolaki" "Takin" "Sfigga" "Skaros" "Petavlos" "Glitsas" "Skylovlaka" "Panidas" "Kontoroulos" 
+		"Psilosouris" "Vravos" "Vromodasi" "Aspros" "Perdikouli"
 	} 
 }
 
 ### Theme: Royalty ###
-GRE_THEME_ROYALTY = { # 1863 - XXXX.
+GRE_THEME_ROYALTY = { # 1863 - ...
 	name = NAME_THEME_ROYALTY
 
 	for_countries = { GRE }
@@ -477,8 +511,8 @@ GRE_THEME_BYZANTINE_MONARCHS = {
 		"Michael II" "Theophilios" "Michael III"
 		
 		### Macedonian Dynasty ###
-		"Basil I" "Leo VI" "Alexander" "Romanos I" "Constantine VII" "Romanos II" "Nikephoros II" "John I"
-		"Basil II" "Constantine VIII" "Romanos III" "Michael IV" "Michael V" "Zoe" "Theodora" "Constantine IX"
+		"Basil I" "Leo VI" "Alexander" "Romanos I" "Constantine VII" "Romanos II" "Nikephoros II" "John I" "Basil II" "Constantine VIII" 
+		"Romanos III" "Michael IV" "Michael V" "Zoe" "Theodora" "Constantine IX"
 		
 		### Non-Dynastic ###
 		"Michael VI"
@@ -499,8 +533,8 @@ GRE_THEME_BYZANTINE_MONARCHS = {
 		"Theodore I" "John III" "Theodore II" "John IV"
 		
 		### Palaiologan Dynasty ###
-		"Michael VIII" "Andronikos II" "Michael IX" "Andronikos III" "John V" "John VI" "Andronikos IV"
-		"John V" "John VII" "Manuel II" "John VIII" "Constantine XI"
+		"Michael VIII" "Andronikos II" "Michael IX" "Andronikos III" "John V" "John VI" "Andronikos IV" "John V" "John VII" "Manuel II" 
+		"John VIII" "Constantine XI"
 	}
 }
 
@@ -519,10 +553,9 @@ GRE_THEME_BATTLES = {
 	fallback_name = "Polemikó Ploío-I %d"
 
 	unique = {
-		"Thermopyles" "Valtetsiou" "Variadon" "Galatsiou" "Granas" "Distomo" "Dragatsaniou" "Dodekanison" "Trikorfa" 
-		"Levidiou" "Keratsini" "Bizaniou" "Kiatou" "Metsovo" "Salamina" "Marathonas" "Mykalis" "Knidou" "Arginouson" 
-		"Kuzikou" "Lidorikou" "Maniaki" "Petras" "Plakas" "Granikou" "Plateae" "Chaeronea" "Navarino" "Dervnenakia" 
-		"Domokos" "Maniaki" "Lachanas" "Doiran" "Vevi"
+		"Thermopyles" "Valtetsiou" "Variadon" "Galatsiou" "Granas" "Distomo" "Dragatsaniou" "Dodekanison" "Trikorfa" "Levidiou" "Keratsini" 
+		"Bizaniou" "Kiatou" "Metsovo" "Salamina" "Marathonas" "Mykalis" "Knidou" "Arginouson" "Kuzikou" "Lidorikou" "Maniaki" "Petras" 
+		"Plakas" "Granikou" "Plateae" "Chaeronea" "Navarino" "Dervnenakia" "Domokos" "Maniaki" "Lachanas" "Doiran" "Vevi"
 	} 
 }
 
@@ -583,7 +616,7 @@ GRE_THEME_SAINTS = {
 	} 
 }
 
-########################################################### Greece - Communist Ship Names ###################################################################################
+############################################################# Greece - Communist Ship Names #####################################################################################
 
 ### Aircraft Carrier Names ###
 GRE_CV_COMMUNIST = { # Aces.
@@ -606,6 +639,11 @@ GRE_CV_COMMUNIST = { # Aces.
 		### World War 2 Aces ###
 		"Ioannis Lolos" "Marinos Mitralexis" "Panagiotis Argyropoulos" "Andreas Antoniou" "Spiros Pisanos" "Basilios Vassiliades" 
 		"Ioannis Agorastos"
+
+		### Aviators ###
+		"Aristeidis Moraitinis" "Michalis Moutoussis" "Christos Adamidis" "Anastasios Sioulas" "Emmanouil Argyropoulos"
+		"Konstantinos Maniadakis" "Panagiotis Danglis" "Dimitrios Kamberos" "Antonis Papadakis" "Georgios Konstantinidis"
+		"Theodoros Moraitinis" "Konstantinos Kavvadias" "Alexandros Zannas" "Nikolaos Stamatelopoulos" "Dimitrios Laskaratos"
 	}
 }
 
@@ -624,8 +662,10 @@ GRE_CVL_COMMUNIST = { # Flying Creatures.
 	fallback_name = "Elafri Aeroplanoforo %d"
 
 	unique = {
-		"Aetos" "Gypas" "Geraki" "Koukouváyia" "Kirkinaki" "Kondoras" "Psaraetos" "Pigargos" "Kerasforos" "Alkotan" "Tsountso" 
-		"Boursado" "Nychterída" "Sfínga" "Petalouda" "Mélissa" "Kolimpri" "Harpyia" "Phoínikas" "Spourgíti" "Kounoupi" "Drakos"
+		"Gypas" "Koukouváyia" "Kirkinaki" "Kondoras" "Psaraetos" "Pigargos" "Kerasforos" "Alkotan" "Tsountso" "Boursado" 
+		"Nychterída" "Sfínga" "Petalouda" "Mélissa" "Kolimpri" "Harpyia" "Phoínikas" "Spourgíti" "Kounoupi" "Drakos" "Peristeri" 
+		"Petritis" "Glaros" "Xelidoni" "Psaroni" "Agrioperistero" "Sapfira" "Karaboktena" "Chelonionas" "Diatrita" "Anatropi" 
+		"Chrysopetalo" "Vrahokorakas" "Araklas" "Kyknos" "Tsiknakas" "Anakolios" "Gelastis" "Sapounizoni" "Mavropetritis"
 	}
 }
 
@@ -644,19 +684,25 @@ GRE_BB_COMMUNIST = { # Figures - Cities - Themes.
 	fallback_name = "Thorikto %d"		
 
 	unique = {
-		### Older Models ###
-		"Salamis" "Kilkis" "Lemnos"
+		### Salamis Class (1912) - Standalone ###
+		"Salamis"
 
-		### Important Figures ###
-		"Georgios Papanikolaou" "Theodoros Kolokotronis" "Georgios Kountouriotis" "Georgios Karaiskakis" "Eleutherios Venizelos" 
-		"Ioannis Kapodistrias" "Odysseas Elyths" "Mégas Aléxandros" "Sokrátis" "Aristotélis" "Pláton" "Periklís" "Themistoklís"
-		"Leonídas" "Ómiros"
+		### Kilkis Class (1914) - Standalone ###
+		"Kilkis"
+
+		### Lemnos Class (1914) - Standalone ###
+		"Lemnos"
 		
 		### Additionals - Cities/Capitals ###
 		"Athina" "Thessaloniki" "Konstantinoúpoli" "Nafplio" "Aigina"
 
 		### Additionals - Principles ###
-		"Patrida" "Eleftheria" "Enosis" "Kyríarchos" "Laos" "Kommounismos" "Ellada"
+		"Patrida" "Eleftheria" "Enosis" "Kyríarchos" "Dimokratía" "Kommounismos" "Ellada"
+
+		### Additionals - Important Figures ###
+		"Georgios Papanikolaou" "Theodoros Kolokotronis" "Georgios Koundouriotis" "Georgios Karaiskakis" "Eleftherios Venizelos" 
+		"Ioannis Kapodistrias" "Odysseas Elytis" "Mégas Aléxandros" "Sokrátis" "Aristotélis" "Pláton" "Periklís" "Themistoklís"
+		"Leonídas" "Ómiros"
 	}
 }
 
@@ -696,7 +742,7 @@ GRE_CA_COMMUNIST = { # Figures - Generals.
 	fallback_name = "Vari Katadromiko %d"
 
 	unique = {
-		### Geogrgios Averof Class - Standalone ###
+		### Geogrgios Averof Class (1911) - Standalone ###
 		"Georgios Averof" 
 
 		### Additionals ###
@@ -726,6 +772,10 @@ GRE_CL_COMMUNIST = { # Cities.
 	fallback_name = "Elafri Katadromiko %d"
 
 	unique = {
+		### Elli Class (1914) - Standalone ###
+		"Elli"
+
+		### Additionals ###
 		"Dafni" "Koufalia" "Oropos" "Spata" "Messolongi" "Melissia" "Sparta" "Nea Filadelfeia" "Argostoli" "Kastoria" "Thiva" 
 		"Nea Moudania" "Megara" "Orestiada" "Oraiokastro" "Salamina" "Dionysos" "Moschato" "Zakynthos" "Lagadas" "Alexandreia" 
 		"Alimos" "Argos" "Arta" "Cholargos" "Ptolemaida" "Sindos" "Fili" "Chaidari" "Tripoli" "Pyrgos" "Voula" "Heraklion" 
@@ -775,12 +825,18 @@ GRE_DD_COMMUNIST = { # Weaponary - Weather Phenomenons.
 	fallback_name = "Antitorpiliko %d"					
 
 	unique = {
-		### Weaponary ###
+		### Aetos Class (1912) ###
+		"Aetos" "Pantir" "Leon" "Ierax"
+
+		### Kountouriotis Class (1931) ###
+		"Kountouriotis" "Spetsai" "Hydra" "Psara"
+
+		### Additionals - Weaponary ###
 		"Lonchi" "Aspis" "Spathi" "Dory" "Xiphos" "Akontio" "Tokso" "Velos" "Kranos" "Thorakas" "Knimides" "Kopis" "Pyrovoliko" 
 		"Sarissa" "Pilos" "Akontion" "Arma" "Xyston" "Sfentona" "Katapeltis" "Martiobarbuli" "Romphaia" "Pelta" "Gastraphetes"
 		"Arpi" "Sica" "Olisideron" "Arpaga" "Akon"
 
-		### Weather Phenomenons ###
+		### Additionals - Weather Phenomenons ###
 		"Vrochí" "Chióni" "Ánemos" "Kataigída" "Kerav̱nós" "Astrapí" "Néfos" "Omíchli" "Chalázi" "Sífounas" "Tyfónas" "Seismós"
 		"Plimmýra" "Tsounámi" "Chionothýella" "Palírrua" "Sfondýlia" "Káfsōnas" "Mousónas" "Lygariá" "Ammothýella" "Sélas" 
 		"Kyklónas"

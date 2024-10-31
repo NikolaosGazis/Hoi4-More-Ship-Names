@@ -16,7 +16,6 @@ POL_CV_HISTORICAL = { # Aviators.
 	fallback_name = "Lotniskowiec %d"
 	
 	unique = {
-		### Aviators ###
 		"Jan Nagórski" "Stefan Bastyr" "Franciszek Żwirko" "Stanisław Wigura" "Eugeniusz Przedpelski" "Janusz de Beaurain" "Witold Urbanowicz" 
 		"Bolesław Orliński" "Mieczysław Medwecki" "Jerzy Bajan" "Fryderyk Jach" "Tadeusz Karpiński" "Bolesław Orliniec" "Marian Pisarek" 
 		"Tadeusz Sędzielowski" "Bolesław Telatycki" "Marian Romeyko" "Mieczysław Tarkowski" "Stefan Stec" "Tadeusz Grobicki" "Tadeusz Mańkowski" 

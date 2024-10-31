@@ -4,7 +4,7 @@
 # HDMS = His Danish Majesty's Ship. (Official - Used)
 
 ### Aircraft Carrier Names ###
-DEN_CV_HISTORICAL = { # Aviation Figures - Flying Creatures.
+DEN_CV_HISTORICAL = { # Aviators.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
 	for_countries = { DEN }
@@ -16,13 +16,28 @@ DEN_CV_HISTORICAL = { # Aviation Figures - Flying Creatures.
 	fallback_name = "Hangarskib %d"	
 
 	unique = {
-		### Aviation Figures ###
-		"Jacob Ellehammer" "Knud Rasmussen" "Jakob Madsen"
+		"Jacob Ellehammer" "Knud Rasmussen" "Jakob Madsen" "Thomas Fich" "Valdemar Poulsen" "Ole Suhr" "Kurt Jørgensen" "Emil Madsen" 
+		"Holger Nielsen" "Peter Thomsen" "Erik Møller" "Jens Andersen" "Hakon Heidemann" "Christian Riis" "Ejnar Madsen" "Knud Larsen" 
+		"Hans Rasmussen" "Julius Svendsen" "Paul Holm" "Carl Nissen" "Hugo Rasmussen" "Børge Rasmussen" "Jens Krag" "Arne Madsen"
+	}
+}
 
-		### Flying Creatures ###
+### Light Aircraft Carrier Names ###
+DEN_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "HDMS "
+	fallback_name = "Let Hangarskib %d"
+
+	unique = {
 		"Fugl" "Sommerfugl" "Flagermus" "Ørn" "Høg" "Måge" "Due" "Kolibri" "Spurv" "Falk" "Ugle" "Svane" "Peikan" "Albatros" 
 		"Bi" "Guldsmed" "Hveps" "Papegøje" "Humlebi" "Grib" "Gedehams" "Elster" "Mål" "Kondor" "Spætte" "Flue" "Biæder" 
-		"Vandrefalk" "Lynghummer" "Svalle" "Isfugl" "Havfalk"
+		"Vandrefalk" "Lynghummer" "Svalle" "Isfugl" "Havfalk" "Lærke" "Terne" "Ravn" "Nattergal" "Vibe" "Tårnfalk" "Svale"
 	}
 }
 
@@ -101,7 +116,29 @@ DEN_CL_HISTORICAL = { # Mythical Places.
 
 	unique = {
 		"Asgård" "Bryggen" "Dværgelandet" "Havbjerget" "Lidenlund" "Nordlandet" "Risvangen" "Skrømtelandet" "Solstråleøen" "Sørøverbugten" 
-		"Troldebjerg" "Vætteskoven" "Kæmpeskoven" "Nattehimlen" "Dragebjerg" "Himmelbroen" "Elverhøj" "Troldlandet" "Nattens Bro"
+		"Troldebjerg" "Vætteskoven" "Kæmpeskoven" "Nattehimlen" "Dragebjerg" "Himmelbroen" "Elverhøj" "Troldlandet" "Nattens Bro" "Myrkviðr" 
+		"Frostholm" "Valkyrieholm" "Sagnlandet" "Nordsjøhavn" "Havnens Ø" "Skovmændenes Rige"
+	}
+}
+
+### Mineship Names ###
+DEN_MNS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINESHIPS
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	prefix = "HDMS "
+	fallback_name = "Mineskib %d"
+
+	unique = {
+		### Minesweepers ###
+		"Viggen" "Tornado" "Korsar" "Fjord" "Fjordbåd" "Valhalla"
+
+		### Minelayers ###
+		"Jutland" "Hvidbjørn" "Viborg" "Nordsjælland" "Lolland" "Sjaelland" "Holger Danske"
 	}
 }
 
@@ -121,6 +158,11 @@ DEN_DD_HISTORICAL = { # Marine Creatures - Nautical Concepts.
 		"Nymfen" "Najaden" "Søridderen" "Flyvefisken" "Søulven" "Hvalrossen" "Delfinen" "Sværdfisken" "Springeren" "Støren" "Søløven" "Søhunden" 
 		"Havhesten" "Narhvalen" "Makrelen" "Nordkaperen" "Havkatten" "Sælen" "Dragen" "Hvalen" "Laxen" "Søhesten" "Sirenen" "Mågefuglen" "Havgudinden" 
 		"Bølgebruderen" "Koralreven" "Stjerneskibet" "Sydhavet" "Kaskelotten"
+
+		### Additionals - Various ###
+		"Falken" "Havfruen" "Blæksprutten" "Tornadoen" "Rødhajen" "Flammefisken" "Furien" "Vindsvalen" "Stormen" "Isbjørnen" "Søpapegøjen" "Lodden" 
+		"Røgen" "Tromben" "Hjerteregen" "Kuglefisken" "Glæden" "Søstormen" "Fjorden" "Kystvagten" "Fjordhesten" "Søsprutten" "Svalen" "Havskum" 
+		"Skærgården" "Havdejen"
 	}
 }
 
@@ -152,7 +194,7 @@ DEN_THEME_REGIONS = {
 	for_countries = { DEN }
 
 	type = ship
-	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser }
+	ship_types = { ship_hull_heavy ship_hull_cruiser battleship battle_cruiser heavy_cruiser light_cruiser }
 
 	prefix = "HDMS "
 	fallback_name = "Skib-A %d"
@@ -163,13 +205,13 @@ DEN_THEME_REGIONS = {
 }
 
 ### Theme: Mountains ###
-DEN_THEME_MOUNTAINS = { # Suprise suprise - Denmark is a flat country :/.
+DEN_THEME_MOUNTAINS = { # Suprise - Denmark is a flat country :/.
 	name = NAME_THEME_MOUNTAINS
 
 	for_countries = { DEN }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HDMS "
 	fallback_name = "Skib-B %d"
@@ -186,15 +228,15 @@ DEN_THEME_CITIES = {
 	for_countries = { DEN }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HDMS "
 	fallback_name = "Skib-C %d"
 
 	unique = {
-		"Aarhus" "Odense" "Aalborg" "Esbjerg" "Randers" "Kolding" "Horsens" "Vejle" "Roskilde" "Herning" "Hørsholm" "Helsingør" "Silkeborg" "Næstved" 
-		"Fredericia" "Viborg" "Køge" "Holstebro" "Taastrup" "Slagelse" "Hillerød" "Holbæk" "Sønderborg" "Svendborg" "Hjørring" "Frederikshavn" 
-		"Nørresundby" "Ringsted" "Haderslev" "Ølstykke-Stenløse" "Skive" "Birkerød" "Farum" "Smørumnedre" "Skanderborg" "Nyborg" "Lillerød" 
+		"Aarhus" "Odense" "Aalborg" "Esbjerg" "Randers" "Kolding" "Horsens" "Vejle" "Roskilde" "Herning" "Hørsholm" "Helsingør" "Silkeborg" "Næstved"
+		"Fredericia" "Viborg" "Køge" "Holstebro" "Taastrup" "Slagelse" "Hillerød" "Holbæk" "Sønderborg" "Svendborg" "Hjørring" "Frederikshavn"
+		"Nørresundby" "Ringsted" "Haderslev" "Ølstykke-Stenløse" "Skive" "Birkerød" "Farum" "Smørumnedre" "Skanderborg" "Nyborg" "Lillerød"
 		"Kalundborg" "Frederikssund" "Aabenraa" "Solrød Strand" "Ikast" "Middelfart" "Grenaa" "Korsør" "Varde" "Rønne" "Thisted" "Værløse"
 	}
 }
@@ -207,7 +249,7 @@ DEN_THEME_RIVERS = {
 	for_countries = { DEN }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HDMS "
 	fallback_name = "Skib-D %d"
@@ -237,6 +279,58 @@ DEN_THEME_ISLANDS = {
 	} 
 }
 
+### Theme: Historical Holdings ###
+DEN_THEME_HISTORICAL_HOLDINGS = {
+	name = NAME_THEME_HISTORICAL_HOLDINGS
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "HDMS "
+	fallback_name = "Skib-F"
+
+	unique = {
+		### Southern Germany ###
+		"Schleswig-Holstein" "Hamburg" "Kiel" "Flensburg" "Lübeck" "Rendsburg" "Altona"
+
+		### Norway ###
+		"Bergen" "Oslo" "Trondheim" "Stavanger" "Tønsberg"
+
+		### Sweden ###
+		"Stockholm" "Gothenburg" "Malmö" "Uppsala" "Visby" "Kalmar"
+
+		### Finland ###
+		"Turku" "Helsinki"
+
+		### Iceland ###
+		"Reykjavik" "Tórshavn" "Akureyri"
+	}
+}
+
+### Theme: (Historical) Colonies ###
+DEN_THEME_COLONIES = {
+	name = NAME_THEME_COLONIES
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "HDMS "
+	fallback_name = "Skib-G"
+
+	unique = {
+		### European Terretories ###
+		"Tallinn" "Narva" "Nuuk" "Sisimiut" "Ilulissat" "Qaqirtoq" "Tasilaq" "Longyearbyen" "Barentsburg" "Riga"
+
+		### Overseas Terretories ###
+		"Charlotte Amalie" "Christiansted" "Frederiksted" "Cruz Bay" "Serampore" "Tranquebar" "Christianborg" "Fredensborg" "Prinsensten" 
+		"Nicobar" "Serampore" "Svalbard" "Orkney" "Shetland" "Queensland"
+	}
+}
+
 ### Theme: Inspirational ###
 DEN_THEME_INSPIRATIONAL = {
 	name = NAME_THEME_INSPIRATION
@@ -250,7 +344,10 @@ DEN_THEME_INSPIRATIONAL = {
 	fallback_name = "Skib-F %d"
 
 	unique = {
-		###
+		"Beslutsom" "Enhed" "Nordisk Brise" "Vikingånd" "Aurora" "Søfarer" "Mod" "Malstrøm" "Nordstjernen" "Frihed" "Skagerrak" "Odins Ed"
+		"Horisont" "Tapperhed" "Nordlys" "Borealis" "Tyras Stolthed" "Sømand" "Saga" "Udholdenhed" "Udfordring" "Strid" "Ære" "Hjerte"
+		"Vandring" "Skæbne" "Fremtid" "Tro" "Kraft" "Ro" "Sikkerhed" "Glæde" "Vigør" "Blæst" "Mål" "Rover" "Helhed" "Nærvær" "Fællesskab"
+		"Styrke" "Liv" "Håb" "Vision" "Sande" "Stjerne" "Modig" "Fjende" "Vinden" "Rytme" "Skud" "Kurs" "Udsigt" "Strøm" "Roer" "Klar"
 	}
 }
 
@@ -268,7 +365,9 @@ DEN_THEME_CULTURE = {
 
 	unique = { 
 		"Skjoldvagt" "Havbris" "Freyasol" "Ravnsværd" "Astrum" "Himmelblå" "Tordenskær" "Ørnsving" "Silhuet" "Lyngbrand" "Isbjørn" "Måneskær" 
-		"Solglimt" "Sjælø" "Stormhavn" "Blomstrende" "Vinterlys" "Rovsø" "Hyrdehund" "Havgud" "Fællesskab"
+		"Solglimt" "Sjælø" "Stormhavn" "Blomstrende" "Vinterlys" "Rovsø" "Hyrdehund" "Havgud" "Fællesskab" "Årsag" "Guldhjerte" "Fjorddrøm" 
+		"Naturkraft" "Mørketid" "Stjernehavn" "Hjerteblomst" "Dansedrøm" "Lysbølge" "Skovsø" "Vandkilde" "Folkefest" "Himmelstjerne" "Søhjerte" 
+		"Kystvind" "Kulturarv" "Hjertefred" "Rosenrøde"
 	}
 }
 
@@ -285,8 +384,9 @@ DEN_THEME_BATTLES = {
 	fallback_name = "Skib-H %d"
 
 	unique = {
-		"Lyndanisse" "Bornhöved" "Fredericia" "Heligoland" "Als" "Sankelmark" "Bov" "Lundby" "Dybbøl" "Re" "Köge Bay" "Fehmarn"
-		"Frederikshavn" "Sound" "Lund" "Helsingborg" "Matz" "Kolberger Heide" "Rügen"
+		"Lyndanisse" "Bornhöved" "Fredericia" "Heligoland" "Als" "Sankelmark" "Bov" "Lundby" "Dybbøl" "Re" "Köge Bay" "Fehmarn" "Frederikshavn" 
+		"Sound" "Lund" "Helsingborg" "Matz" "Kolberger Heide" "Rügen" "Grubenhagen" "Bjerre" "Nyborg" "Skåne" "Sleipner" "Stralsund" "Gdańsk" 
+		"Sørland" "Sørensen" "Helsingør" "Söderköping" "Trelleborg" "Halle" "Stettin" "Brandenburg" "Sønderborg" "Uppsala" "Fur"
 	}
 }
 
@@ -303,9 +403,9 @@ DEN_THEME_NORDIC_MYTHOLOGY = {
 	fallback_name = "Skib-H %d"
 
 	unique = {
-		"Odin" "Thor" "Frigg" "Loki" "Tyr" "Freya" "Freyr" "Heimadall" "Skadi" "Njord" "Aegir" "Idun" "Bragi" "Fenrir" "Jormungandr" 
-		"Vidar" "Valkyrie" "Hel" "Fafnir" "Sif" "Eir" "Forseti" "Sigyn" "Hodr" "Ran" "Lofn" "Norns" "Mimir" "Bifrost" "Yggdrasil" 
-		"Nott" "Surt" "Gullveig" "Ullr" "Munin" "Hugin" "Hoddmimir" "Sleipnir" "Hoenir" "Hati" "Hyrrokkin" "Modi" "Magni" "Vili"
-		"Lindormen"
+		"Odin" "Thor" "Frigg" "Loki" "Tyr" "Freya" "Freyr" "Heimadall" "Skadi" "Njord" "Aegir" "Idun" "Bragi" "Fenrir" "Jormungandr" "Vidar" 
+		"Valkyrie" "Hel" "Fafnir" "Sif" "Eir" "Forseti" "Sigyn" "Hodr" "Ran" "Lofn" "Norns" "Mimir" "Bifrost" "Yggdrasil" "Nott" "Surt" "Gullveig" 
+		"Ullr" "Munin" "Hugin" "Hoddmimir" "Sleipnir" "Hoenir" "Hati" "Hyrrokkin" "Modi" "Magni" "Vili" "Lindormen" "Skuld" "Kvasir" "Aldafolk" 
+		"Hrimthurs" "Baldur" "Gerd" "Ran" "Narfi" "Sigurd" "Bergelmir" "Nanna" "Eldir" "Völsung" "Brunhild" "Freyja"
 	}
 }

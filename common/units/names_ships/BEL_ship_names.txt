@@ -4,7 +4,7 @@
 # BNS = Belgian Navy Ship. (NATO - Used)
 
 ### Aircraft Carrier Names ###
-BEL_CV_HISTORICAL = { # Aviators - Importance.
+BEL_CV_HISTORICAL = { # Aviators.
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
 	for_countries = { BEL }
@@ -16,7 +16,8 @@ BEL_CV_HISTORICAL = { # Aviators - Importance.
 	fallback_name = "Porte-Avions %d"	
 
 	unique = {
-		"Graaf van Vlaanderen" "Hainaut" "Robrecht de Béthune" 	"Aster" "Bellis" "Crocus" "Lobelia" "Narcis" "Primula" 
+		"Farman" "De Hamptinne" "Thieffry" "Montgolfier" "Morandière" "Lambert" "Renaux" "Deley" "Leclercq" "Vyvere" "Panouse" "Jonghe" "Jonghe" 
+		"Valette" "Delagrange" "Verdun" "Wallez" "Pégoud" "Guynemer" "Gossens" "Blériot" "Boucher" "Esnault-Pelterie" "Rosseel"
 	}
 }
 
@@ -33,7 +34,10 @@ BEL_CVL_HISTORICAL = { # Flying Creatures.
 	fallback_name = "Porte-Avions Léger %d"
 
 	unique = {
-		###
+		"Albatros" "Pigeon Ramier" "Hirondelle" "Faucon Pèlerin" "Buse Variable" "Goéland Argenté" "Mésange Bleue" "Pie Bavarde" "Hibou Grand-Duc" 
+		"Corbeau" "Abeille" "Mouche" "Libellule" "Papillon" "Guêpe" "Fourmi Volante" "Sphinx Colibri" "Cigale" "Coccinelle Volante" "Tipule" 
+		"Chardonneret" "Rouge-gorge" "Canard Colvert" "Martin-Pêcheur" "Fauvette" "Poule d'Eau" "Héron Cendré" "Pélican" "Grue Couronnée" "Merle" 
+		"Pigeon Voyageur" "Poule d'Eau" "Mante Religieuse" "Cigale"
 	}
 }
 
@@ -50,7 +54,11 @@ BEL_BB_HISTORICAL = { # Importance - Figures.
 	fallback_name = "Navire de Ligne %d"		
 
 	unique = {
-		"Roi Leopold I" "Roi Leopold II" "Roi Albert I" "Reine Astrid" "Jeneval" "General Brialmont" "Leopoldville" 
+		"Roi Leopold I" "Roi Leopold II" "Roi Albert I" "Reine Astrid" "Jeneval" "General Brialmont" "Leopoldville" "Graaf van Vlaanderen" 
+		"Hainaut" "Robrecht de Béthune" "Aster" "Bellis" "Crocus" "Lobelia" "Narcis" "Primula" "Charles de Lorraine" "Ferdinand de Lannoy" 
+		"Jean-Baptiste Nothomb" "Félix de Mérode" "Roi Philippe le Bon" "Lamoral d’Egmont" "Louis de Ligne" "Adolphe Max" "Guillaume d'Orange" 
+		"Baron Auguste Beernaert" "Louis Gallait" "Félicien Rops" "Pierre-Joseph Redouté" "Pieter-Paul Rubens" "Simon Stevin" "Justine Henin" 
+		"Albert Thys" "Gilles de Chin"
 	}
 }
 
@@ -64,15 +72,17 @@ BEL_BC_HISTORICAL = { # Adjectives.
 	ship_types = { ship_hull_heavy battle_cruiser }
 	
 	prefix = "BNS "
-	fallback_name = "Croiseur Cuirassé %d"		
+	fallback_name = "Croiseur Cuirassé %d"
 
 	unique = {
-		"Roi Leopold I" "Roi Leopold II" "Roi Albert I" "Reine Astrid" "Jeneval" "General Brialmont" "Leopoldville" 
+		"Imposant" "Rapide" "Puissant" "Svelte" "Furtif" "Endurant" "Précis" "Tactique" "Inébranlable" "Équilibré" "Léger" "Noble" "Féroce" 
+		"Terrifiant" "Imperturbable" "Élégant" "Dominant" "Indomptable" "Stratégique" "Invincible" "Brillant" "Sombre" "Résistant" "Agressif" 
+		"Furtif" "Savant" "Loyal" "Fascinant" "Imposant" "Vigilant" "Dynamique" "Aérodynamique"
 	}
 }
 
 ### Heavy Cruiser Names ###
-BEL_CA_HISTORICAL = {
+BEL_CA_HISTORICAL = { # Generals.
 	name = NAME_THEME_HISTORICAL_CA
 
 	for_countries = { BEL }
@@ -84,12 +94,15 @@ BEL_CA_HISTORICAL = {
 	fallback_name = "Croiseur Lourd %d"
 
 	unique = {
-		"Wielingen" "Westdiep" "Wandelaar" "Albertville" "Elisabethville" "Antwerpen" "Bruxelles" "Gent" "Ieper" "Liege" "Brugge" "Roeselare" 
+		"Enuke Balis" "Baroz Chazal" "Louis Chaltin" "Émile Dossin" "Jules de Dixmude" "Gérard Leman" "Baron de Brialmont" "Félix Wielemans" 
+		"Émile Galet" "Armand de Ceunick" "Cyriaque Gillain" "Baron Lemercier" "Baron Bertand" "Charles Tombeur" "Antoine de Selliers" 
+		"Albert d'Amade" "Léon de Witte" "Louis Bernheim" "Émile de Meester" "Henri Alexis" "Raoul Pontus" "Jules Pire" "Joseph Leroy" 
+		"Armand Gérard" "Augeste Gillain" "Philippe Buisseret" "Maximilien Bosschaert" "Henri de la Kethulle"
 	}
 }
 
 ### Light Cruiser Names ###
-BEL_CL_HISTORICAL = {
+BEL_CL_HISTORICAL = { # Admirals.
 	name = NAME_THEME_HISTORICAL_CL
 
 	for_countries = { BEL }
@@ -101,13 +114,17 @@ BEL_CL_HISTORICAL = {
 	fallback_name = "Croiseur Léger %d"
 
 	unique = {
-		"Wielingen" "Westdiep" "Wandelaar" "Albertville" "Elisabethville" "Antwerpen" "Bruxelles" "Gent" "Ieper" "Liege" "Brugge" "Roeselare" 
+		"Émile Duval" "Jules Henssens" "Léon le Hardÿ" "Victor Victor" "Pierre Kervyn" "Henri Apers" "Alphonse Biebuyck" "Georges de Crée" 
+		"François Schouteden" "Pierre de Keghel" "Ernest Demaret" "Charles Vandermotten" "Gérard Lemaire" "Oscar Delobeau" "Jean-Claude Henderick" 
+		"Édouard Decarpentrie" "Henri Collard" "Émile Storms" "Émile Storms" "Ferdinand de Royer" "Albert van Hecke" "Maurice Rodriquez" 
+		"Victor van Hove" "André Delcourt" "Léonard Debeck" "Gaston Neefs" "Eugène Plumier" "Achille Smets" "François Brocqueville" "Victor Goffinet" 
+		"Auguste Vandevelde" "Georges Debussy" "Henry Schryvers" "Paul de Bois"
 	}
 }
 
 ### Mineship Names ###
 BEL_MNS_HISTORICAL = { # Flowers.
-	name = NAME_THEME_HISTORICAL_MINESHIPS
+	name = NAME_THEME_HISTORICAL_MINES
 
 	for_countries = { BEL }
 
@@ -118,12 +135,15 @@ BEL_MNS_HISTORICAL = { # Flowers.
 	fallback_name = "Chasseur de Mines %d"
 
 	unique = {
-		###
+		"Rose" "Tulipe" "Tournesol" "Lys" "Trèfle" "Œillet" "Violette" "Pâquerette" "Dahlia" "Hortensia" "Jasmin" "Géranium" "Crocus" "Narcisse" 
+		"Intérieur" "Pivoine" "Aster" "Freesia" "Fuchsia" "Zantedeschia" "Magnolia" "Muguet" "Pensée" "Chrysanthème" "Camélia" "Lavande" "Bégonia" 
+		"Fleur de Cerisier" "Alstroemeria" "Rhododendron" "Mimosa" "Fleur de lis" "Syringa" "Impatiens" "Gerbera" "Scabieuse" "Rudbeckie" "Echinacée" 
+		"Boule de Neige" "Hélianthème"
 	}
 }
 
 ### Destroyer Names ###
-BEL_DD_HISTORICAL = {
+BEL_DD_HISTORICAL = { # Animals.
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
 	for_countries = { BEL }
@@ -134,8 +154,18 @@ BEL_DD_HISTORICAL = {
 	prefix = "BNS "
 	fallback_name = "Contre-Torpilleur %d"					
 
-	unique = {											
-		"Artevelde" "Zinnia" "Jan Breydel" "Victor Billet" "Wielingen" "Westdiep" "Wandelaar" "Westhinder" "Leopold I" "Louise-Marie" "Brugge" 
+	unique = {
+		### Zinnia Class (1915) - Standalone ###
+		"Zinnia"
+
+		### Artevelde Class (1940) - Standalone ###
+		"Artevelde" 
+
+		### Additionals ###
+		"Panthère" "Loup" "Lynx" "Bison" "Renard" "Ours" "Léopard" "Jaguar" "Tigre" "Élan" "Chat sauvage" "Sanglier" "Blaireau" "Cerf" "Coyote" 
+		"Buffle" "Orignal" "Glouton" "Antilope" "Puma" "Caracal" "Chevreuil" "Daim" "Hérisson" "Mangouste" "Chacal" "Gazelle" "Chamois" "Belette" 
+		"Lièvre" "Ocelot" "Capybara" "Zèbre" "Tamarin" "Tatou" "Tapir" "Pécari" "Pangolin" "Guépard" "Lémurien" "Antilope" "Bison" "Bouquetin" 
+		"Cerf" "Dhole" "Girafe" "Gnou" "Kangourou" "Lynx" "Mouflon" "Okapi" "Oryx" "Renard" "Saïga" "Tigre"
 	}
 }
 
@@ -152,15 +182,37 @@ BEL_SS_HISTORICAL = { # Sea Creatures.
 	fallback_name = "Sous-Marin %d"
 	
 	unique = {
-		"Artevelde" "Zinnia" "Jan Breydel" "Victor Billet" "Wielingen" "Westdiep" "Wandelaar" "Westhinder" "Leopold I" "Louise-Marie" "Brugge" 
+		"Thon" "Dauphin" "Requin" "Mérou" "Poisson-Lune" "Sardine" "Raie" "Anguille" "Homard" "Orque" "Langouste" "Barracuda" "Grouper" "Flétan" "Sole" 
+		"Poisson-Scorpion" "Anémone" "Méduse" "Étoile de mer" "Calamar" "Hippocampe" "Narval" "Tortue" "Soleil" "Poisson-Clown" "Langoustine" "Siphonophore" 
+		"Gorgone" "Poulpe" "Anglerfish" "Scyllaridé" "Turbot" "Poisson-Globe" "Poisson-Pêcheur" "Vivier" "Cabillaud" "Poisson-Chat" "Corail" "Stingray" "Lotte" 
+		"Soleil" "Truite" "Moule" "Crabe" "Oursin" "Piranha" "Manta" "Anguille électrique" "Scombre" "Dorade" "Poisson-soldat" "Banc de sardines" "Chabot" 
+		"Scorpion de mer" "Murène" "Poisson-Chirurgien"
 	}
 }
 
 ##### Themes #####
 
-### Theme: Regions ###
-BEL_THEME_REGIONS = {
-	###
+### Theme: Provinces ###
+BEL_THEME_PROVINCES = {
+	name = NAME_THEME_PROVINCES
+
+	for_countries = { BEL }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "BNS "
+	fallback_name = "Navire de Guerre-A %d"
+
+	unique = {
+		### Mainland ###
+		"Antwerp" "Flandre-Orientale" "Brabant Flamand" "Limburg" "Flandre-Occidentale" "Hainaut" "Liège" "Luxembourg" "Namur" "Brabant Wallon" 
+		"Eupen-Malmedy" "Brussels" 
+
+		### Colonial - Congo ###
+		"Léopoldville" "Katanga" "Kasaï" "Équateur" "Orientale" "Kivu" "Bas-Congo" "Maniema" "Sud-Kasaï" "Nord-Katanga" "Kwango" "Lomami" "Lualaba" 
+		"Mai-Ndombe"
+	}
 }
 
 ### Theme: Mountains ###
@@ -176,7 +228,11 @@ BEL_THEME_MOUNTAINS = {
 	fallback_name = "Navire de Guerre-B %d"
 
 	unique = {
-		###
+		"Botrange" "Weißer Stein" "Rigi" "Baraque Michel" "Steling" "Fraiture" "Saint-Hubert" "Recogne" "Rosier" "Spiebig" "Brumes" "Schwirzbierg" 
+		"Hochtumskopf" "Stockeu" "Scaille" "Vaalserberg" "Redoute" "Charneux" "Bosch" "Faucons" "Huy" "Schaesberg" "Landelies" "Flisme" "Jonquière" 
+		"Gaudys" "Roquettes" "Idée" "Kemmelberg" "Pottelberg" "Bois" "Jouvence" "Rhode" "Noir" "St-Aubert" "Hoppeberg" "Hotondberg" "Schapenberg" 
+		"Banenberg" "Kluisberg" "Hauts" "Vidaigneberg" "Scherpenberg" "Bourliquet" "Hallembaye" "Fortuinberg" "Muziekberg" "Kanarieberg" "Rodeberg" 
+		"Kraai" "Galgenberg"
 	}
 }
 
@@ -193,7 +249,14 @@ BEL_THEME_CITIES = {
 	fallback_name = "Navire de Guerre-C %d"
 
 	unique = {
-		###
+		"Mechelen" "La Louvière" "Kortrijk" "Hasselt" "Oostende" "Sint-Niklaas" "Tournai" "Genk" "Seraing" "Roeselare" "Verviers" "Mouscron" "Beveren"
+		"Dendermonde" "Beringen" "Turnhout" "Dilbeek" "Berg" "Sint-Truiden" "Lokeren" "Braine-l'Alleud" "Brasschaat" "Vilvoorde" "Herstal" "Maasmechelen"
+		"Waregem" "Châtelet" "Ieper" "Ninove" "Geel" "Halle" "Hoboken" "Knokke-Heist" "Schoten" "Grimbergen" "Lier" "Mol" "Wavre" "Binche" "Lommel" "Menen"
+		"Tienen" "Ebegrem" "Heusden" "Wevelgem" "Geraardsbergen" "Sint-Pieters-Leeuw" "Houthalen" "Helcheteren" "Tongeren" "Bilzen" "Neuve" "Courcelles"
+		"Asse" "Waterloo" "Zaventem" "Oudenaarde" "Deinze" "Aarschot" "Ans" "Ath" "Kapellen" "Izegem" "Arlon" "Temse" "Haerlbeke" "Herentals" "Brecht"
+		"Flémalle-Haute" "Soignies" "Lanaken" "Mortsel" "Zottegem" "Ronse" "Nivelles" "Andenne" "Maaseik" "Oupeye" "Overijse" "Zwevegem" "Beersel" "Wetteren"
+		"Hamme" "Willebroek" "Saint-Nicholas" "Westerlo" "Diest" "Saint-Ghislain" "Manage" "Maldegem" "Fleurus" "Merelbeke" "Zedelgem" "Tubize" "Edegem"
+		"Gembloux" "Rixensart" "Oostkamp" "Zemst" "Koksijde" "Chaudfontaine"
 	}
 }
 
@@ -210,7 +273,10 @@ BEL_THEME_RIVERS = {
 	fallback_name = "Navire de Guerre-D %d"
 
 	unique = {
-		###
+		"Meuse" "Grevelingen" "Krammer" "Volkerak" "Dintel" "Mark" "Dieze" "Dommel" "Rur" "Geul" "Gulp" "Jeker" "Voer" "Berwinne" "Ourthe" "Vesdre" 
+		"Hoëgne" "Gileppe" "Amblève" "Salm" "Eau Rouge" "Wache" "Hoyoux" "Mehaigne" "Sambre" "Bocq" "Molignée" "Lesse" "Viroin" "Semois" "Rulles" 
+		"Mellier" "Mandebras" "Chiers" "Moselle" "Sauer" "Our" "Alzette" "Attert" "Scheldt" "Rupel" "Nete" "Wamp" "Wimp" "Laak" "Dijle" "Zenne" 
+		"Maalbeek" "Woluwe" "Molenbeek" "Zuun" "Linkebeek" "Senette" "Hain" "Samme" "Demer" "Velp" "Gete" "Voer" "Nethen" "Laan" "Durme" "Dender"
 	}
 }
 
@@ -227,7 +293,9 @@ BEL_THEME_WEATHER = {
 	fallback_name = "Navire de Guerre-E %d"
 
 	unique = {
-		###
+		"Tempête" "Brise" "Pluie" "Neige" "Orage" "Brouillard" "Éclair" "Ciel" "Nuage" "Sofeil" "Vent" "Givre" "Mistral" "Froid" "Chaleur" "Averse" 
+		"Cumulus" "Crépuscule" "Clair de Lune" "Vortex" "Rosée" "Nébuleuse" "Ciclon" "Zéphyr" "Calme" "Aurora" "Fumée" "Céleste" "Flocon" "Étoile" 
+		"Foudre" "Flamme" "Glace" "Incendie" "Éclat" "Ignition" "Gelure"
 	}
 }
 
@@ -244,7 +312,10 @@ BEL_THEME_BATTLES = {
 	fallback_name = "Navire de Guerre-F %d"
 
 	unique = {
-		###
+		"Ramillies" "Oudenarde" "Malplaquet" "Steenkirk" "Lille" "Namur" "Ypres" "Saint-Denis" "Ruremonde" "Congo-Nile Campaign" "Tabora" "Kasongo"
+		"Luiza" "Rejaf" "Holsbeek" "Masisi" "Stanleyville" "Mahagi" "Kalemie" "Kabalo" "Neerwinden" "Lombartzyde" "Gembloux" "Boussu" "Audenarde"
+		"Chiari" "Ekeren" "Bavay" "Aarschot" "Moerbeke" "Landrecies" "Mandinga" "Lusambo" "Kwilu" "Nzilo" "Busanga" "Beni" "Muba" "Makindu" "Kindu"
+		"Banalia" "Luvungi" "Kisangani" "Manono"
 	}
 }
 
@@ -261,6 +332,9 @@ BEL_THEME_MYTHOLOGY = {
 	fallback_name = "Navire de Guerre-G %d"
 
 	unique = {
-		###
+		"Tchantchès" "Bayard" "Gilles de Binche" "Hellequin" "Manneken Pis" "Lumeçon" "Reynaert" "Magerotte" "Macrale" "Ellezelles Witches" "Klobis" 
+		"Pierre le Grand" "Wido" "Silvain" "Chimay Dragon" "Grand Jojo" "Katrijne" "Les Dames Blanches" "Gargouille" "Courtois le Géant" "Jean de Nivelles" 
+		"Epeius" "Saint Hubert" "La Grosse Biesse" "Quirinus" "Tchantchou" "Magonette" "Le Chouffe Gnome" "Lutin" "Les Fayettes" "Biesbrouck" 
+		"Hainaut Giants" "Le Chat Botté" "Pierre de Brabant" "Blanc-Moussis" "Cuvilier"
 	}
 }

@@ -1,0 +1,297 @@
+### Austrian Ship Names ###
+
+# Imperial Themes are tied to Austro-Hungarian File #
+
+### Prefixes ###
+# -.
+
+### Aircraft Carrier Names ###
+AUS_CV_HISTORICAL = { # Aviators.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	fallback_name = "Flugzeugträger %d"
+
+	unique = {
+		"Franz Wels" "Franz Hinterstoisser" "Gottfried von Banfield" "Julius Arigi" "Benno von Fernbrugg" "Raoul Stojsavljevic" "Alois Wolfmüller" 
+		"Igo Etrich" "Alexander Kasza-Kasser" "Friedrich Navratil" "Josef Kiss" "Kurt Gruber" "Stefan Fejes" "Emil Uzelac" "János von Hejáč" 
+		"Ludwig Hautzmayer" "Theodor Croneiss" "Josef Mai"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+AUS_CVL_HISTORICAL = { # Flying Cretures.
+	name = NAME_THENE_HISTORICAL_CVL
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	fallback_name = "Leichter Flugzeugträger %d"
+
+	unique = {
+		"Adler" "Falke" "Habicht" "Milan" "Kondor" "Möwe" "Albatros" "Fledermaus" "Kormoran" "Sperber" "Rabe" "Eule" "Storch" "Schwalbe" 
+		"Reiher" "Kranich" "Geier" "Schnepfe" "Ibis" "Bussard" "Taube" "Seeadler" "Turmfalke" "Kuckuck" "Buntspecht" "Rotmilan" "Amsel" 
+		"Drossel" "Würger" "Specht" "Pirol" "Flamingo"
+	}
+}
+
+### Battleship Names ###
+AUS_BB_HISTORICAL = { # Importance - Figures.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	fallback_name = "Schlachtschiff %d"
+
+	unique = {
+		"Österreich" "Wien" "Maria Theresia" "Karl V" "Franz Joseph" "Maximilian I" "Eugen von Savoyen" "Ferdinand I" "Leopold I" "Rudolf von Hasburg" 
+		"Matthias Corvinus" "Johann Strauss" "Sigismund" "Ladislaus Posthumus" "Erzherzog Karl" "Joseph II" "Wilhelm von Tegetthoff" "Albrecht" 
+		"Lothar von Arnaud" "Franz Ferdinand" "Klemens von Metternich" "Albrecht III" "Friedrich III" "Maximilian II" "Ferdinand II" 
+		"Ernst Rüdiger von Starhemberg" "Franz Conrad von Hötzendorf" "Rudolf II" "Nicholas Esterházy" "Johann von Hunyadi"
+	}
+}
+
+### Battlecruiser Names ###
+AUS_BC_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	fallback_name = "Schlachtkreuzer %d"
+
+	unique = {
+		"Stark" "Unbezwingbar" "Furchtlos" "Schnell" "Eisern" "Gewaltig" "Zuverlässig" "Tapfer" "Entschlossen" "Rücksichtslos" "Unaufhaltsam" 
+		"Donnernd" "Scharf" "Stürmisch" "Unerschütterlich" "Wuchtig" "Zerstörerisch" "Unverwüstlich" "Mutig" "Überlegen" "Unbesiegbar" "Kühn" 
+		"Mächtig" "Furchteinflößend" "Kraftvoll" "Ruhmreich" "Erhaben" "Zermalmend" "Beständig" "Feuerstark" "Widerstandsfähig" "Grimmig" 
+		"Schlagkräftig" "Erbarmungslos" "Tödlich" "Vorherrschend"
+	}
+}
+
+### Heavy Cruiser Names ###
+AUS_CA_HISTORICAL = { # Admirals.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	fallback_name = "Schwerer Kreuzer %d"
+
+	unique = {
+		"Maximilian von Sterneck" "Anton Haus" "Siegfried Popper" "Karl Weyprecht" "Rudolf Montecuccol" "Moritz von Klinkowström" "Georg von Trapp" 
+		"Eduard von Klint" "Heinrich von Littrow" "Johann von Hinke" "Karl von Bardolff" "Ferdinand von Bubna-Littiz" "Hermann von Spaun" 
+		"Maximilian Njegovan" "Julius von Ripper" "Ludwig von Fautz" "Alexander von Sterneck" "Franz von Zulow" "Erich von Heyssler" 
+		"Karl von Welleburg" "Richard von Barry" "Paul Pachner" "Heinrich Seitz" "Hugo von Frigyes"
+	}
+}
+
+### Light Cruiser Names ###
+AUS_CL_HISTORICAL = { # Generals.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	fallback_name = "Leichter Kreuzer %d"
+
+	unique = {
+		"Erzherzog Charles" "Radetzky" "Leopold von Daun" "Andreas von Laudon" "Karl Mack von Leiberich" "Johann von Klenau" "Heinrich von Hess" 
+		"Ludwig von Benedek" "Maximilian von Wimpffen" "Franz von Hauslab" "Maximilian von Wratislaw" "Prinz Schwarzenberg" "Paul von Kray" 
+		"Peter von Goëss" "Erzherzog John" "Friedrich von Beck-Rzikowsky" "Franz von Lamberg" "Eduard von Böhm-Ermolli" "Joseph Colloredo-Mansfeld" 
+		"Ferdinand von Quosdanovich" "Wilhelm von Riedkirchen" "Siegfrid von Thun" "Alois von Beckh" "Ignaz von Gyulai" "Anton von Pergen"
+	}
+}
+
+### Mineship Names ###
+AUS_MNS_HISTORICAL = { # Flowers.
+	name = NAME_THEME_HISTORICAL_MINESHIP
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
+
+	fallback_name = "Minenschiff %d"
+
+	unique = {
+		"Rose" "Tulpe" "Lilie" "Veilchen" "Nelke" "Sonnenblume" "Orchidee" "Gänseblümchen" "Lavendel" "Krokus" "Hyazinthe" "Edelweiß" 
+		"Vergissmeinnicht" "Mohnblume" "Jasmin" "Dahlie" "Magnolie" "Kornblume" "Gladiole" "Schneeglöckchen" "Primel" "Rosenstrauch" 
+		"Pfingstrose" "Ranunkel" "Anemone" "Kamille" "Iris" "Zinnie" "Stiefmütterchen" "Geranie" "Petunie" "Chrysantheme" "Astern" 
+		"Freesie" "Löwenmäulchen" "Alpenveilchen" "Kamelie" "Calla" "Begonie" "Malve" "Wicken" "Eisenhut" "Schwertlilie" "Fingerhut"
+	}
+}
+
+### Destroyer Names ###
+AUS_DD_HISTORICAL = { # Animals.
+	name = NAME_THEME_HISTORICAL_DD
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	fallback_name = "Zerstörer %d"
+
+	unique = {
+		"Fuchs" "Wolf" "Bär" "Luchs" "Dachs" "Hirsch" "Reh" "Wiesel" "Marder" "Eber" "Hase" "Igel" "Wildschwein" "Puma" "Elch" "Ziege" 
+		"Wölfling" "Steinbock" "Hamster" "Murmeltier" "Leopard" "Tiger" "Panther" "Löwe" "Elefant" "Nashorn" "Giraffe" "Zebra" "Gepard" 
+		"Känguru" "Pferd" "Antilope" "Gazelle" "Rind" "Schaf" "Schakal" "Kojote" "Feldhase" "Kamel" "Esel" "Ochse" "Bison" "Yak" "Puma" 
+		"Mungo" "Warzenschwein" "Tapir" "Dromedar" "Wisent" "Mähnenspringer"
+	}
+}
+
+### Submarine Names ###
+AUS_SS_HISTORICAL = { # Sea Cretures.
+	name = NAME_THEME_HISTORICAL_SS
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	fallback_name = "Unterseeboot %d"
+
+	unique = {
+		"Krake" "Wal" "Delfin" "Hai" "Rochen" "Seepferdchen" "Oktopus" "Thunfisch" "Schildkröte" "Seehund" "Seelöwe" "Aal" "Hering" 
+		"Makrele" "Lachs" "Krabbe" "Languste" "Qualle" "Manta" "Schwertfisch" "Seeigel" "Seestern" "Kabeljau" "Seezunge" "Barrakuda" 
+		"Zackenbarsch" "Moräne" "Rochen" "Seeschlange" "Tintenfisch" "Krebs" "Hummer" "Seespinne" "Seegurke" "Seewolf" "Muschel" 
+		"Miesmuschel" "Perlmuschel" "Flunder" "Hammerhai" "Steinfisch" "Kofferfisch" "Feuerfisch" "Flusskrebs" "Blobfisch"
+	}
+}
+
+##### Themes #####
+
+### Theme: States ###
+AUS_THEME_STATES = {
+	name = NAME_THEME_STATES
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "Schiff-A %d"
+
+	unique = {
+		"Wien" "Niederösterreich" "Oberösterreich" "Steiermark" "Kärnten" "Salzburg" "Tirol" "Vorarlberg" "Burgenland"
+	}
+}
+
+### Theme: Mountains ###
+AUS_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Schiff-B %d"
+
+	unique = {
+		"Großglockner" "Wildspitze" "Weißkugel" "Glocknerward" "Großvenediger" "Schwärze" "Brochkogel" "Similaun" "Wiesbachhorn" 
+		"Rainerhorn" "Ramolkogel" "Schalfkogel" "Hochvernagtspitze" "Watzespitze" "Langtauferer" "Mutmalspitze" "Weißseespitze" 
+		"Fineilspitze" "Hochfeiler" "Zuckerhütl" "Dreiherrnspitze" "Schrankogel" "Fluchtkogel" "Rötspitze" "Firmisanschneide" 
+		"Simonyspitzen" "Hintereisspitzen" "Großer Möseler" "Hochwilde" "Olperer" "Ruderhofspitze" "Seelenkogel" "Karlesspitze" 
+		"Wilder Pfaff" "Kreuzspitze" "Biggsspitze" "Johannisberg" "Ölgrubenspitze" "Sonklarspitze" "Hochgall" "Spiegelkogel" 
+		"Verpeilspitze" "Klockerin" "Turnerkamp" "Freiger" "Seespitze" "Schrammacher" "Kogel" "Talleitspitze" "Hochfirst" 
+		"Daberspitze" "Sennkogel" "Fluchthorn" "Liebenerspitze" "Großer Bärenkopf" "Hohe Geige" "Rostizkogel" "Schrandele" 
+		"Rötenspitze" "Großer Löffler" "Shwabenkopf" "Eiskastenspitze" "VordereDiemkogel" "Hoher Eichham" "Schwarzenstein" 
+		"Hoher Tenn" "Malhamspitzen"
+	}
+}
+
+### Theme: Cities ###
+AUS_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Schiff-C %d"
+
+	unique = {
+		"Graz" "Linz" "Salzburg" "Innsbruck" "Wilach" "Wels" "Sankt Pölten" "Dornbirn" "Steyr" "Wiener Neustadt" "Feldkirch" "Bregenz" 
+		"Wolfsberg" "Baden" "Klosterneuburg" "Loeben" "Trayn" "Amstetten" "Leonding" "Kapfenberg" "Mödling" "Lustenau" "Hallein" "Traiskirchen" 
+		"Kurstein" "Shwechat" "Ansfelden" "Ternitz" "Stockerau" "Bad Ischl" "Tulln" "Hohenems" "Perchtoldsdorf" "Telfs" "Bludenz" "Gmunden" 
+		"Knittelfeld" "Schwaz" "Lienz" "Eisenstadt" "Vöcklabruck" "Hard" "Marchtrenk" "Korneuburg" "Rankweil" "Völkermarkt" "Neunkirchen" 
+		"Wörgl" "Bad Vöslau" "Hollabrunn" "Mistelbach" "Enns" "Köflach" "Götzis" "Bischofshofen" "Judenburg" "Voitsberg" "Altmünster" 
+		"Laakirchen" "Ebreichsdorf" "Mürzzuschlag" "Imst" "Lauterach" "Weiz" "Neu-Guntramsdorf" "Sankt Valentin" "Kitzbühel" "Berndorf"
+	}
+}
+
+### Theme: Rivers ###
+AUS_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Schiff-D %d"
+
+	unique = {
+		### Donau ###
+		"Donau" "Drau" "Mur" "Ledava" "Sulm" "Kainach" "Mürz" "Pößnitz" "Mieß" "Lavant" "Gurk" "Glan" "Glanfurt" "Gail" "Gailitz" "Möll" 
+		"Gailbach" "Raab" "Pinka" "Lafnitz" "Rabnitzbach" "Rbanitz" "Einserkanal" "Wulka" "Leitha" "Schwarza" "Pitten" "Moraca" "Thaya" 
+		"Fischa" "Piesting" "Myrabach" "Schwechat" "Triesting" "Liesing" "Krottenabach" "Arbesbach" "Gießgraben" "Traisen" "Gölsen" "Krems" 
+		"Kamp" "Erlauf" "Ybbs" "Gießenbach" "Aist" "Enns" "Steyr" "Erzbach" "Salza" "Taurach" "Gusen" "Traun" "Krems" "Alm" "Laudach" "Ager" 
+		"Aurach" "Vöckla" "Seeche" "Innbach" "Aschach" "Ranna" 
+	}
+}
+
+### Theme: Famous Battles ###
+AUS_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+	
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "Schiff-E %d"
+
+	unique = {
+		"Dürnkrut" "Marchfeld" "Mohács" "Zenta" "Belgrade" "Senta" "Carpi" "Frigius" "Hohenliden" "Aspern-Essling" "Wagram" "Jena" "Campoformio" 
+		"Karansebes" "Szigetvár" "Villingen" "Hohenfriedberg" "Khotyn" "Sempach" "Buda" "Karansebes" "Párkány" "Turda" "Pilsen" "Rocroi" "Zorndorf" 
+		"Bärnau" "Piave" "Neerwinden" "Muri" "Landau" "Rivoli" "Trenton" "Tograu" "Klagenfurt" "Petronell" "Montenotte" "San Giovanni" "Castiglione" 
+		"Pavia" "Malplacuet" "Custoza" "Vicenza"
+	}
+}
+
+### Theme: Mythology ###
+AUS_THEME_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { AUS }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Schiff-F %d"
+
+	unique = {
+		"Percht" "Krampus" "Berggeist" "Nixie" "Weisse Frauen" "Schrat" "Eisenhans" "Troll" "Elf" "Lorelei" "Hulda" "Waldgeist" "Zwerge" "Vampire" 
+		"Schneewittchen" "Frau Holle" "Krähe" "Basilisk" "Rübezahl" "Alpensphinx" "Eisenfaust" "Fuchs" "Märchenwesen" "Grail Maiden" "Riesen" 
+		"Seelenwanderung" "Kriebel" "Feldgeist" "Dreizack" "Häxen" "Alp" "Völundr" "Heinzelmännchen" "Schattenfrau" "Münchhausen" "Goldmarie" 
+		"Hölle" "Heidrun" "Waldschrat"
+	}
+}

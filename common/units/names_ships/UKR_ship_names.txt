@@ -209,7 +209,7 @@ UKR_THEME_MOUNTAINS = {
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
 
-	fallbaack_name = "Korabel-B %d"
+	fallback_name = "Korabel-B %d"
 
 	unique = {
 		"Hoverla" "Brebeneskul" "PipIvan" "Petros" "Hutyn Tomnatyk" "Rebra" "Menchul" "Turkul" "Breskul" "Smotrych" "Blyznytsya" 
