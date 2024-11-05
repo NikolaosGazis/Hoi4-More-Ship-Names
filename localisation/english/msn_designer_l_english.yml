@@ -268,7 +268,8 @@
  NAME_THEME_HISTORICAL_SUBS_KCLASS:0 "Historical K-Class Subs"
  NAME_THEME_HISTORICAL_MINELAYERS:0 "Historical Minelayers"
  NAME_THEME_HISTORICAL_MINESWEEPERS:0 "Historical Minesweepers"
- NAME_THEME_HISTORICAL_MINES:0 "Mineships"
+ NAME_THEME_HISTORICAL_MINES:0 "Historical Mineships"
+ NAME_THEME_HISTORICAL_COAST_GUARD:0 "Historical Coast Guard Ships"
 
  # European Themes #
  NAME_THEME_EUROPEAN_CV:0 "European Aircraft Carriers"
@@ -322,6 +323,8 @@
  NAME_THEME_IMPERIAL_CAPITAL:0 "Imperial Capital Ships"
  NAME_THEME_GOVERNORATES:0 "Imperial Governorates"
  NAME_THEME_IMPERIAL_KNIGHTS:0 "Imperial Knights"
+ NAME_THEME_IMPERIAL_ISLANDS:0 "Islands (Imperial)"
+ NAME_THEME_IMPERIAL_MINES:0 "Imperial Mineships"
 
  # Communist Themes #
  NAME_THEME_COMMUNIST_CV:0 "Communist Carriers"
@@ -431,10 +434,6 @@
  NAME_THEME_SLAVIC_MYTHOLOGY:0 "Slavic Mythology"
  NAME_THEME_GERMANIC_MYTHOLOGY:0 "Germanic Mythology"
  NAME_THEME_AZTECS:0 "Aztec Mythology"
-
- # Others #
- NAME_THEME_HISTORICAL_COAST_GUARD: "Historical Coast Guard Ships"
- NAME_THEME_NORSE_MYTHOLOGY: "Norse Mythology"
  
  NAVAL_ROLE_SELECT_DESC:1 "Here you can classify your designs to organize them and allow for more specific reinforcement settings in your task force compositions."
  EQUIPMENT_UPGRADE_EACH_LEVEL_STAT_HEADER:1 "§HEach level grants:§!"

@@ -275,7 +275,7 @@ GER_CL_HISTORICAL = { # Cities - World War 1 Models (Mythology).
 
 ### Mineship Names ###
 GER_MNS_HISTORICAL = { # Flowers.
-	name = NAME_THEME_HISTORICAL_MINESHIPS
+	name = NAME_THEME_HISTORICAL_MINES
 
 	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
 
@@ -1171,9 +1171,11 @@ GER_CL_IMPERIAL = { # Historical Models - Cities.
 
 ### Mineship Names ###
 GER_MNS_IMPERIAL = { # Flowers.
-	name = NAME_THEME_IMPERIAL_MINESHIPS
+	name = NAME_THEME_IMPERIAL_MINES
 
 	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
+
+	can_use = { has_government = neutrality }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
@@ -1428,6 +1430,8 @@ GER_THEME_ISLANDS_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_ISLANDS
 
 	for_countries = { GER WGR DDR PRE BAY HAN WUR SAX MEK }
+
+	can_use = { has_government = neutrality } 
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
