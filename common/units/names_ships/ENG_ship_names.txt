@@ -2,7 +2,7 @@
 
 ### Prefixes ###
 # HMS = Her Majesty's Ship. (Official - Used)
-# RNS = Republican Navy Ship. (Kaiserreich)
+# RNS = Republican Navy Ship. (Kaiserreich - Used)
 
 ### Aircraft Carrier Names ###
 ENG_CV_HISTORICAL = { # Colonies - Adjectives.
@@ -37,7 +37,7 @@ ENG_CV_HISTORICAL = { # Colonies - Adjectives.
 		### Older Models ###
 		"Argus" "Hermes"
 		
-		### Additionals ###
+		### Additionals - Adjectives ###
 		"Invisible" "Incredible" "Inspirational" "Infamous" "Intensifying" "Immaculate" "Imperturbable" "Incontestable" "Indisputable" "Indispensable" 
 		"Steadfast" "Defiant" "Enduring" "Ferocious" "Stalwart" "Sovereign" "Legendary" "Mighty" "Eminent" "Unyielding" "Grand" "Regal"
 	}
@@ -70,7 +70,7 @@ ENG_CVL_HISTORICAL = { # Adjectives - (Greek) Mythology.
 		### Centaur Class (1953) ###
 		"Centaur" "Albion" "Bulwark" "Elephant" "Hermes" "Arrogant" "Monmouth" "Polyphemus"
 
-		### Additionals ###
+		### Additionals - Adjectives ###
 		"Glory" "Ocean" "Venerable" "Vengeance" "Warrior" "Theseus" "Triumph" "Argus" "Europa" "Andromeda" "Riviera" "Campania" "Anne" "Manxman" 
 		"Pegasus" "Albatross" "Vindictive"
 
@@ -139,7 +139,7 @@ ENG_BB_HISTORICAL = { # Adjectives - Figures.
         ### Nelson Class (1927) ###
         "Nelson" "Rodney"
 
-        ### Additionals ###
+        ### Additionals - Various ###
         "Jellicoe" "Beatty" "Fisher" "Bacon" "Scott" "May" "St Andrew" "St George" "St Patrick" "St David" "Devastation" "Unconquerable" "Unwavering" 
         "Imposing" "Impregnable" "Invulnerable" "Heroic" "Staunch" "Peerless" "Solid" "Timeless" "Unshakable" "Unfailing" "Ruthless" "Fierce" 
         "Merciless" "Unrelenting"
@@ -628,7 +628,7 @@ ENG_THEME_CITIES = {
 	can_use = { not = { has_government = communism } }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "HMS "
 	fallback_name = "Royal Ship-D %s"

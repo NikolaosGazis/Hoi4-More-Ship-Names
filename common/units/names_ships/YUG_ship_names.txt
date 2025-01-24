@@ -1,0 +1,306 @@
+﻿##### Yugoslavian Ship Names #####
+
+### Prefixes ###
+# KB = Kraljevski Brod. (Official - Used)
+
+### Aircraft Carrier Names ###
+YUG_CV_HISTORICAL = { # Aviators - Importance.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "KB "
+	fallback_name = "Nosac Aviona %d"	
+
+	unique = {
+		"Edvard Rusjan" "Ivan Sarić" "Dragutin Novak" "Mihajlo Petrovic" "Petar Marinović" "Jovan Jovanović" "Rudolf Fizir" "Pavle Popović" 
+		"Dobrosav Veljković" "Svetozar Delić" "Milan Marković" "Dušan Stankov" "Dragutin Dimitrijević" "Đorđe Đorđević" "Branislav Tankosić" 
+		"Aleksandar Prvić" "Andrija Jovanović" "Josip Novaković" "Savo Petrović" "Vlado Bagarić" "Rudolf Peresin" "Mihailo Merćep"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+YUG_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "KB "
+	fallback_name = "Laki Nosac Aviona %d"
+
+	unique = {
+		"Orao" "Soko" "Vrabac" "Golub" "Lasta" "Gavran" "Čavka" "Sova" "Šišmiš" "Roda" "Gusanica" "Komarac" "Pčela" "Osa" "Vilin konjic" "Leptir" 
+		"Senica" "Vranec" "Čaplja" "Patuljasti orao" "Galeb" "Ćuk" "Kobac" "Pelikan" "Albatros" "Flamingo" "Vrana" "Drozd" "Lastin repak" "Jastreb" 
+		"Muvarnik" "Bumbara" "Stršljen" "Paukov letač"
+	}
+}
+
+### Battleship Names ###
+YUG_BB_HISTORICAL = { # Geography - Figures.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "KB "
+	fallback_name = "Vojni Brod %d"		
+
+	unique = {
+		"Belgrade" "Zagreb" "Novi Sad" "Budva" "Cetinje" "Dubrovnik" "Pec" "Pizren" "Pristina" "Sarajevo" "Srbija" "Hrvatska" "Bosna" "Hercegovina" 
+		"Makedonija" "Slovenija" "Crna Gora" "Vojvodina"
+
+		### Additionals - Geography - Importance ###
+		"Kotor" "Split" "Rijeka" "Skopje" "Niš" "Banja Luka" "Mostar" "Šibenik" "Osijek" "Zadar" "Trebinje" "Podgorica" "Subotica" "Veles" "Karlovac"
+
+		### Additionals - Figures ###
+		"Stefan Nemanja" "Saint Sava" "Prince Lazar" "Karađorđe Petrović" "Tomislav" "Petar Krešimir IV" "Ban Josip Jelačić" "Tvrtko I" "Gazi Husrev-beg"
+	}
+}
+
+### Battlecruiser Names ###
+YUG_BC_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "KB "
+	fallback_name = "Bojna Krstarica %d"		
+
+	unique = {
+		"Lep" "Ružan" "Velik" "Mali" "Dobar" "Loš" "Brz" "Spor" "Jak" "Slab" "Topao" "Hladan" "Pametan" "Glup" "Bogat" "Siromašan" "Težak" "Lak" 
+		"Svetao" "Mračan" "Strog" "Blag" "Širok" "Uski" "Kratak" "Dug" "Šaren" "Jednostavan" "Miran" "Nemiran" "Blag"
+	}
+}
+
+### Heavy Cruiser Names ###
+YUG_CA_HISTORICAL = { # Cities.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "KB "
+	fallback_name = "Teska Krstarica %d"
+
+	unique = {
+		"Kragujevac" "Leskovac" "Kruševac" "Varaždin" "Pula" "Sisak" "Zenica" "Tuzla" "Jajce" "Nikšić" "Bitola" "Ohrid" "Maribor" "Celje" "Čačak" 
+		"Užice" "Pančevo" "Zrenjanin" "Slavonski Brod" "Vukovar" "Bijeljina" "Travnik" "Štip" "Herceg Novi" "Valjevo" "Smederevp" "Požarevac" 
+		"Bjelovar" "Koprivnica" "Karlobag" "Konjic" "Foča" "Nova Gorica" "Kranj"
+	}
+}
+
+### Light Cruiser Names ###
+YUG_CL_HISTORICAL = { # Cities.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "KB "
+	fallback_name = "Svetlo Krstarica %d"
+
+	unique = {
+		### Dalmacija Class (1939) - Standalone ###
+		"Dalmacija"
+
+		### Additionls - Cities ###
+		"Ðurđevo" "Lešnica" "Opovo" "Rušanj" "Prnjavor" "Elemir" "Majur" "Čelarevo" "Prigrevica" "Vladimirovac" "Kovlij" "Ečka" "Zvečka" "Crepaja" 
+		"Čoka" "Srpska Crnja" "Stanišić" "Umka" "Badovinci" "Sonta" "Paraćin" "Titel" "Padina" "Beška" "Debeljača" "Mokrin" "Bogatić" "Petrovic" 
+		"Kovačica" "Lapovo" "Dobanovci" "Melenci" "Mol" "Žabalj" "Čurug" "Veternik" "Kovin" "Apatin" "Senta"
+	}
+}
+
+### Destroyer Names ###
+YUG_DD_HISTORICAL = { # Towns.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "KB "
+	fallback_name = "Razarac %d"					
+
+	unique = {
+		### Dubrovnik Class (1931) - Standalone ###
+		"Dubrovnik"
+
+		### Additionals - Towns ###
+		"Pavliš" "Doroslovo" "Gakovo" "Bočar" "Izbište" "Jarak" "Despotovo" "Stepa" "Višnjićevo" "Rajince" "Dobrica" "Kupinovo" "Stepanovićevo" 
+		"Buđanovci" "Stajićevo" "Despotovac" "Šašinci" "Jelenča" "Jevremovac" "Nikolinci" "Draginje" "Kolut" "Noćajski" "Radojevo" "Vladimirci" 
+		"Čortanovci" "Duboka" "Belotić" "Breg" "Seleuš" "Blato" "Prislonica" "Polje" "Središte" "Dobrić" "Ravnje" "Brdarica" "Farkaždin" "Samoš" 
+		"Neuzina" "Topolovac" "Baranda" "Sajan" "Međa" "Greda" "Sanad" "Čestereg" "Itebej" "Magrita" "Varna" "Jarebice" "Kisač" "Radenka" "Bukovica" 
+		"Crnobarski" "Zminjak" "Hajdučica" "Gardinovci" "Lok" "Topola" "Ševarice" "Jermenovci" "Selo" "Gudurica" "Idvor" "Osječenik" "Metković"
+	}
+}
+
+### Submarine Names ###
+YUG_SS_HISTORICAL = { # Sea Creatures.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "KB "
+	fallback_name = "Podmornica %d"
+	
+	unique = {
+		### Hrabri Class (1928) ###
+		"Hrabri" "Nebojsa" "Smeli" "Osvetnik"
+
+		### Hero Class (1960s) ###
+		"Heroj" "Tara" "Sava" "Sutjeska" "Neretva" "Drava" "Tisa" "Una" "Zeta" "Soca" "Kupa" "Vardar" 
+
+		### Additionals - Originals ###
+		"Malisan" "Junak" "Slobodni" "Snazhni"
+
+		### Additionals - Sea Creatures ###
+		"Ajkula" "Kit" "Delfin" "Morski pas" "Pingvin" "Jastog" "Trlje" "Raža" "Hobotnica" "Zubatac" "Orka" "Meduza" "Sipa" "Haringa"
+		"Svetionik" "Smaragd" "Pegla" "Grdobina" "Dram" "Vitez" "Vuk" "Orlan" "Bura" "Talas" "Šilo" "Sokol" "Čerim" "Foka" "Plava"
+		"Ribolov" "Dagnja" "Kraba" "Galeb" "Zastava" "Piranska" "Klempi" "Kačamak" "Mulj" "Lubina" "Šarenka" "Riba" "Labud" "Lučka"
+		"Makrel" "Nemo" "Oktopod" "Plavetno" "Skoljka" "Val" "Zaliv" "Zaron" "Jezero" "Peskara" "Jato" "Biser" "Mediteran" "Tsunami"
+		"Rift" "Struna" "Tuna"
+	}
+}
+
+##### Themes #####
+
+### Theme: Regions ###
+YUG_THEME_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "KB "
+	fallback_name = "Βrod-A %d"
+
+	unique = {
+		"Srbija" "Hrvatska" "Bosna" "Hercegovina" "Makedonija" "Slovenija" "Crna Gora" "Vojvodina" "Dalmacija" "Slavonija" "Banat" "Bačka" 
+		"Baranja" "Dunavska" "Dravska" "Drinska" "Primorska" "Moravska" "Savska" "Vardarska" "Vrbaska" "Zetska" "Basarabia" "Bukovina" "Herta" 
+		"Budjak" 
+	}
+}
+
+### Theme: Mountains ###
+YUG_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "KB "
+	fallback_name = "Βrod-B %d"
+
+	unique = {
+		"Triglav" "Škrlatica" "Mangart" "Jalovec" "Grintovec" "Krn" "Razor" "Prisojnik" "Begunjščica" "Stol" "Dinara" "Biokovo" "Velebit" "Risnjak" 
+		"Snježnik" "Učka" "Mosor" "Kamešnica" "Svilaja" "Promina" "Maglić" "Prenj" "Vranica" "Bjelašnica" "Igman" "Čvrsnica" "Vlašić" "Treskavica" 
+		"Zelengora" "Raduša" "Midžor" "Šar Mountain" "Kopaonik" "Tara" "Zlatibor" "Stara Planina" "Golija" "Jastrebac" "Suva Planina" "Rudnik" 
+		"Bobotov Kuk" "Zla Kolata" "Komovi" "Lovćen" "Orjen" "Rumija" "Prokletije" "Hajla" "Visitor" "Bjelasica" "Korab" "Ljuboten" "Jakupica" 
+		"Pelister" "Galičica" "Kožuf" "Kajmakčalan" "Plačkovica" "Osogovo" "Bistra"
+	}
+}
+
+### Theme: Cities ###
+YUG_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "KB "
+	fallback_name = "Βrod-C %d"
+
+	unique = {
+		"Belgrade" "Zagreb" "Novi Sad" "Budva" "Cetinje" "Dubrovnik" "Ljubljana" "Pec" "Pizren" "Pristina" "Sarajevo" "Split" "Skopje" "Nis" 
+		"Banja Luka" "Kotor" "Podgorica" "Smederevo" "Vukovar" "Vranje" "Bitola" "Čačak" "Gornji Milanovac" "Kavadarci" "Kolasin" "Bar" "Berane" 
+		"Bihać" "Bijelo Polje" "Bjelovar" "Ćuprija" "Gospić" "Kosovska Mitrovica" "Kragujevac" "KruSevac" "Kumanovo" "Maribor" "Mostar" "Negotin" 
+		"NikSić" "Novi Pazar" "Ogulin" "Ohrid" "Osijek" "Pirot" "Pljevlja" "Požarevac" "Požega" "Prijepolje" "Prokuplje" "Sabac" "Sibenik" "Stip" 
+		"Tetovo" "Travnik" "Tuzla" "Užice" "Valjevo" "Varaždin" "Veliki Bečkerek" "Zaječar"  
+	}
+}
+
+### Theme: Rivers ###
+YUG_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "KB "
+	fallback_name = "Βrod-D %d"
+
+	unique = {
+		"Sava" "Drava" "Danube" "Tisza" "Morava" "Bosna" "Vrbas" "Una" "Neretva" "Drina" "Lim" "Tara" "Piva" "Cijevna" "Cvrcka" "Pliva" "Sanica" 
+		"Krka" "Cetina" "Korana" "Kupa" "Mura" "Mirna" "Raša" "Zrmanja" "Rječina" "Trebišnjica" "Buna" "Željeznica" "Ljuta" "Sutjeska" "Rakitnica" 
+		"Vrbanja" "Ugar" "Drinjača" "Ibar" "Toplica" "Nishava" "Kolubara" "Pek" "Timok" "Vlasina" "Crni Drim" "Beli Drim" "Vardar" "Treska" "Crna" 
+		"Pčinja" "Bregalnica" "Lepenac" "Radika" "Mati" "Moraca" "Cijevna" "Bojana" "Zeta" "Bistrica" "Cetina" "Krka" "Mirna"
+	}
+}
+
+### Theme: Famous Battles ###
+YUG_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "KB "
+	fallback_name = "Βrod-E %d"
+
+	unique = {
+		"Kleidion" "Manzikert" "Sirmium" "Fourth Crusade" "Zadar" "Mohi" "Nicopolis" "Angora" "Varna" "Vaslui" "Rhodes" "Malta" "Lepanto" "Vienna" 
+		"Buda" "Slankamen" "Petrovaradin" "Grahovac" "Adrianople" "Kilkis" "Doiran" "Dobro Pole" "Salonika Front" "Skra-di-Legen" "Bitola" "Maritsa" 
+		"Mohács" "Kanizsa" "Eger" "Sisak" "Krbava" "Cetinje" "Scutari" "Kumanovo" "Prilep" "Monastir" "Grahovac" "Zemun" "Drava" "Kosovo" "Pljevlja"
+		"Kotor" "Lovćen" "Vardar" "Prizren" "Sarajevo"
+	}
+}
+
+### Theme: Mythology ###
+YUG_THEME_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { YUG }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "KB "
+	fallback_name = "Βrod-F %d"
+
+	unique = {
+		"Veles" "Perun" "Mokosh" "Svarog" "Triglav" "Ziva" "Rod" "Lada" "Morana" "Dazbog" "Stribog" "Jarilo" "Chur" "Vodenjak" "Rusalka" "Baba Yaga" 
+		"Zmey" "Ala" "Domovoi" "Kikimora" "Samodiva" "Poludnitsa" "Nav" "Vile" "Psoglav" "Strzyga" "Zduhać" "Todorci" "Drekavac" "Bauk" "Karakonđula" 
+		"Čuma" "Plivak" "Lel" "Polevoi" "Ovinnik" "Bolotnik" "Zeleni Juraj" "Vila Ravijojla" "Triglav" "Zorya" "Krivopeta" "Šumski Duh" "Rogovnik" 
+		"Zlatarica" "Voden Baba" "Mokošnica" "Usud" "Hromi Daba" "Mora" "Vidovdan" "Žar Ptica" "Grabancijaš" "Čeh" "Leška" "Brodnik" "Štipavac" 
+		"Kosjenka" "Jaglenac" "Ljutiša"
+	}
+}

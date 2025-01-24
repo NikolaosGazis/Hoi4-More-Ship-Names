@@ -1,0 +1,282 @@
+﻿##### Latvian Ship Names #####
+
+### Prefixes ###
+# LVNS = Latvian Naval Ship. (NATO - Used)
+
+### Aircraft Carrier Names ###
+LAT_CV_HISTORICAL = { # Aviators - Importance.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "Lidmasinu Parvadatajs %d"	
+
+	unique = {
+		"Eduard Pulpe" "Herberts Cukurs" "Peteris M. Tomsons" "Olgerdis I. Teteris" "Jānis Andersons" "Alfrēds Valeika" "Kārlis Irbītis" 
+		"Leonīds Vītoliņš" "Jānis Kļaviņš" "Aleksandrs Grīns" "Arvīds Ozoliņš" "Nikolajs Ērglis" "Ernests Kļaviņš" "Jānis Pavlovskis" 
+		"Viktors Kalniņš" "Miķelis Apse" "Vilhelms Salnais" "Andris Lūsiņš" "Aleksandrs Peniķis" "Oskars Freimanis" "Jēkabs Šteinbergs" 
+		"Gustavs Plēsums"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+LAT_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	fallback_name = "Gaisma Lidmasinu Parvadatajs %d"
+
+	unique = {
+		"Putns" "Zvirbulis" "Pūce" "Ērglis" "Gulbis" "Kaija" "Vārna" "Dzenis" "Lakstīgala" "Bezdelīga" "Sikspārnis" "Spāre" "Bišu ziedmuša" 
+		"Lapsene" "Tauriņš" "Bite" "Odze" "Kolibri" "Papagailis" "Pīle" "Vanags" "Čipste" "Zeltgalvītis" "Kaņepītis" "Lauku cīrulis" 
+		"Ūdensvistiņa" "Dzeltenais tārtiņš" "Krastiņš" "Dzeltenā cielava" "Pilsētas balodis" "Pogas zvirbulis" "Meža pūce" "Dzeguze" 
+		"Mednis" "Lapspriganis" "Lauku zvirbulis" "Lapsvabole" "Zibspārnis"
+	}
+}
+
+### Battleship Names ###
+LAT_BB_HISTORICAL = { # Figures - Importance.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "Linijkugis %d"		
+
+	unique = {
+		"Jānis Čakste" "Kārlis Ulmanis" "Juris Alunāns" "Pēteris Stučka" "Vilhelms Purvītis" "Latvijas brīvība" "Latvijas neatkarība" 
+		"Māra" "Ziedonis" "Rainis" "Jānis Rainis" "Rūdolfs Blaumanis" "Eduards Veidenbaums" "Jānis Rozentāls" "Augusts Dombrovskis" "Līga" 
+		"Tēvzemes mīlestība" "Ziemeļblāzma" "Latvijas karogs" "Tēvzemes Brīvības cīņas" "Saules aizsargi" "Māra Zālīte" "Dainas" "Vidzeme" 
+		"Brīvības cīņas"
+	}
+}
+
+### Battlecruiser Names ###
+LAT_BC_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "Linijkreiseris %d"		
+
+	unique = {
+		"Spilgts" "Tumšs" "Īss" "Garš" "Stiprs" "Varenīgs" "Skaists" "Bīstams" "Dziļš" "Ātrs" "Lēns" "Gluds" "Asi" "Zems" "Augsts" 
+		"Neparasts" "Noslēpumains" "Tīrs" "Vējš" "Siltums" "Ļoti" "Zilgs" "Dabisks" "Smaržīgs" "Bargs" "Kluss" "Sudrabains" "Jauks" 
+		"Cietais" "Mīksts"
+	}
+}
+
+### Heavy Cruiser Names ###
+LAT_CA_HISTORICAL = { # Cities (Biggest).
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "Smagais Kruizeri %d"
+
+	unique = {
+		"Riga" "Mazsalaca" "Dundaga" "Bauska" "Jurmala" "Kuldiga" "Madona" "Rezekne" "Valmiera" "Aizpute" "Smiltene" "Valka" "Balvi" 
+		"Preiļi" "Azikraukle" "Limbaži" "Madona" "Gulbene" "Daugavgrīva" "Līvāni" "Sigulda" "Ludza" "Bauska" "Krāslava" "Dobele"
+	}
+}
+
+### Light Cruiser Names ###
+LAT_CL_HISTORICAL = { # Cities.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "Gaismas Kruizeri %d"
+
+	unique = {
+		### Originals ###
+		"Cesis" "Liepaja" "Daugavpils" "Aglona"
+
+		### Additionals - Cities ###
+		"Baldone" "Tireli" "Viesite" "Jumprava" "Alūksne" "Kegums" "Priekule" "Kārsava" "Skrunda" "Jaunciems" "Dagda" "Ulbroka" "Ilūkste" 
+		"Auce" "Saulkrasti" "Ikšķile" "Ozolnieki" "Salacgrīva" "Brocēni" "Kandava" "Rūjiena" "Pļaviņas" "Baloži" "Viļāni" "Iecava" "Vangaži" 
+		"Grobiņa" "Vecumnieki" "Ķekava" "Lielvārde"
+	}
+}
+
+### Destroyer Names ###
+LAT_DD_HISTORICAL = { # Towns - Elements.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "Iznicinatajs %d"					
+
+	unique = {											
+		### Virsaitis Class (1920) ###
+		"Virsaitis" "Skrunda"
+
+		### Additionals - Small Towns ###
+		"Piltene" "Pāvilosta" "Staicele" "Ainaži" "Aknīste" "Līgatne" "Valdemārpils" "Aloja" "Ape" "Sabile" "Strenči" "Engure" "Mazsalaca" 
+		"Seda" "Roja" "Cesvaine" "Mērsrags" "Zilupe" "Lubāna" "Jaunjelgava" "Stende"
+
+		### Additionals - Elements ###
+		"Uguns" "Liesma" "Zibens" "Sniegs" "Vējš" "Dūmi" "Ledus" "Saule" "Pērkons" "Vilnis" "Aukstums" "Plūdi" "Migla" "Krusa" "Straume" 
+		"Ziemeli" "Putenis" "Spīdums"
+	}
+}
+
+### Submarine Names ###
+LAT_SS_HISTORICAL = { # Sea Creatures.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "Zemudene %d"
+	
+	unique = {
+		### Ronis Class (1927) ###
+		"Ronis" "Spidola"
+
+		### Additionals ###
+		"Zivs" "Lāčzivs" "Vaļi" "Delfīns" "Haizivs" "Manta" "Astoņkāja" "Medūza" "Zvaigžņu zivs" "Ūdens čūska" "Kaija" "Ūdens zirgs" "Gulbis" 
+		"Pūķa zivis" "Ķērpju zivs" "Jūras ežs" "Skumbrija" "Tunzivs" "Lopus" "Sīkzivs" "Jūras dzelzs" "Trūdoša zivs" "Bērzs zivis" "Ziloņzivs" 
+		"Jūras zvaigzne" "Jūras alga" "Spīļzivs" "Lopus zivis" "Krokodils" "Krabis" "Zivju ķīlis" "Sēru zivs" "Aksels" "Jūras ūdens zieds" 
+		"Mēnesszivs" "Lielā haizivs" "Kalmārs" "Sēņu zivs" "Hidra" "Svētās zivis" "Tirpējoša zivs" "Jūras vēzis" "Gaismas zivs" "Zvaigžņu ķērējs" 
+		"Sāļā zivs" "Jūras mednieks" "Iesālītā zivs" "Burvju zivs" "Rūgta zivs" "Dzeltenā manta" "Sudraba zivs" "Ledus zivs" "Dzīvotspējīgā zivs" 
+		"Pasaules haizivs" "Zivju sprādziens" "Slēptā manta" "Mēness zivis" "Konkursu zivs" "Troņzivs" "Zilā ķermeņa zivis"
+	}
+}
+
+##### Themes #####
+
+### Theme: States ###
+LAT_THEME_STATES = {
+	name = NAME_THEME_STATES
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "Kuģis-A %d"
+
+	unique = {
+		"Riga" "Pierīga" "Kurzeme" "Latgale" "Zemgale" "Vidzeme"
+	}
+}
+
+### Theme: Mountains ###
+LAT_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Kuģis-B %d"
+
+	unique = {
+		"Gaiziņ" "Sirds" "Krievu" "Ērgļu" "Drusku" "Saules" "Baiļi" "Alūksnes" "Dzerkaļ" "Kaplava" "Kārļ" "Parka" "Lielais Liepu" "Mež" 
+		"Raunas" "Staburags" "Tepera" "Vecpiebalgas" "Zilais" "Vanaga" "Annas" "Baldones" "Briežu" "Dāvida" "Dzērves" "Gaiļu" "Grīvas" 
+		"Ieriķu" "Jaunzemju" "Klintaines" "Krāces" "Lāču" "Līgatnes" "Māras" "Muižas" "Piebalgas" "Plakankalna" "Rendas" "Rietumu" "Robežu" 
+		"Salenieku" "Siguldas" "Skaistkalnes" "Vecgulbenes" "Vilkukroga" "Apes" "Āžu" "Baltā" "Bauskas" "Ceriņu" "Dravnieku" "Engures" 
+		"Gāršas" "Indriķa" "Jāņkalna" "Kraukļu" "Lejas" "Medņu" "Ogres" "Pelēkā" "Rozes" "Talsu"
+	}
+}
+
+### Theme: Cities ###
+LAT_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Kuģis-C %d"
+
+	unique = {
+		"Daugavpils" "Jelgava" "Liepāja" "Jūrmala" "Ventspils" "Daugmale" "Dobele" "Valmiera" "Jēkabpils" "Rēzekne" "Bauska" "Talsi" "Ogre" 
+		"Tukums" "Lielvārde" "Aizkraukle" "Saldus" "Smiltene" "Cēsis" "Kuldīga" "Baldone" "Aizpute" "Vārkava" "Pļaviņas" "Ludza" "Iecava" 
+		"Ķekava" "Salaspils" "Olaine" "Tērvetes" "Kandava" "Engure" "Krāslava" "Gulbene" "Dundaga" "Alūksne" "Rūjiena" "Valka" "Amata" "Ērgļi" 
+		"Viļaka" "Mazsalaca" "Mārupes" "Jaunpils" "Nereta" "Plavinas" "Cesvaine"
+	}
+}
+
+### Theme: Rivers ###
+LAT_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Kuģis-D %d"
+
+	unique = {
+		"Gauja" "Daugava" "Venta" "Iecava" "Pededze" "Abava" "Lielupe" "Rēzekne" "Mēmele" "Aiviekste" "Bērze" "Dubna" "Amata" "Cena" 
+		"Dabikinė" "Feimanka" "Ģedule" "Irbe" "Jumara" "Kukhva" "Lauseca" "Ludza" "Malta" "Misa" "Nereta" "Pedeli" "Preilupe" "Putrupe" 
+		"Reiu" "Rūja" "Salaca" "Seda" "Sinyaya" "Slocene" "Stende" "Svete" "Tartaks" "Tebra" "Utroya" "Užava" "Vadakste" "Vaidava" "Venta"
+		"Lielupe" "Tebra" "Rīva" "Aiviekste" "Pūze" "Jūra"
+	}
+}
+
+### Theme: Famous Battles ###
+LAT_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "Kuģis-E %d"
+
+	unique = {
+		"Saule" "Turaida" "Aizkraukle" "Krāslava" "Lieslesava" "Aizpute" "Bauska" "Jelgava" "Cēsis" "Sēlpils" "Sigulda" "Venden" "Žuklīte" 
+		"Osa" "Kokenhusen" "Kolka" "Pļaviņas" "Tērvete" "Kuldīga" "Kņazs" "Ādaži" "Pāvilosta" "Saldus" "Rūjiena" "Mazsalaca" "Grobiņa" 
+		"Stende" "Dviete" "Daugavgrīva" "Pērkonkalns" "Lielsesava" "Kalēji" "Berģi" "Karpus" "Ciekurkalns" "Vaidava" "Mežotne" "Bauska" 
+		"Jelgava" "Tērvete"
+	}
+}
+
+### Theme: Mythology ###
+LAT_THEME_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Kuģis-F %d"
+
+	unique = {
+		"Dievs" "Māra" "Laima" "Perkons" "Velns" "Zemes māte" "Saule" "Mēness" "Ūsiņš" "Austra" "Jumis" "Kārsava" "Ragana" "Velna māte" 
+		"Pērkons māte" "Māras bērni" "Vilkači" "Lāčplēsis" "Daugava" "Staburadze" "Rūķis" "Vēja māte" "Aijā" "Zalktis" "Kurbads" "Dainas" 
+		"Aivars" "Mārs" "Jānis" "Brūkle" "Egle" "Dainu dievs" "Veltējs" "Dūja" "Svētā Vissvētā" "Pērkons vīrs" "Zemessargs" "Lielā Daba" 
+		"Ilgais" "Rūpnieks" "Pīlādzis" "Nāra" "Vērsis" "Sila meita" "Nāves vējš" "Akmeņi"
+	}
+}

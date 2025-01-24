@@ -1,0 +1,264 @@
+##### Lithuanian Ship Names #####
+
+### Prefixes ###
+# LKL = Lietuvos Karinis Laivas (Official - Not Used).
+
+### Aircraft Carrier Names ###
+LIT_CV_HISTORICAL = { # Aviators - Importance.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	fallback_name = "Lektuvnesio %d"	
+
+	unique = {
+		"Antanas Gustaitis" "Kazys Škirpa" "Viktoras Ačas" "Kazys Pakštas" "Juozas Vitonis" "Bronius Kašėtis" "Steponas Darius" "Stasys Girėnas" 
+		"Feliksas Vaitkus" "Juozas Vitonis" "Bronius Kašėtis" "Jurgis Dobkevičius" "Jonas Liorentas" "Jurgis Kairys" "Juozas Kasperavičius" 
+		"Rolandas Paksas"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+LIT_CVL_HISTORICAL = { # Flying Creatures.
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	fallback_name = "Lengvasis Lėktuvnešis %d"
+
+	unique = {
+		"Vėjas" "Varnas" "Aukštupis" "Pelėda" "Gandras" "Gervė" "Šarkas" "Kregždė" "Žalčys" "Šakalas" "Žuvėdra" "Būrys" "Žąsis" "Gydra" 
+		"Varlė" "Žmogus-pelė" "Stirna" "Vapsva" "Antis" "Gobšina" "Bitė" "Skruzdė" "Drugys" "Zylė" "Pelėkautas" "Žvirblis" "Lakštingala" 
+		"Pelė" "Vėtra" "Zuikis" "Kregždutė" "Jūrinis erelis" "Plėšrūnas" "Banginis" "Žąsinas"
+	}
+}
+
+### BATTLESHIP NAMES ###
+LIT_BB_HISTORICAL = { # Figures - Importance.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "Sarvuotiniai %d"		
+
+	unique = {
+		"Mindaugas" "Vytautas" "Gediminas" "Algirdas" "Jogalia" "Kęstutis" "Antanas Smetona" "Jonas Basanavičius" "Simonas Daukantas" 
+		"Mikalojus Čiurlionis" "Birutė" "Jurgis Kairys" "Švitrigaila" "Daukša" "Pilėnai" "Lituanica" "Žemaitė" "Rūpintojėlis" "Šauliai" 
+		"Tautos Dvasia" "Algimantas" "Marija Pečkauskaitė" "Vytis"
+	}
+}
+
+### Battlecruiser Names ###
+LIT_BC_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "Linijinis Kreiseris %d"		
+
+	unique = {
+		"Galingasis" "Neužmušamas" "Nepalaužiamas" "Nenugalimas" "Drąsusis" "Didysis" "Plieninis" "Karingasis" "Narsusis" "Audringasis" 
+		"Gynėjas" "Pergalingasis" "Griausmingasis" "Plėšrusis" "Šiaurinis" "Ugningasis" "Nepaisantis" "Siaubingasis" "Užkariautojas" 
+		"Lemtingasis" "Šlovingasis" "Tvirtagalvis" "Atkaklusis" "Karinis" "Nenumaldomas" "Smogiantis" "Nepermaldaujamas" "Grėsmingasis" 
+		"Nepailstantis" "Ištikimasis" "Vėjavaikis" "Didvyris"
+	}
+}
+
+### Heavy Cruiser Names ###
+LIT_CA_HISTORICAL = { # Cities.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "Sunkiuju Kreiseris %d"
+
+	unique = {
+		"Vilnius" "Kaunas" "Klaipėda" "Šiauliai" "Panevėžys" "Alytus" "Dainava" "Marijampolė" "Mažeikiai" "Jonava" "Utena" "Kėdainiai" 
+		"Telšiai" "Ukmergė" "Visaginas" "Tauragė" "Plungė" "Kretinga" "Šalčininkai" "Šakiai" "Ignalina" "Pabradė" "Kybartai" "Nemenčinė"
+	}
+}
+
+### Light Cruiser Names ###
+LIT_CL_HISTORICAL = { # Towns - Cities.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "Sviesos Kreiseris %d"
+
+	unique = {
+		"Šilutė" "Radviliškis" "Palanga" "Druskininkai" "Rokiškis" "Gargždai" "Biržai" "Kuršėnai" "Garliava" "Elektrėnai" "Jurbarkas" 
+		"Vilkaviškis" "Raseiniai" "Anykščiai" "Naujoji Akmenė" "Lentvaris" "Grigiškės" "Prienai" "Joniškis" "Kelmė" "Varėna" "Kaišiadorys" 
+		"Pasvalys" "Kupiškis" "Zarasai" "Skuodas" "Širvintos" "Kazlų Rūda" "Molėtai" "Šilalė" "Pakruojis" "Švenčionys" "Trakai" "Vievis"
+	}
+}
+
+### Destroyer Names ###
+LIT_DD_HISTORICAL = { # Elements - Weather Phenomenon.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "Nakintojas %d"					
+
+	unique = {
+		"Vėjas" "Lietus" "Snaigės" "Šaltis" "Perkūnas" "Audra" "Kruša" "Šiluma" "Ledo" "Dūmai" "Spindulys" "Debesys" "Rūkas" "Pūga" "Šalna" 
+		"Girgždėjimas" "Liūtis" "Skydas" "Mėnuo" "Vanduo" "Aukštis" "Šviesa" "Naktis" "Banga" "Sūkurys" "Saulė" "Pluoštas" "Žaibas" "Švaistymas" 
+		"Juosta" "Šaltis" "Vandenynas" "Ugnis" "Nura" "Diena" "Žiema" "Paukštis" "Skydas" "Vingis" "Rytas" "Naktis" "Bangos"
+	}
+}
+
+### Submarine Names ###
+LIT_SS_HISTORICAL = { # Sea Creatures.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "Povandeninis %d"
+	
+	unique = {
+		"Ryklys" "Rajūnas" "Ungurys" "Menkinis" "Šamas" "Lašiša" "Plekšnė" "Vėgėlė" "Ešerys" "Lydys" "Skumbrė" "Silkė" "Jūros žvaigždė" "Krabas" 
+		"Omars" "Krevetė" "Kalmaras" "Aštuonkojis" "Medūza" "Jūrų arkliukas" "Jūrų vilkas" "Otukas" "Delfinas" "Banginis" "Kašalotas" "Orka" "Raja" 
+		"Jūrų ešerys" "Vėžys" "Jūrų gyvatė" "Plėšrūnas" "Piranija" "Barakuda" "Kardžuvė" "Dugninė" "Dygliuotis" "Žiobris" "Jūrų Ungurys" "Jūrų Ešerys" 
+		"Kardžuvė" "Sardinė" "Baltasis ryklys" "Tunas" "Menkė" "Jūrų vėžlys" "Stauridė" "Vėgė" "Dygliaryklis" "Auksinė žuvelė" "Marlinas" 
+		"Jūros Sliekas" "Skalikas" "Morena" "Krokodilas" "Puskailis" "Litorina"
+	}
+}
+
+##### Themes #####
+
+### Theme: Counties ###
+LIT_THEME_COUNTIES = {
+	name = NAME_THEME_COUNTIES
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "Laivas-A %d"
+
+	unique = {
+		"Alytus" "Kaunas" "Klaipėda" "Marijampolė" "Panevėžys" "Šiauliai" "Tauragė" "Telšiai" "Utena" "Vilnius"
+	}
+}
+
+### Theme: Mountains ###
+LIT_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS 
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Laivas-B %d"
+
+	unique = {
+		"Aukštojas" "Juozapinė" "Pivašiūnai" "Ramūniškės" "Pakalniškiai" "Biržai" "Maironis" "Gedimino" "Püha Johannese" "Trakai" "Šatrija" 
+		"Šiaurė" "Sakalai" "Zalvariai" "Varduva" "Mikalajų" "Molėtai" "Gailiai" "Pernarava" "Linkuva" "Simnas" "Lazdijai" "Kernavė" "Pabradė" 
+		"Vilkaviškis" "Svėdasai" "Daugailiai" "Kėdainiai" "Rokiškis" "Ariogala" "Šilalė" "Anykščiai" "Rūdninkai" "Pasvalys" "Kalviai" 
+		"Kaišiadorys" "Varniai" "Ukmergė" "Širvintos" "Utena"
+	}
+}
+
+### Theme: Cities ###
+LIT_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Laivas-C %d"
+
+	unique = {
+		"Dainava" "Mažeikiai" "Jonava" "Utena" "Kėdainiai" "Telšiai" "Ukmergė" "Visaginas" "Tauragė" "Plungė" "Kretinga" "Šilutė" "Radviliškis" 
+		"Palanga" "Druskininkai" "Rokiškis" "Gargždai" "Biržai" "Kuršėnai" "Garliava" "Elektrėnai" "Jurbarkas" "Vilkaviškis" "Raseiniai" 
+		"Anykščiai" "Naujoji Akmenė" "Lentvaris" "Grigiškės" "Prienai" "Joniškis" "Kelmė" "Varėna" "Kaišiadorys" "Pasvalys" "Kupiškis" "Zarasai" 
+		"Skuodas" "Širvintos" "Kazlų Rūda" "Molėtai" "Šalčininkai" "Švenčionėliai" "Šakiai" "Ignalina" "Pabradė" "Kybartai" "Nemenčinė" "Šilalė" 
+		"Pakruojis" "Švenčionys" "Trakai" "Vievis" "Lazdijai" "Kalvarija"
+	}
+}
+
+### Theme: Rivers ###
+LIT_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Laivas-D %d"
+
+	unique = {
+		"Nemunas" "Neris" "Žeimena" "Šventoji" "Vilnia" "Minija" "Nevezis" "Dubysa" "Šešupė" "Krauja" "Jūra" "Lielupe" "Pervalka" "Akmena" 
+		"Tevera" "Kielė" "Mūša" "Varduva" "Tauragė" "Vokė" "Vanduva" "Merkys" "Joniškėlis" "Rudamina" "Lazdijai" "Dainava" "Ūla" "Klaipėda" 
+		"Sakalai" "Vilija" "Kavarskas" "Sėla" "Gėluva" "Krinčinas" "Siesartis" "Virinta" "Karpynė" "Rėkyva" "Vokė" "Dainava" "Raudonė"
+		"Pajauta" "Laumė"
+	}
+}
+
+### Theme: Famous Battles ###
+LIT_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	fallback_name = "Laivas-E %d"
+
+	unique = {
+		"Grunwald" "Žalgiris" "Daugavpils" "Pabaiskas" "Vilnius" "Worsklia" "Kertinga" "Saule" "Tannenberg" "Rudau" "Plungė" "Aizkraukle" 
+		"Lydikis" "Skuodas" "Olsztyn" "Mazyr" "Orsha" "Aluksne" "Kaluga" "Smolensk" "Mediniknkai" "Pskov" "Strėva" "Blue Waters" "Rakamaz" 
+		"Velniakalnis" "Trakai Lakes" "Pabiržė" "Deltuva" "Aistmačiai" "Lavoriškės" "Palanga" "Žiežmariai"
+	}
+}
+
+### Theme: Mythology ###
+LIT_THEME_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	fallback_name = "Laivas-F %d"
+
+	unique = {
+		"Dievas" "Perkūnas" "Velnias" "Laima" "Žemyna" "Gabija" "Saulė" "Mėnuo" "Aušrinė" "Vakarinė" "Dalia" "Aitvaras" "Bangpūtys" "Patrimpas" 
+		"Auštaras" "Slibinas" "Žalčių Karalienė" "Ragutis" "Kaukai" "Vėjopatis" "Laumės" "Žaltys" "Giltinė" "Bubilas" "Jūratė" "Kastytis" "Dausos" 
+		"Vaiva" "Ragana" "Velniukai" "Puškaitis" "Šulinys" "Upinis" "Milda" "Kreivė" "Zvorūnė" "Žvorūnė" "Aukštėjas" "Šeimos dievas" "Diemedis" 
+		"Žiezdrė" "Alkos dievas" "Ašvieniai" "Deivė Karvaitė" "Žemelė" "Vaidilutė" "Lauknėlis" "Kaukas" "Junda" "Skrieja" "Velnio vaikas" 
+		"Laiminguolis" "Undinė" "Mirta" "Varnaitis"
+	}
+}

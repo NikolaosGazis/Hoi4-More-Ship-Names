@@ -1,4 +1,4 @@
-﻿##### United States of America Ship Names #####
+##### United States of America Ship Names #####
 
 ### Prefixes ###
 # USS = United States Ship. (Official - Used)
@@ -41,7 +41,8 @@ USA_CV_HISTORICAL = { # Battles - Figures.
 		"Carl Vinson" "Theodore Roosevelt" "Abraham Lincoln" "George Washington"
 
 		### Additionals - Figures ###
-		"Thomas Jefferson" "James Madison" "James K Polk" "Henry Ford" "John Marshall" "Alexander Hamilton" "Samuel Slater"
+		"Thomas Jefferson" "James Madison" "James K. Polk" "Henry Ford" "John Marshall" "Alexander Hamilton" "Samuel Slater" "Benjamin Franklin"
+		"Frederick Douglass" "John Adams" "Harriet Tubman"
 
 		### Additionals - Aces ###
 		"Richard Bong" "Thomas McGuire" "David McCampbell" "Francis Gabreski" "Robert Johnson" "Walker Mahurin" "Joseph Foss" "Gerald Johnson" 
@@ -50,7 +51,7 @@ USA_CV_HISTORICAL = { # Battles - Figures.
 }
 
 ### Light Aircraft Carrier Names ###
-USA_CVL_HISTORICAL = { # Bays - Islands - Battles.
+USA_CVL_HISTORICAL = { # Islands - Battles.
 	name = NAME_THEME_HISTORICAL_CVL
 
 	for_countries = { USA }
@@ -62,17 +63,53 @@ USA_CVL_HISTORICAL = { # Bays - Islands - Battles.
 	fallback_name = "Carrier CVL-%d"	
 
 	unique = {
-		### Light Aircraft Carrier Names ###
-		"Independence" "Princeton" "Belleau Wood" "Cowpens" "Monterey" "Cabot" "Bataan" "San Jacinto" "Saipan" "Wright" "Langley"
-		
-		### Escort Aircraft Carrier Names ###
-		"Long Island" "Bogue" "Card" "Copahee" "Core" "Croatan" "Nassau" "Altamaha" "Barnes" "Block Island" "Breton" "Prince William" "Sangamon" 
-		"Suwannee" "Chenango" "Santee" "Casablanca" "Liscombe Bay" "Corregidor" "Mission Bay" "Guadalcanal" "Manila Bay" "Natoma Bay" "Midway" 
-		"Didrickson Bay" "Wake Island" "White Plains" "Solomons" "Kalinin Bay" "Kasaan Bay" "Fanshaw Bay" "Kitkun Bay" "Tulagi" "Gambier Bay" 
-		"Nehenta Bay" "Hoggatt Bay" "Kadashan Bay" "Marcus Island" "Savo Island" "Ommaney Bay" "Petrof Bay" "Rudyerd Bay" "Saginaw Bay" "Sargent Bay" 
-		"Shamrock Bay" "Shipley Bay" "Sitkoh Bay" "Steamer Bay" "Cape Esperance" "Takanis Bay" "Thetis Bay" "Makassar Strait" "Windham Bay" 
-		"Makin Island" "Lunga Point" "Bismarck Sea" "Salamaua" "Hollandia" "Kwajalein" "Admiralty Islands" "Bougainville" "Matanikau" "Attu" 
-		"Roi" "Munda" 
+		### Independence Class (1943) ###
+		"Independence" "Princeton" "Belleau Wood" "Cowpens" "Monterey" "Cabot" "Bataan" "San Jacinto" "Langley"
+
+		### Saipan Class (1944) ###
+		"Saipan" "Wright"
+
+		### Aditionals - Various ###
+		"Bennington" "Moultrie" "Brandywine" "McHerny" "Prospect" "Freedom Hill" "Plymouth" "Grand Mesa" "Liberty Point" "Cumberland" "Mojave" 
+		"Redwood" "Union Point" "Vanguard" "Sentinel" "Triumph" "Endeavor" "Valor" "Pasilades" "Patriot's Point" "Dearborn" "Heritage" "Mason-Dixon" 
+		"Monroe" "Honor" "Victory" "Loyalty" "Patriot Hill" "Frontier" "Highland" "Spirit Point" "Praire Point" "Patuxent"
+	}
+}
+
+### Escort Aircraft Carrier Names ###
+USA_CVE_HISTORICAL = { # Bays.
+	name = NAME_THEME_HISTORICAL_CVE
+
+	for_countries = { USA }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "USS "
+	fallback_name = "Carrier CVE-%d"
+
+	unique = {
+		### Long Island Class (1941) - Standalone ###
+		"Long Island"
+
+		### Bogue Class (1942) ###
+		"Bogue" "Card" "Core" "Croatan" "Nassau" "Altamaha" "Block Island" "Breton"
+
+		### Sangamon Class (1942) ###
+		"Sangamon" "Suwannee" "Chenango" "Santee"
+
+		### Barnes Class (1942) - Standalone ###
+		"Barnes"
+
+		### Casablanca Class (1943) ###
+		"Casablanca" "Liscombe Bay" "Corregidor" "Mission Bay" "Guadalcanal" "Manila Bay" "Natoma Bay" "Didrickson Bay" "Wake Island" "White Plains" 
+		"Solomons" "Kalinin Bay" "Kasaan Bay" "Fanshaw Bay" "Kitkun Bay" "Tulagi" "Gambier Bay" "Nehenta Bay" "Hoggatt Bay" "Kadashan Bay" "Marcus Island" 
+		"Savo Island" "Ommaney Bay" "Petrof Bay" "Rudyerd Bay" "Saginaw Bay" "Sargent Bay" "Shamrock Bay" "Shipley Bay" "Sitkoh Bay" "Steamer Bay" 
+		"Cape Esperance" "Takanis Bay" "Thetis Bay" "Makassar Strait" "Windham Bay" "Makin Island" "Lunga Point" "Bismarck Sea" "Salamaua" "Hollandia" 
+		"Kwajalein" "Admiralty Islands" "Bougainville" "Matanikau" "Attu" "Roi" "Munda"
+
+		### Prince William Class (1943) - Standalone ###
+		"Prince William"
 	}
 }
 
@@ -124,9 +161,8 @@ USA_BC_HISTORICAL = { # Battles.
 		### Large Cruisers - Alaska Class (1941) ###
 		"Alaska" "Guam" "Hawaii" "Philippines" "Puerto Rico" "Samoa"
 		
-		### Additionals - Battles ###
-		"Ticonderoga" "Boston" "Trenton" "Saratoga" "Kings Mountain" "Cowpens" "Yorktown" "Lexington" "Concord" "Valley Forge" "Charleston" "Camden" 
-		"Gettysburg" "Fort Sumter" "Alamo"
+		### Additionals - Various ###
+		"Kings Mountain" "Sumter" "Charleston" "Camden" "Gettysburg" "Cowpens" "Alamo"
 	}
 }
 

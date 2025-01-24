@@ -1,0 +1,315 @@
+﻿##### Estonian Ship Names #####
+
+### Prefixes ###
+# EML = Eesti Mereväe Laev. (Official - Used)
+
+### Aircraft Carrier Names ###
+EST_CV_HISTORICAL = { # Aviators - Importance.
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = "EML "
+	fallback_name = "Lennukikandja %d"	
+
+	unique = {
+		"Elvy Kalep" "Karl Sööt" "Artur Toom" "Alexandre Liwentaal" "TheodoR Kalep" "Theodor Meybaum" "Nikolai Veelmann" "Alfred Kriisk" 
+		"Oskar Lundberg" "Rudolf Andersson" "Johannes Soots" "Arvo Vilms" "Gunnar Luts"
+	}
+}
+
+### Light Aircraft Carrier Names ###
+EST_CVL_HISTORICAL = { # Flying Creatures.
+	name  = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = "EML "
+	fallback_name = "Kerge Lennukikandja %d"
+
+	unique = {
+		"Kotkas" "Vares" "Kuldnokk" "Lõoke" "Ronk" "Tuvi" "Rästas" "Harakas" "Kajalind" "Pääsuke" "Öökull" "Kure" "Sookurg" "Tilder" "Tiir" 
+		"Varblane" "ani" "Luik" "Nahkhiir" "Lepalind" "Lagelind" "Pistrik" "Teder" "Kakk" "Kajakas" "Hallpea-rähn" "Hiireviu" "Metsis" "Räusk"
+		"Kormoran" "Viirest" "Pääsusaba" "Sinitiib" "Pöialpoiss" "Suur-konnakotkas" "Talvike" "Põldvutt" "Haigur" "Rukkirääk" "Valkpõsk-lagle" 
+	} 
+}
+
+### Battleship Names ###
+EST_BB_HISTORICAL = { # Importance - Figures.
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = "EML "
+	fallback_name = "Lahingulaev %d"		
+
+	unique = {
+		### Importance ###
+		"Estonia" "Tartu" "Tallinn" "Kalevipoeg" "Vabadus" "Isamaa" "Emajõgi" "Sinimäed" "Laulupidu" "Koit" "Lootus" "Lembitu" "Rahvas" "Päike"
+		"Tähetorn" "Viru" "Eesti Vaim" "Õigus" "Rahu" "Põhjatäht"
+
+		### Figures ###
+		"Carl Jakobson" "Friedrich Kreutzwald" "Kristjan Peterson" "Jakob Hurt" "Johann Jannsen" "Lydia Koidula" "Jaan Tõnisson" "Konstantin Päts"
+		"Johann Köler"
+	}
+}
+
+### Battlecruiser Names ###
+EST_BC_HISTORICAL = { # Adjectives.
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = "EML "
+	fallback_name = "Lahing Ristleja %d"		
+
+	unique = {
+		"Võimas" "Raudne" "Kiire" "Tugev" "Hirmus" "Vapper" "Surmav" "Karm" "Vastupidav" "Jõuline" "Külm" "Tormine" "Karmiinpunane" "Kõva" "Must" 
+		"Tuline" "Lõputu" "Raske" "Sügav" "Saatuslik" "Uhke" "Äkiline" "Tugevne" "Vapustav" "Titaanlik" "Helendav" "Pilvine" "Vaikne" "Võitmatu" 
+		"Terav" "Kõleduslik" "Massiivne" "Hiiglaslik" "Pimestav" "Tuuline" "Vihane" "Karmuslik" "Röövlik" "Purustav" "Võidukas" "Halastamatu" 
+		"Mürgine" "Tormakas" "Ülev" "Mõistatuslik"
+	}
+}
+
+### Heavy Cruiser Names ###
+EST_CA_HISTORICAL = { # Cities - Islands.
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = "EML "
+	fallback_name = "Raskeristleja %d"
+
+	unique = {
+		### Original ###
+		"Tallinn" "Valga" "Tartu" "Mustvee" "Haapsalu" "Rapla" "Paldiski" "Kihnu" "Vormsi"
+
+		### Additionals ###
+		"Narva" "Viljandi" "Kuressaare" "Paide" "Pärnu" "Rakvere" "Sillamäe" "Jõhvi" "Võru" "Elva" "Otepää" "Keila" "Saaremaa" "Hiiumaa" 
+		"Kärdla" "Maardu" "Põltsamaa" "Abja-Paluoja"
+	}
+}
+
+### Light Cruiser Names ###
+EST_CL_HISTORICAL = { # Cities - Islands.
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = "EML "
+	fallback_name = "Kerge Ristleja %d"
+
+	unique = {
+		### Originals ###
+		"Muhu" "Abruka"
+
+		### Additionals ###
+		"Naissar" "Aegna" "Prangli" "Väike-Pakri" "Suur-Pakri" "Ruhnu" "Manija" "Piirissaar" "Lohusalu" "Virtsu" "Obinitsa" "Kunda" "Toila" 
+		"Lihula" "Tõstamaa" "Häädemeeste" "Noarootsi" "Kõpu" "Leppneeme" "Juminda" "Tahkuna" "Kihterva" "Salinõmme" "Suurupi"
+	}
+}
+
+### Destroyer Names ###
+EST_DD_HISTORICAL = { # Inspirational.
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "EML "
+	fallback_name = "Torpeedopaatide %d"					
+
+	unique = {
+		### Historical Ships ###
+		"Wambola" "Lennuk" "Vambola"
+
+		### Additionals - Prexisting ###
+		"Sulev" "Pikker" "Lembit" "Lane"
+
+		### Additionals - Inspirational ###
+		"Tuulevaim" "Müristaja" "Välk" "Leegion" "Koidik" "Merikajakas" "Soomusviir" "Tormilaine" "Jäämurdja" "Sõnajalg" "Rändaja" "Tulekera" 
+		"Hiidlaine" "Õnnetäht" "Kuradisõlm" "Vanapagan" "Vetevana" "Kalevipoeg" "Taara" "Salapärane" "Põhjakaar" "Laevakaitsja" "Piirivalvur" 
+		"Rahuvalvur"
+	}
+}
+
+### Submarine Names ###
+EST_SS_HISTORICAL = { # Sea Creatures.
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = "EML "
+	fallback_name = "Allveelaevade %d"
+	
+	unique = {
+		### Kalev Class (1936) ###
+		"Kalev" "Lembit"
+
+		### Additionals - Sea Creatures ###
+		"Haug" "Ahven" "Lõhe" "Forell" "Tursk" "Räim" "Kiluv" "Angerjas" "Karpkala" "Latikas" "Siig" "Lest" "Tuur" "Merisiilik" "Krabi" "Homaar" 
+		"Kaheksajalg" "Meduus" "Hai" "Delfiin" "Neerulest" "Karp" "Hõbekoger" "Jõeforell" "Suurhaug" "Merevaik" "Läänemerekalad" "Mõrkjahaug" 
+		"Lestikala" "Taimkalad" "Kivikarp" "Vähk" "Rokk" "Kollanehaug" "Võhmakala" "Soolakalad" "Tähnik" "Ümarik" "Järvemaim" "Ahnuskalad" 
+		"Kangreeni" "Merehõbedane" "Karpide" "Merekilpkonn" "Krokodillkalad" "Blyks" "Merelind" "Tuulekalad" "Paigalpüüdja" "Omahall" "Harilik haug" 
+		"Suurhõbekoger" "Toiduvormkalad" "Pikk kalasaba" "Ahvene" "Kasvatatud tursk"
+	}
+}
+
+##### Themes #####
+
+### Theme: Counties ###
+EST_THEME_COUNTIES = {
+	name = NAME_THEME_COUNTIES
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser hevay_cruiser light_cruiser }
+
+	prefix = "EML "
+	fallback_name = "Sõjalaev-A %d"
+
+	unique = {
+		"Harju" "Hiiu" "Ida-Viru" "Jõgeva" "Järva" "Lääne" "Lääne-Viru" "Põlva" "Pärnu" "Rapla" "Saare" "Tartu" "Valga" "Vijandi" "Võru"
+	}
+}
+
+### Theme: Mountains ###
+EST_THEME_MOUNTAINS = {
+	name = NAME_THEME_MOUNTAINS
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "EML "
+	fallback_name = "Sõjalaev-B %d"
+
+	unique = {
+		"Suur Munamägi" "Vällamägi" "Kuutsemägi" "Meegaste" "Harimägi" "Väike Munamägi" "Emumägi" "Härjassaare" "Ebavere" "Tornimägi"
+		"Ristimägi" "Rauna" "Kellavere" "Vällämägi" "Toompea" "Hiiemägi" "Haukamägi" "Rutu Mägi" "Håubjärre" "Köstrimägi" "Liivakmägi"
+		"Määramägi" "Jaanimägi" "Kerikmägi" "Varikmägi" "Emumägi" "Korgõmägi" "Purdemägi" "Lossimägi" "Rõõsamägi" "Tsälbamägi" "Kunimägi"
+	}
+}
+
+### Theme: Cities ###
+EST_THEME_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "EML "
+	fallback_name = "Sõjalaev-C %d"
+
+	unique = {
+		"Kohtla-Järve" "Pärnu" "Vijandi" "Rakvere" "Sillamäe" "Maardu" "Kuressare" "Võru" "Valga" "Haapsalu" "Jõhvi" "Paide" "Keila" "Kiviõli" 
+		"Tapa" "Põlva" "Jõgeva" "Tyuri" "Elva" "Rapla" "Saue" "Põltsamaa" "Saku" "Paldiski" "Laagri" "Sindi" "Kunda" "Kärdla" "Rummu" "Loksa" 
+		"Kohila" "Kehra" "Tõrva" "Märjamaa" "Räpina" "Narva-Jõesuu" "Tamsalu" "Yuri" "Vändra" "Kadrina" "Toila" "Kose" "Loo" "Kilingi-Nõmme" 
+		"Tabasalu" "Väike-Maarja" "Shloss" "Haabneeme" "Paisuke" "Karksi-Nuia" "Püssi" "Aseri" "Aruküla" "Viimsi" "Mustvee" "Kehtna" "Võhma" 
+		"Nõo" "Järvakandi" "Vana-Antsla" "Lihula" "Audru" "Abja-Paluoja" "Sõmeru" "Pärnu-Jaagupi" "Viiratsi" "Raasiku" "Koeru" "Suure-Jaani" 
+		"Kuusalu"
+	}
+}
+
+### Theme: Rivers ###
+EST_THEME_RIVERS = {
+	name = NAME_THEME_RIVERS
+	
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "EML "
+	fallback_name = "Sõjalaev-D %d"
+
+	unique = {
+		"Ahja" "Mustjõgi" "Paadrema" "Alajõgi" "Kohtla" "Angerja" "Tuudi" "Allika" "Kodila" "Rõngu" "Esna" "Mäetaguse" "Aavoja" "Antsla" 
+		"Ilmatsalu" "Leivajõgi" "Hirmuse" "Nõva" "Räpu" "Häädemeeste" "Laugi" "Kärla" "Jaama" "Mudajõgi" "Suuremõisa" "Sillaotsa" "Kolga"
+		"Sõmeru" "Nõmme" "Ohukotsu" "Avaste" "Raudoja" "Veskijõgi" "Kudruküla" "Nuutri" "Penijõgi" "Poruni" "Unguma" "Valuoja" "Maadevahe" 
+		"Vanajõgi" "Õngu" "Jaama" "Kroodi" "Uueveski" "Salme" "Tõstamaa" "Kiudu" "Agali" "Vahejõgi" "Ambla"
+	}
+}
+
+### Theme: Islands ###
+EST_THEME_ISLANDS = {
+	name = NAME_THEME_ISLANDS
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+
+	prefix = "EML "
+	fallback_name = "Sõjalaev-E %d"
+
+	unique = {
+		"Saaremaa" "Muhu" "Hiiumaa" "Kassari" "Vormsi" "Pakri" "Naissaar" "Kihnu" "Väike-Pakri" "Suur-Pakri" "Ruhnu" "Abruka" "Vilsandi" 
+		"Piirissaar" "Prangli" "Osmussaar" "Vihulaid" "Aegna" "Kõinastu" "Võilaid" "Tauksi" "Suur-Tulpe" "Suurlaid" "Manilaid" "Väike-Tulpe" 
+		"Kesselaid" "Heinlaid" "Saarnaki laid" "Kaevatsi" "Loonalaid" "Rammu" "Hanikatsi laid" "Mohni" "Aksi" "Vaindloo" "Nootamaa" 
+	}
+}
+
+### Theme: Famous Battles ###
+EST_THEME_BATTLES = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
+
+	prefix = "EML "
+	fallback_name = "Sõjalaev-E %d"
+
+	unique = {
+		"Narva" "Utria" "Paju" "Võnnu" "Pskov" "Tapa" "Valkla" "Kehra" "Vetla" "Aidu" "Kärstna" "Pikksaare" "Uderna" "Kirepi" "Sänna–Suure-Ruuga" 
+		"Laagna" "Reola" "Krivasoo" "Krasnaya Gorka" "Joala" "Auvere" "Rägavere" "Punapargi" "Kunda" "Priske" "Lemsalu" "Cēsis" "Jakobstadt" "Roopa"
+	}
+}
+
+### Theme: Mythology ###
+EST_THEME_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
+
+	prefix = "EML "
+	fallback_name = "Sõjalaev-F %d"
+
+	unique = {
+		"Taara" "Vanemuine" "Uku" "Koit" "Hämarik" "Linda" "Suur Tõll" "Leiger" "Pikker" "Äike" "Jutta" "Kalev" "Salme" "Sulevipoeg" "Olevipoeg" 
+		"Hiid" "Ilmarine" "Tooni" "Näkk" "Kratt" "Tondipoiss" "Varbolane" "Tarapita" "Tulekivi" "Maarjamaa" "Pühajärv" "Õnnepõll" "Soomepoiss" 
+		"Tont" "Kivivana" "Vetevana" "Hallvaim" "Murutar" "Karsk" "Peko" "Sarvik" "Tulukene" "Hundikuu" "Virmalised" "Kivivare"
+	}
+}

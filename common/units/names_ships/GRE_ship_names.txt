@@ -599,7 +599,7 @@ GRE_THEME_GREEK_MYTHOLOGY = {
 
 ### Theme: Saints ###
 GRE_THEME_SAINTS = {
-	name = NAME_THEME
+	name = NAME_THEME_SAINTS
 
 	for_countries = { GRE }
 
@@ -873,7 +873,7 @@ GRE_THEME_PREFECTURES_COMMUNIST = {
 
 	for_countries = { GRE }
 
-	can_use = { not = { has_government = communism } }
+	can_use = { has_government = communism }
 
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrer battleship battle_cruiser heavy_cruiser }
@@ -895,7 +895,7 @@ GRE_THEME_CITIES_COMMUNIST = {
 
 	for_countries = { GRE }
 
-	can_use = { not = { has_government = communism } }
+	can_use = { has_government = communism }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
@@ -920,7 +920,7 @@ GRE_THEME_MOUNTAINS_COMMUNIST = {
 
 	for_countries = { GRE }
 
-	can_use = { not = { has_government = communism } }
+	can_use = { has_government = communism }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
@@ -948,7 +948,7 @@ GRE_THEME_RIVERS_COMMUNIST = {
 
 	for_countries = { GRE }
 
-	can_use = { not = { has_government = communism } }
+	can_use = { has_government = communism }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light light_cruiser destroyer }
@@ -972,7 +972,7 @@ GRE_THEME_ISLANDS_COMMUNIST = {
 
 	for_countries = { GRE }
 
-	can_use = { not = { has_government = communism } }
+	can_use = { has_government = communism }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
@@ -998,7 +998,7 @@ GRE_THEME_ANIMALS_COMMUNIST = {
 
 	for_countries = { GRE }
 
-	can_use = { not = { has_government = communism } }
+	can_use = { has_government = communism }
 
 	type = ship
 	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
@@ -1019,7 +1019,7 @@ GRE_THEME_INSPIRATION_COMMUNIST = {
 
 	for_countries = { GRE }
 
-	can_use = {  has_government = communism }
+	can_use = { has_government = communism }
 
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }
@@ -1041,7 +1041,7 @@ GRE_THEME_BATTLES_COMMUNIST = {
 
 	for_countries = { GRE }
 
-	can_use = { not = { has_government = communism } }
+	can_use = { has_government = communism }
 
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy carrier battleship battle_cruiser }
@@ -1063,7 +1063,7 @@ GRE_THEME_GREEK_MYTHOLOGY_COMMUNIST = {
 
 	for_countries = { GRE }
 
-	can_use = { not = { has_government = communism } }
+	can_use = { has_government = communism }
 
 	type = ship
 	ship_types = { ship_hull_carrier ship_hull_heavy ship_hull_cruiser carrier battleship battle_cruiser heavy_cruiser light_cruiser }

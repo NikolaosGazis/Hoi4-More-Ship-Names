@@ -3,9 +3,9 @@
 ### Prefixes ###
 # RM = Regia Marina. (Official - Used) 
 # RN = Regia Nave. (Hull Prefix)
-# RI = Regio Incrociatore. (Hull Prefix)
-# RCT = Regio Cacciatorpediniere. (Hull Prefix)
-# RSmg = Regio Sommergibile. (Hull Prefix)
+# RI = Regio Incrociatore. (Hull Prefix - Cruiser)
+# RCT = Regio Cacciatorpediniere. (Hull Prefix - Destroyer)
+# RSmg = Regio Sommergibile. (Hull Prefix - Submarine)
 
 ### Aircraft Carrier Names ###
 ITA_CV_HISTORICAL = { # Flying Creatures.
@@ -30,9 +30,9 @@ ITA_CV_HISTORICAL = { # Flying Creatures.
 	}
 }
 
-### Aircraft Carrier Names - Alternative ###
-ITA_CV_ACES = { # World War 1 Aces.
-	name = NAME_THEME_ACES
+### Light Aircraft Carrier Names ###
+ITA_CVL_HISTORICAL = { # World War 1 Aces.
+	name = NAME_THEME_HISTORICAL_CVL
 
 	for_countries = { ITA }
 
@@ -40,7 +40,7 @@ ITA_CV_ACES = { # World War 1 Aces.
 	ship_types = { ship_hull_carrier carrier }
 
 	prefix = "RN "
-	fallback_name = "Portaerei-B %s"
+	fallback_name = "Portaerei Leggera %s"
 
 	unique = {
 		"Giovanni Sabelli" "Alessandro Resch" "Giorgo Michetti" "Amedeo Mecozzi" "Guido Masiero" "Umberto Calvello" "Federico Martinengo" 
@@ -53,9 +53,9 @@ ITA_CV_ACES = { # World War 1 Aces.
 	} 
 }
 
-### Light Aircraft Carrier Names ###
-ITA_CV_AVIATORS = { # Aviators.
-	name = NAME_THEME_HISTORICAL_CVL
+### Escort Aircraft Carrier Names ###
+ITA_CVE_HISTORICAL = { # Aviators.
+	name = NAME_THEME_HISTORICAL_CVE
 
 	for_countries = { ITA }
 
@@ -63,7 +63,7 @@ ITA_CV_AVIATORS = { # Aviators.
 	ship_types = { ship_hull_carrier carrier }
 
 	prefix = "RN " 
-	fallback_name = "Portaerei Leggera %s"
+	fallback_name = "Portaerei di Scorta %s"
 
 	unique = {
 		"Francesco de Pinedo" "Giuseppe Miraglia" "Gaby Angelini" "Mario Aramu" "Bartolomeo Costantini" "Giacomo D'Angelis" "Gianni Widmer"
@@ -153,10 +153,10 @@ ITA_BC_HISTORICAL = { # Artists - Figures.
 	fallback_name = "Incrociatore da Βattaglia %s"
 
 	unique = {
-		"Michelangelo Caravaggio" "Titian" "Raffaello Urbino" "Michelangelo Simoni" "Sandro Botticelli" "Giovanni Bellini" 
-		"Artemisia Gentileschi" "Donato Bardi" "Gian Lorenzo Bernini" "Jacopo Amigoni" "Cristofano Allori" "Vincenzo Cabianca" 
-		"Carlo Dolci" "Lavinia Fontana" "Francesco Guardi" "Guido da Siena" "Gentile da Fabriano" "Michele Coltellini" 
-		"Antonio Capulongo" "Isabella d'Este" "Leonardo Fibonacci" "Michelangelo Buonarroti" "Antonio Vivaldi" "Camillo Golgi"
+		"Michelangelo Caravaggio" "Titian" "Raffaello Urbino" "Michelangelo Simoni" "Sandro Botticelli" "Giovanni Bellini" "Artemisia Gentileschi" 
+		"Donato Bardi" "Gian Lorenzo Bernini" "Jacopo Amigoni" "Cristofano Allori" "Vincenzo Cabianca" "Carlo Dolci" "Lavinia Fontana" "Francesco Guardi" 
+		"Guido da Siena" "Gentile da Fabriano" "Michele Coltellini" "Antonio Capulongo" "Isabella d'Este" "Leonardo Fibonacci" "Michelangelo Buonarroti" 
+		"Antonio Vivaldi" "Camillo Golgi"
 	}
 }
 
@@ -430,7 +430,7 @@ ITA_THEME_CITIES = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_cruiser heavy_cruiser light_cruiser }
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	prefix = "RN "
 	fallback_name = "Nave-C %s"

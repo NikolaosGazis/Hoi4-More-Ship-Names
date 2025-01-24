@@ -142,14 +142,14 @@ JAP_BB_HISTORICAL = { # Provinces - Tradition/Symbolism.
 		### Tosa Class (1922) (1/2) ###
 		"Tosa"
 
-		### Yamato Class (1941) (Proposed Names) ###
+		### Yamato Class (1941) - (Proposed Names) ###
 		"Yamato" "Musashi" "Shinano" "Satsuma" "Shikishima"
 		
 		### Older Models ###
 		"Izumo" "Fuji" "Yashima" "Hatsuse" "Asahi" "Mikasa" "Tango" "Sagami" "Suwo" "Hizen" "Iwami" "Kashima" "Aki" "Kawachi" "Settsu" "Kii" 
 		"Owari" "Suruga" "Iki"
 		
-		### Additionals ###
+		### Additionals - Various ###
 		"Raiden" "Kaminari" "Dewa" "Hitachi" "Noto" "Hida" "Mino" "Mikawa" "Kai" "Izumi" "Iga" "Tanba" "Sanuki" "Awa" "Osumi" "Tajima" "Iyo" 
 		"Omi" "Yoshino" "Shima" "Totomi" "Kazusa" "Shimosa" "Hitachi" "Suwa" "Kozuke" "Shimotsuke" "Uzen" "Ugo" "Rikuzen" "Harima" "Sado" 
 		"Mimaksasa" "Awaji" "Iyo" "Buzen" "Tsushima" "Oshima" "Shiribeshi" "Iburi" "Ishikari" "Teshio" "Kitami" "Hidaka" "Tokachi" "Kushiro"
@@ -451,7 +451,7 @@ JAP_THEME_CITIES = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { ship_hull_cruiser ship_hull_light heavy_cruiser light_cruiser destroyer }
+	ship_types = { ship_hull_heavy ship_hull_cruiser ship_hull_light battleship battle_cruiser heavy_cruiser light_cruiser destroyer }
 
 	fallback_name = "Gunkan-C %d-go"
 
